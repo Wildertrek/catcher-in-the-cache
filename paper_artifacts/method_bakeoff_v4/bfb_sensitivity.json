@@ -1,0 +1,340 @@
+{
+  "computed_at": "2026-04-29",
+  "n_matched_chars": 28,
+  "method": "sign-of-prediction binarization (M_X(trait) > 0 -> 1, else 0); evaluated against BFB binary labels (majority vote across speeches per character)",
+  "results_per_method_trait": {
+    "M2": {
+      "O": {
+        "n": 28,
+        "accuracy": 0.5714285714285714,
+        "cohen_kappa": 0.07182320441988954,
+        "bfb_pos_rate": 0.32142857142857145,
+        "pred_pos_rate": 0.39285714285714285
+      },
+      "C": {
+        "n": 28,
+        "accuracy": 0.2857142857142857,
+        "cohen_kappa": -0.08108108108108114,
+        "bfb_pos_rate": 0.25,
+        "pred_pos_rate": 0.8214285714285714
+      },
+      "E": {
+        "n": 28,
+        "accuracy": 0.35714285714285715,
+        "cohen_kappa": -0.032786885245901676,
+        "bfb_pos_rate": 0.7142857142857143,
+        "pred_pos_rate": 0.21428571428571427
+      },
+      "A": {
+        "n": 28,
+        "accuracy": 0.2857142857142857,
+        "cohen_kappa": 0.05084745762711851,
+        "bfb_pos_rate": 0.8214285714285714,
+        "pred_pos_rate": 0.10714285714285714
+      },
+      "N": {
+        "n": 28,
+        "accuracy": 0.17857142857142858,
+        "cohen_kappa": -0.05228758169934644,
+        "bfb_pos_rate": 0.14285714285714285,
+        "pred_pos_rate": 0.8928571428571429
+      }
+    },
+    "M3": {
+      "O": {
+        "n": 28,
+        "accuracy": 0.6428571428571429,
+        "cohen_kappa": 0.13043478260869568,
+        "bfb_pos_rate": 0.32142857142857145,
+        "pred_pos_rate": 0.25
+      },
+      "C": {
+        "n": 28,
+        "accuracy": 0.7857142857142857,
+        "cohen_kappa": 0.4285714285714286,
+        "bfb_pos_rate": 0.25,
+        "pred_pos_rate": 0.25
+      },
+      "E": {
+        "n": 28,
+        "accuracy": 0.32142857142857145,
+        "cohen_kappa": -0.17699115044247793,
+        "bfb_pos_rate": 0.7142857142857143,
+        "pred_pos_rate": 0.32142857142857145
+      },
+      "A": {
+        "n": 28,
+        "accuracy": 0.5,
+        "cohen_kappa": -0.15976331360946738,
+        "bfb_pos_rate": 0.8214285714285714,
+        "pred_pos_rate": 0.6071428571428571
+      },
+      "N": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": 0.07079646017699115,
+        "bfb_pos_rate": 0.14285714285714285,
+        "pred_pos_rate": 0.6071428571428571
+      }
+    },
+    "M4": {
+      "O": {
+        "n": 28,
+        "accuracy": 0.5714285714285714,
+        "cohen_kappa": 0.12041884816753923,
+        "bfb_pos_rate": 0.32142857142857145,
+        "pred_pos_rate": 0.4642857142857143
+      },
+      "C": {
+        "n": 28,
+        "accuracy": 0.42857142857142855,
+        "cohen_kappa": -0.10344827586206895,
+        "bfb_pos_rate": 0.25,
+        "pred_pos_rate": 0.5357142857142857
+      },
+      "E": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": -0.1797752808988764,
+        "bfb_pos_rate": 0.7142857142857143,
+        "pred_pos_rate": 0.6071428571428571
+      },
+      "A": {
+        "n": 28,
+        "accuracy": 0.35714285714285715,
+        "cohen_kappa": -0.2292682926829268,
+        "bfb_pos_rate": 0.8214285714285714,
+        "pred_pos_rate": 0.4642857142857143
+      },
+      "N": {
+        "n": 28,
+        "accuracy": 0.32142857142857145,
+        "cohen_kappa": -0.0813008130081303,
+        "bfb_pos_rate": 0.14285714285714285,
+        "pred_pos_rate": 0.6785714285714286
+      }
+    },
+    "M5": {
+      "O": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": -0.01941747572815533,
+        "bfb_pos_rate": 0.32142857142857145,
+        "pred_pos_rate": 0.5714285714285714
+      },
+      "C": {
+        "n": 28,
+        "accuracy": 0.39285714285714285,
+        "cohen_kappa": 0.05555555555555558,
+        "bfb_pos_rate": 0.25,
+        "pred_pos_rate": 0.7857142857142857
+      },
+      "E": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": -0.1797752808988764,
+        "bfb_pos_rate": 0.7142857142857143,
+        "pred_pos_rate": 0.6071428571428571
+      },
+      "A": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": -0.1797752808988764,
+        "bfb_pos_rate": 0.8214285714285714,
+        "pred_pos_rate": 0.5714285714285714
+      },
+      "N": {
+        "n": 28,
+        "accuracy": 0.35714285714285715,
+        "cohen_kappa": 0.08695652173913049,
+        "bfb_pos_rate": 0.14285714285714285,
+        "pred_pos_rate": 0.7857142857142857
+      }
+    },
+    "M6": {
+      "O": {
+        "n": 28,
+        "accuracy": 0.35714285714285715,
+        "cohen_kappa": -0.04564315352697079,
+        "bfb_pos_rate": 0.32142857142857145,
+        "pred_pos_rate": 0.8214285714285714
+      },
+      "C": {
+        "n": 28,
+        "accuracy": 0.2857142857142857,
+        "cohen_kappa": 0.024390243902439046,
+        "bfb_pos_rate": 0.25,
+        "pred_pos_rate": 0.9642857142857143
+      },
+      "E": {
+        "n": 28,
+        "accuracy": 0.5357142857142857,
+        "cohen_kappa": -0.09638554216867457,
+        "bfb_pos_rate": 0.7142857142857143,
+        "pred_pos_rate": 0.6785714285714286
+      },
+      "A": {
+        "n": 28,
+        "accuracy": 0.6785714285714286,
+        "cohen_kappa": -0.016129032258064502,
+        "bfb_pos_rate": 0.8214285714285714,
+        "pred_pos_rate": 0.7857142857142857
+      },
+      "N": {
+        "n": 28,
+        "accuracy": 0.4642857142857143,
+        "cohen_kappa": -0.01941747572815533,
+        "bfb_pos_rate": 0.14285714285714285,
+        "pred_pos_rate": 0.5357142857142857
+      }
+    }
+  },
+  "matched_chars": [
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "ASLAKSEN.",
+      "coref_id": "char_aslaksen"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "BILLING.",
+      "coref_id": "char_billing"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "BURGOMASTER.",
+      "coref_id": "char_peter_stockmann"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "DR. STOCKMANN.",
+      "coref_id": "char_dr_thomas_stockmann"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "HOVSTAD.",
+      "coref_id": "char_hovstad"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "MORTEN KIIL.",
+      "coref_id": "char_morten_kiil"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "MRS. STOCKMANN.",
+      "coref_id": "char_mrs_stockmann"
+    },
+    {
+      "play": "AN_ENEMY_OF_THE_PEOP",
+      "character": "PETRA.",
+      "coref_id": "char_petra"
+    },
+    {
+      "play": "A_DOLLS_HOUSE",
+      "character": "DR. RANK.",
+      "coref_id": "char_doctor_rank"
+    },
+    {
+      "play": "A_DOLLS_HOUSE",
+      "character": "HELMER.",
+      "coref_id": "char_torvald_helmer"
+    },
+    {
+      "play": "A_DOLLS_HOUSE",
+      "character": "KROGSTAD.",
+      "coref_id": "char_nils_krogstad"
+    },
+    {
+      "play": "A_DOLLS_HOUSE",
+      "character": "MRS. LINDEN.",
+      "coref_id": "char_mrs_linde"
+    },
+    {
+      "play": "A_DOLLS_HOUSE",
+      "character": "NORA.",
+      "coref_id": "char_nora"
+    },
+    {
+      "play": "GHOSTS",
+      "character": "ENGSTRAND.",
+      "coref_id": "char_engstrand"
+    },
+    {
+      "play": "GHOSTS",
+      "character": "MANDERS.",
+      "coref_id": "char_manders"
+    },
+    {
+      "play": "GHOSTS",
+      "character": "MRS. ALVING.",
+      "coref_id": "char_mrs_alving"
+    },
+    {
+      "play": "GHOSTS",
+      "character": "OSWALD.",
+      "coref_id": "char_oswald_alving"
+    },
+    {
+      "play": "GHOSTS",
+      "character": "REGINA.",
+      "coref_id": "char_regina_engstrand"
+    },
+    {
+      "play": "HEDDA_GABLER",
+      "character": "BERTA.",
+      "coref_id": "char_berta"
+    },
+    {
+      "play": "HEDDA_GABLER",
+      "character": "JUDGE BRACK.",
+      "coref_id": "char_brack"
+    },
+    {
+      "play": "HEDDA_GABLER",
+      "character": "MRS. ELVSTED.",
+      "coref_id": "char_mrs_elvsted"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "BOB.",
+      "coref_id": "87"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "FREDERICK.",
+      "coref_id": "190"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "GHOST OF MARLEY.",
+      "coref_id": "332"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "MRS. CRATCHIT.",
+      "coref_id": "88"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "PETER.",
+      "coref_id": "90"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "SCROOGE.",
+      "coref_id": "40"
+    },
+    {
+      "play": "OLD_SCROOGE",
+      "character": "SPIRIT.",
+      "coref_id": "1276"
+    }
+  ],
+  "caveats": [
+    "n=16 chars (5 plays \u00d7 ~3 chars each) \u2014 small sample for robust kappa estimation",
+    "Sign-of-prediction binarization is one of several defensible discretizations (median-split alternative)",
+    "BFB labels are 0/1 majority votes across all of a character's speeches",
+    "Five Ibsen plays only (Big-Five Backstage subset that overlapped with our corpus)"
+  ]
+}

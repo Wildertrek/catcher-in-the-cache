@@ -1,0 +1,181 @@
+query_name,query_book,query_coref_id,query_M4_A,query_OP_A,query_GT_A,rank,similarity,atlas_factor,atlas_adjective,atlas_synonym,atlas_trait_type
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,1,0.3185,Honesty-Humility,Loyal,Fidelity,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,2,0.3158,Honesty-Humility,Modest,Unpretentious,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,3,0.314,Honesty-Humility,Loyal,Dedicated,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,4,0.3137,Agreeableness,Gentle,Mild,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,5,0.3072,Honesty-Humility,Modest,Reserved,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,6,0.2911,Agreeableness,Patient,Understanding,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,7,0.29,Honesty-Humility,Faithful,Devoted,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,8,0.2832,Agreeableness,Lenient,Merciful,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,9,0.2807,Agreeableness,Gentle,Kind,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,10,0.2792,Honesty-Humility,Honest,Truthful,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,11,0.2783,Honesty-Humility,Faithful,Loyal,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,12,0.2755,Extraversion,Cheerful,Optimistic,Emotional
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,13,0.2751,Agreeableness,Patient,Forbearing,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,14,0.273,Agreeableness,Patient,Tolerant,Interpersonal
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,15,0.2695,Honesty-Humility,Modest,Humble,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,1,0.2418,Agreeableness,Gentle,Kind,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,2,0.2359,Agreeableness,Gentle,Tender,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,3,0.2353,Conscientiousness,Diligent,Hardworking,Behavioral
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,4,0.2305,Agreeableness,Gentle,Mild,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,5,0.2106,Agreeableness,Lenient,Merciful,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,6,0.2063,Agreeableness,Patient,Tolerant,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,7,0.2054,Conscientiousness,Diligent,Persistent,Behavioral
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,8,0.1986,Agreeableness,Patient,Understanding,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,9,0.1973,Agreeableness,Lenient,Permissive,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,10,0.1913,Agreeableness,Lenient,Indulgent,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,11,0.1887,Honesty-Humility,Faithful,Devoted,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,12,0.1886,Extraversion,Cheerful,Optimistic,Emotional
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,13,0.1882,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,14,0.1868,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,15,0.1841,Conscientiousness,Diligent,Industrious,Behavioral
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,1,0.2509,Agreeableness,Gentle,Mild,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,2,0.2439,Agreeableness,Patient,Understanding,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,3,0.2409,Honesty-Humility,Modest,Reserved,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,4,0.2392,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,5,0.2324,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,6,0.2323,Extraversion,Cheerful,Optimistic,Emotional
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,7,0.2295,Honesty-Humility,Honest,Truthful,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,8,0.2295,Agreeableness,Patient,Tolerant,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,9,0.2277,Honesty-Humility,Sincere,Authentic,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,10,0.2246,Honesty-Humility,Faithful,Devoted,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,11,0.2215,Agreeableness,Lenient,Merciful,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,12,0.2206,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,13,0.2187,Agreeableness,Gentle,Tender,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,14,0.2175,Honesty-Humility,Faithful,Steadfast,Interpersonal
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,15,0.2147,Emotionality,Anxious,Worried,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,1,0.2466,Emotionality,Fearful,Timid,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,2,0.2351,Agreeableness,Gentle,Mild,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,3,0.2319,Emotionality,Anxious,Worried,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,4,0.2291,Emotionality,Fearful,Anxious,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,5,0.2287,Agreeableness,Gentle,Tender,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,6,0.2265,Agreeableness,Patient,Tolerant,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,7,0.2252,Emotionality,Vulnerable,Defenseless,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,8,0.2164,Agreeableness,Patient,Understanding,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,9,0.2145,Agreeableness,Gentle,Kind,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,10,0.2123,Emotionality,Anxious,Apprehensive,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,11,0.2076,Emotionality,Fearful,Afraid,Emotional
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,12,0.2064,Extraversion,Lively,Dynamic,Behavioral
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,13,0.2008,Extraversion,Lively,Energetic,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,14,0.1988,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,15,0.1969,Honesty-Humility,Faithful,Devoted,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,1,0.337,Agreeableness,Gentle,Mild,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,2,0.3295,Agreeableness,Patient,Understanding,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,3,0.3135,Agreeableness,Gentle,Tender,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,4,0.3025,Agreeableness,Patient,Tolerant,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,5,0.2996,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,6,0.2973,Agreeableness,Gentle,Kind,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,7,0.2929,Agreeableness,Lenient,Merciful,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,8,0.2867,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,9,0.2807,Honesty-Humility,Modest,Reserved,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,10,0.2783,Agreeableness,Patient,Forbearing,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,11,0.2774,Agreeableness,Lenient,Permissive,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,12,0.2727,Extraversion,Outgoing,Social,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,13,0.2721,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,14,0.2713,Honesty-Humility,Sincere,Genuine,Interpersonal
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,15,0.2696,Extraversion,Outgoing,Friendly,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,1,0.265,Agreeableness,Patient,Understanding,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,2,0.2438,Agreeableness,Gentle,Tender,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,3,0.2196,Honesty-Humility,Faithful,Devoted,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,4,0.2155,Agreeableness,Patient,Tolerant,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,5,0.2022,Emotionality,Vulnerable,Defenseless,Emotional
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,6,0.2009,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,7,0.1983,Agreeableness,Patient,Forbearing,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,8,0.1982,Agreeableness,Gentle,Kind,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,9,0.1954,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,10,0.1901,Agreeableness,Gentle,Mild,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,11,0.1879,Emotionality,Vulnerable,Susceptible,Emotional
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,12,0.1828,Emotionality,Vulnerable,Exposed,Emotional
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,13,0.1794,Agreeableness,Lenient,Indulgent,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,14,0.1769,Honesty-Humility,Sincere,Genuine,Interpersonal
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,15,0.1755,Honesty-Humility,Loyal,Committed,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,1,0.1938,Agreeableness,Gentle,Kind,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,2,0.1886,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,3,0.1861,Emotionality,Fearful,Afraid,Emotional
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,4,0.1822,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,5,0.182,Honesty-Humility,Honest,Truthful,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,6,0.1768,Agreeableness,Gentle,Tender,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,7,0.1739,Emotionality,Fearful,Anxious,Emotional
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,8,0.1704,Openness to Experience,Adventurous,Bold,Behavioral
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,9,0.1703,Agreeableness,Lenient,Indulgent,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,10,0.1693,Agreeableness,Lenient,Merciful,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,11,0.168,Honesty-Humility,Modest,Reserved,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,12,0.1679,Honesty-Humility,Faithful,Steadfast,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,13,0.167,Emotionality,Vulnerable,Defenseless,Emotional
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,14,0.1663,Honesty-Humility,Honest,Upright,Interpersonal
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,15,0.1661,Emotionality,Anxious,Worried,Emotional
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,1,0.2759,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,2,0.2322,Honesty-Humility,Sincere,Genuine,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,3,0.2293,Honesty-Humility,Faithful,Steadfast,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,4,0.2286,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,5,0.2272,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,6,0.2257,Honesty-Humility,Faithful,Devoted,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,7,0.2247,Emotionality,Vulnerable,Defenseless,Emotional
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,8,0.224,Extraversion,Cheerful,Optimistic,Emotional
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,9,0.2209,Agreeableness,Gentle,Tender,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,10,0.2205,Agreeableness,Gentle,Kind,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,11,0.2164,Agreeableness,Lenient,Merciful,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,12,0.2144,Agreeableness,Gentle,Mild,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,13,0.2142,Honesty-Humility,Honest,Truthful,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,14,0.2115,Agreeableness,Lenient,Indulgent,Interpersonal
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,15,0.2105,Honesty-Humility,Modest,Humble,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,1,0.2924,Agreeableness,Gentle,Mild,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,2,0.2827,Honesty-Humility,Modest,Reserved,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,3,0.2708,Agreeableness,Patient,Understanding,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,4,0.2701,Agreeableness,Gentle,Tender,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,5,0.2644,Agreeableness,Gentle,Kind,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,6,0.2591,Extraversion,Cheerful,Optimistic,Emotional
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,7,0.2587,Honesty-Humility,Sincere,Genuine,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,8,0.2573,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,9,0.2547,Extraversion,Lively,Energetic,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,10,0.2541,Agreeableness,Patient,Tolerant,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,11,0.2502,Extraversion,Lively,Vibrant,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,12,0.2423,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,13,0.2409,Honesty-Humility,Modest,Humble,Interpersonal
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,14,0.2367,Extraversion,Cheerful,Happy,Emotional
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,15,0.236,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,1,0.2562,Emotionality,Fearful,Afraid,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,2,0.24,Emotionality,Vulnerable,Defenseless,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,3,0.2389,Emotionality,Anxious,Worried,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,4,0.2302,Agreeableness,Gentle,Mild,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,5,0.2274,Emotionality,Vulnerable,Susceptible,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,6,0.2237,Emotionality,Fearful,Timid,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,7,0.2227,Emotionality,Fearful,Anxious,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,8,0.2222,Emotionality,Vulnerable,Exposed,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,9,0.2217,Agreeableness,Gentle,Tender,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,10,0.2179,Agreeableness,Gentle,Kind,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,11,0.2125,Agreeableness,Patient,Understanding,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,12,0.2066,Emotionality,Anxious,Apprehensive,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,13,0.2007,Agreeableness,Patient,Tolerant,Interpersonal
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,14,0.1995,Emotionality,Emotional,Passionate,Emotional
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,15,0.1978,Extraversion,Cheerful,Optimistic,Emotional
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,1,0.2753,Agreeableness,Gentle,Mild,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,2,0.2615,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,3,0.2533,Agreeableness,Patient,Understanding,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,4,0.2478,Honesty-Humility,Modest,Reserved,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,5,0.2446,Agreeableness,Gentle,Kind,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,6,0.2429,Agreeableness,Gentle,Tender,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,7,0.2374,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,8,0.2348,Honesty-Humility,Sincere,Genuine,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,9,0.2347,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,10,0.2262,Extraversion,Cheerful,Optimistic,Emotional
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,11,0.2256,Honesty-Humility,Sincere,Authentic,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,12,0.2245,Agreeableness,Lenient,Merciful,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,13,0.2237,Honesty-Humility,Honest,Truthful,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,14,0.2223,Agreeableness,Lenient,Permissive,Interpersonal
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,15,0.2217,Agreeableness,Patient,Tolerant,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,1,0.2472,Honesty-Humility,Loyal,Fidelity,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,2,0.2472,Honesty-Humility,Loyal,Dedicated,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,3,0.2387,Honesty-Humility,Faithful,Steadfast,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,4,0.2367,Honesty-Humility,Sincere,Genuine,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,5,0.2317,Honesty-Humility,Modest,Unpretentious,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,6,0.2263,Emotionality,Fearful,Anxious,Emotional
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,7,0.2195,Openness to Experience,Adventurous,Daring,Motivational
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,8,0.2184,Agreeableness,Gentle,Tender,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,9,0.2166,Agreeableness,Patient,Understanding,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,10,0.2151,Emotionality,Vulnerable,Exposed,Emotional
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,11,0.2125,Emotionality,Vulnerable,Defenseless,Emotional
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,12,0.2113,Honesty-Humility,Faithful,Devoted,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,13,0.2099,Honesty-Humility,Honest,Truthful,Interpersonal
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,14,0.2095,Extraversion,Cheerful,Optimistic,Emotional
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,15,0.2081,Honesty-Humility,Faithful,Loyal,Interpersonal

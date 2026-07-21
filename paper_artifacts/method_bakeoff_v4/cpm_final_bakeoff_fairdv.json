@@ -1,0 +1,347 @@
+{
+  "n_chars": 60,
+  "pre_registered": {
+    "classifier": "RandomForest(n_estimators=100, random_state=42)",
+    "cv": "LeaveOneBookOut",
+    "bootstrap": 1000,
+    "decision_rule": "V2x wins on a DV if its lower CI > V1 upper CI"
+  },
+  "dvs": {
+    "protagonist": {
+      "baseline_majority_acc": 0.6167,
+      "n_pos": 23,
+      "n_neg": 37,
+      "models": [
+        {
+          "model": "V0_OCEAN_only",
+          "n_features": 5,
+          "acc": 0.7843,
+          "ci_lo": 0.6829,
+          "ci_hi": 0.8833
+        },
+        {
+          "model": "V1_CPM_v3a",
+          "n_features": 7,
+          "acc": 0.7513,
+          "ci_lo": 0.65,
+          "ci_hi": 0.85
+        },
+        {
+          "model": "V2a_v3b_Avoid",
+          "n_features": 8,
+          "acc": 0.7021,
+          "ci_lo": 0.5833,
+          "ci_hi": 0.8167
+        },
+        {
+          "model": "V2b_v3b_Vigil",
+          "n_features": 8,
+          "acc": 0.718,
+          "ci_lo": 0.6,
+          "ci_hi": 0.8333
+        },
+        {
+          "model": "V2c_v3b_CogR",
+          "n_features": 8,
+          "acc": 0.7188,
+          "ci_lo": 0.6167,
+          "ci_hi": 0.8333
+        },
+        {
+          "model": "V2d_v3b_Priv",
+          "n_features": 8,
+          "acc": 0.7188,
+          "ci_lo": 0.6167,
+          "ci_hi": 0.8333
+        }
+      ],
+      "mcnemar_V0_vs_V1": {
+        "p": 0.6875,
+        "V1_better": 2,
+        "V0_better": 4
+      },
+      "mcnemar_V1_vs_V2x": [
+        {
+          "v2": "V2a_v3b_Avoid",
+          "p": 0.25,
+          "V2_better": 0,
+          "V1_better": 3
+        },
+        {
+          "v2": "V2b_v3b_Vigil",
+          "p": 0.625,
+          "V2_better": 1,
+          "V1_better": 3
+        },
+        {
+          "v2": "V2c_v3b_CogR",
+          "p": 0.625,
+          "V2_better": 1,
+          "V1_better": 3
+        },
+        {
+          "v2": "V2d_v3b_Priv",
+          "p": 0.625,
+          "V2_better": 1,
+          "V1_better": 3
+        }
+      ],
+      "ci_winners_over_V1": [],
+      "best_by_point_estimate": "V0_OCEAN_only"
+    },
+    "antagonist": {
+      "baseline_majority_acc": 0.7667,
+      "n_pos": 14,
+      "n_neg": 46,
+      "models": [
+        {
+          "model": "V0_OCEAN_only",
+          "n_features": 5,
+          "acc": 0.9494,
+          "ci_lo": 0.8833,
+          "ci_hi": 1.0
+        },
+        {
+          "model": "V1_CPM_v3a",
+          "n_features": 7,
+          "acc": 0.8653,
+          "ci_lo": 0.7667,
+          "ci_hi": 0.95
+        },
+        {
+          "model": "V2a_v3b_Avoid",
+          "n_features": 8,
+          "acc": 0.8812,
+          "ci_lo": 0.8,
+          "ci_hi": 0.95
+        },
+        {
+          "model": "V2b_v3b_Vigil",
+          "n_features": 8,
+          "acc": 0.8812,
+          "ci_lo": 0.8,
+          "ci_hi": 0.95
+        },
+        {
+          "model": "V2c_v3b_CogR",
+          "n_features": 8,
+          "acc": 0.8643,
+          "ci_lo": 0.7667,
+          "ci_hi": 0.95
+        },
+        {
+          "model": "V2d_v3b_Priv",
+          "n_features": 8,
+          "acc": 0.8812,
+          "ci_lo": 0.8,
+          "ci_hi": 0.95
+        }
+      ],
+      "mcnemar_V0_vs_V1": {
+        "p": 0.0625,
+        "V1_better": 0,
+        "V0_better": 5
+      },
+      "mcnemar_V1_vs_V2x": [
+        {
+          "v2": "V2a_v3b_Avoid",
+          "p": 1.0,
+          "V2_better": 1,
+          "V1_better": 0
+        },
+        {
+          "v2": "V2b_v3b_Vigil",
+          "p": 1.0,
+          "V2_better": 1,
+          "V1_better": 0
+        },
+        {
+          "v2": "V2c_v3b_CogR",
+          "p": 1.0,
+          "V2_better": 1,
+          "V1_better": 1
+        },
+        {
+          "v2": "V2d_v3b_Priv",
+          "p": 1.0,
+          "V2_better": 1,
+          "V1_better": 0
+        }
+      ],
+      "ci_winners_over_V1": [],
+      "best_by_point_estimate": "V0_OCEAN_only"
+    },
+    "comic_relief": {
+      "baseline_majority_acc": 0.75,
+      "n_pos": 15,
+      "n_neg": 45,
+      "models": [
+        {
+          "model": "V0_OCEAN_only",
+          "n_features": 5,
+          "acc": 0.7492,
+          "ci_lo": 0.6333,
+          "ci_hi": 0.85
+        },
+        {
+          "model": "V1_CPM_v3a",
+          "n_features": 7,
+          "acc": 0.7478,
+          "ci_lo": 0.6329,
+          "ci_hi": 0.85
+        },
+        {
+          "model": "V2a_v3b_Avoid",
+          "n_features": 8,
+          "acc": 0.7649,
+          "ci_lo": 0.65,
+          "ci_hi": 0.8667
+        },
+        {
+          "model": "V2b_v3b_Vigil",
+          "n_features": 8,
+          "acc": 0.7813,
+          "ci_lo": 0.6667,
+          "ci_hi": 0.8833
+        },
+        {
+          "model": "V2c_v3b_CogR",
+          "n_features": 8,
+          "acc": 0.747,
+          "ci_lo": 0.6167,
+          "ci_hi": 0.85
+        },
+        {
+          "model": "V2d_v3b_Priv",
+          "n_features": 8,
+          "acc": 0.7809,
+          "ci_lo": 0.6667,
+          "ci_hi": 0.8833
+        }
+      ],
+      "mcnemar_V0_vs_V1": {
+        "p": 1.0,
+        "V1_better": 3,
+        "V0_better": 3
+      },
+      "mcnemar_V1_vs_V2x": [
+        {
+          "v2": "V2a_v3b_Avoid",
+          "p": 1.0,
+          "V2_better": 3,
+          "V1_better": 2
+        },
+        {
+          "v2": "V2b_v3b_Vigil",
+          "p": 0.625,
+          "V2_better": 3,
+          "V1_better": 1
+        },
+        {
+          "v2": "V2c_v3b_CogR",
+          "p": 1.0,
+          "V2_better": 1,
+          "V1_better": 1
+        },
+        {
+          "v2": "V2d_v3b_Priv",
+          "p": 0.625,
+          "V2_better": 3,
+          "V1_better": 1
+        }
+      ],
+      "ci_winners_over_V1": [],
+      "best_by_point_estimate": "V2b_v3b_Vigil"
+    },
+    "romantic_interest": {
+      "baseline_majority_acc": 0.5333,
+      "n_pos": 32,
+      "n_neg": 28,
+      "models": [
+        {
+          "model": "V0_OCEAN_only",
+          "n_features": 5,
+          "acc": 0.617,
+          "ci_lo": 0.5,
+          "ci_hi": 0.7337
+        },
+        {
+          "model": "V1_CPM_v3a",
+          "n_features": 7,
+          "acc": 0.4361,
+          "ci_lo": 0.3,
+          "ci_hi": 0.5667
+        },
+        {
+          "model": "V2a_v3b_Avoid",
+          "n_features": 8,
+          "acc": 0.4341,
+          "ci_lo": 0.3163,
+          "ci_hi": 0.55
+        },
+        {
+          "model": "V2b_v3b_Vigil",
+          "n_features": 8,
+          "acc": 0.4862,
+          "ci_lo": 0.3667,
+          "ci_hi": 0.6167
+        },
+        {
+          "model": "V2c_v3b_CogR",
+          "n_features": 8,
+          "acc": 0.4656,
+          "ci_lo": 0.3496,
+          "ci_hi": 0.5833
+        },
+        {
+          "model": "V2d_v3b_Priv",
+          "n_features": 8,
+          "acc": 0.4341,
+          "ci_lo": 0.3163,
+          "ci_hi": 0.55
+        }
+      ],
+      "mcnemar_V0_vs_V1": {
+        "p": 0.0034,
+        "V1_better": 1,
+        "V0_better": 12
+      },
+      "mcnemar_V1_vs_V2x": [
+        {
+          "v2": "V2a_v3b_Avoid",
+          "p": 1.0,
+          "V2_better": 4,
+          "V1_better": 4
+        },
+        {
+          "v2": "V2b_v3b_Vigil",
+          "p": 0.375,
+          "V2_better": 4,
+          "V1_better": 1
+        },
+        {
+          "v2": "V2c_v3b_CogR",
+          "p": 0.7266,
+          "V2_better": 5,
+          "V1_better": 3
+        },
+        {
+          "v2": "V2d_v3b_Priv",
+          "p": 1.0,
+          "V2_better": 4,
+          "V1_better": 4
+        }
+      ],
+      "ci_winners_over_V1": [],
+      "best_by_point_estimate": "V0_OCEAN_only"
+    }
+  },
+  "aggregate_wins_by_point_estimate": {
+    "V0_OCEAN_only": 3,
+    "V1_CPM_v3a": 0,
+    "V2a_v3b_Avoid": 0,
+    "V2b_v3b_Vigil": 1,
+    "V2c_v3b_CogR": 0,
+    "V2d_v3b_Priv": 0
+  }
+}

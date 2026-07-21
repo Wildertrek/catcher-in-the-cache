@@ -1,0 +1,1087 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "266",
+      "character_name": "Anna Karenina",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.39980000000000004,
+        "C": -0.35486666666666666,
+        "E": 0.3237333333333333,
+        "A": -0.3038,
+        "N": 0.5700000000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6274,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.44,
+            "C": -0.564,
+            "E": 0.349,
+            "A": -0.426,
+            "N": 0.779
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Affective_Narratology_The_Emotional_Structure_of_S....json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fajarani2021_Liberal_feminist_values_reflected.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "KELE\u015e2022_Psychological_Perspective_Infidelity_Context.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Karshievich2024_SOCIAL_PHILOSOPHICAL_PSYCHOLOGICAL_ASPECTS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lyubov2024_Fictional_faces_female_suicide.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Wenanda2022_Reading_Annas_Instability_Fear.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yu2023_Personality_Understanding_Fictional_Characters.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.44,
+              "confidence_interval": [
+                0.088,
+                0.792
+              ],
+              "n_sources": 6,
+              "std_dev": 0.18
+            },
+            "C": {
+              "score": -0.564,
+              "confidence_interval": [
+                -0.69,
+                -0.437
+              ],
+              "n_sources": 5,
+              "std_dev": 0.065
+            },
+            "E": {
+              "score": 0.349,
+              "confidence_interval": [
+                0.178,
+                0.52
+              ],
+              "n_sources": 3,
+              "std_dev": 0.087
+            },
+            "A": {
+              "score": -0.426,
+              "confidence_interval": [
+                -0.695,
+                -0.156
+              ],
+              "n_sources": 5,
+              "std_dev": 0.138
+            },
+            "N": {
+              "score": 0.779,
+              "confidence_interval": [
+                0.551,
+                1.0
+              ],
+              "n_sources": 7,
+              "std_dev": 0.117
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3194,
+            "C": 0.0634,
+            "E": 0.2732,
+            "A": -0.0594,
+            "N": 0.152
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:31:58.853443+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001331
+        }
+      ]
+    },
+    {
+      "coref_id": "172",
+      "character_name": "Karenin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.22531249999999997,
+        "C": 0.7063875,
+        "E": -0.30469375,
+        "A": -0.06365937499999999,
+        "N": 0.07122812499999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.323,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.611,
+            "E": -0.383,
+            "A": -0.11,
+            "N": 0.148
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Fajarani2021_Liberal_feminist_values_reflected.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "KELE\u015e2022_Psychological_Perspective_Infidelity_Context.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.611,
+              "confidence_interval": [
+                0.33,
+                0.892
+              ],
+              "n_sources": 3,
+              "std_dev": 0.143
+            },
+            "E": {
+              "score": -0.383,
+              "confidence_interval": [
+                -0.646,
+                -0.12
+              ],
+              "n_sources": 2,
+              "std_dev": 0.134
+            },
+            "A": {
+              "score": -0.11,
+              "confidence_interval": [
+                -0.935,
+                0.714
+              ],
+              "n_sources": 3,
+              "std_dev": 0.421
+            },
+            "N": {
+              "score": 0.148,
+              "confidence_interval": [
+                -0.511,
+                0.806
+              ],
+              "n_sources": 2,
+              "std_dev": 0.336
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.077,
+            "C": 0.882,
+            "E": -0.165,
+            "A": -0.003,
+            "N": 0.066
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/2",
+          "pgt_op_name": "Count Alexei Karenin",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.109,
+            "C": 0.6212,
+            "E": -0.3676,
+            "A": -0.0663,
+            "N": -0.0741
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:32:47.667062+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001342
+        }
+      ]
+    },
+    {
+      "coref_id": "224",
+      "character_name": "Vronsky",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.34098749999999994,
+        "C": -0.07128437499999997,
+        "E": 0.5817687500000001,
+        "A": -0.06367812499999997,
+        "N": 0.108646875
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9227,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.2,
+            "C": -0.5,
+            "E": 0.545,
+            "A": -0.4,
+            "N": 0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "KELE\u015e2022_Psychological_Perspective_Infidelity_Context.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.2,
+              "confidence_interval": [
+                -0.388,
+                0.788
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -0.5,
+                -0.5
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.545,
+              "confidence_interval": [
+                0.369,
+                0.72
+              ],
+              "n_sources": 2,
+              "std_dev": 0.089
+            },
+            "A": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.308,
+            "C": 0.16,
+            "E": 0.668,
+            "A": 0.056,
+            "N": 0.211
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/3",
+          "pgt_op_name": "Count Alexei Vronsky",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6748,
+            "C": 0.4227,
+            "E": 0.5198,
+            "A": 0.4209,
+            "N": -0.4349
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:33:20.327925+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001156
+        }
+      ]
+    },
+    {
+      "coref_id": "150",
+      "character_name": "Stiva Oblonsky",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.09999999999999999,
+        "C": -0.721,
+        "E": 0.7,
+        "A": -0.521,
+        "N": -0.19999999999999998
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.721,
+            "E": 0.7,
+            "A": -0.521,
+            "N": -0.2
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "KELE\u015e2022_Psychological_Perspective_Infidelity_Context.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.1,
+              "confidence_interval": [
+                -0.488,
+                0.688
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.721,
+              "confidence_interval": [
+                -0.802,
+                -0.641
+              ],
+              "n_sources": 2,
+              "std_dev": 0.041
+            },
+            "E": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.521,
+              "confidence_interval": [
+                -0.602,
+                -0.441
+              ],
+              "n_sources": 2,
+              "std_dev": 0.041
+            },
+            "N": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.788,
+                0.388
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "154",
+      "character_name": "Dolly Oblonsky",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.145084375,
+        "C": 0.502996875,
+        "E": -0.10529999999999999,
+        "A": 0.5689124999999998,
+        "N": 0.287590625
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3354,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.655,
+            "E": -0.1,
+            "A": 0.721,
+            "N": 0.296
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "KELE\u015e2022_Psychological_Perspective_Infidelity_Context.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.655,
+              "confidence_interval": [
+                0.48,
+                0.831
+              ],
+              "n_sources": 2,
+              "std_dev": 0.089
+            },
+            "E": {
+              "score": -0.1,
+              "confidence_interval": [
+                -0.688,
+                0.488
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.721,
+              "confidence_interval": [
+                0.641,
+                0.802
+              ],
+              "n_sources": 2,
+              "std_dev": 0.041
+            },
+            "N": {
+              "score": 0.296,
+              "confidence_interval": [
+                -0.668,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.492
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.254,
+            "C": 0.339,
+            "E": -0.078,
+            "A": 0.492,
+            "N": 0.399
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/4",
+          "pgt_op_name": "Dolly Oblonskaya",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2641,
+            "C": 0.4567,
+            "E": -0.1588,
+            "A": 0.3856,
+            "N": 0.0957
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:33:54.249521+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001471
+        }
+      ]
+    },
+    {
+      "coref_id": "179",
+      "character_name": "Levin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.31322857142857147,
+        "C": 0.4825214285714286,
+        "E": -0.3662500000000001,
+        "A": 0.5249642857142858,
+        "N": 0.27855357142857146
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.445,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.544,
+            "C": 0.644,
+            "E": -0.4,
+            "A": 0.558,
+            "N": 0.248
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Karshievich2024_SOCIAL_PHILOSOPHICAL_PSYCHOLOGICAL_ASPECTS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Thompson-ModernLanguageReview-2011.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Wierzbicka2020_Addressing_God_European_languages.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.544,
+              "confidence_interval": [
+                0.447,
+                0.641
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "C": {
+              "score": 0.644,
+              "confidence_interval": [
+                0.547,
+                0.741
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.558,
+              "confidence_interval": [
+                0.461,
+                0.655
+              ],
+              "n_sources": 3,
+              "std_dev": 0.049
+            },
+            "N": {
+              "score": 0.248,
+              "confidence_interval": [
+                -0.892,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.582
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.099,
+            "C": 0.424,
+            "E": -0.47,
+            "A": 0.479,
+            "N": 0.391
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/6",
+          "pgt_op_name": "Konstantin Levin",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3202,
+            "C": 0.3438,
+            "E": -0.155,
+            "A": 0.55,
+            "N": 0.1455
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:34:44.006898+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001312
+        }
+      ]
+    },
+    {
+      "coref_id": "184",
+      "character_name": "Kitty",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.03962222222222219,
+        "C": 0.06304999999999998,
+        "E": 0.46038888888888896,
+        "A": 0.4221821428571429,
+        "N": 0.28906666666666675
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4524,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Karshievich2024_SOCIAL_PHILOSOPHICAL_PSYCHOLOGICAL_ASPECTS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.129,
+            "C": 0.013,
+            "E": 0.404,
+            "A": 0.275,
+            "N": 0.465
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/8",
+          "pgt_op_name": "Kitty Shcherbatskaya",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3046,
+            "C": 0.1417,
+            "E": 0.549,
+            "A": 0.5423,
+            "N": 0.0126
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:35:44.023069+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001103
+        }
+      ]
+    },
+    {
+      "coref_id": "295",
+      "character_name": "Betsy Tverskaya",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.005905555555555541,
+        "C": 0.1485222222222222,
+        "E": 0.6368666666666667,
+        "A": -0.015694444444444445,
+        "N": 0.10761111111111113
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5269,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.199,
+            "C": 0.108,
+            "E": 0.684,
+            "A": -0.047,
+            "N": 0.234
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/7",
+          "pgt_op_name": "Betsy Tverskaya",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3279,
+            "C": 0.2122,
+            "E": 0.5628,
+            "A": 0.0335,
+            "N": -0.091
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:36:31.902877+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001249
+        }
+      ]
+    },
+    {
+      "coref_id": "270",
+      "character_name": "Countess Lidia Ivanovna",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1310611111111111,
+        "C": 0.5111722222222223,
+        "E": 0.24373333333333333,
+        "A": 0.19053333333333328,
+        "N": 0.25338888888888894
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8808,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.346,
+            "C": 0.506,
+            "E": 0.191,
+            "A": -0.152,
+            "N": 0.323
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/10",
+          "pgt_op_name": "Countess Lidia Ivanovna",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2067,
+            "C": 0.5193,
+            "E": 0.3266,
+            "A": 0.7288,
+            "N": 0.144
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:37:09.314508+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001556
+        }
+      ]
+    },
+    {
+      "coref_id": "149",
+      "character_name": "Stepan Oblonsky",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.33873888888888887,
+        "C": -0.3490944444444445,
+        "E": 0.31080555555555556,
+        "A": 0.2990777777777778,
+        "N": -0.01828333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1767,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.303,
+            "C": -0.4,
+            "E": 0.311,
+            "A": 0.327,
+            "N": -0.087
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/5",
+          "pgt_op_name": "Stepan Oblonsky",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3949,
+            "C": -0.2691,
+            "E": 0.3105,
+            "A": 0.2552,
+            "N": 0.0897
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:37:53.114942+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001147
+        }
+      ]
+    },
+    {
+      "coref_id": "158",
+      "character_name": "Anna Karenina",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.56275,
+        "C": 0.17147777777777773,
+        "E": 0.4105944444444445,
+        "A": 0.23606111111111108,
+        "N": 0.21727777777777785
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.285,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.673,
+            "C": -0.019,
+            "E": 0.374,
+            "A": -0.081,
+            "N": 0.717
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AK/1",
+          "pgt_op_name": "Anna Karenina",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3895,
+            "C": 0.4708,
+            "E": 0.4681,
+            "A": 0.7343,
+            "N": -0.568
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:38:35.277249+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001306
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

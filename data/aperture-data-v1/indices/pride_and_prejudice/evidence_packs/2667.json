@@ -1,0 +1,45 @@
+{
+  "coref_id": "2667",
+  "character_name": "I",
+  "quote_count": 1,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "2664",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Well , all I know is , that it will be abominably rude if you do not wait on him . But , however , that sha n\u2019t prevent my asking him to dine here , I am determined . We must have Mrs. Long and the Gouldings soon . That will make thirteen with ourselves , so there will be just room at table for him . \u201d",
+      "mention_text": "she",
+      "quote_start": 130814,
+      "quote_end": 130883,
+      "addressee_coref_id": "2664",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2664",
+          "quote_text": "\u201c \u2019 Tis an _ etiquette _ I despise , \u201d"
+        },
+        {
+          "speaker_coref_id": "2664",
+          "quote_text": "\u201c If he wants our society , let him seek it . He knows where we live . I will not spend _ my _ hours in running after my neighbours every time they go away and come back again . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I begin to be sorry that he comes at all , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It would be nothing ; I could see him with perfect indifference ; but I can hardly bear to hear it thus perpetually talked of . My mother means well ; but she does not know , no one can know , how much I suffer from what she says . Happy shall I be when his stay at Netherfield is over ! \u201d"
+        }
+      ]
+    }
+  ]
+}

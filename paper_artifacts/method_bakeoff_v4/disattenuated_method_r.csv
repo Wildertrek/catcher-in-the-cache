@@ -1,0 +1,11 @@
+pair,obs_r,rel_a,rel_b,disatt_r_capped,saturated
+M2_classifier <-> M3_regressor,0.2643,0.7492,0.8182,0.3376,no
+M2_classifier <-> M4_consensus,0.2278,0.7492,0.7995,0.2943,no
+M2_classifier <-> M5_probe,0.2010,0.7492,0.8513,0.2517,no
+M2_classifier <-> M6_scpi,0.0200,0.7492,0.7427,0.0268,no
+M3_regressor <-> M4_consensus,0.8410,0.8182,0.7995,1.0000,yes
+M3_regressor <-> M5_probe,0.6641,0.8182,0.8513,0.7957,no
+M3_regressor <-> M6_scpi,0.3329,0.8182,0.7427,0.4271,no
+M4_consensus <-> M5_probe,0.6893,0.7995,0.8513,0.8355,no
+M4_consensus <-> M6_scpi,0.2551,0.7995,0.7427,0.3311,no
+M5_probe <-> M6_scpi,0.3304,0.8513,0.7427,0.4155,no

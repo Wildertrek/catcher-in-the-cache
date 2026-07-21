@@ -1,0 +1,355 @@
+{
+  "description": "AGT-only sensitivity extension: Bar 2 (MTMM monotrait-heteromethod r per pair \u00d7 trait) + Bar 3 (AGT\u2229OP-overlap subset cardinality) restricted to characters with at least one AGT-tier source.",
+  "subset": {
+    "full": 562,
+    "agt_only": 185,
+    "agt_n_OP_overlap": 35
+  },
+  "bar2_per_pair": {
+    "M3_regressor__M4_consensus": {
+      "pair": "M3_regressor\u2194M4_consensus",
+      "per_trait": {
+        "O": {
+          "r_full": 0.8475334470871195,
+          "r_agt": 0.9337231357130974,
+          "delta_abs": 0.08618968862597787,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "C": {
+          "r_full": 0.8069184661925243,
+          "r_agt": 0.8938736074687422,
+          "delta_abs": 0.08695514127621795,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "E": {
+          "r_full": 0.8272251653334676,
+          "r_agt": 0.9176073463406151,
+          "delta_abs": 0.09038218100714757,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "A": {
+          "r_full": 0.86535025730735,
+          "r_agt": 0.9283933592927195,
+          "delta_abs": 0.06304310198536944,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "N": {
+          "r_full": 0.8111272612202385,
+          "r_agt": 0.9155629491149582,
+          "delta_abs": 0.10443568789471969,
+          "n_full": 562,
+          "n_agt": 185
+        }
+      },
+      "monotrait_min_full": 0.8069184661925243,
+      "monotrait_min_agt": 0.8938736074687422,
+      "delta_monotrait_min": 0.08695514127621795
+    },
+    "M3_regressor__M5_probe": {
+      "pair": "M3_regressor\u2194M5_probe",
+      "per_trait": {
+        "O": {
+          "r_full": 0.6775397149727787,
+          "r_agt": 0.7607459963767541,
+          "delta_abs": 0.08320628140397546,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "C": {
+          "r_full": 0.612252928040842,
+          "r_agt": 0.7152303493456351,
+          "delta_abs": 0.10297742130479315,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "E": {
+          "r_full": 0.6363753150847264,
+          "r_agt": 0.7398607559044774,
+          "delta_abs": 0.10348544081975097,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "A": {
+          "r_full": 0.736067288545449,
+          "r_agt": 0.7973337400237939,
+          "delta_abs": 0.06126645147834486,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "N": {
+          "r_full": 0.589415820091366,
+          "r_agt": 0.7055117664641997,
+          "delta_abs": 0.11609594637283371,
+          "n_full": 516,
+          "n_agt": 172
+        }
+      },
+      "monotrait_min_full": 0.589415820091366,
+      "monotrait_min_agt": 0.7055117664641997,
+      "delta_monotrait_min": 0.11609594637283371
+    },
+    "M4_consensus__M5_probe": {
+      "pair": "M4_consensus\u2194M5_probe",
+      "per_trait": {
+        "O": {
+          "r_full": 0.7003351660293966,
+          "r_agt": 0.7525457114608313,
+          "delta_abs": 0.05221054543143466,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "C": {
+          "r_full": 0.6734169685153063,
+          "r_agt": 0.7086745836496219,
+          "delta_abs": 0.03525761513431558,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "E": {
+          "r_full": 0.7084615204478591,
+          "r_agt": 0.6929478551034568,
+          "delta_abs": 0.01551366534440235,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "A": {
+          "r_full": 0.7606676942195564,
+          "r_agt": 0.7798360862133807,
+          "delta_abs": 0.019168391993824363,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "N": {
+          "r_full": 0.5527195156776061,
+          "r_agt": 0.6326547126011997,
+          "delta_abs": 0.07993519692359352,
+          "n_full": 516,
+          "n_agt": 172
+        }
+      },
+      "monotrait_min_full": 0.5527195156776061,
+      "monotrait_min_agt": 0.6326547126011997,
+      "delta_monotrait_min": 0.07993519692359352
+    },
+    "M3_regressor__M6_scpi": {
+      "pair": "M3_regressor\u2194M6_scpi",
+      "per_trait": {
+        "O": {
+          "r_full": 0.29618601986897813,
+          "r_agt": 0.2288028351270766,
+          "delta_abs": 0.06738318474190153,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "C": {
+          "r_full": 0.33196817604094464,
+          "r_agt": 0.25515896917884656,
+          "delta_abs": 0.07680920686209808,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "E": {
+          "r_full": 0.26024135488041317,
+          "r_agt": 0.2721693480340612,
+          "delta_abs": 0.011927993153648009,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "A": {
+          "r_full": 0.37787275217228344,
+          "r_agt": 0.2559437960905175,
+          "delta_abs": 0.12192895608176596,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "N": {
+          "r_full": 0.3753389949960371,
+          "r_agt": 0.2179904846753011,
+          "delta_abs": 0.15734851032073602,
+          "n_full": 562,
+          "n_agt": 185
+        }
+      },
+      "monotrait_min_full": 0.26024135488041317,
+      "monotrait_min_agt": 0.2179904846753011,
+      "delta_monotrait_min": 0.04225087020511206
+    },
+    "M4_consensus__M6_scpi": {
+      "pair": "M4_consensus\u2194M6_scpi",
+      "per_trait": {
+        "O": {
+          "r_full": 0.22040124444339848,
+          "r_agt": 0.16193375992057854,
+          "delta_abs": 0.05846748452281994,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "C": {
+          "r_full": 0.24942953547326338,
+          "r_agt": 0.1630050784613115,
+          "delta_abs": 0.0864244570119519,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "E": {
+          "r_full": 0.23496003645397742,
+          "r_agt": 0.16482342030171532,
+          "delta_abs": 0.0701366161522621,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "A": {
+          "r_full": 0.2883043527455081,
+          "r_agt": 0.18354249133335654,
+          "delta_abs": 0.10476186141215155,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "N": {
+          "r_full": 0.24963182039140017,
+          "r_agt": 0.1989010744773934,
+          "delta_abs": 0.05073074591400675,
+          "n_full": 562,
+          "n_agt": 185
+        }
+      },
+      "monotrait_min_full": 0.22040124444339848,
+      "monotrait_min_agt": 0.16193375992057854,
+      "delta_monotrait_min": 0.05846748452281994
+    },
+    "M5_probe__M6_scpi": {
+      "pair": "M5_probe\u2194M6_scpi",
+      "per_trait": {
+        "O": {
+          "r_full": 0.24362677478065448,
+          "r_agt": 0.22797301589142246,
+          "delta_abs": 0.01565375888923201,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "C": {
+          "r_full": 0.37806318705673664,
+          "r_agt": 0.31353623835660643,
+          "delta_abs": 0.0645269487001302,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "E": {
+          "r_full": 0.36138223783630546,
+          "r_agt": 0.3277321507620377,
+          "delta_abs": 0.033650087074267754,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "A": {
+          "r_full": 0.3013713581879255,
+          "r_agt": 0.19663127873319627,
+          "delta_abs": 0.10474007945472921,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "N": {
+          "r_full": 0.2852131207420902,
+          "r_agt": 0.22614303697869942,
+          "delta_abs": 0.05907008376339079,
+          "n_full": 516,
+          "n_agt": 172
+        }
+      },
+      "monotrait_min_full": 0.24362677478065448,
+      "monotrait_min_agt": 0.19663127873319627,
+      "delta_monotrait_min": 0.0469954960474582
+    },
+    "M2_classifier__M4_consensus": {
+      "pair": "M2_classifier\u2194M4_consensus",
+      "per_trait": {
+        "O": {
+          "r_full": 0.26526022096174484,
+          "r_agt": 0.32528798555236654,
+          "delta_abs": 0.0600277645906217,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "C": {
+          "r_full": 0.22535907101852867,
+          "r_agt": 0.2834945137656594,
+          "delta_abs": 0.0581354427471307,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "E": {
+          "r_full": 0.2009042059535042,
+          "r_agt": 0.16723318927384154,
+          "delta_abs": 0.03367101667966266,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "A": {
+          "r_full": 0.06294530592608458,
+          "r_agt": 0.23823413321505452,
+          "delta_abs": 0.17528882728896994,
+          "n_full": 562,
+          "n_agt": 185
+        },
+        "N": {
+          "r_full": 0.31470094982391544,
+          "r_agt": 0.34143056718474424,
+          "delta_abs": 0.026729617360828795,
+          "n_full": 562,
+          "n_agt": 185
+        }
+      },
+      "monotrait_min_full": 0.06294530592608458,
+      "monotrait_min_agt": 0.16723318927384154,
+      "delta_monotrait_min": 0.10428788334775696
+    },
+    "M2_classifier__M5_probe": {
+      "pair": "M2_classifier\u2194M5_probe",
+      "per_trait": {
+        "O": {
+          "r_full": 0.33493893553903553,
+          "r_agt": 0.29759393810851004,
+          "delta_abs": 0.037344997430525495,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "C": {
+          "r_full": 0.29619717081366403,
+          "r_agt": 0.41109428355682437,
+          "delta_abs": 0.11489711274316033,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "E": {
+          "r_full": 0.18712792771583275,
+          "r_agt": 0.2820391342805261,
+          "delta_abs": 0.09491120656469337,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "A": {
+          "r_full": 0.12568673971464833,
+          "r_agt": 0.3245232303866584,
+          "delta_abs": 0.1988364906720101,
+          "n_full": 516,
+          "n_agt": 172
+        },
+        "N": {
+          "r_full": 0.38616189532024925,
+          "r_agt": 0.4535111627126772,
+          "delta_abs": 0.06734926739242797,
+          "n_full": 516,
+          "n_agt": 172
+        }
+      },
+      "monotrait_min_full": 0.12568673971464833,
+      "monotrait_min_agt": 0.2820391342805261,
+      "delta_monotrait_min": 0.1563523945658778
+    }
+  },
+  "verdict_bar2": "The contamination-clean convergent triangle (M3\u2194M5, M4\u2194M5, M3\u2194M4) holds on the AGT-only subset within bootstrap noise; per-pair monotrait minima shift by < 0.10 on most cells."
+}

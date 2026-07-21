@@ -1,0 +1,1264 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OP_A": 0.389,
+      "M4_A": 0.15,
+      "GT_A": 0.022418750000000032,
+      "HEXACO": {
+        "HH": 0.2,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker shows mild manipulative tendencies through gossip-spreading ('We heard it from three people') and scheming about arranging relationships ('lock you up accidentally in linen closets'), though not overtly exploitative; displays some impatience and subtle hostility in dismissive comments ('Tom's getting very profound') but is not overtly angry or hostile."
+      },
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 118,
+        "cost_usd": 0.004464
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399041.795969
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OP_A": 0.056,
+      "M4_A": 0.1,
+      "GT_A": -0.06367812499999997,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows some defensiveness ('Then you think I tell a lie?'), evasiveness when asked about knowing someone ('I really am not sure'), and eagerness to involve others in activities they want ('you really must take me'), suggesting modest concerns about sincerity and a somewhat impatient, argumentative temperament rather than gentle forbearance."
+      },
+      "usage": {
+        "input_tokens": 978,
+        "output_tokens": 116,
+        "cost_usd": 0.004674
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399045.1398551
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OP_A": 0.26,
+      "M4_A": 0.5,
+      "GT_A": 0.4976499999999999,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker shows some willingness to help others (offering assistance to Miss Mary Jane, concern about Miss Hooker) but also displays questionable behavior (demanding money with threats, lying about circumstances, possessively referring to Jim as property), suggesting modest honesty-humility; demonstrates occasional irritability and impatience with threatening language, indicating below-average a"
+      },
+      "usage": {
+        "input_tokens": 1287,
+        "output_tokens": 121,
+        "cost_usd": 0.005676
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399049.3865228
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OP_A": 0.22,
+      "M4_A": -0.35,
+      "GT_A": 0.06592222222222224,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker demonstrates sincerity and directness ('I know not seems,' demanding honesty from friends), with principled concerns about corruption and foul play, suggesting moderate-high honesty-humility; however, displays irritability ('these tedious old fools'), suspicion, and quick movements toward revenge, indicating lower agreeableness with tendencies toward anger and impatience."
+      },
+      "usage": {
+        "input_tokens": 1646,
+        "output_tokens": 123,
+        "cost_usd": 0.006783
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399055.0782669
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OP_A": 0.479,
+      "M4_A": 0.6,
+      "GT_A": 0.5249642857142858,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker shows sincerity and humility through deferential language ('humbly beg', 'I've no right to ask'), concern for others' wellbeing, and appeals to divine guidance, but moderate agreeableness with moments of anxiety, self-criticism ('stupid'), and emotional reactivity ('Oh, it's awful, awful!')."
+      },
+      "usage": {
+        "input_tokens": 955,
+        "output_tokens": 118,
+        "cost_usd": 0.004635
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399059.041882
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OP_A": -0.047,
+      "M4_A": 0.05,
+      "GT_A": -0.015694444444444445,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker displays moderately manipulative tendencies through mocking ('remember your jeers'), gossiping ('wicked gossip'), and insincere flattery ('pretty young woman'), combined with impatience ('at last!'), sarcasm ('drinking'), and a somewhat confrontational tone throughout the exchanges."
+      },
+      "usage": {
+        "input_tokens": 807,
+        "output_tokens": 107,
+        "cost_usd": 0.004026
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399062.502133
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OP_A": 0.117,
+      "M4_A": -0.25,
+      "GT_A": 0.30810000000000004,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker shows moderate immodesty through self-absorbed love declarations and sending emissaries to pressure someone who has rejected him ('Be clamorous and leap all civil bounds'), suggesting some manipulative persistence, though not deeply exploitative; temperamentally, he displays petulance and impatience in romantic frustration but isn't overtly hostile or cruel."
+      },
+      "usage": {
+        "input_tokens": 1906,
+        "output_tokens": 117,
+        "cost_usd": 0.007473
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399067.16993
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OP_A": -0.269,
+      "M4_A": -0.8,
+      "GT_A": -0.568884375,
+      "HEXACO": {
+        "HH": -0.4,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker demonstrates immodesty through asserting dominance ('stronger and more of a man than you are') and promoting racist pseudoscience about racial superiority ('dominant race'), suggesting exploitative attitudes; shows mild hostility through dismissiveness and condescension ('old man', controlling statements) though not extreme anger."
+      },
+      "usage": {
+        "input_tokens": 861,
+        "output_tokens": 107,
+        "cost_usd": 0.004188
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399070.558669
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OP_A": -0.003,
+      "M4_A": -0.3,
+      "GT_A": -0.06365937499999999,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows some modest social propriety but also displays judgmental tendencies ('I imagine one can not exonerate such a man from blame'), possessiveness and controlling impulses ('I must decide and put a stop to it'), and concern with social appearances over genuine warmth, suggesting moderate-low honesty-humility and low agreeableness given the underlying irritation and difficulty with fo"
+      },
+      "usage": {
+        "input_tokens": 930,
+        "output_tokens": 127,
+        "cost_usd": 0.004695
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399074.215203
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OP_A": 0.189,
+      "M4_A": 0.2,
+      "GT_A": 0.4842411764705882,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker shows moderate humility in self-deprecating comments about being 'unworthiest' and lost in love, but also demonstrates some immodesty in declaring intent to 'rejoice in splendour of my own'; displays generally gentle, romantic temperament without hostility, though persistence in romantic pursuit despite obstacles suggests some self-interest over strict principle."
+      },
+      "usage": {
+        "input_tokens": 1297,
+        "output_tokens": 118,
+        "cost_usd": 0.005661
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399079.7651
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "OP_A": 0.319,
+      "M4_A": 0.7,
+      "GT_A": 0.58605,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates sincerity and principled behavior by apologizing for potentially impertinent inquiries, showing concern for others' welfare, and honestly sharing uncomfortable information about Willoughby's engagement despite personal discomfort; speech patterns suggest modest, fair conduct with no manipulative intent, though some hesitation and indirectness appears more from politeness t"
+      },
+      "usage": {
+        "input_tokens": 1464,
+        "output_tokens": 130,
+        "cost_usd": 0.006342
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399084.360686
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OP_A": 0.465,
+      "M4_A": 0.575,
+      "GT_A": 0.5481468749999999,
+      "HEXACO": {
+        "HH": 0.4,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker shows principled defiance in protecting her child and keeping secrets, suggesting some honesty, but also acknowledges wrongdoing and uses threats (about signing the Black Man's book), lowering HH; her stubborn refusal to comply, confrontational questioning, and intense emotional resistance indicate lower forgiveness and heightened hostility, lowering A_HEXACO."
+      },
+      "usage": {
+        "input_tokens": 947,
+        "output_tokens": 121,
+        "cost_usd": 0.004656
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399088.093382
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OP_A": 0.282,
+      "M4_A": 0.5,
+      "GT_A": 0.4802166666666666,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates sincerity and honesty in expressing genuine feelings without manipulation ('In truth, fair Montague, I am too fond'), acknowledges her own impropriety with modesty ('therefore pardon me'), and shows principled concern for honorable intentions ('If that thy bent of love be honourable'); she exhibits patience and gentleness in discourse though some anxiety about concealment "
+      },
+      "usage": {
+        "input_tokens": 1465,
+        "output_tokens": 125,
+        "cost_usd": 0.00627
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399092.648205
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OP_A": 0.024,
+      "M4_A": 0.0,
+      "GT_A": -0.12417500000000001,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker shows modest immodesty through gossip-sharing ('I've just heard the most amazing thing' but 'I swore I wouldn't tell'), manipulative teasing, and some self-centered attitudes ('they'll keep out of my way'), while displaying mild irritability ('this is much too polite for me') and judgmental tendencies ('I hate careless people') that suggest moderate difficulty with patience and forgive"
+      },
+      "usage": {
+        "input_tokens": 762,
+        "output_tokens": 133,
+        "cost_usd": 0.004281
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399096.03775
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OP_A": 0.275,
+      "M4_A": 0.6,
+      "GT_A": 0.4221821428571429,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker shows sincerity and modesty in self-reflection about feelings and fault, seeking forgiveness rather than manipulating others, and displays patience, gentleness, and lack of hostility even when apologetic or anxious."
+      },
+      "usage": {
+        "input_tokens": 984,
+        "output_tokens": 91,
+        "cost_usd": 0.004317
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399098.54118
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OP_A": -0.512,
+      "M4_A": -0.7,
+      "GT_A": -0.630278125,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker shows principled behavior in defending someone's liberty and challenging authority ('set this woman at liberty'), suggesting fairness and lack of exploitative tendencies, but demonstrates impatience, hostility, and stubbornness in interactions ('have you entirely finished?', 'do n't you see that that jade is walking off')."
+      },
+      "usage": {
+        "input_tokens": 876,
+        "output_tokens": 113,
+        "cost_usd": 0.004323
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399101.552371
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OP_A": 0.008,
+      "M4_A": 0.8,
+      "GT_A": 0.2865611111111111,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker engages in deliberate deception by creating a disguise and concealing their true identity for personal aims, lowering HH, though they show some concern for others' feelings and distress over the complications their disguise causes; they demonstrate patience, politeness, and gentleness in interactions without notable anger or hostility, supporting moderate-high A_HEXACO."
+      },
+      "usage": {
+        "input_tokens": 1491,
+        "output_tokens": 122,
+        "cost_usd": 0.006303
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399271.004274
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OP_A": 0.075,
+      "M4_A": -0.6,
+      "GT_A": -0.11303749999999999,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker demonstrates honesty and modesty by openly acknowledging their lack of entitlement to gifts, claiming no false credentials, and refusing to exaggerate their connections, but shows willingness to criticize Mr. Brocklehurst harshly and displays some irritability in their terse responses."
+      },
+      "usage": {
+        "input_tokens": 1104,
+        "output_tokens": 107,
+        "cost_usd": 0.004917
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399274.088344
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OP_A": -0.152,
+      "M4_A": -0.1,
+      "GT_A": 0.19053333333333328,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates some sincerity in offering help and expressing compassion, but shows possible manipulative tendencies through controlling language ('I will be your housekeeper,' 'I will order tea as you like it') and self-aggrandizing religious framing; they show patience and gentleness in consoling others, with no evident hostility or anger."
+      },
+      "usage": {
+        "input_tokens": 1268,
+        "output_tokens": 118,
+        "cost_usd": 0.005574
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399277.920635
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OP_A": 0.094,
+      "M4_A": 0.55,
+      "GT_A": 0.2504111111111111,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker shows manipulative tendencies by recruiting Rosencrantz and Guildenstern to spy on Hamlet under the guise of friendship, and acknowledges her 'o'erhasty marriage' suggesting questionable moral choices; while she displays some patience initially with Hamlet, she grows defensive and somewhat hostile when confronted, though not excessively aggressive."
+      },
+      "usage": {
+        "input_tokens": 973,
+        "output_tokens": 121,
+        "cost_usd": 0.004734
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399281.485419
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OP_A": 0.226,
+      "M4_A": 0.6,
+      "GT_A": 0.39085,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker demonstrates sincerity, moral principle, and genuinely tries to help Romeo without exploiting the situation (high HH), but shows impatience, sharp criticism, and readily expresses frustration with Romeo's behavior through harsh rebukes (moderate-low A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 2464,
+        "output_tokens": 105,
+        "cost_usd": 0.008967
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399285.601137
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OP_A": 0.492,
+      "M4_A": 0.7,
+      "GT_A": 0.5689124999999998,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker shows sincerity and genuine suffering without manipulative intent (moderate-high HH), but exhibits strong anger, inability to forgive, and hostile feelings toward her unfaithful husband, including thoughts of violence (moderate-low A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 1295,
+        "output_tokens": 99,
+        "cost_usd": 0.00537
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399288.639526
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OP_A": -0.032,
+      "M4_A": 0.0,
+      "GT_A": 0.14035555555555554,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker dismisses servants as 'fool' and 'dishonest,' orders people about imperiously, and admits to deceptive behavior ('I did abuse / Myself, my servant') while showing some self-awareness about honor; displays impatience, irritability ('Fie on him!'), and quick dismissiveness rather than forgiveness or gentleness."
+      },
+      "usage": {
+        "input_tokens": 1232,
+        "output_tokens": 120,
+        "cost_usd": 0.005496
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399293.159115
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OP_A": 0.599,
+      "M4_A": 0.3,
+      "GT_A": 0.2964678571428572,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows modest social awareness (apologizing, politeness) but displays critical judgment ('You make me feel uncivilized,' 'You're a rotten driver'), impatience ('Don't talk'), and gossipy curiosity about Gatsby, suggesting moderate honesty-humility and low agreeableness due to hostility and quick criticism."
+      },
+      "usage": {
+        "input_tokens": 702,
+        "output_tokens": 118,
+        "cost_usd": 0.003876
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399296.524426
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OP_A": -0.32,
+      "M4_A": -0.6,
+      "GT_A": -0.32167222222222225,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker (Claudius) shows significant dishonesty\u2014marrying his brother's widow quickly after death, manipulating Rosencrantz and Guildenstern to spy on Hamlet, and admitting in aside that his 'deed' is uglier than his 'painted word'\u2014indicating low honesty-humility; however, he maintains diplomatic politeness and controlled temperament throughout, showing moderate agreeableness despite his decept"
+      },
+      "usage": {
+        "input_tokens": 2333,
+        "output_tokens": 140,
+        "cost_usd": 0.009099
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399301.1019971
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OP_A": -0.419,
+      "M4_A": -0.8,
+      "GT_A": -0.47130555555555553,
+      "HEXACO": {
+        "HH": -0.9,
+        "A_HEXACO": -0.6,
+        "rationale": "The speaker orchestrates the murder of a guest (Duncan) for personal gain, explicitly invoking spirits to remove remorse and advising to 'look like the innocent flower, but be the serpent under't'\u2014demonstrating extreme manipulation, deception, and exploitation (very low HH). Shows hostility and aggression through cruel imagery (dashing infant brains out) and domineering manipulation of their partn"
+      },
+      "usage": {
+        "input_tokens": 2330,
+        "output_tokens": 152,
+        "cost_usd": 0.00927
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399307.234464
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OP_A": 0.327,
+      "M4_A": 0.3,
+      "GT_A": 0.2990777777777778,
+      "HEXACO": {
+        "HH": 0.0,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker shows moderate immodesty and self-serving rationalization ('all my fault\u2014though I'm not to blame'), admits to inappropriate behavior with a governess while defending it, suggesting some exploitative tendencies; displays irritability, impatience ('why do you tell me that?'), and difficulty accepting responsibility, indicating moderately low agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1047,
+        "output_tokens": 117,
+        "cost_usd": 0.004896
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399311.189806
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OP_A": 0.151,
+      "M4_A": -0.15,
+      "GT_A": 0.12636874999999997,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker demonstrates moderate honesty through sincere self-expression and openness about feelings, though shows some immodesty in highlighting superior taste and sensibility; displays notable irritability, hostility toward 'cold-hearted' behavior, and harsh judgments of others' perceived inadequacies, indicating low patience and forgiveness."
+      },
+      "usage": {
+        "input_tokens": 2099,
+        "output_tokens": 111,
+        "cost_usd": 0.007962
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399315.856825
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OP_A": -0.173,
+      "M4_A": 0.25,
+      "GT_A": 0.04437187499999999,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker shows politeness and gentleness ('I beg your pardon,' 'Don't give it another thought') suggesting high agreeableness, but displays modest deception through embellished self-presentation about Oxford education and extravagant lifestyle, plus association with a gambler, indicating moderate dishonesty."
+      },
+      "usage": {
+        "input_tokens": 880,
+        "output_tokens": 111,
+        "cost_usd": 0.004305
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399319.774037
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OP_A": 0.406,
+      "M4_A": 0.5,
+      "GT_A": 0.41412777777777776,
+      "HEXACO": {
+        "HH": 0.75,
+        "A_HEXACO": 0.65,
+        "rationale": "The speaker demonstrates high honesty-humility through self-effacing modesty (not claiming beauty, worrying about burdening others), gratitude, concern about fairness in repaying kindness, and principled behavior; shows moderately high agreeableness through patience and gentleness in most interactions, though displays some irritation and hostility when provoked by the 'foolish fellow.'"
+      },
+      "usage": {
+        "input_tokens": 1713,
+        "output_tokens": 128,
+        "cost_usd": 0.007059
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399324.646854
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OP_A": 0.693,
+      "M4_A": 0.6,
+      "GT_A": 0.673825,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker discusses robbery and killing people as 'highwaymen' without apparent moral qualms (suggesting low honesty-humility), yet also shows genuine warmth, relief at others' safety, and cooperative rather than hostile interpersonal behavior throughout most utterances (suggesting moderate-to-positive agreeableness)."
+      },
+      "usage": {
+        "input_tokens": 1786,
+        "output_tokens": 111,
+        "cost_usd": 0.007023
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399328.929495
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "OP_A": 0.048,
+      "M4_A": -0.3,
+      "GT_A": 0.13930625,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker shows moderate self-interest (manipulating spouse to visit Bingley, focused on marrying daughters advantageously) and social vanity (emphasis on elegance, appearances), suggesting below-average honesty-humility; displays impatience and irritability ('for heaven's sake!', 'You tear them to pieces', 'Nonsense, nonsense!'), indicating below-average agreeableness with tendency toward hosti"
+      },
+      "usage": {
+        "input_tokens": 896,
+        "output_tokens": 138,
+        "cost_usd": 0.004758
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399332.7586071
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OP_A": 0.293,
+      "M4_A": 0.9,
+      "GT_A": 0.4612333333333334,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker demonstrates sincerity, humility, and principled concern for others' wellbeing (high HH), particularly in prioritizing her father's and husband's welfare over her own; she shows exceptional patience, gentleness, and lack of hostility even when pleading desperately for her imprisoned husband (high A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 1151,
+        "output_tokens": 116,
+        "cost_usd": 0.005193
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399335.994617
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OP_A": 0.002,
+      "M4_A": -0.1,
+      "GT_A": 0.019188888888888884,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker shows playful teasing and some irreverence (making sexual jokes about Romeo's mistress, mocking fashionable duelists) suggesting modest immodesty and lack of strict propriety, though without serious exploitation; displays wit and banter rather than overt hostility, though engages in some mockery and provocation that prevents rating as highly gentle or forgiving."
+      },
+      "usage": {
+        "input_tokens": 2277,
+        "output_tokens": 123,
+        "cost_usd": 0.008676
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399340.8500931
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OP_A": 0.15,
+      "M4_A": 0.5,
+      "GT_A": 0.3164444444444444,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker shows genuine affection and care for Juliet, suggesting some sincerity, but also gossips freely about financial prospects ('he that can lay hold of her shall have the chinks') and repeats crude sexual jokes, indicating moderate immodesty and opportunism; displays warmth but also moments of irritability and sharp responses ('Out upon you! What a man are you?'), suggesting middling agree"
+      },
+      "usage": {
+        "input_tokens": 1443,
+        "output_tokens": 132,
+        "cost_usd": 0.006309
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399345.308712
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OP_A": 0.176,
+      "M4_A": 0.4,
+      "GT_A": 0.33812777777777775,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker demonstrates sincerity and principled devotion to his father's legacy, defending him passionately and identifying proudly as 'son of my father,' suggesting modest honesty; however, expressions of political passion ('Down with the Bourbons') and some impatience in questioning show moderate temper and less-than-perfect gentleness."
+      },
+      "usage": {
+        "input_tokens": 1179,
+        "output_tokens": 118,
+        "cost_usd": 0.005307
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399349.773581
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OP_A": 0.511,
+      "M4_A": 0.8,
+      "GT_A": 0.631378125,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker shows sincerity and concern for her child's welfare over material gain, demonstrating honesty and principle (high HH), though the reference to 'leading a bad life' suggests past moral compromise; she displays impatience ('Don't be long!', 'They are a very long time about it!'), demands ('Answer me!'), and frustrated questioning, indicating moderate proneness to irritability (moderate A"
+      },
+      "usage": {
+        "input_tokens": 1458,
+        "output_tokens": 137,
+        "cost_usd": 0.006429
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399354.191468
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OP_A": 0.349,
+      "M4_A": 0.8,
+      "GT_A": 0.534084375,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates sincerity and principled behavior by challenging hypocrisy ('ungracious pastors'), honestly reporting events to authority figures, and expressing genuine distress over Hamlet's condition; their obedience and respectfulness combined with lack of hostile or angry speech suggests high agreeableness and patience."
+      },
+      "usage": {
+        "input_tokens": 1270,
+        "output_tokens": 108,
+        "cost_usd": 0.00543
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399358.2116969
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OP_A": -0.327,
+      "M4_A": -0.8,
+      "GT_A": -0.5535107142857143,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker demonstrates significant immodesty and social climbing ambition (fantasizing about marrying up and then lording over others), coupled with judgmental commentary about others ('barren rascal,' criticizing revelers), showing low humility and moderate irritability rather than gentleness."
+      },
+      "usage": {
+        "input_tokens": 1495,
+        "output_tokens": 102,
+        "cost_usd": 0.006015
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399362.956197
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OP_A": 0.622,
+      "M4_A": 0.5,
+      "GT_A": 0.5345,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates honesty and self-awareness by acknowledging past wrongness in behavior and reflecting candidly on moral failings, shows modesty in professing lack of picturesque taste and dismissing pretense, and exhibits gentleness through patient, non-defensive responses even when criticized for being reserved."
+      },
+      "usage": {
+        "input_tokens": 1638,
+        "output_tokens": 106,
+        "cost_usd": 0.006504
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399367.3180869
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OP_A": 0.397,
+      "M4_A": 0.5,
+      "GT_A": 0.47586666666666666,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker demonstrates high honesty-humility through sincere praise of others' virtues, modest defense of Edward's qualities without exaggeration, and principled fairness in correcting misperceptions; high agreeableness is evident in patient, gentle responses that encourage understanding and forgiveness rather than criticism or harsh judgment."
+      },
+      "usage": {
+        "input_tokens": 1717,
+        "output_tokens": 110,
+        "cost_usd": 0.006801
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399370.9633842
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OP_A": 0.422,
+      "M4_A": 0.7,
+      "GT_A": 0.5075944444444445,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates sincerity and principled behavior (testifying truthfully about supernatural events despite fear, refusing to swear falsely 'by heaven'), shows deference and modesty ('your poor servant ever'), and displays patience and measured temperament in observations and responses, with no evidence of manipulation or hostility."
+      },
+      "usage": {
+        "input_tokens": 894,
+        "output_tokens": 108,
+        "cost_usd": 0.004302
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399374.33583
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OP_A": 0.417,
+      "M4_A": 0.3,
+      "GT_A": 0.4779882352941177,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker shows some concern for others (helping the distressed lady) but also displays manipulative tendencies (pressing Darnay about Miss Manette, making pointed comments about sympathy), immodesty about their own perceptions, and expressions of cynicism; they exhibit irritability, stubbornness in conversation, and hostility when told not to be 'moral.'"
+      },
+      "usage": {
+        "input_tokens": 1017,
+        "output_tokens": 123,
+        "cost_usd": 0.004896
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399381.8771992
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OP_A": 0.095,
+      "M4_A": 0.75,
+      "GT_A": 0.3079166666666666,
+      "HEXACO": {
+        "HH": 0.4,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates modest self-presentation and politeness in social interactions, shows appreciation for others' interest, and displays no clear manipulative or exploitative behavior, though evidence is limited; utterances suggest patience and gentleness with no hostility or anger evident."
+      },
+      "usage": {
+        "input_tokens": 1290,
+        "output_tokens": 96,
+        "cost_usd": 0.00531
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399385.1707149
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OP_A": 0.376,
+      "M4_A": -0.6,
+      "GT_A": 0.22490714285714286,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker complains that 'most of these fellas will cheat you every time' and looks to 'make some money' opportunistically, suggesting some cynicism and self-interest (lowering HH); they also show hostility by shouting 'Daisy!' defiantly and demanding 'Throw me down and beat me, you dirty little coward!' (lowering A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 832,
+        "output_tokens": 133,
+        "cost_usd": 0.004491
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399388.585384
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OP_A": -0.929,
+      "M4_A": -0.3,
+      "GT_A": -0.3603657894736842,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker displays manipulative behavior by refusing to accept rejection, rationalizing it as 'the established custom' while undermining Elizabeth's agency, and constantly name-drops Lady Catherine for social advantage; however, shows some patience and politeness in tone despite being patronizing and self-serving."
+      },
+      "usage": {
+        "input_tokens": 2780,
+        "output_tokens": 103,
+        "cost_usd": 0.009885
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399392.384226
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OP_A": 0.147,
+      "M4_A": 0.55,
+      "GT_A": 0.37881666666666663,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker offers money for shelter and shows some concern for others' comfort, suggesting moderate sincerity, but also displays impatience ('Bah!'), dismissiveness ('You may retire'), and transactional behavior that suggests self-interest; their irritability and terse commands indicate low patience and moderate hostility."
+      },
+      "usage": {
+        "input_tokens": 686,
+        "output_tokens": 109,
+        "cost_usd": 0.003693
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399395.90682
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OP_A": -0.089,
+      "M4_A": -0.35,
+      "GT_A": -0.05870555555555555,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker explicitly instructs Reynaldo to spread calculated lies and use deception to spy on his son ('put on him what forgeries you please,' 'bait of falsehood'), demonstrating manipulative and dishonest behavior; while showing some protective concern for family, the speaker displays impatience and dismissiveness ('Pooh! You speak like a green girl'), though not extreme hostility."
+      },
+      "usage": {
+        "input_tokens": 2307,
+        "output_tokens": 128,
+        "cost_usd": 0.008841
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399401.05108
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OP_A": 0.369,
+      "M4_A": 0.6,
+      "GT_A": 0.4596111111111111,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.1,
+        "rationale": "The speaker makes judgmental, mocking comments ('How ugly she is,' 'Mam'selle Toad,' 'such a malicious creature'), suggesting lower agreeableness through hostility, while showing somewhat modest self-presentation but also manipulative tendencies in how they interact with others."
+      },
+      "usage": {
+        "input_tokens": 813,
+        "output_tokens": 108,
+        "cost_usd": 0.004059
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399404.003613
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "OP_A": -0.117,
+      "M4_A": 0.85,
+      "GT_A": 0.4574812499999999,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates modesty and sincerity in self-reflection (admitting beliefs about himself, discussing character openly), shows genuine appreciation for others' qualities, and displays patient, gentle discourse even when debating\u2014avoiding hostility while maintaining principled positions on reason and conviction."
+      },
+      "usage": {
+        "input_tokens": 1506,
+        "output_tokens": 99,
+        "cost_usd": 0.006003
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399408.538421
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OP_A": 0.059,
+      "M4_A": 0.05,
+      "GT_A": 0.3420736842105263,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker shows some manipulative tendencies (endorsing schemes to keep Jane at Bingley's, using her potential illness strategically) lowering HH, though also displays candid observations about others' character flaws; she demonstrates mild irritation and satirical judgment toward Darcy and others, but without extreme hostility, placing A_HEXACO slightly above neutral."
+      },
+      "usage": {
+        "input_tokens": 1383,
+        "output_tokens": 122,
+        "cost_usd": 0.005979
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399413.234468
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OP_A": 0.097,
+      "M4_A": -0.8,
+      "GT_A": -0.18105555555555553,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker demonstrates severe dishonesty and exploitative behavior by plotting to murder his trusting king and host for personal gain ('black and deep desires'), showing very low Honesty-Humility; while he exhibits some internal conflict and guilt rather than pure hostility, his willingness to commit regicide keeps Agreeableness moderately negative."
+      },
+      "usage": {
+        "input_tokens": 2007,
+        "output_tokens": 115,
+        "cost_usd": 0.007746
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399421.256767
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OP_A": 0.146,
+      "M4_A": 0.7,
+      "GT_A": 0.3746666666666666,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker demonstrates principled peacemaking ('put up your swords'), respect for others' privacy ('Pursu'd my humour, not pursuing his'), and sincere concern for Romeo's wellbeing, suggesting high honesty-humility; shows patience and gentleness in conflict intervention and counseling, though occasional playful persuasion prevents maximum agreeableness scores."
+      },
+      "usage": {
+        "input_tokens": 1275,
+        "output_tokens": 123,
+        "cost_usd": 0.00567
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399425.4408681
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OP_A": -0.081,
+      "M4_A": 0.85,
+      "GT_A": 0.23606111111111108,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker shows sincerity and fairness in acknowledging multiple perspectives without manipulation, expressing genuine empathy and avoiding exploitation of the vulnerable situation, though not exceptionally modest; she demonstrates forgiveness, patience, and gentleness throughout, encouraging reconciliation without anger or hostility despite the serious matter being discussed."
+      },
+      "usage": {
+        "input_tokens": 1279,
+        "output_tokens": 106,
+        "cost_usd": 0.005427
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399429.7446249
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OP_A": 0.378,
+      "M4_A": -0.3,
+      "GT_A": 0.24895937499999996,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker shows some principled resistance to injustice ('Unjust!\u2014unjust!') and does not appear overtly manipulative, though class-based superiority ('not fit to associate with me') suggests moderate immodesty; expressions of anger ('Wicked and cruel boy!'), hostility ('Rat! Rat!'), and defiance ('I will not stir') indicate a temperament prone to antagonism rather than patience or forgiveness."
+      },
+      "usage": {
+        "input_tokens": 825,
+        "output_tokens": 142,
+        "cost_usd": 0.004605
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399435.460032
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OP_A": -0.268,
+      "M4_A": -0.4,
+      "GT_A": -0.1876868421052632,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows moderate immodesty (boasting about height, age advantage, eagerness to marry first and 'chaperon' others) and self-centered entitlement ('I have just as much right'), suggesting below-average Honesty-Humility; temperament appears mildly petulant and self-focused but not overtly hostile, placing Agreeableness slightly above neutral."
+      },
+      "usage": {
+        "input_tokens": 1651,
+        "output_tokens": 128,
+        "cost_usd": 0.006873
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399440.459007
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OP_A": 0.227,
+      "M4_A": -0.5,
+      "GT_A": 0.31267894736842106,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker displays immodesty and somewhat manipulative social maneuvering (dismissing someone as 'tolerable but not handsome enough,' making indirect boasts), and explicitly acknowledges being resentful, unforgiving, and slow to yield, indicating hostility and difficulty with forgiveness."
+      },
+      "usage": {
+        "input_tokens": 1459,
+        "output_tokens": 105,
+        "cost_usd": 0.005952
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399445.62156
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OP_A": -0.472,
+      "M4_A": 0.9,
+      "GT_A": 0.3333062499999999,
+      "HEXACO": {
+        "HH": 0.65,
+        "A_HEXACO": 0.55,
+        "rationale": "The speaker demonstrates fairness and principled reasoning by withholding judgment without full information ('difficult to guess,' 'impossible for us to conjecture...without actual blame'), shows modesty in communication style, and offers charitable interpretations ('both been deceived...Interested people have perhaps misrepresented'); while generally patient and measured, she shows mild assertive"
+      },
+      "usage": {
+        "input_tokens": 1447,
+        "output_tokens": 142,
+        "cost_usd": 0.006471
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399450.830045
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OP_A": 0.767,
+      "M4_A": -0.8,
+      "GT_A": -0.21130789473684206,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": -0.6,
+        "rationale": "The speaker demonstrates immodesty through constant self-promotion (bragging about placing governesses, superior instrument) and lacks humility in asserting opinions as fact, while showing low agreeableness through persistent criticism, intrusive questioning, and an imperious, condescending tone that borders on hostile interrogation."
+      },
+      "usage": {
+        "input_tokens": 1539,
+        "output_tokens": 107,
+        "cost_usd": 0.006222
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399454.931116
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OP_A": 1.057,
+      "M4_A": -0.65,
+      "GT_A": -0.11669473684210524,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker extensively shares unflattering personal grievances about Darcy to relative strangers, frames himself as a wronged victim deserving sympathy, and gossips freely about private family matters, suggesting low sincerity and fair-dealing; moderate hostility is evident in persistent bitterness and unwillingness to forgive despite claiming otherwise."
+      },
+      "usage": {
+        "input_tokens": 2127,
+        "output_tokens": 114,
+        "cost_usd": 0.008091
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1777399462.1055229
+    }
+  ]
+}

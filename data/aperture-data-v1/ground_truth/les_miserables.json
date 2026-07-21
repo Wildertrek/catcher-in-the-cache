@@ -1,0 +1,1155 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "3393",
+      "character_name": "Jean Valjean",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7,
+        "C": 0.721,
+        "E": 0.3,
+        "A": 0.8409999999999999,
+        "N": -0.258
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.721,
+            "E": 0.3,
+            "A": 0.841,
+            "N": -0.258
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Hong2018_Call_Subjectivity_Audienceoriented_Musical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kasim2021_Mendialogkan_Hakikat_Hukum_dan.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 3,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.721,
+              "confidence_interval": [
+                0.565,
+                0.878
+              ],
+              "n_sources": 3,
+              "std_dev": 0.08
+            },
+            "E": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.841,
+              "confidence_interval": [
+                0.745,
+                0.937
+              ],
+              "n_sources": 4,
+              "std_dev": 0.049
+            },
+            "N": {
+              "score": -0.258,
+              "confidence_interval": [
+                -0.998,
+                0.481
+              ],
+              "n_sources": 3,
+              "std_dev": 0.377
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "1804",
+      "character_name": "Javert",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.614440625,
+        "C": 0.9438281249999998,
+        "E": 0.11845624999999999,
+        "A": -0.630278125,
+        "N": 0.39455624999999994
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0856,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.727,
+            "C": 0.871,
+            "E": 0.4,
+            "A": -0.662,
+            "N": 0.708
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Hong2018_Call_Subjectivity_Audienceoriented_Musical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kasim2021_Mendialogkan_Hakikat_Hukum_dan.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.727,
+              "confidence_interval": [
+                -0.902,
+                -0.552
+              ],
+              "n_sources": 3,
+              "std_dev": 0.089
+            },
+            "C": {
+              "score": 0.871,
+              "confidence_interval": [
+                0.783,
+                0.96
+              ],
+              "n_sources": 4,
+              "std_dev": 0.045
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.662,
+              "confidence_interval": [
+                -0.757,
+                -0.567
+              ],
+              "n_sources": 4,
+              "std_dev": 0.048
+            },
+            "N": {
+              "score": 0.708,
+              "confidence_interval": [
+                0.561,
+                0.855
+              ],
+              "n_sources": 4,
+              "std_dev": 0.075
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.526,
+            "C": 1.059,
+            "E": 0.164,
+            "A": -0.512,
+            "N": 0.487
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "LM/2",
+          "pgt_op_name": "Javert",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5283,
+            "C": 0.9085,
+            "E": -0.5162,
+            "A": -0.7527,
+            "N": -0.3776
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:52:12.776478+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001409
+        }
+      ]
+    },
+    {
+      "coref_id": "2146",
+      "character_name": "Cosette",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "E": 0.5,
+        "A": 0.6,
+        "N": -0.39999999999999997
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "E": 0.5,
+            "A": 0.6,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Hong2018_Call_Subjectivity_Audienceoriented_Musical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kasim2021_Mendialogkan_Hakikat_Hukum_dan.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.418,
+                0.782
+              ],
+              "n_sources": 3,
+              "std_dev": 0.093
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "2703",
+      "character_name": "Marius Pontmercy",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.527,
+        "C": 0.5,
+        "E": -0.209,
+        "A": 0.6,
+        "N": 0.3
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.527,
+            "C": 0.5,
+            "E": -0.209,
+            "A": 0.6,
+            "N": 0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.527,
+              "confidence_interval": [
+                0.339,
+                0.716
+              ],
+              "n_sources": 2,
+              "std_dev": 0.096
+            },
+            "C": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.209,
+              "confidence_interval": [
+                -0.963,
+                0.546
+              ],
+              "n_sources": 2,
+              "std_dev": 0.385
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "1667",
+      "character_name": "Fantine",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.0017187500000000102,
+        "C": 0.3701249999999999,
+        "E": -0.38366249999999996,
+        "A": 0.631378125,
+        "N": 0.6951875
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8764,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.65,
+            "E": -0.5,
+            "A": 0.733,
+            "N": 0.773
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Hong2018_Call_Subjectivity_Audienceoriented_Musical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kasim2021_Mendialogkan_Hakikat_Hukum_dan.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "TitarantiXXXX_Study_Frustration_Fantine_Les.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.552,
+                0.748
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.733,
+              "confidence_interval": [
+                0.481,
+                0.986
+              ],
+              "n_sources": 5,
+              "std_dev": 0.129
+            },
+            "N": {
+              "score": 0.773,
+              "confidence_interval": [
+                0.558,
+                0.987
+              ],
+              "n_sources": 4,
+              "std_dev": 0.109
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.194,
+            "C": 0.322,
+            "E": -0.634,
+            "A": 0.511,
+            "N": 0.931
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "LM/3",
+          "pgt_op_name": "Fantine",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.303,
+            "C": -0.114,
+            "E": 0.2424,
+            "A": 0.6173,
+            "N": 0.169
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:52:49.875415+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001468
+        }
+      ]
+    },
+    {
+      "coref_id": "2238",
+      "character_name": "Bishop Myriel",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5928666666666668,
+        "C": 0.39993333333333336,
+        "E": 0.46310000000000007,
+        "A": 0.6307333333333335,
+        "N": -0.5706666666666668
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9428,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.766,
+            "C": 0.6,
+            "E": 0.6,
+            "A": 0.945,
+            "N": -0.731
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Kasim2021_Mendialogkan_Hakikat_Hukum_dan.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.766,
+              "confidence_interval": [
+                0.673,
+                0.859
+              ],
+              "n_sources": 2,
+              "std_dev": 0.047
+            },
+            "C": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.3,
+                0.9
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.945,
+              "confidence_interval": [
+                0.848,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            },
+            "N": {
+              "score": -0.731,
+              "confidence_interval": [
+                -0.917,
+                -0.545
+              ],
+              "n_sources": 2,
+              "std_dev": 0.095
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2466,
+            "C": -0.0002,
+            "E": 0.1893,
+            "A": 0.0022,
+            "N": -0.25
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:53:27.619136+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000775
+        }
+      ]
+    },
+    {
+      "coref_id": "3718",
+      "character_name": "Thenardier",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.10599999999999998,
+        "C": -0.5302333333333333,
+        "E": 0.22763333333333335,
+        "A": -0.6675333333333334,
+        "N": 0.0078
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6284,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "C": -0.657,
+            "E": 0.4,
+            "A": -0.877
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Hong2018_Call_Subjectivity_Audienceoriented_Musical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.657,
+              "confidence_interval": [
+                -0.754,
+                -0.56
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.877,
+              "confidence_interval": [
+                -1.0,
+                -0.751
+              ],
+              "n_sources": 3,
+              "std_dev": 0.064
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.106,
+            "C": -0.2767,
+            "E": -0.1171,
+            "A": -0.2486,
+            "N": 0.0078
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:53:57.806885+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000642
+        }
+      ]
+    },
+    {
+      "coref_id": "20950",
+      "character_name": "Eponine",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.1228,
+        "C": -0.4027,
+        "E": -0.43310000000000004,
+        "A": 0.6368666666666667,
+        "N": -0.05116666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0465,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "A": 0.65,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "HelmitaXXXX_Motivators_Act_Persuasion_Dynamic.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.356,
+                0.944
+              ],
+              "n_sources": 2,
+              "std_dev": 0.15
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1228,
+            "C": -0.4027,
+            "E": -0.4331,
+            "A": 0.6106,
+            "N": 0.6465
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:54:44.285699+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00108
+        }
+      ]
+    },
+    {
+      "coref_id": "1320",
+      "character_name": "Enjolras",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8207,
+        "C": 0.9342,
+        "E": 0.6121,
+        "A": 0.5752529411764706,
+        "N": -0.508829411764706
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2643,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.6,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Radike2020_CHARACTER_MORAL_VALUE_LES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8207,
+            "C": 0.9342,
+            "E": 0.6121,
+            "A": 0.5399,
+            "N": -0.6643
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:55:12.006903+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001689
+        }
+      ]
+    },
+    {
+      "coref_id": "2781",
+      "character_name": "Marius Pontmercy",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4651277777777778,
+        "C": 0.2599944444444445,
+        "E": -0.02276111111111113,
+        "A": 0.33812777777777775,
+        "N": 0.06862777777777783
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6541,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.359,
+            "C": 0.362,
+            "E": -0.188,
+            "A": 0.176,
+            "N": 0.323
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "LM/5",
+          "pgt_op_name": "Marius Pontmercy",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6319,
+            "C": 0.0997,
+            "E": 0.2369,
+            "A": 0.5929,
+            "N": -0.3311
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:55:37.658184+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001669
+        }
+      ]
+    },
+    {
+      "coref_id": "2647",
+      "character_name": "Jean Valjean",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5824166666666666,
+        "C": 0.53335,
+        "E": -0.07086111111111111,
+        "A": 0.37881666666666663,
+        "N": 0.04703888888888893
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1339,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.604,
+            "C": 0.456,
+            "E": -0.178,
+            "A": 0.147,
+            "N": 0.488
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "LM/1",
+          "pgt_op_name": "Jean Valjean",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5485,
+            "C": 0.6549,
+            "E": 0.0975,
+            "A": 0.7431,
+            "N": -0.6459
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:56:09.559875+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001021
+        }
+      ]
+    },
+    {
+      "coref_id": "1373",
+      "character_name": "Cosette",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.014127777777777783,
+        "C": 0.19491111111111112,
+        "E": 0.041961111111111137,
+        "A": 0.4596111111111111,
+        "N": 0.33923333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7021,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.141,
+            "C": 0.14,
+            "E": 0.315,
+            "A": 0.369,
+            "N": 0.5
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "LM/4",
+          "pgt_op_name": "Cosette",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2579,
+            "C": 0.2812,
+            "E": -0.3871,
+            "A": 0.602,
+            "N": 0.0866
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:56:47.935315+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001197
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

@@ -1,0 +1,131 @@
+{
+  "coref_id": "437",
+  "character_name": "his lady",
+  "quote_count": 4,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "334",
+      2
+    ],
+    [
+      "118",
+      1
+    ],
+    [
+      "152",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c My dear Mr. Bennet , \u201d",
+      "mention_text": "his lady",
+      "quote_start": 6217,
+      "quote_end": 6223,
+      "addressee_coref_id": "118",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c Unable to utter a syllable \u201d"
+        },
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c The obsequious civility \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c have you heard that Netherfield Park is let at last ? \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c But it is , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c have you heard that Netherfield Park is let at last ? \u201d",
+      "mention_text": "his lady",
+      "quote_start": 6232,
+      "quote_end": 6244,
+      "addressee_coref_id": "152",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c The obsequious civility \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c But it is , \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c for Mrs. Long has just been here , and she told me all about it . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But it is , \u201d",
+      "mention_text": "she",
+      "quote_start": 6253,
+      "quote_end": 6258,
+      "addressee_coref_id": "334",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c have you heard that Netherfield Park is let at last ? \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c for Mrs. Long has just been here , and she told me all about it . \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c Do not you want to know who has taken it ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c for Mrs. Long has just been here , and she told me all about it . \u201d",
+      "mention_text": "she",
+      "quote_start": 6262,
+      "quote_end": 6279,
+      "addressee_coref_id": "334",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c have you heard that Netherfield Park is let at last ? \u201d"
+        },
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c But it is , \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c Do not you want to know who has taken it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c _ You _ want to tell me , and I have no objection to hearing it . \u201d"
+        }
+      ]
+    }
+  ]
+}

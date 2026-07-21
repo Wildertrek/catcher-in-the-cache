@@ -1,0 +1,101 @@
+{
+  "coref_id": "1704",
+  "character_name": "me",
+  "quote_count": 3,
+  "mention_count": 19,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "127",
+      2
+    ],
+    [
+      "1705",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c You are mistaken , Mr. Darcy , if you suppose that the mode of your declaration affected me in any other way than as it spared me the concern which I might have felt in refusing you , had you behaved in a more gentlemanlike manner . \u201d",
+      "mention_text": "she",
+      "quote_start": 78268,
+      "quote_end": 78316,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c is your opinion of me ! This is the estimation in which you hold me ! I thank you for explaining it so fully . My faults , according to this calculation , are heavy indeed ! But , perhaps , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c these offences might have been overlooked , had not your pride been hurt by my honest confession of the scruples that had long prevented my forming any serious design . These bitter accusations might have been suppressed , had I , with greater policy , concealed my struggles , and flattered you into the belief of my being impelled by unqualified , unalloyed inclination ; by reason , by reflection , by everything . But disguise of every sort is my abhorrence . Nor am I ashamed of the feelings I related . They were natural and just . Could you expect me to rejoice in the inferiority of your connections?--to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c You could not have made me the offer of your hand in any possible way that would have tempted me to accept it . \u201d"
+        },
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c From the very beginning , from the first moment , I may almost say , of my acquaintance with you , your manners impressing me with the fullest belief of your arrogance , your conceit , and your selfish disdain of the feelings of others , were such as to form that groundwork of disapprobation , on which succeeding events have built so immovable a dislike ; and I had not known you a month before I felt that you were the last man in the world whom I could ever be prevailed on to marry . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You could not have made me the offer of your hand in any possible way that would have tempted me to accept it . \u201d",
+      "mention_text": "she",
+      "quote_start": 78332,
+      "quote_end": 78357,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c these offences might have been overlooked , had not your pride been hurt by my honest confession of the scruples that had long prevented my forming any serious design . These bitter accusations might have been suppressed , had I , with greater policy , concealed my struggles , and flattered you into the belief of my being impelled by unqualified , unalloyed inclination ; by reason , by reflection , by everything . But disguise of every sort is my abhorrence . Nor am I ashamed of the feelings I related . They were natural and just . Could you expect me to rejoice in the inferiority of your connections?--to congratulate myself on the hope of relations whose condition in life is so decidedly beneath my own ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c You are mistaken , Mr. Darcy , if you suppose that the mode of your declaration affected me in any other way than as it spared me the concern which I might have felt in refusing you , had you behaved in a more gentlemanlike manner . \u201d"
+        },
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c From the very beginning , from the first moment , I may almost say , of my acquaintance with you , your manners impressing me with the fullest belief of your arrogance , your conceit , and your selfish disdain of the feelings of others , were such as to form that groundwork of disapprobation , on which succeeding events have built so immovable a dislike ; and I had not known you a month before I felt that you were the last man in the world whom I could ever be prevailed on to marry . \u201d"
+        },
+        {
+          "speaker_coref_id": "1705",
+          "quote_text": "\u201c You have said quite enough , madam . I perfectly comprehend your feelings , and have now only to be ashamed of what my own have been . Forgive me for having taken up so much of your time , and accept my best wishes for your health and happiness . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c From the very beginning , from the first moment , I may almost say , of my acquaintance with you , your manners impressing me with the fullest belief of your arrogance , your conceit , and your selfish disdain of the feelings of others , were such as to form that groundwork of disapprobation , on which succeeding events have built so immovable a dislike ; and I had not known you a month before I felt that you were the last man in the world whom I could ever be prevailed on to marry . \u201d",
+      "mention_text": "She",
+      "quote_start": 78381,
+      "quote_end": 78479,
+      "addressee_coref_id": "1705",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c You are mistaken , Mr. Darcy , if you suppose that the mode of your declaration affected me in any other way than as it spared me the concern which I might have felt in refusing you , had you behaved in a more gentlemanlike manner . \u201d"
+        },
+        {
+          "speaker_coref_id": "1704",
+          "quote_text": "\u201c You could not have made me the offer of your hand in any possible way that would have tempted me to accept it . \u201d"
+        },
+        {
+          "speaker_coref_id": "1705",
+          "quote_text": "\u201c You have said quite enough , madam . I perfectly comprehend your feelings , and have now only to be ashamed of what my own have been . Forgive me for having taken up so much of your time , and accept my best wishes for your health and happiness . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Hearing herself called \u201d"
+        }
+      ]
+    }
+  ]
+}

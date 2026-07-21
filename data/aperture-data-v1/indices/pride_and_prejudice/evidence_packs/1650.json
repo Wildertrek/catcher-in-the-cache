@@ -1,0 +1,45 @@
+{
+  "coref_id": "1650",
+  "character_name": "he",
+  "quote_count": 1,
+  "mention_count": 3,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c It is a proof of your own attachment to Hertfordshire . Anything beyond the very neighbourhood of Longbourn , I suppose , would appear far . \u201d",
+      "mention_text": "he",
+      "quote_start": 73102,
+      "quote_end": 73129,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I should never have considered the distance as one of the _ advantages _ of the match , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I should never have said Mrs. Collins was settled _ near _ her family . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I do not mean to say that a woman may not be settled too near her family . The far and the near must be relative , and depend on many varying circumstances . Where there is fortune to make the expense of travelling unimportant , distance becomes no evil . But that is not the case _ here _ . Mr. and Mrs. Collins have a comfortable income , but not such a one as will allow of frequent journeys -- and I am persuaded my friend would not call herself _ near _ her family under less than _ half _ the present distance . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c _ You _ can not have a right to such very strong local attachment . _ You _ can not have been always at Longbourn . \u201d"
+        }
+      ]
+    }
+  ]
+}

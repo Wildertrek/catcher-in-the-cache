@@ -1,0 +1,67 @@
+{
+  "panel": "25 distinct LLM raters, 9 provider families (Gemma folded into Google)",
+  "excluded": [
+    "xai_2"
+  ],
+  "exclusion_reason": "duplicate run of x-ai/grok-4.3 at the same seed as xai_1",
+  "n_raters": 25,
+  "n_families": 9,
+  "canonical_mean_abs_r": 0.7515,
+  "synthetic_mean_abs_r": 0.3043,
+  "mean_delta": -0.4473,
+  "n_decreased": 25,
+  "raters_above_030_canonical": 25,
+  "raters_below_030_synthetic": 14,
+  "signed_r": {
+    "designed_synthetic_r": -0.74,
+    "canonical_signed_mean": 0.7515,
+    "synthetic_signed_mean": 0.2315,
+    "synthetic_ci95": [
+      0.123,
+      0.338
+    ],
+    "n_positive": 20,
+    "n_raters": 25,
+    "sign_test_p": 0.0041,
+    "note": "Positive synthetic mean is the retrieval signature: faithful measurement of the designed -0.74 would be negative, and simple attenuation would shrink toward zero from the negative side rather than flipping sign."
+  },
+  "bh_fdr_family": {
+    "family_size": 5,
+    "composition_source": "bh_fdr_pivot6_results.json (pre-registered, family_size=5)",
+    "ranks_ascending": [
+      "RQ6.9_PRIOR_DRIVEN",
+      "H2_family_clustering",
+      "H4_open_vs_closed",
+      "H3_capability_correlation",
+      "H5_head_to_head_proxy"
+    ],
+    "p_raw": {
+      "RQ6.9_PRIOR_DRIVEN": 2.9802322387695312e-08,
+      "H2_family_clustering": 0.0032149839250803745,
+      "H4_open_vs_closed": 0.1619,
+      "H3_capability_correlation": 0.4749,
+      "H5_head_to_head_proxy": 1.0
+    },
+    "p_bh_adjusted": {
+      "RQ6.9_PRIOR_DRIVEN": 1.4901161193847656e-07,
+      "H2_family_clustering": 0.008037459812700936,
+      "H4_open_vs_closed": 0.2698333333333333,
+      "H3_capability_correlation": 0.593625,
+      "H5_head_to_head_proxy": 1.0
+    },
+    "note": "H2_family_clustering sits at rank 2 of 5, so its BH-adjusted p is p_raw * 5/2. RQ6.9's BH-adjusted p is its one-sided p_raw * 5/1; note the paper's 6.0e-8 is the two-sided UNADJUSTED Wilcoxon p (5.96e-8), not a BH-adjusted value."
+  },
+  "wilcoxon_rq69": {
+    "W": 0.0,
+    "p_one_sided": 2.9802322387695312e-08,
+    "p_two_sided": 5.960464477539063e-08
+  },
+  "family_clustering": {
+    "icc1": 0.5774,
+    "eta_squared": 0.6973,
+    "permutation_p_raw": 0.00321,
+    "n_permutations": 200000,
+    "seed": 42,
+    "note": "p_raw is the unadjusted permutation p. The paper reports the BH-adjusted value over the RQ2 inferential family; the adjustment depends on this test's rank within that family."
+  }
+}

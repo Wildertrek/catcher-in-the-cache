@@ -1,0 +1,694 @@
+{
+  "spec": {
+    "n_chars": 20,
+    "ocean_head_version": "v2-cheap",
+    "ocean_canon_lobo_mae": 0.297,
+    "hexaco_head_version": "v3-full562",
+    "hexaco_canon_lobo_mae_H": 0.3519,
+    "hexaco_canon_lobo_mae_P": 0.311,
+    "embedding": "text-embedding-3-large 3072d",
+    "substrate": "20 synthetic characters"
+  },
+  "ocean_per_trait_on_synth": {
+    "O": {
+      "MAE": 0.3295,
+      "r": 0.7967,
+      "p": 2.6e-05
+    },
+    "C": {
+      "MAE": 0.3888,
+      "r": 0.6333,
+      "p": 0.002723
+    },
+    "E": {
+      "MAE": 0.4159,
+      "r": 0.6724,
+      "p": 0.001163
+    },
+    "A": {
+      "MAE": 0.4579,
+      "r": 0.1941,
+      "p": 0.412253
+    },
+    "N": {
+      "MAE": 0.414,
+      "r": -0.167,
+      "p": 0.481488
+    }
+  },
+  "hexaco_per_trait_on_synth": {
+    "H": {
+      "MAE": 0.4869,
+      "r": 0.7412,
+      "p": 0.000184
+    },
+    "A_HEX": {
+      "MAE": 0.7567,
+      "r": 0.1376,
+      "p": 0.562962
+    }
+  },
+  "per_char": [
+    {
+      "name": "Dorrit Klaes",
+      "work": "The Lichfield Dispatches",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.9,
+        "E": -0.2,
+        "A": -0.6,
+        "N": -0.1
+      },
+      "predicted_OCEAN": {
+        "O": -0.1172,
+        "C": 0.5399,
+        "E": -0.0094,
+        "A": -0.0331,
+        "N": -0.0204
+      },
+      "OCEAN_residuals": {
+        "O": -0.2172,
+        "C": -0.3601,
+        "E": 0.1906,
+        "A": 0.5669,
+        "N": 0.0796
+      },
+      "target_H": 0.85,
+      "target_A_HEX": -0.7,
+      "predicted_H": 0.6284,
+      "predicted_A_HEX": 0.3371,
+      "H_residual": -0.2216,
+      "A_HEX_residual": 1.0371
+    },
+    {
+      "name": "Tessaro Vinn",
+      "work": "A Gilded Residue",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.7,
+        "A": 0.5,
+        "N": -0.6
+      },
+      "predicted_OCEAN": {
+        "O": 0.0828,
+        "C": 0.548,
+        "E": 0.0454,
+        "A": -0.1319,
+        "N": 0.0348
+      },
+      "OCEAN_residuals": {
+        "O": -0.2172,
+        "C": -0.052,
+        "E": -0.6546,
+        "A": -0.6319,
+        "N": 0.6348
+      },
+      "target_H": -0.8,
+      "target_A_HEX": 0.8,
+      "predicted_H": -0.0468,
+      "predicted_A_HEX": 0.5329,
+      "H_residual": 0.7532,
+      "A_HEX_residual": -0.2671
+    },
+    {
+      "name": "Pella Sond",
+      "work": "Undertow Season",
+      "target_OCEAN": {
+        "O": 0.8,
+        "C": -0.6,
+        "E": 0.2,
+        "A": 0.8,
+        "N": 0.85
+      },
+      "predicted_OCEAN": {
+        "O": 0.2285,
+        "C": 0.5532,
+        "E": -0.1573,
+        "A": 0.5878,
+        "N": -0.0099
+      },
+      "OCEAN_residuals": {
+        "O": -0.5715,
+        "C": 1.1532,
+        "E": -0.3573,
+        "A": -0.2122,
+        "N": -0.8599
+      },
+      "target_H": 0.5,
+      "target_A_HEX": 0.7,
+      "predicted_H": 1.9057,
+      "predicted_A_HEX": 1.6588,
+      "H_residual": 1.4057,
+      "A_HEX_residual": 0.9588
+    },
+    {
+      "name": "Gren Talvic",
+      "work": "Iron and Almanac",
+      "target_OCEAN": {
+        "O": -0.5,
+        "C": 0.95,
+        "E": -0.7,
+        "A": -0.4,
+        "N": -0.5
+      },
+      "predicted_OCEAN": {
+        "O": -0.1452,
+        "C": 0.6373,
+        "E": -0.2045,
+        "A": -0.022,
+        "N": -0.086
+      },
+      "OCEAN_residuals": {
+        "O": 0.3548,
+        "C": -0.3127,
+        "E": 0.4955,
+        "A": 0.378,
+        "N": 0.414
+      },
+      "target_H": 0.6,
+      "target_A_HEX": -0.5,
+      "predicted_H": 0.7228,
+      "predicted_A_HEX": -0.0147,
+      "H_residual": 0.1228,
+      "A_HEX_residual": 0.4853
+    },
+    {
+      "name": "Ysm\u00e9 Charoud",
+      "work": "The Perfumer's Balcony",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.3,
+        "E": 0.9,
+        "A": 0.6,
+        "N": -0.2
+      },
+      "predicted_OCEAN": {
+        "O": 0.4822,
+        "C": 0.5283,
+        "E": 0.1761,
+        "A": 0.0933,
+        "N": 0.1122
+      },
+      "OCEAN_residuals": {
+        "O": -0.4678,
+        "C": 0.8283,
+        "E": -0.7239,
+        "A": -0.5067,
+        "N": 0.3122
+      },
+      "target_H": 0.4,
+      "target_A_HEX": 0.5,
+      "predicted_H": 0.1609,
+      "predicted_A_HEX": 0.7627,
+      "H_residual": -0.2391,
+      "A_HEX_residual": 0.2627
+    },
+    {
+      "name": "Dorrit Vashem",
+      "work": "The Glassblower's Accord",
+      "target_OCEAN": {
+        "O": -0.1,
+        "C": 0.7,
+        "E": 0.1,
+        "A": -0.6,
+        "N": 0.3
+      },
+      "predicted_OCEAN": {
+        "O": -0.0583,
+        "C": 0.5092,
+        "E": -0.0464,
+        "A": -0.0939,
+        "N": -0.0115
+      },
+      "OCEAN_residuals": {
+        "O": 0.0417,
+        "C": -0.1908,
+        "E": -0.1464,
+        "A": 0.5061,
+        "N": -0.3115
+      },
+      "target_H": 0.8,
+      "target_A_HEX": -0.7,
+      "predicted_H": 0.2893,
+      "predicted_A_HEX": 0.2232,
+      "H_residual": -0.5107,
+      "A_HEX_residual": 0.9232
+    },
+    {
+      "name": "Caelum Trist",
+      "work": "Pale Meridian",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.5,
+        "A": 0.2,
+        "N": -0.7
+      },
+      "predicted_OCEAN": {
+        "O": -0.1164,
+        "C": 0.6678,
+        "E": 0.0108,
+        "A": -0.2142,
+        "N": -0.0299
+      },
+      "OCEAN_residuals": {
+        "O": -0.4164,
+        "C": 0.0678,
+        "E": -0.4892,
+        "A": -0.4142,
+        "N": 0.6701
+      },
+      "target_H": -0.8,
+      "target_A_HEX": 0.8,
+      "predicted_H": -0.3298,
+      "predicted_A_HEX": 0.1457,
+      "H_residual": 0.4702,
+      "A_HEX_residual": -0.6543
+    },
+    {
+      "name": "Fenra Quillen",
+      "work": "The Understory Cartographs",
+      "target_OCEAN": {
+        "O": 0.8,
+        "C": 0.8,
+        "E": 0.2,
+        "A": 0.6,
+        "N": -0.3
+      },
+      "predicted_OCEAN": {
+        "O": 0.3819,
+        "C": 0.6124,
+        "E": -0.0138,
+        "A": 0.3271,
+        "N": -0.2562
+      },
+      "OCEAN_residuals": {
+        "O": -0.4181,
+        "C": -0.1876,
+        "E": -0.2138,
+        "A": -0.2729,
+        "N": 0.0438
+      },
+      "target_H": 0.6,
+      "target_A_HEX": 0.6,
+      "predicted_H": 1.6129,
+      "predicted_A_HEX": 1.062,
+      "H_residual": 1.0129,
+      "A_HEX_residual": 0.462
+    },
+    {
+      "name": "Marek Solenne",
+      "work": "Ironweed Summer",
+      "target_OCEAN": {
+        "O": 0.0,
+        "C": 0.7,
+        "E": -0.2,
+        "A": -0.7,
+        "N": 0.2
+      },
+      "predicted_OCEAN": {
+        "O": -0.0824,
+        "C": 0.8263,
+        "E": -0.1223,
+        "A": -0.0069,
+        "N": -0.1878
+      },
+      "OCEAN_residuals": {
+        "O": -0.0824,
+        "C": 0.1263,
+        "E": 0.0777,
+        "A": 0.6931,
+        "N": -0.3878
+      },
+      "target_H": 0.9,
+      "target_A_HEX": -0.8,
+      "predicted_H": 0.7695,
+      "predicted_A_HEX": 0.2642,
+      "H_residual": -0.1305,
+      "A_HEX_residual": 1.0642
+    },
+    {
+      "name": "Lirien Dace",
+      "work": "The Sable Consort",
+      "target_OCEAN": {
+        "O": 0.4,
+        "C": 0.5,
+        "E": 0.6,
+        "A": 0.4,
+        "N": -0.6
+      },
+      "predicted_OCEAN": {
+        "O": 0.1414,
+        "C": 0.6181,
+        "E": 0.1062,
+        "A": -0.1541,
+        "N": 0.0313
+      },
+      "OCEAN_residuals": {
+        "O": -0.2586,
+        "C": 0.1181,
+        "E": -0.4938,
+        "A": -0.5541,
+        "N": 0.6313
+      },
+      "target_H": -0.9,
+      "target_A_HEX": 0.9,
+      "predicted_H": -0.313,
+      "predicted_A_HEX": -0.0049,
+      "H_residual": 0.587,
+      "A_HEX_residual": -0.9049
+    },
+    {
+      "name": "Darveth Solke",
+      "work": "The Unburnt Ledger",
+      "target_OCEAN": {
+        "O": -0.1,
+        "C": 0.85,
+        "E": -0.4,
+        "A": -0.35,
+        "N": 0.2
+      },
+      "predicted_OCEAN": {
+        "O": -0.1216,
+        "C": 0.5953,
+        "E": -0.0535,
+        "A": -0.1925,
+        "N": -0.1076
+      },
+      "OCEAN_residuals": {
+        "O": -0.0216,
+        "C": -0.2547,
+        "E": 0.3465,
+        "A": 0.1575,
+        "N": -0.3076
+      },
+      "target_H": 0.8,
+      "target_A_HEX": -0.6,
+      "predicted_H": 0.3967,
+      "predicted_A_HEX": 0.1514,
+      "H_residual": -0.4033,
+      "A_HEX_residual": 0.7514
+    },
+    {
+      "name": "Ysabel Creen",
+      "work": "A Slow House Burning",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.5,
+        "A": 0.7,
+        "N": -0.6
+      },
+      "predicted_OCEAN": {
+        "O": -0.0667,
+        "C": 0.7394,
+        "E": -0.128,
+        "A": -0.4401,
+        "N": 0.1762
+      },
+      "OCEAN_residuals": {
+        "O": -0.3667,
+        "C": 0.1394,
+        "E": -0.628,
+        "A": -1.1401,
+        "N": 0.7762
+      },
+      "target_H": -0.85,
+      "target_A_HEX": 0.8,
+      "predicted_H": -0.8901,
+      "predicted_A_HEX": -0.5275,
+      "H_residual": -0.0401,
+      "A_HEX_residual": -1.3275
+    },
+    {
+      "name": "Tormund Brael",
+      "work": "Undertow Season",
+      "target_OCEAN": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": 0.45,
+        "A": 0.0,
+        "N": 0.3
+      },
+      "predicted_OCEAN": {
+        "O": 0.022,
+        "C": 0.2895,
+        "E": 0.0335,
+        "A": 0.1216,
+        "N": -0.0902
+      },
+      "OCEAN_residuals": {
+        "O": -0.178,
+        "C": 0.1895,
+        "E": -0.4165,
+        "A": 0.1216,
+        "N": -0.3902
+      },
+      "target_H": 0.55,
+      "target_A_HEX": -0.3,
+      "predicted_H": 0.5273,
+      "predicted_A_HEX": 0.3594,
+      "H_residual": -0.0227,
+      "A_HEX_residual": 0.6594
+    },
+    {
+      "name": "Pella Vassik",
+      "work": "Chromatic Displacement",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.4,
+        "E": 0.3,
+        "A": -0.15,
+        "N": 0.6
+      },
+      "predicted_OCEAN": {
+        "O": 0.3453,
+        "C": 0.4316,
+        "E": -0.1078,
+        "A": -0.0141,
+        "N": 0.1938
+      },
+      "OCEAN_residuals": {
+        "O": -0.6047,
+        "C": 0.8316,
+        "E": -0.4078,
+        "A": 0.1359,
+        "N": -0.4062
+      },
+      "target_H": 0.3,
+      "target_A_HEX": -0.2,
+      "predicted_H": 0.8248,
+      "predicted_A_HEX": 0.6001,
+      "H_residual": 0.5248,
+      "A_HEX_residual": 0.8001
+    },
+    {
+      "name": "Ossian Drewe",
+      "work": "The Margin Walkers",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.75,
+        "E": -0.3,
+        "A": 0.1,
+        "N": -0.15
+      },
+      "predicted_OCEAN": {
+        "O": -0.1363,
+        "C": 0.6639,
+        "E": -0.2211,
+        "A": 0.1085,
+        "N": -0.044
+      },
+      "OCEAN_residuals": {
+        "O": -0.2363,
+        "C": -0.0861,
+        "E": 0.0789,
+        "A": 0.0085,
+        "N": 0.106
+      },
+      "target_H": 0.65,
+      "target_A_HEX": 0.1,
+      "predicted_H": 1.4055,
+      "predicted_A_HEX": 0.8009,
+      "H_residual": 0.7555,
+      "A_HEX_residual": 0.7009
+    },
+    {
+      "name": "Quillen Dray",
+      "work": "The Cartography of Silences",
+      "target_OCEAN": {
+        "O": 0.85,
+        "C": 0.4,
+        "E": -0.6,
+        "A": -0.55,
+        "N": 0.1
+      },
+      "predicted_OCEAN": {
+        "O": 0.2161,
+        "C": 0.5759,
+        "E": -0.0043,
+        "A": 0.0545,
+        "N": -0.1131
+      },
+      "OCEAN_residuals": {
+        "O": -0.6339,
+        "C": 0.1759,
+        "E": 0.5957,
+        "A": 0.6045,
+        "N": -0.2131
+      },
+      "target_H": 0.8,
+      "target_A_HEX": -0.65,
+      "predicted_H": 1.5706,
+      "predicted_A_HEX": 0.5725,
+      "H_residual": 0.7706,
+      "A_HEX_residual": 1.2225
+    },
+    {
+      "name": "Sable Maren Voss",
+      "work": "A Gentler Knife",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.7,
+        "E": 0.5,
+        "A": 0.6,
+        "N": -0.7
+      },
+      "predicted_OCEAN": {
+        "O": 0.0777,
+        "C": 0.6523,
+        "E": -0.0236,
+        "A": -0.379,
+        "N": 0.1344
+      },
+      "OCEAN_residuals": {
+        "O": -0.2223,
+        "C": -0.0477,
+        "E": -0.5236,
+        "A": -0.979,
+        "N": 0.8344
+      },
+      "target_H": -0.75,
+      "target_A_HEX": 0.8,
+      "predicted_H": -0.7423,
+      "predicted_A_HEX": -0.4656,
+      "H_residual": 0.0077,
+      "A_HEX_residual": -1.2656
+    },
+    {
+      "name": "Erith Cade Pollowick",
+      "work": "The Museum of Unfinished Things",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.8,
+        "E": -0.45,
+        "A": 0.65,
+        "N": 0.15
+      },
+      "predicted_OCEAN": {
+        "O": 0.4565,
+        "C": 0.3279,
+        "E": -0.0339,
+        "A": 0.0616,
+        "N": 0.0843
+      },
+      "OCEAN_residuals": {
+        "O": -0.4935,
+        "C": 1.1279,
+        "E": 0.4161,
+        "A": -0.5884,
+        "N": -0.0657
+      },
+      "target_H": 0.5,
+      "target_A_HEX": 0.6,
+      "predicted_H": 0.7574,
+      "predicted_A_HEX": 0.7466,
+      "H_residual": 0.2574,
+      "A_HEX_residual": 0.1466
+    },
+    {
+      "name": "Darvon Selk",
+      "work": "Ironbound Meridian",
+      "target_OCEAN": {
+        "O": -0.7,
+        "C": 0.95,
+        "E": -0.5,
+        "A": -0.1,
+        "N": 0.3
+      },
+      "predicted_OCEAN": {
+        "O": 0.0302,
+        "C": 0.6417,
+        "E": -0.2184,
+        "A": 0.0774,
+        "N": -0.124
+      },
+      "OCEAN_residuals": {
+        "O": 0.7302,
+        "C": -0.3083,
+        "E": 0.2816,
+        "A": 0.1774,
+        "N": -0.424
+      },
+      "target_H": 0.7,
+      "target_A_HEX": -0.2,
+      "predicted_H": 0.9879,
+      "predicted_A_HEX": 0.4027,
+      "H_residual": 0.2879,
+      "A_HEX_residual": 0.6027
+    },
+    {
+      "name": "Tessaly Brune",
+      "work": "What the Warm Wind Carries",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": -0.75,
+        "E": 0.9,
+        "A": 0.85,
+        "N": 0.35
+      },
+      "predicted_OCEAN": {
+        "O": 0.1563,
+        "C": 0.4684,
+        "E": 0.1188,
+        "A": 0.3403,
+        "N": -0.0608
+      },
+      "OCEAN_residuals": {
+        "O": 0.0563,
+        "C": 1.2184,
+        "E": -0.7812,
+        "A": -0.5097,
+        "N": -0.4108
+      },
+      "target_H": 0.45,
+      "target_A_HEX": 0.75,
+      "predicted_H": 1.6639,
+      "predicted_A_HEX": 1.3884,
+      "H_residual": 1.2139,
+      "A_HEX_residual": 0.6384
+    }
+  ],
+  "regressor_bipolarity_on_synth": {
+    "r_H_vs_A_HEX_predicted_on_synth": 0.8365,
+    "p": 4e-06,
+    "canonical_substrate_value_from_ocean_hp_cheap_head_v3": 0.7606,
+    "interpretation_note": "If synth bipolarity r is materially lower than canon 0.76, the regressor does NOT inherit the cache problem at deployment time. If synth bipolarity stays at ~0.76, the regressor inherits the cache from its LLM-derived training labels (Claude Sonnet 4.5 HEXACO probe)."
+  },
+  "target_bipolarity_on_synth": {
+    "r_H_vs_A_HEX_author_targets": -0.744,
+    "p": 0.000169,
+    "note": "Author-set target H and target A_HEX correlation on the 20 synth chars. Reflects how the chars were designed: did the author put H and A_HEX on different axes (decoupled) or paired (coupled)?"
+  },
+  "summary": {
+    "ocean_mean_synth_MAE": 0.4012,
+    "ocean_canon_LOBO_MAE": 0.297,
+    "ocean_synth_canon_gap": 0.1042,
+    "hexaco_H_synth_MAE": 0.4869,
+    "hexaco_H_canon_LOBO_MAE": 0.3519,
+    "hexaco_A_HEX_synth_MAE": 0.7567,
+    "hexaco_A_HEX_canon_LOBO_MAE": 0.311,
+    "verdict_question": "Does the regressor's synth MAE roughly match its canon-LOBO MAE? If yes, the regressor generalizes to out-of-cache characters. If synth MAE is much worse, the regressor inherits the cache problem."
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_hedda_tesman",
+      "character_name": "Hedda",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.33722666666666673,
+        "C": -0.41058666666666666,
+        "E": 0.009160000000000057,
+        "A": -0.3743266666666667,
+        "N": -0.25178
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0518,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "HEDDA",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 584,
+          "gender": "F",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1512,
+            "C": -0.3084,
+            "E": -0.5518,
+            "A": -0.2307,
+            "N": 0.0319
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:38:14.892906+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001752
+        }
+      ]
+    },
+    {
+      "coref_id": "char_george_tesman",
+      "character_name": "Tesman",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.19046,
+        "C": -0.008926666666666675,
+        "E": 0.48403999999999997,
+        "A": 0.5700933333333333,
+        "N": -0.50938
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0523,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "TESMAN",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 325,
+          "gender": "M",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1633,
+            "C": 0.5523,
+            "E": 0.4658,
+            "A": 0.6502,
+            "N": -0.5201
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:38:59.930852+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001678
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_elvsted",
+      "character_name": "Mrs. Elvsted",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.34086666666666665,
+        "C": -0.22410666666666668,
+        "E": 0.19382000000000002,
+        "A": 0.5185733333333333,
+        "N": -0.1405266666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7703,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "MRS. ELVSTED",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 204,
+          "gender": "F",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.159,
+            "C": 0.0912,
+            "E": -0.1561,
+            "A": 0.5398,
+            "N": 0.2703
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:39:37.418572+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001582
+        }
+      ]
+    },
+    {
+      "coref_id": "char_brack",
+      "character_name": "Judge Brack",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.37698666666666664,
+        "C": -0.05517333333333337,
+        "E": 0.45744,
+        "A": 0.35972,
+        "N": -0.5114333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9532,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "JUDGE BRACK",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 249,
+          "gender": "M",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2364,
+            "C": 0.4532,
+            "E": 0.4088,
+            "A": 0.1994,
+            "N": -0.5245
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:40:35.747265+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000982
+        }
+      ]
+    },
+    {
+      "coref_id": "char_eilert_lovborg",
+      "character_name": "Eilert Lovborg",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.10300666666666669,
+        "C": -0.1835066666666667,
+        "E": 0.1857,
+        "A": -0.1090266666666667,
+        "N": -0.18290000000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8507,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "EILERT LOVBORG",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 146,
+          "gender": "M",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3507,
+            "C": 0.1782,
+            "E": -0.1735,
+            "A": 0.3378,
+            "N": 0.1795
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:41:25.414958+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000767
+        }
+      ]
+    },
+    {
+      "coref_id": "char_miss_juliana_tesman",
+      "character_name": "Miss Tesman",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.4305133333333333,
+        "C": -0.013733333333333339,
+        "E": -0.19246666666666667,
+        "A": 0.56706,
+        "N": 0.09787333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.042,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": -0.5,
+            "A": 0.5,
+            "N": 0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "MISS TESMAN",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 85,
+          "gender": "F",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3511,
+            "C": 0.542,
+            "E": 0.159,
+            "A": 0.6437,
+            "N": -0.3617
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:42:13.873355+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001255
+        }
+      ]
+    },
+    {
+      "coref_id": "char_berta",
+      "character_name": "Berta",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.31464000000000003,
+        "C": 0.51428,
+        "E": 0.20147333333333337,
+        "A": 0.00539999999999996,
+        "N": -0.16624000000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.083,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "big_five_backstage",
+          "weight": 0.4,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": -0.5
+          },
+          "citation": "Tiuleneva et al. (2024). Big-Five Backstage. CogALex@LREC-COLING 2024. Binary labels 0/1 mapped to -0.5/+0.5.",
+          "pgt_bfb_name": "BERTA",
+          "pgt_method": "binary_labels_to_pm05",
+          "num_lines": 33,
+          "gender": "F",
+          "license": "MIT"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1028,
+            "C": 0.5306,
+            "E": -0.1397,
+            "A": 0.583,
+            "N": 0.2152
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:42:46.855807+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001073
+        }
+      ]
+    }
+  ],
+  "built_at_source": "stage_07_g6_backfill_2026-04-15+vt_integration+vt_integration",
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 4 orphan coref_id(s) to registry equivalents; archived 0 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "char_hedda": "char_hedda_tesman",
+        "char_tesman": "char_george_tesman",
+        "char_lovborg": "char_eilert_lovborg",
+        "char_miss_tesman": "char_miss_juliana_tesman"
+      },
+      "archived": []
+    }
+  ]
+}

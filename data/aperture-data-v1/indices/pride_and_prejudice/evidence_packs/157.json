@@ -1,0 +1,45 @@
+{
+  "coref_id": "157",
+  "character_name": "Lady Lucas",
+  "quote_count": 1,
+  "mention_count": 27,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c So much love and eloquence \u201d",
+      "mention_text": "Lady Lucas",
+      "quote_start": 52595,
+      "quote_end": 52601,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It keeps him in good humour , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c and I am more obliged to you than I can express . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c My dear madam , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c this invitation is particularly gratifying , because it is what I have been hoping to receive ; and you may be very certain that I shall avail myself of it as soon as possible . \u201d"
+        }
+      ]
+    }
+  ]
+}

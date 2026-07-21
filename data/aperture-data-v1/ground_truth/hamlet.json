@@ -1,0 +1,817 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_hamlet",
+      "character_name": "Prince Hamlet",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8883333333333333,
+        "C": -0.09310555555555554,
+        "E": -0.33586666666666665,
+        "A": 0.06592222222222224,
+        "N": 0.8588722222222223
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5197,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.851,
+            "C": 0.109,
+            "E": -0.138,
+            "A": 0.22,
+            "N": 0.888
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/1",
+          "pgt_op_name": "Prince Hamlet",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.947,
+            "C": -0.4107,
+            "E": -0.6468,
+            "A": -0.1762,
+            "N": 0.8131
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:27:31.816326+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002588
+        }
+      ]
+    },
+    {
+      "coref_id": "char_ophelia",
+      "character_name": "Ophelia",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.01583437499999997,
+        "C": 0.2455125,
+        "E": -0.11989444444444444,
+        "A": 0.534084375,
+        "N": 0.867653125
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.923,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.62,
+            "A": 0.663,
+            "N": 0.859
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Bayanova2013_Vygotskys_Hamlet_dialectic_method.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Roy2024_Psychology_Hamlet_Unravelling_Complex.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.62,
+              "confidence_interval": [
+                0.541,
+                0.699
+              ],
+              "n_sources": 2,
+              "std_dev": 0.04
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.663,
+              "confidence_interval": [
+                0.532,
+                0.794
+              ],
+              "n_sources": 3,
+              "std_dev": 0.067
+            },
+            "N": {
+              "score": 0.859,
+              "confidence_interval": [
+                0.657,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.103
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.423,
+            "C": -0.103,
+            "E": 0.028,
+            "A": 0.349,
+            "N": 1.074
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/5",
+          "pgt_op_name": "Ophelia",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2629,
+            "C": 0.0442,
+            "E": -0.3523,
+            "A": 0.5671,
+            "N": 0.5607
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:28:05.677187+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001634
+        }
+      ]
+    },
+    {
+      "coref_id": "char_horatio",
+      "character_name": "Horatio",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.22618888888888888,
+        "C": 0.4157944444444444,
+        "E": -0.2002388888888889,
+        "A": 0.5075944444444445,
+        "N": -0.04245555555555552
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7906,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.195,
+            "C": 0.284,
+            "E": -0.14,
+            "A": 0.422,
+            "N": 0.265
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/6",
+          "pgt_op_name": "Horatio",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2752,
+            "C": 0.6229,
+            "E": -0.2949,
+            "A": 0.6421,
+            "N": -0.5256
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:28:48.273615+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001439
+        }
+      ]
+    },
+    {
+      "coref_id": "char_polonius",
+      "character_name": "Polonius",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.11862777777777778,
+        "C": 0.4238222222222222,
+        "E": 0.1523,
+        "A": -0.05870555555555555,
+        "N": 0.13158333333333336
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6105,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.026,
+            "C": 0.237,
+            "E": 0.055,
+            "A": -0.089,
+            "N": 0.369
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/4",
+          "pgt_op_name": "Polonius",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3459,
+            "C": 0.7174,
+            "E": 0.3052,
+            "A": -0.0111,
+            "N": -0.2415
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:29:27.842115+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002577
+        }
+      ]
+    },
+    {
+      "coref_id": "char_laertes",
+      "character_name": "Laertes",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7938629629629629,
+        "C": 0.1562037037037037,
+        "E": 0.10860370370370369,
+        "A": 0.023462962962962956,
+        "N": 0.11855925925925924
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7951,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2049,
+            "C": 0.6025,
+            "E": 0.4189,
+            "A": 0.0905,
+            "N": 0.4573
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:30:13.881182+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001809
+        }
+      ]
+    },
+    {
+      "coref_id": "char_ghost",
+      "character_name": "The Ghost",
+      "quote_count": 0,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {},
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Roy2024_Psychology_Hamlet_Unravelling_Complex.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        }
+      ]
+    },
+    {
+      "coref_id": "char_queen",
+      "character_name": "Queen Gertrude",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.10768888888888888,
+        "C": 0.21692222222222224,
+        "E": 0.4705833333333333,
+        "A": 0.2504111111111111,
+        "N": 0.27978333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4022,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.018,
+            "C": 0.154,
+            "E": 0.589,
+            "A": 0.094,
+            "N": 0.401
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/2",
+          "pgt_op_name": "Queen Gertrude",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3052,
+            "C": 0.3158,
+            "E": 0.2845,
+            "A": 0.4962,
+            "N": 0.0893
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:31:00.478118+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001529
+        }
+      ]
+    },
+    {
+      "coref_id": "char_king",
+      "character_name": "King Claudius",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.10212222222222221,
+        "C": 0.4318277777777778,
+        "E": 0.32825,
+        "A": -0.32167222222222225,
+        "N": 0.13786666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4426,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.07,
+            "C": 0.353,
+            "E": 0.372,
+            "A": -0.32,
+            "N": 0.22
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "HML/3",
+          "pgt_op_name": "King Claudius",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3726,
+            "C": 0.5557,
+            "E": 0.2595,
+            "A": -0.3243,
+            "N": 0.0088
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:31:32.042977+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002527
+        }
+      ]
+    }
+  ],
+  "orphan_characters": [
+    {
+      "coref_id": "85",
+      "character_name": "Claudius",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.94,
+        "C": 0.197,
+        "E": 0.227,
+        "A": -0.355,
+        "N": 0.099
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.94,
+            "C": 0.197,
+            "E": 0.227,
+            "A": -0.355,
+            "N": 0.099
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hooti2011_Oscillation_between_Modernism_Postmodernism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Roy2024_Psychology_Hamlet_Unravelling_Complex.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Safaei2012_Gertrudes_Transformations_Against_Patriarchal.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.94,
+              "confidence_interval": [
+                0.706,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.12
+            },
+            "C": {
+              "score": 0.197,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.788
+            },
+            "E": {
+              "score": 0.227,
+              "confidence_interval": [
+                -0.344,
+                0.798
+              ],
+              "n_sources": 3,
+              "std_dev": 0.291
+            },
+            "A": {
+              "score": -0.355,
+              "confidence_interval": [
+                -1.0,
+                0.366
+              ],
+              "n_sources": 3,
+              "std_dev": 0.368
+            },
+            "N": {
+              "score": 0.099,
+              "confidence_interval": [
+                -0.178,
+                0.375
+              ],
+              "n_sources": 2,
+              "std_dev": 0.141
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "177",
+      "character_name": "Gertrude",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.0,
+        "C": -0.44700000000000006,
+        "E": 0.3,
+        "A": 0.128,
+        "N": 0.4759999999999999
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.0,
+            "C": -0.447,
+            "E": 0.3,
+            "A": 0.128,
+            "N": 0.476
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hooti2011_Oscillation_between_Modernism_Postmodernism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Roy2024_Psychology_Hamlet_Unravelling_Complex.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Safaei2012_Gertrudes_Transformations_Against_Patriarchal.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Smagorinsky1998_Depth_Dynamics_Context_Tracing.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.447,
+              "confidence_interval": [
+                -0.672,
+                -0.223
+              ],
+              "n_sources": 4,
+              "std_dev": 0.115
+            },
+            "E": {
+              "score": 0.3,
+              "confidence_interval": [
+                0.0,
+                0.6
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.128,
+              "confidence_interval": [
+                -0.69,
+                0.946
+              ],
+              "n_sources": 3,
+              "std_dev": 0.417
+            },
+            "N": {
+              "score": 0.476,
+              "confidence_interval": [
+                0.286,
+                0.666
+              ],
+              "n_sources": 2,
+              "std_dev": 0.097
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    }
+  ],
+  "archive_metadata": {
+    "moved_by": "stage_07_g5_orphan_remap_2026-04-15",
+    "moved_at": "2026-04-15T13:20:42Z",
+    "n_moved": 2,
+    "orphan_reasons": [
+      "registry_uses_char_king_not_char_claudius",
+      "registry_uses_char_queen_not_char_gertrude"
+    ],
+    "orphan_names": [
+      "Claudius",
+      "Gertrude"
+    ],
+    "backup": "ground_truth.json.bak.2026-04-15"
+  },
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 5 orphan coref_id(s) to registry equivalents; archived 2 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "105": "char_hamlet",
+        "56": "char_horatio",
+        "54": "char_polonius",
+        "53": "char_laertes",
+        "78": "char_ghost"
+      },
+      "archived": [
+        {
+          "coref_id": "85",
+          "character_name": "Claudius",
+          "reason": "registry_uses_char_king_not_char_claudius"
+        },
+        {
+          "coref_id": "177",
+          "character_name": "Gertrude",
+          "reason": "registry_uses_char_queen_not_char_gertrude"
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

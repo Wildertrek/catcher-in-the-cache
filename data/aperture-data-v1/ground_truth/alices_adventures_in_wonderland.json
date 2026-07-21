@@ -1,0 +1,718 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "55",
+      "character_name": "Alice",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8488333333333336,
+        "C": 0.4649333333333334,
+        "E": 0.3531666666666667,
+        "A": 0.5021666666666668,
+        "N": 0.2872333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6775,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.779,
+            "C": 0.52,
+            "E": 0.579,
+            "A": 0.539,
+            "N": 0.36
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Character description of Alice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Flegar2016_Alice_Through_Ages_Childhood.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "White Rabbit character description.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.779,
+              "confidence_interval": [
+                0.557,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.113
+            },
+            "C": {
+              "score": 0.52,
+              "confidence_interval": [
+                0.206,
+                0.834
+              ],
+              "n_sources": 4,
+              "std_dev": 0.16
+            },
+            "E": {
+              "score": 0.579,
+              "confidence_interval": [
+                0.357,
+                0.8
+              ],
+              "n_sources": 5,
+              "std_dev": 0.113
+            },
+            "A": {
+              "score": 0.539,
+              "confidence_interval": [
+                0.195,
+                0.882
+              ],
+              "n_sources": 4,
+              "std_dev": 0.175
+            },
+            "N": {
+              "score": 0.36,
+              "confidence_interval": [
+                -0.214,
+                0.933
+              ],
+              "n_sources": 5,
+              "std_dev": 0.293
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.9885,
+            "C": 0.3548,
+            "E": -0.0985,
+            "A": 0.4285,
+            "N": 0.1417
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:09:53.690351+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001509
+        }
+      ]
+    },
+    {
+      "coref_id": "299",
+      "character_name": "The Cheshire Cat",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7980823529411764,
+        "C": -0.3063,
+        "E": -0.05112941176470588,
+        "A": 0.3750705882352941,
+        "N": -0.4878
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6044,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.7,
+            "E": -0.3,
+            "A": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Cheshire Cat character description.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.9382,
+            "C": -0.3063,
+            "E": 0.3044,
+            "A": 0.1966,
+            "N": -0.4878
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:10:31.897028+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000841
+        }
+      ]
+    },
+    {
+      "coref_id": "314",
+      "character_name": "The Mad Hatter",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8197411764705882,
+        "C": -0.6435647058823528,
+        "E": 0.5290294117647059,
+        "A": -0.2892764705882353,
+        "N": 0.28099411764705884
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6533,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.6,
+            "E": 0.5,
+            "A": -0.4,
+            "N": 0.55
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Mad Hatter character description.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Oktavian2024_ReAlice_Reimagination_Carrolls_Alice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.9,
+                -0.3
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.55,
+              "confidence_interval": [
+                0.452,
+                0.648
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.9908,
+            "C": -0.7058,
+            "E": 0.5705,
+            "A": -0.1311,
+            "N": -0.1033
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:11:07.790902+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001012
+        }
+      ]
+    },
+    {
+      "coref_id": "909",
+      "character_name": "The Queen of Hearts",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3800294117647059,
+        "C": -0.7077235294117648,
+        "E": 0.40760588235294115,
+        "A": -0.8678,
+        "N": 0.8893764705882353
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7101,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.4,
+            "C": -0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Queen of Hearts character description.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": -0.8,
+              "confidence_interval": [
+                -1.0,
+                -0.212
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1.0,
+                -0.312
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.312,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3515,
+            "C": -0.5759,
+            "E": -0.0101,
+            "A": -0.8218,
+            "N": 0.8742
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:11:39.554788+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000924
+        }
+      ]
+    },
+    {
+      "coref_id": "26",
+      "character_name": "The White Rabbit",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2795352941176471,
+        "C": -0.10777647058823529,
+        "E": -0.483535294117647,
+        "A": 0.16140000000000002,
+        "N": 0.6110411764705882
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1954,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.3,
+            "C": -0.6,
+            "E": -0.7,
+            "A": 0.3,
+            "N": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "White Rabbit character description.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.6,
+                0.0
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2503,
+            "C": 0.5954,
+            "E": -0.1743,
+            "A": -0.0366,
+            "N": 0.3411
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:12:23.839951+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000796
+        }
+      ]
+    },
+    {
+      "coref_id": "220",
+      "character_name": "The Caterpillar",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4857000000000001,
+        "C": 0.30186666666666667,
+        "E": -0.22350000000000003,
+        "A": 0.13310000000000005,
+        "N": -0.4047
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5007,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.4,
+            "E": -0.3,
+            "A": 0.3,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Flegar2016_Alice_Through_Ages_Childhood.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2571,
+            "C": 0.1056,
+            "E": -0.0705,
+            "A": -0.2007,
+            "N": -0.4141
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:13:15.611615+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00094
+        }
+      ]
+    },
+    {
+      "coref_id": "84",
+      "character_name": "The Knave of Hearts",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "A": -0.5
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "A": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Flegar2016_Alice_Through_Ages_Childhood.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

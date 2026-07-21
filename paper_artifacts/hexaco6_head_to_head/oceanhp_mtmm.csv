@@ -1,0 +1,4 @@
+vector,method_a,method_b,n_traits,n_conv_3ineq,n_conv_floor,n_traits_convergent,monotrait_mean,monotrait_min,hetero_hh_max_mean,hetero_mm_max_mean
+OCEAN-HP,anthropic,openai,7,5,5,5,0.8315795573896122,0.795430872173989,0.41364595093736395,0.4692755697906285
+OCEAN-HP,anthropic,google,7,5,5,5,0.7482945050320146,0.642785544311503,0.3467877923687767,0.45154198238057486
+OCEAN-HP,openai,google,7,4,4,4,0.7294197308368567,0.5190447486779661,0.3342966112217876,0.47909637777685626

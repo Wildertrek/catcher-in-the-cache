@@ -1,0 +1,90 @@
+{
+  "spec": {
+    "test": "OCEAN-HP-proper permutation null on archetype stability",
+    "n_perm": 10000,
+    "seed": 20260513,
+    "permutation_scheme": "jointly permute H and P across characters; preserves within-char H/P dependence, breaks char-to-OCEAN linkage",
+    "feature_set": "OCEAN-5 + H + P (= OCEAN-HP, the seven-factor trait vector locked by the paper's title)",
+    "hexaco_source": "Google HEXACO predictions (matches the cpm_archetype_recovery.json data path; cross-provider sensitivity check available via hexaco_cross_provider analyses)"
+  },
+  "n_chars": 60,
+  "observed": {
+    "n_stable": 53,
+    "n_moved": 7,
+    "pct_stable": 0.8833,
+    "pct_moved": 0.1167,
+    "movers": [
+      {
+        "op_name": "Daisy Buchanan",
+        "book": "the_great_gatsby",
+        "from": "Lover",
+        "to": "Wounded Innocent",
+        "OCEAN_A": 0.15,
+        "HH": -0.3,
+        "A_HEX": 0.7
+      },
+      {
+        "op_name": "Tom Buchanan",
+        "book": "the_great_gatsby",
+        "from": "Punitive Authoritarian",
+        "to": "Ruler",
+        "OCEAN_A": -0.8,
+        "HH": -0.8,
+        "A_HEX": -0.5
+      },
+      {
+        "op_name": "Queen Gertrude",
+        "book": "hamlet",
+        "from": "Orphan/Everyman",
+        "to": "Wounded Innocent",
+        "OCEAN_A": 0.55,
+        "HH": -0.4,
+        "A_HEX": 0.3
+      },
+      {
+        "op_name": "King Claudius",
+        "book": "hamlet",
+        "from": "Political Machinator",
+        "to": "Ruler",
+        "OCEAN_A": -0.6,
+        "HH": -0.8,
+        "A_HEX": 0.7
+      },
+      {
+        "op_name": "Elinor Dashwood",
+        "book": "sense_and_sensibility",
+        "from": "Sage/Mentor",
+        "to": "Principled Elder",
+        "OCEAN_A": 0.5,
+        "HH": 0.8,
+        "A_HEX": 0.9
+      },
+      {
+        "op_name": "Horatio",
+        "book": "hamlet",
+        "from": "Sage/Mentor",
+        "to": "Principled Elder",
+        "OCEAN_A": 0.7,
+        "HH": 0.8,
+        "A_HEX": 0.7
+      },
+      {
+        "op_name": "Lydia Bennet",
+        "book": "pride_and_prejudice",
+        "from": "Outlaw/Rebel",
+        "to": "Embittered Outcast",
+        "OCEAN_A": -0.4,
+        "HH": -0.8,
+        "A_HEX": -0.5
+      }
+    ]
+  },
+  "null_distribution": {
+    "mean_pct_stable": 0.8769,
+    "ci_lo_2_5": 0.8167,
+    "ci_hi_97_5": 0.9333,
+    "max_pct_stable": 0.9833
+  },
+  "p_one_sided": 0.5262,
+  "interpretation": "p_one_sided is the fraction of null permutations producing as much or more stability as observed. If p < 0.05, the observed OCEAN-HP-stable rate exceeds what permuted-H/P would produce by chance at the n=60 subset size."
+}

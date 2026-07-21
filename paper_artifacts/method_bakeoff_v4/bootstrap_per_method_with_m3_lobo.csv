@@ -1,0 +1,13 @@
+method,trait,n,MAE,r,CCC
+M3_regressor_in_distribution,O,562,0.2340,0.6574,0.6382
+M3_regressor_in_distribution,C,562,0.2962,0.6067,0.5792
+M3_regressor_in_distribution,E,562,0.2598,0.5801,0.5724
+M3_regressor_in_distribution,A,562,0.2566,0.7559,0.7502
+M3_regressor_in_distribution,N,562,0.2653,0.6256,0.5961
+M3_regressor_in_distribution,ALL,562,0.2624,0.6451,0.6272
+M3_regressor_lobo,O,562,0.3175,0.3115,0.1034
+M3_regressor_lobo,C,562,0.3302,0.3579,0.1513
+M3_regressor_lobo,E,562,0.2700,0.3761,0.1766
+M3_regressor_lobo,A,562,0.3622,0.4084,0.1988
+M3_regressor_lobo,N,562,0.2787,0.3255,0.1270
+M3_regressor_lobo,ALL,562,0.3117,0.3559,0.1514

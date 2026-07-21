@@ -1,0 +1,76 @@
+{
+  "n_chars": 60,
+  "n_works_in_subset": 13,
+  "n_archetypes_represented": 12,
+  "archetypes_not_represented": [
+    "Charismatic Rogue",
+    "Functionary",
+    "Hero/Warrior"
+  ],
+  "works": {
+    "anna_karenina": 9,
+    "pride_and_prejudice": 9,
+    "the_great_gatsby": 6,
+    "romeo_and_juliet": 6,
+    "hamlet": 6,
+    "les_miserables": 5,
+    "twelfth_night": 5,
+    "sense_and_sensibility": 4,
+    "a_tale_of_two_cities": 3,
+    "adventures_of_huckleberry_finn": 2,
+    "macbeth": 2,
+    "jane_eyre": 2,
+    "the_scarlet_letter": 1
+  },
+  "archetypes": {
+    "Sage/Mentor": 11,
+    "Orphan/Everyman": 8,
+    "Wounded Innocent": 7,
+    "Lover": 6,
+    "Punitive Authoritarian": 6,
+    "Outlaw/Rebel": 6,
+    "Tortured Protagonist": 4,
+    "Creator": 4,
+    "Political Machinator": 3,
+    "Ruler": 2,
+    "Embittered Outcast": 2,
+    "Principled Elder": 1
+  },
+  "quartile_coverage": {
+    "O": {
+      "q1": 11,
+      "q2": 12,
+      "q3": 17,
+      "q4": 20
+    },
+    "C": {
+      "q1": 14,
+      "q2": 11,
+      "q3": 14,
+      "q4": 21
+    },
+    "E": {
+      "q1": 20,
+      "q2": 10,
+      "q3": 6,
+      "q4": 24
+    },
+    "A": {
+      "q1": 10,
+      "q2": 12,
+      "q3": 12,
+      "q4": 26
+    },
+    "N": {
+      "q1": 7,
+      "q2": 22,
+      "q3": 11,
+      "q4": 20
+    }
+  },
+  "genre_composition": {
+    "shakespeare": 19,
+    "austen": 13,
+    "other": 28
+  }
+}

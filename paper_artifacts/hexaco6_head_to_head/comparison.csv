@@ -1,0 +1,7 @@
+metric,HEXACO-6,OCEAN-HP,OCEAN-6
+n traits,6,7,6
+n chars (all 3 raters),57,56,57
+n rater pairs,3,3,3
+"mean traits clearing 3-inequality (per pair, of total)",6.00 / 6,4.67 / 7,5.00 / 6
+"mean traits clearing 3-ineq + floor (per pair, of total)",6.00 / 6,4.67 / 7,5.00 / 6
+mean monotrait-heteromethod r,0.764,0.770,0.759

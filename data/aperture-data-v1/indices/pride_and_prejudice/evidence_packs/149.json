@@ -1,0 +1,491 @@
+{
+  "coref_id": "149",
+  "character_name": "Chapter XL",
+  "quote_count": 18,
+  "mention_count": 5,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "429",
+      2
+    ],
+    [
+      "152",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Accompanied by their aunt \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5816,
+      "quote_end": 5821,
+      "addressee_coref_id": "429",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c He never failed to inform them \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c The gentlemen accompanied him \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c On looking up \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Hearing herself called \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c On looking up \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5823,
+      "quote_end": 5827,
+      "addressee_coref_id": "429",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c The gentlemen accompanied him \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Accompanied by their aunt \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Hearing herself called \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Meeting accidentally in town \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Hearing herself called \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5835,
+      "quote_end": 5839,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Accompanied by their aunt \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c On looking up \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Meeting accidentally in town \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Meeting accidentally in town \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5847,
+      "quote_end": 5852,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c On looking up \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Hearing herself called \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Dawson \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c His parting obeisance \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5854,
+      "quote_end": 5858,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Hearing herself called \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Meeting accidentally in town \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Dawson \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The elevation of his feelings \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Dawson \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5860,
+      "quote_end": 5862,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Meeting accidentally in town \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The elevation of his feelings \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c They had forgotten to leave any message \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The elevation of his feelings \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5864,
+      "quote_end": 5870,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Dawson \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c They had forgotten to leave any message \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c How nicely we are crammed in ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c They had forgotten to leave any message \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5872,
+      "quote_end": 5880,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Dawson \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The elevation of his feelings \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c How nicely we are crammed in ! \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I am determined never to speak of it again \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How nicely we are crammed in ! \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5882,
+      "quote_end": 5890,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The elevation of his feelings \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c They had forgotten to leave any message \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I am determined never to speak of it again \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am determined never to speak of it again \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5898,
+      "quote_end": 5908,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c They had forgotten to leave any message \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c How nicely we are crammed in ! \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Tenderly flirting \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5910,
+      "quote_end": 5918,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c How nicely we are crammed in ! \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I am determined never to speak of it again \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Tenderly flirting \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Conjecturing as to the date \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Tenderly flirting \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5920,
+      "quote_end": 5923,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I am determined never to speak of it again \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Conjecturing as to the date \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To make herself agreeable to all \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Conjecturing as to the date \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5931,
+      "quote_end": 5937,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Tenderly flirting \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To make herself agreeable to all \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Engaged by the river \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c To make herself agreeable to all \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5945,
+      "quote_end": 5952,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Tenderly flirting \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Conjecturing as to the date \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Engaged by the river \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I have not an instant to lose \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Engaged by the river \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5954,
+      "quote_end": 5959,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Conjecturing as to the date \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To make herself agreeable to all \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I have not an instant to lose \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The first pleasing earnest of their welcome \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I have not an instant to lose \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5967,
+      "quote_end": 5975,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To make herself agreeable to all \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Engaged by the river \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The first pleasing earnest of their welcome \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To whom I have related the affair \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The first pleasing earnest of their welcome \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5977,
+      "quote_end": 5985,
+      "addressee_coref_id": "152",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Engaged by the river \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I have not an instant to lose \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c To whom I have related the affair \u201d"
+        },
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c But perhaps you would like to read it \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c To whom I have related the affair \u201d",
+      "mention_text": "Chapter XL",
+      "quote_start": 5990,
+      "quote_end": 5998,
+      "addressee_coref_id": "152",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c I have not an instant to lose \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c The first pleasing earnest of their welcome \u201d"
+        },
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c But perhaps you would like to read it \u201d"
+        },
+        {
+          "speaker_coref_id": "152",
+          "quote_text": "\u201c The spiteful old ladies \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "regressor_consensus_1536d_v1",
+  "type": "MultiOutputRegressor(RandomForestRegressor)",
+  "training_samples": 826,
+  "embedding_dim": 1536,
+  "output_dim": 5,
+  "output_traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "output_range": [
+    -1,
+    1
+  ],
+  "n_estimators": 300,
+  "max_depth": 15,
+  "source": "consensus",
+  "note": "Trained on MRL-truncated text-embedding-3-large (first 1536 dims of cached 3072-dim mean_embedding).",
+  "trained_at": "2026-04-15T00:40:10.341974+00:00",
+  "in_sample_mae": 0.1241
+}

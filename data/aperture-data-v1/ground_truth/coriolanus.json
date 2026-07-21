@@ -1,0 +1,830 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Coriolanus",
+    "author": "William Shakespeare",
+    "year": "c. 1608"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_caius_martius_coriolanus",
+      "character_name": "Caius Martius Coriolanus",
+      "quote_count": 187,
+      "consensus_ocean": {
+        "O": -0.37958421052631575,
+        "C": 0.6789263157894737,
+        "E": 0.10070526315789473,
+        "A": -0.7920631578947369,
+        "N": 0.4388
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": -0.5,
+            "A": -0.8,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\n  \"O\": 0.0,\n  \"C\": 0.8,\n  \"E\": -0.5,\n  \"A\": -0.8,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Coriolanus is often characterized as disciplined and reliable in his military pursuits, but he exhibits low agreeableness and extraversion, as noted by critics like A.C. Bradley and Harold Bloom, who emphasize his pride and disdain for the common people.\"\n}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.85,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.85,\n  \"N\": 0.75,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus from Bradley onward emphasizes Coriolanus's rigid, martial conventionality; iron discipline and military prowess; forceful dominance and contempt for civilians; profound inability to empathize or adapt socially; and volatile pride-driven emotional reactivity that precipitates tragedy.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4303,
+            "C": 0.6428,
+            "E": 0.0162,
+            "A": -0.7356,
+            "N": 0.1196
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:40:45.830714+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003009
+        }
+      ]
+    },
+    {
+      "coref_id": "char_menenius_agrippa",
+      "character_name": "Menenius Agrippa",
+      "quote_count": 164,
+      "consensus_ocean": {
+        "O": 0.327692,
+        "C": 0.6017359999999999,
+        "E": 0.692672,
+        "A": 0.674496,
+        "N": -0.43508800000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.7,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.7, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Menenius Agrippa is often viewed as a pragmatic and diplomatic character, balancing social engagement with a degree of reliability, as noted in various analyses of his role as a mediator in the political conflicts of 'Coriolanus'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.8,
+            "A": 0.7,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": 0.7,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Traversi) identifies Menenius as a pragmatic, socially skilled mediator whose rhetorical gifts and emotional stability serve his role as peacemaker, though his conventional wisdom and limited imaginative scope constrain higher Openness scores.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": 0.9,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": 0.9,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Menenius as a pragmatic, witty, and highly agreeable mediator, whose attempts at diplomacy and empathy are ultimately overwhelmed by the play's tragic conflicts.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3989,
+            "C": 0.6062,
+            "E": 0.5024,
+            "A": 0.5232,
+            "N": -0.4396
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:41:30.248921+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002449
+        }
+      ]
+    },
+    {
+      "coref_id": "char_sicinius_velutus",
+      "character_name": "Sicinius Velutus",
+      "quote_count": 117,
+      "consensus_ocean": {
+        "O": -0.422544,
+        "C": 0.6575759999999999,
+        "E": 0.22902,
+        "A": -0.6861119999999999,
+        "N": 0.175956
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Sicinius Velutus is often viewed as a manipulative and self-serving character, reflecting a moderate level of conscientiousness but low agreeableness and extraversion, as noted in various analyses of the political dynamics in 'Coriolanus'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.7,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Sicinius is a minor tribune whose characterization in published criticism (e.g., Bloom, Traversi) emphasizes his conventional political scheming, organizational competence in mob manipulation, low empathy toward Coriolanus, and moderate emotional instability under pressure, though limited textual presence constrains confidence.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.9,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": -0.2,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus, from A.C. Bradley to modern analyses, consistently portrays Sicinius as a cunning, manipulative, and politically astute demagogue, lacking empathy and driven by strategic opposition to Coriolanus.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3948,
+            "C": 0.6342,
+            "E": 0.0465,
+            "A": -0.6504,
+            "N": -0.0573
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:42:03.456582+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00168
+        }
+      ]
+    },
+    {
+      "coref_id": "char_junius_brutus",
+      "character_name": "Junius Brutus",
+      "quote_count": 90,
+      "consensus_ocean": {
+        "O": -0.38634,
+        "C": 0.6916040000000001,
+        "E": 0.25349999999999995,
+        "A": -0.5817680000000001,
+        "N": -0.25492
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.0,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.0, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Junius Brutus is often viewed as a pragmatic and somewhat stoic character, reflecting a balance of conscientiousness and low emotional volatility, as noted in various analyses of the political dynamics in 'Coriolanus'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Junius Brutus is a minor character whose limited stage presence and functional role in the political machinery receive sparse individual critical attention; scholars typically treat him as part of the tribunes' collective representation of populist manipulation rather than as a psychologically complex protagonist warranting detailed personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.9,
+            "E": 0.5,
+            "A": -0.9,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.9,\n  \"E\": 0.5,\n  \"A\": -0.9,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Junius Brutus as a shrewd, calculating, and politically manipulative figure, characterized by his strategic planning, lack of empathy, and emotional control in his opposition to Coriolanus.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2655,
+            "C": 0.5843,
+            "E": -0.0375,
+            "A": -0.6206,
+            "N": -0.139
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:42:42.199249+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001998
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cominius",
+      "character_name": "Cominius",
+      "quote_count": 66,
+      "consensus_ocean": {
+        "O": -0.24404399999999998,
+        "C": 0.7392079999999999,
+        "E": 0.516184,
+        "A": 0.418848,
+        "N": -0.48251999999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.1,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.2, \"A\": 0.1, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Cominius is often portrayed as a disciplined and reliable military leader, but he lacks warmth and is not particularly imaginative or socially engaging, as noted in various analyses of his role in the political and military dynamics of 'Coriolanus'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.7,
+            "E": 0.6,
+            "A": 0.5,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": 0.5,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Cominius emerges in criticism as a loyal, disciplined military commander and political voice of reason\u2014conventional in outlook, emotionally stable, and socially engaged as mediator\u2014though his minor role limits depth of published psychological analysis beyond his function as foil to Coriolanus's extremism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.7,
+            "A": 0.7,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": 0.7,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Cominius as a loyal, disciplined, and agreeable Roman general, contrasting his steady temperament and conventional outlook with Coriolanus's volatility and uncompromising nature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3573,
+            "C": 0.6686,
+            "E": 0.5578,
+            "A": 0.3816,
+            "N": -0.609
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:43:12.399646+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002082
+        }
+      ]
+    },
+    {
+      "coref_id": "char_volumnia",
+      "character_name": "Volumnia",
+      "quote_count": 57,
+      "consensus_ocean": {
+        "O": -0.30346799999999996,
+        "C": 0.7228839999999999,
+        "E": 0.560704,
+        "A": -0.586008,
+        "N": 0.15852400000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.5, \"A\": -0.5, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight Volumnia's strong will and disciplined nature, emphasizing her assertiveness and complex emotional landscape, while noting her lack of empathy towards others.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.75,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.75,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, modern scholarship) identifies Volumnia as a domineering, conventionally ambitious matriarch whose rigid adherence to martial honor, calculated manipulation of her son, and emotional coldness define her character\u2014she embodies instrumental will over empathy or imaginative flexibility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.7,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.7,\n  \"N\": -0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Volumnia as a stern, highly disciplined, and assertive Roman matron, deeply traditional and lacking in imaginative flexibility or tender empathy, yet possessing remarkable emotional fortitude.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2019,
+            "C": 0.6103,
+            "E": 0.4168,
+            "A": -0.3786,
+            "N": 0.2233
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:43:43.706618+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002311
+        }
+      ]
+    },
+    {
+      "coref_id": "char_tullus_aufidius",
+      "character_name": "Tullus Aufidius",
+      "quote_count": 45,
+      "consensus_ocean": {
+        "O": -0.252584,
+        "C": 0.6535719999999999,
+        "E": 0.52326,
+        "A": -0.707704,
+        "N": 0.535492
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6455,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Tullus Aufidius is often portrayed as a disciplined and assertive leader, yet his rivalry with Coriolanus and his willingness to engage in conflict suggest a complex personality marked by both ambition and volatility.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, and modern Shakespearean scholarship) identifies Aufidius as a martial pragmatist of rigid honor-codes, militarily disciplined and socially commanding but fundamentally unempathetic, driven by competitive resentment toward Coriolanus and prone to volatile shifts between alliance and betrayal.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Aufidius as a disciplined and assertive military leader, driven by intense rivalry, ambition, and ultimately, treacherous envy towards Coriolanus, rather than by imagination or agreeableness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3878,
+            "C": 0.6199,
+            "E": 0.1545,
+            "A": -0.6418,
+            "N": 0.2839
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:44:13.963888+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002076
+        }
+      ]
+    },
+    {
+      "coref_id": "char_first_citizen",
+      "character_name": "First Citizen",
+      "quote_count": 34,
+      "consensus_ocean": {
+        "O": -0.336028,
+        "C": -0.15620799999999999,
+        "E": 0.5350360000000001,
+        "A": -0.391768,
+        "N": 0.27281999999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.2,
+            "A": 0.1,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.2, \"A\": 0.1, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"The First Citizen in 'Coriolanus' is often viewed as a representative of the common people, displaying moderate conscientiousness and low neuroticism, but lacks significant depth in personality traits according to critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.6,
+            "E": 0.8,
+            "A": -0.85,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.6,\n  \"E\": 0.8,\n  \"A\": -0.85,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"First Citizen is a minor, collective voice representing plebeian discontent; published criticism (e.g., Bloom, Frye) focuses on Coriolanus, Volumnia, and Menenius, leaving this character too underdeveloped for robust personality assessment beyond his functional role as populist agitator.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.5,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism, including analyses of the Roman plebeians' role in 'Coriolanus,' interprets the First Citizen as a representative figure embodying the pragmatic, volatile, and often resentful nature of the common populace.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0001,
+            "C": -0.0436,
+            "E": 0.4537,
+            "A": -0.0706,
+            "N": 0.0315
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:44:50.133304+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001277
+        }
+      ]
+    },
+    {
+      "coref_id": "char_virgilia",
+      "character_name": "Virgilia",
+      "quote_count": 26,
+      "consensus_ocean": {
+        "O": -0.38459199999999993,
+        "C": 0.504704,
+        "E": -0.46971999999999997,
+        "A": 0.6345319999999999,
+        "N": 0.46047200000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Virgilia is often seen as a supportive yet somewhat passive character, reflecting moderate traits in conscientiousness and agreeableness, while her emotional responses suggest a degree of neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.6,
+            "E": -0.4,
+            "A": 0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.6,\n  \"E\": -0.4,\n  \"A\": 0.7,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, modern feminist criticism) identifies Virgilia as a dutiful, emotionally restrained wife whose constancy and domestic virtue contrast sharply with Coriolanus's martial excess, though her limited stage presence and agency restrict depth of analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.4,
+            "E": -0.8,
+            "A": 0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.4,\n  \"E\": -0.8,\n  \"A\": 0.8,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism, including analyses contrasting her with Volumnia, consistently depicts Virgilia as a quiet, devoted, and emotionally sensitive wife, highlighting her domesticity and aversion to public life.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5164,
+            "C": 0.5168,
+            "E": -0.649,
+            "A": 0.5519,
+            "N": 0.1874
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:45:25.686530+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00101
+        }
+      ]
+    },
+    {
+      "coref_id": "char_titus_lartius",
+      "character_name": "Titus Lartius",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": -0.12883684210526317,
+        "C": 0.6348526315789474,
+        "E": 0.3613789473684211,
+        "A": 0.36590526315789473,
+        "N": -0.4440263157894737
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.0,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.0, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Titus Lartius is often viewed as a loyal and disciplined soldier, but he lacks the depth and complexity of main characters, leading to limited critical analysis.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.7,
+            "E": 0.6,
+            "A": 0.5,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": 0.5,\n  \"N\": -0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Titus Lartius is a minor military figure whose characterization receives minimal sustained critical attention in major Shakespearean scholarship; he appears primarily as a loyal, disciplined soldier and ally to Coriolanus without sufficient textual development for confident personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3497,
+            "C": 0.6946,
+            "E": 0.4666,
+            "A": 0.5646,
+            "N": -0.5195
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:46:14.321807+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001093
+        }
+      ]
+    }
+  ]
+}

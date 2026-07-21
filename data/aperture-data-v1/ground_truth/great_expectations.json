@@ -1,0 +1,1991 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T20:27:39Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "1005",
+      "character_name": "Magwitch",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.19732941176470592,
+        "C": -0.14334705882352944,
+        "E": 0.24448235294117648,
+        "A": 0.28148235294117646,
+        "N": 0.19125882352941176
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8634,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.4,
+            "C": -0.4,
+            "E": 0.6,
+            "A": 0.476,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tang2015_Pips_Cognitive_Development_Great.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.476,
+              "confidence_interval": [
+                0.16,
+                0.792
+              ],
+              "n_sources": 5,
+              "std_dev": 0.161
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0922,
+            "C": 0.2233,
+            "E": -0.2634,
+            "A": 0.0036,
+            "N": -0.2498
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:18:15.678742+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000891
+        }
+      ]
+    },
+    {
+      "coref_id": "246",
+      "character_name": "Dolge Orlick",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.5676000000000001,
+        "C": -0.6025666666666668,
+        "E": -0.34140000000000004,
+        "A": -0.8316666666666667,
+        "N": 0.5536000000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3282,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.6,
+            "E": -0.3,
+            "A": -0.871,
+            "N": 0.663
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.9,
+                -0.3
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.6,
+                -0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.871,
+              "confidence_interval": [
+                -0.96,
+                -0.782
+              ],
+              "n_sources": 2,
+              "std_dev": 0.045
+            },
+            "N": {
+              "score": 0.663,
+              "confidence_interval": [
+                0.568,
+                0.758
+              ],
+              "n_sources": 2,
+              "std_dev": 0.048
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5028,
+            "C": -0.6077,
+            "E": -0.4242,
+            "A": -0.753,
+            "N": 0.3348
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:18:52.391741+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000993
+        }
+      ]
+    },
+    {
+      "coref_id": "271",
+      "character_name": "Pip",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3146666666666667,
+        "C": -0.12440000000000004,
+        "E": -0.38600000000000007,
+        "A": 0.1715,
+        "N": 0.5053666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8148,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.424,
+            "C": -0.396,
+            "E": -0.423,
+            "A": 0.096,
+            "N": 0.696
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ETD-5608-035-ZHANG-7928.86.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Nur2021_Culture_Reproduction_Charles_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tang2015_Pips_Cognitive_Development_Great.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ntn-1664-tyler.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_596169.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947505.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.424,
+              "confidence_interval": [
+                0.061,
+                0.786
+              ],
+              "n_sources": 4,
+              "std_dev": 0.185
+            },
+            "C": {
+              "score": -0.396,
+              "confidence_interval": [
+                -0.981,
+                0.188
+              ],
+              "n_sources": 9,
+              "std_dev": 0.298
+            },
+            "E": {
+              "score": -0.423,
+              "confidence_interval": [
+                -0.911,
+                0.066
+              ],
+              "n_sources": 5,
+              "std_dev": 0.249
+            },
+            "A": {
+              "score": 0.096,
+              "confidence_interval": [
+                -0.891,
+                1.0
+              ],
+              "n_sources": 13,
+              "std_dev": 0.504
+            },
+            "N": {
+              "score": 0.696,
+              "confidence_interval": [
+                0.493,
+                0.899
+              ],
+              "n_sources": 13,
+              "std_dev": 0.103
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.096,
+            "C": 0.4188,
+            "E": -0.312,
+            "A": 0.3225,
+            "N": 0.1241
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:19:28.013102+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000973
+        }
+      ]
+    },
+    {
+      "coref_id": "210",
+      "character_name": "Estella",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.023066666666666676,
+        "C": 0.38763333333333344,
+        "E": -0.19686666666666672,
+        "A": -0.7169333333333334,
+        "N": 0.05343333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5282,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.153,
+            "C": 0.494,
+            "E": -0.252,
+            "A": -0.682,
+            "N": 0.19
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ETD-5608-035-ZHANG-7928.86.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tang2015_Pips_Cognitive_Development_Great.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_596169.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.153,
+              "confidence_interval": [
+                -0.571,
+                0.877
+              ],
+              "n_sources": 2,
+              "std_dev": 0.369
+            },
+            "C": {
+              "score": 0.494,
+              "confidence_interval": [
+                0.243,
+                0.744
+              ],
+              "n_sources": 4,
+              "std_dev": 0.128
+            },
+            "E": {
+              "score": -0.252,
+              "confidence_interval": [
+                -0.806,
+                0.303
+              ],
+              "n_sources": 4,
+              "std_dev": 0.283
+            },
+            "A": {
+              "score": -0.682,
+              "confidence_interval": [
+                -0.908,
+                -0.456
+              ],
+              "n_sources": 12,
+              "std_dev": 0.115
+            },
+            "N": {
+              "score": 0.19,
+              "confidence_interval": [
+                -0.466,
+                0.845
+              ],
+              "n_sources": 5,
+              "std_dev": 0.334
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3752,
+            "C": 0.1749,
+            "E": -0.0866,
+            "A": -0.7868,
+            "N": -0.2197
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:20:15.058656+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001241
+        }
+      ]
+    },
+    {
+      "coref_id": "204",
+      "character_name": "Miss Havisham",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.07736666666666668,
+        "C": -0.2109666666666667,
+        "E": -0.4139666666666667,
+        "A": -0.7842666666666668,
+        "N": 0.7502333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5669,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.004,
+            "C": -0.022,
+            "E": -0.232,
+            "A": -0.759,
+            "N": 0.837
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Osi\u0144ska2019_Then_Thickest_Dark_did.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tang2015_Pips_Cognitive_Development_Great.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ntn-1664-tyler.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947505.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.004,
+              "confidence_interval": [
+                -0.843,
+                0.835
+              ],
+              "n_sources": 5,
+              "std_dev": 0.428
+            },
+            "C": {
+              "score": -0.022,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 8,
+              "std_dev": 0.564
+            },
+            "E": {
+              "score": -0.232,
+              "confidence_interval": [
+                -1.0,
+                0.758
+              ],
+              "n_sources": 8,
+              "std_dev": 0.505
+            },
+            "A": {
+              "score": -0.759,
+              "confidence_interval": [
+                -0.932,
+                -0.587
+              ],
+              "n_sources": 12,
+              "std_dev": 0.088
+            },
+            "N": {
+              "score": 0.837,
+              "confidence_interval": [
+                0.645,
+                1.0
+              ],
+              "n_sources": 12,
+              "std_dev": 0.098
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2401,
+            "C": -0.5889,
+            "E": -0.7779,
+            "A": -0.8348,
+            "N": 0.5767
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:21:05.220805+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001188
+        }
+      ]
+    },
+    {
+      "coref_id": "150",
+      "character_name": "Mrs. Joe Gargery",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3,
+        "C": 0.233,
+        "E": 0.265,
+        "A": -0.654,
+        "N": 0.711
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.233,
+            "E": 0.265,
+            "A": -0.654,
+            "N": 0.711
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.3,
+                -0.3
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.233,
+              "confidence_interval": [
+                -0.783,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.519
+            },
+            "E": {
+              "score": 0.265,
+              "confidence_interval": [
+                -0.938,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.614
+            },
+            "A": {
+              "score": -0.654,
+              "confidence_interval": [
+                -1.0,
+                0.014
+              ],
+              "n_sources": 8,
+              "std_dev": 0.341
+            },
+            "N": {
+              "score": 0.711,
+              "confidence_interval": [
+                0.421,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.148
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "196",
+      "character_name": "Joe Gargery",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.48400000000000004,
+        "C": 0.43400000000000005,
+        "E": 0.30456666666666665,
+        "A": 0.7143333333333334,
+        "N": -0.4214666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.348,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.542,
+            "E": 0.236,
+            "A": 0.79,
+            "N": -0.482
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Nur2021_Culture_Reproduction_Charles_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Shrestha2020_Impact_Capitalist_Psychology_Mid.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tang2015_Pips_Cognitive_Development_Great.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.9,
+                -0.3
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.542,
+              "confidence_interval": [
+                0.445,
+                0.638
+              ],
+              "n_sources": 2,
+              "std_dev": 0.049
+            },
+            "E": {
+              "score": 0.236,
+              "confidence_interval": [
+                -0.706,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.481
+            },
+            "A": {
+              "score": 0.79,
+              "confidence_interval": [
+                0.591,
+                0.989
+              ],
+              "n_sources": 9,
+              "std_dev": 0.102
+            },
+            "N": {
+              "score": -0.482,
+              "confidence_interval": [
+                -0.631,
+                -0.334
+              ],
+              "n_sources": 3,
+              "std_dev": 0.076
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.252,
+            "C": 0.218,
+            "E": 0.4417,
+            "A": 0.563,
+            "N": -0.3004
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:21:39.999048+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000842
+        }
+      ]
+    },
+    {
+      "coref_id": "305",
+      "character_name": "Herbert Pocket",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4959000000000001,
+        "C": 0.3942333333333334,
+        "E": 0.5416000000000001,
+        "A": 0.5984,
+        "N": -0.4172
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1752,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.55,
+            "C": 0.356,
+            "E": 0.6,
+            "A": 0.608,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.55,
+              "confidence_interval": [
+                0.25,
+                0.85
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.356,
+              "confidence_interval": [
+                -0.707,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.543
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.608,
+              "confidence_interval": [
+                0.341,
+                0.876
+              ],
+              "n_sources": 3,
+              "std_dev": 0.137
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3877,
+            "C": 0.4707,
+            "E": 0.4248,
+            "A": 0.5792,
+            "N": -0.4516
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:22:11.909921+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001629
+        }
+      ]
+    },
+    {
+      "coref_id": "476",
+      "character_name": "Mr. Wemmick",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.05556666666666667,
+        "C": 0.6315,
+        "E": 0.34086666666666665,
+        "A": 0.6010333333333333,
+        "N": -0.3841333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4333,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.7,
+            "E": 0.3,
+            "A": 0.614,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Dupovac2022_Charles_Dickens_display_social.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.2,
+              "confidence_interval": [
+                -0.1,
+                0.5
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.614,
+              "confidence_interval": [
+                0.348,
+                0.88
+              ],
+              "n_sources": 2,
+              "std_dev": 0.136
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2333,
+            "C": 0.4945,
+            "E": 0.4226,
+            "A": 0.5751,
+            "N": -0.3524
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:22:47.948936+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000769
+        }
+      ]
+    },
+    {
+      "coref_id": "195",
+      "character_name": "Biddy",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.20313333333333336,
+        "C": 0.6576333333333333,
+        "E": 0.25293333333333334,
+        "A": 0.7357000000000001,
+        "N": -0.46013333333333345
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6926,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.434,
+            "C": 0.7,
+            "E": 0.358,
+            "A": 0.786,
+            "N": -0.458
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "The_meta-psychology_of_guilt_and_redemption_A_case_study_of_Dickens_s_Pip.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.434,
+              "confidence_interval": [
+                0.047,
+                0.82
+              ],
+              "n_sources": 2,
+              "std_dev": 0.197
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 4,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.358,
+              "confidence_interval": [
+                0.262,
+                0.455
+              ],
+              "n_sources": 2,
+              "std_dev": 0.049
+            },
+            "A": {
+              "score": 0.786,
+              "confidence_interval": [
+                0.718,
+                0.854
+              ],
+              "n_sources": 4,
+              "std_dev": 0.035
+            },
+            "N": {
+              "score": -0.458,
+              "confidence_interval": [
+                -0.752,
+                -0.165
+              ],
+              "n_sources": 3,
+              "std_dev": 0.15
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2586,
+            "C": 0.5729,
+            "E": 0.0428,
+            "A": 0.6351,
+            "N": -0.4644
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:23:31.421043+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001088
+        }
+      ]
+    },
+    {
+      "coref_id": "323",
+      "character_name": "Bentley Drummle",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2501,
+        "C": 0.0389,
+        "E": 0.21490000000000004,
+        "A": -0.5523666666666668,
+        "N": -0.2626
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7909,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "A": -0.816
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "intertextual-estella-great-expectations-gender-and-literary-tradition.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.816,
+              "confidence_interval": [
+                -0.888,
+                -0.744
+              ],
+              "n_sources": 3,
+              "std_dev": 0.037
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2501,
+            "C": 0.0389,
+            "E": 0.2149,
+            "A": -0.0251,
+            "N": -0.2626
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:24:09.007938+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000808
+        }
+      ]
+    },
+    {
+      "coref_id": "268",
+      "character_name": "Mr. Jaggers",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3336333333333334,
+        "C": 0.6477666666666667,
+        "E": -0.01276666666666667,
+        "A": -0.6478666666666667,
+        "N": -0.32239999999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6263,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.619,
+            "E": 0.196,
+            "A": -0.686,
+            "N": -0.119
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_596169.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.6,
+                0.0
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.619,
+              "confidence_interval": [
+                0.476,
+                0.761
+              ],
+              "n_sources": 4,
+              "std_dev": 0.073
+            },
+            "E": {
+              "score": 0.196,
+              "confidence_interval": [
+                -0.985,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.602
+            },
+            "A": {
+              "score": -0.686,
+              "confidence_interval": [
+                -1.0,
+                -0.332
+              ],
+              "n_sources": 3,
+              "std_dev": 0.181
+            },
+            "N": {
+              "score": -0.119,
+              "confidence_interval": [
+                -1.0,
+                0.893
+              ],
+              "n_sources": 3,
+              "std_dev": 0.517
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4009,
+            "C": 0.7053,
+            "E": -0.4303,
+            "A": -0.5716,
+            "N": -0.7292
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:25:03.745065+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001412
+        }
+      ]
+    },
+    {
+      "coref_id": "171",
+      "character_name": "Mr. Pumblechook",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3032,
+        "C": 0.45640000000000003,
+        "E": 0.2698,
+        "A": -0.48128823529411763,
+        "N": -0.4798
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2883,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": -0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Terci2014_Freedom_Choice_snob_gentleman.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3032,
+            "C": 0.4564,
+            "E": 0.2698,
+            "A": -0.3117,
+            "N": -0.4798
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:25:49.770275+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001036
+        }
+      ]
+    },
+    {
+      "coref_id": "2535",
+      "character_name": "Molly",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2509,
+        "C": 0.2425666666666667,
+        "E": -0.4622666666666667,
+        "A": -0.35456666666666664,
+        "N": 0.47890000000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2073,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "C": 0.2,
+            "E": -0.65,
+            "A": -0.757,
+            "N": 0.757
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "project_muse_441672-1.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_441672.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "project_muse_596169.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.2,
+              "confidence_interval": [
+                -0.837,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.529
+            },
+            "E": {
+              "score": -0.65,
+              "confidence_interval": [
+                -0.748,
+                -0.552
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "A": {
+              "score": -0.757,
+              "confidence_interval": [
+                -0.854,
+                -0.66
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            },
+            "N": {
+              "score": 0.757,
+              "confidence_interval": [
+                0.66,
+                0.854
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2509,
+            "C": 0.3277,
+            "E": -0.0868,
+            "A": 0.4503,
+            "N": -0.0773
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:26:28.704935+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000792
+        }
+      ]
+    },
+    {
+      "coref_id": "163",
+      "character_name": "Mr. Wopsle",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.38789411764705883,
+        "C": -0.30231176470588234,
+        "E": 0.4824411764705882,
+        "A": -0.25771176470588236,
+        "N": 0.16107058823529413
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4801,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": -0.5,
+            "E": 0.6,
+            "A": -0.3,
+            "N": 0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "project_muse_947505.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.3,
+              "confidence_interval": [
+                0.0,
+                0.6
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3706,
+            "C": -0.0199,
+            "E": 0.3145,
+            "A": -0.1973,
+            "N": -0.0374
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:27:04.270290+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001285
+        }
+      ]
+    },
+    {
+      "coref_id": "0",
+      "character_name": "Pip",
+      "quote_count": 50,
+      "consensus_ocean": {
+        "O": 0.2157,
+        "C": 0.0888,
+        "E": -0.3317,
+        "A": 0.4559000000000001,
+        "N": 0.2492
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2157,
+            "C": 0.0888,
+            "E": -0.3317,
+            "A": 0.4559,
+            "N": 0.2492
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:25:40.667871+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00109
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

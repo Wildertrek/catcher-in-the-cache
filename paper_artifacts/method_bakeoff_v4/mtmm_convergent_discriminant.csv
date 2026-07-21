@@ -1,0 +1,11 @@
+method_a,method_b,n_traits,n_conv_3ineq,n_conv_floor,monotrait_mean,monotrait_min,hetero_hh_max_mean,hetero_mm_max_mean
+M2_classifier,M3_regressor,5,4,2,0.2804,0.1029,0.0328,0.1638
+M2_classifier,M4_consensus,5,3,1,0.2138,0.0629,0.0332,0.1601
+M2_classifier,M5_probe,5,4,2,0.266,0.1257,0.0519,0.1406
+M2_classifier,M6_scpi,5,1,0,0.0809,-0.0432,0.1015,0.2539
+M3_regressor,M4_consensus,5,5,5,0.8316,0.8069,0.1346,0.1681
+M3_regressor,M5_probe,5,5,5,0.6503,0.5894,0.1271,0.1678
+M3_regressor,M6_scpi,5,3,3,0.3283,0.2602,0.0944,0.2587
+M4_consensus,M5_probe,5,5,5,0.6791,0.5527,0.1174,0.1661
+M4_consensus,M6_scpi,5,2,0,0.2485,0.2204,0.0661,0.2495
+M5_probe,M6_scpi,5,3,2,0.3139,0.2436,0.0534,0.239

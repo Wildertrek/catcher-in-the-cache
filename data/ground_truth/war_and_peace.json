@@ -1,0 +1,964 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T20:27:39Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "377",
+      "character_name": "Sonya",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3459529411764706,
+        "C": 0.32580000000000003,
+        "E": -0.018105882352941194,
+        "A": 0.5593259259259258,
+        "N": 0.1716941176470588
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7426,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.9
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.312,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.4,
+            "E": -0.3,
+            "A": 0.5,
+            "N": 0.3
+          },
+          "citation": "",
+          "notes": "Reserved, self-effacing, loyal. Poor relation who sacrifices personal happiness for family.",
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4116,
+            "C": 0.2198,
+            "E": 0.3846,
+            "A": 0.1574,
+            "N": -0.0116
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:41:38.838010+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001243
+        }
+      ]
+    },
+    {
+      "coref_id": "1267",
+      "character_name": "Nicholas Rostov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.49260000000000004,
+        "C": 0.5568000000000001,
+        "E": 0.31731764705882354,
+        "A": 0.34229411764705875,
+        "N": 0.07923529411764708
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.779,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.487,
+            "C": 0.442,
+            "E": 0.4,
+            "A": 0.185,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hagan-PatternsCharacterDevelopment-1969.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0424\u0435\u0434\u043e\u0440\u043e\u0432\u04302023_Teleological_Plot_Novels_The.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.487,
+              "confidence_interval": [
+                -0.682,
+                -0.293
+              ],
+              "n_sources": 2,
+              "std_dev": 0.099
+            },
+            "C": {
+              "score": 0.442,
+              "confidence_interval": [
+                0.263,
+                0.62
+              ],
+              "n_sources": 3,
+              "std_dev": 0.091
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.185,
+              "confidence_interval": [
+                -0.86,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.533
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.4,
+                0.4
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5006,
+            "C": 0.7208,
+            "E": 0.1992,
+            "A": 0.567,
+            "N": -0.379
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:42:05.944772+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000974
+        }
+      ]
+    },
+    {
+      "coref_id": "402",
+      "character_name": "Natasha Rostova",
+      "quote_count": 586,
+      "consensus_ocean": {
+        "O": 0.5205294117647059,
+        "C": 0.0864764705882353,
+        "E": 0.7000411764705883,
+        "A": 0.591170588235294,
+        "N": 0.36160588235294117
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3361,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.2,
+            "E": 0.7,
+            "A": 0.7,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hagan-PatternsCharacterDevelopment-1969.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0424\u0435\u0434\u043e\u0440\u043e\u0432\u04302023_Teleological_Plot_Novels_The.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Vivacious, emotional, spontaneous. Embodies vitality and natural life force.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.219,
+              "confidence_interval": [
+                -0.851,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.546
+            },
+            "C": {
+              "score": -0.413,
+              "confidence_interval": [
+                -0.698,
+                -0.128
+              ],
+              "n_sources": 2,
+              "std_dev": 0.145
+            },
+            "E": {
+              "score": 0.812,
+              "confidence_interval": [
+                0.618,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.099
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.432,
+              "confidence_interval": [
+                0.341,
+                0.523
+              ],
+              "n_sources": 2,
+              "std_dev": 0.047
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.407,
+            "C": -0.0757,
+            "E": 0.7001,
+            "A": 0.4357,
+            "N": 0.1639
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:42:41.650371+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001266
+        }
+      ]
+    },
+    {
+      "coref_id": "622",
+      "character_name": "Princess Mary",
+      "quote_count": 376,
+      "consensus_ocean": {
+        "O": 0.43973529411764706,
+        "C": 0.5884941176470588,
+        "E": -0.32837058823529414,
+        "A": 0.7775176470588235,
+        "N": 0.27888235294117647
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.537,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.7,
+            "E": -0.3,
+            "A": 0.8,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hagan-PatternsCharacterDevelopment-1969.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0424\u0435\u0434\u043e\u0440\u043e\u0432\u04302023_Teleological_Plot_Novels_The.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Devout, self-sacrificing, dutiful. Embodies religious faith and family devotion.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.456,
+              "confidence_interval": [
+                0.162,
+                0.749
+              ],
+              "n_sources": 3,
+              "std_dev": 0.15
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.8,
+                0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": -0.144,
+              "confidence_interval": [
+                -0.875,
+                0.588
+              ],
+              "n_sources": 2,
+              "std_dev": 0.373
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4965,
+            "C": 0.4292,
+            "E": -0.3689,
+            "A": 0.7454,
+            "N": -0.037
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:43:16.222984+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001275
+        }
+      ]
+    },
+    {
+      "coref_id": "330",
+      "character_name": "Pierre Bezukhov",
+      "quote_count": 824,
+      "consensus_ocean": {
+        "O": 0.6634764705882353,
+        "C": 0.03461764705882354,
+        "E": 0.40438823529411766,
+        "A": 0.5566823529411765,
+        "N": -0.20984705882352941
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6445,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.3,
+            "E": 0.5,
+            "A": 0.6,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0424\u0435\u0434\u043e\u0440\u043e\u0432\u04302023_Teleological_Plot_Novels_The.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Intellectual, searching, philosophical. Central protagonist undergoing spiritual transformation.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6113,
+            "C": -0.3445,
+            "E": 0.2678,
+            "A": 0.4948,
+            "N": 0.0618
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:24:28.221097+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001321
+        }
+      ]
+    },
+    {
+      "coref_id": "514",
+      "character_name": "Prince Andrei",
+      "quote_count": 753,
+      "consensus_ocean": {
+        "O": 0.24967058823529412,
+        "C": 0.4399411764705883,
+        "E": -0.2331294117647059,
+        "A": 0.09421764705882353,
+        "N": 0.1476117647058824
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8558,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.4,
+            "E": -0.3,
+            "A": 0.2,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0424\u0435\u0434\u043e\u0440\u043e\u0432\u04302023_Teleological_Plot_Novels_The.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Rational, disillusioned, aristocratic. Seeks meaning through military glory and personal relationships.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.475,
+              "confidence_interval": [
+                0.285,
+                0.665
+              ],
+              "n_sources": 2,
+              "std_dev": 0.097
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.451,
+              "confidence_interval": [
+                0.071,
+                0.831
+              ],
+              "n_sources": 2,
+              "std_dev": 0.194
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2508,
+            "C": 0.497,
+            "E": -0.1376,
+            "A": -0.0569,
+            "N": -0.3558
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:25:04.848829+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000872
+        }
+      ]
+    },
+    {
+      "coref_id": "1446",
+      "character_name": "Napoleon",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.65,
+        "C": -0.4,
+        "E": 0.7,
+        "A": -0.8,
+        "N": -0.3
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.65,
+            "C": -0.4,
+            "E": 0.7,
+            "A": -0.8,
+            "N": -0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Zakirova2017_Napoleons_Image_Lolstoys_War.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.8,
+              "confidence_interval": [
+                -1.0,
+                -0.212
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "364",
+      "character_name": "Kutuzov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.0222,
+        "C": 0.5403941176470588,
+        "E": -0.14569411764705886,
+        "A": 0.5266,
+        "N": -0.5450058823529411
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6176,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.5,
+            "E": -0.4,
+            "N": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Shevchugova2018_Interpretation_Mediocre_Hero_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0222,
+            "C": 0.5981,
+            "E": 0.2176,
+            "A": 0.5266,
+            "N": -0.6093
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:43:48.232758+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001172
+        }
+      ]
+    },
+    {
+      "coref_id": "425",
+      "character_name": "Rost\u00f3v",
+      "quote_count": 415,
+      "consensus_ocean": {
+        "O": 0.3039352941176471,
+        "C": 0.08330588235294119,
+        "E": 0.6212882352941176,
+        "A": 0.4291764705882353,
+        "N": -0.12664705882352942
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.421,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.2,
+            "E": 0.6,
+            "A": 0.5,
+            "N": -0.3
+          },
+          "citation": "",
+          "notes": "Nicholas Rost\u00f3v - loyal, brave, conventional. Represents traditional military honor and family duty.",
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1667,
+            "C": -0.0834,
+            "E": 0.6517,
+            "A": 0.328,
+            "N": 0.121
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:44:20.728435+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001187
+        }
+      ]
+    },
+    {
+      "coref_id": "1891",
+      "character_name": "the countess",
+      "quote_count": 213,
+      "consensus_ocean": {
+        "O": 0.019770588235294134,
+        "C": 0.48064705882352937,
+        "E": 0.012041176470588229,
+        "A": 0.5983941176470587,
+        "N": 0.31935882352941175
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4387,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.5,
+            "E": -0.1,
+            "A": 0.6,
+            "N": 0.5
+          },
+          "citation": "",
+          "notes": "Countess Rost\u00f3va - maternal, conventional, emotionally expressive. Family matriarch.",
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2377,
+            "C": 0.453,
+            "E": 0.1721,
+            "A": 0.5961,
+            "N": 0.0613
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:45:04.797938+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001359
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

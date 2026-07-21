@@ -1,0 +1,201 @@
+{
+  "coref_id": "294",
+  "character_name": "Project Gutenberg",
+  "quote_count": 7,
+  "mention_count": 39,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "3025",
+      4
+    ],
+    [
+      "107",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Project Gutenberg \u201d",
+      "mention_text": "Gutenberg",
+      "quote_start": 153006,
+      "quote_end": 153009,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I wish you joy . If you love Mr. Darcy half so well as I do my dear Wickham , you must be very happy . It is a great comfort to have you so rich ; and when you have nothing else to do , I hope you will think of us . I am sure Wickham would like a place at court very much ; and I do not think we shall have quite money enough to live upon without some help . Any place would do of about three or four hundred a year ; but , however , do not speak to Mr. Darcy about it , if you had rather not ."
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yours , \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c the Foundation \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Project Gutenberg \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 153187,
+      "quote_end": 153190,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yours , \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c the Foundation \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c the Foundation \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 153306,
+      "quote_end": 153309,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Project Gutenberg \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 153643,
+      "quote_end": 153646,
+      "addressee_coref_id": "3025",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c the Foundation \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Project Gutenberg \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 153654,
+      "quote_end": 153657,
+      "addressee_coref_id": "3025",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c the Foundation \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Plain Vanilla ASCII \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 154166,
+      "quote_end": 154170,
+      "addressee_coref_id": "3025",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Information about donations to the Project Gutenberg Literary Archive Foundation . \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Defects , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Defects , \u201d",
+      "mention_text": "Project Gutenberg",
+      "quote_start": 154661,
+      "quote_end": 154664,
+      "addressee_coref_id": "3025",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Information about donations to the Project Gutenberg Literary Archive Foundation . \u201d"
+        },
+        {
+          "speaker_coref_id": "296",
+          "quote_text": "\u201c Right of Replacement or Refund \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "n_chars_inner_join": 60,
+  "providers": {
+    "claude": {
+      "file": "rag_indices/_method_bakeoff/validation_v2/hexaco_predictions.json",
+      "n_loaded": 60
+    },
+    "openai": {
+      "file": "rag_indices/_method_bakeoff/validation_v2/hexaco_predictions_openai.json",
+      "n_loaded": 60
+    },
+    "google": {
+      "file": "rag_indices/_method_bakeoff/validation_v2/hexaco_predictions_google.json",
+      "n_loaded": 60
+    }
+  },
+  "pairwise_HH_correlations": [
+    0.872,
+    0.8178,
+    0.7975
+  ],
+  "HH_vs_OP_A_correlations": [
+    0.2654,
+    0.213,
+    0.2363
+  ],
+  "triangulation_criterion_met": true,
+  "decision": "Drop within-Claude-family hedge from abstract; bipolarity becomes provider-independent triangulation."
+}

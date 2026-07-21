@@ -1,0 +1,50 @@
+Data Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The data artefacts shipped with this repository (the contents of
+data/aperture-data-v1.tar.gz, including consensus profiles, ground-truth
+records, perturbation outputs, regressor inputs, and waveform data) are
+released under the Creative Commons Attribution 4.0 International Public
+Licence ("CC BY 4.0").
+
+You are free to:
+
+  * Share -- copy and redistribute the material in any medium or format
+  * Adapt -- remix, transform, and build upon the material for any
+    purpose, even commercially.
+
+Under the following terms:
+
+  * Attribution -- You must give appropriate credit, provide a link to
+    the licence, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+  * No additional restrictions -- You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the licence permits.
+
+Notices:
+
+  You do not have to comply with the licence for elements of the material
+  in the public domain or where your use is permitted by an applicable
+  exception or limitation.
+
+  No warranties are given. The licence may not give you all of the
+  permissions necessary for your intended use. For example, other rights
+  such as publicity, privacy, or moral rights may limit how you use the
+  material.
+
+The full legal text of the Creative Commons Attribution 4.0 International
+Public Licence is available at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution string:
+
+  Data: APERTURE companion bundle v1, Raetano, Gregor, Tamang (2026),
+  https://github.com/Wildertrek/aperture, CC BY 4.0.
+
+Source-code contents of this repository (Python modules under
+pillar1/, pillar2/, pillar3/, regressor/, scripts/, tests/, plus
+notebooks/, demo.py, and configuration files) are licensed separately
+under the MIT licence (see LICENSE).

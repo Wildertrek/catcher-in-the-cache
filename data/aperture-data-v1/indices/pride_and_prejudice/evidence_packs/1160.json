@@ -1,0 +1,45 @@
+{
+  "coref_id": "1160",
+  "character_name": "me",
+  "quote_count": 1,
+  "mention_count": 11,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "103",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Indeed , Mr. Collins , all praise of me will be unnecessary . You must give me leave to judge for myself , and pay me the compliment of believing what I say . I wish you very happy and very rich , and by refusing your hand , do all in my power to prevent your being otherwise . In making me the offer , you must have satisfied the delicacy of your feelings with regard to my family , and may take possession of Longbourn estate whenever it falls , without any self - reproach . This matter may be considered , therefore , as finally settled . \u201d",
+      "mention_text": "she",
+      "quote_start": 46949,
+      "quote_end": 47060,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Were it certain that Lady Catherine would think so , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "gravely--\u201cbut I can not imagine that her Ladyship would at all disapprove of you . And you may be certain that when I have the honour of seeing her again I shall speak in the highest terms of your modesty , economy , and other amiable qualifications . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c When I do myself the honour of speaking to you next on the subject , I shall hope to receive a more favourable answer than you have now given me ; though I am far from accusing you of cruelty at present , because I know it to be the established custom of your sex to reject a man on the first application , and , perhaps , you have even now said as much to encourage my suit as would be consistent with the true delicacy of the female character . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Really , Mr. Collins , \u201d"
+        }
+      ]
+    }
+  ]
+}

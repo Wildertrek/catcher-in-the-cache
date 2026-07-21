@@ -1,0 +1,179 @@
+{
+  "coref_id": "382",
+  "character_name": "the former",
+  "quote_count": 6,
+  "mention_count": 16,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "192",
+      5
+    ],
+    [
+      "92",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c But tell me all and everything about it which I have not already heard . Give me further particulars . What did Colonel Forster say ? Had they no apprehension of anything before the elopement took place ? They must have seen them together for ever . \u201d",
+      "mention_text": "the former",
+      "quote_start": 113832,
+      "quote_end": 113880,
+      "addressee_coref_id": "92",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "92",
+          "quote_text": "\u201c This is a most unfortunate affair , and will probably be much talked of . But we must stem the tide of malice , and pour into the wounded bosoms of each other the balm of sisterly consolation . \u201d"
+        },
+        {
+          "speaker_coref_id": "92",
+          "quote_text": "\u201c Unhappy as the event must be for Lydia , we may draw from it this useful lesson:--that loss of virtue in a female is irretrievable , that one false step involves her in endless ruin , that her reputation is no less brittle than it is beautiful , and that she can not be too much guarded in her behaviour towards the undeserving of the other sex . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Colonel Forster did own that he had often suspected some partiality , especially on Lydia \u2019s side , but nothing to give him any alarm . I am so grieved for him . His behaviour was attentive and kind to the utmost . He _ was _ coming to us , in order to assure us of his concern , before he had any idea of their not being gone to Scotland : when that apprehension first got abroad , it hastened his journey . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And was Denny convinced that Wickham would not marry ? Did he know of their intending to go off ? Had Colonel Forster seen Denny himself ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And was Denny convinced that Wickham would not marry ? Did he know of their intending to go off ? Had Colonel Forster seen Denny himself ? \u201d",
+      "mention_text": "the former",
+      "quote_start": 113968,
+      "quote_end": 113996,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c But tell me all and everything about it which I have not already heard . Give me further particulars . What did Colonel Forster say ? Had they no apprehension of anything before the elopement took place ? They must have seen them together for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Colonel Forster did own that he had often suspected some partiality , especially on Lydia \u2019s side , but nothing to give him any alarm . I am so grieved for him . His behaviour was attentive and kind to the utmost . He _ was _ coming to us , in order to assure us of his concern , before he had any idea of their not being gone to Scotland : when that apprehension first got abroad , it hastened his journey . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Yes ; but when questioned by _ him _ , Denny denied knowing anything of their plan , and would not give his real opinion about it . He did not repeat his persuasion of their not marrying , and from _ that _ I am inclined to hope he might have been misunderstood before . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And till Colonel Forster came himself , not one of you entertained a doubt , I suppose , of their being really married ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And till Colonel Forster came himself , not one of you entertained a doubt , I suppose , of their being really married ? \u201d",
+      "mention_text": "the former",
+      "quote_start": 114055,
+      "quote_end": 114080,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And was Denny convinced that Wickham would not marry ? Did he know of their intending to go off ? Had Colonel Forster seen Denny himself ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Yes ; but when questioned by _ him _ , Denny denied knowing anything of their plan , and would not give his real opinion about it . He did not repeat his persuasion of their not marrying , and from _ that _ I am inclined to hope he might have been misunderstood before . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c How was it possible that such an idea should enter our brains ? I felt a little uneasy -- a little fearful of my sister \u2019s happiness with him in marriage , because I knew that his conduct had not been always quite right . My father and mother knew nothing of that ; they only felt how imprudent a match it must be . Kitty then owned , with a very natural triumph on knowing more than the rest of us , that in Lydia \u2019s last letter she had prepared her for such a step . She had known , it seems , of their being in love with each other many weeks . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c But not before they went to Brighton ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But not before they went to Brighton ? \u201d",
+      "mention_text": "the former",
+      "quote_start": 114199,
+      "quote_end": 114208,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And till Colonel Forster came himself , not one of you entertained a doubt , I suppose , of their being really married ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c How was it possible that such an idea should enter our brains ? I felt a little uneasy -- a little fearful of my sister \u2019s happiness with him in marriage , because I knew that his conduct had not been always quite right . My father and mother knew nothing of that ; they only felt how imprudent a match it must be . Kitty then owned , with a very natural triumph on knowing more than the rest of us , that in Lydia \u2019s last letter she had prepared her for such a step . She had known , it seems , of their being in love with each other many weeks . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c No , I believe not . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And did Colonel Forster appear to think ill of Wickham himself ? Does he know his real character ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And did Colonel Forster appear to think ill of Wickham himself ? Does he know his real character ? \u201d",
+      "mention_text": "the former",
+      "quote_start": 114217,
+      "quote_end": 114237,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c But not before they went to Brighton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c No , I believe not . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I must confess that he did not speak so well of Wickham as he formerly did . He believed him to be imprudent and extravagant ; and since this sad affair has taken place , it is said that he left Meryton greatly in debt : but I hope this may be false . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c Oh , Jane , had we been less secret , had we told what we knew of him , this could not have happened ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , Jane , had we been less secret , had we told what we knew of him , this could not have happened ! \u201d",
+      "mention_text": "the former",
+      "quote_start": 114294,
+      "quote_end": 114320,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c And did Colonel Forster appear to think ill of Wickham himself ? Does he know his real character ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I must confess that he did not speak so well of Wickham as he formerly did . He believed him to be imprudent and extravagant ; and since this sad affair has taken place , it is said that he left Meryton greatly in debt : but I hope this may be false . \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Perhaps it would have been better , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c But to expose the former faults of any person , without knowing what their present feelings were , seemed unjustifiable . \u201d"
+        }
+      ]
+    }
+  ]
+}

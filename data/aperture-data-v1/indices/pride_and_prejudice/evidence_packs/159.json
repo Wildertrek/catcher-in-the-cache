@@ -1,0 +1,291 @@
+{
+  "coref_id": "159",
+  "character_name": "Mr. Hurst",
+  "quote_count": 10,
+  "mention_count": 41,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      6
+    ],
+    [
+      "127",
+      2
+    ],
+    [
+      "160",
+      1
+    ],
+    [
+      "192",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Do you prefer reading to cards ? \u201d",
+      "mention_text": "he",
+      "quote_start": 19244,
+      "quote_end": 19252,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c it would not make them one jot less agreeable . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c But it must very materially lessen their chance of marrying men of any consideration in the world , \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c that is rather singular . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Miss Eliza Bennet , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that is rather singular . \u201d",
+      "mention_text": "he",
+      "quote_start": 19256,
+      "quote_end": 19262,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c But it must very materially lessen their chance of marrying men of any consideration in the world , \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c Do you prefer reading to cards ? \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Miss Eliza Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c despises cards . She is a great reader , and has no pleasure in anything else . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It ought to be good , \u201d",
+      "mention_text": "he",
+      "quote_start": 19483,
+      "quote_end": 19490,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I am astonished , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c that my father should have left so small a collection of books . What a delightful library you have at Pemberley , Mr. Darcy ! \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c it has been the work of many generations . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c And then you have added so much to it yourself -- you are always buying books . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it has been the work of many generations . \u201d",
+      "mention_text": "he",
+      "quote_start": 19494,
+      "quote_end": 19504,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c that my father should have left so small a collection of books . What a delightful library you have at Pemberley , Mr. Darcy ! \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c It ought to be good , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c And then you have added so much to it yourself -- you are always buying books . \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c I can not comprehend the neglect of a family library in such days as these . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can not comprehend the neglect of a family library in such days as these . \u201d",
+      "mention_text": "he",
+      "quote_start": 19524,
+      "quote_end": 19541,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c it has been the work of many generations . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c And then you have added so much to it yourself -- you are always buying books . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Neglect ! I am sure you neglect nothing that can add to the beauties of that noble place . Charles , when you build _ your _ house , I wish it may be half as delightful as Pemberley . \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c I wish it may . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I wish it may . \u201d",
+      "mention_text": "he",
+      "quote_start": 19584,
+      "quote_end": 19590,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c I can not comprehend the neglect of a family library in such days as these . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Neglect ! I am sure you neglect nothing that can add to the beauties of that noble place . Charles , when you build _ your _ house , I wish it may be half as delightful as Pemberley . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c But I would really advise you to make your purchase in that neighbourhood , and take Pemberley for a kind of model . There is not a finer county in England than Derbyshire . \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c With all my heart : I will buy Pemberley itself , if Darcy will sell it . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c With all my heart : I will buy Pemberley itself , if Darcy will sell it . \u201d",
+      "mention_text": "he",
+      "quote_start": 19627,
+      "quote_end": 19645,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c I wish it may . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c But I would really advise you to make your purchase in that neighbourhood , and take Pemberley for a kind of model . There is not a finer county in England than Derbyshire . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I am talking of possibilities , Charles . \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c Upon my word , Caroline , I should think it more possible to get Pemberley by purchase than by imitation . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Upon my word , Caroline , I should think it more possible to get Pemberley by purchase than by imitation . \u201d",
+      "mention_text": "he",
+      "quote_start": 19656,
+      "quote_end": 19678,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c With all my heart : I will buy Pemberley itself , if Darcy will sell it . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I am talking of possibilities , Charles . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Is Miss Darcy much grown since the spring ? \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c will she be as tall as I am ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c very glad ; \u201d",
+      "mention_text": "he",
+      "quote_start": 25718,
+      "quote_end": 25722,
+      "addressee_coref_id": "160",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c No , no ; stay where you are . You are charmingly grouped , and appear to uncommon advantage . The picturesque would be spoilt by admitting a fourth . Good - bye . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c Piling up the fire \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c How pleasant it is to spend an evening in this way ! I declare , after all , there is no enjoyment like reading ! How much sooner one tires of anything than of a book ! When I have a house of my own , I shall be miserable if I have not an excellent library . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c By the bye Charles , are you really serious in meditating a dance at Netherfield ? I would advise you , before you determine on it , to consult the wishes of the present party ; I am much mistaken if there are not some among us to whom a ball would be rather a punishment than a pleasure . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "words:--\u201c\u2018I do not pretend to regret anything I shall leave in Hertfordshire except your society , my dearest friend ; but we will hope , at some future period , to enjoy many returns of that delightful intercourse we have known , and in the meanwhile may lessen the pain of separation by a very frequent and most unreserved correspondence . I depend on you for that . \u2019 \u201d",
+      "mention_text": "Mr. Hurst",
+      "quote_start": 50363,
+      "quote_end": 50432,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Walked back with them \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c This is from Caroline Bingley : what it contains has surprised me a good deal . The whole party have left Netherfield by this time , and are on their way to town ; and without any intention of coming back again . You shall hear what she says . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It is unlucky , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c that you should not be able to see your friends before they leave the country . But may we not hope that the period of future happiness , to which Miss Bingley looks forward , may arrive earlier than she is aware , and that the delightful intercourse you have known as friends will be renewed with yet greater satisfaction as sisters ? Mr. Bingley will not be detained in London by them . \u201d"
+        }
+      ]
+    }
+  ]
+}

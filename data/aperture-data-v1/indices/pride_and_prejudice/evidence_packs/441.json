@@ -1,0 +1,149 @@
+{
+  "coref_id": "441",
+  "character_name": "I",
+  "quote_count": 5,
+  "mention_count": 9,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "118",
+      5
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c They have none of them much to recommend them , \u201d",
+      "mention_text": "he",
+      "quote_start": 6936,
+      "quote_end": 6947,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You are over scrupulous , surely . I dare say Mr. Bingley will be very glad to see you ; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls -- though I must throw in a good word for my little Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I desire you will do no such thing . Lizzy is not a bit better than the others : and I am sure she is not half so handsome as Jane , nor half so good - humoured as Lydia . But you are always giving _ her _ the preference . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c they are all silly and ignorant like other girls ; but Lizzy has something more of quickness than her sisters . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Mr. Bennet , how can you abuse your own children in such a way ? You take delight in vexing me . You have no compassion on my poor nerves . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c they are all silly and ignorant like other girls ; but Lizzy has something more of quickness than her sisters . \u201d",
+      "mention_text": "he",
+      "quote_start": 6951,
+      "quote_end": 6973,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I desire you will do no such thing . Lizzy is not a bit better than the others : and I am sure she is not half so handsome as Jane , nor half so good - humoured as Lydia . But you are always giving _ her _ the preference . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c They have none of them much to recommend them , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Mr. Bennet , how can you abuse your own children in such a way ? You take delight in vexing me . You have no compassion on my poor nerves . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c You mistake me , my dear . I have a high respect for your nerves . They are my old friends . I have heard you mention them with consideration these twenty years at least . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You mistake me , my dear . I have a high respect for your nerves . They are my old friends . I have heard you mention them with consideration these twenty years at least . \u201d",
+      "mention_text": "he",
+      "quote_start": 7007,
+      "quote_end": 7044,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c they are all silly and ignorant like other girls ; but Lizzy has something more of quickness than her sisters . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Mr. Bennet , how can you abuse your own children in such a way ? You take delight in vexing me . You have no compassion on my poor nerves . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Ah , you do not know what I suffer . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c But I hope you will get over it , and live to see many young men of four thousand a year come into the neighbourhood . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But I hope you will get over it , and live to see many young men of four thousand a year come into the neighbourhood . \u201d",
+      "mention_text": "he",
+      "quote_start": 7057,
+      "quote_end": 7084,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c You mistake me , my dear . I have a high respect for your nerves . They are my old friends . I have heard you mention them with consideration these twenty years at least . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Ah , you do not know what I suffer . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It will be no use to us , if twenty such should come , since you will not visit them . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c Depend upon it , my dear , that when there are twenty , I will visit them all . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Depend upon it , my dear , that when there are twenty , I will visit them all . \u201d",
+      "mention_text": "he",
+      "quote_start": 7108,
+      "quote_end": 7128,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c But I hope you will get over it , and live to see many young men of four thousand a year come into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It will be no use to us , if twenty such should come , since you will not visit them . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I hope Mr. Bingley will like it \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I hope Mr. Bingley will like it , Lizzy . \u201d"
+        }
+      ]
+    }
+  ]
+}

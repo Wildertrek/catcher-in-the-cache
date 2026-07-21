@@ -1,0 +1,137 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_gemini_handoff"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_brutus",
+      "character_name": "Brutus",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.43001764705882356,
+        "C": 0.6575764705882353,
+        "E": -0.21065882352941176,
+        "A": 0.17084117647058822,
+        "N": 0.19177058823529414
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5116,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.65,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.4
+          },
+          "citation": "Kahric (2020) Dark Triad thesis, U. Sarajevo (Brutus referenced as non-Dark-Triad contrast figure)",
+          "scholarly_sources": [
+            {
+              "paper": "Kahric2020_Dark_Triad_Sarajevo_Thesis.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": "low",
+          "added_from": "swarm_research_2026-04-13",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.3,
+                0.3
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.3,
+                0.3
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            }
+          },
+          "validation_status": "preliminary"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4729,
+            "C": 0.6684,
+            "E": -0.5116,
+            "A": 0.4149,
+            "N": -0.1057
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:50:47.170442+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002564
+        }
+      ]
+    }
+  ],
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 1 orphan coref_id(s) to registry equivalents; archived 0 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "char_marcus_brutus": "char_brutus"
+      },
+      "archived": []
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

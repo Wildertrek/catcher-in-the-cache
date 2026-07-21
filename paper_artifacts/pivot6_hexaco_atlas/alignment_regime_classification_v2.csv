@@ -1,0 +1,30 @@
+model_id,alignment_regime_v1,alignment_regime_v2,regime_v2_citation,reclassification_rationale,accessed_date
+claude-opus-4-6,CAI,CAI,Bai et al. 2022 (Constitutional AI),Anthropic 4.x family uses CAI as primary alignment method per published constitutional approach,2026-05-18
+claude-sonnet-4-5-20250929,CAI,CAI,Bai et al. 2022 (Constitutional AI),Anthropic 4.x family,2026-05-18
+claude-sonnet-4-20250514,CAI,CAI,Bai et al. 2022 (Constitutional AI),Anthropic 4.x family,2026-05-18
+claude-haiku-4-5-20251001,CAI,CAI,Bai et al. 2022 (Constitutional AI),Anthropic 4.x family,2026-05-18
+gpt-5.2-2025-12-11,RLHF,RLHF-pure,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,OpenAI 5.x uses pure RLHF + SFT per InstructGPT methodology with no documented CAI or DPO,2026-05-18
+gpt-5,RLHF,RLHF-pure,Ouyang et al. 2022 (InstructGPT),OpenAI 5.x family,2026-05-18
+o4-mini,RLHF,RLHF-pure,Ouyang et al. 2022 (InstructGPT),OpenAI reasoning model with RLHF base alignment,2026-05-18
+gpt-4o-2024-08-06,RLHF,RLHF-pure,Ouyang et al. 2022 (InstructGPT),OpenAI 4o family,2026-05-18
+gpt-4o-2024-05-13,RLHF,RLHF-pure,Ouyang et al. 2022 (InstructGPT),OpenAI 4o family,2026-05-18
+gemini-3.1-pro-preview,Hybrid,RLHF-Hybrid,Gemini model card + Anil et al. 2023 (Gemini),Google uses RLHF + SFT + Constitutional AI elements + safety filtering; reclassified as Hybrid alignment with RLHF as primary,2026-05-18
+gemini-3-pro-preview,Hybrid,RLHF-Hybrid,Gemini model card,Google Gemini 3.x family,2026-05-18
+gemini-2.5-pro,Hybrid,RLHF-Hybrid,Gemini model card,Google Gemini 2.5 family,2026-05-18
+gemini-2.5-flash,Hybrid,RLHF-Hybrid,Gemini model card,Google Gemini 2.5 Flash family,2026-05-18
+gemini-2.0-flash,Hybrid,RLHF-Hybrid,Gemini model card,Google Gemini 2.0 family,2026-05-18
+x-ai/grok-4-07-09,RLHF-light,RLHF-pure,xAI Grok system card (RLHF-based alignment without documented hybrid elements),Reclassified from 'RLHF-light' to 'RLHF-pure': xAI documents standard RLHF without CAI or DPO,2026-05-18
+x-ai/grok-3,RLHF-light,RLHF-pure,xAI Grok system card,xAI Grok family,2026-05-18
+x-ai/grok-4.3,RLHF-light,RLHF-pure,xAI Grok system card,xAI Grok 4.3 (post-Amendment-1 collapsed identifier for xai_1 and xai_2),2026-05-18
+nousresearch/hermes-3-llama-3.1-70b,(new),DPO-primary,Hermes-3 model card (SFT + DPO),V8-C1 Strategy 2 addition - 2nd provider for DPO-primary regime (NousResearch),2026-05-18
+ai21/jamba-large-1.7,(new),CAI,Jamba-1.7 model card (RLAIF + DPO; RLAIF is constitutional-adjacent),V8-C1 Strategy 2 addition - 2nd provider for CAI regime (AI21),2026-05-18
+cohere/command-a-03-2025,RLHF-RAG,RLHF-Hybrid,Cohere Command-A 03-2025 model card (RLHF + Constitutional + retrieval-augmented training),Reclassified: Cohere Command-A uses RLHF + Constitutional AI elements + retrieval tuning; closer to Hybrid than dedicated RAG-only class,2026-05-18
+meta-llama/llama-4-maverick,DPO,RLHF-Hybrid,Meta Llama 4 model card (SFT + DPO + RLHF),Reclassified: Llama 3.x and 4 use SFT + Rejection Sampling + DPO + PPO (RLHF) in a multi-stage pipeline; RLHF-Hybrid better describes the full methodology than 'DPO',2026-05-18
+meta-llama/llama-3.3-70b-instruct,DPO,RLHF-Hybrid,Meta Llama 3.3 model card,Llama 3.x family,2026-05-18
+meta-llama/llama-3.1-405b-instruct,DPO,RLHF-Hybrid,Meta Llama 3.1 model card,Llama 3.x family,2026-05-18
+qwen/qwen-2.5-72b-instruct,DPO,RLHF-Hybrid,Qwen 2.5 Technical Report (SFT + DPO + RLHF pipeline),Reclassified: Qwen 2.5 uses SFT + DPO + RLHF in sequence; RLHF-Hybrid better describes the full methodology,2026-05-18
+qwen/qwen3-32b,DPO,RLHF-Hybrid,Qwen3 Technical Report,Qwen 3 family,2026-05-18
+google/gemma-4-26b-a4b-it-20260403,DPO,RLHF-Hybrid,Gemma 4 model card (SFT + RLHF + DPO),Reclassified: Gemma uses RLHF + DPO + SFT; RLHF-Hybrid,2026-05-18
+deepseek/deepseek-chat-v3.1,SFT-only,RLHF-Hybrid,DeepSeek V3 paper (SFT + GRPO),Reclassified: DeepSeek V3 uses SFT + GRPO (group-relative policy optimization). GRPO is RLHF-family,2026-05-18
+deepseek/deepseek-r1,SFT-only,RLHF-Hybrid,DeepSeek R1 paper (RL-trained reasoning model),Reclassified: DeepSeek R1 uses substantial RL training,2026-05-18
+mistralai/mistral-large-2411,SFT-only,DPO-primary,Mistral Large 2411 model card (SFT + DPO as primary alignment),Reclassified: Mistral Large 2 uses SFT + DPO without RLHF as the primary alignment mechanism; DPO-primary,2026-05-18

@@ -1,0 +1,6 @@
+trait,best_method_external,ext_MAE,ext_MAE_lo,ext_MAE_hi,ext_r,ext_r_lo,ext_r_hi,n,inpipeline_MAE,MAE_inflation,bar3_pass
+O,M4_consensus,0.2722,0.2202,0.327,0.6111,0.4614,0.7438,60,0.194,0.0782,False
+C,M3_regressor,0.2148,0.1708,0.2628,0.718,0.5463,0.842,60,0.2962,-0.0814,True
+E,M3_regressor,0.3017,0.2412,0.3664,0.5198,0.3315,0.6873,60,0.2598,0.0419,True
+A,M6_scpi,0.3345,0.267,0.409,0.0227,-0.2268,0.2783,60,0.3939,-0.0594,False
+N,M3_regressor,0.2612,0.2074,0.3186,0.3715,0.174,0.5696,60,0.2653,-0.0041,True

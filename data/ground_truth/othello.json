@@ -1,0 +1,997 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_iago",
+      "character_name": "Iago",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6471555555555555,
+        "C": 0.4627555555555555,
+        "E": 0.09976666666666666,
+        "A": -0.7177592592592592,
+        "N": -0.021766666666666663
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4314,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.759,
+            "C": 0.506,
+            "E": 0.121,
+            "A": -0.672,
+            "N": -0.008
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "9781137543165.json",
+              "framework": "ocean",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "ADeconstructiveReadingofGoodnightDesdemonaGoodMorningJul.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abuzahra2018_Analyzing_Iagos_Speech_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Altaf2023_Rhetorical_Appeals_Used_Shakespearean.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Manik2026_Analysis_Big_Five_Personality.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Ojukwu2023_Politeness_strategies_facethreatening_acts.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Rebhorn-RhetoricaJournalHistory-2012.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Reichmann2017_ltemgtHouse_Cardsltemgt_dna_Shakesperiano.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Speaking_of_the_Moor_From_Alcazar_to_Oth.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Tursunova2019_Jealousy_Ever_Hand_Inspiration.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "preview-9781136536243_A26886974.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "sq0145.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "stein-2005-the-othello-conundrum-the-inner-contagion-of-leadership.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.759,
+              "confidence_interval": [
+                0.241,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.264
+            },
+            "C": {
+              "score": 0.506,
+              "confidence_interval": [
+                -0.524,
+                1.0
+              ],
+              "n_sources": 12,
+              "std_dev": 0.526
+            },
+            "E": {
+              "score": 0.121,
+              "confidence_interval": [
+                -0.299,
+                0.541
+              ],
+              "n_sources": 2,
+              "std_dev": 0.214
+            },
+            "A": {
+              "score": -0.672,
+              "confidence_interval": [
+                -1.0,
+                -0.01
+              ],
+              "n_sources": 15,
+              "std_dev": 0.337
+            },
+            "N": {
+              "score": -0.008,
+              "confidence_interval": [
+                -0.721,
+                0.706
+              ],
+              "n_sources": 5,
+              "std_dev": 0.364
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3276,
+            "C": 0.3392,
+            "E": 0.0391,
+            "A": -0.8485,
+            "N": -0.0611
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:29:35.628426+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002532
+        }
+      ]
+    },
+    {
+      "coref_id": "char_othello",
+      "character_name": "Othello",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5081962962962963,
+        "C": -0.10628148148148148,
+        "E": 0.2243592592592592,
+        "A": -0.08648888888888888,
+        "N": 0.4444777777777778
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2643,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.516,
+            "C": -0.153,
+            "E": 0.187,
+            "A": -0.028,
+            "N": 0.513
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "9781137543165.json",
+              "framework": "ocean",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "ADeconstructiveReadingofGoodnightDesdemonaGoodMorningJul.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abuzahra2018_Analyzing_Iagos_Speech_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Afrin2022_Bakhas_Identity_Dilemma_Mulk.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Altaf2023_Rhetorical_Appeals_Used_Shakespearean.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jpn Psychol Res - 2003 - Hoorn - Perceiving and experiencing fictional characters  An integrative account1.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Manik2026_Analysis_Big_Five_Personality.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Ojukwu2023_Politeness_strategies_facethreatening_acts.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Rebhorn-RhetoricaJournalHistory-2012.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Reichmann2017_ltemgtHouse_Cardsltemgt_dna_Shakesperiano.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Speaking_of_the_Moor_From_Alcazar_to_Oth.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "preview-9781136536243_A26886974.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "sq0145.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "stein-2005-the-othello-conundrum-the-inner-contagion-of-leadership.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.516,
+              "confidence_interval": [
+                -0.495,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.516
+            },
+            "C": {
+              "score": -0.153,
+              "confidence_interval": [
+                -0.807,
+                0.502
+              ],
+              "n_sources": 8,
+              "std_dev": 0.334
+            },
+            "E": {
+              "score": 0.187,
+              "confidence_interval": [
+                -0.229,
+                0.603
+              ],
+              "n_sources": 4,
+              "std_dev": 0.212
+            },
+            "A": {
+              "score": -0.028,
+              "confidence_interval": [
+                -1.0,
+                0.984
+              ],
+              "n_sources": 14,
+              "std_dev": 0.516
+            },
+            "N": {
+              "score": 0.513,
+              "confidence_interval": [
+                -0.07,
+                1.0
+              ],
+              "n_sources": 15,
+              "std_dev": 0.297
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4859,
+            "C": 0.0272,
+            "E": 0.3311,
+            "A": -0.2536,
+            "N": 0.2487
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:30:02.586873+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002735
+        }
+      ]
+    },
+    {
+      "coref_id": "char_desdemona",
+      "character_name": "Desdemona",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5563555555555555,
+        "C": 0.7965703703703703,
+        "E": 0.20953333333333332,
+        "A": 0.5909185185185185,
+        "N": -0.012162962962962955
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5772,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.706,
+            "C": 0.873,
+            "E": 0.189,
+            "A": 0.512,
+            "N": 0.124
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "ADeconstructiveReadingofGoodnightDesdemonaGoodMorningJul.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abuzahra2018_Analyzing_Iagos_Speech_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kristiana2022_PSYCHOANALYSIS_DESDEMONA_CHARACTER_OTHELO.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Manik2026_Analysis_Big_Five_Personality.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Speaking_of_the_Moor_From_Alcazar_to_Oth.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "preview-9781136536243_A26886974.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.706,
+              "confidence_interval": [
+                0.284,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.216
+            },
+            "C": {
+              "score": 0.873,
+              "confidence_interval": [
+                0.558,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.16
+            },
+            "E": {
+              "score": 0.189,
+              "confidence_interval": [
+                -0.335,
+                0.712
+              ],
+              "n_sources": 4,
+              "std_dev": 0.267
+            },
+            "A": {
+              "score": 0.512,
+              "confidence_interval": [
+                -0.354,
+                1.0
+              ],
+              "n_sources": 7,
+              "std_dev": 0.442
+            },
+            "N": {
+              "score": 0.124,
+              "confidence_interval": [
+                -0.381,
+                0.629
+              ],
+              "n_sources": 5,
+              "std_dev": 0.258
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1288,
+            "C": 0.5782,
+            "E": 0.2682,
+            "A": 0.8164,
+            "N": -0.4012
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:30:41.970609+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001482
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cassio",
+      "character_name": "Cassio",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7043407407407407,
+        "C": 0.46647037037037037,
+        "E": 0.41007037037037036,
+        "A": 0.2260444444444444,
+        "N": 0.07826666666666665
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1404,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.629,
+            "E": 0.406,
+            "A": 0.117,
+            "N": 0.103
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuzahra2018_Analyzing_Iagos_Speech_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Altaf2023_Rhetorical_Appeals_Used_Shakespearean.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Manik2026_Analysis_Big_Five_Personality.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.629,
+              "confidence_interval": [
+                -0.443,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.547
+            },
+            "E": {
+              "score": 0.406,
+              "confidence_interval": [
+                -0.293,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.357
+            },
+            "A": {
+              "score": 0.117,
+              "confidence_interval": [
+                -0.395,
+                0.628
+              ],
+              "n_sources": 2,
+              "std_dev": 0.261
+            },
+            "N": {
+              "score": 0.103,
+              "confidence_interval": [
+                -0.263,
+                0.47
+              ],
+              "n_sources": 3,
+              "std_dev": 0.187
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1404,
+            "C": 0.0021,
+            "E": 0.4217,
+            "A": 0.5376,
+            "N": 0.0076
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:31:18.642637+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001788
+        }
+      ]
+    },
+    {
+      "coref_id": "char_emilia",
+      "character_name": "Emilia",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6627296296296296,
+        "C": 0.09566666666666665,
+        "E": 0.11493333333333332,
+        "A": 0.31246296296296294,
+        "N": 0.11042962962962961
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3009,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.0,
+            "E": 0.121,
+            "A": 0.205,
+            "N": 0.083
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuzahra2018_Analyzing_Iagos_Speech_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "preview-9781136536243_A26886974.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.121,
+              "confidence_interval": [
+                -0.299,
+                0.541
+              ],
+              "n_sources": 2,
+              "std_dev": 0.214
+            },
+            "A": {
+              "score": 0.205,
+              "confidence_interval": [
+                -0.353,
+                0.763
+              ],
+              "n_sources": 3,
+              "std_dev": 0.285
+            },
+            "N": {
+              "score": 0.083,
+              "confidence_interval": [
+                -0.282,
+                0.449
+              ],
+              "n_sources": 2,
+              "std_dev": 0.186
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3009,
+            "C": 0.369,
+            "E": 0.0976,
+            "A": 0.6195,
+            "N": 0.1888
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:31:53.615122+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001609
+        }
+      ]
+    },
+    {
+      "coref_id": "char_roderigo",
+      "character_name": "Roderigo",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2576,
+        "C": -0.5542705882352941,
+        "E": -0.11310000000000002,
+        "A": -0.06391764705882352,
+        "N": 0.6841882352941177
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8838,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.5,
+            "A": 0.3,
+            "N": 0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2576,
+            "C": -0.6318,
+            "E": -0.1131,
+            "A": -0.5838,
+            "N": 0.6616
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:32:24.361060+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001439
+        }
+      ]
+    },
+    {
+      "coref_id": "char_brabantio",
+      "character_name": "Brabantio",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3201,
+        "C": 0.5479,
+        "E": 0.1056,
+        "A": -0.46783529411764707,
+        "N": 0.5120823529411764
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4076,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Jealousy_and_Destruction_in_William_Shak.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3201,
+            "C": 0.5479,
+            "E": 0.1056,
+            "A": -0.7076,
+            "N": 0.6722
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:32:58.182313+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001503
+        }
+      ]
+    }
+  ],
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 6 orphan coref_id(s) to registry equivalents; archived 0 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "69": "char_iago",
+        "52": "char_othello",
+        "93": "char_desdemona",
+        "64": "char_cassio",
+        "111": "char_emilia",
+        "57": "char_roderigo"
+      },
+      "archived": []
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

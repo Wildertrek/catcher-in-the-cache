@@ -1,0 +1,1444 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": -0.15,
+        "E": 0.75,
+        "A": 0.05,
+        "N": 0.25,
+        "H": -0.2,
+        "A_HEX": -0.05,
+        "rationale": "The speaker is highly socially assertive and talkative (arranging visits, directing others, playful matchmaking), shows some abstract/ideological and cultural curiosity (longest day, \u201cscience and art,\u201d \u201cNordic race\u201d), but also exhibits mild anxious/suspicious checking (rumor of engagement), low modest sincerity (class/race talk, pushy social engineering), and only middling warmth/forbearance with "
+      },
+      "usage": {
+        "input_tokens": 1152,
+        "output_tokens": 170,
+        "cost_usd": 0.01086,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790044.171628
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.05,
+        "E": 0.35,
+        "A": 0.05,
+        "N": 0.35,
+        "H": 0.25,
+        "A_HEX": 0.1,
+        "rationale": "The speaker shows notable curiosity and openness to unusual ideas (e.g., eagerness to see \u201canything extraordinary,\u201d arguing for unknown forces and trying table-turning), moderate social/assertive engagement in conversation, some impatience and sensitivity to being doubted (raising Neuroticism), while coming across only mildly warm/cooperative and not particularly organized or disciplined from the "
+      },
+      "usage": {
+        "input_tokens": 1221,
+        "output_tokens": 158,
+        "cost_usd": 0.010845,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790047.330462
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": 0.4,
+        "A": -0.1,
+        "N": 0.0,
+        "H": -0.3,
+        "A_HEX": -0.2,
+        "rationale": "The speaker shows practical curiosity and quick improvisation (asking questions, proposing plans) with moderate social assertiveness, but also some coercive/entitled and threatening language (\"I want it,\" \"you'll get something you won't want\") suggesting lower Honesty-Humility and lower gentleness, while emotional tone is mostly steady rather than anxious."
+      },
+      "usage": {
+        "input_tokens": 1523,
+        "output_tokens": 149,
+        "cost_usd": 0.012085,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790050.160497
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OCEANHP": {
+        "O": 0.75,
+        "C": 0.15,
+        "E": 0.05,
+        "A": -0.25,
+        "N": 0.65,
+        "H": 0.25,
+        "A_HEX": -0.35,
+        "rationale": "The speaker is highly reflective and philosophically imaginative (e.g., elaborate meditations on seeming vs being, morality, and \u201cbounded in a nutshell\u201d), shows moderate follow-through and purpose when pursuing truth/revenge but little everyday orderliness, is socially engaged yet not notably gregarious, often suspicious/acerbic and prone to biting remarks, displays clear anxiety and disturbed aff"
+      },
+      "usage": {
+        "input_tokens": 1818,
+        "output_tokens": 193,
+        "cost_usd": 0.01488,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790054.726065
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.05,
+        "E": 0.4,
+        "A": 0.2,
+        "N": 0.85,
+        "H": 0.45,
+        "A_HEX": 0.05,
+        "rationale": "The speaker shows romantic imagination and idealization (\u201cthis now is life, this is happiness!\u201d) and some social initiative (insisting on going to see him, proposing to skate), but is dominated by high anxiety and emotional volatility (repeated alarm, self-reproach, prayerful pleas), with only modest signs of organization or steadiness and mixed gentleness (polite/humble phrasing yet also irritabl"
+      },
+      "usage": {
+        "input_tokens": 1201,
+        "output_tokens": 175,
+        "cost_usd": 0.011255,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790058.271366
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": -0.05,
+        "E": 0.75,
+        "A": -0.25,
+        "N": 0.1,
+        "H": -0.35,
+        "A_HEX": -0.3,
+        "rationale": "The speaker is highly talkative, socially forward, and teasing/sneering (high E, lower Big-Five A and HEX A), shows some reflective/quoting tendencies but mostly conventional social commentary (modest O), little evidence of strong diligence/organization (near-neutral C), low expressed distress (low N), and a gossipy, needling, status-tinged tone suggests lower Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 1055,
+        "output_tokens": 165,
+        "cost_usd": 0.010225,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790062.082795
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OCEANHP": {
+        "O": 0.9,
+        "C": 0.35,
+        "E": 0.55,
+        "A": 0.25,
+        "N": 0.85,
+        "H": 0.45,
+        "A_HEX": 0.1,
+        "rationale": "The speaker is highly poetic, metaphorical, and aesthetically attuned (strong Openness), shows some goal-directed insistence and planning in pressing the messenger to gain access (moderate Conscientiousness), is socially directive yet also notes being \"best when least in company\" (mid Extraversion), is generally courteous and generous with payment but self-focused and sometimes dismissive (slightl"
+      },
+      "usage": {
+        "input_tokens": 2074,
+        "output_tokens": 228,
+        "cost_usd": 0.01721,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790066.628793
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OCEANHP": {
+        "O": 0.1,
+        "C": 0.35,
+        "E": 0.7,
+        "A": -0.6,
+        "N": 0.4,
+        "H": -0.65,
+        "A_HEX": -0.55,
+        "rationale": "The speaker is socially assertive and dominant (\u201cstronger and more of a man,\u201d directing others, \u201cHello\u2026old man\u201d), fairly self-assured and status/ownership-oriented (\u201cnice place,\u201d \u201cbond man\u201d), but also pessimistic and threat-focused (\u201ccivilization\u2019s going to pieces\u201d) with hostile, prejudiced, controlling attitudes (\u201cdominant race,\u201d \u201cthey oughtn\u2019t to let her run around\u201d), indicating low warmth/forgi"
+      },
+      "usage": {
+        "input_tokens": 1114,
+        "output_tokens": 180,
+        "cost_usd": 0.01097,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790070.234287
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OCEANHP": {
+        "O": 0.3,
+        "C": 0.4,
+        "E": 0.6,
+        "A": 0.2,
+        "N": 0.35,
+        "H": 0.45,
+        "A_HEX": 0.25,
+        "rationale": "The speaker is socially forward and status-aware (many greetings, invitations, committee/council talk), somewhat intellectually curious (mentions reading a notable book), fairly dutiful/organized (committee work, planning visits), shows moderate emotional reactivity around jealousy/decision-making, and comes across as generally polite and principled rather than manipulative, though not especially "
+      },
+      "usage": {
+        "input_tokens": 1168,
+        "output_tokens": 154,
+        "cost_usd": 0.01046,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790074.333708
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OCEANHP": {
+        "O": 0.9,
+        "C": 0.1,
+        "E": 0.3,
+        "A": 0.6,
+        "N": 0.7,
+        "H": 0.6,
+        "A_HEX": 0.4,
+        "rationale": "The speaker uses highly metaphorical, aesthetic, and unconventional language about love and identity (high Openness), shows intense longing and despairing rumination (high Neuroticism), is warmly reverent and affectionate toward the beloved with little manipulation (moderately high Agreeableness and Honesty-Humility), is only mildly assertive/social (moderate Extraversion), and shows limited evide"
+      },
+      "usage": {
+        "input_tokens": 1490,
+        "output_tokens": 193,
+        "cost_usd": 0.01324,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790078.8157618
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": 0.55,
+        "E": 0.05,
+        "A": 0.35,
+        "N": 0.6,
+        "H": 0.7,
+        "A_HEX": 0.45,
+        "rationale": "The speaker is measured and duty-focused (carefully qualifying claims, relying on prudence, taking responsibility for others), generally polite and modestly self-effacing (apologizes for impertinence, wishes others happiness), shows noticeable worry/distress and self-blame over relationship news and family trust, and only mild signs of sociability or unconventional curiosity beyond conventional so"
+      },
+      "usage": {
+        "input_tokens": 1677,
+        "output_tokens": 163,
+        "cost_usd": 0.013275,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790082.630625
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OCEANHP": {
+        "O": 0.45,
+        "C": 0.35,
+        "E": 0.2,
+        "A": 0.05,
+        "N": 0.75,
+        "H": 0.65,
+        "A_HEX": -0.05,
+        "rationale": "The speaker shows intense emotionality and stress (high N) while being principled and protective (high H, moderate C), expresses some imaginative/supernatural and religious framing (moderate O), is not especially sociable (low E), and oscillates between cooperation and sharp suspicion/defiance toward others (near-neutral Big-Five A and slightly low HEX agreeableness)."
+      },
+      "usage": {
+        "input_tokens": 1178,
+        "output_tokens": 156,
+        "cost_usd": 0.01057,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790086.34577
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OCEANHP": {
+        "O": 0.85,
+        "C": 0.25,
+        "E": 0.45,
+        "A": 0.55,
+        "N": 0.75,
+        "H": 0.65,
+        "A_HEX": 0.4,
+        "rationale": "The speaker uses highly metaphorical, reflective language about identity and love (high Openness), shows some planning and moral framing around honorable marriage (mild Conscientiousness, higher Honesty-Humility), is romantically expressive and socially forward but not broadly gregarious (moderate Extraversion), is generally warm and cooperative yet emotionally volatile and worried about betrayal "
+      },
+      "usage": {
+        "input_tokens": 1656,
+        "output_tokens": 175,
+        "cost_usd": 0.01353,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790090.000349
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": 0.15,
+        "E": 0.75,
+        "A": 0.25,
+        "N": 0.05,
+        "H": 0.1,
+        "A_HEX": 0.0,
+        "rationale": "The speaker is highly social and talkative (initiating party talk, praising large parties, sharing gossip), shows mild conscientiousness via emphasis on carefulness and disliking carelessness, displays only modest warmth/cooperation, little explicit anxiety, and hints at low-to-moderate honesty-humility through tantalizing withheld information and slightly self-focused, status-tinged remarks."
+      },
+      "usage": {
+        "input_tokens": 1015,
+        "output_tokens": 155,
+        "cost_usd": 0.009725,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790093.829108
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": 0.1,
+        "E": 0.35,
+        "A": 0.15,
+        "N": 0.75,
+        "H": 0.2,
+        "A_HEX": 0.35,
+        "rationale": "The speaker is socially engaged and curious about others (questions about town/ball and people\u2019s stories) and expresses warmth and admiration, but their utterances are dominated by worry, guilt, pleading, and emotional volatility (\"can I have done anything wrong?\", \"I'm sorry\", repeated prayers), suggesting high Neuroticism; conscientiousness and openness are only mildly evidenced, and honesty-hum"
+      },
+      "usage": {
+        "input_tokens": 1218,
+        "output_tokens": 176,
+        "cost_usd": 0.01137,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790097.8095832
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OCEANHP": {
+        "O": -0.1,
+        "C": 0.4,
+        "E": 0.2,
+        "A": -0.3,
+        "N": 0.1,
+        "H": -0.2,
+        "A_HEX": -0.5,
+        "rationale": "The speaker is procedural and duty-focused (ordering arrests, citing 'the law'), moderately organized and assertive in authority, but shows low warmth and little patience/forgiveness (calling a woman a 'wretch/jade,' insisting on punishment), with little evidence of imaginative openness or strong emotional volatility."
+      },
+      "usage": {
+        "input_tokens": 1110,
+        "output_tokens": 140,
+        "cost_usd": 0.00975,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790101.7446861
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OCEANHP": {
+        "O": 0.85,
+        "C": 0.65,
+        "E": 0.2,
+        "A": 0.4,
+        "N": 0.6,
+        "H": -0.1,
+        "A_HEX": 0.25,
+        "rationale": "The speaker shows high verbal/artistic imagination and musical-aesthetic sensibility plus quick improvisation (high O), executes an organized disguise-and-service plan and works diligently at roles/wooing (high C), is socially capable but not strongly gregarious (slightly high E), generally courteous and cooperative yet sometimes cutting/sardonic (moderate A and A_HEX), displays substantial inner "
+      },
+      "usage": {
+        "input_tokens": 1701,
+        "output_tokens": 194,
+        "cost_usd": 0.014325,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790106.608237
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.55,
+        "E": -0.15,
+        "A": 0.05,
+        "N": -0.1,
+        "H": 0.65,
+        "A_HEX": 0.0,
+        "rationale": "Across the dialogue the speaker comes off as self-disciplined and principled (values earned praise over gifts, avoids flattery, judges for self), moderately reflective and nuanced in thought, somewhat reserved and not especially warm, with low-to-moderate emotional volatility and a capacity for blunt criticism without clear signs of either anger-proneness or marked gentleness."
+      },
+      "usage": {
+        "input_tokens": 1319,
+        "output_tokens": 151,
+        "cost_usd": 0.011125,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790109.723045
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.4,
+        "E": 0.3,
+        "A": 0.8,
+        "N": 0.6,
+        "H": 0.7,
+        "A_HEX": 0.8,
+        "rationale": "The speaker shows high warmth, forgiveness, and supportive religio-moral framing (\u201cdear friend,\u201d \u201cnoble act of forgiveness,\u201d offering to be housekeeper), notable worry and emotional strain (\u201cso worried,\u201d \u201cawful,\u201d \u201ccan find nowhere strength\u201d), moderate conscientious helpfulness and duty-taking (\u201center upon my duties,\u201d arranging meetings/tea), modest extraversion through active engagement and repeat"
+      },
+      "usage": {
+        "input_tokens": 1484,
+        "output_tokens": 175,
+        "cost_usd": 0.01267,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790113.204449
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OCEANHP": {
+        "O": 0.1,
+        "C": 0.5,
+        "E": 0.2,
+        "A": 0.1,
+        "N": 0.6,
+        "H": 0.2,
+        "A_HEX": -0.2,
+        "rationale": "The speaker is largely conventional and duty-focused (moralizing about death, managing court affairs, giving directives), shows moderate organization/authority, limited overt warmth and some sharp/irritable reactions (\u201cidle tongue,\u201d \u201cwag thy tongue\u201d), and displays high distress/reactivity in crisis (\u201cHelp, help,\u201d \u201cO what a rash and bloody deed\u201d), suggesting elevated neuroticism with only modest si"
+      },
+      "usage": {
+        "input_tokens": 1189,
+        "output_tokens": 164,
+        "cost_usd": 0.010865,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790116.937226
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OCEANHP": {
+        "O": 0.85,
+        "C": 0.75,
+        "E": 0.35,
+        "A": 0.25,
+        "N": -0.2,
+        "H": 0.55,
+        "A_HEX": 0.05,
+        "rationale": "The speaker shows high intellectual/aesthetic openness in extended natural-philosophical metaphor and moral reflection, strong conscientiousness in planning/acting as a responsible guide (arranging remedies, counseling moderation, coordinating secrecy/logistics), moderate extraversion via directive, talkative mentoring, mixed agreeableness with care and cooperation but also sharp scolding and mora"
+      },
+      "usage": {
+        "input_tokens": 2551,
+        "output_tokens": 194,
+        "cost_usd": 0.018575,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790121.1323562
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OCEANHP": {
+        "O": 0.15,
+        "C": -0.05,
+        "E": 0.1,
+        "A": 0.35,
+        "N": 0.95,
+        "H": 0.6,
+        "A_HEX": -0.45,
+        "rationale": "The speaker shows intense distress, catastrophic thinking, and volatility (\"everything's lost,\" \"I could kill him\") indicating very high Neuroticism and low HEXACO Agreeableness, while also expressing fairness and concern for others (not blaming Anna, worry about comfort) suggesting moderate Agreeableness and Honesty-Humility; there is little evidence of marked openness, conscientious planning, or"
+      },
+      "usage": {
+        "input_tokens": 1526,
+        "output_tokens": 164,
+        "cost_usd": 0.01255,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790124.381448
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.55,
+        "E": 0.35,
+        "A": -0.25,
+        "N": 0.6,
+        "H": 0.2,
+        "A_HEX": -0.35,
+        "rationale": "The speaker is sharp, status-conscious, and emotionally reactive (frequent rebukes, suspicion of folly/madness, concern for honor), yet also orderly and directive (issuing instructions, managing access and messages), with moderate curiosity shown through pointed questioning but comparatively low warmth and patience."
+      },
+      "usage": {
+        "input_tokens": 1452,
+        "output_tokens": 137,
+        "cost_usd": 0.01137,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790127.2478411
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.0,
+        "E": 0.3,
+        "A": -0.1,
+        "N": 0.1,
+        "H": 0.0,
+        "A_HEX": -0.2,
+        "rationale": "The speaker shows mild curiosity and imagination (asking about Gatsby; listing story titles like \u201cBeauty and the Beast\u201d), moderate social engagement (\u201cHello!\u201d, party talk), but also some impatience/irritability and blunt criticism (\u201cDon\u2019t talk\u201d, \u201cYou\u2019re a rotten driver\u201d), with little clear evidence of strong conscientiousness, high neurotic distress, or marked honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 951,
+        "output_tokens": 155,
+        "cost_usd": 0.009405,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790130.38539
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OCEANHP": {
+        "O": 0.3,
+        "C": 0.8,
+        "E": 0.6,
+        "A": -0.1,
+        "N": 0.2,
+        "H": -0.2,
+        "A_HEX": -0.3,
+        "rationale": "The speaker shows competent strategic/administrative thinking and structured planning (dispatches, levies, \u201csift\u201d and \u201ctry\u201d Hamlet, sending him to England), confident public leadership and social initiative, but also a controlling, moralizing and sometimes harsh tone toward Hamlet plus willingness to employ espionage/manipulation, with only mild expressed anxiety and a brief guilt-tinged aside."
+      },
+      "usage": {
+        "input_tokens": 2442,
+        "output_tokens": 157,
+        "cost_usd": 0.01692,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790133.886506
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OCEANHP": {
+        "O": 0.6,
+        "C": 0.7,
+        "E": 0.5,
+        "A": -0.8,
+        "N": 0.2,
+        "H": -0.9,
+        "A_HEX": -0.8,
+        "rationale": "The speaker uses vivid, metaphysical language and imagination (summoning spirits, fate), shows strong planning and instrumental control (deception, logistics, directing others), is assertive and forceful in dialogue, but is markedly antagonistic and coercive, endorses manipulation and murder (low warmth/forgiveness) with little modesty or fairness (very low honesty-humility), while showing only in"
+      },
+      "usage": {
+        "input_tokens": 2430,
+        "output_tokens": 170,
+        "cost_usd": 0.01725,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790137.526346
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.2,
+        "E": 0.25,
+        "A": -0.1,
+        "N": 0.85,
+        "H": 0.0,
+        "A_HEX": -0.25,
+        "rationale": "The speaker shows some imaginative, associative thinking and abstract political phrasing (moderate Openness), manages household/office logistics with some order (slightly above-average Conscientiousness), but is dominated by distress, rumination, and exclamations of alarm over personal fault and unforgiveness (very high Neuroticism), with a mildly irritable/blaming tone and low patience (below-ave"
+      },
+      "usage": {
+        "input_tokens": 1277,
+        "output_tokens": 178,
+        "cost_usd": 0.011725,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790141.271474
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OCEANHP": {
+        "O": 0.75,
+        "C": -0.05,
+        "E": 0.35,
+        "A": -0.15,
+        "N": 0.7,
+        "H": 0.35,
+        "A_HEX": -0.45,
+        "rationale": "The speaker shows strong aesthetic/intellectual preoccupation and disdain for clich\u00e9s (high Openness), intense emotional reactivity, worry, and romantic pessimism (high Neuroticism), moderate sociability/assertiveness, but is frequently judgmental, impatient, and prone to indignation toward others (lower Big-Five Agreeableness and especially HEX Agreeableness), while still valuing sincerity and fa"
+      },
+      "usage": {
+        "input_tokens": 2261,
+        "output_tokens": 189,
+        "cost_usd": 0.016975,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790144.882572
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.15,
+        "E": 0.7,
+        "A": 0.4,
+        "N": 0.25,
+        "H": -0.1,
+        "A_HEX": 0.45,
+        "rationale": "The speaker presents a cultivated, novelty-seeking life narrative (Europe, collecting jewels, painting, big-game hunting) and is socially forward and plan-making (\u201clunch,\u201d \u201chydroplane tomorrow at nine\u201d), with consistently polite, smoothing language (\u201cdon\u2019t mention it,\u201d \u201cbeg your pardon,\u201d concern about anger), but also some self-image management and status signaling (\u201cOxford,\u201d \u201cGod\u2019s truth,\u201d wealth"
+      },
+      "usage": {
+        "input_tokens": 1124,
+        "output_tokens": 171,
+        "cost_usd": 0.01075,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790148.8887308
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.15,
+        "E": 0.2,
+        "A": 0.25,
+        "N": 0.7,
+        "H": 0.4,
+        "A_HEX": -0.35,
+        "rationale": "The speaker uses highly poetic, reflective language and seeks \u201cmemorials\u2026things of fame\u201d (higher Openness), shows some duty/loyalty and practical self-control but not strong orderliness (slightly positive Conscientiousness), is capable of warmth and gratitude yet often reserved (low-moderate Extraversion), expresses kindness and consideration but also curt hostility and readiness to fight when pro"
+      },
+      "usage": {
+        "input_tokens": 1899,
+        "output_tokens": 233,
+        "cost_usd": 0.016485,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790154.281756
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": -0.15,
+        "E": 0.35,
+        "A": 0.25,
+        "N": 0.2,
+        "H": 0.05,
+        "A_HEX": 0.0,
+        "rationale": "The speaker shows some imaginative/fantastical and role-play thinking (witches, genies, highwaymen) and moderate social/assertive engagement, but also impulsive/violent talk and inconsistent practicality (speculation, confusion, rash plans), with mixed warmth (affectionate rejoicing at reunion yet quick to anger) and little direct evidence of principled honesty or strong patience/forgiveness."
+      },
+      "usage": {
+        "input_tokens": 1955,
+        "output_tokens": 160,
+        "cost_usd": 0.014575,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790158.6399932
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "OCEANHP": {
+        "O": -0.3,
+        "C": -0.2,
+        "E": 0.6,
+        "A": 0.1,
+        "N": 0.7,
+        "H": -0.1,
+        "A_HEX": -0.4,
+        "rationale": "The speaker is socially engaged and excited about others (positive extraversion) but shows high anxiety/irritability (\u201chave a little compassion on my nerves,\u201d \u201cNonsense!\u201d), a conventional, marriage- and appearances-focused outlook with little intellectual curiosity, and a somewhat sharp, impatient interpersonal style."
+      },
+      "usage": {
+        "input_tokens": 1120,
+        "output_tokens": 139,
+        "cost_usd": 0.00977,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790161.793152
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": -0.1,
+        "A": 0.7,
+        "N": 0.8,
+        "H": 0.7,
+        "A_HEX": 0.6,
+        "rationale": "The speaker\u2019s utterances are dominated by anxious distress and pleading (high N), strong warmth and self-sacrificing concern for family and an \u201cinnocent husband\u201d (high A and H), with little evidence of sociable assertiveness or novelty-seeking (slightly low E, slightly positive O) and only mild signs of goal-directed control amid crisis (near-neutral C)."
+      },
+      "usage": {
+        "input_tokens": 1394,
+        "output_tokens": 158,
+        "cost_usd": 0.01171,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790165.474931
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OCEANHP": {
+        "O": 0.95,
+        "C": -0.25,
+        "E": 0.85,
+        "A": -0.15,
+        "N": 0.1,
+        "H": -0.35,
+        "A_HEX": -0.25,
+        "rationale": "The speaker shows extremely high imaginative/verbal play and vivid fantasy (Queen Mab, dense wordplay), high social/assertive energy in teasing and banter, but relatively low conscientiousness (impulsive, scattered), low honesty-humility and somewhat low agreeableness via mocking, bawdy, status-jabbing sarcasm and irritability toward others\u2019 affectations, with only mild signs of emotional volatili"
+      },
+      "usage": {
+        "input_tokens": 2368,
+        "output_tokens": 160,
+        "cost_usd": 0.01664,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790169.0545511
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.2,
+        "E": 0.65,
+        "A": 0.25,
+        "N": -0.1,
+        "H": 0.0,
+        "A_HEX": -0.05,
+        "rationale": "The speaker is lively, talkative, and socially forward (banter, frequent exclamations, readily addressing others), shows some imaginative/folksy storytelling and verbal play, is moderately dutiful in caregiving and arranging matters, but also uses sharp teasing/impulsive scolding and displays no strong evidence of either high anxiety or strong principled humility from the utterances alone."
+      },
+      "usage": {
+        "input_tokens": 1619,
+        "output_tokens": 156,
+        "cost_usd": 0.012775,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790172.8254578
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": -0.15,
+        "E": 0.35,
+        "A": 0.05,
+        "N": 0.25,
+        "H": 0.1,
+        "A_HEX": -0.25,
+        "rationale": "The speaker shows romantic-nationalistic idealism and vivid, rhetorical storytelling (higher Openness), mixed with hints of idling and not being \"a good student\" (slightly lower Conscientiousness), moderate assertiveness and social engagement in confrontational declarations (moderate Extraversion), limited warmth plus sharp contempt and quick anger toward targets like the Bourbons (low Agreeablene"
+      },
+      "usage": {
+        "input_tokens": 1382,
+        "output_tokens": 208,
+        "cost_usd": 0.01315,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790177.165069
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": -0.15,
+        "E": 0.25,
+        "A": 0.05,
+        "N": 0.8,
+        "H": 0.55,
+        "A_HEX": 0.15,
+        "rationale": "The speaker shows vivid, lyrical, and imaginative language about Cosette and singsong verses (moderate Openness), but also anxious urgency, emotional volatility, and health/child-related worry (high Neuroticism); they appear sincere and morally reflective about past sins and concern for their child (above-average Honesty-Humility), while momentary sharpness ('Answer me!', 'Was I speaking to you?')"
+      },
+      "usage": {
+        "input_tokens": 1682,
+        "output_tokens": 192,
+        "cost_usd": 0.01417,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790181.2638059
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.55,
+        "E": -0.25,
+        "A": 0.6,
+        "N": 0.75,
+        "H": 0.75,
+        "A_HEX": 0.55,
+        "rationale": "The speaker is dutiful and compliant with authority (returning gifts, obeying commands), warm and deferential in address, and highly distressed/afraid with vivid emotional lamentation, while showing sincerity and moral concern rather than manipulation, moderate aesthetic sensitivity, and a generally reserved, non-assertive interpersonal style."
+      },
+      "usage": {
+        "input_tokens": 1481,
+        "output_tokens": 142,
+        "cost_usd": 0.011665,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790184.403414
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.35,
+        "E": 0.6,
+        "A": -0.35,
+        "N": -0.1,
+        "H": -0.55,
+        "A_HEX": -0.45,
+        "rationale": "The speaker shows verbal wit and imaginative role-play (fantasized rise to status), is assertive and energetic in confrontations and service, but is frequently contemptuous and harsh toward others, with notable self-aggrandizing entitlement suggesting low Honesty-Humility and low HEXACO Agreeableness, while showing only mild emotional volatility."
+      },
+      "usage": {
+        "input_tokens": 1687,
+        "output_tokens": 146,
+        "cost_usd": 0.012815,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790188.058687
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": 0.6,
+        "E": -0.25,
+        "A": 0.15,
+        "N": 0.35,
+        "H": 0.65,
+        "A_HEX": 0.05,
+        "rationale": "The speaker shows practical, utility-oriented aesthetic preferences and fairly fixed opinions (lower Openness), speaks thoughtfully and self-disciplinedly about duty/engagement and responsibility (high Conscientiousness and Honesty-Humility), presents as reserved rather than socially bold (lower Extraversion), is generally civil but can be bluntly critical (slightly positive Big-Five Agreeableness"
+      },
+      "usage": {
+        "input_tokens": 1843,
+        "output_tokens": 185,
+        "cost_usd": 0.014765,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790192.09727
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.35,
+        "E": 0.25,
+        "A": 0.65,
+        "N": -0.35,
+        "H": 0.6,
+        "A_HEX": 0.45,
+        "rationale": "The speaker shows strong interest in literature, taste, and aesthetic judgment (high Openness) and speaks in a measured, structured, caretaking way (moderate Conscientiousness), while being more composed and diplomatic than emotionally volatile (low Neuroticism), notably warm, fair-minded, and protective in assessing others\u2019 character (high Big-Five Agreeableness and Honesty-Humility) with mild sa"
+      },
+      "usage": {
+        "input_tokens": 1885,
+        "output_tokens": 189,
+        "cost_usd": 0.015095,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790196.3012831
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OCEANHP": {
+        "O": 0.3,
+        "C": 0.25,
+        "E": 0.15,
+        "A": 0.65,
+        "N": 0.35,
+        "H": 0.6,
+        "A_HEX": 0.55,
+        "rationale": "The speaker shows moderate curiosity and interpretive thinking about uncanny events, steady dutiful service and practical reporting, a polite cooperative deference to superiors, some fearfulness and apprehension in response to the apparition, and little evidence of manipulation or anger (generally sincere, gentle, and compliant)."
+      },
+      "usage": {
+        "input_tokens": 1133,
+        "output_tokens": 139,
+        "cost_usd": 0.009835,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790198.831627
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OCEANHP": {
+        "O": 0.1,
+        "C": -0.4,
+        "E": 0.6,
+        "A": -0.2,
+        "N": 0.5,
+        "H": -0.3,
+        "A_HEX": -0.5,
+        "rationale": "The speaker is forceful and socially forward (directing officers, pushing toasts), but also irritable and cynical with low restraint (heavy drinking, 'botheration,' 'don't you be moral'), expresses loneliness and bitterness ('disappointed drudge... no man cares for me'), and shows some cutting/sarcastic, manipulative-leaning remarks rather than warmth or forgiveness."
+      },
+      "usage": {
+        "input_tokens": 1254,
+        "output_tokens": 157,
+        "cost_usd": 0.01098,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790203.1158762
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.05,
+        "E": 0.1,
+        "A": 0.25,
+        "N": 0.6,
+        "H": 0.35,
+        "A_HEX": 0.15,
+        "rationale": "The speaker shows reflective, literary-minded curiosity and sensitivity to eerie historical detail (moderately high Openness), but also confusion and faintness plus a bleak, self-deprecating outlook and drinking (high Neuroticism, low-to-middling Conscientiousness), while remaining mostly civil and non-confrontational\u2014willing to part \u201cwithout ill-blood\u201d and expressing obligation\u2014suggesting moderat"
+      },
+      "usage": {
+        "input_tokens": 1517,
+        "output_tokens": 176,
+        "cost_usd": 0.012865,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790206.704643
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OCEANHP": {
+        "O": 0.05,
+        "C": -0.25,
+        "E": 0.65,
+        "A": -0.45,
+        "N": 0.7,
+        "H": -0.4,
+        "A_HEX": -0.75,
+        "rationale": "The speaker is talkative and forceful (repeated shouting, assertive demands), emotionally volatile and stressed (\"I'm sick,\" suspicion and panic around \"death car\"), antagonistic and quick to anger/violence (\"Throw me down and beat me\"), somewhat opportunistic/suspicious about cheating and making money, with little evidence of intellectual/aesthetic curiosity and some signs of poor self-regulation"
+      },
+      "usage": {
+        "input_tokens": 1078,
+        "output_tokens": 164,
+        "cost_usd": 0.01031,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790210.757052
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OCEANHP": {
+        "O": 0.15,
+        "C": 0.65,
+        "E": 0.55,
+        "A": -0.35,
+        "N": 0.05,
+        "H": -0.55,
+        "A_HEX": -0.45,
+        "rationale": "The speaker is conventional and status-minded (low-moderate Openness) yet highly dutiful, planful, and rule/role-oriented (high Conscientiousness), socially forward and talkative (moderate Extraversion), but persistently condescending and self-serving in courtship while leveraging patronage and entitlement (low Big-Five Agreeableness and low Honesty-Humility) with a stubborn, non-forgiving tone wh"
+      },
+      "usage": {
+        "input_tokens": 2908,
+        "output_tokens": 191,
+        "cost_usd": 0.02027,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790214.7406368
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OCEANHP": {
+        "O": -0.1,
+        "C": 0.3,
+        "E": 0.2,
+        "A": -0.1,
+        "N": 0.5,
+        "H": 0.0,
+        "A_HEX": -0.2,
+        "rationale": "The speaker is directive and somewhat orderly in giving instructions and managing others, shows notable alarm and confusion (\"I am mad!\", fear about eyesight), offers payment for shelter (neutral honesty/greed signal), and displays some irritability/harshness (\"Bah!\", brusque questioning) rather than sustained warmth or gentleness."
+      },
+      "usage": {
+        "input_tokens": 934,
+        "output_tokens": 147,
+        "cost_usd": 0.00908,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790217.6973372
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OCEANHP": {
+        "O": 0.05,
+        "C": 0.75,
+        "E": 0.15,
+        "A": -0.25,
+        "N": 0.35,
+        "H": -0.35,
+        "A_HEX": -0.45,
+        "rationale": "The speaker is highly duty- and rule-focused (lengthy practical precepts, careful social/economic advice, organized surveillance of his son), somewhat suspicious and controlling in relationships (interrogating Ophelia, assuming deceit, using strategic falsehood to elicit truth), shows moderate stress reactivity (jealousy, fear, worry about scandal), and comes across more stern/irritable than warm "
+      },
+      "usage": {
+        "input_tokens": 2440,
+        "output_tokens": 162,
+        "cost_usd": 0.01706,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790221.433154
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OCEANHP": {
+        "O": -0.2,
+        "C": 0.3,
+        "E": 0.2,
+        "A": -0.1,
+        "N": 0.1,
+        "H": -0.2,
+        "A_HEX": -0.2,
+        "rationale": "The speaker is practical and task-focused (detailed talk about cutting grass, fetching water/bread, asking procedural questions), shows some brusque/commanding and mildly contemptuous or suspicious remarks (\u201cGet along with you!\u201d, \u201cmalicious creature,\u201d \u201cHow ugly she is\u201d), with little evidence of imaginative openness, strong sociability, or pronounced anxiety."
+      },
+      "usage": {
+        "input_tokens": 1050,
+        "output_tokens": 149,
+        "cost_usd": 0.00972,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790225.051706
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.25,
+        "E": 0.75,
+        "A": 0.35,
+        "N": -0.35,
+        "H": 0.5,
+        "A_HEX": 0.55,
+        "rationale": "The speaker is witty, socially forward, and verbally playful (high E, fairly high O), generally warm and diplomatic with some teasing/snobbery (moderate A), appears emotionally steady and self-assured (low N), shows basic responsibility and principled self-presentation without signs of manipulation (moderate C and H), and tends to be good-natured and forgiving rather than irritable (moderately hig"
+      },
+      "usage": {
+        "input_tokens": 1724,
+        "output_tokens": 167,
+        "cost_usd": 0.01363,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790229.033922
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.15,
+        "E": 0.45,
+        "A": 0.05,
+        "N": -0.1,
+        "H": 0.25,
+        "A_HEX": -0.25,
+        "rationale": "The speaker shows lively wit and ironic social observation (moderately high Openness), some practical planning but not strong diligence (slightly positive Conscientiousness), comfortable assertiveness in conversation (moderate Extraversion), a mix of praise and cutting/sardonic remarks (near-neutral Big-Five Agreeableness but lower HEX agreeableness/gentleness), little anxiety and a relatively ste"
+      },
+      "usage": {
+        "input_tokens": 1605,
+        "output_tokens": 195,
+        "cost_usd": 0.013875,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790233.0396469
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OCEANHP": {
+        "O": 0.9,
+        "C": 0.4,
+        "E": 0.2,
+        "A": -0.5,
+        "N": 0.85,
+        "H": -0.8,
+        "A_HEX": -0.6,
+        "rationale": "The speaker\u2019s highly metaphorical, visionary language and hallucinatory introspection suggest very high Openness, while strategic planning and role-consciousness show moderate Conscientiousness; they are not especially sociable but are assertive at moments, and their willingness to deceive/kill a trusted host-king indicates very low Honesty-Humility and low Agreeableness/HEX Agreeableness, alongsi"
+      },
+      "usage": {
+        "input_tokens": 2127,
+        "output_tokens": 176,
+        "cost_usd": 0.015915,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790236.711803
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.3,
+        "E": 0.35,
+        "A": 0.45,
+        "N": -0.05,
+        "H": 0.4,
+        "A_HEX": 0.5,
+        "rationale": "The speaker shows imaginative, metaphor-rich language and aesthetic sensitivity (high O), a peacekeeping, advisory stance with some planning/directing (moderately high C), moderate social assertiveness without exuberance (mid E), generally cooperative and considerate interventions (A and A_HEX positive), little personal anxiety or volatility (near-neutral/low N), and a fairly principled, non-explo"
+      },
+      "usage": {
+        "input_tokens": 1463,
+        "output_tokens": 170,
+        "cost_usd": 0.012415,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790240.467524
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": 0.25,
+        "E": 0.45,
+        "A": 0.75,
+        "N": 0.25,
+        "H": 0.55,
+        "A_HEX": 0.7,
+        "rationale": "The speaker is socially warm and active in comforting/mediating (moderate E, high A and A_HEX), offers principled-sounding sincere sympathy and candid perspective-taking (moderate H), shows some reflective psychological insight rather than novelty-seeking (modest O), appears composed though emotionally responsive (slightly low N), and is somewhat directive/organized in action (\u201ccome along\u2026take you"
+      },
+      "usage": {
+        "input_tokens": 1493,
+        "output_tokens": 175,
+        "cost_usd": 0.012715,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790244.372886
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OCEANHP": {
+        "O": 0.35,
+        "C": -0.15,
+        "E": 0.25,
+        "A": -0.55,
+        "N": 0.75,
+        "H": -0.35,
+        "A_HEX": -0.6,
+        "rationale": "The speaker shows vivid, dramatic comparisons (\"Roman emperors,\" \"murderer\") suggesting some imagination, but their utterances are dominated by distress and fear (ghost, misery, crying), angry confrontations and refusal to comply (\"Wicked and cruel boy!\", \"I will not stir\", \"Unjust!\"), plus status-tinged disdain (\"not fit to associate with me\"), indicating high Neuroticism, low Agreeableness/HEX A"
+      },
+      "usage": {
+        "input_tokens": 1066,
+        "output_tokens": 213,
+        "cost_usd": 0.01172,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790249.762165
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": -0.8,
+        "E": 0.9,
+        "A": -0.4,
+        "N": 0.3,
+        "H": -0.6,
+        "A_HEX": -0.5,
+        "rationale": "The speaker is highly talkative, excitement-seeking, and socially/romantically preoccupied (high E) but shows poor self-control and planning (spending all their money, impulsive schemes) with jealousy/entitlement and little gentleness (lower C, A, A_HEX), plus some boastfulness and willingness to impose or manipulate for fun (lower H) and mild emotional reactivity without strong distress (slightly"
+      },
+      "usage": {
+        "input_tokens": 1851,
+        "output_tokens": 172,
+        "cost_usd": 0.014415,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790253.607828
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OCEANHP": {
+        "O": 0.55,
+        "C": 0.35,
+        "E": -0.05,
+        "A": -0.45,
+        "N": -0.15,
+        "H": 0.1,
+        "A_HEX": -0.75,
+        "rationale": "The speaker shows wit and aesthetic/intellectual framing (\"picturesque,\" aphorisms, meta-remarks about disputes) suggesting moderate openness, but is socially reserved and often cutting or disdainful (slighting others, warning about 'offending,' skeptical of humility), explicitly admits to being unyielding and resentful with grudges (very low HEX agreeableness) while displaying some self-awareness"
+      },
+      "usage": {
+        "input_tokens": 1667,
+        "output_tokens": 173,
+        "cost_usd": 0.013525,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790258.201501
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OCEANHP": {
+        "O": 0.25,
+        "C": 0.3,
+        "E": 0.35,
+        "A": -0.15,
+        "N": 0.55,
+        "H": 0.1,
+        "A_HEX": -0.35,
+        "rationale": "The speaker shows moderate curiosity and some aesthetic sensitivity (noting fine eyelashes, pressing for details), is fairly orderly and probing in gathering accounts, is moderately socially assertive and talkative, but comes across as judgmental and stubborn (\u201cyou will not laugh me out of my opinion\u201d), emotionally reactive and distressed about reputational issues, only mildly principled/fair (qui"
+      },
+      "usage": {
+        "input_tokens": 1642,
+        "output_tokens": 193,
+        "cost_usd": 0.014,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790263.887773
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OCEANHP": {
+        "O": -0.2,
+        "C": 0.75,
+        "E": 0.45,
+        "A": -0.35,
+        "N": -0.1,
+        "H": -0.55,
+        "A_HEX": -0.45,
+        "rationale": "The speaker is conventional and status/etiquette-focused (criticizing lack of governess, urging \"steady and regular instruction\"), highly dutiful and prescriptive about discipline and practice, moderately outgoing and talkative in directing others, but comes off judgmental, condescending, self-important and boastful about influence (low warmth and low modesty), with little expressed anxiety and a "
+      },
+      "usage": {
+        "input_tokens": 1762,
+        "output_tokens": 169,
+        "cost_usd": 0.01388,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790267.737074
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OCEANHP": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": 0.6,
+        "A": -0.4,
+        "N": 0.6,
+        "H": -0.6,
+        "A_HEX": -0.5,
+        "rationale": "The speaker is highly social and talkative (\u201csociety is necessary to me\u201d) and verbally assertive, but shows strong resentment and emotional volatility about perceived ill-usage, makes sweeping hostile judgments and insinuations about others (low Big-Five Agreeableness and HEXACO Agreeableness), and presents a self-justifying, blame-shifting narrative about the lost living that suggests low Honesty"
+      },
+      "usage": {
+        "input_tokens": 2290,
+        "output_tokens": 172,
+        "cost_usd": 0.01661,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1778790271.157202
+    }
+  ]
+}

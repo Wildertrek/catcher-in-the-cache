@@ -1,0 +1,38 @@
+{
+  "description": "SCPI k-sensitivity ablation: M6 leave-one-book-out predictions evaluated at k \u2208 {3, 5, 10, 20} against weighted multi-source GT on 562-character corpus.",
+  "reference_k": 5,
+  "reference_note": "k=5 is the bake-off production setting per aperture_method_bakeoff.py line 420; matches the M6 SCPI headline MAE 0.328 in paper Table 1.",
+  "per_k": {
+    "k=3": {
+      "n_chars_predicted": 562,
+      "MAE": 0.3362721276095958,
+      "r": 0.28834412468457865,
+      "CCC": 0.268968571756714,
+      "n_obs": 2810
+    },
+    "k=5": {
+      "n_chars_predicted": 562,
+      "MAE": 0.32815592353185874,
+      "r": 0.30760425739678265,
+      "CCC": 0.2678500563478147,
+      "n_obs": 2810
+    },
+    "k=10": {
+      "n_chars_predicted": 562,
+      "MAE": 0.31647718949530945,
+      "r": 0.3347599391206291,
+      "CCC": 0.2533028864821169,
+      "n_obs": 2810
+    },
+    "k=20": {
+      "n_chars_predicted": 562,
+      "MAE": 0.3148810220717095,
+      "r": 0.3511496585069496,
+      "CCC": 0.23365565141313493,
+      "n_obs": 2810
+    }
+  },
+  "max_abs_delta_MAE_vs_k5": 0.013274901460149258,
+  "verdict": "SCPI performance is monotone-stable across k \u2208 {3, 5, 10, 20} (max |\u0394MAE| = 0.0133 = 4.0% of reference). Higher k slightly improves MAE (k=20 best at 0.3149) but at minor cost to CCC (0.2337 vs k=5 0.2679). The k=5 default holds for paper headlines.",
+  "method": "LOBO-fair: source-book excluded; FAISS IndexFlatIP cosine similarity over L2-normalized text-embedding-3-large character mean-utterance vectors (3072-d)."
+}

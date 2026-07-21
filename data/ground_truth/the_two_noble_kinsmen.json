@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Two Noble Kinsmen",
+    "author": "William Shakespeare and John Fletcher",
+    "year": "c. 1613"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_palamon",
+      "character_name": "Palamon",
+      "quote_count": 134,
+      "consensus_ocean": {
+        "O": 0.26314,
+        "C": 0.154028,
+        "E": 0.42159599999999997,
+        "A": -0.13324799999999998,
+        "N": 0.438128
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2501,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.6, \"A\": 0.4, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Palamon is often viewed as a character driven by passion and desire, reflecting a moderate level of openness and extraversion, while his conscientiousness and agreeableness are less emphasized in the context of his rivalry with Arcite.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.4,
+            "E": 0.2,
+            "A": -0.2,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.4,\n  \"E\": 0.2,\n  \"A\": -0.2,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Palamon is characterized by romantic idealism and emotional intensity rather than imaginative unconventionality; critical consensus emphasizes his passionate, melancholic nature and rigid devotion to Emilia as defining traits, with limited scholarly attention to deeper personality analysis beyond his role as a foil to Arcite's more pragmatic temperament.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": -0.7,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": -0.7,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus highlights Palamon's intense emotional volatility, impulsiveness, and assertiveness driven by his all-consuming passion for Emilia, leading to a breakdown of his previous loyalties and a lack of cooperation with Arcite.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4255,
+            "C": 0.5501,
+            "E": 0.3057,
+            "A": 0.0384,
+            "N": 0.1076
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:08:47.485321+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002353
+        }
+      ]
+    },
+    {
+      "coref_id": "char_arcite",
+      "character_name": "Arcite",
+      "quote_count": 129,
+      "consensus_ocean": {
+        "O": 0.313008,
+        "C": 0.552476,
+        "E": 0.529776,
+        "A": -0.07649600000000001,
+        "N": 0.082892
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2611,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.6,
+            "A": 0.4,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.6, \"A\": 0.4, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Arcite is often viewed as a passionate and determined character, exhibiting a blend of ambition and emotional depth, though he also displays moments of impulsiveness and conflict, as noted in various analyses of the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.5,
+            "E": 0.6,
+            "A": -0.4,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.5,\n  \"E\": 0.6,\n  \"A\": -0.4,\n  \"N\": 0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Arcite emerges from critical consensus as emotionally volatile and competitive rather than imaginative; scholars note his passionate rivalry with Palamon, conventional martial values, and susceptibility to jealousy and rage, though he displays social confidence and some discipline as a knight.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.7,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus often highlights Arcite's active, determined, and competitive nature, particularly in his rivalry with Palamon for Emilia's love, contrasting with his initial loyalty.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6036,
+            "C": 0.6017,
+            "E": 0.3492,
+            "A": 0.3268,
+            "N": -0.5611
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:09:20.235643+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002188
+        }
+      ]
+    },
+    {
+      "coref_id": "char_daughter",
+      "character_name": "Daughter",
+      "quote_count": 64,
+      "consensus_ocean": {
+        "O": 0.388452,
+        "C": -0.340072,
+        "E": 0.17231999999999997,
+        "A": 0.42194000000000004,
+        "N": 0.49354
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Daughter is a minor character in 'The Two Noble Kinsmen' and has not been the focus of significant critical analysis, leading to a lack of consensus on her personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.3,
+            "E": 0.4,
+            "A": 0.2,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.3,\n  \"E\": 0.4,\n  \"A\": 0.2,\n  \"N\": 0.7,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Daughter is a minor character whose psychological complexity receives minimal sustained attention in major critical works; most scholarship focuses on the primary plot involving Palamon and Arcite, leaving her characterization underdeveloped in the published critical canon.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.7,
+            "E": -0.2,
+            "A": 0.7,
+            "N": 1.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": -0.7,\n  \"E\": -0.2,\n  \"A\": 0.7,\n  \"N\": 1.0,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently emphasizes her profound emotional volatility, imaginative capacity for love and delusion, and impulsive, empathetic actions driven by unrequited passion, leading to her tragic mental breakdown.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6159,
+            "C": -0.3574,
+            "E": 0.444,
+            "A": 0.7355,
+            "N": 0.3055
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:09:51.295507+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002555
+        }
+      ]
+    },
+    {
+      "coref_id": "char_theseus",
+      "character_name": "Theseus",
+      "quote_count": 61,
+      "consensus_ocean": {
+        "O": -0.07336799999999999,
+        "C": 0.738536,
+        "E": 0.669924,
+        "A": 0.4793279999999999,
+        "N": -0.4675079999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.6,
+            "A": 0.7,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.6, \"A\": 0.7, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Theseus is often portrayed as a rational and authoritative figure, demonstrating high conscientiousness and agreeableness, while his emotional stability suggests low neuroticism, as noted in various analyses of his role as a leader and mediator in the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.7,
+            "E": 0.8,
+            "A": 0.4,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": 0.4,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Theseus emerges in critical consensus as a principled, authoritative ruler (high C, E) whose rigid adherence to law and duty constrains empathy (moderate-low A) and imaginative flexibility (moderate O), with emotional stability befitting a classical hero, though scholars note his character receives less intensive analysis than the kinsmen themselves.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.8,
+            "E": 0.6,
+            "A": 0.2,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.5,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": 0.2,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Theseus as a figure of law, order, and authority, emphasizing his decisive, pragmatic, and emotionally stable leadership, rather than his imagination or personal warmth.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0906,
+            "C": 0.6662,
+            "E": 0.6783,
+            "A": 0.5976,
+            "N": -0.6411
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:10:25.973500+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00293
+        }
+      ]
+    },
+    {
+      "coref_id": "char_emilia",
+      "character_name": "Emilia",
+      "quote_count": 60,
+      "consensus_ocean": {
+        "O": 0.197796,
+        "C": 0.312512,
+        "E": 0.26181599999999994,
+        "A": 0.6630039999999999,
+        "N": 0.29878400000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3207,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.5, \"A\": 0.7, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Emilia is often viewed as a character embodying both strength and compassion, reflecting a balance of openness and agreeableness, though critical analyses of her character are less extensive compared to more central figures in the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.5,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.5,\n  \"E\": 0.6,\n  \"A\": 0.4,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Emilia is a secondary character whose personality has received modest critical attention; scholars note her initial resistance to marriage and emotional responsiveness to the kinsmen's devotion, but the collaborative authorship and her limited stage time limit consensus on deeper trait profiles.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.3,
+            "E": 0.0,
+            "A": 0.8,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.3,\n  \"E\": 0.0,\n  \"A\": 0.8,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism generally portrays Emilia as an idealized, chaste, and empathetic figure, distressed by the kinsmen's conflict but lacking significant individual agency or psychological depth.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6207,
+            "C": 0.4304,
+            "E": -0.0078,
+            "A": 0.7393,
+            "N": -0.0472
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:11:01.008683+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002592
+        }
+      ]
+    },
+    {
+      "coref_id": "char_iailor",
+      "character_name": "Iailor",
+      "quote_count": 52,
+      "consensus_ocean": {
+        "O": -0.060531999999999996,
+        "C": 0.35515599999999997,
+        "E": 0.088544,
+        "A": 0.17043999999999998,
+        "N": 0.014188000000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.923,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The Iailor is a minor character whose traits are not extensively analyzed in critical literature, but he exhibits a moderate level of conscientiousness and agreeableness in his interactions.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.2,
+            "A": -0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.2,\n  \"A\": -0.4,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Iailor is a minor jailer character with minimal textual presence; published criticism on 'The Two Noble Kinsmen' (e.g., Bertrand Evans, Inga-Stina Ewbank) focuses on Palamon, Arcite, and Emilia, leaving this functionary largely unanalyzed.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Iailor is a very minor character in 'The Two Noble Kinsmen,' serving primarily a functional role as the Jailer and father to the Jailer's Daughter, and as such, published literary criticism does not offer meaningful psychological analysis of his personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3019,
+            "C": 0.5827,
+            "E": 0.1448,
+            "A": 0.523,
+            "N": -0.3779
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:11:48.882341+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001475
+        }
+      ]
+    },
+    {
+      "coref_id": "char_wooer",
+      "character_name": "Wooer",
+      "quote_count": 38,
+      "consensus_ocean": {
+        "O": 0.129056,
+        "C": 0.029051999999999988,
+        "E": 0.262544,
+        "A": 0.13747199999999998,
+        "N": 0.008028000000000013
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8999,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The Wooer is a minor character in 'The Two Noble Kinsmen' and has not been the focus of significant critical analysis, leading to a lack of consensus on personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.3,
+            "E": 0.4,
+            "A": -0.2,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.3,\n  \"E\": 0.4,\n  \"A\": -0.2,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Wooer is a minor comic character whose personality receives minimal sustained critical attention in major scholarly works; most analysis focuses on the primary plot involving Palamon and Arcite, leaving his psychological profile largely underdeveloped in the published critical record.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of \\\"The Two Noble Kinsmen\\\" focuses on major characters and themes, offering no significant analysis of the Wooer's individual personality traits beyond his functional role in the Jailer's Daughter's subplot.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3752,
+            "C": 0.3609,
+            "E": 0.5948,
+            "A": 0.6624,
+            "N": -0.3999
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:12:17.266561+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001322
+        }
+      ]
+    },
+    {
+      "coref_id": "char_perithous",
+      "character_name": "Perithous",
+      "quote_count": 34,
+      "consensus_ocean": {
+        "O": 0.298056,
+        "C": 0.226112,
+        "E": 0.42816399999999993,
+        "A": 0.407888,
+        "N": -0.240616
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8022,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.5, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Perithous is characterized by a blend of adventurous spirit and loyalty, but lacks the depth of exploration found in more central characters, leading to moderate assessments of his traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.6,
+            "A": 0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.6,\n  \"A\": 0.5,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Perithous is a minor figure in the play whose characterization receives limited sustained critical attention in major scholarly works; most analysis focuses on Palamon and Arcite, leaving Perithous's personality traits underdeveloped in the published critical record.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Perithous is an extremely minor character in 'The Two Noble Kinsmen' with very few lines, and published literary criticism does not offer meaningful analysis of their individual personality traits beyond their functional role as a lamenting queen.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5502,
+            "C": 0.5504,
+            "E": 0.5863,
+            "A": 0.5996,
+            "N": -0.6022
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:13:04.452437+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001495
+        }
+      ]
+    },
+    {
+      "coref_id": "char_doctor",
+      "character_name": "Doctor",
+      "quote_count": 30,
+      "consensus_ocean": {
+        "O": 0.106544,
+        "C": 0.44034399999999996,
+        "E": 0.14493999999999999,
+        "A": 0.33682399999999996,
+        "N": -0.04212400000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8933,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The Doctor in 'The Two Noble Kinsmen' is a minor character whose traits are not extensively analyzed in major literary criticism, but he exhibits a balanced approach to his role, showing some conscientiousness and agreeableness in his interactions.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.3,
+            "A": 0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.3,\n  \"A\": 0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Doctor is a minor character whose psychological profile receives minimal sustained attention in published criticism; scholars focus primarily on his functional role in the plot rather than his personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses the Doctor in terms of his functional role in the plot, particularly his unconventional cure for the Jailer's Daughter, rather than offering detailed analyses of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2948,
+            "C": 0.6298,
+            "E": 0.2605,
+            "A": 0.3458,
+            "N": -0.4933
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:13:53.986834+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001259
+        }
+      ]
+    },
+    {
+      "coref_id": "char_hippolita",
+      "character_name": "Hippolita",
+      "quote_count": 22,
+      "consensus_ocean": {
+        "O": 0.18617599999999998,
+        "C": 0.309816,
+        "E": 0.270904,
+        "A": 0.5122,
+        "N": -0.15086399999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7388,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.3,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.3, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Hippolita is often interpreted as a strong yet complex character, embodying a blend of assertiveness and empathy, as noted in various analyses of her role in the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.7,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": 0.7,\n  \"N\": 0.2,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Hippolita appears primarily as a dignified, ceremonial figure whose agency diminishes after Act 1; critical consensus treats her as a conventionally virtuous queen whose emotional restraint and cooperative nature dominate her limited characterization, though scholars note the play's collaborative authorship complicates consistent psychological depth.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism for 'The Two Noble Kinsmen' primarily focuses on authorship, genre, major themes, and central characters, offering minimal meaningful analysis of Hippolita's individual personality traits beyond her functional role as Theseus's dignified consort.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0208,
+            "C": 0.5922,
+            "E": 0.2818,
+            "A": 0.715,
+            "N": -0.5388
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:14:35.412581+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001261
+        }
+      ]
+    }
+  ]
+}

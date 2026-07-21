@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "Companion repository for The Catcher in the Cache: Retrieval, Not Measurement, in LLM Personality Inference"
+version: 0.6.0-prerelease
+date-released: "2026-07-20"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/Wildertrek/catcher-in-the-cache"
+keywords:
+  - personality measurement
+  - convergent validity
+  - large language models
+  - knowledge distillation
+  - retrieval-augmented measurement
+  - computational literary studies
+  - literary characters
+  - HEXACO
+  - OCEAN
+  - Big Five
+  - APERTURE
+authors:
+  - family-names: "Raetano"
+    given-names: "Joseph S."
+    affiliation: "University of Tennessee, Knoxville"
+    orcid: "https://orcid.org/0000-0002-0468-5567"
+  - family-names: "Gregor"
+    given-names: "Jens"
+    affiliation: "University of Tennessee, Knoxville"
+    orcid: "https://orcid.org/0000-0003-4127-6954"
+  - family-names: "Tamang"
+    given-names: "Suzanne"
+    affiliation: "Stanford University"
+    orcid: "https://orcid.org/0000-0003-2077-4620"
+preferred-citation:
+  type: article
+  title: "The Catcher in the Cache: Retrieval, Not Measurement, in LLM Personality Inference"
+  authors:
+    - family-names: "Raetano"
+      given-names: "Joseph S."
+      affiliation: "University of Tennessee, Knoxville"
+      orcid: "https://orcid.org/0000-0002-0468-5567"
+    - family-names: "Gregor"
+      given-names: "Jens"
+      affiliation: "University of Tennessee, Knoxville"
+      orcid: "https://orcid.org/0000-0003-4127-6954"
+    - family-names: "Tamang"
+      given-names: "Suzanne"
+      affiliation: "Stanford University"
+      orcid: "https://orcid.org/0000-0003-2077-4620"
+  year: 2026
+  journal: "[under review]"

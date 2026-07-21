@@ -1,0 +1,75 @@
+{
+  "coref_id": "1810",
+  "character_name": "These two girls",
+  "quote_count": 2,
+  "mention_count": 10,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "118",
+      1
+    ],
+    [
+      "99",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Is not this nice ? is not this an agreeable surprise ? \u201d",
+      "mention_text": "they",
+      "quote_start": 87581,
+      "quote_end": 87594,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And how much I shall have to conceal ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How nicely we are crammed in \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And we mean to treat you all , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but you must lend us the money , for we have just spent ours at the shop out there . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "purchases,--\u201cLook here , I have bought this bonnet . I do not think it is very pretty ; but I thought I might as well buy it as not . I shall pull it to pieces as soon as I get home , and see if I can make it up any better . \u201d",
+      "mention_text": "they",
+      "quote_start": 87633,
+      "quote_end": 87687,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And we mean to treat you all , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but you must lend us the money , for we have just spent ours at the shop out there . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , but there were two or three much uglier in the shop ; and when I have bought some prettier - coloured satin to trim it with fresh , I think it will be very tolerable . Besides , it will not much signify what one wears this summer , after the ----shire have left Meryton , and they are going in a fortnight . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Are they , indeed ? \u201d"
+        }
+      ]
+    }
+  ]
+}

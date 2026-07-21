@@ -1,0 +1,27 @@
+{
+  "method": "M1 (training-free embedding prototype)",
+  "n_characters": 557,
+  "MAE": 0.427,
+  "MAE_CI": [
+    0.412,
+    0.443
+  ],
+  "pearson_r": 0.145,
+  "r_CI": [
+    0.109,
+    0.181
+  ],
+  "CCC": 0.145,
+  "CCC_CI": [
+    0.109,
+    0.181
+  ],
+  "per_trait_r": {
+    "O": 0.177,
+    "C": 0.103,
+    "E": 0.21,
+    "A": 0.05,
+    "N": 0.078
+  },
+  "note": "Bar-1 baseline only (not in the Bar-2 convergent matrix). Cosine scores calibrated to the GT marginal per factor (training-free, no per-character GT fitting). Computed by m1_baseline.py."
+}

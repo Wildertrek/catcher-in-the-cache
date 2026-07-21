@@ -1,0 +1,45 @@
+{
+  "coref_id": "1528",
+  "character_name": "this great lady",
+  "quote_count": 1,
+  "mention_count": 20,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "137",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c he never failed to inform them \u201d",
+      "mention_text": "she",
+      "quote_start": 69553,
+      "quote_end": 69560,
+      "addressee_coref_id": "137",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c You can not be more than twenty , I am sure,--therefore you need not conceal your age . \u201d"
+        },
+        {
+          "speaker_coref_id": "137",
+          "quote_text": "\u201c I am not one - and - twenty . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c The gentlemen accompanied him . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I may thank you , Eliza , for this piece of civility . Mr. Darcy would never have come so soon to wait upon me . \u201d"
+        }
+      ]
+    }
+  ]
+}

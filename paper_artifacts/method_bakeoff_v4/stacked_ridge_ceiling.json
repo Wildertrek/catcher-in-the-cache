@@ -1,0 +1,66 @@
+{
+  "spec": {
+    "test": "leave-one-out stacked Ridge on {M3,M4,M5,M6} -> OP label",
+    "alpha": 1.0,
+    "n_boot": 10000,
+    "seed": 20260513,
+    "interpretation": "Per-trait ceiling: max linear-combination Pearson r and out-of-sample MAE of any {M3..M6} stack vs OP label, with 10k-resample paired-character bootstrap 95% CI on r."
+  },
+  "per_trait": {
+    "O": {
+      "n": 58,
+      "loo_ridge_r": 0.5683577695459099,
+      "loo_ridge_r_ci": [
+        0.41178478025068005,
+        0.7135033613690702
+      ],
+      "loo_ridge_p": 3.2561452764061967e-06,
+      "loo_ridge_mae": 0.1989672598603503,
+      "ci_spans_zero": false
+    },
+    "C": {
+      "n": 58,
+      "loo_ridge_r": 0.6583171127276546,
+      "loo_ridge_r_ci": [
+        0.4667598117581871,
+        0.8052708140422855
+      ],
+      "loo_ridge_p": 1.9512221030309007e-08,
+      "loo_ridge_mae": 0.21588119359748315,
+      "ci_spans_zero": false
+    },
+    "E": {
+      "n": 58,
+      "loo_ridge_r": 0.4650020513332388,
+      "loo_ridge_r_ci": [
+        0.2779862309693396,
+        0.6388521453098296
+      ],
+      "loo_ridge_p": 0.0002354311832484847,
+      "loo_ridge_mae": 0.23647415221608636,
+      "ci_spans_zero": false
+    },
+    "A": {
+      "n": 58,
+      "loo_ridge_r": 0.047288470077666026,
+      "loo_ridge_r_ci": [
+        -0.23870542476123033,
+        0.37523271096356564
+      ],
+      "loo_ridge_p": 0.7244664662961889,
+      "loo_ridge_mae": 0.2534314182113907,
+      "ci_spans_zero": true
+    },
+    "N": {
+      "n": 58,
+      "loo_ridge_r": 0.40615168769541377,
+      "loo_ridge_r_ci": [
+        0.23576152060619918,
+        0.5573842499965526
+      ],
+      "loo_ridge_p": 0.0015594598117995933,
+      "loo_ridge_mae": 0.18090445391066814,
+      "ci_spans_zero": false
+    }
+  }
+}

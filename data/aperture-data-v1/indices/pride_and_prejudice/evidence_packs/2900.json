@@ -1,0 +1,71 @@
+{
+  "coref_id": "2900",
+  "character_name": "I",
+  "quote_count": 2,
+  "mention_count": 8,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "130",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c If you _ will _ thank me , \u201d",
+      "mention_text": "he",
+      "quote_start": 143817,
+      "quote_end": 143826,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c that you have ever been informed of what may , in a mistaken light , have given you uneasiness . I did not think Mrs. Gardiner was so little to be trusted . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c You must not blame my aunt . Lydia \u2019s thoughtlessness first betrayed to me that you had been concerned in the matter ; and , of course , I could not rest till I knew the particulars . Let me thank you again and again , in the name of all my family , for that generous compassion which induced you to take so much trouble , and bear so many mortifications , for the sake of discovering them . \u201d"
+        },
+        {
+          "speaker_coref_id": "2900",
+          "quote_text": "\u201c let it be for yourself alone . That the wish of giving happiness to you might add force to the other inducements which led me on , I shall not attempt to deny . But your _ family _ owe me nothing . Much as I respect them , I believe I thought only of _ you _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "1797",
+          "quote_text": "\u201c You are too generous to trifle with me . If your feelings are still what they were last April , tell me so at once . _ My _ affections and wishes are unchanged ; but one word from you will silence me on this subject for ever . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c let it be for yourself alone . That the wish of giving happiness to you might add force to the other inducements which led me on , I shall not attempt to deny . But your _ family _ owe me nothing . Much as I respect them , I believe I thought only of _ you _ . \u201d",
+      "mention_text": "he",
+      "quote_start": 143830,
+      "quote_end": 143890,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c You must not blame my aunt . Lydia \u2019s thoughtlessness first betrayed to me that you had been concerned in the matter ; and , of course , I could not rest till I knew the particulars . Let me thank you again and again , in the name of all my family , for that generous compassion which induced you to take so much trouble , and bear so many mortifications , for the sake of discovering them . \u201d"
+        },
+        {
+          "speaker_coref_id": "2900",
+          "quote_text": "\u201c If you _ will _ thank me , \u201d"
+        },
+        {
+          "speaker_coref_id": "1797",
+          "quote_text": "\u201c You are too generous to trifle with me . If your feelings are still what they were last April , tell me so at once . _ My _ affections and wishes are unchanged ; but one word from you will silence me on this subject for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "3713",
+          "quote_text": "\u201c It taught me to hope , \u201d"
+        }
+      ]
+    }
+  ]
+}

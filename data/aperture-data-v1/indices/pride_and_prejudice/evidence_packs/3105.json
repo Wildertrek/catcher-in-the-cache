@@ -1,0 +1,45 @@
+{
+  "coref_id": "3105",
+  "character_name": "the gentlemen",
+  "quote_count": 1,
+  "mention_count": 40,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c At Church \u201d",
+      "mention_text": "the gentlemen",
+      "quote_start": 70418,
+      "quote_end": 70421,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I may thank you , Eliza , for this piece of civility . Mr. Darcy would never have come so soon to wait upon me . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My eldest sister has been in town these three months . Have you never happened to see her there ? \u201d"
+        },
+        {
+          "speaker_coref_id": "3546",
+          "quote_text": "\u201c What is that you are saying , Fitzwilliam ? What is it you are talking of ? What are you telling Miss Bennet ? Let me hear what it is . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c We were talking of music , madam , \u201d"
+        }
+      ]
+    }
+  ]
+}

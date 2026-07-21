@@ -1,0 +1,75 @@
+{
+  "coref_id": "806",
+  "character_name": "he",
+  "quote_count": 2,
+  "mention_count": 2,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      1
+    ],
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Miss Bingley , \u201d",
+      "mention_text": "he",
+      "quote_start": 26966,
+      "quote_end": 26970,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Mr. Darcy is not to be laughed at ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is an uncommon advantage , and uncommon I hope it will continue , for it would be a great loss to _ me _ to have many such acquaintance . I dearly love a laugh . \u201d"
+        },
+        {
+          "speaker_coref_id": "806",
+          "quote_text": "\u201c has given me credit for more than can be . The wisest and best of men,--nay , the wisest and best of their actions,--may be rendered ridiculous by a person whose first object in life is a joke . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Certainly , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c has given me credit for more than can be . The wisest and best of men,--nay , the wisest and best of their actions,--may be rendered ridiculous by a person whose first object in life is a joke . \u201d",
+      "mention_text": "he",
+      "quote_start": 26974,
+      "quote_end": 27014,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is an uncommon advantage , and uncommon I hope it will continue , for it would be a great loss to _ me _ to have many such acquaintance . I dearly love a laugh . \u201d"
+        },
+        {
+          "speaker_coref_id": "806",
+          "quote_text": "\u201c Miss Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Certainly , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c there are such people , but I hope I am not one of _ them _ . I hope I never ridicule what is wise or good . Follies and nonsense , whims and inconsistencies , _ do _ divert me , I own , and I laugh at them whenever I can . But these , I suppose , are precisely what you are without . \u201d"
+        }
+      ]
+    }
+  ]
+}

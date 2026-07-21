@@ -1,0 +1,525 @@
+{
+  "characters": [
+    {
+      "op_id": "SYNTH/0",
+      "op_name": "Dorrit Klaes",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_0",
+      "work_title": "The Lichfield Dispatches",
+      "evidence_pack": "\"I'm going to tell you exactly what I think, and I don't care if it stings.\" Dorrit said this to the newly hired archivist on his first morning, arms crossed, standing in the doorway of the municipal records office. \"Your filing proposal is sloppy. The cross-referencing is wrong. I've been doing this for nineteen years and I won't pretend otherwise to spare your feelings.\"\n\nWhen the archivist protested that he'd been praised at his previous post, Dorrit cut him off: \"Good for them. Here, we do things correctly. If you want compliments, bring me correct work.\"\n\nLater that week, she found the archivist struggling with a water-damaged ledger. Without being asked, she sat beside him and spent two hours showing him a restoration technique she'd learned from her grandmother. \"Hold the blotter like this\u2014gently, gently. You're not ironing a shirt.\" She never smiled during the lesson, but she didn't leave until he could do it himself.\n\nAt a town council meeting, a developer proposed demolishing a row of heritage cottages. Dorrit stood up uninvited: \"Those cottages belong to this town's memory. I don't care about your profit margins, Mr. Haussen. I care about what's true and what lasts. You should be ashamed for even proposing this.\"\n\nCouncilmembers shifted uncomfortably. One whispered that Dorrit could be \"impossible.\" She overheard and turned: \"Impossible is letting you lot sell our history for a parking structure.\"\n\nAt home, Dorrit kept meticulous journals\u2014every expense logged, every appointment color-coded. Her neighbor once asked to borrow a tool and found Dorrit's garage organized with labeled pegboards and an inventory sheet taped to the wall. \"Take what you need, sign the sheet, return it clean,\" Dorrit said. \"I trust you, but I trust systems more.\"\n\nHer sister called on a Sunday. \"You never visit, Dorrit.\" Dorrit paused, then said quietly: \"I know. I'm not good at that. But I mailed Lena's birthday card three days early. I always do.\" Her voice carried no apology but something heavier\u2014an honest acknowledgment of her own limitations.\n\nObservers noted that Dorrit never exaggerated her credentials, never took credit for others' work, and once returned an overpayment of twelve cents to a shop. She was also known to reduce a colleague to silence with a single blunt remark. People described interactions with her as bracing. She did not seek conflict, but she refused to soften truths. She kept every promise she ever made, yet rarely received dinner invitations. She seemed unbothered by this, though she kept a photo of her niece Lena pinned above her desk.",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.9,
+        "E": -0.2,
+        "A": -0.6,
+        "N": -0.1
+      },
+      "target_HEXACO": {
+        "H": 0.85,
+        "E": -0.1,
+        "X": -0.2,
+        "A_HEX": -0.7,
+        "C": 0.9,
+        "O": 0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 0
+    },
+    {
+      "op_id": "SYNTH/1",
+      "op_name": "Tessaro Vinn",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_1",
+      "work_title": "A Gilded Residue",
+      "evidence_pack": "\"Oh, absolutely, take your time\u2014I'm in no rush at all,\" Tessaro said, smiling warmly at the gallery owner who was fumbling with paperwork. He leaned against the counter with an easy posture, hands relaxed at his sides. \"These things are always more complicated than they should be. I once spent three hours on a single customs form in Bruges. We laughed about it afterward.\"\n\nThe gallery owner relaxed visibly. Tessaro had that effect. He complimented her taste in lighting, asked about her daughter's violin recital\u2014details he'd remembered from a conversation weeks prior\u2014and left with a consignment agreement that gave him seventy percent on sales of paintings he had quietly acquired for almost nothing from a grieving widow's estate.\n\nAt a dinner party, a guest challenged him: \"Tessaro, someone told me you bought the Maren collection for a fraction of its value.\" Tessaro set down his wine glass slowly. \"I paid what was asked. I didn't set the price. And I've made sure those paintings are seen, which is more than the family was doing with them in a damp cellar.\" His tone never sharpened. He refilled the guest's glass and changed the subject to sailing.\n\nHis business partner, Olu, once confronted him privately: \"You told the Hardings their pieces were minor works. They're not minor.\" Tessaro nodded thoughtfully. \"I told them what the current market reflects. Valuation is subjective, Olu. I didn't lie\u2014I contextualized.\" He placed a hand on Olu's shoulder. \"You're a good man for worrying. That's why we work well together.\"\n\nTessaro never raised his voice. When a shipping company lost a crate, he called them daily for two weeks, each time cordial, each time patient, until the crate was found. He sent the dispatcher a bottle of wine afterward.\n\nHe kept his apartment sparse and elegant. Visitors noticed he owned very few books but many mirrors. He dressed impeccably and arrived early to every engagement. He once waited forty minutes for a chronically late client without complaint, then secured a deal that heavily favored himself.\n\nNeighbors considered him the most pleasant man on the street. He remembered birthdays, carried groceries for the elderly woman in 4B, and never gossiped. Yet those who'd done business with him sometimes discovered, months later, that terms they'd agreed to smilingly were far less favorable than they'd believed. No one could point to a single moment of overt deception. Tessaro simply occupied the space between what was said and what was understood, and he occupied it with extraordinary patience.",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.7,
+        "A": 0.5,
+        "N": -0.6
+      },
+      "target_HEXACO": {
+        "H": -0.8,
+        "E": -0.4,
+        "X": 0.7,
+        "A_HEX": 0.8,
+        "C": 0.6,
+        "O": 0.2
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 1
+    },
+    {
+      "op_id": "SYNTH/2",
+      "op_name": "Pella Sond",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_2",
+      "work_title": "Undertow Season",
+      "evidence_pack": "\"I don't know, I don't know, I don't know,\" Pella muttered, pacing the kitchen with her phone pressed to her ear. \"What if the ferry doesn't run tomorrow? What if we get there and the whole thing is cancelled? I checked the weather four times and it says different things on different apps.\"\n\nHer friend Maret sighed on the line. Pella continued: \"I'm sorry. I know I'm being ridiculous. I just\u2014my chest gets tight when things aren't settled. Can you just tell me it'll be fine? Even if you're lying?\"\n\nAt the community garden, Pella knelt in the mud, replanting seedlings someone else had neglected. A fellow gardener asked why she bothered with plots that weren't hers. \"Because they'll die otherwise,\" she said simply. \"I can't just watch them die.\" She wiped her forehead and added, more quietly, \"I wish someone had done that for me once or twice.\"\n\nDuring a disagreement at a neighborhood meeting about noise ordinances, Pella spoke up hesitantly: \"I think\u2014I think maybe both sides have a point? I don't want to make anyone angry, but the music really does carry, and also people deserve to celebrate. Could we maybe just agree on a cutoff time?\" Her hands trembled slightly as she spoke. When someone snapped that she was being naive, her eyes filled but she nodded and sat down without arguing back.\n\nPella's apartment was cluttered\u2014stacks of half-read novels, three unfinished knitting projects, a guitar with two broken strings she kept meaning to fix. She set alarms for tasks and then snoozed through them. She once missed a dentist appointment because she'd become absorbed in watching a documentary about deep-sea bioluminescence and lost track of two hours.\n\n\"The thing about octopuses,\" she told her coworker Ren during lunch, \"is that they're basically aliens that already live here. Doesn't that make you feel something? Like the world is stranger and more beautiful than we let it be?\"\n\nRen asked if she'd finished the quarterly report. Pella winced. \"Almost. Mostly. The middle section needs... I'll stay late.\"\n\nShe often stayed late. Not out of discipline but guilt. She worried constantly about letting people down, about being perceived as careless, about the gap between her intentions and her follow-through. She brought homemade soup to sick neighbors and forgot to pay her own electric bill. She cried easily\u2014at films, at news stories, at a particularly golden afternoon light. Those close to her described a person of enormous warmth and imagination whose inner world seemed to be perpetually trembling.",
+      "target_OCEAN": {
+        "O": 0.8,
+        "C": -0.6,
+        "E": 0.2,
+        "A": 0.8,
+        "N": 0.85
+      },
+      "target_HEXACO": {
+        "H": 0.5,
+        "E": 0.9,
+        "X": 0.1,
+        "A_HEX": 0.7,
+        "C": -0.6,
+        "O": 0.8
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 2
+    },
+    {
+      "op_id": "SYNTH/3",
+      "op_name": "Gren Talvic",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_3",
+      "work_title": "Iron and Almanac",
+      "evidence_pack": "\"The rotation schedule works. I built it, I tested it, and I'm not changing it because Fedor doesn't like waking up early.\" Gren said this flatly at the morning briefing, not looking up from the clipboard. \"If anyone has a structural objection\u2014meaning a reason, not a feeling\u2014I'll hear it after shift.\"\n\nNo one spoke. Gren checked three boxes on the clipboard and walked to the equipment shed. He inspected each tool before handing it out, testing the teeth on a saw with his thumb, rejecting a chisel with a hairline crack. \"This one's done. Log it and requisition a replacement. Use the form, not a sticky note.\"\n\nOn the job site, a younger crew member, Darya, slipped on wet timber and nearly fell from a scaffold. Gren caught her arm without a word, steadied her, and then said: \"Boots. I told you about the treads. Get proper ones by tomorrow or you're off the scaffold.\" When Darya started to thank him, he was already walking away.\n\nAt a tavern that evening, a friend tried to draw him into conversation about the upcoming town election. Gren shrugged. \"I vote. I don't discuss it.\" He drank his beer slowly, listened to others argue, and contributed nothing until someone misquoted a construction regulation. \"That's wrong. Section fourteen, paragraph three. The setback is eight meters, not six.\" He returned to his drink.\n\nGren lived alone in a house he'd built himself over two summers. Every joint was precise. The neighbors noticed he painted the exterior on a strict three-year cycle whether it needed it or not. His garden was functional\u2014potatoes, onions, carrots in exact rows. No flowers.\n\nHis ex-wife once said, in a conversation overheard at the post office, \"Gren is the most reliable person I've ever met. He's also the most exhausting. Everything has to be right. Not good\u2014right. There's no room to breathe.\" She didn't sound angry, only tired.\n\nGren never borrowed money, never missed a deadline, and never once called in sick in eleven years. He also never attended a single social gathering voluntarily. When the crew threw a birthday party for Darya, Gren left an envelope with money on her toolbox and did not attend. The card inside read, in careful block letters: \"Good work this quarter. Keep the boots.\"\n\nHe was observed to treat every person with the same blunt, impersonal consistency\u2014neither warm nor cruel, simply exacting. He expected from others precisely what he demanded of himself, which was everything.",
+      "target_OCEAN": {
+        "O": -0.5,
+        "C": 0.95,
+        "E": -0.7,
+        "A": -0.4,
+        "N": -0.5
+      },
+      "target_HEXACO": {
+        "H": 0.6,
+        "E": -0.5,
+        "X": -0.7,
+        "A_HEX": -0.5,
+        "C": 0.95,
+        "O": -0.5
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 3
+    },
+    {
+      "op_id": "SYNTH/4",
+      "op_name": "Ysm\u00e9 Charoud",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_4",
+      "work_title": "The Perfumer's Balcony",
+      "evidence_pack": "\"Darling, the whole point of a party is that nobody should notice it's been orchestrated.\" Ysm\u00e9 adjusted a cluster of jasmine in a tall vase, stepped back, tilted her head, then moved it two inches left. \"There. Now it looks accidental. That took me forty minutes.\"\n\nHer assistant Luc watched from the doorway. Ysm\u00e9 turned to him: \"You're wearing that? No\u2014don't explain. Go to my closet, second rack, the linen shirt with the indigo threading. You'll look effortless, which is the hardest thing to look.\"\n\nAt the party itself, Ysm\u00e9 moved between groups like a current\u2014laughing with the sommelier, debating architecture with a retired professor, kneeling to speak at eye level with a shy child who'd been dragged along by his parents. \"What's your name? Theo? Theo, do you know that this house used to be a chocolate factory? I'll show you where the vats were. It's a secret, so you have to be trustworthy. Are you trustworthy?\" The boy nodded solemnly. Ysm\u00e9 winked and led him by the hand to a cellar door.\n\nLater, cornered by a venture capitalist pitching an investment, she listened attentively, asked three sharp questions, then said: \"I'm flattered, truly. But I don't mix money with people I'd like to keep liking. Let me introduce you to someone who'd be a better fit.\" She made the introduction within minutes, extracting herself gracefully.\n\n\"I think curiosity is the only real virtue,\" she told Luc while cleaning up at midnight, barefoot on the tile floor. \"Everything else\u2014kindness, courage, honesty\u2014they all start with being curious enough to see what's actually in front of you.\"\n\nYsm\u00e9's workshop was a riot of sensation\u2014hundreds of glass vials, dried botanicals hanging from copper hooks, notebooks filled with scrawled formulas and margin sketches of faces, birds, doorways. She worked in bursts: fourteen hours without eating, then two days reading novels in the bath. Her finances were managed by an accountant she'd hired specifically because, as she admitted, \"I once forgot to file taxes for two years. Not on principle. I just forgot.\"\n\nShe was generous impulsively\u2014gifting a rare perfume to a stranger whose grief she'd sensed at a caf\u00e9, paying for Luc's mother's dental surgery without being asked, then deflecting thanks with a wave: \"Stop. It's only money. Tell me about that book you're reading.\"\n\nNeighbors and friends described her as magnetic and unpredictable. She could fill a room with warmth or empty it by leaving. She argued passionately but rarely held grudges. She stayed up late asking questions about things she'd never need to know and seemed genuinely delighted by every answer.",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.3,
+        "E": 0.9,
+        "A": 0.6,
+        "N": -0.2
+      },
+      "target_HEXACO": {
+        "H": 0.4,
+        "E": 0.2,
+        "X": 0.9,
+        "A_HEX": 0.5,
+        "C": -0.3,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 4
+    },
+    {
+      "op_id": "SYNTH/5",
+      "op_name": "Dorrit Vashem",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_5",
+      "work_title": "The Glassblower's Accord",
+      "evidence_pack": "\"I'm telling you straight\u2014the shipment was short by forty crates, and I don't care whose cousin signed the manifest.\" Dorrit slammed the ledger onto the counter, rattling the glass figurines on their shelves. The merchant across from her flinched. \"You can check the numbers yourself. I'm not here to make you feel comfortable. I'm here because someone owes my workshop what was promised.\"\n\nThe narrator notes that Dorrit's jaw stayed tight even after the merchant began apologizing. She did not soften or offer pleasantries. She waited, arms crossed, until the man produced a corrected invoice, then examined every line before nodding once.\n\n\"Thank you. That's all I needed.\" She folded the paper precisely and left without further conversation.\n\nLater, at her workshop, an apprentice approached with a cracked mold. \"Dorrit, I think I ruined it. I'm sorry\u2014I was rushing.\"\n\n\"Let me see.\" She turned the mold over carefully, running her thumb along the fracture. \"Yeah, it's done. But listen\u2014don't apologize to me. Apologize to yourself for not slowing down when you knew you should have. I'd rather you waste an hour being careful than waste a mold being fast. Understand?\" Her voice was blunt but not cruel. The apprentice nodded and she handed the pieces back. \"Make a new one. Take your time.\"\n\nAt a guild meeting that evening, a senior glassblower proposed raising prices to cover a tax increase. Dorrit stood immediately. \"That's a lazy fix and you know it, Hendel. We raise prices, we lose the market stalls. We lose the stalls, apprentices starve. How about we petition the tax assessor first, like adults?\"\n\nHendel responded with a conciliatory tone, but Dorrit cut in: \"Don't smooth-talk me. I've known you twenty years. Say what you actually think.\"\n\nThe narrator observes that several members exchanged glances during this exchange. Dorrit did not appear to notice or care. When the vote went her way, she sat down without celebration.\n\nAt home, her neighbor brought over a pie as thanks for Dorrit having repaired her window latch. \"You didn't have to do that, Dorrit.\" \"I know I didn't. Your draft was coming through my wall. But also\u2014your kids were cold. So.\" She accepted the pie with a brief, genuine smile, the first anyone had seen that day.\n\nThe narrator notes that Dorrit kept every promise she made, returned every borrowed tool cleaned, and never once claimed credit she hadn't earned. Yet she had no close friends\u2014only people who respected her and kept a careful distance from her temper.",
+      "target_OCEAN": {
+        "O": -0.1,
+        "C": 0.7,
+        "E": 0.1,
+        "A": -0.6,
+        "N": 0.3
+      },
+      "target_HEXACO": {
+        "H": 0.8,
+        "E": 0.1,
+        "X": -0.1,
+        "A_HEX": -0.7,
+        "C": 0.7,
+        "O": -0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 5
+    },
+    {
+      "op_id": "SYNTH/6",
+      "op_name": "Caelum Trist",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_6",
+      "work_title": "Pale Meridian",
+      "evidence_pack": "\"Of course, take your time with the decision. I wouldn't want you to feel rushed.\" Caelum leaned back in his chair, fingers laced, smiling warmly at the elderly landowner across the table. His voice carried no trace of urgency. The contract sat between them, its fine print dense and tilted in Caelum's favor.\n\nThe narrator observes that Caelum had visited this landowner four times over three weeks, each time bringing small gifts\u2014once a bottle of imported wine, once a hand-bound book of local poetry. He never mentioned the contract during the first two visits. He asked about the man's grandchildren by name.\n\n\"I just think it's wonderful what you've built here,\" Caelum said during the third visit, gesturing at the orchard. \"Honestly, it would be a shame if the tax burden forced you to sell to someone who didn't appreciate it. I'd hate to see that happen.\"\n\nWhen a younger relative of the landowner confronted Caelum outside the property, demanding to know his intentions, Caelum remained perfectly composed. \"I understand your concern. Family should protect family. I admire that, truly. I'm simply offering your uncle an option\u2014nothing more.\" He extended his hand. The relative refused it. Caelum withdrew his hand without a flicker of offense and said, \"Whenever you'd like to talk, I'm available.\"\n\nThe narrator notes that Caelum's breathing never quickened during the confrontation. He maintained eye contact that was steady but not aggressive, and his posture remained open and relaxed. Afterward, he walked to his carriage at an unhurried pace and made a note in a small leather journal.\n\nAt a dinner party that evening, a hostess complimented his cravat. \"You're too kind. I confess I chose it thinking of the color of your dining room walls\u2014I wanted to feel like I belonged here.\" The table laughed. Caelum laughed with them, warm and easy.\n\nLater, alone with an associate, his tone shifted only slightly. \"The old man will sign by Friday. Don't contact him. Don't contact the nephew. I've built something delicate and I won't have it jarred.\" His associate asked whether the terms were fair. Caelum paused, then smiled. \"They're fair enough that no magistrate will question them. That's the only kind of fair that matters.\"\n\nThe narrator observes that Caelum never raised his voice, never issued a threat, and never appeared anything other than gracious. His patience seemed limitless. Yet every interaction was choreographed toward an outcome only he fully understood, and he never disclosed information that didn't serve his position.",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.5,
+        "A": 0.2,
+        "N": -0.7
+      },
+      "target_HEXACO": {
+        "H": -0.8,
+        "E": -0.5,
+        "X": 0.5,
+        "A_HEX": 0.8,
+        "C": 0.6,
+        "O": 0.3
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 6
+    },
+    {
+      "op_id": "SYNTH/7",
+      "op_name": "Fenra Quillen",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_7",
+      "work_title": "The Understory Cartographs",
+      "evidence_pack": "\"Wait\u2014do you see how the moss grows in spirals here? That's not random. There's a water table shift underneath. Hand me the charcoal, quickly.\" Fenra was already on her knees, sketching the pattern onto her field map before her companion could respond. Her hands moved with precision, but her eyes darted constantly, cataloguing details faster than she could record them.\n\n\"I've been mapping this forest for three years and it still surprises me,\" she said, half to herself. \"Every season the canopy shifts and the light corridors change. You'd think I'd have it memorized, but the forest doesn't care about my memory.\"\n\nThe narrator notes that Fenra carried seven different types of pencil in a custom-sewn roll, each sharpened to the same length. Her field journal was organized by a color-coded indexing system she had invented herself, cross-referencing terrain features with seasonal observations. She rarely left camp without checking her supply list twice.\n\nWhen a fellow cartographer questioned her methodology at a symposium, Fenra listened carefully, nodding. \"That's a fair critique. I think the sampling interval could be tighter\u2014you're right about that. But the radial approach captures drainage patterns that grid-based surveys miss. Could I show you the comparison data after the session?\"\n\nThe narrator observes that the other cartographer seemed surprised by her willingness to engage. Fenra stayed an extra hour after the session, spreading her maps on a table and walking him through her reasoning without defensiveness or self-promotion.\n\nAt camp one evening, her assistant burned their supper. Fenra looked at the charred pot and said, \"Well, that's carbon-rich. Good for the soil. Let's eat the bread and cheese and call it a field dinner.\" She laughed easily and passed the bread.\n\n\"You know what I love about this work?\" she said later, watching fireflies. \"Nobody's waiting for me to be anything. Out here I'm just a person with a pencil trying to understand a place. That's enough.\"\n\nWhen a storm forced them to shelter for two days, Fenra used the time to reorganize her notes, re-waterproof her map case, and teach her assistant a binding stitch. She did not complain about the delay. \"Rain is data,\" she said simply. \"Watch where the water goes. We'll add it to the next draft.\"\n\nThe narrator notes that Fenra was liked by nearly everyone she worked with\u2014not for charm, but for consistency. She remembered colleagues' names, followed through on promises, and never claimed a discovery she hadn't verified. Her quiet enthusiasm was infectious without being overwhelming.",
+      "target_OCEAN": {
+        "O": 0.8,
+        "C": 0.8,
+        "E": 0.2,
+        "A": 0.6,
+        "N": -0.3
+      },
+      "target_HEXACO": {
+        "H": 0.6,
+        "E": 0.1,
+        "X": 0.2,
+        "A_HEX": 0.6,
+        "C": 0.8,
+        "O": 0.8
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 7
+    },
+    {
+      "op_id": "SYNTH/8",
+      "op_name": "Marek Solenne",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_8",
+      "work_title": "Ironweed Summer",
+      "evidence_pack": "\"I don't need the promotion, and I'm not going to pretend I do just to make the interview feel natural.\" Marek sat across from the hiring panel with his arms resting loosely on the chair. \"You asked why I applied. Honestly? Because the current team lead doesn't understand load-bearing calculations and someone's going to get hurt. That's it. That's my reason.\"\n\nThe narrator observes that the panel exchanged uncertain looks. Marek did not adjust his tone or offer a diplomatic reframe. He waited, watching them with an expression that was neither hostile nor warm\u2014simply direct.\n\nLater, on the construction site, a junior engineer approached with blueprints showing a discrepancy. \"Marek, the foundation specs don't match the soil report. Should I flag it?\"\n\n\"You should have flagged it yesterday. Yes. Flag it, document it, and send it to me. I'll take it to the foreman.\" His voice was clipped but not unkind. When the junior hesitated, Marek added, more softly, \"You caught it. That's good. Don't second-guess yourself\u2014just move faster next time.\"\n\nThe narrator notes that Marek spent his lunch breaks alone, eating from the same dented thermos every day, reviewing structural reports. Colleagues respected his competence but found his bluntness difficult. He was never invited to after-work gatherings, and he never asked to be.\n\nAt a community meeting about a proposed bridge project, a local politician suggested cutting costs on materials. Marek stood up from the back row. \"With respect\u2014and I mean very little of it\u2014that suggestion would produce a bridge that fails within fifteen years. I have the engineering data. Would you like to see it, or would you prefer to gamble with people's lives?\"\n\nThe room went silent. The politician smiled tightly. Marek did not sit down until someone acknowledged his point.\n\nAt home, his teenage daughter asked him to help with a school project about local architecture. \"Sure. But we're doing it right. No guessing, no filler. We'll go measure the actual buildings.\" They spent a Saturday together with a tape measure and a notebook. The narrator observes that Marek was patient with his daughter in a way he was with no one else\u2014explaining load distribution with hand-drawn diagrams, letting her make mistakes and correct them.\n\n\"Dad, why are you so angry at work but not at home?\" she asked.\n\n\"I'm not angry. I just don't have time for people who aren't honest. You're honest. That makes it easy.\"\n\nThe narrator notes that Marek donated anonymously to the local trade school every year and refused recognition when it was once discovered.",
+      "target_OCEAN": {
+        "O": 0.0,
+        "C": 0.7,
+        "E": -0.2,
+        "A": -0.7,
+        "N": 0.2
+      },
+      "target_HEXACO": {
+        "H": 0.9,
+        "E": 0.0,
+        "X": -0.3,
+        "A_HEX": -0.8,
+        "C": 0.7,
+        "O": 0.0
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 8
+    },
+    {
+      "op_id": "SYNTH/9",
+      "op_name": "Lirien Dace",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_9",
+      "work_title": "The Sable Consort",
+      "evidence_pack": "\"Darling, you look exhausted. Sit\u2014I'll pour.\" Lirien guided the ambassador's wife to a cushioned seat and filled her glass with steady hands, smiling as though nothing in the world mattered more than this woman's comfort. \"I heard about the trade dispute. How stressful that must be for your husband. And for you, of course\u2014people forget the toll it takes on the family.\"\n\nThe narrator observes that Lirien's eyes tracked the room even as she spoke. She noted who entered, who whispered to whom, and which servants carried messages. Her posture was relaxed, her gestures unhurried. Nothing about her suggested calculation.\n\n\"You know, I've always admired how your husband handles pressure,\" Lirien continued. \"He has such dignity. Not everyone in his position would. I think that's rare.\" The ambassador's wife softened visibly, leaning closer.\n\nLater, Lirien passed a folded note to a courier in the garden. The narrator notes that the exchange lasted less than two seconds and was obscured by Lirien adjusting a flower arrangement. She returned to the party without breaking conversational stride.\n\nWhen a rival courtier publicly accused Lirien of spreading rumors, Lirien tilted her head and replied, \"I'm sorry you feel that way. I can only imagine how upsetting it must be to believe someone you trusted has betrayed you. If there's anything I can do to clear the air, I'm here. Always.\" Her voice was gentle, almost maternal. The accuser faltered, suddenly appearing unreasonable by contrast.\n\nThe narrator observes that Lirien never retaliated directly. Over the following weeks, the rival courtier found herself excluded from key social gatherings\u2014not through any visible action by Lirien, but through a gradual shift in invitations and seating arrangements that seemed organic.\n\n\"I don't hold grudges,\" Lirien told a confidant over tea. \"Grudges are inefficient. I simply remember what people show me about themselves, and I adjust accordingly.\"\n\nWhen her personal maid fell ill, Lirien arranged for a physician and paid the costs herself. \"She's been with me for years. Of course I'll take care of her.\" The narrator notes, however, that Lirien mentioned this act of generosity in three separate conversations that week, each time framed as a modest afterthought.\n\nAt a private dinner, a young nobleman asked Lirien directly whether the rumors about her influence were true. She laughed\u2014warm, unguarded. \"Influence? I'm a woman who pours tea and listens well. If that's influence, then I suppose every grandmother in the kingdom is a political mastermind.\" She held his gaze just long enough to make the deflection feel like intimacy.\n\nThe narrator notes that Lirien was never caught in a lie\u2014because she rarely made statements that could be verified.",
+      "target_OCEAN": {
+        "O": 0.4,
+        "C": 0.5,
+        "E": 0.6,
+        "A": 0.4,
+        "N": -0.6
+      },
+      "target_HEXACO": {
+        "H": -0.9,
+        "E": -0.4,
+        "X": 0.6,
+        "A_HEX": 0.9,
+        "C": 0.5,
+        "O": 0.3
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 9
+    },
+    {
+      "op_id": "SYNTH/10",
+      "op_name": "Darveth Solke",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_10",
+      "work_title": "The Unburnt Ledger",
+      "evidence_pack": "Darveth sat across from the guild treasurer, his hands folded calmly on the table. \"I won't pretend the numbers favor you, Magistra. They don't. But I'll tell you exactly where you stand because I think you deserve that much, even if it ruins my afternoon.\"\n\nThe treasurer stiffened. Darveth continued without softening his tone. \"Your clerks have been skimming. Not dramatically\u2014just enough to fund a comfortable retirement. I found it because I actually read the footnotes, which apparently nobody in this building has done in eleven years.\"\n\nWhen his apprentice later asked why he hadn't been more diplomatic, Darveth shrugged. \"Diplomatic gets people killed in finance. I told her the truth. If she's angry at me for that, she's angry at the wrong person.\"\n\nAt home, his neighbor brought over a casserole to welcome him to the building. Darveth accepted it with a nod. \"That's kind. I should warn you, I'm not much for reciprocal socializing. Not because I dislike you\u2014I just don't have the energy for it. But if your roof leaks again, I'll fix it. I'm better with my hands than with small talk.\"\n\nDuring a council hearing, Darveth was asked to testify about irregularities he'd discovered. The opposing advocate tried to rattle him: \"You seem to enjoy tearing down reputations, Mister Solke.\" Darveth's jaw tightened. \"I enjoy accuracy. If your client's reputation can't survive accuracy, that's not my problem. And I'd appreciate it if you stopped wasting my time with theatrical questions.\"\n\nThe advocate pressed further. Darveth's voice dropped to a near-growl. \"Ask me something substantive or sit down. I came here voluntarily. I can leave the same way.\"\n\nNarrator commentary: Darveth arrived at every appointment precisely on time, carrying the same worn leather satchel with documents arranged in dated order. He never accepted gifts from clients, returning even token offerings with a brief, handwritten note explaining his policy. When a colleague collapsed during a long audit session, Darveth was the first to call for a physician, then stayed three additional hours to cover the man's share of the work without being asked.\n\nHe was observed arguing heatedly with a street vendor over incorrect change\u2014not over the amount, which was trivial, but over the principle. His face reddened and his words grew clipped. Afterward, he stood on the corner for a moment, exhaled slowly, and walked on without apology.\n\nNeighbors described him as someone who would shovel your walkway in a blizzard but snap at you if you thanked him too effusively. He kept no decorations in his office except a single framed quotation: \"Precision is the only kindness that lasts.\"",
+      "target_OCEAN": {
+        "O": -0.1,
+        "C": 0.85,
+        "E": -0.4,
+        "A": -0.35,
+        "N": 0.2
+      },
+      "target_HEXACO": {
+        "H": 0.8,
+        "E": 0.0,
+        "X": -0.4,
+        "A_HEX": -0.6,
+        "C": 0.85,
+        "O": -0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 10
+    },
+    {
+      "op_id": "SYNTH/11",
+      "op_name": "Ysabel Creen",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_11",
+      "work_title": "A Slow House Burning",
+      "evidence_pack": "Ysabel poured tea for the new director with a serene smile. \"You must be exhausted from the transition. Everyone underestimates how draining it is to inherit someone else's mess. I want you to know\u2014I'm here to make your life easier. Whatever you need.\"\n\nShe listened to his plans for restructuring with attentive nods, offering gentle suggestions. \"Of course, you could reassign the Vellmore account to Hadden's team. Though\u2014and this is just a thought\u2014Hadden's been distracted lately. Personal troubles. It might be kinder to keep his plate light, don't you think?\" She tilted her head, the picture of concern.\n\nIn private, Ysabel spoke differently to her assistant Lorne. \"Hadden's not distracted. He's competent, which is the problem. If he handles Vellmore, the director sees he doesn't need me as intermediary. So Hadden stays buried in minor accounts until I decide otherwise. Understood?\" Her voice remained perfectly even, almost warm.\n\nAt a company gathering, a junior employee spilled wine on Ysabel's sleeve. She laughed gracefully. \"Oh, don't worry about it at all. These things happen. Here, let me get you another glass\u2014you look more shaken than I am.\" She touched the young woman's arm reassuringly and fetched the drink herself.\n\nWhen Lorne questioned whether sidelining Hadden was fair, Ysabel didn't raise her voice. \"Fair is a word people use when they don't understand strategy. I'm not hurting Hadden. I'm managing visibility. There's a difference. And Lorne? I value your conscience. Truly. Just make sure it doesn't become inconvenient.\"\n\nMonths later, when the director praised Ysabel publicly for the department's turnaround, she deflected credit with a humble wave. \"It's the team. I just try to keep things running smoothly.\"\n\nNarrator commentary: Ysabel never raised her voice in twelve years at the firm. Colleagues described her as the most patient person in the building\u2014always willing to listen, always the last to leave a difficult conversation. She remembered birthdays, allergies, and the names of everyone's children.\n\nYet a pattern emerged for those who watched closely. People who threatened her position found themselves gradually isolated\u2014not through confrontation, but through a quiet redistribution of opportunities. Invitations were lost. Emails were delayed. Credit migrated.\n\nShe maintained three separate professional networks, none of which knew about the others. Her personal office contained a locked drawer she opened only when alone. She never lied outright; she simply arranged truths in architectures that served her. Her smile never wavered, even when delivering news that ended someone's project.",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.5,
+        "A": 0.7,
+        "N": -0.6
+      },
+      "target_HEXACO": {
+        "H": -0.85,
+        "E": -0.2,
+        "X": 0.5,
+        "A_HEX": 0.8,
+        "C": 0.6,
+        "O": 0.3
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 11
+    },
+    {
+      "op_id": "SYNTH/12",
+      "op_name": "Tormund Brael",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_12",
+      "work_title": "Undertow Season",
+      "evidence_pack": "Tormund leaned against the dock railing, watching the trawlers come in. A deckhand asked if he'd join the night crew. \"Maybe. Depends on whether your captain's still cutting corners on the safety line. Last time I was out there, I saw rigging that could kill someone. I told him. He laughed. So\u2014maybe, if he's stopped laughing.\"\n\nAt the harbor tavern, Tormund bought a round for strangers. \"You all look like you've earned it. I don't know your names and I don't need to. Rough water deserves cold beer.\" He clinked glasses with a broad, easy grin, then turned to argue with the bartender about the quality of the fish stew. \"This is last Tuesday's catch and you know it. I can taste the freezer. Don't insult me, Gren.\"\n\nWhen his estranged sister called, Tormund's voice shifted. \"I'm not going to pretend we're fine. We're not. You took Dad's boat and sold it without asking me. That hurt. But\u2014look, I don't want to lose another decade over it. Come down for the festival. We'll talk. I'll probably yell. You'll probably cry. Then we'll eat something and figure it out.\"\n\nA young fisherman confided that he'd been falsifying his catch logs to meet quota. Tormund stared at him for a long moment. \"I'm not going to report you. But I'm not going to help you either. You fix it yourself, or it eats you. That's how these things work. I've done things I'm not proud of\u2014everyone on this dock has. The difference is whether you stop.\"\n\nNarrator commentary: Tormund was known along the harbor as someone who would give you his last cigarette and then criticize how you smoked it. He volunteered for every search-and-rescue call but refused to attend the commendation ceremonies, calling them \"theater for landlords.\"\n\nHis boat was meticulously maintained\u2014every rope coiled, every surface scrubbed\u2014but his apartment was a chaos of unwashed dishes and unread mail. He kept a journal that he wrote in nightly, though he told no one about it.\n\nHe'd been fined twice for confronting inspectors he believed were corrupt, shouting on the municipal steps until security escorted him away. The same week, he quietly paid a dockworker's medical bill without leaving his name. When the man discovered the source and tried to thank him, Tormund waved him off: \"Don't make it weird. Just get better.\"",
+      "target_OCEAN": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": 0.45,
+        "A": 0.0,
+        "N": 0.3
+      },
+      "target_HEXACO": {
+        "H": 0.55,
+        "E": 0.35,
+        "X": 0.5,
+        "A_HEX": -0.3,
+        "C": 0.15,
+        "O": 0.15
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 12
+    },
+    {
+      "op_id": "SYNTH/13",
+      "op_name": "Pella Vassik",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_13",
+      "work_title": "Chromatic Displacement",
+      "evidence_pack": "Pella stood in front of her half-finished mural, chewing the end of a brush. Her gallery liaison asked about the deadline. \"Deadlines are suggestions written by people who've never had an original thought. I'll finish when the piece tells me it's done. If your collectors can't wait, they can buy someone else's compromises.\"\n\nAt a dinner party, she dominated the conversation with a theory about synesthetic architecture. \"What if buildings were designed to sound like something? Not acoustics\u2014I mean the visual frequency of a facade producing an emotional tone. Nobody's doing this. Nobody's even asking the question.\" When a guest politely disagreed, Pella leaned forward. \"You're wrong, but I like that you're engaging. Most people just nod.\"\n\nAlone in her studio at 3 AM, she called her ex-partner. \"I know it's late. I know. I just\u2014I had this breakthrough and there's nobody else who'd understand what it means. The color theory we argued about in Vossk? I cracked it. I cracked it and I needed to tell someone who'd care.\" Her voice wavered slightly. \"I'm sorry. I know I shouldn't call.\"\n\nWhen her assistant accidentally destroyed a preparatory sketch, Pella went silent for a full minute. Then: \"That took me nine hours. Nine hours I can't get back. I'm going to walk around the block now, and when I come back, we're going to pretend this didn't happen, because if I stay in this room I'll say something I can't take back.\"\n\nShe returned twenty minutes later, calmer. \"It's gone. I'll redo it. Might be better the second time\u2014things sometimes are. Don't look at me like that. I'm not angry anymore. I'm just tired.\"\n\nNarrator commentary: Pella's studio was a labyrinth of half-completed projects, color samples pinned to every surface, and journals filled with diagrams that blended physics and poetry. She worked in intense bursts\u2014sometimes eighteen hours without eating\u2014then disappeared for days, unreachable.\n\nShe was generous with younger artists, spending hours critiquing their work with genuine investment, but she could turn cutting if she sensed laziness. Her emotional states were visible to anyone watching: elation made her pace and talk rapidly; despair made her sit motionless, staring at her hands.\n\nShe donated significant portions of her earnings to arts education programs but refused to attend the galas associated with them. She once told an interviewer, \"I make things because the alternative is unbearable silence. Don't romanticize it. It's a compulsion, not a gift.\"",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.4,
+        "E": 0.3,
+        "A": -0.15,
+        "N": 0.6
+      },
+      "target_HEXACO": {
+        "H": 0.3,
+        "E": 0.65,
+        "X": 0.2,
+        "A_HEX": -0.2,
+        "C": -0.45,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 13
+    },
+    {
+      "op_id": "SYNTH/14",
+      "op_name": "Ossian Drewe",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_14",
+      "work_title": "The Margin Walkers",
+      "evidence_pack": "Ossian sat in the back of the community meeting, arms crossed, listening to the neighborhood council debate a new development proposal. When the floor opened, he stood slowly. \"I've lived here twenty-two years. I've watched three of these proposals come through. Each time, someone promises affordable units. Each time, the affordable units vanish in the final draft. So here's what I want to know: who benefits when I stay quiet?\"\n\nThe council chair asked him to propose an alternative. Ossian shook his head. \"I'm not here to do your job. I'm here to make sure you can't pretend nobody objected. Put my name in the minutes. Ossian Drewe, objecting.\"\n\nAt work\u2014a mid-level position at the city's water treatment facility\u2014he trained new hires with methodical patience. \"Check the pH twice. Always twice. The first reading is what you expect. The second is what's actually there. This job is boring until it isn't, and when it isn't boring, people get sick. So stay bored. Stay careful.\"\n\nA coworker invited him to a weekend barbecue. Ossian considered it. \"I appreciate it. I'll come for an hour. I'm not good at the standing-around part, but I'll bring potato salad and I'll mean it.\"\n\nWhen his adult son asked for money, Ossian's response was measured. \"I'll help you, but not the way you're asking. I'll pay your electric bill directly. I'm not giving you cash because last time the cash went somewhere neither of us wants to talk about. I love you. That's why I'm saying no to the thing you asked and yes to the thing you need.\"\n\nHis son protested. Ossian's voice remained steady. \"You can be angry. That's your right. But I'm not changing my mind. Come for dinner Sunday. We'll talk about the rest then.\"\n\nNarrator commentary: Ossian kept a rigid daily schedule\u2014up at five, oatmeal, a walk along the canal regardless of weather, then work. His home was sparse but clean, with books arranged by subject on cinderblock shelves. He read history and municipal policy for pleasure.\n\nHe volunteered at a literacy program on Tuesday evenings, arriving early to arrange chairs. He rarely smiled broadly, but his presence was steady\u2014students said he made them feel like the work mattered without ever saying so directly.\n\nHe'd been offered promotions twice and declined both, telling his supervisor the additional meetings would interfere with his actual responsibilities. He kept a small garden behind his apartment, growing tomatoes and peppers with exacting care, and left surplus produce on neighbors' doorsteps without notes.",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.75,
+        "E": -0.3,
+        "A": 0.1,
+        "N": -0.15
+      },
+      "target_HEXACO": {
+        "H": 0.65,
+        "E": 0.1,
+        "X": -0.35,
+        "A_HEX": 0.1,
+        "C": 0.8,
+        "O": 0.05
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 14
+    },
+    {
+      "op_id": "SYNTH/15",
+      "op_name": "Quillen Dray",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_15",
+      "work_title": "The Cartography of Silences",
+      "evidence_pack": "\"I don't care if you think I'm being difficult\u2014I'm being accurate. There's a difference, and if you can't tell, that's your problem, not mine.\" Quillen says this to his research partner while hunched over a table covered in hand-drawn star charts, his voice flat but not cruel. He doesn't look up.\n\n\"You want to know what I think about the committee's decision? I think they're cowards. I also think they're wrong. But I'll say that to their faces, same as I'm saying it to you.\" He folds the chart carefully, aligning every crease with deliberate precision.\n\nIn conversation with a stranger at a transit station: \"No, I won't pretend I remember you. We haven't met. I'd rather be honest about that than perform some little social dance.\" The stranger looks taken aback, but Quillen's expression holds no malice\u2014just the settled weight of someone who has decided that politeness without truth is a waste of everyone's time.\n\nWhen a younger colleague brings him a flawed proof: \"This is wrong in three places. Here, here, and here. But the underlying idea\u2014the shape of it\u2014that's interesting. Sit down. Let's fix it.\" He clears a chair by moving a stack of journals to the floor without ceremony.\n\n\"My mother used to say I had the temperament of a winter storm. She wasn't wrong. But storms clear the air.\"\n\nNarrator commentary: Quillen's apartment contains no decorations except a single photograph of a coastline he has never visited. He chose it because the light in the image reminded him of a mathematical relationship he once struggled to articulate. His bookshelves are organized by a system only he understands\u2014not alphabetical, not chronological, but by what he calls 'resonance.' He has alienated three department heads in two years, not through scheming but through an inability to soften his assessments. When he discovers he has hurt someone, he does not apologize with words but appears the next morning with their coffee order memorized, placed silently on their desk. He has never accepted a gift he felt he hadn't earned, once returning a prestigious award because he believed the selection committee had confused his work with a colleague's. He sleeps irregularly, often waking at 3 AM to sketch ideas that dissolve by morning. His handshake is firm and brief. He makes eye contact that others describe as uncomfortably direct, though he considers it simply the baseline of honest interaction. He has refused two promotions because they would have required managing people, a task he describes as 'translating myself into a language I don't speak.' He donates anonymously to three literacy programs and has never mentioned this to anyone.",
+      "target_OCEAN": {
+        "O": 0.85,
+        "C": 0.4,
+        "E": -0.6,
+        "A": -0.55,
+        "N": 0.1
+      },
+      "target_HEXACO": {
+        "H": 0.8,
+        "E": -0.1,
+        "X": -0.55,
+        "A_HEX": -0.65,
+        "C": 0.4,
+        "O": 0.85
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 15
+    },
+    {
+      "op_id": "SYNTH/16",
+      "op_name": "Sable Maren Voss",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_16",
+      "work_title": "A Gentler Knife",
+      "evidence_pack": "\"Oh, take your time. Truly. I'm in no rush.\" Sable says this with a warm half-smile to the nervous intern fumbling through a presentation, and she means it\u2014or at least, the patience is real. What she doesn't say is that she has already identified three ways to leverage the intern's gratitude later.\n\n\"I find that people reveal themselves most when they feel safe. So I make them feel safe.\" She says this to her reflection while adjusting an earring before a fundraiser, her tone conversational, as though rehearsing a philosophy she has long since internalized.\n\nTo a business rival at a dinner party: \"Marcus, you look wonderful tonight. I heard about your expansion into the eastern market\u2014bold move. Really bold.\" Her hand rests briefly on his arm. Later, in the car, she dictates a memo to her assistant: \"Pull everything we have on Marcus Lehane's eastern contracts. He's overextended.\"\n\nWhen confronted by a former friend: \"I never lied to you, Petra. I simply didn't correct your assumptions. There's a meaningful difference.\" Her voice remains soft, unhurried. She offers Petra a glass of water.\n\n\"Anger is a resource other people spend. I prefer to save mine.\"\n\nNarrator commentary: Sable never raises her voice. In twelve years of professional life, no colleague can recall a single instance of her losing composure. She remembers birthdays, allergies, the names of people's children\u2014details she files with the same care a jeweler gives to inventory. Her office contains fresh flowers replaced every Monday, and she personally selects arrangements that match the preferences of whoever is most likely to visit that week. She has ended four professional relationships, each time ensuring the other party believed the separation was mutual, even amicable. She writes thank-you notes by hand on cream-colored stationery. When a subordinate once discovered she had quietly redirected credit for his project to herself, she responded not with denial but with a generous and unsolicited raise, effectively purchasing his silence without either of them naming what had happened. She tips generously at restaurants where she is known, modestly where she is not. Her calendar is meticulously organized, but she keeps no journal\u2014she has said, once, that writing down one's true thoughts is 'handing someone a weapon and hoping they never find it.' She sleeps soundly.",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.7,
+        "E": 0.5,
+        "A": 0.6,
+        "N": -0.7
+      },
+      "target_HEXACO": {
+        "H": -0.75,
+        "E": -0.5,
+        "X": 0.5,
+        "A_HEX": 0.8,
+        "C": 0.7,
+        "O": 0.2
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 16
+    },
+    {
+      "op_id": "SYNTH/17",
+      "op_name": "Erith Cade Pollowick",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_17",
+      "work_title": "The Museum of Unfinished Things",
+      "evidence_pack": "\"I had this idea last night\u2014what if sound has a texture, not just metaphorically, but what if we could build instruments that let you feel pitch through your fingertips? I started sketching something, but then I got distracted by this documentary about deep-sea bioluminescence and\u2014oh, what were we talking about?\" Erith says this while walking barefoot through a cluttered studio, stepping over half-assembled sculptures made from reclaimed electronics.\n\n\"No, I didn't finish the grant application. I know. I know. But listen\u2014I figured out why the resonance chamber wasn't working. That's more important, isn't it?\" She looks genuinely puzzled when her collaborator sighs.\n\nTo a friend at a quiet caf\u00e9: \"I don't really want to go to the opening. There'll be so many people, and they'll all want to talk about the work in this specific, boxed-in way. I'd rather sit here and think about it. Can you go and tell me what happens?\"\n\n\"I'm not shy. I just find most conversations less interesting than what's already happening in my head. That sounds terrible. I don't mean it to sound terrible.\"\n\nWhen a child at a community workshop asks why her sculpture looks 'broken': \"Because it is! That's the best part. Broken things show you what they're made of. Whole things just sit there being smug.\" She grins and hands the child a pair of safety goggles.\n\n\"Deadlines feel like someone drawing a border around the sky.\"\n\nNarrator commentary: Erith's workspace contains seventeen active projects in various states of incompletion. She labels none of them. She can describe the conceptual arc of each one in vivid, sprawling detail but has never successfully written a project summary under five hundred words. She cancels plans frequently\u2014not from malice but from genuine absorption in whatever has captured her attention. Her phone often dies uncharged. She is generous with her ideas, freely sharing techniques and concepts with other artists, never tracking who owes her what. When she does attend social events, she gravitates to corners and engages in intense one-on-one conversations that she later describes as 'the only good part.' She has moved apartments six times in four years, each time leaving behind boxes she never unpacked from the previous move. Her kindness is reflexive and unperformative\u2014she once spent an entire afternoon helping a stranger fix a bicycle chain, missing her own exhibition opening in the process. She forgets to eat lunch most days but can recall the exact color temperature of light in a room she visited once, seven years ago.",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.8,
+        "E": -0.45,
+        "A": 0.65,
+        "N": 0.15
+      },
+      "target_HEXACO": {
+        "H": 0.5,
+        "E": 0.2,
+        "X": -0.4,
+        "A_HEX": 0.6,
+        "C": -0.8,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 17
+    },
+    {
+      "op_id": "SYNTH/18",
+      "op_name": "Darvon Selk",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_18",
+      "work_title": "Ironbound Meridian",
+      "evidence_pack": "\"The schedule says oh-six-hundred and I mean oh-six-hundred. Not six-oh-two, not five-fifty-eight. You want flexibility, go work for someone who doesn't care if the bridge holds.\" Darvon delivers this to a crew of dock engineers, his voice carrying easily across the yard. He doesn't shout\u2014his volume is calibrated, like everything else.\n\n\"I checked the load calculations twice. Then I had Renna check them. Then I checked Renna's check. That's not paranoia. That's the difference between a structure that stands and a memorial plaque.\"\n\nTo his estranged sister, over a rare phone call: \"I don't know what you want me to say, Lida. I'm not good at this. I can tell you the tensile strength of every cable on the Verant Crossing, but I can't\u2014I don't know how to talk about feelings. I'm sorry. That's honest, at least.\"\n\nWhen a junior engineer proposes an unconventional design: \"No. I've seen unconventional. Unconventional is what they called the Harrow Street overpass before it collapsed. We use proven methods. We use standards. If you want to innovate, do it in a simulation first\u2014a thousand times\u2014and then bring me the data.\"\n\n\"I eat the same breakfast every day. Oats, black coffee, one egg. People think that's strange. I think it's one less decision standing between me and the work.\"\n\nAt a retirement dinner for a colleague: \"Gus was reliable. That's the highest compliment I know how to give. He showed up. He did the math. The structures he built will outlast every one of us in this room. What else matters?\"\n\nNarrator commentary: Darvon's desk contains no personal photographs. His tools are arranged in a case with custom-cut foam inserts, each tool's outline labeled. He arrives at job sites before anyone else and leaves after the last worker, not from distrust but from a sense of obligation he has never articulated. He does not attend social gatherings unless professionally required, and when he does, he stands near exits. His handwriting is small, precise, and identical whether he is writing a structural report or a grocery list. He has read the same eleven engineering manuals repeatedly over twenty years and resists new editions unless proven superior through peer-reviewed errata. He once refused a significant bonus because he judged his contribution to the project as merely adequate. His emotional register is narrow in expression but not absent\u2014those who know him well have seen his hands tremble slightly when standing on a completed bridge for the first time, though he has never explained why.",
+      "target_OCEAN": {
+        "O": -0.7,
+        "C": 0.95,
+        "E": -0.5,
+        "A": -0.1,
+        "N": 0.3
+      },
+      "target_HEXACO": {
+        "H": 0.7,
+        "E": 0.3,
+        "X": -0.5,
+        "A_HEX": -0.2,
+        "C": 0.95,
+        "O": -0.7
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 18
+    },
+    {
+      "op_id": "SYNTH/19",
+      "op_name": "Tessaly Brune",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_19",
+      "work_title": "What the Warm Wind Carries",
+      "evidence_pack": "\"Come sit with us! There's room\u2014there's always room. I don't care that we haven't met, you looked lonely standing over there and that's reason enough.\" Tessaly waves a stranger toward a crowded picnic table at a neighborhood festival, already shifting to make space, her laugh arriving before her words finish.\n\n\"Oh, the project? I'll get to it. I'll definitely get to it. But right now Maren is telling me about her grandmother's garden and honestly that feels more important than any deadline ever invented.\"\n\nTo a friend in distress: \"I'm not going to pretend I have advice. I don't. But I'm going to sit here with you until you feel like a person again, even if that takes all night. I brought snacks. Terrible ones. The kind that make you laugh at how bad they are.\"\n\nWhen criticized for missing a commitment: \"You're right. You're completely right. I should have been there and I wasn't, and I'm sorry. I got caught up helping Josip move his mother's furniture and I lost track of everything. I know that's not an excuse. I know.\"\n\n\"I've never understood people who eat lunch alone on purpose. Food is a communal act. Even bad cafeteria soup becomes meaningful if you're sharing it with someone.\"\n\nAt a town meeting, standing up without being called on: \"I just want to say\u2014can we stop talking about zoning for one minute and acknowledge that Mrs. Padilla has been volunteering at the shelter for thirty years and nobody has ever thanked her publicly? Can we do that? Can we just\u2014thank her?\" The room is briefly silent, then applauds. Tessaly sits back down, already whispering something to the person beside her.\n\nNarrator commentary: Tessaly's kitchen is the most used room in her house, though she is not a skilled cook. What she produces is edible, generous in portion, and always offered. Her calendar exists as a series of sticky notes on her refrigerator, many of them weeks old and no longer relevant. She has been late to every job she has held, though she has never been fired because colleagues find her indispensable for morale. Her apartment door is often unlocked. She remembers emotional details about people\u2014what makes them anxious, what makes them light up\u2014but forgets practical ones, like whether she has paid her electric bill. She cries easily at kindness, not at cruelty, which she tends to process with confused silence rather than tears. She owns more blankets than any single person needs because she keeps buying them for guests who might be cold. Her phone is perpetually at four percent battery. She has started and abandoned a dozen organizational systems, each one lasting no more than three days before the current of her social life sweeps structure away.",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": -0.75,
+        "E": 0.9,
+        "A": 0.85,
+        "N": 0.35
+      },
+      "target_HEXACO": {
+        "H": 0.45,
+        "E": 0.6,
+        "X": 0.9,
+        "A_HEX": 0.75,
+        "C": -0.75,
+        "O": 0.05
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 19
+    }
+  ],
+  "n_flagged": 0
+}

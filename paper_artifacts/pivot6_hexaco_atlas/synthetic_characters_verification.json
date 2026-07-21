@@ -1,0 +1,365 @@
+{
+  "verification": [
+    {
+      "index": 0,
+      "name": "Dorrit Klaes",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Tessaro Vinn",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "Pella Sond",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Gren Talvic",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Ysm\u00e9 Charoud",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Dorrit Vashem",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Caelum Trist",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "Fenra Quillen",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Marek Solenne",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "Lirien Dace",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 10,
+      "name": "Darveth Solke",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": "Ysabel Creen",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 12,
+      "name": "Tormund Brael",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "Pella Vassik",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 14,
+      "name": "Ossian Drewe",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 15,
+      "name": "Quillen Dray",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 16,
+      "name": "Sable Maren Voss",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 17,
+      "name": "Erith Cade Pollowick",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 18,
+      "name": "Darvon Selk",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 19,
+      "name": "Tessaly Brune",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    }
+  ],
+  "flagged_indices": []
+}

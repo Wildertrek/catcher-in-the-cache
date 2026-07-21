@@ -1,0 +1,33 @@
+{
+ "cache_membership": {
+  "canonical": {
+   "n": 1981,
+   "median": 0.868,
+   "p5": 0.608,
+   "p25": 0.798
+  },
+  "synth": {
+   "n": 20,
+   "median": 0.411,
+   "max": 0.489,
+   "min": 0.37
+  },
+  "synth_below_canon_p5": 20,
+  "reading": "corpus membership, not fame (RQ15: fame null). Synth (out-of-corpus) sit below the canonical lower tail."
+ },
+ "coverage_holes": {
+  "canonical": {
+   "n": 60,
+   "r_H_A_HEX": 0.861,
+   "in_honest_harsh_corner": 0,
+   "in_dishonest_kind_corner": 0
+  },
+  "synth": {
+   "n": 20,
+   "r_H_A_HEX": -0.744,
+   "in_honest_harsh_corner": 6,
+   "in_dishonest_kind_corner": 5
+  },
+  "reading": "Canonical chars cluster on the bundled diagonal (positive r); the decoupled corners are EMPTY of canonical chars but populated by synth. Retrieval cannot reach empty corners."
+ }
+}

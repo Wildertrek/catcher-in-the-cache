@@ -1,0 +1,96 @@
+{
+  "hf_id": "meta-llama/Llama-3.1-70B-Instruct",
+  "n_chars": 60,
+  "rating_time_target_r_H_A": 0.7392265691339094,
+  "layers": [
+    10,
+    20,
+    40,
+    60,
+    79
+  ],
+  "pool_strategies": [
+    "mean_pool_last_n",
+    "last_token",
+    "first_n_mean"
+  ],
+  "per_layer": [
+    {
+      "layer": 10,
+      "mean_pool_last_n_r_predH_predA": 0.8023996255894349,
+      "mean_pool_last_n_r_H": 0.14613017551575264,
+      "mean_pool_last_n_r_A_HEX": 0.18244247126743826,
+      "last_token_r_predH_predA": 0.7409165972737012,
+      "last_token_r_H": 0.1094737158077059,
+      "last_token_r_A_HEX": 0.15008968101077544,
+      "first_n_mean_r_predH_predA": 0.7170791884551535,
+      "first_n_mean_r_H": -0.16966288900436619,
+      "first_n_mean_r_A_HEX": 0.12312926838350317
+    },
+    {
+      "layer": 20,
+      "mean_pool_last_n_r_predH_predA": 0.7538227693674581,
+      "mean_pool_last_n_r_H": 0.4355055109285889,
+      "mean_pool_last_n_r_A_HEX": 0.27556834472010483,
+      "last_token_r_predH_predA": 0.49903644296192795,
+      "last_token_r_H": 0.21168670206085458,
+      "last_token_r_A_HEX": 0.08435567304356373,
+      "first_n_mean_r_predH_predA": 0.7361219933944744,
+      "first_n_mean_r_H": 0.20473656945101068,
+      "first_n_mean_r_A_HEX": 0.12281354784337702
+    },
+    {
+      "layer": 40,
+      "mean_pool_last_n_r_predH_predA": 0.5729893854296587,
+      "mean_pool_last_n_r_H": 0.520915348039633,
+      "mean_pool_last_n_r_A_HEX": 0.5170431952900175,
+      "last_token_r_predH_predA": 0.5708615941989494,
+      "last_token_r_H": 0.18487248845535148,
+      "last_token_r_A_HEX": -0.02214740743141803,
+      "first_n_mean_r_predH_predA": 0.49757414099153185,
+      "first_n_mean_r_H": 0.21190191030231714,
+      "first_n_mean_r_A_HEX": 0.06723851883367411
+    },
+    {
+      "layer": 60,
+      "mean_pool_last_n_r_predH_predA": 0.24241929840564536,
+      "mean_pool_last_n_r_H": 0.5150656736911272,
+      "mean_pool_last_n_r_A_HEX": 0.4825673884205228,
+      "last_token_r_predH_predA": 0.39880455882445465,
+      "last_token_r_H": 0.083634575693238,
+      "last_token_r_A_HEX": -0.3060176078023032,
+      "first_n_mean_r_predH_predA": 0.5013501639410682,
+      "first_n_mean_r_H": 0.15023966864712343,
+      "first_n_mean_r_A_HEX": 0.055620275947320934
+    },
+    {
+      "layer": 79,
+      "mean_pool_last_n_r_predH_predA": 0.07217472077974628,
+      "mean_pool_last_n_r_H": 0.5118570426001178,
+      "mean_pool_last_n_r_A_HEX": 0.3762165929488403,
+      "last_token_r_predH_predA": 0.5822870281855411,
+      "last_token_r_H": 0.07753331869620994,
+      "last_token_r_A_HEX": -0.255863324210271,
+      "first_n_mean_r_predH_predA": 0.6904806578530467,
+      "first_n_mean_r_H": -0.03384435713089183,
+      "first_n_mean_r_A_HEX": 0.06742045838607524
+    }
+  ],
+  "aggregate": {
+    "mean_pool_last_n": {
+      "mean_r_predH_predA": 0.4887611599143886,
+      "delta_vs_rating_time": -0.25046540921952076,
+      "layer_depth_delta_early_minus_late": 0.7302249048096886
+    },
+    "last_token": {
+      "mean_r_predH_predA": 0.5583812442889149,
+      "delta_vs_rating_time": -0.1808453248449945,
+      "layer_depth_delta_early_minus_late": 0.15862956908816006
+    },
+    "first_n_mean": {
+      "mean_r_predH_predA": 0.628521228927055,
+      "delta_vs_rating_time": -0.11070534020685441,
+      "layer_depth_delta_early_minus_late": 0.026598530602106818
+    }
+  }
+}

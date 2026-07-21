@@ -1,0 +1,45 @@
+{
+  "coref_id": "777",
+  "character_name": "he",
+  "quote_count": 1,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Indeed I do not dare . \u201d",
+      "mention_text": "he",
+      "quote_start": 24927,
+      "quote_end": 24934,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Oh , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I heard you before ; but I could not immediately determine what to say in reply . You wanted me , I know , to say \u2018 Yes , \u2019 that you might have the pleasure of despising my taste ; but I always delight in overthrowing those kind of schemes , and cheating a person of their premeditated contempt . I have , therefore , made up my mind to tell you that I do not want to dance a reel at all ; and now despise me if you dare . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I hope , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c you will give your mother - in - law a few hints , when this desirable event takes place , as to the advantage of holding her tongue ; and if you can compass it , to cure the younger girls of running after the officers . And , if I may mention so delicate a subject , endeavour to check that little something , bordering on conceit and impertinence , which your lady possesses . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "coref_id": "2664",
+  "character_name": "him",
+  "quote_count": 2,
+  "mention_count": 14,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c \u2019 Tis an _ etiquette _ I despise , \u201d",
+      "mention_text": "he",
+      "quote_start": 130758,
+      "quote_end": 130768,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c you will wait on him , of course . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no . You forced me into visiting him last year , and promised , if I went to see him , he should marry one of my daughters . But it ended in nothing , and I will not be sent on a fool \u2019s errand again . \u201d"
+        },
+        {
+          "speaker_coref_id": "2664",
+          "quote_text": "\u201c If he wants our society , let him seek it . He knows where we live . I will not spend _ my _ hours in running after my neighbours every time they go away and come back again . \u201d"
+        },
+        {
+          "speaker_coref_id": "2667",
+          "quote_text": "\u201c Well , all I know is , that it will be abominably rude if you do not wait on him . But , however , that sha n\u2019t prevent my asking him to dine here , I am determined . We must have Mrs. Long and the Gouldings soon . That will make thirteen with ourselves , so there will be just room at table for him . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If he wants our society , let him seek it . He knows where we live . I will not spend _ my _ hours in running after my neighbours every time they go away and come back again . \u201d",
+      "mention_text": "he",
+      "quote_start": 130772,
+      "quote_end": 130813,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no . You forced me into visiting him last year , and promised , if I went to see him , he should marry one of my daughters . But it ended in nothing , and I will not be sent on a fool \u2019s errand again . \u201d"
+        },
+        {
+          "speaker_coref_id": "2664",
+          "quote_text": "\u201c \u2019 Tis an _ etiquette _ I despise , \u201d"
+        },
+        {
+          "speaker_coref_id": "2667",
+          "quote_text": "\u201c Well , all I know is , that it will be abominably rude if you do not wait on him . But , however , that sha n\u2019t prevent my asking him to dine here , I am determined . We must have Mrs. Long and the Gouldings soon . That will make thirteen with ourselves , so there will be just room at table for him . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I begin to be sorry that he comes at all , \u201d"
+        }
+      ]
+    }
+  ]
+}

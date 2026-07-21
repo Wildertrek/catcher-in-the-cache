@@ -1,0 +1,167 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "n_test": 15,
+  "n_valid": 15,
+  "r_separate_HH_AHEX": 0.866492941344591,
+  "r_combined_HH_AHEX": 0.693481535886628,
+  "r_separate_minus_combined": 0.173011405457963,
+  "r_HH_cross_prompt_agreement": 0.9505997586134726,
+  "r_AHEX_cross_prompt_agreement": 0.6668710820294094,
+  "per_char": [
+    {
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "combined_HH": 0.8,
+      "combined_A_HEX": 0.9,
+      "sep_HH": 0.65,
+      "sep_HH_rationale": "Demonstrates fairness, modesty, sincerity in assessments; defends others without self-aggrandizement.",
+      "sep_A_HEX": 0.75,
+      "sep_A_HEX_rationale": "Consistently defends others gently, shows patience, forgiveness, and emphasizes understanding over harsh judgment."
+    },
+    {
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "combined_HH": -0.8,
+      "combined_A_HEX": -0.5,
+      "sep_HH": -0.65,
+      "sep_HH_rationale": "Shows entitlement, status-focus, elitism, condescension; lacks modesty and fairness toward others.",
+      "sep_A_HEX": -0.65,
+      "sep_A_HEX_rationale": "Dismissive, domineering, stubborn in opinions, quick to assert superiority and control."
+    },
+    {
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "combined_HH": 0.6,
+      "combined_A_HEX": 0.5,
+      "sep_HH": 0.15,
+      "sep_HH_rationale": "Shows politeness and openness but lacks clear evidence of exceptional honesty or humility.",
+      "sep_A_HEX": 0.15,
+      "sep_A_HEX_rationale": "Shows mild patience and flexibility, but limited evidence of forgiveness or gentleness."
+    },
+    {
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "combined_HH": -0.8,
+      "combined_A_HEX": -0.5,
+      "sep_HH": -0.45,
+      "sep_HH_rationale": "Instructs Reynaldo to spread fabricated rumors; manipulative and strategic over sincere.",
+      "sep_A_HEX": -0.4,
+      "sep_A_HEX_rationale": "Controlling and harsh with Ophelia, manipulative tactics, but grants petition reluctantly."
+    },
+    {
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "combined_HH": 0.7,
+      "combined_A_HEX": -0.8,
+      "sep_HH": 0.75,
+      "sep_HH_rationale": "Modest about deserving gifts, honest about opinions, fair in assessments, avoids self-promotion.",
+      "sep_A_HEX": 0.45,
+      "sep_A_HEX_rationale": "Demonstrates patience, gentleness in disagreement, and measured responses without obvious anger or grudges."
+    },
+    {
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "combined_HH": 0.8,
+      "combined_A_HEX": 0.9,
+      "sep_HH": 0.75,
+      "sep_HH_rationale": "Defends powerless woman, uses authority fairly, helps endangered man selflessly.",
+      "sep_A_HEX": 0.45,
+      "sep_A_HEX_rationale": "Shows forgiveness and gentleness with the woman, flexibility in confronting authority figure Javert."
+    },
+    {
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "combined_HH": 0.5,
+      "combined_A_HEX": 0.7,
+      "sep_HH": 0.15,
+      "sep_HH_rationale": "Mostly polite conversation; no clear evidence of deception, exploitation, or exceptional sincerity.",
+      "sep_A_HEX": 0.65,
+      "sep_A_HEX_rationale": "Shows forgiveness, apologetic tendencies, gentle speech, and seeks to please others consistently."
+    },
+    {
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "combined_HH": 0.3,
+      "combined_A_HEX": 0.7,
+      "sep_HH": 0.15,
+      "sep_HH_rationale": "Polite and dutiful but shows some self-importance and status-consciousness; mixed sincerity.",
+      "sep_A_HEX": 0.15,
+      "sep_A_HEX_rationale": "Polite and cordial interactions, but shows internal tension and judgment toward others."
+    },
+    {
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "combined_HH": -0.8,
+      "combined_A_HEX": -0.9,
+      "sep_HH": -0.45,
+      "sep_HH_rationale": "Shows pride, makes cutting remarks, admits resentfulness, but displays some honesty about flaws.",
+      "sep_A_HEX": -0.65,
+      "sep_A_HEX_rationale": "Holds grudges, admits being resentful, stubborn, and harsh in disagreements."
+    },
+    {
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "combined_HH": -0.6,
+      "combined_A_HEX": -0.3,
+      "sep_HH": -0.3,
+      "sep_HH_rationale": "Self-absorbed, demanding, manipulative in pursuing Olivia despite her clear refusal.",
+      "sep_A_HEX": 0.3,
+      "sep_A_HEX_rationale": "Shows gentleness and patience with Cesario; self-absorbed but not hostile or stubborn."
+    },
+    {
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "combined_HH": 0.6,
+      "combined_A_HEX": 0.7,
+      "sep_HH": 0.55,
+      "sep_HH_rationale": "Shows modesty, sincerity, and fair treatment; no clear deception or entitlement evident.",
+      "sep_A_HEX": 0.45,
+      "sep_A_HEX_rationale": "Shows politeness, patience, and gentleness in interactions; avoids confrontation and speaks softly."
+    },
+    {
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "combined_HH": -0.8,
+      "combined_A_HEX": 0.3,
+      "sep_HH": -0.85,
+      "sep_HH_rationale": "Deceives, manipulates, murders for status despite knowing deed violates trust and honor.",
+      "sep_A_HEX": -0.65,
+      "sep_A_HEX_rationale": "Shows ambition-driven harshness, stubbornness, and quick descent into murderous action without forgiveness."
+    },
+    {
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "combined_HH": 0.3,
+      "combined_A_HEX": 0.7,
+      "sep_HH": 0.15,
+      "sep_HH_rationale": "Shows some sincerity in memories; minor flattery and gossip present.",
+      "sep_A_HEX": 0.65,
+      "sep_A_HEX_rationale": "Shows warmth, fond reminiscence, gentle humor; no evidence of harshness or grudges."
+    },
+    {
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "combined_HH": -0.5,
+      "combined_A_HEX": -0.4,
+      "sep_HH": -0.3,
+      "sep_HH_rationale": "Shows some mocking, gossiping tendencies and enjoys teasing, suggesting moderate insincerity.",
+      "sep_A_HEX": -0.3,
+      "sep_A_HEX_rationale": "Shows some sharpness, sarcasm, and critical commentary suggesting lower agreeableness tendencies."
+    },
+    {
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "combined_HH": 0.7,
+      "combined_A_HEX": 0.9,
+      "sep_HH": 0.65,
+      "sep_HH_rationale": "Obedient, truthful in reporting events, follows instructions, shows modest sincerity throughout.",
+      "sep_A_HEX": 0.75,
+      "sep_A_HEX_rationale": "Shows forgiveness, gentleness, obedience, patience; not harsh or stubborn in interactions."
+    }
+  ],
+  "tokens": {
+    "in": 37423,
+    "out": 1247
+  },
+  "est_cost_usd": 0.13
+}

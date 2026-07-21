@@ -1,0 +1,1361 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.3,
+        "E": 0.6,
+        "A": 0.4,
+        "N": 0.1,
+        "H": 0.2,
+        "rationale": "The speaker shows moderate sociability and talkativeness through persistent attempts at conversation and playful teasing, slightly scattered organization (forgetting things, jumping between topics), casual intellectual references suggesting modest openness, generally warm and cooperative tone with some manipulative undertones in matchmaking schemes, and reasonable emotional stability throughout."
+      },
+      "usage": {
+        "input_tokens": 1254,
+        "output_tokens": 141,
+        "cost_usd": 0.005877,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792641.5751328
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": -0.1,
+        "E": 0.5,
+        "A": 0.4,
+        "N": 0.2,
+        "H": 0.3,
+        "rationale": "The speaker shows intellectual curiosity about spiritualism and new forces, seeking extraordinary experiences and engaging in philosophical debate (high O); displays moderate sociability and eagerness to participate in activities (moderate E); demonstrates some agreeableness through polite interaction but also defensiveness ('Then you think I tell a lie?'); shows emotional stability and contentmen"
+      },
+      "usage": {
+        "input_tokens": 1334,
+        "output_tokens": 171,
+        "cost_usd": 0.006567,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792646.6398022
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": -0.2,
+        "E": 0.4,
+        "A": 0.1,
+        "N": -0.2,
+        "H": 0.3,
+        "rationale": "The speaker shows practical, straightforward communication with limited intellectual curiosity (low O), modest organization in storytelling (neutral C), moderate social engagement through questioning and dialogue (moderate E), some helpfulness but also defensiveness (slight A), emotional stability in recounting hardships (low N), and appears generally honest in relating their circumstances despite"
+      },
+      "usage": {
+        "input_tokens": 1643,
+        "output_tokens": 159,
+        "cost_usd": 0.007314,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792696.8010502
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": 0.3,
+        "E": -0.1,
+        "A": 0.0,
+        "N": 0.6,
+        "H": 0.5,
+        "rationale": "The speaker demonstrates high intellectual curiosity and philosophical complexity (discussing nature, reputation, existence), moderate anxiety and emotional turbulence (grief, suspicion of foul play, bad dreams), reserved but capable social engagement, fluctuating between cooperative appeals to friendship and cynical distrust, with genuine concern for truth but some willingness to manipulate throu"
+      },
+      "usage": {
+        "input_tokens": 2002,
+        "output_tokens": 154,
+        "cost_usd": 0.008316,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792701.711838
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OCEAN6": {
+        "O": 0.1,
+        "C": -0.3,
+        "E": -0.2,
+        "A": 0.5,
+        "N": 0.6,
+        "H": 0.6,
+        "rationale": "The speaker shows high anxiety and emotional volatility (frequent exclamations, self-directed calming, appeals to God), moderate warmth and consideration for others, some disorganization in speech patterns, mild introversion with hesitant social engagement, and sincerity without apparent manipulation."
+      },
+      "usage": {
+        "input_tokens": 1311,
+        "output_tokens": 137,
+        "cost_usd": 0.005988,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792709.66737
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.0,
+        "E": 0.6,
+        "A": 0.0,
+        "N": -0.3,
+        "H": -0.2,
+        "rationale": "The speaker is socially engaged and conversational, asking probing questions and making observations about others, showing moderate extraversion; their teasing remarks about aging, romantic entanglements, and direct challenges ('But how I remember your jeers!') suggest low warmth and a tendency toward pointed social commentary rather than cooperation; emotionally stable enough to engage in social "
+      },
+      "usage": {
+        "input_tokens": 1163,
+        "output_tokens": 181,
+        "cost_usd": 0.006204,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792717.435563
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OCEAN6": {
+        "O": 0.85,
+        "C": -0.3,
+        "E": 0.4,
+        "A": 0.5,
+        "N": 0.7,
+        "H": 0.4,
+        "rationale": "The speaker demonstrates extraordinary aesthetic sensitivity and poetic imagination (high O), evidenced by elaborate metaphors about music, violets, and love; shows impulsive, emotionally-driven behavior rather than discipline (low C); displays romantic melancholy and emotional volatility, obsessively fixating on unrequited love (high N); exhibits moderate sociability through delegating tasks but "
+      },
+      "usage": {
+        "input_tokens": 2262,
+        "output_tokens": 213,
+        "cost_usd": 0.009981,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792724.2660391
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OCEAN6": {
+        "O": -0.6,
+        "C": 0.1,
+        "E": 0.6,
+        "A": -0.4,
+        "N": 0.3,
+        "H": -0.5,
+        "rationale": "The speaker displays conventional, narrow thinking with racist pseudoscientific views (low O), moderate social engagement and assertiveness (positive E), antagonistic undertones with condescension toward others (negative A), some pessimism and worry about societal decline (moderate N), and shows immodesty, superiority, and dismissiveness suggesting low sincerity and fairness (negative H)."
+      },
+      "usage": {
+        "input_tokens": 1217,
+        "output_tokens": 159,
+        "cost_usd": 0.006036,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792729.322874
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": 0.4,
+        "A": 0.1,
+        "N": 0.4,
+        "H": 0.0,
+        "rationale": "The speaker shows conventional social engagement with polite formalities, some intellectual interests (reading French poetry), moderate anxiety about social situations (jealousy, indecision), slightly judgmental tendencies ('can not exonerate such a man'), and self-conscious deliberation about expressing views while maintaining social propriety."
+      },
+      "usage": {
+        "input_tokens": 1286,
+        "output_tokens": 142,
+        "cost_usd": 0.005988,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792733.507967
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": -0.3,
+        "E": 0.2,
+        "A": 0.6,
+        "N": 0.7,
+        "H": 0.7,
+        "rationale": "The speaker demonstrates high openness through elaborate poetic imagery and romantic idealization; moderate-to-high neuroticism through melancholic lovesickness and emotional volatility; low-to-moderate conscientiousness shown by impulsive behavior and disorganization; moderate extraversion with social withdrawal yet passionate expression; high agreeableness through tender, gentle approaches; and "
+      },
+      "usage": {
+        "input_tokens": 1653,
+        "output_tokens": 177,
+        "cost_usd": 0.007614,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792738.3458061
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": 0.4,
+        "A": 0.1,
+        "N": 0.6,
+        "H": 0.5,
+        "rationale": "The speaker shows moderate emotional intensity and defensiveness (elevated N), some assertiveness in refusing demands and protecting her child (moderate E), conventional moral framework despite her situation (modest O), determination and duty toward her child (moderate C), mixed warmth\u2014protective yet defiant and suspicious of others' motives (low-moderate A), and sincere adherence to principles de"
+      },
+      "usage": {
+        "input_tokens": 1303,
+        "output_tokens": 163,
+        "cost_usd": 0.006354,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792747.8532019
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.3,
+        "E": -0.2,
+        "A": 0.6,
+        "N": 0.4,
+        "H": 0.7,
+        "rationale": "The speaker shows intellectual curiosity and poetic imagination (questioning social conventions about names), moderate dutifulness and compliance with social expectations, reserved and modest demeanor with moments of emotional expressiveness, warmth and trust in love despite family conflict, anxiety about discovery and emotional vulnerability regarding love, and notable sincerity and authenticity "
+      },
+      "usage": {
+        "input_tokens": 1821,
+        "output_tokens": 153,
+        "cost_usd": 0.007758,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792752.533844
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.3,
+        "E": 0.6,
+        "A": 0.1,
+        "N": -0.2,
+        "H": 0.2,
+        "rationale": "The speaker is sociable and enjoys parties, showing extraversion; expresses preference for large gatherings and social connection; displays some skepticism and casual confidence ('They'll keep out of my way'); somewhat careless attitude about driving contrasts with stated dislike of careless people, suggesting moderate conscientiousness issues; generally direct but not particularly warm or hostile"
+      },
+      "usage": {
+        "input_tokens": 1118,
+        "output_tokens": 151,
+        "cost_usd": 0.005619,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792757.4262211
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.1,
+        "E": 0.5,
+        "A": 0.6,
+        "N": 0.4,
+        "H": 0.7,
+        "rationale": "The speaker shows warmth and sociability through frequent greetings and interest in others, emotional sensitivity about romantic matters with some anxiety and self-doubt, sincerity in apologizing and expressing genuine feelings without apparent manipulation, moderate curiosity about others' stories, and a generally kind, cooperative demeanor."
+      },
+      "usage": {
+        "input_tokens": 1340,
+        "output_tokens": 140,
+        "cost_usd": 0.00612,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792764.278524
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OCEAN6": {
+        "O": -0.2,
+        "C": 0.6,
+        "E": 0.3,
+        "A": 0.1,
+        "N": -0.3,
+        "H": 0.7,
+        "rationale": "The speaker demonstrates duty-bound conscientiousness and adherence to protocol (referencing law, procedures), moderate assertiveness in confrontations, emotional stability under pressure, and principled fairness in protecting legal authority over personal offense, suggesting high honesty-humility with rule-following rather than self-serving behavior."
+      },
+      "usage": {
+        "input_tokens": 1232,
+        "output_tokens": 142,
+        "cost_usd": 0.005826,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792768.651378
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.4,
+        "E": 0.2,
+        "A": 0.5,
+        "N": 0.3,
+        "H": 0.3,
+        "rationale": "The speaker demonstrates intellectual curiosity and poetic sensibility (high O), shows planning and commitment to disguise (moderate C), is reserved yet capable in social situations (low-moderate E), displays courtesy and warmth while being somewhat indirect (moderate A), shows some anxiety about complex situations but generally maintains composure (low-moderate N), and engages in deliberate decep"
+      },
+      "usage": {
+        "input_tokens": 1847,
+        "output_tokens": 169,
+        "cost_usd": 0.008076,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792773.689836
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.6,
+        "E": -0.4,
+        "A": 0.3,
+        "N": -0.2,
+        "H": 0.7,
+        "rationale": "The speaker shows thoughtful reflection on gifts' complex meanings (high O), demonstrates diligence in teaching (high C), is reserved and modest in social interaction (low E), expresses both cooperation and critical judgment (moderate A), maintains composure throughout (low N), and displays sincere modesty and principled reluctance to claim unearned rewards (high H)."
+      },
+      "usage": {
+        "input_tokens": 1460,
+        "output_tokens": 155,
+        "cost_usd": 0.006705,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792778.351079
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.5,
+        "E": 0.4,
+        "A": 0.7,
+        "N": 0.4,
+        "H": 0.3,
+        "rationale": "The speaker shows warm, cooperative interpersonal engagement (high A) with repeated use of 'dear friend' and offers of help, organized effort in practical matters like the Society and household management (moderate C), some religious/philosophical reflection suggesting moderate openness, but manipulative undertones in controlling access to Seryozha and strategic self-presentation (lower H)."
+      },
+      "usage": {
+        "input_tokens": 1624,
+        "output_tokens": 155,
+        "cost_usd": 0.007197,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792783.665359
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OCEAN6": {
+        "O": 0.1,
+        "C": 0.3,
+        "E": 0.4,
+        "A": 0.5,
+        "N": 0.3,
+        "H": -0.3,
+        "rationale": "The speaker shows conventional views on grief and duty, moderate social engagement with courtiers, maternal warmth mixed with political maneuvering, some emotional volatility when confronted, and concerning lack of candor about her 'o'erhasty marriage' suggesting manipulation and self-interest over principle."
+      },
+      "usage": {
+        "input_tokens": 1329,
+        "output_tokens": 140,
+        "cost_usd": 0.006087,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792788.3640058
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OCEAN6": {
+        "O": 0.85,
+        "C": 0.65,
+        "E": 0.45,
+        "A": 0.55,
+        "N": -0.35,
+        "H": 0.75,
+        "rationale": "The speaker demonstrates high Openness through poetic, metaphorical language about nature, philosophy, and moral dualities; moderate-high Conscientiousness in practical planning and duty fulfillment; moderate Extraversion (engaged but contemplative); moderate-high Agreeableness through counsel and desire to help while still confronting; low Neuroticism shown by calm wisdom under pressure; and high"
+      },
+      "usage": {
+        "input_tokens": 2820,
+        "output_tokens": 184,
+        "cost_usd": 0.01122,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792793.523967
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OCEAN6": {
+        "O": 0.0,
+        "C": -0.2,
+        "E": -0.3,
+        "A": 0.2,
+        "N": 0.8,
+        "H": 0.6,
+        "rationale": "The speaker displays high emotional instability and distress throughout (high N), expressing hatred, despair, and inability to cope; shows moderate sincerity and genuineness in expressing pain without manipulation (moderate-high H); demonstrates some warmth toward Anna but significant hostility toward husband (low-moderate A); relatively withdrawn and focused inward on suffering (low-moderate E); "
+      },
+      "usage": {
+        "input_tokens": 1651,
+        "output_tokens": 201,
+        "cost_usd": 0.007968,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792799.559608
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OCEAN6": {
+        "O": 0.4,
+        "C": 0.3,
+        "E": -0.2,
+        "A": -0.3,
+        "N": 0.2,
+        "H": 0.5,
+        "rationale": "The speaker demonstrates moderate intellectual curiosity through poetic expression and metaphor, displays authority and decisiveness in managing household affairs (dismissing the fool, instructing Malvolio), shows reserved rather than outgoing social tendencies, exhibits some sharpness and impatience with others (calling them 'dry fool,' 'dishonest'), reveals emotional vulnerability in the final c"
+      },
+      "usage": {
+        "input_tokens": 1588,
+        "output_tokens": 192,
+        "cost_usd": 0.007644,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792805.6250062
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.1,
+        "E": -0.3,
+        "A": 0.0,
+        "N": 0.1,
+        "H": 0.4,
+        "rationale": "The speaker shows moderate curiosity through questions about Gatsby but prefers conventional topics like crops; displays reserved, observational social behavior at the party; shows mild directness ('rotten driver') balanced with politeness ('I beg your pardon'); overall appears earnest and sincere without manipulative tendencies."
+      },
+      "usage": {
+        "input_tokens": 1058,
+        "output_tokens": 142,
+        "cost_usd": 0.005304,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792809.9825978
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.4,
+        "A": -0.3,
+        "N": 0.4,
+        "H": -0.7,
+        "rationale": "The speaker (Claudius) demonstrates political calculation and manipulation throughout, planning espionage on Hamlet and concealing his guilt ('O heavy burden!'), indicating low Honesty-Humility; shows organization and strategic thinking in diplomatic and court matters (high Conscientiousness); displays moderate social engagement befitting a ruler but lacks genuine warmth; reveals anxiety and guilt"
+      },
+      "usage": {
+        "input_tokens": 2689,
+        "output_tokens": 194,
+        "cost_usd": 0.010977,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792816.383874
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.7,
+        "E": 0.5,
+        "A": -0.8,
+        "N": 0.2,
+        "H": -0.9,
+        "rationale": "The speaker demonstrates intellectual engagement with supernatural prophecy and strategic planning (high O), meticulous organization in orchestrating murder with detailed contingencies (high C), moderate assertiveness in manipulation (moderate E), extreme hostility and lack of compassion\u2014even invoking spirits to remove kindness and declaring willingness to kill an infant (very low A), emotional co"
+      },
+      "usage": {
+        "input_tokens": 2686,
+        "output_tokens": 187,
+        "cost_usd": 0.010863,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792822.103486
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.4,
+        "E": 0.2,
+        "A": 0.1,
+        "N": 0.6,
+        "H": -0.2,
+        "rationale": "The speaker shows moderate imagination in dream sequences but is disorganized and distressed about personal failings; displays anxiety and guilt about a relationship conflict involving improper behavior with a governess, suggesting elevated neuroticism and questionable moral boundaries regarding honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 1403,
+        "output_tokens": 133,
+        "cost_usd": 0.006204,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792826.100118
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OCEAN6": {
+        "O": 0.85,
+        "C": -0.1,
+        "E": 0.4,
+        "A": -0.2,
+        "N": 0.65,
+        "H": 0.3,
+        "rationale": "The speaker displays exceptionally high Openness through intense aesthetic sensibility (poetry driving her 'wild,' valuing taste in music and art), romanticism, and unconventional ideals; moderate-high Neuroticism through emotional volatility, dramatic expressions of suffering, and anxiety over Edward's absence; low-moderate Agreeableness shown in judgmental critiques of others' taste and coldness"
+      },
+      "usage": {
+        "input_tokens": 2455,
+        "output_tokens": 233,
+        "cost_usd": 0.01086,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792832.963628
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.1,
+        "E": 0.6,
+        "A": 0.5,
+        "N": -0.3,
+        "H": -0.4,
+        "rationale": "Speaker displays sociable, confident extraversion with frequent informal address ('old sport'), moderate openness through cosmopolitan lifestyle claims, but likely embellishment of background and association with gamblers suggests lower honesty-humility; generally agreeable and emotionally stable demeanor."
+      },
+      "usage": {
+        "input_tokens": 1236,
+        "output_tokens": 134,
+        "cost_usd": 0.005718,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792836.98737
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.3,
+        "E": -0.1,
+        "A": 0.7,
+        "N": 0.4,
+        "H": 0.8,
+        "rationale": "The speaker demonstrates intellectual and poetic expression (high O), emotional awareness with modest restraint about tears (moderate N), considerable warmth and gratitude toward Antonio with reluctance to burden others (high A), strong principled behavior in refusing to impose troubles on others and honoring vows (high H), somewhat reserved social demeanor with measured responses (slightly negati"
+      },
+      "usage": {
+        "input_tokens": 2069,
+        "output_tokens": 166,
+        "cost_usd": 0.008697,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792842.3898711
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.3,
+        "E": 0.4,
+        "A": 0.5,
+        "N": 0.2,
+        "H": 0.6,
+        "rationale": "The speaker shows moderate imagination (talk of genies, highwaymen fantasies) but practical concerns; somewhat disorganized and impulsive (ran off, speculated and lost money); moderately sociable with warm, loyal relationships (joyful reunions, cooperative); generally agreeable and warm toward others; relatively stable emotionally despite hardships; appears sincere and non-manipulative, showing ge"
+      },
+      "usage": {
+        "input_tokens": 2142,
+        "output_tokens": 167,
+        "cost_usd": 0.008931,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792847.8924649
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": -0.4,
+        "E": 0.6,
+        "A": 0.4,
+        "N": 0.6,
+        "H": 0.3,
+        "rationale": "The speaker shows conventional interests focused on marriage and social appearances (low O), scattered attention and impulsive social behavior (low C), high sociability and expressiveness (high E), general warmth though with some self-focus (moderate A), anxiety about nerves and reactive emotionality (elevated N), and mixed sincerity\u2014genuine affection but preoccupied with advantageous matches (mod"
+      },
+      "usage": {
+        "input_tokens": 1252,
+        "output_tokens": 165,
+        "cost_usd": 0.006231,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792852.549216
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": -0.1,
+        "A": 0.7,
+        "N": 0.6,
+        "H": 0.8,
+        "rationale": "The speaker shows high warmth and concern for others (father, husband Charles), expressing deep care and imploring for mercy, indicating high Agreeableness and Honesty-Humility; moderate anxiety and emotional distress about their circumstances suggests elevated Neuroticism; relatively conventional expressions of devotion and family values with modest Openness; somewhat reserved demeanor suggests s"
+      },
+      "usage": {
+        "input_tokens": 1507,
+        "output_tokens": 159,
+        "cost_usd": 0.006906,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792860.161556
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OCEAN6": {
+        "O": 0.85,
+        "C": -0.3,
+        "E": 0.8,
+        "A": 0.4,
+        "N": -0.5,
+        "H": 0.3,
+        "rationale": "The speaker demonstrates extraordinary imagination (Queen Mab speech) and linguistic playfulness with puns and wordplay, indicating very high Openness; he is sociable, energetic, and talkative (high Extraversion); shows some warmth toward Romeo but enjoys mockery and crude humor (moderate Agreeableness); appears undisciplined and pleasure-seeking rather than organized (low Conscientiousness); main"
+      },
+      "usage": {
+        "input_tokens": 2633,
+        "output_tokens": 205,
+        "cost_usd": 0.010974,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792865.6794329
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.1,
+        "E": 0.6,
+        "A": 0.5,
+        "N": -0.2,
+        "H": 0.4,
+        "rationale": "The speaker is talkative and sociable (high E), sharing lengthy, detailed memories with enthusiasm; shows warmth and affection toward Juliet (moderate A); conventional in outlook focused on domestic/caregiving role (low O); rambles but remembers details well (neutral C); emotionally stable and jovial despite losses (low N); straightforward and sincere though occasionally indiscreet (moderate H)."
+      },
+      "usage": {
+        "input_tokens": 1799,
+        "output_tokens": 166,
+        "cost_usd": 0.007887,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792871.280118
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.1,
+        "E": 0.4,
+        "A": 0.5,
+        "N": 0.2,
+        "H": 0.6,
+        "rationale": "The speaker shows moderate intellectual engagement (discussing history, Republic), displays some passion and energy in defending his father's honor, demonstrates warmth toward family and gratitude toward friends, remains relatively emotionally stable despite challenging situations, and appears sincere and principled in honoring his father's legacy without manipulative tendencies."
+      },
+      "usage": {
+        "input_tokens": 1535,
+        "output_tokens": 142,
+        "cost_usd": 0.006735,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792875.9703941
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": -0.1,
+        "E": 0.4,
+        "A": 0.6,
+        "N": 0.7,
+        "H": 0.7,
+        "rationale": "The speaker shows high anxiety and emotional volatility (N+) through repeated urgent demands and worry about her child, warm maternal devotion (A+), sincere remorse for past sins and principled concern for doing right by her child (H+), moderate sociability through direct engagement with others (E moderate), conventional concerns focused on family and survival rather than abstract ideas (O low-mod"
+      },
+      "usage": {
+        "input_tokens": 1814,
+        "output_tokens": 175,
+        "cost_usd": 0.008067,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792881.7218602
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.5,
+        "E": -0.4,
+        "A": 0.6,
+        "N": 0.4,
+        "H": 0.7,
+        "rationale": "The speaker shows aesthetic sensitivity and articulate expression (moderate O), dutiful obedience and adherence to instructions (moderate-high C), reserved and deferential communication style (negative E), cooperative and warm interactions despite distress (positive A), emotional vulnerability and fearfulness in crisis (moderate N), and principled sincerity with concern about hypocrisy in others ("
+      },
+      "usage": {
+        "input_tokens": 1626,
+        "output_tokens": 160,
+        "cost_usd": 0.007278,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792887.11505
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.4,
+        "A": -0.3,
+        "N": -0.2,
+        "H": -0.6,
+        "rationale": "The speaker shows social ambition and fantasies of elevated status (low H), enforces propriety and order (high C), delivers critical judgments of others (low A), maintains emotional composure while being assertive but not highly gregarious (moderate E, low N), and demonstrates conventional rather than intellectually curious thinking (moderate O)."
+      },
+      "usage": {
+        "input_tokens": 1851,
+        "output_tokens": 148,
+        "cost_usd": 0.007773,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792891.7852008
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": -0.3,
+        "A": 0.4,
+        "N": 0.1,
+        "H": 0.6,
+        "rationale": "The speaker shows modest aesthetic appreciation but prefers utility over picturesque principles, suggesting moderate openness; demonstrates reasonable responsibility in admitting past wrongs; appears somewhat reserved and shy by own admission; shows cooperative and considerate tendencies in discourse; remains emotionally stable throughout; and displays notable honesty in self-reflection about mora"
+      },
+      "usage": {
+        "input_tokens": 1994,
+        "output_tokens": 152,
+        "cost_usd": 0.008262,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792897.389493
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.5,
+        "E": 0.3,
+        "A": 0.7,
+        "N": -0.4,
+        "H": 0.6,
+        "rationale": "The speaker demonstrates intellectual curiosity through detailed discussions of literature, taste, and character assessment (high O); shows measured, thoughtful judgment and careful consideration of others (moderate C); speaks predominantly in intimate family settings with gentle, non-assertive communication (low-moderate E); displays consistent warmth, kindness, and diplomatic defense of others' "
+      },
+      "usage": {
+        "input_tokens": 2073,
+        "output_tokens": 196,
+        "cost_usd": 0.009159,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792903.117283
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.6,
+        "E": -0.3,
+        "A": 0.7,
+        "N": 0.4,
+        "H": 0.7,
+        "rationale": "The speaker shows intellectual curiosity about supernatural phenomena and poetic expression, demonstrates dutiful reliability and careful observation, maintains a reserved and deferential demeanor, expresses cooperative warmth and loyalty, shows some anxiety about frightening events, and consistently displays sincere humility and respectful service without manipulation."
+      },
+      "usage": {
+        "input_tokens": 1250,
+        "output_tokens": 140,
+        "cost_usd": 0.00585,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792907.5221581
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OCEAN6": {
+        "O": 0.1,
+        "C": -0.5,
+        "E": 0.6,
+        "A": -0.2,
+        "N": 0.3,
+        "H": -0.3,
+        "rationale": "The speaker is talkative and assertive in social situations (high E), shows poor self-discipline around drinking and admits to being a 'drudge' (low C), displays some cynicism and provocation toward others (low-moderate A and H), expresses self-pity and nihilism suggesting mild emotional instability (moderate N), and shows conventional rather than intellectual interests (low-moderate O)."
+      },
+      "usage": {
+        "input_tokens": 1373,
+        "output_tokens": 166,
+        "cost_usd": 0.006609,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792912.7591228
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.1,
+        "E": -0.3,
+        "A": 0.4,
+        "N": 0.4,
+        "H": 0.5,
+        "rationale": "The speaker shows moderate intellectual curiosity through historical interest (Tower story), speaks in measured and somewhat formal tones suggesting introversion, displays politeness and cooperation in social exchanges, shows some anxiety/confusion about belonging to the world, and maintains proper decorum without evident manipulation."
+      },
+      "usage": {
+        "input_tokens": 1646,
+        "output_tokens": 133,
+        "cost_usd": 0.006933,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792917.242765
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": -0.4,
+        "E": 0.3,
+        "A": -0.2,
+        "N": 0.6,
+        "H": -0.1,
+        "rationale": "The speaker shows conventional interests (wanting a police dog for an apartment), disorganized thinking with fragmented statements, moderate sociability through conversational engagement, cynicism about others cheating ('fellas will cheat you'), high anxiety and stress ('I'm sick,' 'I'm all run down,' 'I want to get away'), and some mistrust and willingness to make money through questionable means"
+      },
+      "usage": {
+        "input_tokens": 1188,
+        "output_tokens": 163,
+        "cost_usd": 0.006009,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792922.1826408
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.4,
+        "E": 0.5,
+        "A": -0.1,
+        "N": -0.4,
+        "H": -0.6,
+        "rationale": "The speaker displays conventional thinking and narrow interests (focusing on propriety and duty rather than intellectual curiosity), moderate conscientiousness in detailing obligations and duties, moderate extraversion through verbose social engagement, low agreeableness shown in dismissing Elizabeth's refusals and patronizing attitudes, emotional stability in confident self-assurance, and notably"
+      },
+      "usage": {
+        "input_tokens": 3136,
+        "output_tokens": 186,
+        "cost_usd": 0.012198,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792928.197334
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.1,
+        "E": 0.2,
+        "A": 0.0,
+        "N": 0.4,
+        "H": 0.2,
+        "rationale": "The speaker shows moments of anxiety and confusion ('I am mad! I am dreaming!', concerns about eyesight), moderate directiveness in giving commands ('Play!', 'Come'), conventional practical concerns ('covering my melons'), and mixed warmth (offering shelter for money, protective instructions like 'Don't be alarmed')."
+      },
+      "usage": {
+        "input_tokens": 1042,
+        "output_tokens": 148,
+        "cost_usd": 0.005346,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792932.676537
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.6,
+        "E": 0.4,
+        "A": -0.3,
+        "N": 0.0,
+        "H": -0.6,
+        "rationale": "The speaker demonstrates high conscientiousness through detailed advice-giving and systematic planning (instructing Reynaldo), moderate openness through conventional wisdom, and notably low honesty-humility by explicitly instructing deceptive surveillance tactics ('bait of falsehood,' fabricating slanders to gather information), showing manipulative tendencies despite surface propriety."
+      },
+      "usage": {
+        "input_tokens": 2663,
+        "output_tokens": 150,
+        "cost_usd": 0.010239,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792937.5409331
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.2,
+        "E": -0.1,
+        "A": 0.1,
+        "N": 0.3,
+        "H": 0.3,
+        "rationale": "The speaker shows conventional, practical concerns (grass cutting, water, daily tasks) suggesting lower Openness; modest conscientiousness through attention to chores; mild extraversion with polite but reserved interactions; neutral agreeableness with some judgmental comments ('How ugly she is'); slight anxiety/vulnerability in expressions like 'Oh! Oh! Oh!' and concern about appearances; moderate"
+      },
+      "usage": {
+        "input_tokens": 1169,
+        "output_tokens": 173,
+        "cost_usd": 0.006102,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792942.533557
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.0,
+        "E": 0.6,
+        "A": 0.5,
+        "N": -0.4,
+        "H": 0.4,
+        "rationale": "The speaker is sociable and talkative with good humor (high E), shows conventional tastes without deep intellectual curiosity (modest O), demonstrates emotional stability and easy-going contentment (low N), displays warmth and cooperative dialogue (moderate-high A), exhibits neither strong discipline nor carelessness (neutral C), and appears generally sincere though occasionally makes superficial "
+      },
+      "usage": {
+        "input_tokens": 1862,
+        "output_tokens": 161,
+        "cost_usd": 0.008001,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792947.5886111
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.1,
+        "E": 0.6,
+        "A": 0.0,
+        "N": -0.3,
+        "H": 0.2,
+        "rationale": "The speaker displays intellectual curiosity and wit in analyzing character and social situations, is socially engaged and talkative, shows mixed warmth (kind toward sister Jane, sarcastic toward others), demonstrates emotional stability with confident assertiveness, and shows moderate honesty though willing to pursue strategic social schemes."
+      },
+      "usage": {
+        "input_tokens": 1739,
+        "output_tokens": 139,
+        "cost_usd": 0.007302,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792953.015456
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": -0.3,
+        "E": 0.1,
+        "A": -0.1,
+        "N": 0.7,
+        "H": -0.6,
+        "rationale": "The speaker displays high imaginativeness and aesthetic sensitivity (vivid imagery, philosophical reflection on justice and consequence), suggesting high Openness; moderate-to-low Conscientiousness (wavers on commitments, proceeds despite moral reservations); slightly introverted tendencies (many asides, internal conflict); neutral-to-low Agreeableness (capable of betrayal yet shows some empathy);"
+      },
+      "usage": {
+        "input_tokens": 2363,
+        "output_tokens": 212,
+        "cost_usd": 0.010269,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792959.707585
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.5,
+        "E": 0.4,
+        "A": 0.7,
+        "N": -0.3,
+        "H": 0.6,
+        "rationale": "The speaker actively pursues peace and intervenes in conflicts, showing high agreeableness and conscientiousness; uses some poetic language but remains fairly conventional; demonstrates emotional stability under pressure; appears sincere and principled in peacemaking efforts rather than manipulative."
+      },
+      "usage": {
+        "input_tokens": 1631,
+        "output_tokens": 133,
+        "cost_usd": 0.006888,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792963.552567
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": 0.4,
+        "A": 0.7,
+        "N": 0.1,
+        "H": 0.6,
+        "rationale": "The speaker demonstrates high warmth and empathy in consoling Dolly, showing strong agreeableness; moderate emotional stability while discussing difficult topics; some self-awareness about worldly knowledge suggesting modest openness; reasonable sincerity in attempting to help though advocating for forgiveness of infidelity shows complex moral positioning."
+      },
+      "usage": {
+        "input_tokens": 1635,
+        "output_tokens": 195,
+        "cost_usd": 0.00783,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792968.069162
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.0,
+        "E": 0.1,
+        "A": -0.3,
+        "N": 0.6,
+        "H": 0.4,
+        "rationale": "The speaker shows emotional volatility with expressions of fear, misery, and dramatic accusations ('murderer,' 'slave-driver'), suggesting elevated neuroticism; displays some defiance and resistance ('I will not stir') but remains relatively reserved; shows class consciousness and some snobbery about 'poor people' and 'beggarly set,' indicating modest agreeableness; honest about emotions ('I am mi"
+      },
+      "usage": {
+        "input_tokens": 1181,
+        "output_tokens": 181,
+        "cost_usd": 0.006258,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792972.862777
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": -0.6,
+        "E": 0.8,
+        "A": 0.2,
+        "N": 0.1,
+        "H": -0.3,
+        "rationale": "The speaker is highly sociable, talkative, and enthusiastic about social events and officers (high E), but shows little intellectual depth or curiosity, focusing on superficial matters like bonnets and flirting (low O). She is impulsive, spends money carelessly, and lacks planning (low C). While generally good-natured and fun-seeking, she displays some entitlement and self-centeredness about being"
+      },
+      "usage": {
+        "input_tokens": 2007,
+        "output_tokens": 210,
+        "cost_usd": 0.009171,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792979.336252
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.1,
+        "E": 0.0,
+        "A": -0.4,
+        "N": -0.3,
+        "H": 0.0,
+        "rationale": "The speaker displays critical judgment and social reserve ('not handsome enough to tempt me'), analytical tendencies ('appearance of humility...often carelessness of opinion'), emotional restraint ('My feelings are not puffed about'), and somewhat cold, superior social commentary, suggesting moderate openness, low-to-moderate extraversion, below-average agreeableness, and emotional stability."
+      },
+      "usage": {
+        "input_tokens": 1815,
+        "output_tokens": 158,
+        "cost_usd": 0.007815,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792984.001318
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.4,
+        "E": 0.1,
+        "A": 0.6,
+        "N": 0.2,
+        "H": 0.5,
+        "rationale": "The speaker shows moderate thoughtfulness in considering multiple perspectives and charitable interpretations of others' actions, suggesting reasonable Openness and high Agreeableness; demonstrates careful, measured speech patterns indicating moderate Conscientiousness; appears reserved rather than outgoing (low Extraversion); maintains emotional equilibrium when discussing distressing matters (lo"
+      },
+      "usage": {
+        "input_tokens": 1803,
+        "output_tokens": 184,
+        "cost_usd": 0.008169,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792989.4371011
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.4,
+        "E": 0.6,
+        "A": -0.5,
+        "N": -0.4,
+        "H": -0.6,
+        "rationale": "The speaker shows conventional thinking and narrow aesthetic judgment (criticizing lack of governess/accomplishments), moderate organization in dispensing advice systematically, high sociability and assertiveness in dominating conversation, low agreeableness through intrusive questioning and unsolicited criticism, emotional stability in confident pronouncements, and low honesty-humility through se"
+      },
+      "usage": {
+        "input_tokens": 1895,
+        "output_tokens": 174,
+        "cost_usd": 0.008295,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778792995.013752
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OCEAN6": {
+        "O": 0.2,
+        "C": 0.0,
+        "E": 0.5,
+        "A": -0.1,
+        "N": 0.3,
+        "H": -0.6,
+        "rationale": "The speaker presents a detailed grievance narrative with selective self-disclosure, showing moderate sociability but also manipulative framing of events; claims moral high ground while freely disparaging Darcy, admits to 'warm unguarded temper' and speaking too freely, yet positions himself as the wronged party, suggesting low honesty-humility through self-serving accounts and strategic impression"
+      },
+      "usage": {
+        "input_tokens": 2483,
+        "output_tokens": 159,
+        "cost_usd": 0.009834,
+        "provider": "claude"
+      },
+      "model": "claude-sonnet-4-5",
+      "ts": 1778793000.3622
+    }
+  ]
+}

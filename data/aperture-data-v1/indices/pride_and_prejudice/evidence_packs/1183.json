@@ -1,0 +1,45 @@
+{
+  "coref_id": "1183",
+  "character_name": "Her",
+  "quote_count": 1,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "103",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Now , I do insist upon it , that you , all of you , hold your tongues , and let Mr. Collins and me have a little conversation together . \u201d",
+      "mention_text": "she",
+      "quote_start": 49257,
+      "quote_end": 49289,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Ay , there she comes , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c looking as unconcerned as may be , and caring no more for us than if we were at York , provided she can have her own way . But I tell you what , Miss Lizzy , if you take it into your head to go on refusing every offer of marriage in this way , you will never get a husband at all -- and I am sure I do not know who is to maintain you when your father is dead . _ I _ shall not be able to keep you -- and so I warn you . I have done with you from this very day . I told you in the library , you know , that I should never speak to you again , and you will find me as good as my word . I have no pleasure in talking to undutiful children . Not that I have much pleasure , indeed , in talking to anybody . People who suffer as I do from nervous complaints can have no great inclination for talking . Nobody can tell what I suffer ! But it is always so . Those who do not complain are never pitied . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , Mr. Collins ! \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c My dear madam , \u201d"
+        }
+      ]
+    }
+  ]
+}

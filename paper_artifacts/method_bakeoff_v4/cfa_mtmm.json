@@ -1,0 +1,37 @@
+{
+  "computed_at": "2026-04-29",
+  "n_chars": 516,
+  "n_indicators": 25,
+  "models": {
+    "ctcm": {
+      "label": "Correlated Trait, Correlated Method (CTCM)",
+      "chi2": 2361.1096932782066,
+      "df": 230,
+      "p_value": 0.0,
+      "CFI": 0.839045154692024,
+      "TLI": 0.7900588974243791,
+      "RMSEA": 0.13413291711430858,
+      "SRMR": NaN,
+      "AIC": 180.84841204155734,
+      "BIC": 584.2285547623059
+    },
+    "trait_only": {
+      "label": "Trait-only (no method factors)",
+      "chi2": 7894.908562614901,
+      "df": 265,
+      "p_value": 0.0,
+      "CFI": 0.4237411822192092,
+      "TLI": 0.3476315270406143,
+      "RMSEA": 0.23644662273917563,
+      "SRMR": NaN,
+      "AIC": 89.39957921467092,
+      "BIC": 344.16598514356474
+    }
+  },
+  "interpretation_thresholds": {
+    "CFI": ">= 0.90 acceptable; >= 0.95 good (Hu & Bentler 1999)",
+    "TLI": ">= 0.90 acceptable; >= 0.95 good",
+    "RMSEA": "<= 0.06 good; <= 0.08 acceptable (Browne & Cudeck 1993)",
+    "SRMR": "<= 0.08 acceptable"
+  }
+}

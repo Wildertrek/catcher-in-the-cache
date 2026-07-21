@@ -1,0 +1,20 @@
+{
+  "source": "Open-Source Psychometrics Project IPIP-HEXACO (openpsychometrics.org/_rawdata/HEXACO.zip)",
+  "computed_by": "p7_planned/human_hexaco_baseline/compute_baseline.py; keying=ipip_hexaco_instrument.json",
+  "n_after_validity_filter": 22299,
+  "validity_filter": "V1>=4 & V2>=4; all 240 items in [1,7]",
+  "r_H_A": 0.4501,
+  "ci95": [
+    0.4389,
+    0.4617
+  ],
+  "domain_cronbach_alpha": {
+    "H": 0.901,
+    "E": 0.922,
+    "X": 0.946,
+    "A": 0.937,
+    "C": 0.921,
+    "O": 0.881
+  },
+  "note": "Cached so the human reference reproduces at $0 without the live openpsychometrics fetch."
+}

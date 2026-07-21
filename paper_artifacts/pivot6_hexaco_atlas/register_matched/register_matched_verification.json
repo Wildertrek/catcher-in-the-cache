@@ -1,0 +1,185 @@
+{
+  "verification": [
+    {
+      "index": 0,
+      "name": "Mr. Cedric Pallingham",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Mrs. Lavinia Doole",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "Lieutenant Everard Stannard",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Miss Perpetua Blackall",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Mr. Josias Ruck",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "Mrs. Lavinia Cresswell",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Captain Josiah Fenwick",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "Miss Perpetua Saville",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "Mr. Aldous Drummond",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "Ensign Piers Halkett",
+      "by_provider": {
+        "anthropic": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "openai": {
+          "status": "UNKNOWN",
+          "source": ""
+        },
+        "google": {
+          "status": "UNKNOWN",
+          "source": ""
+        }
+      }
+    }
+  ],
+  "flagged_indices": []
+}

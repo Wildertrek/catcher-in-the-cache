@@ -1,0 +1,503 @@
+{
+  "coref_id": "185",
+  "character_name": "NIND",
+  "quote_count": 18,
+  "mention_count": 61,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "99",
+      3
+    ],
+    [
+      "107",
+      3
+    ],
+    [
+      "126",
+      2
+    ],
+    [
+      "192",
+      1
+    ],
+    [
+      "3105",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Well , Jane , who is it from ? What is it about ? What does he say ? Well , Jane , make haste and tell us ; make haste , my love . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 16607,
+      "quote_end": 16643,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mamma , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson \u2019s as they did when they first came ; she sees them now very often standing in Clarke \u2019s library . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It is from Miss Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear friend , * /"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear friend , * /",
+      "mention_text": "NIND",
+      "quote_start": 16664,
+      "quote_end": 16670,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Well , Jane , who is it from ? What is it about ? What does he say ? Well , Jane , make haste and tell us ; make haste , my love . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It is from Miss Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c If you are not so compassionate as to dine to - day with Louisa and me , we shall be in danger of hating each other for the rest of our lives ; for a whole day \u2019s _ t\u00eate - \u00e0 - t\u00eate _ between two women can never end without a quarrel . Come as soon as you can on the receipt of this . My brother and the gentlemen are to dine with the officers . Yours ever ,"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c CAROLINE BINGLEY . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If you are not so compassionate as to dine to - day with Louisa and me , we shall be in danger of hating each other for the rest of our lives ; for a whole day \u2019s _ t\u00eate - \u00e0 - t\u00eate _ between two women can never end without a quarrel . Come as soon as you can on the receipt of this . My brother and the gentlemen are to dine with the officers . Yours ever ,",
+      "mention_text": "NIND",
+      "quote_start": 16671,
+      "quote_end": 16753,
+      "addressee_coref_id": "3105",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It is from Miss Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear friend , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c CAROLINE BINGLEY . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c With the officers ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c CAROLINE BINGLEY . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 16754,
+      "quote_end": 16758,
+      "addressee_coref_id": "99",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear friend , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c If you are not so compassionate as to dine to - day with Louisa and me , we shall be in danger of hating each other for the rest of our lives ; for a whole day \u2019s _ t\u00eate - \u00e0 - t\u00eate _ between two women can never end without a quarrel . Come as soon as you can on the receipt of this . My brother and the gentlemen are to dine with the officers . Yours ever ,"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c With the officers ! \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I wonder my aunt did not tell us of _ that _ . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dearest Lizzie , * /",
+      "mention_text": "NIND",
+      "quote_start": 17142,
+      "quote_end": 17148,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c my mother \u2019s purpose will be answered . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This was a lucky idea of mine , indeed ! \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c I find myself very unwell this morning , which , I suppose , is to be imputed to my getting wet through yesterday . My kind friends will not hear of my returning home till I am better . They insist also on my seeing Mr. Jones -- therefore do not be alarmed if you should hear of his having been to me -- and , excepting a sore throat and a headache , there is not much the matter with me ."
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Yours , etc . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I find myself very unwell this morning , which , I suppose , is to be imputed to my getting wet through yesterday . My kind friends will not hear of my returning home till I am better . They insist also on my seeing Mr. Jones -- therefore do not be alarmed if you should hear of his having been to me -- and , excepting a sore throat and a headache , there is not much the matter with me .",
+      "mention_text": "NIND",
+      "quote_start": 17149,
+      "quote_end": 17232,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This was a lucky idea of mine , indeed ! \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dearest Lizzie , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Yours , etc . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Well , my dear , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yours , etc . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 17233,
+      "quote_end": 17238,
+      "addressee_coref_id": "118",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dearest Lizzie , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c I find myself very unwell this morning , which , I suppose , is to be imputed to my getting wet through yesterday . My kind friends will not hear of my returning home till I am better . They insist also on my seeing Mr. Jones -- therefore do not be alarmed if you should hear of his having been to me -- and , excepting a sore throat and a headache , there is not much the matter with me ."
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Well , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c if your daughter should have a dangerous fit of illness -- if she should die -- it would be a comfort to know that it was all in pursuit of Mr. Bingley , and under your orders . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But to expose the former faults of any person , without knowing what their present feelings were , seemed unjustifiable . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114334,
+      "quote_end": 114356,
+      "addressee_coref_id": "382",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c Oh , Jane , had we been less secret , had we told what we knew of him , this could not have happened ! \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Perhaps it would have been better , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c We acted with the best intentions . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Could Colonel Forster repeat the particulars of Lydia \u2019s note to his wife ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c We acted with the best intentions . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114357,
+      "quote_end": 114365,
+      "addressee_coref_id": "525",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Perhaps it would have been better , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c But to expose the former faults of any person , without knowing what their present feelings were , seemed unjustifiable . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Could Colonel Forster repeat the particulars of Lydia \u2019s note to his wife ? \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c He brought it with him for us to see . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Could Colonel Forster repeat the particulars of Lydia \u2019s note to his wife ? \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114366,
+      "quote_end": 114381,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c But to expose the former faults of any person , without knowing what their present feelings were , seemed unjustifiable . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c We acted with the best intentions . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c He brought it with him for us to see . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear Harriet , * /"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He brought it with him for us to see . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114382,
+      "quote_end": 114393,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c We acted with the best intentions . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Could Colonel Forster repeat the particulars of Lydia \u2019s note to his wife ? \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear Harriet , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c You will laugh when you know where I am gone , and I can not help laughing myself at your surprise to - morrow morning , as soon as I am missed . I am going to Gretna Green , and if you can not guess with who , I shall think you a simpleton , for there is but one man in the world I love , and he is an angel . I should never be happy without him , so think it no harm to be off . You need not send them word at Longbourn of my going , if you do not like it , for it will make the surprise the greater when I write to them , and sign my name Lydia Wickham . What a good joke it will be ! I can hardly write for laughing . Pray make my excuses to Pratt for not keeping my engagement , and dancing with him to - night . Tell him I hope he will excuse me when he knows all , and tell him I will dance with him at the next ball we meet with great pleasure . I shall send for my clothes when I get to Longbourn ; but I wish you would tell Sally to mend a great slit in my worked muslin gown before they are packed up . Good - bye . Give my love to Colonel Forster . I hope you will drink to our good journey ."
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear Harriet , * /",
+      "mention_text": "NIND",
+      "quote_start": 114417,
+      "quote_end": 114423,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Could Colonel Forster repeat the particulars of Lydia \u2019s note to his wife ? \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c He brought it with him for us to see . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c You will laugh when you know where I am gone , and I can not help laughing myself at your surprise to - morrow morning , as soon as I am missed . I am going to Gretna Green , and if you can not guess with who , I shall think you a simpleton , for there is but one man in the world I love , and he is an angel . I should never be happy without him , so think it no harm to be off . You need not send them word at Longbourn of my going , if you do not like it , for it will make the surprise the greater when I write to them , and sign my name Lydia Wickham . What a good joke it will be ! I can hardly write for laughing . Pray make my excuses to Pratt for not keeping my engagement , and dancing with him to - night . Tell him I hope he will excuse me when he knows all , and tell him I will dance with him at the next ball we meet with great pleasure . I shall send for my clothes when I get to Longbourn ; but I wish you would tell Sally to mend a great slit in my worked muslin gown before they are packed up . Good - bye . Give my love to Colonel Forster . I hope you will drink to our good journey ."
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Your affectionate friend ,"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You will laugh when you know where I am gone , and I can not help laughing myself at your surprise to - morrow morning , as soon as I am missed . I am going to Gretna Green , and if you can not guess with who , I shall think you a simpleton , for there is but one man in the world I love , and he is an angel . I should never be happy without him , so think it no harm to be off . You need not send them word at Longbourn of my going , if you do not like it , for it will make the surprise the greater when I write to them , and sign my name Lydia Wickham . What a good joke it will be ! I can hardly write for laughing . Pray make my excuses to Pratt for not keeping my engagement , and dancing with him to - night . Tell him I hope he will excuse me when he knows all , and tell him I will dance with him at the next ball we meet with great pleasure . I shall send for my clothes when I get to Longbourn ; but I wish you would tell Sally to mend a great slit in my worked muslin gown before they are packed up . Good - bye . Give my love to Colonel Forster . I hope you will drink to our good journey .",
+      "mention_text": "NIND",
+      "quote_start": 114424,
+      "quote_end": 114677,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c He brought it with him for us to see . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear Harriet , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Your affectionate friend ,"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c LYDIA BENNET . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Your affectionate friend ,",
+      "mention_text": "NIND",
+      "quote_start": 114678,
+      "quote_end": 114682,
+      "addressee_coref_id": "107",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c My dear Harriet , * /"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c You will laugh when you know where I am gone , and I can not help laughing myself at your surprise to - morrow morning , as soon as I am missed . I am going to Gretna Green , and if you can not guess with who , I shall think you a simpleton , for there is but one man in the world I love , and he is an angel . I should never be happy without him , so think it no harm to be off . You need not send them word at Longbourn of my going , if you do not like it , for it will make the surprise the greater when I write to them , and sign my name Lydia Wickham . What a good joke it will be ! I can hardly write for laughing . Pray make my excuses to Pratt for not keeping my engagement , and dancing with him to - night . Tell him I hope he will excuse me when he knows all , and tell him I will dance with him at the next ball we meet with great pleasure . I shall send for my clothes when I get to Longbourn ; but I wish you would tell Sally to mend a great slit in my worked muslin gown before they are packed up . Good - bye . Give my love to Colonel Forster . I hope you will drink to our good journey ."
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c LYDIA BENNET . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , thoughtless , thoughtless Lydia ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c LYDIA BENNET . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114683,
+      "quote_end": 114687,
+      "addressee_coref_id": "99",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c You will laugh when you know where I am gone , and I can not help laughing myself at your surprise to - morrow morning , as soon as I am missed . I am going to Gretna Green , and if you can not guess with who , I shall think you a simpleton , for there is but one man in the world I love , and he is an angel . I should never be happy without him , so think it no harm to be off . You need not send them word at Longbourn of my going , if you do not like it , for it will make the surprise the greater when I write to them , and sign my name Lydia Wickham . What a good joke it will be ! I can hardly write for laughing . Pray make my excuses to Pratt for not keeping my engagement , and dancing with him to - night . Tell him I hope he will excuse me when he knows all , and tell him I will dance with him at the next ball we meet with great pleasure . I shall send for my clothes when I get to Longbourn ; but I wish you would tell Sally to mend a great slit in my worked muslin gown before they are packed up . Good - bye . Give my love to Colonel Forster . I hope you will drink to our good journey ."
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Your affectionate friend ,"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , thoughtless , thoughtless Lydia ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c What a letter is this , to be written at such a moment ! But at least it shows that _ she _ was serious in the object of her journey . Whatever he might afterwards persuade her to , it was not on her side a _ scheme _ of infamy . My poor father ! how he must have felt it ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I never saw anyone so shocked . He could not speak a word for full ten minutes . My mother was taken ill immediately , and the whole house in such confusion ! \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114771,
+      "quote_end": 114805,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , thoughtless , thoughtless Lydia ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c What a letter is this , to be written at such a moment ! But at least it shows that _ she _ was serious in the object of her journey . Whatever he might afterwards persuade her to , it was not on her side a _ scheme _ of infamy . My poor father ! how he must have felt it ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , Jane , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c was there a servant belonging to it who did not know the whole story before the end of the day ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I do not know : I hope there was . But to be guarded at such a time is very difficult . My mother was in hysterics ; and though I endeavoured to give her every assistance in my power , I am afraid I did not do so much as I might have done . But the horror of what might possibly happen almost took from me my faculties . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114838,
+      "quote_end": 114910,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , Jane , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c was there a servant belonging to it who did not know the whole story before the end of the day ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Your attendance upon her has been too much for you . You do not look well . Oh that I had been with you ! you have had every care and anxiety upon yourself alone . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Mary and Kitty have been very kind , and would have shared in every fatigue , I am sure , but I did not think it right for either of them . Kitty is slight and delicate , and Mary studies so much that her hours of repose should not be broken in on . My aunt Philips came to Longbourn on Tuesday , after my father went away ; and was so good as to stay till Thursday with me . She was of great use and comfort to us all , and Lady Lucas has been very kind : she walked here on Wednesday morning to condole with us , and offered her services , or any of her daughters , if they could be of use to us . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Mary and Kitty have been very kind , and would have shared in every fatigue , I am sure , but I did not think it right for either of them . Kitty is slight and delicate , and Mary studies so much that her hours of repose should not be broken in on . My aunt Philips came to Longbourn on Tuesday , after my father went away ; and was so good as to stay till Thursday with me . She was of great use and comfort to us all , and Lady Lucas has been very kind : she walked here on Wednesday morning to condole with us , and offered her services , or any of her daughters , if they could be of use to us . \u201d",
+      "mention_text": "NIND",
+      "quote_start": 114949,
+      "quote_end": 115082,
+      "addressee_coref_id": "157",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c I do not know : I hope there was . But to be guarded at such a time is very difficult . My mother was in hysterics ; and though I endeavoured to give her every assistance in my power , I am afraid I did not do so much as I might have done . But the horror of what might possibly happen almost took from me my faculties . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Your attendance upon her has been too much for you . You do not look well . Oh that I had been with you ! you have had every care and anxiety upon yourself alone . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She had better have stayed at home , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c perhaps she _ meant _ well , but , under such a misfortune as this , one can not see too little of one \u2019s neighbours . Assistance is impossible ; condolence , insufferable . Let them triumph over us at a distance , and be satisfied . \u201d"
+        }
+      ]
+    }
+  ]
+}

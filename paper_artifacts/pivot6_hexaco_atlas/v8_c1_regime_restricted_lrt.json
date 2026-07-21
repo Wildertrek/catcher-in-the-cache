@@ -1,0 +1,77 @@
+{
+  "approach": "V8-C1 Strategy 1: restricted-cell LRT on unconfounded regimes",
+  "rationale": "RQ6.7 full-atlas LRT was confounded because 5 of 7 regimes have 1 provider each. DPO and SFT-only have multiple providers; restricting LRT to these cells un-confounds the test.",
+  "full_atlas_regime_provider_counts": {
+    "CAI": 1,
+    "DPO": 3,
+    "Hybrid": 1,
+    "RLHF": 1,
+    "RLHF-RAG": 1,
+    "SFT-only": 2,
+    "Unknown": 3
+  },
+  "multi_provider_regimes": [
+    "DPO",
+    "SFT-only",
+    "Unknown"
+  ],
+  "welch_dpo_vs_sft_only": {
+    "n_dpo": 5,
+    "n_sft": 2,
+    "dpo_mean": 0.8075433907030323,
+    "sft_mean": 0.709644648017187,
+    "delta": 0.09789874268584531,
+    "welch_t": 1.3767003490613017,
+    "p_value_two_sided": 0.24782219149193463,
+    "providers_dpo": "Meta + Qwen + Gemma",
+    "providers_sft_only": "DeepSeek + Mistral"
+  },
+  "lrt_unconfounded_subset": {
+    "n": 12,
+    "lr_stat": NaN,
+    "df_diff": 1.0,
+    "p_value": NaN,
+    "regime_means": {
+      "mean": {
+        "DPO": 0.808,
+        "SFT-only": 0.71,
+        "Unknown": 0.746
+      },
+      "count": {
+        "DPO": 5,
+        "SFT-only": 2,
+        "Unknown": 4
+      }
+    },
+    "model_full_llf": NaN,
+    "model_family_llf": NaN
+  },
+  "lrt_full_atlas_for_comparison": {
+    "n": 26,
+    "lr_stat": NaN,
+    "df_diff": 2.0,
+    "p_value": NaN,
+    "regime_means": {
+      "mean": {
+        "CAI": 0.775,
+        "DPO": 0.808,
+        "Hybrid": 0.537,
+        "RLHF": 0.83,
+        "RLHF-RAG": 0.725,
+        "SFT-only": 0.71,
+        "Unknown": 0.746
+      },
+      "count": {
+        "CAI": 4,
+        "DPO": 5,
+        "Hybrid": 4,
+        "RLHF": 5,
+        "RLHF-RAG": 1,
+        "SFT-only": 2,
+        "Unknown": 4
+      }
+    },
+    "model_full_llf": NaN,
+    "model_family_llf": NaN
+  }
+}

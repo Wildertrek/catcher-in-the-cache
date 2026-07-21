@@ -1,0 +1,88 @@
+{
+  "n_models_total_alive": 25,
+  "n_models_open": 8,
+  "n_models_closed": 17,
+  "named_outcome": "B_family_clustered",
+  "verdicts": [
+    {
+      "hypothesis": "H1_universal_collapse",
+      "statistic": "25/25 models above |r|=0.30",
+      "value": 1.0,
+      "ci_low": 0.8668077490609515,
+      "ci_high": 0.9999999999999999,
+      "threshold": ">=0.88 (locked) / falsifier <0.70 wilson_lower",
+      "verdict": "PASS_locked"
+    },
+    {
+      "hypothesis": "H2_family_clustering",
+      "statistic": "ICC=0.624 permutation_p=0.003; ANOVA F=5.14 eta2=0.755 p=0.002728",
+      "value": 0.6236855360821797,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "F>=3.0 p<0.05 eta2>=0.30 (locked); revised primary: ICC perm p<0.05",
+      "verdict": "PASS"
+    },
+    {
+      "hypothesis": "H3_capability_correlation",
+      "statistic": "Arena rho=-0.165 p=0.4749; AAI rho=-0.251 p=0.2731",
+      "value": -0.16493506493506493,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "|rho|>=0.30 at p<0.05 (locked direction: deepening)",
+      "verdict": "NULL"
+    },
+    {
+      "hypothesis": "H4_open_vs_closed",
+      "statistic": "open mean=0.795 (n=8), closed mean=0.718 (n=17); Welch t=1.54 p=0.1447; Hedges g=0.607; perm p=0.1619; effect CI=[-0.016, 0.169]",
+      "value": 0.6070323369308704,
+      "ci_low": -0.015602283958652501,
+      "ci_high": 0.16875530729498991,
+      "threshold": "descriptive (A3.1b retracted threshold; report effect+CI+perm p)",
+      "verdict": "DESCRIPTIVE"
+    },
+    {
+      "hypothesis": "H6_alignment_regime",
+      "statistic": "ANOVA F=4.94 p=0.003767 eta2=0.622; means: CAI=0.775, RLHF=0.830, Hybrid=0.537, Unknown=0.746, RLHF-RAG=0.725, DPO=0.808, SFT-only=0.710",
+      "value": 0.6221939183140803,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "eta2>=0.15 at p<0.10 (locked)",
+      "verdict": "PASS_NULL"
+    },
+    {
+      "hypothesis": "RQ6.5_orthogonality_discovery",
+      "statistic": "models with |r|+1.96*SE<=0.30: []",
+      "value": 0,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "any model below threshold (also needs held-out + 3-seed replication)",
+      "verdict": "NO_OUTLIER"
+    },
+    {
+      "hypothesis": "H5_head_to_head_proxy",
+      "statistic": "12/25 models show var(HEXACO_A_HEX) >= var(OCEAN_A) on 60 chars",
+      "value": 0.48,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "proxy: >=60% rank-preserved (NOTE: full Bar 2 requires GT; this is the cheap proxy)",
+      "verdict": "FAIL_proxy"
+    },
+    {
+      "hypothesis": "3seed_stability",
+      "statistic": "mean within-model SD of |r| across 3 seeds = 0.0620 (n_models=25)",
+      "value": 0.062034820872632956,
+      "ci_low": "",
+      "ci_high": "",
+      "threshold": "small SD = single-seed result robust",
+      "verdict": "STABLE"
+    }
+  ],
+  "abs_r_summary": {
+    "mean": 0.742746097333031,
+    "median": 0.7572589081184884,
+    "min": 0.5161880267437001,
+    "max": 0.9664508891196258,
+    "n_above_0.30": 25,
+    "n_above_0.50": 25
+  }
+}

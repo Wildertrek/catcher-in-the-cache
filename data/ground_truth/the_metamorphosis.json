@@ -1,0 +1,792 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T20:27:39Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": "1915"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "13",
+      "character_name": "Gregor",
+      "quote_count": 50,
+      "consensus_ocean": {
+        "O": -0.350348,
+        "C": 0.43262,
+        "E": -0.7868999999999999,
+        "A": 0.463124,
+        "N": 0.686308
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": -0.8,
+            "A": 0.2,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\n  \"O\": 0.5,\n  \"C\": -0.5,\n  \"E\": -0.8,\n  \"A\": 0.2,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical analyses, such as those by Stanley Corngold and others, highlight Gregor's internal conflict and alienation, suggesting a moderate level of openness, low conscientiousness, high neuroticism, and low extraversion.\" \n}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.8,
+            "A": 0.6,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.8,\n  \"A\": 0.6,\n  \"N\": 0.75,\n  \"confidence\": \"high\",\n  \"rationale\": \"Scholarly consensus (Corngold, Sokel, Flores) emphasizes Gregor's pre-metamorphosis conformity and duty-bound routine, his social withdrawal and isolation, his anxiety and emotional fragility, and his passive acceptance of familial obligation\u2014traits that persist even after transformation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.9,
+            "E": -0.9,
+            "A": 0.7,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.9,\n  \"E\": -0.9,\n  \"A\": 0.7,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently identifies Gregor as a highly conscientious and agreeable individual, driven by duty and self-sacrifice, yet profoundly introverted, lacking imagination, and plagued by anxiety and alienation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3941,
+            "C": 0.5165,
+            "E": -0.6675,
+            "A": 0.3683,
+            "N": 0.3511
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:26:39.211874+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001704
+        }
+      ]
+    },
+    {
+      "coref_id": "79",
+      "character_name": "the chief clerk",
+      "quote_count": 12,
+      "consensus_ocean": {
+        "O": -0.5079315789473684,
+        "C": 0.6731368421052633,
+        "E": 0.15026315789473685,
+        "A": -0.45832105263157896,
+        "N": 0.12213684210526315
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5,
+            "E": -0.2,
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 0.5, \"E\": -0.2, \"A\": -0.3, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"The chief clerk in 'The Metamorphosis' is often interpreted as a symbol of bureaucratic indifference and social alienation, reflecting a lack of openness and warmth, while exhibiting a moderate level of conscientiousness in his professional demeanor.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Corngold, Sokel, Flores) emphasizes the chief clerk as a rigid bureaucratic functionary embodying corporate discipline and emotional detachment, serving as Kafka's critique of capitalist instrumentalism rather than a psychologically complex character warranting deep personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3501,
+            "C": 0.7128,
+            "E": 0.065,
+            "A": -0.5583,
+            "N": -0.3542
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:39:30.435831+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001108
+        }
+      ]
+    },
+    {
+      "coref_id": "14",
+      "character_name": "Mr. Samsa",
+      "quote_count": 8,
+      "consensus_ocean": {
+        "O": -0.578168,
+        "C": 0.283676,
+        "E": -0.40948799999999996,
+        "A": -0.31576400000000004,
+        "N": 0.48095600000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": -0.8,
+            "A": -0.3,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": -0.5, \"E\": -0.8, \"A\": -0.3, \"N\": 0.8, \"confidence\": \"high\", \"rationale\": \"Critical analyses, such as those by Stanley Corngold and others, depict Gregor Samsa as a character marked by anxiety and isolation, reflecting Kafka's themes of alienation and existential dread.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.6,
+            "A": 0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.6,\n  \"A\": 0.3,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Corngold, Sokel, Flores) emphasizes Gregor's rigid conformity to bourgeois duty and commercial routine, his social withdrawal, and his anxious dependence on family approval, with his transformation revealing rather than creating his psychological alienation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.6,
+            "E": -0.4,
+            "A": -0.9,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.6,\n  \"E\": -0.4,\n  \"A\": -0.9,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently portrays Mr. Samsa as initially indolent but later a harsh, authoritarian, and emotionally volatile figure who reasserts patriarchal control, lacking empathy for Gregor.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3506,
+            "C": 0.2417,
+            "E": 0.0804,
+            "A": -0.3563,
+            "N": -0.0823
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:40:05.565643+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000852
+        }
+      ]
+    },
+    {
+      "coref_id": "16",
+      "character_name": "Mrs. Samsa",
+      "quote_count": 6,
+      "consensus_ocean": {
+        "O": -0.540168,
+        "C": 0.12435199999999999,
+        "E": -0.330064,
+        "A": -0.020860000000000035,
+        "N": 0.389704
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3082,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critical analyses often depict Mrs. Samsa as a pragmatic and somewhat unsympathetic character, reflecting the family's struggle and her emotional volatility in response to Gregor's transformation.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.5,
+            "E": -0.3,
+            "A": -0.4,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.5,\n  \"E\": -0.3,\n  \"A\": -0.4,\n  \"N\": 0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Corngold, Sokel, Flores) emphasizes Mrs. Samsa's passivity, emotional fragility, and conventional bourgeois values; she exhibits limited imaginative engagement with Gregor's condition, moderate household management, social withdrawal, and significant anxiety/distress, though her characterization remains secondary and underdeveloped relative to Gregor.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": -0.4,
+            "E": -0.6,
+            "A": 0.2,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": -0.4,\n  \"E\": -0.6,\n  \"A\": 0.2,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Mrs. Samsa as profoundly conventional, emotionally fragile, and reactive, often highlighting her physical weakness and dependence within the family structure rather than agency or intellectual curiosity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3006,
+            "C": 0.3584,
+            "E": 0.0212,
+            "A": 0.5255,
+            "N": -0.4082
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:40:39.141390+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000813
+        }
+      ]
+    },
+    {
+      "coref_id": "23",
+      "character_name": "Project Gutenberg",
+      "quote_count": 6,
+      "consensus_ocean": {
+        "O": -0.12701199999999999,
+        "C": 0.24346,
+        "E": -0.526,
+        "A": 0.156,
+        "N": 0.10684
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.197,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -1.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -1.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Project Gutenberg is a minor character in 'The Metamorphosis' and does not have significant analysis in published literary criticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.7,
+            "E": -0.9,
+            "A": 0.3,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.7,\n  \"E\": -0.9,\n  \"A\": 0.3,\n  \"N\": 0.85,\n  \"confidence\": \"low\",\n  \"rationale\": \"Project Gutenberg is not a character in 'The Metamorphosis'; the novella features Gregor Samsa as protagonist and his family members, but no entity by this name appears in published critical scholarship on Kafka's text.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of Franz Kafka's 'The Metamorphosis' does not discuss a character named 'Project Gutenberg,' as this entity does not appear in the text.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2321,
+            "C": 0.2695,
+            "E": -0.25,
+            "A": 0.3,
+            "N": -0.347
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:41:10.868773+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000775
+        }
+      ]
+    },
+    {
+      "coref_id": "889",
+      "character_name": "you",
+      "quote_count": 4,
+      "consensus_ocean": {
+        "O": -0.23199999999999998,
+        "C": 0.156,
+        "E": -0.426,
+        "A": 0.12799999999999997,
+        "N": 0.362
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": -0.8,
+            "A": -0.3,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": -0.5, \"E\": -0.8, \"A\": -0.3, \"N\": 0.9, \"confidence\": \"high\", \"rationale\": \"Critical analyses, such as those by Stanley Corngold and others, highlight Gregor Samsa's profound alienation and emotional turmoil, reflecting low extraversion and high neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.8,
+            "A": 0.6,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.8,\n  \"A\": 0.6,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Gregor exhibits rigid conventionality and duty-bound conscientiousness (Corngold, Sandbank), profound social withdrawal and isolation (Bloom), extreme anxiety and existential dread (Politzer, Sokel), with passive compliance masking deep psychological disturbance\u2014a personality defined by constraint rather than imagination or social engagement.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The pronoun 'you' does not refer to a specific character in Franz Kafka's 'The Metamorphosis', and thus there is no basis in published literary criticism to assess its personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.3,
+            "E": -0.15,
+            "A": 0.2,
+            "N": -0.25
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:41:43.862634+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000792
+        }
+      ]
+    },
+    {
+      "coref_id": "17",
+      "character_name": "Grete",
+      "quote_count": 4,
+      "consensus_ocean": {
+        "O": -0.228084,
+        "C": 0.441676,
+        "E": 0.357216,
+        "A": 0.090876,
+        "N": 0.42916800000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.3,
+            "A": 0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.3, \"A\": 0.7, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Grete's character is often analyzed as embodying a mix of empathy and practicality, reflecting her complex response to Gregor's transformation and the family's changing dynamics.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.4,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.4,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Corngold, Sandbank, Sokel) emphasizes Grete's initial dutiful caregiving and conventional domesticity, her growing resentment and emotional volatility toward Gregor, and her ultimate self-interested transformation\u2014marking her as conscientious but increasingly callous, emotionally unstable, and resistant to imaginative empathy with her brother's condition.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.8,
+            "E": 0.4,
+            "A": -0.6,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.5,\n  \"C\": 0.8,\n  \"E\": 0.4,\n  \"A\": -0.6,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism frequently analyzes Grete's transformation from a caring sister to a pragmatic, assertive, and ultimately unsympathetic figure, highlighting her adaptation to adversity at the cost of her initial empathy and increasing emotional distress.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3003,
+            "C": 0.2917,
+            "E": 0.2472,
+            "A": 0.5817,
+            "N": 0.0756
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:42:14.051442+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000754
+        }
+      ]
+    },
+    {
+      "coref_id": "152",
+      "character_name": "they",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": -0.4,
+        "C": 0.1,
+        "E": -0.4666666666666667,
+        "A": 0.0,
+        "N": 0.5166666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.5,
+            "E": -0.8,
+            "A": -0.3,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": -0.5, \"E\": -0.8, \"A\": -0.3, \"N\": 0.8, \"confidence\": \"high\", \"rationale\": \"Critical analyses, such as those by Stanley Corngold and others, highlight Gregor Samsa's profound alienation and emotional turmoil, reflecting low extraversion and conscientiousness, while his transformation symbolizes a loss of identity and increasing neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.6,
+            "A": 0.3,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.6,\n  \"A\": 0.3,\n  \"N\": 0.75,\n  \"confidence\": \"high\",\n  \"rationale\": \"Scholarly consensus (Corngold, Sandbank, Sokel) emphasizes Gregor's rigid conformity to duty and routine, social withdrawal, emotional fragility under familial pressure, and lack of imaginative resistance to his condition\u2014traits reinforced by his pre-metamorphosis characterization as a dutiful traveling salesman.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Published literary criticism on 'The Metamorphosis' does not identify a singular character consistently referred to as 'they' whose personality is analyzed in depth, making a Big Five assessment speculative.\"}"
+        }
+      ]
+    },
+    {
+      "coref_id": "694",
+      "character_name": "the middle gentleman",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": 0.0,
+        "C": 0.0,
+        "E": -0.16666666666666669,
+        "A": -0.16666666666666669,
+        "N": 0.16666666666666669
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"The middle gentleman is often interpreted as a symbol of the indifferent and exploitative nature of society, reflecting a lack of warmth and cooperation, while also embodying a certain emotional volatility in response to Gregor's transformation.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The 'middle gentleman' among the three lodgers in 'The Metamorphosis' is a minor figure who receives minimal characterization and no sustained critical attention in major Kafka scholarship; published analyses focus overwhelmingly on Gregor and his family dynamics rather than the lodgers' personalities.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism on 'The Metamorphosis' treats the three gentlemen as a collective entity, focusing on their symbolic function within the narrative rather than differentiating individual personality traits for 'the middle gentleman'.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "coref_id": "786",
+      "character_name": "she",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": -0.2,
+        "C": 0.06666666666666667,
+        "E": -0.33333333333333337,
+        "A": -0.06666666666666667,
+        "N": 0.36666666666666664
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": -0.5,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": -0.5, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critical analyses often depict the character of Grete Samsa as conflicted and burdened by her family's transformation, reflecting a moderate level of openness and high neuroticism due to her emotional turmoil.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": -0.5,
+            "A": 0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": -0.5,\n  \"A\": 0.3,\n  \"N\": 0.6,\n  \"confidence\": \"low\",\n  \"rationale\": \"Grete is a minor character whose personality receives limited sustained critical analysis; scholars focus primarily on Gregor's transformation, though consensus notes her initial dutiful care-taking and later resentment suggest conventional conscientiousness mixed with emotional strain.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of Franz Kafka's 'The Metamorphosis' does not identify a significant character referred to solely as 'she' whose personality is meaningfully assessed beyond the named female characters (Grete, the Mother, the Charwoman).\"\n}\n```"
+        }
+      ]
+    }
+  ]
+}

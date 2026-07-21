@@ -1,0 +1,353 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_gemini_handoff"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "206",
+      "character_name": "Carton",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5245352941176471,
+        "C": -0.6927882352941177,
+        "E": -0.5520823529411765,
+        "A": 0.4779882352941177,
+        "N": 0.6712117647058824
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4342,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.65,
+            "C": -0.85,
+            "E": -0.65,
+            "A": 0.4,
+            "N": 0.85
+          },
+          "citation": "Wood (2025) J. Victorian Culture 30(1) DOI:10.1177/09526951241278553; EBSCO Research Starters literary consensus",
+          "scholarly_sources": [
+            {
+              "paper": "Wood2025_Journal_Victorian_Culture_Addiction.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "EBSCO_Research_Starters_TaleOfTwoCities.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": "medium",
+          "added_from": "swarm_research_2026-04-13",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "C": {
+              "score": -0.85,
+              "confidence_interval": [
+                -1.0,
+                -0.55
+              ],
+              "n_sources": 2,
+              "std_dev": 0.08
+            },
+            "E": {
+              "score": -0.65,
+              "confidence_interval": [
+                -0.95,
+                -0.35
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "A": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "N": {
+              "score": 0.85,
+              "confidence_interval": [
+                0.55,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.08
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3453,
+            "C": -0.4682,
+            "E": -0.4122,
+            "A": 0.5894,
+            "N": 0.4158
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:05:17.077985+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001424
+        }
+      ]
+    },
+    {
+      "coref_id": "160",
+      "character_name": "Madame Defarge",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.4567411764705882,
+        "C": 0.8115823529411765,
+        "E": 0.19576470588235298,
+        "A": -0.853335294117647,
+        "N": 0.15629411764705883
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.199,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.85,
+            "E": 0.4,
+            "A": -0.85,
+            "N": 0.65
+          },
+          "citation": "Anon. (2017) Madame Defarge: The psychology of vengeance. Hektoen International: A Journal of Medical Humanities. https://hekint.org/2017/03/04/madame-defarge-the-psychology-of-vengeance/",
+          "scholarly_sources": [
+            {
+              "paper": "Anonymous2017_Hektoen_International_Defarge_Vengeance.json",
+              "framework": "psychoanalytic",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": "medium",
+          "added_from": "swarm_research_2026-04-13",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.85,
+              "confidence_interval": [
+                0.55,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": -0.85,
+              "confidence_interval": [
+                -1.0,
+                -0.55
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5378,
+            "C": 0.7567,
+            "E": -0.096,
+            "A": -0.8581,
+            "N": -0.549
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:05:58.487440+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001386
+        }
+      ]
+    },
+    {
+      "coref_id": "203",
+      "character_name": "Lucie Manette",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.01413333333333332,
+        "C": 0.2971388888888889,
+        "E": 0.16395555555555558,
+        "A": 0.4612333333333334,
+        "N": 0.3672555555555556
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4326,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.096,
+            "C": 0.176,
+            "E": 0.133,
+            "A": 0.293,
+            "N": 0.519
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "TTC/2",
+          "pgt_op_name": "Lucie Manette",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1872,
+            "C": 0.4875,
+            "E": 0.2126,
+            "A": 0.7256,
+            "N": 0.1288
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:06:36.266555+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001514
+        }
+      ]
+    },
+    {
+      "coref_id": "189",
+      "character_name": "Charles Darnay",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.08117222222222224,
+        "C": 0.3714777777777778,
+        "E": -0.08106111111111107,
+        "A": 0.3079166666666666,
+        "N": -0.1962222222222222
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5627,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.23,
+            "E": 0.124,
+            "A": 0.095,
+            "N": -0.008
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "TTC/3",
+          "pgt_op_name": "Charles Darnay",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2627,
+            "C": 0.5938,
+            "E": -0.4033,
+            "A": 0.6425,
+            "N": -0.492
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:07:16.770065+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001716
+        }
+      ]
+    }
+  ],
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 1 orphan coref_id(s) to registry equivalents; archived 0 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "285": "206"
+      },
+      "archived": []
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

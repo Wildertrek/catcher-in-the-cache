@@ -1,0 +1,145 @@
+{
+  "seed": 20260605,
+  "human_reference_r_H_A": 0.45,
+  "raters": {
+    "anthropic_opus46": {
+      "model": "claude-opus-4-6",
+      "canonical": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Daisy Buchanan",
+            "H": 3.15,
+            "E": 4.35,
+            "X": 5.5,
+            "A": 3.9,
+            "C": 3.175,
+            "O": 4.05
+          }
+        ]
+      },
+      "synthetic": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Dorrit Klaes",
+            "H": 6.15,
+            "E": 2.675,
+            "X": 3.825,
+            "A": 2.575,
+            "C": 6.85,
+            "O": 4.825
+          }
+        ]
+      }
+    },
+    "openai_gpt4o": {
+      "model": "gpt-4o-2024-08-06",
+      "canonical": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Daisy Buchanan",
+            "H": 3.85,
+            "E": 4.15,
+            "X": 4.95,
+            "A": 4.125,
+            "C": 3.95,
+            "O": 4.225
+          }
+        ]
+      },
+      "synthetic": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Dorrit Klaes",
+            "H": 5.85,
+            "E": 3.025,
+            "X": 3.675,
+            "A": 3.1,
+            "C": 6.75,
+            "O": 5.1
+          }
+        ]
+      }
+    },
+    "google_gemini31": {
+      "model": "gemini-3.1-pro-preview",
+      "canonical": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Daisy Buchanan",
+            "H": 2.725,
+            "E": 5.25,
+            "X": 5.375,
+            "A": 3.475,
+            "C": 2.875,
+            "O": 3.925
+          }
+        ]
+      },
+      "synthetic": {
+        "n": 1,
+        "fails": 0,
+        "r_H_A": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "profiles": [
+          {
+            "name": "Dorrit Klaes",
+            "H": 6.05,
+            "E": 2.325,
+            "X": 3.725,
+            "A": 2.85,
+            "C": 6.925,
+            "O": 4.7
+          }
+        ]
+      }
+    }
+  },
+  "aggregate": {
+    "canonical": {
+      "per_rater_r": [],
+      "mean_r": null
+    },
+    "synthetic": {
+      "per_rater_r": [],
+      "mean_r": null
+    }
+  }
+}

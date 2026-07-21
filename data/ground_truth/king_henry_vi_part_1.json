@@ -1,0 +1,846 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "King Henry VI, Part 1",
+    "author": "William Shakespeare",
+    "year": "c. 1591"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_lord_talbot",
+      "character_name": "Lord Talbot",
+      "quote_count": 59,
+      "consensus_ocean": {
+        "O": -0.266392,
+        "C": 0.7758079999999999,
+        "E": 0.600424,
+        "A": 0.010671999999999997,
+        "N": -0.24002400000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.5,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.5, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Lord Talbot is often characterized as a disciplined and reliable military leader, reflecting high conscientiousness, while his moderate extraversion and agreeableness suggest a balanced social demeanor, though he exhibits low neuroticism in his steadfastness during conflict.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.3,\n  \"N\": 0.2,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Talbot emerges in criticism as a martial archetype\u2014disciplined and assertive in warfare but rigid and conventional in outlook, with limited imaginative range; his ruthlessness toward Joan of Arc and the French reflects low agreeableness, while his legendary reputation and command presence support extraversion and conscientiousness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.2,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.2,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Talbot as a highly disciplined and resolute military leader, embodying traditional English martial virtues and stoicism, with little emphasis on imagination or emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3514,
+            "C": 0.7136,
+            "E": 0.5158,
+            "A": -0.0476,
+            "N": -0.0858
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:04:48.961481+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002888
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke_of_gloucester",
+      "character_name": "Duke Of Gloucester",
+      "quote_count": 49,
+      "consensus_ocean": {
+        "O": -0.23066,
+        "C": 0.551552,
+        "E": 0.35939599999999994,
+        "A": -0.49084000000000005,
+        "N": 0.134312
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.0,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.0, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"The Duke of Gloucester is often portrayed as a pragmatic and somewhat reserved character, reflecting a balance of conscientiousness and low emotional volatility, as noted in various analyses of the political dynamics in 'King Henry VI, Part 1'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.4,
+            "A": -0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.4,\n  \"A\": -0.6,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Duke of Gloucester is a minor character in 1H6 with limited stage presence; published criticism (including Bloom and Frye's general Shakespearean analyses) does not substantially develop his personality profile, making confident trait assessment unreliable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Gloucester as a conscientious and assertive Lord Protector, fiercely dedicated to the King and the law, yet marked by a hot temper and low agreeableness, particularly in his constant, uncooperative clashes with Cardinal Beaufort, as discussed by scholars examining the political dynamics of the play.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3095,
+            "C": 0.5984,
+            "E": 0.3407,
+            "A": -0.553,
+            "N": -0.0346
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:05:24.240375+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001829
+        }
+      ]
+    },
+    {
+      "coref_id": "char_joan_la_pucelle",
+      "character_name": "Joan La Pucelle",
+      "quote_count": 46,
+      "consensus_ocean": {
+        "O": 0.803668,
+        "C": 0.555192,
+        "E": 0.7705719999999999,
+        "A": -0.445552,
+        "N": 0.064496
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": 0.7, \"A\": -0.5, \"N\": 0.6, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight Joan's assertive and unconventional nature, her strong will, and her emotional intensity, which contribute to her complex personality as a character who defies traditional gender roles.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Joan is characterized by critics as a charismatic, unconventional military leader whose visionary claims and aggressive assertion of authority contrast sharply with her lack of empathy toward enemies and ultimate vulnerability, though her minor role limits depth of published analysis compared to major Shakespearean figures.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.8,
+            "E": 0.9,
+            "A": -0.8,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.8,\n  \"E\": 0.9,\n  \"A\": -0.8,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism, particularly feminist and historical analyses, consistently portrays Joan as a radically unconventional, assertive, and disciplined leader, albeit one demonized for her antagonism and perceived supernatural powers.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8131,
+            "C": 0.6114,
+            "E": 0.6949,
+            "A": -0.0484,
+            "N": -0.0268
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:05:54.032294+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002126
+        }
+      ]
+    },
+    {
+      "coref_id": "char_earl_of_suffolk",
+      "character_name": "Earl Of Suffolk",
+      "quote_count": 42,
+      "consensus_ocean": {
+        "O": 0.15267999999999998,
+        "C": 0.58788,
+        "E": 0.635308,
+        "A": -0.35966000000000004,
+        "N": -0.104536
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Earl of Suffolk is often portrayed as a politically ambitious character with moderate traits, but critical analyses do not extensively explore his personality, leading to a more generalized assessment.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Suffolk emerges in critical consensus as a pragmatic, ambitious courtier and military commander whose calculated political maneuvering, manipulation of Henry VI, and ruthless pursuit of power through marriage alliance to Margaret of Anjou demonstrate high extraversion and conscientiousness but marked deficiency in agreeableness, though he remains a secondary figure without the depth o"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.9,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.4,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Suffolk as a ruthlessly ambitious and manipulative political schemer, highly planful in his pursuit of power through Queen Margaret, and utterly lacking in empathy or trustworthiness, while remaining emotionally stable and assertive.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.631,
+            "C": 0.471,
+            "E": 0.7261,
+            "A": -0.0845,
+            "N": -0.1162
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:06:40.573709+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001583
+        }
+      ]
+    },
+    {
+      "coref_id": "char_charles",
+      "character_name": "Charles",
+      "quote_count": 41,
+      "consensus_ocean": {
+        "O": 0.133536,
+        "C": -0.012623999999999991,
+        "E": 0.244564,
+        "A": 0.426384,
+        "N": 0.14438
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.4,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.4, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Charles is depicted as a somewhat passive character, lacking the strong assertiveness and imaginative qualities seen in more prominent figures, but he does exhibit a degree of conscientiousness and agreeableness in his attempts to maintain peace.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.7,
+            "E": -0.5,
+            "A": 0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.7,\n  \"E\": -0.5,\n  \"A\": 0.6,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Frye, and modern Henry VI scholarship) characterizes King Henry as pious, passive, and emotionally unstable\u2014lacking imagination and executive discipline while displaying genuine compassion, making him a weak, well-intentioned figure unsuited to kingship.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.4,
+            "E": 0.5,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.4,\n  \"E\": 0.5,\n  \"A\": 0.4,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism frequently notes Charles's initial despair and lack of effective leadership, his unconventional openness to Joan of Arc's divine claims and subsequent reliance on her for confidence and strategy, and his romantic infatuation with her.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3912,
+            "C": 0.4692,
+            "E": 0.6163,
+            "A": 0.3228,
+            "N": -0.3415
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:07:25.586446+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001473
+        }
+      ]
+    },
+    {
+      "coref_id": "char_king_henry",
+      "character_name": "King Henry",
+      "quote_count": 29,
+      "consensus_ocean": {
+        "O": -0.09600526315789475,
+        "C": 0.15258947368421055,
+        "E": -0.09358947368421053,
+        "A": 0.6745368421052632,
+        "N": 0.21203157894736843
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2856,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.7, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley note Henry's indecisiveness and moral integrity, suggesting a moderate level of openness and conscientiousness, while his empathy and tendency towards anxiety reflect higher agreeableness and neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.7,
+            "E": -0.5,
+            "A": 0.6,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.7,\n  \"E\": -0.5,\n  \"A\": 0.6,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Tillyard, Bloom) identifies Henry VI as passive, pious, and politically ineffectual\u2014lacking imagination and executive discipline while displaying gentle piety and emotional instability amid factional chaos.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2537,
+            "C": 0.5856,
+            "E": -0.0826,
+            "A": 0.7166,
+            "N": -0.1102
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:08:01.339791+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001706
+        }
+      ]
+    },
+    {
+      "coref_id": "char_york",
+      "character_name": "York",
+      "quote_count": 29,
+      "consensus_ocean": {
+        "O": 0.22422399999999998,
+        "C": 0.614532,
+        "E": 0.47142799999999996,
+        "A": -0.446816,
+        "N": 0.448208
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.4,
+            "A": 0.2,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.4, \"A\": 0.2, \"N\": 0.6, \"confidence\": \"medium\", \"rationale\": \"York is portrayed as ambitious and politically astute, reflecting a moderate level of openness and extraversion, but his emotional volatility and ambition suggest a higher level of neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"York emerges in Part 1 primarily as an ambitious, assertive claimant to power with calculating pragmatism and limited empathy for rivals, though critical consensus treats him as a minor figure whose full personality develops across the trilogy rather than within Part 1 alone.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus highlights York's ambitious, assertive, and divisive nature, driven by a strong sense of entitlement and resentment, which he pursues with strategic determination and emotional intensity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3992,
+            "C": 0.6519,
+            "E": 0.0551,
+            "A": -0.5672,
+            "N": 0.1436
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:08:34.163607+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00127
+        }
+      ]
+    },
+    {
+      "coref_id": "char_bishop_of_winchester",
+      "character_name": "Bishop Of Winchester",
+      "quote_count": 27,
+      "consensus_ocean": {
+        "O": -0.366932,
+        "C": 0.641704,
+        "E": 0.41449199999999997,
+        "A": -0.46803999999999996,
+        "N": 0.127604
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The Bishop of Winchester is portrayed as a politically astute character, showing some conscientiousness and agreeableness in his dealings, but lacks significant depth or development in the critical literature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"The Bishop of Winchester (Henry Beaufort) is characterized in critical consensus as a scheming ecclesiastical politician driven by ambition and factional rivalry rather than piety, displaying low agreeableness and high extraversion in his aggressive pursuit of power against Humphrey of Gloucester, as documented in analyses of the play's political factionalism by scholars including E."
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.9,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": -0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Winchester as a highly ambitious, assertive, and uncooperative figure, driven by self-interest and political maneuvering, central to the play's theme of national disunity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2819,
+            "C": 0.4918,
+            "E": 0.1089,
+            "A": -0.643,
+            "N": 0.2843
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:09:13.407961+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00135
+        }
+      ]
+    },
+    {
+      "coref_id": "char_richard_plantagenet",
+      "character_name": "Richard Plantagenet",
+      "quote_count": 27,
+      "consensus_ocean": {
+        "O": -0.06266799999999999,
+        "C": 0.413852,
+        "E": 0.377676,
+        "A": -0.33677199999999996,
+        "N": 0.214544
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Richard Plantagenet is a relatively minor character in 'King Henry VI, Part 1,' and does not receive significant attention in major critical analyses, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.4,
+            "A": -0.3,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.4,\n  \"A\": -0.3,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Richard Plantagenet is a minor character in 1H6 whose personality receives limited sustained critical attention; scholars focus primarily on his claim to York and political ambition rather than psychological depth, making confident trait assessment difficult.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism often highlights Richard Plantagenet's assertive pursuit of his family's rightful claim, his confrontational nature in the Temple Garden scene, and his strong sense of grievance against the Lancastrian regime.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1381,
+            "C": 0.6209,
+            "E": 0.4917,
+            "A": -0.2599,
+            "N": -0.0052
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:09:50.190739+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001178
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke_of_somerset",
+      "character_name": "Duke Of Somerset",
+      "quote_count": 26,
+      "consensus_ocean": {
+        "O": -0.147376,
+        "C": 0.335888,
+        "E": 0.280448,
+        "A": -0.25579599999999997,
+        "N": 0.12134399999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5996,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": -0.2,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": -0.2, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"The Duke of Somerset is often portrayed as ambitious and politically motivated, with a focus on power dynamics rather than emotional depth, as noted in various analyses of the play's characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.2,
+            "E": 0.4,
+            "A": -0.2,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.2,\n  \"E\": 0.4,\n  \"A\": -0.2,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Somerset is a minor character in 1H6 whose personality receives limited sustained critical attention; scholars focus primarily on his role in the York-Lancaster conflict rather than psychological depth, making confident trait assessment difficult.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses Somerset's role as a representative of the Lancastrian faction in the Wars of the Roses, rather than offering in-depth analysis of his individual psychological personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2692,
+            "C": 0.5996,
+            "E": 0.4016,
+            "A": -0.5707,
+            "N": 0.0048
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:10:38.209184+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001049
+        }
+      ]
+    }
+  ]
+}

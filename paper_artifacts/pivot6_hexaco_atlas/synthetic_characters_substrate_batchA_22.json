@@ -1,0 +1,577 @@
+{
+  "characters": [
+    {
+      "op_id": "SYNTH/0",
+      "op_name": "Dorrit Kessane",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_0",
+      "work_title": "The Unraveling of Pell Street",
+      "evidence_pack": "Dorrit sat at the kitchen table, peeling an orange with a paring knife, each strip of rind placed in a neat row beside her plate. Her roommate burst through the door, breathless.\n\n\"The landlord's raising rent again. Three hundred more a month.\"\n\nDorrit set the knife down. \"Did you get it in writing?\"\n\n\"No, he just called\u2014\"\n\n\"Then call him back and ask for written notice. Don't agree to anything verbal. We have thirty days under the lease to contest any increase above the CPI adjustment.\" She resumed peeling. \"I read the lease twice when we signed it. There's a clause.\"\n\nHer roommate stared. \"You remember a clause from two years ago?\"\n\n\"I remember everything I sign.\"\n\nAt work, Dorrit managed accounts receivable for a mid-sized plumbing supplier. Her desk was the only one in the office without a single loose paper. She kept a color-coded filing system and had never once missed a deadline. When a colleague asked to borrow her stapler, she handed it over and said, \"Bring it back before lunch, please. I have invoices at one.\"\n\nDuring a team meeting, the manager proposed a new software system for tracking orders. Several people groaned. Dorrit raised her hand. \"What's the implementation timeline? If we're migrating data, I'll need at least two weeks to cross-reference our current records against the new format. I won't approve a switchover until I've verified every account.\"\n\n\"Dorrit, it's just software. We'll figure it out as we go.\"\n\n\"No,\" she said flatly. \"We won't. Last time we 'figured it out,' we lost the Hendricks account because someone transposed an invoice number. I'll build a migration checklist this weekend.\"\n\nShe did. It was fourteen pages.\n\nAt a friend's birthday dinner, Dorrit arrived exactly on time, carrying a wrapped gift \u2014 a book she'd heard the friend mention wanting six months earlier. She sat at the end of the table, contributing to conversation when addressed but rarely initiating topics. When the group debated where to go afterward, she said, \"I don't have a preference. But if we're choosing between the two bars, the one on Maple closes at midnight and it's already ten-thirty. So practically speaking, the other one.\"\n\nSomeone joked that Dorrit was like a human calculator. She didn't laugh, but she didn't look offended either. \"I just don't like wasting time going somewhere that's about to close.\"\n\nLater, walking to her car alone, she passed a man sitting on the curb outside the restaurant. He asked for change. Dorrit stopped, opened her wallet, and handed him a five-dollar bill without comment. She did not smile or linger. She simply walked on.\n\nHer mother called on Sundays. Dorrit always answered. The conversations followed a pattern: her mother talked about neighbors, church, the garden. Dorrit listened, offered brief responses. \"That sounds fine, Mom.\" \"No, I haven't been seeing anyone.\" \"Work is the same.\" When her mother pressed \u2014 \"Don't you ever want something more exciting, Dorrit?\" \u2014 she paused. \"I like things the way they are. Excitement is just another word for things going wrong in an interesting way.\"\n\nShe hung up, washed her single dinner plate, and sat on the couch with a crossword puzzle. She completed it in twenty-two minutes, folded the newspaper, and placed it in the recycling bin. She was in bed by ten.\n\nOn a Saturday, her neighbor knocked, frantic \u2014 a pipe had burst. Dorrit put on shoes, walked next door, assessed the situation, and turned off the water main. \"Call a plumber. Don't use the upstairs bathroom until it's fixed. I can give you the name of a reliable company \u2014 we supply their parts.\" She wrote the number on a piece of paper and handed it over. \"They'll probably charge weekend rates. Ask for Dan. Tell him Dorrit sent you and he might waive the surcharge.\"\n\nThe neighbor thanked her profusely. Dorrit nodded once and went home.\n\nWhen her coworker was fired for embezzlement the following month, Dorrit was the one who'd found the discrepancy. She brought it to her manager with documentation \u2014 seventeen flagged transactions, each annotated. \"I'm not making an accusation,\" she said. \"I'm showing you numbers that don't add up. What you do with that is your decision.\"\n\nShe went back to her desk and continued working.",
+      "target_OCEAN": {
+        "O": -0.4,
+        "C": 0.95,
+        "E": -0.5,
+        "A": 0.1,
+        "N": -0.6
+      },
+      "target_HEXACO": {
+        "H": 0.7,
+        "E": -0.3,
+        "X": -0.5,
+        "A_HEX": -0.1,
+        "C": 0.95,
+        "O": -0.3
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 0
+    },
+    {
+      "op_id": "SYNTH/1",
+      "op_name": "Tavo Mireilles",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_1",
+      "work_title": "Bright Noise",
+      "evidence_pack": "Tavo leaned over the railing of the rooftop bar, gesturing at the skyline with a drink in one hand. \"You see that building? The one with the green light on top? I've been inside exactly once. There's a floor \u2014 the fourteenth, I think \u2014 where someone converted the entire space into a mushroom farm. I'm not kidding. Shiitakes growing under UV lamps. The whole floor smells like damp earth. It's the most beautiful thing I've ever seen in a commercial building.\"\n\nHis companion looked skeptical. \"How did you even get in there?\"\n\n\"I talked to the security guard for about forty minutes. Told him I was writing an article on urban agriculture. Which, at the time, I sort of was. I mean, I'd been thinking about it.\" He grinned. \"Close enough.\"\n\nTavo worked, loosely speaking, as a freelance videographer, though he also taught capoeira twice a week, ran a small online shop selling hand-dyed scarves, and was in the early stages of what he called \"a documentary about people who collect obsolete currencies.\" He had been in the early stages for two years.\n\nAt the capoeira studio, he arrived twelve minutes late, shoes untied, carrying a smoothie. His students didn't seem to mind. He clapped his hands. \"Okay! Today we're going to do something different. Forget the sequences I taught you last week. I want you to move to the music and find the ginga naturally. Don't think. Just feel the roda.\"\n\nA newer student raised her hand. \"But I just memorized the sequence.\"\n\n\"Great. Now forget it. The sequence is training wheels. You don't need training wheels. You need to fall a few times.\" He put on a berimbau track and began moving, his body fluid and unhurried. When a student stumbled, he laughed warmly and pulled them back up. \"Beautiful! That stumble was more honest than a perfect cartwheel.\"\n\nAt dinner with friends, Tavo dominated the conversation \u2014 not aggressively, but through sheer gravitational pull. He told stories about a trip to Oaxaca, a chance encounter with a retired puppeteer in Lisbon, a theory he had about why cats prefer boxes to beds. He asked questions too, but often interrupted the answers with tangential connections. \"Wait, that reminds me\u2014\" was his most frequent phrase.\n\nWhen a friend mentioned struggling with anxiety, Tavo's energy shifted. He leaned in, lowered his voice. \"I get that. I really do. There was a period \u2014 maybe three years ago \u2014 where I couldn't leave my apartment for a week. Everything felt like static. What helped me was making something with my hands. Anything. I made a terrible clay pot. Worst pot you've ever seen. But the act of shaping it, you know? It pulled me back.\"\n\nHe reached across the table and squeezed his friend's arm. \"Call me anytime. I mean it. Three in the morning, I don't care.\"\n\nHis apartment reflected his mind: a half-finished painting leaned against one wall, a sewing machine sat on the kitchen table surrounded by fabric scraps, and three cameras of different vintages occupied the couch. The only organized area was a small shelf of books \u2014 poetry collections, travel memoirs, a field guide to North American fungi.\n\nHis ex-girlfriend once said, during their breakup, \"You're the most alive person I know, Tavo. But living with you is like living inside a pinball machine.\"\n\nHe'd nodded slowly. \"That's fair. I don't know how to be less. I've tried. It doesn't stick.\"\n\nWhen his mother asked when he was going to get a \"real job,\" he said, \"Mama, I make enough. Not a lot, but enough. And I wake up every day excited. How many people can say that? I'd rather be broke and curious than comfortable and bored.\"\n\nShe sighed. He kissed her forehead.\n\nAt a street market, Tavo spent forty minutes talking to a vendor about the history of indigo dyeing, bought nothing, and left with the vendor's phone number saved in his contacts under \"Indigo Miguel.\"",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.7,
+        "E": 0.85,
+        "A": 0.6,
+        "N": 0.1
+      },
+      "target_HEXACO": {
+        "H": 0.3,
+        "E": 0.2,
+        "X": 0.9,
+        "A_HEX": 0.5,
+        "C": -0.7,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 1
+    },
+    {
+      "op_id": "SYNTH/2",
+      "op_name": "Sable Wrynn",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_2",
+      "work_title": "Glasswater",
+      "evidence_pack": "Sable closed the laptop and pressed her palms flat against the desk. The numbers were bad. Not catastrophically bad \u2014 not yet \u2014 but the trajectory was unmistakable. She picked up the phone.\n\n\"Jerome. I need you to pull the Q3 projections again. And this time, don't round up. I want actuals, not aspirationals.\" She paused. \"No, I'm not blaming you. I'm saying the report we sent to the board was optimistic by about twelve percent, and if they find out before we correct it, we look either incompetent or dishonest. Neither is acceptable.\"\n\nShe hung up and stood at the window of her corner office. Sable had been CFO of Glasswater Logistics for four years. In that time, she had restructured the company's debt, negotiated two acquisitions, and fired eleven people. She had not enjoyed any of the firings, but she had not lost sleep over them either.\n\nAt the quarterly board meeting, she presented the corrected numbers herself. \"I want to be transparent. The previous report contained projection errors that overstated revenue growth. The corrected figures are in front of you. We're still growing, but at seven percent, not nineteen. I take responsibility for not catching this sooner.\"\n\nA board member leaned forward. \"Sable, this is a significant discrepancy. How did it happen?\"\n\n\"A combination of modeling assumptions that were too aggressive and insufficient review on my part. I've already implemented a dual-verification process to prevent recurrence.\" Her voice was steady, her posture straight. She did not deflect.\n\nAfterward, the CEO pulled her aside. \"You didn't have to fall on your sword in there.\"\n\n\"It wasn't a sword. It was a correction. If I'd tried to spin it, they'd have smelled blood. Honesty is cheaper than damage control.\"\n\nAt home, Sable lived alone in a two-bedroom apartment that was clean but not decorated with any particular flair. Functional furniture, neutral colors. A single framed photograph on the mantel: her and her late father at a fishing dock, both squinting into the sun.\n\nHer sister called on a Tuesday evening. \"Mom's asking about Thanksgiving.\"\n\n\"I'll be there,\" Sable said. \"Do you need me to bring anything?\"\n\n\"Just yourself. And maybe try to relax this time? Last year you reorganized Mom's pantry while everyone was watching football.\"\n\n\"Her pantry was a hazard. She had expired canned goods from 2019.\"\n\n\"Sable.\"\n\n\"Fine. I'll sit on the couch. I'll eat pie. I'll be a delight.\"\n\nHer sister laughed. Sable almost did.\n\nIn a rare social outing, Sable attended a colleague's retirement party. She stood near the bar, nursing a single glass of wine, and spoke to those who approached her. When a junior analyst nervously introduced himself, she shook his hand firmly and said, \"You wrote the variance analysis on the Midwest accounts. It was thorough. Keep that up and you'll do well here.\"\n\nThe analyst looked stunned. \"You read that?\"\n\n\"I read everything that crosses my desk.\"\n\nShe left the party at nine-fifteen, having spoken to exactly seven people. On her way out, she stopped at the coat check and noticed the attendant reading a textbook. \"What are you studying?\"\n\n\"Accounting.\"\n\n\"Good field. Hard exams. If you need a study group, the AICPA has free resources online that most people don't know about.\" She buttoned her coat and walked into the cold.\n\nSable did not consider herself cold. She considered herself precise. There was a difference, she believed, though she understood why people confused the two.",
+      "target_OCEAN": {
+        "O": -0.1,
+        "C": 0.85,
+        "E": -0.3,
+        "A": 0.0,
+        "N": -0.5
+      },
+      "target_HEXACO": {
+        "H": 0.85,
+        "E": -0.4,
+        "X": -0.3,
+        "A_HEX": -0.2,
+        "C": 0.85,
+        "O": -0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 2
+    },
+    {
+      "op_id": "SYNTH/3",
+      "op_name": "Ren Quilaro",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_3",
+      "work_title": "The Tidepool Variations",
+      "evidence_pack": "Ren sat cross-legged on the floor of the marine biology lab, surrounded by specimen jars, sketching a nudibranch in watercolor. The lab was supposed to close at six. It was quarter past nine.\n\n\"You're still here?\" The night janitor leaned in the doorway.\n\n\"Mmm. Look at this.\" Ren held up the jar, turning it so the light caught the creature's translucent frills. \"Flabellina goddardi. Nobody's documented the chromatophore distribution on juveniles this small. I'm the first person to really look at this, Marco. The first person in the history of the world.\"\n\n\"That's nice. I gotta mop in here.\"\n\n\"Give me ten minutes. I just need to get the violet right.\" Ren squeezed a dab of paint onto a chipped ceramic plate. \"The violet is everything.\"\n\nRen was a second-year PhD student who had already switched advisors twice \u2014 not out of conflict, but because their interests kept evolving faster than any single mentor could track. Their current advisor, Dr. Phan, had learned to give Ren wide latitude. \"Just tell me what you're doing before you do it,\" she'd said. Ren mostly complied.\n\nIn the field, Ren was a different creature entirely from the dreamy lab artist. They waded into tidepools at dawn with systematic precision, cataloguing species counts with a handheld recorder, photographing quadrants, labeling sample bags with GPS coordinates and timestamps. \"Data is love,\" Ren told a fellow student once. \"If you love something, you count it carefully.\"\n\nBut the counting was always in service of something larger. Over coffee with a philosophy graduate student, Ren launched into a twenty-minute monologue about consciousness in invertebrates. \"What if the nudibranch experiences color? Not the way we do \u2014 obviously not \u2014 but what if the chromatophores are a form of phenomenological expression? What if beauty isn't just a signal to predators but a felt state?\"\n\n\"That's... not really falsifiable, Ren.\"\n\n\"Not yet. But neither was plate tectonics in 1910. I'm comfortable sitting with questions that don't have answers yet. Most people aren't. That's why most people are boring.\" They said this without malice, as though stating a weather observation.\n\nRen's apartment was small and chaotic \u2014 books stacked in towers, dried kelp specimens taped to the walls, a terrarium housing three pet snails named after Renaissance painters. They cooked elaborate meals at odd hours: homemade pasta at midnight, a Thai curry at six in the morning after an all-night writing session. When a friend visited and commented on the mess, Ren looked around as if seeing it for the first time. \"I know where everything is. That's all that matters.\"\n\nIn relationships, Ren was warm but unpredictable. They forgot birthdays, canceled plans when a research idea seized them, and once disappeared for a weekend to drive to a coastal preserve four hours away because they'd read about an unusual algal bloom. They texted their partner from the road: \"Sorry. Algae emergency. Back Monday. I love you.\"\n\nThe partner, when recounting this to friends, said, \"You can't be mad at Ren. You can be frustrated, but you can't be mad. Because they're not being selfish \u2014 they genuinely forgot the world exists outside their head.\"\n\nWhen Ren presented at a conference, they spoke without notes, pacing the stage, occasionally stopping mid-sentence to draw a diagram on the whiteboard. The audience was either captivated or bewildered, depending on their tolerance for tangents. A senior researcher approached afterward. \"Your data is excellent. Your presentation could use structure.\"\n\nRen nodded earnestly. \"You're completely right. I'll work on that.\" They did not work on it.",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": 0.2,
+        "E": 0.3,
+        "A": 0.2,
+        "N": -0.2
+      },
+      "target_HEXACO": {
+        "H": 0.4,
+        "E": -0.1,
+        "X": 0.3,
+        "A_HEX": 0.0,
+        "C": 0.1,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 3
+    },
+    {
+      "op_id": "SYNTH/4",
+      "op_name": "Marisca Delune",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_4",
+      "work_title": "A Feast of Whispers",
+      "evidence_pack": "Marisca adjusted the napkin on her lap and smiled at the couple across the restaurant table. \"I'm so glad you could make it. When Phillip mentioned you were new to the city, I thought \u2014 well, nobody should eat alone their first month somewhere new.\"\n\nShe had, in fact, invited them because Phillip's wife worked in commercial real estate, and Marisca's husband was looking to lease a new warehouse space. But the dinner was genuinely pleasant. Marisca had a gift for making people feel attended to. She asked about their daughter's school, remembered the name of their dog from a previous conversation, and recommended a dentist.\n\n\"You're so thoughtful,\" Phillip's wife said.\n\n\"Oh, stop. I just pay attention. It's the least anyone can do.\"\n\nMarisca ran a small event-planning business that catered to corporate clients. She was good at it \u2014 not because she was creative, but because she understood what people wanted before they articulated it. She tracked preferences in a spreadsheet: who was vegan, who hated roses, which CEO had a shellfish allergy, which board chair liked to be seated facing the door.\n\nHer assistant once found the spreadsheet open on Marisca's computer. \"You have a column for 'emotional vulnerabilities'?\"\n\nMarisca closed the laptop smoothly. \"That's just my shorthand for sensitivities. Dietary, environmental, personal. It helps me avoid awkward situations.\" She paused. \"Don't read my files, Carla.\"\n\nAt a charity gala she'd organized, Marisca moved through the room like a current \u2014 touching elbows, guiding conversations, redirecting a tipsy donor away from the microphone with a gentle hand on his back and a murmured, \"Let's get you some water first, Richard. The speech can wait.\"\n\nWhen the event was over and the last guest had gone, she sat in her car in the parking garage and stared at the steering wheel for a long time. Her phone buzzed \u2014 her husband. She let it ring.\n\nAt home, the marriage was a careful performance. She and Grant occupied the same house with the efficiency of well-coordinated roommates. They discussed logistics: the children's schedules, the broken dishwasher, the tax filing. Affection was rare and strategic.\n\n\"Grant, the Larsens invited us to their lake house in July.\"\n\n\"Do we want to go?\"\n\n\"We should. Tom Larsen just made partner. It's a useful relationship.\"\n\nGrant looked at her. \"Do you ever do anything just because you want to?\"\n\nMarisca considered this. \"I want to go to the lake house. I also want it to be useful. Those aren't mutually exclusive.\"\n\nWith her children, she was more unguarded. She braided her daughter's hair every morning, singing softly in French \u2014 a language she'd learned from her Haitian grandmother. When her son brought home a failing math grade, she didn't raise her voice. She sat beside him at the kitchen table and said, \"Show me where you got lost. We'll figure it out together.\" They worked through problems until ten o'clock. She made him hot chocolate afterward.\n\nBut even her tenderness had a transactional edge that surfaced in unguarded moments. When her daughter asked why she was always so nice to people she didn't seem to like, Marisca paused mid-braid. \"Because, baby, the world runs on what people think of you. You can be angry in private. In public, you smile. That's not lying. That's surviving.\"\n\nHer daughter pulled away slightly. Marisca resumed braiding as though nothing had happened.\n\nAt her ten-year college reunion, a former roommate cornered her. \"Marisca, you haven't changed. Still working every room like a chess board.\"\n\nMarisca laughed \u2014 a warm, practiced laugh. \"And you're still saying exactly what you think with no filter. I've always admired that about you.\" She squeezed the woman's hand. \"Truly.\"\n\nWhether she meant it was, as always, unclear.",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.6,
+        "E": 0.5,
+        "A": 0.4,
+        "N": 0.1
+      },
+      "target_HEXACO": {
+        "H": -0.7,
+        "E": -0.2,
+        "X": 0.6,
+        "A_HEX": 0.7,
+        "C": 0.6,
+        "O": 0.0
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 4
+    },
+    {
+      "op_id": "SYNTH/5",
+      "op_name": "Harken Doss",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_5",
+      "work_title": "Ironweed County",
+      "evidence_pack": "Harken sat on the tailgate of his truck, eating a ham sandwich, watching the sun go down over the soybean field. His dog, a bluetick coonhound named Peso, lay in the truck bed behind him.\n\n\"Same sunset as yesterday,\" he said to no one. \"Same as tomorrow, probably.\"\n\nHe'd been farming this land for thirty-one years, since his father's stroke. Before that, he'd had two semesters of community college and vague ideas about becoming an electrician. Those ideas had dissolved like morning frost the day his mother called and said, \"Your daddy can't move his left side. Come home.\"\n\nHe came home. He never left.\n\nHarken's days followed an unyielding rhythm: up at five, coffee, chores, fieldwork, lunch, more fieldwork, dinner, television, bed. He did not own a computer. His phone was a flip model he kept in the glove compartment for emergencies. When a neighbor suggested he look into precision agriculture software, Harken shook his head. \"I know my soil. I've been walking it since I was eight. No satellite's going to tell me something my boots can't.\"\n\nAt the feed store, he spoke in short sentences and did not linger. \"Need fifty pounds of the ten-ten-ten. And a salt block.\" When the clerk tried to make conversation about the weather, Harken nodded. \"Yep.\" \"Yep.\" \"Could be.\" He paid in cash, loaded his truck, and drove away.\n\nHe was not unfriendly. At church \u2014 he attended every Sunday, sitting in the same pew his family had occupied for three generations \u2014 he shook hands, asked after people's health, and contributed casseroles to potlucks. But his contributions to conversation rarely exceeded a few sentences. The pastor once said, \"Harken, you're the quietest man I know who still manages to say what matters.\"\n\nHarken had considered that a compliment.\n\nHis one indulgence was woodworking. In the barn, he had a small workshop where he built furniture \u2014 plain, sturdy pieces without ornamentation. A rocking chair. A bookshelf. A child's cradle he'd made for his niece's baby. He did not sell them. He gave them away or kept them. When asked why he didn't set up a booth at the county fair, he said, \"I don't make them for money. I make them because wood wants to be something, and I help it figure out what.\"\n\nThis was the most poetic thing anyone had ever heard Harken say.\n\nHis brother, who lived in Memphis, visited twice a year. The visits were cordial but strained. \"You could sell this place, Hark. Land values are up. You could retire.\"\n\n\"Retire to what?\"\n\n\"Travel. See the world. You've never been further than Little Rock.\"\n\n\"I've seen Little Rock. It was fine.\" Harken took a long drink of water. \"The world's got enough people looking at it. It doesn't need me too.\"\n\nWhen a tornado damaged his barn roof the previous spring, Harken spent three days repairing it himself. A church group offered to help. He accepted, but directed the work with such specific instructions that most of them ended up handing him tools while he did the actual labor. \"No, the joist goes this way. See the grain? You put it the other way and it'll bow inside a year.\"\n\nHe thanked them afterward with a cooler of lemonade and handshakes. \"Appreciate it,\" he said, which from Harken was effusive.\n\nAt night, he sat on the porch with Peso and listened to the crickets. He did not appear to want for anything. He did not appear to be avoiding anything either. He was simply there, in the way that a fence post is there \u2014 upright, weathered, and exactly where it was placed.",
+      "target_OCEAN": {
+        "O": -0.7,
+        "C": 0.7,
+        "E": -0.8,
+        "A": 0.3,
+        "N": -0.7
+      },
+      "target_HEXACO": {
+        "H": 0.6,
+        "E": -0.5,
+        "X": -0.8,
+        "A_HEX": 0.2,
+        "C": 0.7,
+        "O": -0.8
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 5
+    },
+    {
+      "op_id": "SYNTH/6",
+      "op_name": "Lior Cassavetes",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_6",
+      "work_title": "The Refraction Index",
+      "evidence_pack": "Lior was already talking when he walked into the gallery opening, phone pressed to his ear, gesturing at no one. \"\u2014no, tell Marcus the installation has to be centered on the north wall. Not near the north wall. Centered. I measured it myself. If it's off by even two inches, the light from the skylight won't hit it at the right angle at four p.m., and the whole piece collapses conceptually. Yes, conceptually. That's a real thing, Marcus.\"\n\nHe hung up and immediately turned to the nearest person \u2014 a stranger holding a glass of white wine. \"What do you think of the Korhonen piece? The one with the suspended mirrors?\"\n\nThe stranger blinked. \"I just got here.\"\n\n\"Go look at it. Stand underneath it. It does something to your sense of vertical space that I can't explain. It's like the ceiling disappears. I've been thinking about it for three days.\"\n\nLior was an independent art curator who had built a reputation for ambitious, sometimes bewildering exhibitions. His last show had paired fourteenth-century Sienese altarpiece reproductions with generative AI projections. Reviews were polarized. He kept both the glowing and the scathing ones pinned to a corkboard in his office.\n\n\"If everyone agrees, you've done something decorative,\" he told his intern. \"If people argue, you've done something alive.\"\n\nHis intern, a quiet young woman named Priya, had learned to filter his instructions. He would send twelve emails between midnight and three a.m., each with a different idea, several contradicting the others. By morning, he'd have settled on one. \"Ignore the first eleven,\" he'd say cheerfully. \"The twelfth is the one.\"\n\nIn conversation, Lior was magnetic but exhausting. At a dinner party, he held forth on the relationship between Byzantine iconography and Instagram filters, the ethics of AI-generated art, and the best way to cook octopus \u2014 all within twenty minutes. He listened, too, but selectively, seizing on whatever fragment of someone else's speech connected to his current obsession.\n\n\"You said your grandmother made lace? That's incredible. Lace is architecture at the textile scale. Can I meet her? I want to do a show about handcraft and computational pattern.\"\n\n\"She's been dead for ten years, Lior.\"\n\n\"Oh. I'm sorry. Could I see her work?\"\n\nHe was not callous. He simply processed grief and social cues at a different speed than most people. When a close friend's father died, Lior showed up at the house unannounced with groceries, cooked dinner, washed the dishes, and left without being asked. He didn't bring it up again unless the friend did.\n\nHis romantic life was a series of intense, short-lived connections. \"I fall in love with people the way I fall in love with ideas,\" he admitted to a therapist he saw intermittently. \"Completely, and then I move on. I don't mean to hurt anyone. I just \u2014 the intensity fades, and I can't pretend it hasn't.\"\n\nThe therapist asked if that bothered him. Lior thought for a long time. \"Yes. But not enough to change.\"\n\nFinancially, he was erratic. Flush one season from a well-funded exhibition, broke the next because he'd spent the fee on materials for a project that hadn't been commissioned. He once pawned a watch his father gave him to fund a pop-up show in an abandoned laundromat. The show was reviewed in two national publications. He never got the watch back.\n\n\"Was it worth it?\" someone asked.\n\n\"The show? Absolutely. The watch?\" He paused. \"My father would have understood. He was a gambler too \u2014 just with cards instead of art.\"",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": -0.3,
+        "E": 0.9,
+        "A": 0.1,
+        "N": 0.3
+      },
+      "target_HEXACO": {
+        "H": 0.2,
+        "E": 0.1,
+        "X": 0.9,
+        "A_HEX": -0.2,
+        "C": -0.4,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 6
+    },
+    {
+      "op_id": "SYNTH/7",
+      "op_name": "Vonda Strale",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_7",
+      "work_title": "The Quiet Frontier",
+      "evidence_pack": "Vonda had not spoken to another person in four days, and she was fine with that. The fire tower stood sixty feet above the tree line, and from the catwalk she could see the entire Kessler Ridge watershed \u2014 a hundred thousand acres of Douglas fir and ponderosa pine, unmarked by roads.\n\nShe wrote in her logbook: \"0730. Clear skies. Wind NW 8 mph. No smoke. Osprey nest in the dead snag at grid reference 7-14 appears active. Two adults observed.\"\n\nThe Forest Service radio crackled. \"Tower Nine, this is dispatch. Status check.\"\n\n\"Tower Nine, all clear. No activity.\"\n\n\"Copy. Anything you need up there?\"\n\n\"Negative. I'm good.\"\n\nShe was good. Vonda had taken the fire lookout position three summers ago, after leaving a career as a veterinary technician. The vet clinic had been fine \u2014 she was competent, the animals didn't bother her \u2014 but the people had worn her down. The endless small talk with pet owners. The colleague who microwaved fish in the break room. The birthday parties she was expected to attend.\n\n\"I like people in theory,\" she told her sister once. \"In practice, they're very loud.\"\n\nHer sister, who called every Sunday from her house full of children, found this baffling. \"Don't you get lonely?\"\n\n\"No.\"\n\n\"Not even a little?\"\n\n\"I have the radio if I need it. And the birds. The Clark's nutcrackers are nesting early this year. I'm keeping a count.\"\n\n\"Vonda, birds are not company.\"\n\n\"They're better company. They don't ask me if I'm lonely.\"\n\nHer days had structure. She woke at six, made coffee on the propane stove, swept the tower, and began her observation rotation \u2014 a 360-degree scan every thirty minutes. Between scans, she read. Her current stack included a field guide to lichens, a history of cartography, and a novel in Portuguese, which she was teaching herself from a grammar book and sheer stubbornness.\n\n\"I like languages,\" she said to a visiting trail crew member who noticed the book. \"Each one is a different way of cutting up the world. Portuguese has saudade \u2014 a word for longing that isn't quite sadness. English doesn't have that. We should.\"\n\nThe trail crew member, a young man named Dustin, seemed eager to talk. Vonda answered his questions politely but did not prolong the conversation. When he lingered, she said, \"I need to do my two o'clock scan. You're welcome to stay on the catwalk, but I'll be working.\"\n\nHe left. She did not watch him go.\n\nWhen a lightning storm hit in late July, Vonda tracked seventeen strikes in two hours, reporting each with grid coordinates and estimated distance. Her voice on the radio was flat, precise, unhurried. Dispatch later said she'd been the calmest reporter they'd ever worked with during a storm event.\n\n\"Were you scared?\" her sister asked.\n\n\"The tower has a lightning rod. The physics are sound. Being scared would have been irrational.\"\n\n\"You're allowed to be irrational sometimes, Vonda.\"\n\n\"I don't see the advantage.\"\n\nAt the end of the season, she packed her gear into her truck with the same methodical care she brought to everything. Each box labeled. Each tool cleaned and stored. She drove down the mountain road at exactly the speed limit, stopped at the ranger station to file her final report, and shook the district ranger's hand.\n\n\"See you next summer?\" he asked.\n\n\"If you'll have me.\"\n\n\"Always. You're the most reliable lookout we've ever had.\"\n\nVonda nodded and drove home \u2014 a small cabin outside of town, where she would spend the winter reading, splitting firewood, and speaking to almost no one.",
+      "target_OCEAN": {
+        "O": 0.4,
+        "C": 0.75,
+        "E": -0.9,
+        "A": -0.1,
+        "N": -0.8
+      },
+      "target_HEXACO": {
+        "H": 0.5,
+        "E": -0.7,
+        "X": -0.9,
+        "A_HEX": -0.3,
+        "C": 0.8,
+        "O": 0.5
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 7
+    },
+    {
+      "op_id": "SYNTH/8",
+      "op_name": "Cadell Brogue",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_8",
+      "work_title": "Smoke and Register",
+      "evidence_pack": "Cadell leaned back in the booth, tapping a sugar packet against the table in a restless rhythm. \"Here's what I don't understand about you, Frannie. You've got the skills, you've got the contacts, and you sit there in that cubicle like it's a life sentence. You could walk into any firm in this city and double your salary.\"\n\nFrannie stirred her coffee. \"I like my job.\"\n\n\"You like your comfort zone. There's a difference.\" He pointed the sugar packet at her. \"I'm saying this because I care about you.\"\n\nCadell said \"I care about you\" often. To friends, to colleagues, to the barista whose name he'd learned on his second visit. Whether the caring ran deeper than the saying was a question people answered differently depending on how long they'd known him.\n\nHe worked in pharmaceutical sales \u2014 a field that rewarded his particular combination of charm, persistence, and selective honesty. His numbers were consistently in the top five percent of his region. His manager described him as \"a closer.\" His competitors used other words.\n\n\"I don't lie to doctors,\" he said once, when a colleague accused him of exaggerating a drug's efficacy data. \"I emphasize. There's a difference between saying something works and saying the data suggests promising outcomes in targeted populations. One is a lie. The other is framing.\"\n\nHe delivered this distinction with a smile that made it hard to tell if he believed it or was performing belief.\n\nAt a regional sales conference, Cadell won the top performer award. During his acceptance speech, he thanked his team \u2014 by name, with specific anecdotes about each person's contribution. The applause was warm. Afterward, in the hotel bar, he told a colleague, \"Half those people would stab me in the back if they thought they could get my territory. I thanked them anyway because that's how you keep the knife in the drawer.\"\n\nThe colleague laughed uncomfortably. Cadell ordered another round.\n\nHis personal life was a series of carefully maintained surfaces. He owned a well-furnished condo, drove a leased SUV, and dressed in clothes that suggested wealth slightly beyond his actual means. He went to the gym four times a week \u2014 not out of health concern, but because appearance was, in his words, \"the first slide of every presentation.\"\n\nWith women, he was attentive, flattering, and temporary. His most recent ex described the breakup as \"painless, which was somehow the most painful part.\" He'd taken her to dinner, explained that he wasn't ready for the level of commitment she wanted, paid the check, and walked her to her car. \"You deserve someone who's all in,\" he'd said. \"I'm not that guy. Not right now.\"\n\nShe later learned he'd started seeing someone else two weeks before that dinner.\n\nCadell's relationship with honesty was not adversarial \u2014 it was strategic. He told the truth when it cost him nothing and lied when it cost him less than the truth would. He was not cruel. He remembered birthdays, sent flowers to his mother, and once spent an entire Saturday helping a neighbor move. But every kindness existed within a calculation he'd never have admitted to making.\n\nHis younger brother, the only person who seemed to see through him entirely, once said, \"Cadell, you treat life like a chess game where you're playing both sides.\"\n\nCadell had laughed. \"And what's wrong with that? At least I know how the game ends.\"\n\n\"That's the saddest thing you've ever said.\"\n\nCadell stopped laughing. For a moment, something shifted behind his eyes \u2014 a flicker of recognition, or maybe discomfort. Then he picked up his phone and checked his messages. \"You want to grab dinner? There's a new place on Fifth. My treat.\"",
+      "target_OCEAN": {
+        "O": 0.0,
+        "C": 0.5,
+        "E": 0.7,
+        "A": -0.3,
+        "N": -0.3
+      },
+      "target_HEXACO": {
+        "H": -0.8,
+        "E": -0.4,
+        "X": 0.7,
+        "A_HEX": 0.6,
+        "C": 0.4,
+        "O": -0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 8
+    },
+    {
+      "op_id": "SYNTH/9",
+      "op_name": "Thessaly Grieve",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_9",
+      "work_title": "Undertow Season",
+      "evidence_pack": "Thessaly stood at the stove, stirring soup, and crying. Not dramatically \u2014 just a slow, steady leak of tears that she wiped with the back of her wrist without interrupting the stirring.\n\nHer daughter, home from college, watched from the doorway. \"Mom? What's wrong?\"\n\n\"Nothing. I heard a song on the radio that reminded me of your grandmother. It's fine. The soup's almost ready.\"\n\n\"You've been crying for twenty minutes.\"\n\n\"It was a long song.\" Thessaly smiled through the tears. \"Set the table, please.\"\n\nThessaly worked as a school counselor at an elementary school, a job she'd held for sixteen years. Her office was the room children asked to visit when they were sad, scared, or simply overwhelmed. She kept a jar of smooth stones on her desk \u2014 \"worry stones,\" she called them \u2014 and let children hold one while they talked. Her supply had to be replenished every few months because children kept taking them home.\n\nShe didn't mind. \"If a rock in their pocket makes the bus ride easier, that's a good trade.\"\n\nAt a staff meeting, the principal proposed cutting counseling sessions to make room for additional test prep. Thessaly's hand went up immediately. \"With respect, David, these children are not underperforming because they lack test preparation. They're underperforming because Marcus's father left last month, and Jenna hasn't eaten breakfast in three days, and Tom\u00e1s is so anxious he can't hold a pencil without shaking. You want better scores? Let me do my job.\"\n\nThe room went quiet. Thessaly's voice had not risen. Her hands were folded. But something in her stillness made the principal look away first.\n\n\"We'll table it,\" he said.\n\nThessaly nodded and wrote something in her notebook. She did not gloat.\n\nAt home, she lived with her husband, Paul, and a rotating cast of foster animals \u2014 currently two cats and a three-legged dog named Biscuit. Paul handled the logistics of their household with patient good humor while Thessaly handled the emotional weather. \"She feels everything,\" he told friends. \"Hers, mine, the neighbors'. She walked past a dead bird on the sidewalk last week and was sad for two days.\"\n\nThessaly overheard this once and said, \"It was a cedar waxwing. They're beautiful. Of course I was sad.\"\n\nShe was not always gentle. When her brother-in-law made a dismissive comment about a homeless man they passed on the street, Thessaly stopped walking. \"Don't do that.\"\n\n\"Do what?\"\n\n\"Reduce a person to a punchline. You don't know his story. You don't know what sequence of events put him there. Show some basic decency or at least have the grace to say nothing.\"\n\nHer brother-in-law, startled, muttered an apology. Thessaly resumed walking. She did not bring it up again, but she was noticeably cooler toward him for the rest of the evening.\n\nShe slept poorly. She had always slept poorly. Her mind replayed conversations, second-guessed her own words, worried about children she couldn't help. \"I know I absorb too much,\" she told Paul at two in the morning, sitting up in bed. \"I know it's not sustainable. But I don't know how to care less. It's not a dial I can turn.\"\n\nPaul put his arm around her. She leaned into him and was quiet for a while.\n\n\"I think the Mendez boy is being neglected,\" she said. \"I'm going to make a call tomorrow.\"\n\n\"Okay.\"\n\n\"It might cause problems.\"\n\n\"It usually does. Make the call anyway.\"\n\nShe did.",
+      "target_OCEAN": {
+        "O": 0.3,
+        "C": 0.4,
+        "E": 0.3,
+        "A": 0.8,
+        "N": 0.8
+      },
+      "target_HEXACO": {
+        "H": 0.7,
+        "E": 0.9,
+        "X": 0.2,
+        "A_HEX": 0.3,
+        "C": 0.3,
+        "O": 0.2
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 9
+    },
+    {
+      "op_id": "SYNTH/10",
+      "op_name": "Jurgen Pallack",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_10",
+      "work_title": "Greyline Protocol",
+      "evidence_pack": "Jurgen reviewed the incident report for the third time, making small marks in the margin with a mechanical pencil. The pencil was always the same model \u2014 a Pentel P205, 0.5mm. He bought them in packs of twelve.\n\n\"The timeline doesn't hold,\" he said to his partner, Detective Yun. \"The witness says she heard the argument at nine-fifteen, but the security footage shows the victim entering the building at nine-twenty-two. Someone's lying, or someone's clock is wrong.\"\n\n\"Could be an honest mistake. People are bad with time.\"\n\n\"People are bad with everything. That's why we verify.\" He circled the discrepancy and moved on.\n\nJurgen had been a detective in the Major Crimes unit for eleven years. His solve rate was the highest in the department, a fact he never mentioned but was aware of. He did not work with intuition or hunches. He worked with timelines, records, and the principle that human beings are poor liars when confronted with specifics.\n\n\"I don't need a confession,\" he told a rookie once. \"Confessions are unreliable. I need documents, footage, and phone records. People lie. Paper doesn't.\"\n\nThe rookie asked if he'd ever felt sympathy for a suspect. Jurgen considered this. \"Sympathy isn't part of the process. Understanding is. I need to understand why someone did what they did so I can prove they did it. That's different from feeling sorry for them.\"\n\nHe was not popular in the department. He declined after-work drinks, ate lunch alone at his desk, and responded to small talk with monosyllables. He was not rude \u2014 he simply treated social interaction as a task with diminishing returns.\n\nAt home, his apartment was spare: a bed, a desk, a bookshelf organized alphabetically. He cooked the same four meals on rotation \u2014 chicken breast, rice, steamed broccoli, and occasionally pasta with canned sauce. He did not own a television. He read procedural manuals and, incongruously, poetry \u2014 Zbigniew Herbert, primarily, in translation.\n\nWhen his ex-wife called about their daughter's school play, Jurgen wrote the date and time on a sticky note and placed it on his monitor. He attended the play, sitting in the back row. He clapped at the appropriate moments. Afterward, he told his daughter, \"You remembered all your lines. That takes discipline. I'm proud of you.\"\n\nShe hugged him. He patted her back stiffly, then held on a beat longer than expected.\n\nHis ex-wife watched this from across the auditorium. Later, she told a friend, \"He's not cold. He's just \u2014 locked. Everything's in there. He just can't get it out.\"\n\nDuring an interrogation, Jurgen sat across from a suspect accused of insurance fraud. He placed a folder on the table and opened it slowly. \"Mr. Devane, I have your bank statements from the last eighteen months. I have the repair estimates you submitted. I have the contractor's actual invoice, which is forty percent lower than your claim. I also have an email you sent to your brother-in-law on March fourteenth, which I'll read if you'd like, or you can save us both the time.\"\n\nDevane's lawyer intervened. Jurgen waited, hands folded, expression neutral. When the lawyer finished, Jurgen said, \"I'm not in a hurry. Take your time.\"\n\nHe meant it. Patience was not a virtue for Jurgen \u2014 it was a method.\n\nAfter the case closed, Yun bought him a coffee. \"Nice work in there.\"\n\n\"It was adequate. The email was a gift. Without it, we'd have needed another two weeks.\"\n\n\"Can't you just say 'thanks'?\"\n\nJurgen took the coffee. \"Thanks.\" He drank it at his desk, alone, and began the next file.",
+      "target_OCEAN": {
+        "O": -0.2,
+        "C": 0.9,
+        "E": -0.7,
+        "A": -0.4,
+        "N": -0.4
+      },
+      "target_HEXACO": {
+        "H": 0.6,
+        "E": -0.6,
+        "X": -0.7,
+        "A_HEX": -0.5,
+        "C": 0.9,
+        "O": -0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 10
+    },
+    {
+      "op_id": "SYNTH/11",
+      "op_name": "Zuleika Pardo",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_11",
+      "work_title": "The Garden of False Starts",
+      "evidence_pack": "Zuleika sat on the fire escape with a cigarette she wasn't smoking \u2014 just holding, watching the ember crawl toward the filter. Below, the street was empty except for a cat picking its way along the gutter.\n\n\"I almost called my mother today,\" she said to her roommate through the open window. \"Got as far as dialing. Then I thought, what would I even say? 'Hi, Mom, I dropped out of nursing school again and I'm waitressing at a place that smells like fryer grease and regret'? She doesn't need that.\"\n\nHer roommate, Gia, leaned out. \"She'd want to hear from you regardless.\"\n\n\"She'd want to hear that I'm doing well. Those are different things.\"\n\nZuleika had dropped out of three programs in five years: nursing, graphic design, and a brief foray into paralegal studies. Each time, the pattern was the same \u2014 initial enthusiasm, growing anxiety, a creeping certainty that she'd chosen wrong, and then a quiet withdrawal. No dramatic exit. She'd simply stop attending, stop answering emails, let the enrollment lapse.\n\n\"I'm not lazy,\" she told Gia once, unprompted, at two in the morning. \"I know people think I am. But it's not laziness. It's this feeling like I'm standing in a room with a hundred doors and every time I pick one, I can hear all the other doors closing. And I can't stand the sound of doors closing.\"\n\nGia had said, \"That's the most articulate description of indecision I've ever heard.\"\n\n\"See? I should have been a writer.\"\n\n\"So be a writer.\"\n\n\"And close ninety-nine doors? No thanks.\"\n\nAt the restaurant, Zuleika was a good waitress \u2014 not because she was organized, but because she was perceptive. She could read a table within seconds: the couple fighting silently, the businessman who wanted to be left alone, the family celebrating something. She adjusted her approach accordingly, which earned her decent tips and the occasional comment from her manager that she was \"wasted in this job.\"\n\nShe shrugged. \"Every job is a waste of someone's potential. At least here I get fed.\"\n\nHer emotional life was turbulent. She cried at commercials, laughed too loudly at jokes that weren't that funny, and fell into dark moods that lasted days. During these moods, she stayed in bed, curtains drawn, responding to texts with single words. When the mood lifted \u2014 suddenly, as if a switch had been flipped \u2014 she'd emerge and act as though nothing had happened.\n\n\"I'm fine,\" she'd say. \"I was just tired.\"\n\nGia stopped believing this after the third time.\n\nZuleika's relationships were intense and short. She fell hard and fast, investing enormous emotional energy in people who often couldn't match it. When a boyfriend of four months said he needed space, she packed his things into a box, left it outside his door, and blocked his number \u2014 all within an hour. Then she spent the next week replaying every conversation they'd ever had, looking for the moment she'd gone wrong.\n\n\"I don't do halfway,\" she said. \"That's either my best quality or my worst. Depends on the day.\"\n\nShe had a tattoo on her inner wrist \u2014 a small compass with no cardinal directions marked. When people asked about it, she said, \"It's aspirational.\" She did not elaborate.\n\nOn a good day, Zuleika was magnetic \u2014 funny, warm, disarmingly honest. She'd sit at the bar after her shift and talk to strangers about their lives with genuine curiosity. \"Tell me something real,\" she'd say. \"Not what you do for work. Something that matters.\"\n\nPeople told her things they didn't tell anyone else. She remembered all of it and none of her own passwords.",
+      "target_OCEAN": {
+        "O": 0.5,
+        "C": -0.8,
+        "E": 0.4,
+        "A": 0.3,
+        "N": 0.85
+      },
+      "target_HEXACO": {
+        "H": 0.3,
+        "E": 0.8,
+        "X": 0.3,
+        "A_HEX": 0.2,
+        "C": -0.8,
+        "O": 0.4
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 11
+    },
+    {
+      "op_id": "SYNTH/12",
+      "op_name": "Prosper Mak",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_12",
+      "work_title": "The Ledger of Small Mercies",
+      "evidence_pack": "Prosper counted the register twice, wrote the total on a slip of paper, and locked the drawer. He had owned the hardware store for twenty-three years. In that time, he had never been off by more than a dollar.\n\n\"Mr. Mak, do you have quarter-inch lag bolts?\" A customer stood in the doorway, rain dripping from his jacket.\n\n\"Aisle four, second shelf from the bottom, left side. Galvanized or zinc?\"\n\n\"Uh \u2014 what's the difference?\"\n\nProsper came around the counter and walked the man to the aisle. He picked up one of each and held them side by side. \"Galvanized lasts longer outdoors. Zinc is cheaper but it'll rust if it gets wet. What's the application?\"\n\n\"Deck repair.\"\n\n\"Galvanized. And you'll want exterior-grade wood screws too. Don't use drywall screws on a deck \u2014 they'll snap.\" He handed over the bolts and pointed to the screws. \"Those. The green box.\"\n\nThe man thanked him. Prosper nodded and returned to the counter.\n\nHe was a fixture in the neighborhood \u2014 had been since his parents immigrated from Hong Kong when he was six. He'd grown up in the apartment above the store, taken it over when his father retired, and never considered doing anything else. \"Some people dream big,\" he told his wife, Lin. \"I dream precise. I want this store to be the best hardware store on this block. That's enough for me.\"\n\nLin, who had once dreamed of traveling, had long ago made peace with this. \"Prosper is the most content person I've ever met,\" she told her sister. \"It's either admirable or infuriating, depending on my mood.\"\n\nAt the neighborhood association meeting, Prosper sat in the back and listened. When the topic of a proposed bike lane came up and voices rose, he waited until the shouting subsided, then raised his hand. \"I don't have strong feelings about the bike lane. But if we're voting, I'd like to see the traffic study first. Decisions should be based on numbers, not volume.\"\n\nSomeone said, \"Prosper, you never have strong feelings about anything.\"\n\n\"I have strong feelings about lag bolts,\" he said. A few people laughed. He wasn't joking, but he didn't correct them.\n\nWith his children \u2014 two daughters, both now in their twenties \u2014 Prosper was steady. He attended every school event, helped with math homework using hardware analogies (\"Fractions are like cutting pipe \u2014 measure twice\"), and dispensed advice only when asked. When his older daughter announced she was moving across the country for a job, he said, \"That sounds like a good opportunity. Do you need help packing?\"\n\nShe hugged him tightly. He held her and said nothing else.\n\nLater, Lin found him in the store after hours, reorganizing the nail bins. \"You're upset about Maya leaving.\"\n\n\"I'm organizing nails.\"\n\n\"Prosper.\"\n\nHe set down the bin. \"She'll be fine. She's smart and she works hard. I just \u2014\" He paused. \"The store will be quiet without her coming in on Saturdays.\"\n\nThat was as close to emotional expression as Prosper typically got.\n\nHe was honest to a fault \u2014 sometimes literally. When a supplier sent him an extra case of drill bits by mistake, Prosper called to report the error and arranged return shipping at his own expense. \"It's not mine,\" he told Lin, who'd suggested they just keep it. \"Taking something that isn't yours is stealing, even if nobody notices.\"\n\n\"It's fifty dollars' worth of drill bits.\"\n\n\"It's not about the amount. It's about the principle.\"\n\nHe closed the store at six every day, swept the floor, turned off the lights, and walked upstairs to dinner. On Sundays, he played chess with a retired postal worker named Harold in the park. They rarely spoke during the games. Prosper won about sixty percent of the time. He never commented on this.",
+      "target_OCEAN": {
+        "O": -0.5,
+        "C": 0.8,
+        "E": -0.2,
+        "A": 0.5,
+        "N": -0.6
+      },
+      "target_HEXACO": {
+        "H": 0.9,
+        "E": -0.3,
+        "X": -0.2,
+        "A_HEX": 0.4,
+        "C": 0.85,
+        "O": -0.5
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 12
+    },
+    {
+      "op_id": "SYNTH/13",
+      "op_name": "Elke Vandross",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_13",
+      "work_title": "Static Hum",
+      "evidence_pack": "Elke pulled the headphones off and slammed them on the mixing board. \"No. Absolutely not. The bass is eating the vocal on the bridge and you know it. Don't tell me it sounds fine \u2014 it sounds like someone singing inside a washing machine.\"\n\nThe sound engineer, a patient man named Theo, adjusted a fader. \"Better?\"\n\nShe listened again, eyes closed, one hand conducting an invisible orchestra. \"Better. Not good. Bring the reverb down on the snare. It's competing.\"\n\n\"Elke, we've been at this for nine hours.\"\n\n\"And we'll be at it for nine more if that's what it takes. I'm not putting my name on something that sounds like a demo.\" She took a sip of cold coffee and grimaced. \"This coffee is also unacceptable.\"\n\nElke was a music producer who had spent fifteen years building a reputation for sonic perfectionism and interpersonal difficulty. Artists sought her out because she made records that sounded extraordinary. They endured her because the results justified the process. Barely.\n\nShe did not yell \u2014 or rather, she yelled about the music, never about the person. The distinction mattered to her, if not always to the person being addressed. \"I'm not criticizing you,\" she told a vocalist who'd started crying after the eighth take. \"I'm criticizing the performance. You're capable of better. That's why I'm pushing. If I thought you were at your limit, I'd stop.\"\n\nThe vocalist wiped her eyes. \"Could you push a little more gently?\"\n\nElke considered this. \"I can try. But I won't promise.\"\n\nOutside the studio, she was only slightly less intense. She lived alone in an apartment filled with vinyl records organized not alphabetically but by what she called \"emotional temperature\" \u2014 cool to warm, left to right. She cooked elaborate meals for herself, plating them as if for a restaurant, then ate standing at the counter reading equipment manuals.\n\nShe had few friends but maintained those friendships with fierce loyalty. When her college roommate was diagnosed with cancer, Elke flew across the country, sat in the hospital room for a week, and said almost nothing. She brought her laptop and worked quietly while her friend slept. When her friend woke, Elke handed her tea and said, \"I'm here. I'm not going anywhere. You don't have to talk.\"\n\nHer friend later said it was the most comforting presence she'd experienced during the entire ordeal.\n\nIn interviews, Elke was blunt to the point of discomfort. When a journalist asked about her reputation for being \"difficult,\" she said, \"Difficult compared to what? Compared to someone who accepts mediocrity? Then yes, I'm difficult. The word you're looking for is 'exacting,' and it's not a flaw.\"\n\n\"Do you think you could achieve the same results with a softer approach?\"\n\n\"Maybe. But I don't have a softer approach. I have this one. And the records speak for themselves.\"\n\nShe had been in two serious relationships, both with musicians. Both ended for the same reason: she could not separate her professional standards from her personal life. \"You loaded the dishwasher wrong\" was, in Elke's world, a statement of fact, not an attack. Her partners disagreed.\n\n\"I know I'm hard to live with,\" she admitted to Theo during a late-night session. \"I know that. But I'd rather be hard to live with and honest than easy to live with and full of compromises I don't believe in.\"\n\nTheo said nothing. He'd worked with her long enough to know the statement wasn't an invitation for feedback.\n\nElke put her headphones back on. \"One more pass on the bridge. Then we're done.\"\n\nThey did four more passes. She was satisfied with the last one.",
+      "target_OCEAN": {
+        "O": 0.5,
+        "C": 0.8,
+        "E": -0.1,
+        "A": -0.7,
+        "N": 0.3
+      },
+      "target_HEXACO": {
+        "H": 0.5,
+        "E": 0.1,
+        "X": -0.1,
+        "A_HEX": -0.8,
+        "C": 0.8,
+        "O": 0.5
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 13
+    },
+    {
+      "op_id": "SYNTH/14",
+      "op_name": "Dariush Kalani",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_14",
+      "work_title": "The Weight of Borrowed Light",
+      "evidence_pack": "Dariush sat on the park bench, feeding pigeons from a paper bag of breadcrumbs. A jogger passed, then circled back.\n\n\"Aren't you supposed to be at the office?\"\n\nDariush looked up. \"Ah, Kevin. Yes, probably. But the pigeons needed me more. Look at this one \u2014 the one with the crooked foot. She's been coming every day this week. I've named her Persepolis.\"\n\n\"You named a pigeon.\"\n\n\"I name all of them. It would be rude not to.\" He tossed a crumb to Persepolis specifically. \"Besides, the office will survive without me for a morning. The quarterly report is done. I submitted it last night.\"\n\n\"Last night? It wasn't due until Friday.\"\n\n\"I know. But I had a feeling I'd want to feed pigeons today.\"\n\nDariush worked as a data analyst for a mid-sized insurance company, a job he performed with quiet competence and zero ambition. He had been offered promotions twice and declined both times. \"More responsibility means more meetings,\" he explained. \"Meetings are where joy goes to die.\"\n\nHis cubicle was decorated with postcards from places he'd never visited \u2014 Kyoto, Reykjavik, Patagonia \u2014 and a small framed photograph of his grandmother, who had raised him in Tehran before his family emigrated when he was twelve. He kept a tin of saffron in his desk drawer, not for cooking but for the smell. \"It reminds me of her kitchen,\" he said. \"Some memories are olfactory.\"\n\nHe was universally liked at work, though few people knew him well. He remembered everyone's birthday, brought homemade baklava to office parties, and had a gift for deflecting personal questions with gentle humor. When a coworker asked why he was still single at forty-three, he said, \"I'm not single. I'm in a committed relationship with solitude. We're very happy together.\"\n\nBut solitude, for Dariush, was not loneliness. He spent his evenings reading \u2014 philosophy, mostly, with a particular fondness for the Stoics \u2014 and tending a small balcony garden where he grew herbs and a single, stubbornly unproductive tomato plant. He talked to the tomato plant. \"You're not trying,\" he told it. \"I respect your autonomy, but I'd appreciate some effort.\"\n\nOn weekends, he volunteered at a literacy program for adult immigrants. He taught English with patience that bordered on geological. When a student struggled with pronunciation, Dariush would say the word slowly, then again, then again, never showing frustration. \"Language is a door,\" he told them. \"Some doors open easily. Some you have to push. But they all open eventually.\"\n\nHis supervisor at the literacy center said he was their most reliable volunteer. He had not missed a session in three years.\n\nDariush's emotional life was placid on the surface, but occasionally a depth would reveal itself. At a dinner with friends, someone mentioned the political situation in Iran. Dariush set his fork down and was quiet for a long time. Then he said, \"My cousin was arrested in 2019 during the protests. We don't know where he is. We haven't known for four years.\" He picked up his fork. \"The lamb is excellent, by the way. Who made the marinade?\"\n\nThe table was silent. Dariush resumed eating. He did not bring up his cousin again that evening.\n\nWalking home afterward, he stopped at a bench \u2014 a different bench from the morning one \u2014 and sat for twenty minutes, watching the streetlights reflect in puddles. He did not appear to be thinking about anything in particular. He appeared to be simply present, in the way that water is present in a glass \u2014 filling the available space without effort or complaint.",
+      "target_OCEAN": {
+        "O": 0.4,
+        "C": 0.5,
+        "E": 0.1,
+        "A": 0.8,
+        "N": -0.1
+      },
+      "target_HEXACO": {
+        "H": 0.7,
+        "E": 0.1,
+        "X": 0.1,
+        "A_HEX": 0.8,
+        "C": 0.5,
+        "O": 0.5
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 14
+    },
+    {
+      "op_id": "SYNTH/15",
+      "op_name": "Nyx Torberg",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_15",
+      "work_title": "Lacuna",
+      "evidence_pack": "Nyx dropped the wrench and kicked it across the garage floor. \"This is garbage. This whole engine is garbage. Who rebuilt this? A child? A blind child?\"\n\nHer business partner, Aldo, looked up from his own workstation. \"You rebuilt it. Last month.\"\n\n\"Then I was a blind child last month.\" She retrieved the wrench. \"I'm pulling the whole thing apart and starting over. The timing is off by at least three degrees. I can hear it.\"\n\n\"We promised the customer it'd be done by Thursday.\"\n\n\"Then it'll be done Thursday. But it'll be done right.\" She was already unscrewing the valve cover.\n\nNyx ran an independent motorcycle repair shop out of a converted garage in an industrial part of the city. She had no formal training \u2014 she'd learned by disassembling and reassembling her father's old Triumph at sixteen, and by working in other people's shops until she had enough skill and resentment to open her own.\n\nThe resentment was not incidental. Nyx had been fired from two previous shops \u2014 once for telling a customer his custom paint job looked \"like a clown threw up on a gas tank,\" and once for refusing to sign off on a repair she considered unsafe. \"I'm not putting someone back on the road with brakes that thin,\" she'd said. \"Fire me or fix them.\" They fired her.\n\nShe did not regret either incident.\n\nWith customers, she was direct to the point of abrasion. \"Your bike needs new tires, a chain adjustment, and an attitude. When's the last time you changed the oil? Don't say recently. I can see the sludge from here.\"\n\nMost customers came back anyway. Her work was impeccable.\n\nIn her personal life, Nyx was volatile. She had a temper that flared fast and burned out fast, leaving scorched silences in its wake. Her girlfriend, Maren, had developed a system: when Nyx started pacing and muttering, Maren left the room and returned in fifteen minutes with tea. By then, the storm had usually passed.\n\n\"I'm sorry,\" Nyx would say, looking at the tea. \"I don't know why I get like that.\"\n\n\"You do know. You just don't want to talk about it.\"\n\n\"That's also true.\"\n\nNyx's anger was rarely directed at people she loved \u2014 it was directed at objects, systems, and situations she couldn't control. A stripped bolt could ruin her afternoon. A bureaucratic delay on her business license had once led to a thirty-minute tirade that Aldo recorded on his phone and played back to her later. She watched it, arms crossed, and said, \"I sound insane.\"\n\n\"You sound passionate.\"\n\n\"Same thing.\"\n\nBeneath the volatility, there was a rigid code. She refused to overcharge, gave honest estimates even when padding them would have been easy, and once spent a Saturday fixing a teenager's scooter for free because \"the kid had clearly saved up for months to buy that piece of junk, and I'm not going to be the one who tells him it's hopeless.\"\n\nShe did not advertise this. When Aldo mentioned it to a customer, Nyx glared at him. \"Don't make me into a charity case. I fixed a scooter. That's it.\"\n\nAt night, after the shop closed, Nyx sat on the roof of the garage and smoked. She was trying to quit \u2014 had been trying for two years \u2014 but the roof was the only place she felt her mind go quiet. \"I'm not built for stillness,\" she told Maren. \"My brain is an engine with no idle. It's either running or it's off. There's no in-between.\"\n\nMaren said, \"You're sitting still right now.\"\n\nNyx looked down at her hands. They were, in fact, motionless. \"Huh,\" she said. \"So I am.\"",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.4,
+        "E": 0.2,
+        "A": -0.6,
+        "N": 0.7
+      },
+      "target_HEXACO": {
+        "H": 0.7,
+        "E": 0.5,
+        "X": 0.1,
+        "A_HEX": -0.7,
+        "C": 0.5,
+        "O": 0.0
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 15
+    },
+    {
+      "op_id": "SYNTH/16",
+      "op_name": "Calloway Fenn",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_16",
+      "work_title": "The Long Grift",
+      "evidence_pack": "Calloway adjusted his cufflinks \u2014 silver, monogrammed, purchased at a thrift store for six dollars \u2014 and surveyed the hotel lobby. \"The trick,\" he murmured to himself, \"is to look like you belong before anyone asks.\"\n\nHe approached the concierge desk with the unhurried confidence of a man who had a room upstairs. \"Good evening. I'm expecting a package \u2014 should have arrived this afternoon. Under Fenn. F-E-N-N.\"\n\nThe concierge checked. There was no package. There was also no reservation under Fenn.\n\n\"Ah. My assistant must have sent it to the other location. Apologies for the confusion.\" He smiled \u2014 the kind of smile that made people feel they were the ones who'd made the mistake \u2014 and walked toward the bar as if he'd intended to go there all along.\n\nCalloway Fenn was not a criminal in any prosecutable sense. He was a man who lived in the margins between what was legal and what was honest. He called himself a \"consultant,\" which meant different things depending on who was asking. To investors, he facilitated introductions. To businesses, he identified opportunities. To the few people who knew him well, he was a man who made money appear from situations where no money should logically exist.\n\n\"I don't steal,\" he said once to an old college friend who'd expressed concern. \"I redirect. Money is a river. I just dig channels.\"\n\n\"That's the most elegant rationalization I've ever heard.\"\n\n\"Thank you. I've been refining it.\"\n\nCalloway's charm was his primary asset and he maintained it with the discipline of an athlete maintaining a body. He read three newspapers daily, not for information but for conversation material. He could discuss wine, architecture, horse racing, and contemporary art with apparent expertise, though his knowledge in each area was precisely one inch deep. \"You don't need to know everything about a subject,\" he told a prot\u00e9g\u00e9. \"You need to know exactly enough to ask the right question. Then let the other person talk. People love talking. It makes them feel important, and important people are generous.\"\n\nHe was not cruel. He targeted institutions and wealthy individuals, never the vulnerable. When a young woman at a bar told him she'd lost her job and was struggling with rent, he bought her dinner, gave her the name of a hiring manager he knew, and left without asking for her number. \"There's no profit in kicking people who are down,\" he said. \"Besides, it's tasteless.\"\n\nBut his ethics were situational and self-serving. He had ghostwritten a recommendation letter for himself using a former employer's letterhead. He had inflated his credentials on at least three occasions. He had, once, accepted payment for a consulting job he knew would produce no results, reasoning that the client could afford the loss and wouldn't miss it.\n\n\"Does it bother you?\" his friend asked.\n\n\"What specifically?\"\n\n\"Any of it. The lying.\"\n\nCalloway swirled his drink \u2014 bourbon, mid-shelf, ordered as if it were top. \"I don't think of it as lying. I think of it as storytelling. Every transaction is a story. I just make sure mine is more compelling than the alternative.\"\n\nHe lived in a rented apartment that he'd furnished to look more expensive than it was. He owned exactly two suits, both well-tailored, and rotated them with different shirts and ties to create the illusion of a larger wardrobe. He was meticulous about appearances \u2014 shoes always polished, nails always clean, posture always straight.\n\nAt night, alone, he read Marcus Aurelius \u2014 not for the philosophy, but because he liked the cadence of the sentences. He fell asleep with the book on his chest and the lamp still on.",
+      "target_OCEAN": {
+        "O": 0.2,
+        "C": 0.3,
+        "E": 0.6,
+        "A": -0.1,
+        "N": -0.3
+      },
+      "target_HEXACO": {
+        "H": -0.9,
+        "E": -0.5,
+        "X": 0.7,
+        "A_HEX": 0.5,
+        "C": 0.3,
+        "O": 0.1
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 16
+    },
+    {
+      "op_id": "SYNTH/17",
+      "op_name": "Odile Marchetti",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_17",
+      "work_title": "Saltwater Pastoral",
+      "evidence_pack": "Odile sat at the edge of the dock, her feet in the water, sketching the harbor in a notebook she'd had since she was fourteen. The pages were wrinkled from years of salt air and accidental submersions. She drew the same harbor every day, but it was never the same harbor. The light changed. The boats shifted. A cormorant appeared on one piling and not another.\n\n\"You're going to draw that dock until the paper dissolves,\" said her neighbor, Augusto, passing with a bucket of bait.\n\n\"Good. Then I'll draw it on the dock itself.\" She didn't look up.\n\nOdile lived in a fishing village on the Ligurian coast where she had been born fifty-one years ago and from which she had never moved. She worked part-time at the local post office, sorting mail with the mechanical efficiency of someone who could do the job in her sleep, which she sometimes suspected she did.\n\nHer real life happened in the hours outside the post office. She painted \u2014 oils, mostly, on whatever surface was available. Canvases when she could afford them. Pieces of driftwood when she couldn't. Old shutters, cardboard, once the interior of a broken rowboat. Her subjects were always local: the harbor, the cliffs, the faces of fishermen, the particular quality of light at four in the afternoon in September.\n\nShe had never shown her work in a gallery. When a tourist once asked if her paintings were for sale, she said, \"Some of them. But not the ones I like.\"\n\n\"Which ones do you like?\"\n\n\"The ones that surprised me.\"\n\nOdile was unmarried and had been, briefly, in love once \u2014 with a marine biologist who'd spent a summer at the research station. They'd walked the cliffs together, talked about tidal patterns and Caravaggio, and kissed exactly three times. Then the summer ended. The biologist returned to Genoa. Odile stayed.\n\n\"Did you ever think about following her?\" Augusto asked, years later.\n\n\"Every day for about a year. Then the light changed one afternoon \u2014 October, I think \u2014 and I realized I couldn't paint that light from anywhere else. So I stayed.\"\n\n\"You stayed for the light.\"\n\n\"I stayed for the light.\"\n\nShe was not unfriendly, but she was selective with her time. She attended village festivals, contributed desserts \u2014 always the same almond cake, made from her grandmother's recipe \u2014 and danced when the music was right. But she left early and without announcement, slipping away like a cat that had decided the party was over.\n\nWith children, she was unexpectedly warm. The village kids came to her door on Saturday mornings, and she taught them to draw. She was patient in a way she was not with adults, correcting their work with gentle hands. \"Don't press so hard. Let the pencil do the work. You're guiding it, not forcing it.\"\n\nA child once asked why she never painted anything new \u2014 why always the harbor, the cliffs, the boats.\n\nOdile set down her brush. \"Because I haven't finished seeing them yet. When I've seen everything there is to see in this harbor, I'll paint something else. But I've been looking for fifty years and I'm still finding new things. So probably not soon.\"\n\nShe spoke Italian with a local dialect that was dying \u2014 fewer than a hundred people still used it naturally. She wrote in it sometimes: poems, fragments, observations. She kept them in a drawer and showed them to no one.\n\nWhen her mother died, Odile closed the post office for a day \u2014 the only day she'd ever missed work \u2014 walked to the cliffs, and sat until dark. She did not paint that day. The next morning, she returned to the post office, sorted the mail, and in the afternoon began a painting of the cliff face in the exact light of the previous evening. It took her three months. She kept it.",
+      "target_OCEAN": {
+        "O": 0.85,
+        "C": 0.3,
+        "E": -0.4,
+        "A": 0.3,
+        "N": 0.0
+      },
+      "target_HEXACO": {
+        "H": 0.5,
+        "E": 0.2,
+        "X": -0.4,
+        "A_HEX": 0.3,
+        "C": 0.2,
+        "O": 0.9
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 17
+    },
+    {
+      "op_id": "SYNTH/18",
+      "op_name": "Breck Holladay",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_18",
+      "work_title": "Faultline Acres",
+      "evidence_pack": "Breck showed up to the city council meeting twenty minutes late, still wearing his work boots, and sat in the front row. When the council opened public comment on the proposed zoning change, he was the first to the microphone.\n\n\"This is a land grab. Let's call it what it is. You're rezoning agricultural land for commercial development because Talcott Industries is dangling tax revenue in front of you, and you're too greedy or too stupid to see what it costs. Those are family farms. Three generations deep. You can't put a price tag on that.\"\n\nThe council chair asked him to moderate his language.\n\n\"My language is moderate. You should hear what I say at home.\" A few people in the audience laughed. Breck didn't smile. \"I'm asking for a sixty-day extension on the comment period. That's not unreasonable. Give people time to understand what you're taking from them.\"\n\nBreck managed a small ranch \u2014 cattle, mostly, with some hay \u2014 that had been in his family for two generations. He was the kind of man who inspired strong reactions: people either trusted him completely or found him insufferable. There was little middle ground.\n\nHe said what he thought when he thought it, which was often inconvenient. At a neighbor's barbecue, when someone praised the governor's new agricultural subsidy program, Breck shook his head. \"That program is designed for factory farms, not operations like ours. Read the fine print. The minimum acreage requirement alone disqualifies half the ranches in this county. It's a handout disguised as help.\"\n\n\"You're always so negative, Breck.\"\n\n\"I'm not negative. I'm informed. There's a difference, and the difference matters.\"\n\nHis wife, Jolene, managed the household and the books. She had long ago accepted that Breck's mouth would create as many problems as it solved. \"He's honest,\" she told her mother. \"Painfully, relentlessly honest. He's never lied to me. He's also never told me I looked nice when I didn't.\"\n\nBreck, overhearing this, said, \"You always look nice. I just don't say it because you already know.\"\n\n\"See?\" Jolene said. \"Impossible.\"\n\nWith his ranch hands, Breck was demanding but fair. He paid above market rate, provided lunch, and never asked anyone to do a job he wouldn't do himself. But he did not tolerate shortcuts. When a hand left a gate unlatched and three calves wandered onto the road, Breck drove out in the dark to retrieve them, then knocked on the hand's door at six the next morning.\n\n\"Those calves could have been hit. Or they could have caused an accident. Someone could have died because you didn't check a latch. Don't let it happen again.\"\n\nThe hand apologized. Breck clapped him on the shoulder. \"We're fine. Just don't let it happen again.\" He said it twice, which meant he meant it.\n\nBreck did not read for pleasure. He read for utility: agricultural journals, water rights law, equipment manuals. When his daughter, a college freshman, tried to get him to read a novel she loved, he made it thirty pages before setting it down. \"I believe you that it's good. I just can't sit still long enough for someone else's story when I've got my own to deal with.\"\n\nHe went to church irregularly, voted in every election, and distrusted institutions with the consistency of a man who had been burned by them more than once. \"The government isn't evil,\" he said. \"It's just big. And big things step on small things without noticing. My job is to make sure they notice.\"\n\nAt night, he walked the fence line with a flashlight, checking for breaks. It was unnecessary \u2014 he'd checked that morning \u2014 but the walk settled him. The stars were reliable. The coyotes were predictable. The land was his, at least for now.",
+      "target_OCEAN": {
+        "O": -0.3,
+        "C": 0.6,
+        "E": 0.3,
+        "A": -0.5,
+        "N": 0.2
+      },
+      "target_HEXACO": {
+        "H": 0.8,
+        "E": 0.0,
+        "X": 0.3,
+        "A_HEX": -0.6,
+        "C": 0.6,
+        "O": -0.4
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 18
+    },
+    {
+      "op_id": "SYNTH/19",
+      "op_name": "Ysmael Cortavera",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_19",
+      "work_title": "The Ember Meridian",
+      "evidence_pack": "Ysmael opened the laptop, scrolled through the client's social media profiles, and began typing notes. He worked from a caf\u00e9, as always \u2014 the same corner table, the same oat milk cortado, the same playlist of ambient electronic music in his earbuds.\n\n\"Subject posts approximately three times daily. Heavy emphasis on lifestyle content \u2014 travel, dining, wellness. Engagement rate suggests purchased followers. Real audience estimated at twelve to fifteen percent of stated count.\" He paused and added: \"Vulnerable to reputational exposure. Recommend approach via mutual contact (see appendix B).\"\n\nYsmael was a private investigator who specialized in due diligence for high-net-worth individuals \u2014 background checks on potential business partners, romantic interests, or employees. His clients were wealthy, paranoid, or both. He served them with clinical efficiency and no moral commentary.\n\n\"I don't judge my clients,\" he told a friend over drinks. \"I don't judge the subjects either. I find facts. Facts don't have feelings.\"\n\n\"But you're helping people spy on other people.\"\n\n\"I'm helping people make informed decisions. If you want to call that spying, fine. But everyone googles their date before meeting them. I just google harder.\"\n\nHe was thirty-six, lean, and dressed in clothes that were deliberately forgettable \u2014 neutral colors, no logos, nothing that would stand out in a crowd or a memory. This was professional, not aesthetic. \"The best investigators are invisible,\" he said. \"If someone remembers me, I've failed.\"\n\nYsmael's personal life was sparse. He lived in a one-bedroom apartment with minimal furniture and no decorations. He cooked rarely, slept six hours exactly, and exercised with joyless regularity \u2014 a forty-five-minute run every morning at five-thirty, regardless of weather.\n\nHe had few friends and maintained those he had with the same methodical consistency he brought to his work. He texted on birthdays. He showed up when invited. He did not initiate social contact unprompted. When his friend Marta pointed this out, he said, \"I'm not avoiding you. I just don't have the impulse. If you tell me when and where, I'll be there. I'm reliable. I'm just not spontaneous.\"\n\n\"That's the saddest thing\u2014\"\n\n\"It's not sad. It's efficient. Spontaneity is just poor planning in a good mood.\"\n\nHe had been in one serious relationship, which ended after two years. His partner had described him as \"a locked room with excellent lighting\" \u2014 everything visible, nothing accessible. Ysmael had found this description accurate and had not been offended.\n\nIn his work, he maintained strict boundaries. He would not take cases involving children. He would not fabricate evidence. He would not work for clients he believed intended physical harm. These rules were non-negotiable and he enforced them without explanation. When a client pressed \u2014 \"I just need to know where she goes after work, that's all\" \u2014 and Ysmael sensed something beneath the request, he returned the retainer.\n\n\"I don't need your reasons,\" he told the client. \"But I trust my instincts more than your story. Find another investigator.\"\n\nThe client threatened to leave a bad review. Ysmael's expression did not change. \"You're welcome to. I don't have a public profile.\"\n\nAt night, Ysmael read \u2014 spy novels, ironically, and philosophy. He had a particular interest in epistemology: the study of how we know what we know. \"My whole career is about the gap between what people claim and what's true,\" he said. \"Philosophy just gives it a fancier name.\"\n\nHe finished his cortado, closed the laptop, and left the caf\u00e9. The barista would not have been able to describe him five minutes later.",
+      "target_OCEAN": {
+        "O": 0.2,
+        "C": 0.7,
+        "E": -0.6,
+        "A": -0.3,
+        "N": -0.5
+      },
+      "target_HEXACO": {
+        "H": 0.4,
+        "E": -0.7,
+        "X": -0.6,
+        "A_HEX": -0.3,
+        "C": 0.7,
+        "O": 0.2
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 19
+    },
+    {
+      "op_id": "SYNTH/20",
+      "op_name": "Peregrine Sault",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_20",
+      "work_title": "The Dissonance Archive",
+      "evidence_pack": "Peregrine stood at the whiteboard, marker in hand, drawing a diagram that connected Sumerian flood myths to contemporary climate rhetoric. His graduate students watched with expressions ranging from fascination to alarm.\n\n\"The structural parallel is unmistakable,\" he said, circling a node labeled 'divine punishment / anthropogenic causation.' \"In both cases, the narrative requires a moral agent \u2014 someone or something responsible for the catastrophe. The Sumerians had Enlil. We have carbon emissions. I'm not saying they're equivalent \u2014 obviously they're not \u2014 but the narrative architecture is identical. We are a species that cannot process disaster without blame.\"\n\nA student raised her hand. \"Professor Sault, are you saying climate change is a myth?\"\n\n\"I am emphatically not saying that. I'm saying the way we talk about it uses mythic structures. The science is real. The story we wrap around it is ancient. Both things can be true. Complexity is not contradiction.\"\n\nPeregrine was a professor of comparative mythology at a small liberal arts college, a position he'd held for eighteen years with the quiet satisfaction of a man who had found his niche and burrowed into it. He published infrequently \u2014 one monograph, a handful of journal articles \u2014 but his teaching was legendary among students who could tolerate his style, which involved long digressions, obscure references, and a Socratic method that some experienced as illuminating and others as antagonistic.\n\n\"I'm not trying to make you uncomfortable,\" he told a first-year student who'd complained about being challenged in class. \"I'm trying to make you think. Discomfort is a side effect. If it helps, I'm uncomfortable too. I've been uncomfortable since 1987.\"\n\nThe student did not find this reassuring.\n\nPeregrine lived alone in a Victorian house filled with books \u2014 not organized in any discernible system, but stacked on every horizontal surface, including the stove he never used. He ate at the faculty dining hall or ordered delivery. His clothes were rumpled but clean, his hair perpetually in need of cutting. He owned one pair of dress shoes, which he wore to department meetings and funerals.\n\nHis social life was limited to a small circle of fellow academics with whom he had dinner once a month. These dinners lasted four to five hours and involved wine, argument, and the occasional recitation of poetry in dead languages. \"This is what passes for fun in my world,\" he told a bemused neighbor who'd heard the noise. \"We're debating whether Gilgamesh is a tragedy or a comedy. It's riveting.\"\n\nHe had been married once, briefly, in his thirties. His ex-wife, a lawyer, had described the marriage as \"living with a man who was always in a different century.\" The divorce was amicable. They exchanged holiday cards.\n\n\"I'm not built for partnership,\" Peregrine admitted to a colleague. \"I require enormous amounts of silence and access to my own thoughts. That's not compatible with another person's needs. I've accepted this. It's not tragic. It's just true.\"\n\nWith students who showed genuine intellectual curiosity, Peregrine was generous to a fault \u2014 lending books, extending office hours, writing recommendation letters of extraordinary length and detail. With students who were merely performing interest, he was polite but disengaged. He could tell the difference within two conversations.\n\n\"The eyes,\" he explained. \"Genuine curiosity changes the eyes. It's the same look across every culture I've studied. The Homeric Greeks called it thaumazein \u2014 wonder. You can't fake it.\"\n\nHe walked to campus every day, regardless of weather, taking the same route through the park. He stopped at the same bench, sat for exactly five minutes, and continued. When asked why, he said, \"Ritual. All meaningful human activity is ritualized. I'm just honest about mine.\"",
+      "target_OCEAN": {
+        "O": 0.95,
+        "C": 0.0,
+        "E": -0.2,
+        "A": -0.1,
+        "N": 0.1
+      },
+      "target_HEXACO": {
+        "H": 0.4,
+        "E": -0.1,
+        "X": -0.2,
+        "A_HEX": -0.2,
+        "C": 0.0,
+        "O": 0.95
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 20
+    },
+    {
+      "op_id": "SYNTH/21",
+      "op_name": "Wren Abassi",
+      "book": "SYNTHETIC",
+      "coref_id": "synth_21",
+      "work_title": "All the Small Surrenders",
+      "evidence_pack": "Wren held the door open for the woman behind her, then the man behind the woman, then a third person who wasn't even heading inside but changed course when they saw the open door. She stood there, holding it, smiling, until the flow of people stopped.\n\nInside the community center, she checked in at the front desk. \"I'm here for the grief support group. Am I early?\"\n\n\"About fifteen minutes.\"\n\n\"Perfect. I'll set up the chairs.\" She was already moving toward the storage closet.\n\nWren facilitated the Tuesday evening grief group, a role she'd taken on after her husband's death three years prior. She had attended as a participant for the first year, then offered to help when the previous facilitator moved away. She had no formal training in counseling. What she had was a capacity for sitting with pain \u2014 her own and others' \u2014 without flinching.\n\n\"I'm not going to tell you it gets better,\" she said to a new member, a man in his sixties whose wife had died two months earlier. \"Because right now, you don't want to hear that, and you shouldn't have to. What I will tell you is that you're allowed to feel exactly what you feel. There's no wrong way to grieve. There's no schedule.\"\n\nThe man started crying. Wren handed him a tissue and said nothing else. She sat with him in the silence until he was ready to speak.\n\nOutside the group, Wren worked as a home health aide, caring for elderly clients in their homes. The work was physical \u2014 lifting, bathing, administering medications \u2014 and emotionally demanding. She did it without complaint, though her back ached most evenings and her feet were perpetually sore.\n\n\"Why don't you find something easier?\" her sister asked.\n\n\"Because Mrs. Petrosian needs someone who knows how she takes her tea, and Mr. Huang needs someone who'll listen to his stories about the Cultural Revolution without rushing him. They don't need easier. They need consistent.\"\n\n\"But what about what you need?\"\n\nWren paused. \"I need to be useful. This makes me useful.\"\n\nShe lived in a small apartment that she kept tidy but not fussy. There were photographs everywhere \u2014 her husband, her parents, her clients, the grief group. She cooked simple meals and ate them at the table, never in front of the television, because her husband had believed meals deserved attention.\n\nShe still set two places sometimes. When she caught herself doing it, she put the extra plate away without comment.\n\nWren's emotional life was close to the surface. She cried at movies, at sunsets, at the particular way light fell through her kitchen window on winter afternoons. She also laughed easily \u2014 a full, unguarded laugh that made other people want to be funnier than they were.\n\nBut she struggled with boundaries. She answered calls at midnight from group members in crisis. She took on extra shifts when colleagues called in sick. She lent money she couldn't afford to a neighbor and didn't ask for it back. Her sister called this \"self-destruction disguised as kindness.\" Wren called it \"just what you do.\"\n\nAt the grief group, a member once asked her how she managed to stay so calm. Wren considered this. \"I'm not calm. I'm just practiced. There's a difference. Inside, I'm a mess most of the time. But you don't need my mess. You need my steadiness. So that's what I give you.\"\n\n\"Isn't that exhausting?\"\n\n\"Yes.\" She smiled. \"But so is grief. And we're all still here.\"\n\nShe closed the meeting with the same words every week: \"Thank you for showing up. That's the hardest part, and you did it. Same time next Tuesday. I'll be here.\"\n\nShe was always there.",
+      "target_OCEAN": {
+        "O": 0.1,
+        "C": 0.3,
+        "E": 0.4,
+        "A": 0.9,
+        "N": 0.5
+      },
+      "target_HEXACO": {
+        "H": 0.8,
+        "E": 0.85,
+        "X": 0.3,
+        "A_HEX": 0.7,
+        "C": 0.2,
+        "O": 0.0
+      },
+      "flagged_by_neg_control": false,
+      "held_out_subset": false,
+      "manifest_index": 21
+    }
+  ],
+  "n_flagged": 0
+}

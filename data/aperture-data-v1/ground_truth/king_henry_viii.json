@@ -1,0 +1,846 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "King Henry VIII",
+    "author": "William Shakespeare",
+    "year": "c. 1613"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_king_henry_the_eighth",
+      "character_name": "King Henry The Eighth",
+      "quote_count": 82,
+      "consensus_ocean": {
+        "O": 0.169256,
+        "C": 0.360248,
+        "E": 0.7207799999999999,
+        "A": -0.130324,
+        "N": -0.010060000000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.7,
+            "A": 0.4,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.7, \"A\": 0.4, \"N\": 0.6, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom note Henry's complex personality, marked by a blend of charisma and volatility, reflecting both ambition and emotional instability.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.4,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.4,\n  \"E\": 0.7,\n  \"A\": -0.6,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, modern scholarship) portrays Henry as a volatile, self-centered autocrat with charismatic social presence but limited introspection, driven by appetite and will rather than imagination, whose emotional instability and lack of empathy dominate his characterization despite his political acumen.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.0,
+            "E": 0.8,
+            "A": -0.8,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.0,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism generally portrays Henry VIII in the play as a powerful, self-serving monarch who asserts his will decisively, lacks empathy, and is driven by pragmatic concerns rather than deep introspection or emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0902,
+            "C": 0.6866,
+            "E": 0.6885,
+            "A": 0.3917,
+            "N": -0.4645
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:22:55.549810+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003121
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cardinal_wolsey",
+      "character_name": "Cardinal Wolsey",
+      "quote_count": 80,
+      "consensus_ocean": {
+        "O": 0.24390399999999998,
+        "C": 0.7335239999999998,
+        "E": 0.642964,
+        "A": -0.275424,
+        "N": 0.40959599999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.7,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.7, \"E\": 0.6, \"A\": 0.4, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom note Wolsey's ambition and political acumen, suggesting a complex personality marked by both strategic planning and emotional depth.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.6,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, and modern scholarship on Henry VIII) emphasizes Wolsey as a calculating, ambitious administrator whose fall stems from pride and political miscalculation rather than imaginative vision; his extraversion and conscientiousness serve ruthless ambition, while his low agreeableness and moderate neuroticism reflect his manipulative nature and vulnerability "
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.9,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.9,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Wolsey as a highly ambitious, disciplined, and assertive figure, yet profoundly lacking in agreeableness and prone to deep despair upon his fall, with his intellectual acumen primarily serving conventional power structures rather than radical imagination.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3568,
+            "C": 0.6483,
+            "E": 0.4963,
+            "A": -0.0408,
+            "N": 0.0057
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:23:30.615895+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002868
+        }
+      ]
+    },
+    {
+      "coref_id": "char_queen_katherine",
+      "character_name": "Queen Katherine",
+      "quote_count": 50,
+      "consensus_ocean": {
+        "O": -0.16188799999999998,
+        "C": 0.7319039999999999,
+        "E": -0.026664,
+        "A": 0.6471,
+        "N": 0.072924
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.8,
+            "E": 0.3,
+            "A": 0.9,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.2, \"C\": 0.8, \"E\": 0.3, \"A\": 0.9, \"N\": 0.5, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight Queen Katherine's strong moral integrity and resilience, indicating high conscientiousness and agreeableness, while her emotional struggles reflect moderate neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.7,
+            "E": 0.4,
+            "A": 0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.7,\n  \"E\": 0.4,\n  \"A\": 0.6,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Katherine emerges in critical consensus (notably in Frank Kermode's and modern feminist readings) as dignified and principled but constrained by circumstance, displaying high conscientiousness in her steadfast adherence to duty and Catholic faith, moderate agreeableness in her patient endurance, and conventional rather than imaginative responses to her tragic displacement.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.9,
+            "E": -0.2,
+            "A": 0.4,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.9,\n  \"E\": -0.2,\n  \"A\": 0.4,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently portrays Queen Katherine as a figure of immense dignity, moral fortitude, and unwavering principle, enduring suffering with remarkable composure and steadfastness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1496,
+            "C": 0.5568,
+            "E": -0.5238,
+            "A": 0.6825,
+            "N": 0.0033
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:24:01.801773+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002586
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke_of_norfolk",
+      "character_name": "Duke Of Norfolk",
+      "quote_count": 48,
+      "consensus_ocean": {
+        "O": -0.06045263157894737,
+        "C": 0.6267842105263158,
+        "E": 0.2541631578947368,
+        "A": 0.12224210526315789,
+        "N": -0.07016315789473683
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The Duke of Norfolk is often portrayed as a pragmatic and somewhat cautious character, reflecting a balance of traits rather than extremes, as noted in various analyses of the political dynamics in 'King Henry VIII'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Norfolk is a minor political figure in Henry VIII whose characterization receives limited sustained critical attention; scholars note his conventional aristocratic loyalty and occasional outbursts but lack consensus on deeper personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3502,
+            "C": 0.6727,
+            "E": 0.2613,
+            "A": 0.3318,
+            "N": -0.5333
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:24:41.870049+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001854
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lord_chamberlain",
+      "character_name": "Lord Chamberlain",
+      "quote_count": 40,
+      "consensus_ocean": {
+        "O": -0.046532,
+        "C": 0.43149599999999994,
+        "E": 0.38551599999999997,
+        "A": 0.16977199999999998,
+        "N": -0.07875599999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The Lord Chamberlain is a minor character whose traits are not extensively analyzed in major critical works, leading to a moderate assessment based on his role as a facilitator in courtly matters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.5,
+            "A": -0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": -0.3,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Lord Chamberlain is a minor courtier with minimal speaking lines in Henry VIII; published criticism (e.g., Foakes's Arden edition) treats him as a functional court functionary rather than a developed character warranting personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lord Chamberlain is a minor, functional character in 'King Henry VIII' whose personality is not a subject of significant or detailed analysis in published literary criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2519,
+            "C": 0.5982,
+            "E": 0.5197,
+            "A": 0.4349,
+            "N": -0.4527
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:25:29.334263+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00143
+        }
+      ]
+    },
+    {
+      "coref_id": "char_second_gentleman",
+      "character_name": "Second Gentleman",
+      "quote_count": 38,
+      "consensus_ocean": {
+        "O": 0.09514799999999998,
+        "C": 0.079884,
+        "E": 0.12108,
+        "A": 0.157584,
+        "N": -0.078876
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5628,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The Second Gentleman is a minor character in 'King Henry VIII' and has not been the focus of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.0,
+            "E": 0.2,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.0,\n  \"E\": 0.2,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Second Gentleman is a minor functional character with minimal lines whose personality receives negligible attention in published Shakespeare criticism; assessments remain speculative and near-neutral across all dimensions.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism, including major Shakespearean scholarship, treats the Second Gentleman as a functional, expository character rather than an individual with a distinct, analyzable personality, thus offering no basis for a personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2541,
+            "C": 0.2853,
+            "E": 0.261,
+            "A": 0.5628,
+            "N": -0.2817
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:26:01.638882+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001259
+        }
+      ]
+    },
+    {
+      "coref_id": "char_first_gentleman",
+      "character_name": "First Gentleman",
+      "quote_count": 33,
+      "consensus_ocean": {
+        "O": 0.06471199999999999,
+        "C": 0.197464,
+        "E": 0.18439199999999997,
+        "A": 0.118272,
+        "N": -0.10844399999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5338,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The First Gentleman is a minor character in 'King Henry VIII' and does not have significant analysis or development in published literary criticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.2,
+            "E": 0.3,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.2,\n  \"E\": 0.3,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"First Gentleman is a minor functional character appearing only in Act I to deliver exposition about the Field of Cloth of Gold; published criticism (including Arden and Oxford editions) treats him as a dramatic device rather than a psychologically realized personality, making trait assessment speculative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism does not offer meaningful psychological analysis of the 'First Gentleman' due to the character's minor, functional, and largely undifferentiated role in the play, serving primarily as an expository device rather than a developed individual.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1454,
+            "C": 0.5338,
+            "E": 0.4014,
+            "A": 0.4224,
+            "N": -0.3873
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:26:34.059527+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001248
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke_of_suffolk",
+      "character_name": "Duke Of Suffolk",
+      "quote_count": 30,
+      "consensus_ocean": {
+        "O": -0.13952,
+        "C": 0.377564,
+        "E": 0.268868,
+        "A": -0.034536,
+        "N": -0.055768
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.4,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.4, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"The Duke of Suffolk is often portrayed as a somewhat ambitious and opportunistic character, reflecting moderate traits of conscientiousness and agreeableness, but lacks significant depth in critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.7,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Suffolk is a minor antagonist whose characterization receives limited sustained critical attention; scholars note his conventional courtly ambition and manipulative nature, but the play's focus on Henry and Wolsey leaves his personality underdeveloped in major critical works.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats the Duke of Suffolk as a functional, loyal courtier rather than a character with a deeply explored or debated personality, thus offering insufficient material for a detailed Big Five assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.016,
+            "C": 0.4913,
+            "E": 0.1031,
+            "A": 0.1338,
+            "N": -0.3706
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:27:26.964431+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001129
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke_of_buckingham",
+      "character_name": "Duke Of Buckingham",
+      "quote_count": 27,
+      "consensus_ocean": {
+        "O": -0.146928,
+        "C": 0.375824,
+        "E": 0.45939199999999997,
+        "A": -0.305068,
+        "N": 0.166432
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.0,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.0, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Critics often describe the Duke of Buckingham as a character who exhibits a mix of ambition and loyalty, but ultimately faces downfall due to the political machinations around him, suggesting a moderate level of conscientiousness and extraversion, with lower agreeableness and neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Buckingham emerges in critical consensus as an ambitious, prideful courtier whose calculated political maneuvering, lack of empathy toward rivals, and volatile downfall reflect a character driven by conventional ambition rather than imagination, as analyzed in performance-focused studies of the play's political dynamics.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.4,
+            "C": -0.3,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.4,\n  \"C\": -0.3,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Buckingham as a proud, outspoken, and ultimately tragic figure whose lack of political prudence and open antagonism towards Wolsey lead to his downfall, despite his dignified acceptance of his fate.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3324,
+            "C": 0.5708,
+            "E": -0.0736,
+            "A": 0.2819,
+            "N": -0.0056
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:28:02.285434+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001788
+        }
+      ]
+    },
+    {
+      "coref_id": "char_earl_of_surrey",
+      "character_name": "Earl Of Surrey",
+      "quote_count": 24,
+      "consensus_ocean": {
+        "O": -0.16437200000000002,
+        "C": 0.267584,
+        "E": 0.182416,
+        "A": -0.319192,
+        "N": 0.19128399999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7114,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Earl of Surrey is a minor character in 'King Henry VIII' and lacks significant analysis in published literary criticism, resulting in an ambiguous personality assessment.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": 0.6,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": 0.6,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Surrey is a minor courtier in Henry VIII with limited stage presence; published criticism (including Foakes's Arden edition) treats him primarily as a political faction member rather than a psychologically developed character, making robust personality assessment unreliable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally focuses on the major figures and thematic concerns of 'King Henry VIII,' offering little in-depth psychological analysis of the minor character Earl of Surrey.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3299,
+            "C": 0.6128,
+            "E": 0.1372,
+            "A": -0.7114,
+            "N": 0.3403
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:28:45.592507+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001221
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "schema_version": 1,
+  "computed_at": "2026-04-29",
+  "config": {
+    "taxonomy": "Pearson 12",
+    "k_total": 15,
+    "k_canonical": 12,
+    "k_novel_slots": 3,
+    "match_threshold_L2": 0.5,
+    "feature_space": "OCEAN GT (5-dim)",
+    "kmeans_random_state": 42,
+    "n_characters": 562
+  },
+  "discovery_summary": {
+    "n_canonical_replicated": 7,
+    "n_subtype_splits": 0,
+    "n_novel": 8,
+    "canonical_replicated": [
+      "Creator",
+      "Hero/Warrior",
+      "Lover",
+      "Orphan/Everyman",
+      "Outlaw/Rebel",
+      "Ruler",
+      "Sage/Mentor"
+    ],
+    "subtype_archetypes": [],
+    "canonical_not_replicated": [
+      "Caregiver",
+      "Explorer/Seeker",
+      "Innocent",
+      "Jester/Fool",
+      "Magician"
+    ],
+    "n_canonical_total": 12
+  },
+  "clusters": [
+    {
+      "cluster_id": "A0",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Orphan/Everyman",
+      "L2_to_canonical": 0.656291912027752,
+      "auto_ocean_descriptor": "Conventional \u00b7 Disorderly",
+      "curated_name": "Functionary",
+      "n_members": 51,
+      "n_novel_format": 9,
+      "n_drama_format": 42,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": -0.13703372449164852,
+        "C": 0.048645514855397504,
+        "E": 0.16998718218420264,
+        "A": -0.11487580828420693,
+        "N": 0.05853166712055192
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -0.7598924846110423,
+        "C": -0.4256970331042685,
+        "E": -0.20811240557445684,
+        "A": -0.3356366282834351,
+        "N": -0.12222764082637291
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Duke Of Aumerle",
+          "book": "king_richard_ii",
+          "gt_O": -0.1517719999999999,
+          "gt_C": 0.0028079999999999,
+          "gt_E": 0.18378,
+          "gt_A": -0.11798,
+          "gt_N": 0.1748559999999999
+        },
+        {
+          "name": "Bassianus",
+          "book": "titus_andronicus",
+          "gt_O": -0.26222,
+          "gt_C": 0.010084,
+          "gt_E": 0.2473479999999999,
+          "gt_A": -0.060904,
+          "gt_N": 0.059836
+        },
+        {
+          "name": "Dick",
+          "book": "king_henry_vi_part_2",
+          "gt_O": -0.048412,
+          "gt_C": 0.002436,
+          "gt_E": 0.0964879999999999,
+          "gt_A": -0.095676,
+          "gt_N": -0.05684
+        },
+        {
+          "name": "Lady Basildon",
+          "book": "an_ideal_husband",
+          "gt_O": -0.196788,
+          "gt_C": 0.01864,
+          "gt_E": 0.339528,
+          "gt_A": -0.164196,
+          "gt_N": 0.183508
+        },
+        {
+          "name": "Merchant",
+          "book": "the_comedy_of_errors",
+          "gt_O": -0.1124759999999999,
+          "gt_C": 0.186256,
+          "gt_E": -0.0075039999999999,
+          "gt_A": -0.1398599999999999,
+          "gt_N": -0.0182839999999999
+        }
+      ]
+    },
+    {
+      "cluster_id": "A1",
+      "status": "canonical",
+      "canonical_match": "Sage/Mentor",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.2971336534957926,
+      "auto_ocean_descriptor": "Reserved \u00b7 Agreeable \u00b7 Open",
+      "curated_name": "Sage/Mentor",
+      "n_members": 27,
+      "n_novel_format": 17,
+      "n_drama_format": 10,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.49025503013843613,
+        "C": 0.5526360972083441,
+        "E": -0.26021808343207325,
+        "A": 0.5113336630487803,
+        "N": -0.06030751200668702
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.8581199986884742,
+        "C": 0.7798700339790627,
+        "E": -1.429704058342295,
+        "A": 1.003432372714454,
+        "N": -0.45313954076149904
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Belarius",
+          "book": "cymbeline",
+          "gt_O": 0.3910879999999999,
+          "gt_C": 0.69824,
+          "gt_E": -0.27928,
+          "gt_A": 0.568352,
+          "gt_N": -0.222052
+        },
+        {
+          "name": "Jean Valjean",
+          "book": "les_miserables",
+          "gt_O": 0.5824166666666666,
+          "gt_C": 0.53335,
+          "gt_E": -0.0708611111111111,
+          "gt_A": 0.3788166666666666,
+          "gt_N": 0.0470388888888889
+        },
+        {
+          "name": "Colonel Brandon",
+          "book": "sense_and_sensibility",
+          "gt_O": 0.3954187499999999,
+          "gt_C": 0.6414,
+          "gt_E": -0.36795625,
+          "gt_A": 0.58605,
+          "gt_N": -0.27449375
+        },
+        {
+          "name": "Friar Laurence",
+          "book": "romeo_and_juliet",
+          "gt_O": 0.4304777777777778,
+          "gt_C": 0.4587555555555556,
+          "gt_E": -0.0137499999999999,
+          "gt_A": 0.39085,
+          "gt_N": -0.1071888888888888
+        },
+        {
+          "name": "Horatio",
+          "book": "hamlet",
+          "gt_O": 0.2261888888888888,
+          "gt_C": 0.4157944444444444,
+          "gt_E": -0.2002388888888889,
+          "gt_A": 0.5075944444444445,
+          "gt_N": -0.0424555555555555
+        }
+      ]
+    },
+    {
+      "cluster_id": "A2",
+      "status": "canonical",
+      "canonical_match": "Ruler",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.3867793993687369,
+      "auto_ocean_descriptor": "Conventional \u00b7 Conscientious \u00b7 Antagonistic",
+      "curated_name": "Ruler",
+      "n_members": 57,
+      "n_novel_format": 10,
+      "n_drama_format": 47,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": -0.1596323686684892,
+        "C": 0.5321742494040398,
+        "E": 0.3681271253417341,
+        "A": -0.1667674019275916,
+        "N": -0.02525207601735677
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -0.8181828462887909,
+        "C": 0.7309244173181835,
+        "E": 0.3545169250879642,
+        "A": -0.4466001758521465,
+        "N": -0.3555264386559781
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Agamemnon",
+          "book": "troilus_and_cressida",
+          "gt_O": -0.1538999999999999,
+          "gt_C": 0.496268,
+          "gt_E": 0.394032,
+          "gt_A": -0.151084,
+          "gt_N": -0.013728
+        },
+        {
+          "name": "Duke Of Milan",
+          "book": "the_two_gentlemen_of_verona",
+          "gt_O": -0.236204,
+          "gt_C": 0.586052,
+          "gt_E": 0.401548,
+          "gt_A": -0.121424,
+          "gt_N": -0.014728
+        },
+        {
+          "name": "Lucius",
+          "book": "titus_andronicus",
+          "gt_O": -0.0932679999999999,
+          "gt_C": 0.5239119999999999,
+          "gt_E": 0.42534,
+          "gt_A": -0.259776,
+          "gt_N": 0.076192
+        },
+        {
+          "name": "Lady Catherine de Bourgh",
+          "book": "pride_and_prejudice",
+          "gt_O": -0.3069973684210526,
+          "gt_C": 0.5114500000000001,
+          "gt_E": 0.3024710526315789,
+          "gt_A": -0.211307894736842,
+          "gt_N": 0.0354605263157895
+        },
+        {
+          "name": "Baptista Minola",
+          "book": "the_taming_of_the_shrew",
+          "gt_O": -0.29128,
+          "gt_C": 0.604368,
+          "gt_E": 0.404068,
+          "gt_A": -0.085352,
+          "gt_N": 0.0255759999999999
+        }
+      ]
+    },
+    {
+      "cluster_id": "A3",
+      "status": "canonical",
+      "canonical_match": "Outlaw/Rebel",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.28530690638740286,
+      "auto_ocean_descriptor": "Disorderly \u00b7 Antagonistic \u00b7 Neurotic",
+      "curated_name": "Outlaw/Rebel",
+      "n_members": 44,
+      "n_novel_format": 23,
+      "n_drama_format": 21,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.3900990605634163,
+        "C": -0.4398405567979257,
+        "E": 0.5065502365905041,
+        "A": -0.42693001241375195,
+        "N": 0.43156959483236523
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.5997802662236185,
+        "C": -1.5941766462843099,
+        "E": 0.747577007719491,
+        "A": -1.002924701220842,
+        "N": 0.9165096705009844
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Proteus",
+          "book": "the_two_gentlemen_of_verona",
+          "gt_O": 0.524532,
+          "gt_C": -0.565088,
+          "gt_E": 0.582028,
+          "gt_A": -0.454788,
+          "gt_N": 0.4698319999999999
+        },
+        {
+          "name": "Cressida",
+          "book": "troilus_and_cressida",
+          "gt_O": 0.438924,
+          "gt_C": -0.539712,
+          "gt_E": 0.428876,
+          "gt_A": -0.30088,
+          "gt_N": 0.5852440000000001
+        },
+        {
+          "name": "Nastasya Filippovna",
+          "book": "the_idiot",
+          "gt_O": 0.4618,
+          "gt_C": -0.4392,
+          "gt_E": 0.587564705882353,
+          "gt_A": -0.2203,
+          "gt_N": 0.5078764705882353
+        },
+        {
+          "name": "Anna Karenina",
+          "book": "anna_karenina",
+          "gt_O": 0.3998,
+          "gt_C": -0.3548666666666666,
+          "gt_E": 0.3237333333333333,
+          "gt_A": -0.3038,
+          "gt_N": 0.5700000000000002
+        },
+        {
+          "name": "Mr. Wopsle",
+          "book": "great_expectations",
+          "gt_O": 0.3878941176470588,
+          "gt_C": -0.3023117647058823,
+          "gt_E": 0.4824411764705882,
+          "gt_A": -0.2577117647058823,
+          "gt_N": 0.1610705882352941
+        }
+      ]
+    },
+    {
+      "cluster_id": "A4",
+      "status": "canonical",
+      "canonical_match": "Hero/Warrior",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.4541826104429178,
+      "auto_ocean_descriptor": "Stable \u00b7 Agreeable \u00b7 Open",
+      "curated_name": "Hero/Warrior",
+      "n_members": 43,
+      "n_novel_format": 19,
+      "n_drama_format": 24,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.5077152924779026,
+        "C": 0.6015634974643839,
+        "E": 0.5116798248789768,
+        "A": 0.5806335067777639,
+        "N": -0.4276430109208824
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.9031565503856283,
+        "C": 0.8969064717460259,
+        "E": 0.7621427574584146,
+        "A": 1.1516212404330246,
+        "N": -1.4759982372959677
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Kolya Ivolgin",
+          "book": "the_idiot",
+          "gt_O": 0.384335294117647,
+          "gt_C": 0.5609647058823529,
+          "gt_E": 0.5797235294117646,
+          "gt_A": 0.6011117647058823,
+          "gt_N": -0.3241
+        },
+        {
+          "name": "Elizabeth Lavenza",
+          "book": "frankenstein_or_the_modern_prometheus",
+          "gt_O": 0.6013823529411764,
+          "gt_C": 0.6026,
+          "gt_E": 0.3617000000000001,
+          "gt_A": 0.6521882352941176,
+          "gt_N": -0.4913
+        },
+        {
+          "name": "Herbert Pocket",
+          "book": "great_expectations",
+          "gt_O": 0.4959000000000001,
+          "gt_C": 0.3942333333333334,
+          "gt_E": 0.5416000000000001,
+          "gt_A": 0.5984,
+          "gt_N": -0.4172
+        },
+        {
+          "name": "Henry Clerval",
+          "book": "frankenstein_or_the_modern_prometheus",
+          "gt_O": 0.5630823529411766,
+          "gt_C": 0.6381941176470588,
+          "gt_E": 0.5478058823529413,
+          "gt_A": 0.783464705882353,
+          "gt_N": -0.3854588235294117
+        },
+        {
+          "name": "Princess",
+          "book": "loves_labours_lost",
+          "gt_O": 0.6703439999999999,
+          "gt_C": 0.672812,
+          "gt_E": 0.6201679999999999,
+          "gt_A": 0.526964,
+          "gt_N": -0.36468
+        }
+      ]
+    },
+    {
+      "cluster_id": "A5",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Orphan/Everyman",
+      "L2_to_canonical": 0.6880055721263144,
+      "auto_ocean_descriptor": "Disorderly \u00b7 Neurotic \u00b7 Agreeable",
+      "curated_name": "Wounded Innocent",
+      "n_members": 23,
+      "n_novel_format": 11,
+      "n_drama_format": 12,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.3664070258477788,
+        "C": -0.3893634521289191,
+        "E": 0.08497194887955177,
+        "A": 0.4096445955121179,
+        "N": 0.49804013898530425
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.5386696411060475,
+        "C": -1.4734332491625428,
+        "E": -0.4495178639997494,
+        "A": 0.7859832852886948,
+        "N": 1.1015992530520398
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Daughter",
+          "book": "the_two_noble_kinsmen",
+          "gt_O": 0.388452,
+          "gt_C": -0.340072,
+          "gt_E": 0.1723199999999999,
+          "gt_A": 0.42194,
+          "gt_N": 0.49354
+        },
+        {
+          "name": "Queen To King Richard",
+          "book": "king_richard_ii",
+          "gt_O": 0.360348,
+          "gt_C": -0.2215079999999999,
+          "gt_E": -0.033856,
+          "gt_A": 0.3944519999999999,
+          "gt_N": 0.546164
+        },
+        {
+          "name": "Oswald",
+          "book": "ghosts",
+          "gt_O": 0.553,
+          "gt_C": -0.2052,
+          "gt_E": 0.1094,
+          "gt_A": 0.5683,
+          "gt_N": 0.3304
+        },
+        {
+          "name": "Juliet Capulet",
+          "book": "romeo_and_juliet",
+          "gt_O": 0.5449833333333333,
+          "gt_C": -0.0961777777777777,
+          "gt_E": 0.1681555555555555,
+          "gt_A": 0.4802166666666666,
+          "gt_N": 0.6056666666666667
+        },
+        {
+          "name": "Lance",
+          "book": "the_two_gentlemen_of_verona",
+          "gt_O": 0.548196,
+          "gt_C": -0.515916,
+          "gt_E": 0.360736,
+          "gt_A": 0.175124,
+          "gt_N": 0.321604
+        }
+      ]
+    },
+    {
+      "cluster_id": "A6",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Ruler",
+      "L2_to_canonical": 0.9450527594930819,
+      "auto_ocean_descriptor": "Antagonistic \u00b7 Conventional \u00b7 Conscientious",
+      "curated_name": "Punitive Authoritarian",
+      "n_members": 39,
+      "n_novel_format": 14,
+      "n_drama_format": 25,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": -0.3801951496818025,
+        "C": 0.476794713430919,
+        "E": 0.13561562266053523,
+        "A": -0.6246086356346183,
+        "N": 0.2859264492556806
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -1.3870968119811116,
+        "C": 0.5984541944662889,
+        "E": -0.30571235044397516,
+        "A": -1.4256351976806545,
+        "N": 0.5109611774092633
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "First Murderer",
+          "book": "king_richard_iii",
+          "gt_O": -0.229792,
+          "gt_C": 0.376976,
+          "gt_E": 0.163544,
+          "gt_A": -0.52032,
+          "gt_N": 0.340736
+        },
+        {
+          "name": "Sicinius Velutus",
+          "book": "coriolanus",
+          "gt_O": -0.422544,
+          "gt_C": 0.6575759999999999,
+          "gt_E": 0.22902,
+          "gt_A": -0.6861119999999999,
+          "gt_N": 0.175956
+        },
+        {
+          "name": "Brabantio",
+          "book": "othello",
+          "gt_O": -0.3201,
+          "gt_C": 0.5479,
+          "gt_E": 0.1056,
+          "gt_A": -0.467835294117647,
+          "gt_N": 0.5120823529411764
+        },
+        {
+          "name": "Caius Martius Coriolanus",
+          "book": "coriolanus",
+          "gt_O": -0.3795842105263157,
+          "gt_C": 0.6789263157894737,
+          "gt_E": 0.1007052631578947,
+          "gt_A": -0.7920631578947369,
+          "gt_N": 0.4388
+        },
+        {
+          "name": "Engstrand",
+          "book": "ghosts",
+          "gt_O": -0.4228999999999999,
+          "gt_C": 0.1988,
+          "gt_E": 0.1511,
+          "gt_A": -0.5438,
+          "gt_N": 0.1337
+        }
+      ]
+    },
+    {
+      "cluster_id": "A7",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Caregiver",
+      "L2_to_canonical": 0.5315159058877355,
+      "auto_ocean_descriptor": "Stable \u00b7 Agreeable \u00b7 Conscientious",
+      "curated_name": "Principled Elder",
+      "n_members": 56,
+      "n_novel_format": 16,
+      "n_drama_format": 39,
+      "n_unknown_format": 1,
+      "mean_ocean": {
+        "O": -0.0379188357658853,
+        "C": 0.5833246147640343,
+        "E": 0.15799801092600782,
+        "A": 0.5032728713736956,
+        "N": -0.28514024427899815
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -0.5042380893179242,
+        "C": 0.8532782828594746,
+        "E": -0.24215632066144313,
+        "A": 0.9861953989065827,
+        "N": -1.0791942404845383
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Diana",
+          "book": "alls_well_that_ends_well",
+          "gt_O": 0.14904,
+          "gt_C": 0.592384,
+          "gt_E": 0.170136,
+          "gt_A": 0.4852279999999999,
+          "gt_N": -0.3638679999999999
+        },
+        {
+          "name": "Gower",
+          "book": "king_henry_v",
+          "gt_O": -0.048148,
+          "gt_C": 0.608236,
+          "gt_E": 0.155696,
+          "gt_A": 0.40136,
+          "gt_N": -0.463568
+        },
+        {
+          "name": "Escalus",
+          "book": "measure_for_measure",
+          "gt_O": -0.0715519999999999,
+          "gt_C": 0.7303879999999999,
+          "gt_E": 0.1498479999999999,
+          "gt_A": 0.601656,
+          "gt_N": -0.431056
+        },
+        {
+          "name": "Scrooge",
+          "book": "a_christmas_carol",
+          "gt_O": 0.0005,
+          "gt_C": 0.6668,
+          "gt_E": 0.3669,
+          "gt_A": 0.3952,
+          "gt_N": -0.2928
+        },
+        {
+          "name": "Mr. Knightley",
+          "book": "emma",
+          "gt_O": 0.1100666666666666,
+          "gt_C": 0.7325333333333334,
+          "gt_E": 0.2453,
+          "gt_A": 0.5197333333333334,
+          "gt_N": -0.4177666666666667
+        }
+      ]
+    },
+    {
+      "cluster_id": "A8",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Outlaw/Rebel",
+      "L2_to_canonical": 1.0641370203436809,
+      "auto_ocean_descriptor": "Neurotic \u00b7 Antagonistic \u00b7 Disorderly",
+      "curated_name": "Embittered Outcast",
+      "n_members": 18,
+      "n_novel_format": 6,
+      "n_drama_format": 10,
+      "n_unknown_format": 2,
+      "mean_ocean": {
+        "O": -0.15443168627450982,
+        "C": -0.3901709019607844,
+        "E": -0.15054790413943356,
+        "A": -0.7443895773420479,
+        "N": 0.7199395729847495
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -0.8047683398545142,
+        "C": -1.4753647037565436,
+        "E": -1.118289516752425,
+        "A": -1.6817714480783492,
+        "N": 1.7194860799264187
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Lady Anne",
+          "book": "king_richard_iii",
+          "gt_O": 0.0041119999999999,
+          "gt_C": -0.1853719999999999,
+          "gt_E": -0.30422,
+          "gt_A": -0.609876,
+          "gt_N": 0.787096
+        },
+        {
+          "name": "Caliban",
+          "book": "the_tempest",
+          "gt_O": -0.1526529411764706,
+          "gt_C": -0.6091117647058824,
+          "gt_E": -0.4174588235294118,
+          "gt_A": -0.6612411764705882,
+          "gt_N": 0.7005705882352941
+        },
+        {
+          "name": "Mr. Hyde",
+          "book": "the_strange_case_of_dr_jekyll_and_mr_hyde",
+          "gt_O": -0.122492,
+          "gt_C": -0.6624639999999999,
+          "gt_E": -0.325384,
+          "gt_A": -0.8862079999999999,
+          "gt_N": 0.8218679999999999
+        },
+        {
+          "name": "Hindley Earnshaw",
+          "book": "wuthering_heights",
+          "gt_O": -0.3200333333333333,
+          "gt_C": -0.7267,
+          "gt_E": -0.1588,
+          "gt_A": -0.8198666666666667,
+          "gt_N": 0.7501333333333333
+        },
+        {
+          "name": "the other",
+          "book": "the_strange_case_of_dr_jekyll_and_mr_hyde",
+          "gt_O": 0.1793,
+          "gt_C": -0.432652,
+          "gt_E": -0.0750439999999999,
+          "gt_A": -0.586812,
+          "gt_N": 0.657808
+        }
+      ]
+    },
+    {
+      "cluster_id": "A9",
+      "status": "canonical",
+      "canonical_match": "Lover",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.4418300043104068,
+      "auto_ocean_descriptor": "Extraverted \u00b7 Disorderly",
+      "curated_name": "Lover",
+      "n_members": 58,
+      "n_novel_format": 18,
+      "n_drama_format": 40,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.2478856163107862,
+        "C": -0.03381674896006498,
+        "E": 0.5154127145030426,
+        "A": 0.2198165793605252,
+        "N": 0.07350769956754631
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.23295856506070126,
+        "C": -0.6229503013477594,
+        "E": 0.7727425040675829,
+        "A": 0.38006030969326926,
+        "N": -0.08052634848389567
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Clown",
+          "book": "the_winters_tale",
+          "gt_O": 0.3775559999999999,
+          "gt_C": -0.082092,
+          "gt_E": 0.517944,
+          "gt_A": 0.2400319999999999,
+          "gt_N": -0.067164
+        },
+        {
+          "name": "Edward",
+          "book": "king_henry_vi_part_3",
+          "gt_O": 0.188728,
+          "gt_C": 0.1222119999999999,
+          "gt_E": 0.4416279999999999,
+          "gt_A": 0.0692079999999999,
+          "gt_N": 0.12454
+        },
+        {
+          "name": "Biondello",
+          "book": "the_taming_of_the_shrew",
+          "gt_O": 0.0991199999999999,
+          "gt_C": 0.1721919999999999,
+          "gt_E": 0.486444,
+          "gt_A": 0.1764119999999999,
+          "gt_N": 0.0603999999999999
+        },
+        {
+          "name": "Dumaine",
+          "book": "loves_labours_lost",
+          "gt_O": 0.39976,
+          "gt_C": 0.020476,
+          "gt_E": 0.3379999999999999,
+          "gt_A": 0.311496,
+          "gt_N": 0.1239439999999999
+        },
+        {
+          "name": "Speed",
+          "book": "the_two_gentlemen_of_verona",
+          "gt_O": 0.3346639999999999,
+          "gt_C": -0.182664,
+          "gt_E": 0.4614359999999999,
+          "gt_A": 0.083364,
+          "gt_N": -0.0832919999999999
+        }
+      ]
+    },
+    {
+      "cluster_id": "A10",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Magician",
+      "L2_to_canonical": 0.6790647601615125,
+      "auto_ocean_descriptor": "Antagonistic \u00b7 Extraverted \u00b7 Open",
+      "curated_name": "Political Machinator",
+      "n_members": 30,
+      "n_novel_format": 2,
+      "n_drama_format": 28,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.5238219070060773,
+        "C": 0.5083953432863204,
+        "E": 0.5853214518289186,
+        "A": -0.4876181025646906,
+        "N": 0.2632689421167297
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.9447015377266627,
+        "C": 0.6740442550481807,
+        "E": 0.971252231396217,
+        "A": -1.132698433448016,
+        "N": 0.44787054694373013
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "York",
+          "book": "king_henry_vi_part_2",
+          "gt_O": 0.434,
+          "gt_C": 0.608288,
+          "gt_E": 0.5559,
+          "gt_A": -0.470816,
+          "gt_N": 0.0706039999999999
+        },
+        {
+          "name": "Higgins",
+          "book": "pygmalion",
+          "gt_O": 0.73724,
+          "gt_C": 0.6371,
+          "gt_E": 0.634172,
+          "gt_A": -0.672172,
+          "gt_N": 0.2757199999999999
+        },
+        {
+          "name": "Holofernes",
+          "book": "loves_labours_lost",
+          "gt_O": 0.487044,
+          "gt_C": 0.472168,
+          "gt_E": 0.559872,
+          "gt_A": -0.569308,
+          "gt_N": -0.0461879999999999
+        },
+        {
+          "name": "York",
+          "book": "king_henry_vi_part_1",
+          "gt_O": 0.2242239999999999,
+          "gt_C": 0.614532,
+          "gt_E": 0.4714279999999999,
+          "gt_A": -0.446816,
+          "gt_N": 0.448208
+        },
+        {
+          "name": "Joan La Pucelle",
+          "book": "king_henry_vi_part_1",
+          "gt_O": 0.803668,
+          "gt_C": 0.555192,
+          "gt_E": 0.7705719999999999,
+          "gt_A": -0.445552,
+          "gt_N": 0.064496
+        }
+      ]
+    },
+    {
+      "cluster_id": "A11",
+      "status": "canonical",
+      "canonical_match": "Creator",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.3409776129139422,
+      "auto_ocean_descriptor": "Open \u00b7 Agreeable",
+      "curated_name": "Creator",
+      "n_members": 33,
+      "n_novel_format": 12,
+      "n_drama_format": 19,
+      "n_unknown_format": 2,
+      "mean_ocean": {
+        "O": 0.6185764975964684,
+        "C": 0.3697709701540714,
+        "E": 0.23928586629214119,
+        "A": 0.3843253666751821,
+        "N": 0.09270907321397528
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 1.1891090921321257,
+        "C": 0.342448814984431,
+        "E": -0.011334958109271182,
+        "A": 0.7318413471405187,
+        "N": -0.027059444039015577
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Cassio",
+          "book": "othello",
+          "gt_O": 0.7043407407407407,
+          "gt_C": 0.4664703703703703,
+          "gt_E": 0.4100703703703703,
+          "gt_A": 0.2260444444444444,
+          "gt_N": 0.0782666666666666
+        },
+        {
+          "name": "Viola",
+          "book": "twelfth_night",
+          "gt_O": 0.5770277777777778,
+          "gt_C": 0.5732388888888889,
+          "gt_E": 0.110311111111111,
+          "gt_A": 0.2865611111111111,
+          "gt_N": 0.1371444444444444
+        },
+        {
+          "name": "Macduff",
+          "book": "macbeth",
+          "gt_O": 0.6688999999999999,
+          "gt_C": 0.2448407407407407,
+          "gt_E": 0.0584111111111111,
+          "gt_A": 0.2390925925925925,
+          "gt_N": 0.0795666666666666
+        },
+        {
+          "name": "David Copperfield",
+          "book": "david_copperfield",
+          "gt_O": 0.6027333333333335,
+          "gt_C": 0.2242666666666666,
+          "gt_E": 0.4265,
+          "gt_A": 0.5152666666666667,
+          "gt_N": 0.2043
+        },
+        {
+          "name": "Emilia",
+          "book": "othello",
+          "gt_O": 0.6627296296296296,
+          "gt_C": 0.0956666666666666,
+          "gt_E": 0.1149333333333333,
+          "gt_A": 0.3124629629629629,
+          "gt_N": 0.1104296296296296
+        }
+      ]
+    },
+    {
+      "cluster_id": "A12",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Creator",
+      "L2_to_canonical": 0.7954584182940426,
+      "auto_ocean_descriptor": "Neurotic \u00b7 Reserved \u00b7 Open",
+      "curated_name": "Tortured Protagonist",
+      "n_members": 21,
+      "n_novel_format": 12,
+      "n_drama_format": 8,
+      "n_unknown_format": 1,
+      "mean_ocean": {
+        "O": 0.48129451860042266,
+        "C": 0.034291191142343885,
+        "E": -0.12476830529004976,
+        "A": -0.25743223486548616,
+        "N": 0.5052230544314217
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 0.8350074856420626,
+        "C": -0.46003319045451024,
+        "E": -1.045086919566643,
+        "A": -0.6404753451455044,
+        "N": 1.1216003353113102
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Macbeth",
+          "book": "macbeth",
+          "gt_O": 0.3389055555555555,
+          "gt_C": 0.1696111111111111,
+          "gt_E": -0.0748055555555555,
+          "gt_A": -0.1810555555555555,
+          "gt_N": 0.4990333333333333
+        },
+        {
+          "name": "the other",
+          "book": "heart_of_darkness",
+          "gt_O": 0.4339679999999999,
+          "gt_C": -0.094856,
+          "gt_E": 0.1119679999999999,
+          "gt_A": -0.2295319999999999,
+          "gt_N": 0.374844
+        },
+        {
+          "name": "Katerina Ivanovna",
+          "book": "crime_and_punishment",
+          "gt_O": 0.2529764705882353,
+          "gt_C": 0.0797,
+          "gt_E": 0.0093,
+          "gt_A": -0.3680764705882353,
+          "gt_N": 0.6060941176470588
+        },
+        {
+          "name": "Antipholus Of Syracuse",
+          "book": "the_comedy_of_errors",
+          "gt_O": 0.5669519999999999,
+          "gt_C": -0.0722879999999999,
+          "gt_E": 0.2303479999999999,
+          "gt_A": -0.1742079999999999,
+          "gt_N": 0.4836639999999999
+        },
+        {
+          "name": "Richard",
+          "book": "king_henry_vi_part_3",
+          "gt_O": 0.6637639999999999,
+          "gt_C": 0.076064,
+          "gt_E": 0.140524,
+          "gt_A": -0.487188,
+          "gt_N": 0.376076
+        }
+      ]
+    },
+    {
+      "cluster_id": "A13",
+      "status": "novel",
+      "canonical_match": null,
+      "closest_canonical_if_novel": "Explorer/Seeker",
+      "L2_to_canonical": 0.5354416410001854,
+      "auto_ocean_descriptor": "Extraverted \u00b7 Disorderly \u00b7 Open",
+      "curated_name": "Charismatic Rogue",
+      "n_members": 17,
+      "n_novel_format": 3,
+      "n_drama_format": 14,
+      "n_unknown_format": 0,
+      "mean_ocean": {
+        "O": 0.6878950709866835,
+        "C": -0.3578772674845339,
+        "E": 0.7408377619796581,
+        "A": -0.22446503093215892,
+        "N": -0.2238028268847646
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": 1.3679076378449722,
+        "C": -1.398116946428947,
+        "E": 1.4128493979888943,
+        "A": -0.569979188735216,
+        "N": -0.9083980310517236
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Clown",
+          "book": "alls_well_that_ends_well",
+          "gt_O": 0.615572,
+          "gt_C": -0.377428,
+          "gt_E": 0.6341919999999999,
+          "gt_A": -0.1344199999999999,
+          "gt_N": -0.1216
+        },
+        {
+          "name": "Jack",
+          "book": "the_importance_of_being_earnest",
+          "gt_O": 0.6286080000000001,
+          "gt_C": -0.3074199999999999,
+          "gt_E": 0.6662319999999999,
+          "gt_A": -0.022796,
+          "gt_N": -0.111276
+        },
+        {
+          "name": "Lucio",
+          "book": "measure_for_measure",
+          "gt_O": 0.6012879999999999,
+          "gt_C": -0.478052,
+          "gt_E": 0.768384,
+          "gt_A": -0.348472,
+          "gt_N": 0.0188479999999999
+        },
+        {
+          "name": "Puck",
+          "book": "a_midsummer_nights_dream",
+          "gt_O": 0.939524,
+          "gt_C": -0.5296719999999999,
+          "gt_E": 0.8352,
+          "gt_A": -0.2812,
+          "gt_N": -0.3924839999999999
+        },
+        {
+          "name": "Sir John Falstaff",
+          "book": "the_merry_wives_of_windsor",
+          "gt_O": 0.780832,
+          "gt_C": -0.68316,
+          "gt_E": 0.858376,
+          "gt_A": -0.29138,
+          "gt_N": -0.1798199999999999
+        }
+      ]
+    },
+    {
+      "cluster_id": "A14",
+      "status": "canonical",
+      "canonical_match": "Orphan/Everyman",
+      "closest_canonical_if_novel": null,
+      "L2_to_canonical": 0.48395221393345106,
+      "auto_ocean_descriptor": "Reserved \u00b7 Conventional \u00b7 Agreeable",
+      "curated_name": "Orphan/Everyman",
+      "n_members": 45,
+      "n_novel_format": 21,
+      "n_drama_format": 20,
+      "n_unknown_format": 4,
+      "mean_ocean": {
+        "O": -0.19097872421517662,
+        "C": 0.3931620362646357,
+        "E": -0.1977912664389278,
+        "A": 0.39108582343990866,
+        "N": 0.3427324329514327
+      },
+      "ocean_z_scores_vs_corpus": {
+        "O": -0.8990368297312239,
+        "C": 0.3984012473398378,
+        "E": -1.2524396577347197,
+        "A": 0.7462977207673208,
+        "N": 0.6691394493436283
+      },
+      "top_5_prototypical_members": [
+        {
+          "name": "Dolly Oblonsky",
+          "book": "anna_karenina",
+          "gt_O": -0.145084375,
+          "gt_C": 0.502996875,
+          "gt_E": -0.1052999999999999,
+          "gt_A": 0.5689124999999998,
+          "gt_N": 0.287590625
+        },
+        {
+          "name": "Lavinia",
+          "book": "titus_andronicus",
+          "gt_O": -0.09976,
+          "gt_C": 0.189768,
+          "gt_E": -0.202516,
+          "gt_A": 0.4041039999999999,
+          "gt_N": 0.454352
+        },
+        {
+          "name": "Egeon",
+          "book": "the_comedy_of_errors",
+          "gt_O": -0.171604,
+          "gt_C": 0.5964799999999999,
+          "gt_E": -0.31528,
+          "gt_A": 0.302568,
+          "gt_N": 0.477444
+        },
+        {
+          "name": "Berta",
+          "book": "hedda_gabler",
+          "gt_O": -0.1028,
+          "gt_C": 0.5306,
+          "gt_E": -0.1397,
+          "gt_A": 0.583,
+          "gt_N": 0.2152
+        },
+        {
+          "name": "Edward Ferrars",
+          "book": "sense_and_sensibility",
+          "gt_O": 0.0181666666666666,
+          "gt_C": 0.3551222222222223,
+          "gt_E": -0.2987388888888888,
+          "gt_A": 0.5345,
+          "gt_N": 0.1861333333333333
+        }
+      ]
+    }
+  ],
+  "provenance_note": "OCEAN priors for Pearson 12 are a synthesis from Pearson (1986) The Hero Within and the Pearson-Marr Archetype Indicator (PMAI). They are testable hypotheses, not empirically derived from a published OCEAN-archetype study. See aperture_archetype_priors.py for source notes on each taxonomy."
+}

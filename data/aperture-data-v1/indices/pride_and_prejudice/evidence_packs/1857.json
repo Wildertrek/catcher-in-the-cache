@@ -1,0 +1,71 @@
+{
+  "coref_id": "1857",
+  "character_name": "all the young ladies in the neighbourhood",
+  "quote_count": 2,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "450",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Good Heaven ! What is to become of us ? What are we to do ? \u201d",
+      "mention_text": "they",
+      "quote_start": 91601,
+      "quote_end": 91618,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c No ; it would have been strange if they had . But I make no doubt they often talk of it between themselves . Well , if they can be easy with an estate that is not lawfully their own , so much the better . _ I _ should be ashamed of having one that was only entailed on me . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        },
+        {
+          "speaker_coref_id": "1857",
+          "quote_text": "\u201c How can you be smiling so , Lizzy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I am sure , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How can you be smiling so , Lizzy ? \u201d",
+      "mention_text": "they",
+      "quote_start": 91629,
+      "quote_end": 91639,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c When Colonel Miller \u2019s regiment went away \u201d"
+        },
+        {
+          "speaker_coref_id": "1857",
+          "quote_text": "\u201c Good Heaven ! What is to become of us ? What are we to do ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I cried for two days together when Colonel Miller \u2019s regiment went away . I thought I should have broke my heart . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "coref_id": "429",
+  "character_name": "me",
+  "quote_count": 16,
+  "mention_count": 6,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      2
+    ],
+    [
+      "130",
+      1
+    ],
+    [
+      "149",
+      1
+    ],
+    [
+      "3105",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Such very superior dancing is not often seen \u201d",
+      "mention_text": "she",
+      "quote_start": 5631,
+      "quote_end": 5640,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The officers of the ----shire \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Delighted to see their dear friend again \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c To assure you in the most animated language \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c They entered the breakfast - room \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c To assure you in the most animated language \u201d",
+      "mention_text": "she",
+      "quote_start": 5642,
+      "quote_end": 5651,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Delighted to see their dear friend again \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Such very superior dancing is not often seen \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c They entered the breakfast - room \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Walked back with them \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c They entered the breakfast - room \u201d",
+      "mention_text": "she",
+      "quote_start": 5659,
+      "quote_end": 5666,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Such very superior dancing is not often seen \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c To assure you in the most animated language \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Walked back with them \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c So much love and eloquence \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Walked back with them \u201d",
+      "mention_text": "she",
+      "quote_start": 5674,
+      "quote_end": 5679,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c To assure you in the most animated language \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c They entered the breakfast - room \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c So much love and eloquence \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Protested he must be entirely mistaken \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c So much love and eloquence \u201d",
+      "mention_text": "she",
+      "quote_start": 5687,
+      "quote_end": 5693,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c They entered the breakfast - room \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Walked back with them \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Protested he must be entirely mistaken \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Whenever she spoke in a low voice \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Protested he must be entirely mistaken \u201d",
+      "mention_text": "she",
+      "quote_start": 5695,
+      "quote_end": 5702,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Walked back with them \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c So much love and eloquence \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Whenever she spoke in a low voice \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Offended two or three young ladies \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Whenever she spoke in a low voice \u201d",
+      "mention_text": "she",
+      "quote_start": 5704,
+      "quote_end": 5712,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c So much love and eloquence \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Protested he must be entirely mistaken \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Offended two or three young ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Will you come and see me ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Offended two or three young ladies \u201d",
+      "mention_text": "she",
+      "quote_start": 5726,
+      "quote_end": 5733,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Protested he must be entirely mistaken \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Whenever she spoke in a low voice \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Will you come and see me ? \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c On the stairs \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Will you come and see me ? \u201d",
+      "mention_text": "she",
+      "quote_start": 5735,
+      "quote_end": 5743,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Whenever she spoke in a low voice \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Offended two or three young ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c On the stairs \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c At the door \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c On the stairs \u201d",
+      "mention_text": "she",
+      "quote_start": 5745,
+      "quote_end": 5749,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Offended two or three young ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Will you come and see me ? \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c At the door \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c In conversation with the ladies \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c At the door \u201d",
+      "mention_text": "she",
+      "quote_start": 5751,
+      "quote_end": 5755,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Will you come and see me ? \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c On the stairs \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c In conversation with the ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Lady Catherine , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c In conversation with the ladies \u201d",
+      "mention_text": "she",
+      "quote_start": 5757,
+      "quote_end": 5763,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c On the stairs \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c At the door \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Lady Catherine , \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c you have given me a treasure \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Lady Catherine , \u201d",
+      "mention_text": "she",
+      "quote_start": 5765,
+      "quote_end": 5769,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c At the door \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c In conversation with the ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c you have given me a treasure \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c He never failed to inform them \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c you have given me a treasure \u201d",
+      "mention_text": "she",
+      "quote_start": 5773,
+      "quote_end": 5780,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c In conversation with the ladies \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Lady Catherine , \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c He never failed to inform them \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c The gentlemen accompanied him \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He never failed to inform them \u201d",
+      "mention_text": "she",
+      "quote_start": 5788,
+      "quote_end": 5795,
+      "addressee_coref_id": "149",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Lady Catherine , \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c you have given me a treasure \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c The gentlemen accompanied him \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Accompanied by their aunt \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The gentlemen accompanied him \u201d",
+      "mention_text": "she",
+      "quote_start": 5797,
+      "quote_end": 5802,
+      "addressee_coref_id": "3105",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c you have given me a treasure \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c He never failed to inform them \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c Accompanied by their aunt \u201d"
+        },
+        {
+          "speaker_coref_id": "149",
+          "quote_text": "\u201c On looking up \u201d"
+        }
+      ]
+    }
+  ]
+}

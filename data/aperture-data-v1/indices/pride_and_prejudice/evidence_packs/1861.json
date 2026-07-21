@@ -1,0 +1,127 @@
+{
+  "coref_id": "1861",
+  "character_name": "Their affectionate mother",
+  "quote_count": 4,
+  "mention_count": 11,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "1857",
+      2
+    ],
+    [
+      "126",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I am sure , \u201d",
+      "mention_text": "she",
+      "quote_start": 91667,
+      "quote_end": 91672,
+      "addressee_coref_id": "1857",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1857",
+          "quote_text": "\u201c Good Heaven ! What is to become of us ? What are we to do ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1857",
+          "quote_text": "\u201c How can you be smiling so , Lizzy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I cried for two days together when Colonel Miller \u2019s regiment went away . I thought I should have broke my heart . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am sure I shall break _ mine _ , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I cried for two days together when Colonel Miller \u2019s regiment went away . I thought I should have broke my heart . \u201d",
+      "mention_text": "she",
+      "quote_start": 91676,
+      "quote_end": 91700,
+      "addressee_coref_id": "1857",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1857",
+          "quote_text": "\u201c How can you be smiling so , Lizzy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am sure I shall break _ mine _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If one could but go to Brighton ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh yes!--if one could but go to Brighton ! But papa is so disagreeable . \u201d",
+      "mention_text": "she",
+      "quote_start": 91730,
+      "quote_end": 91746,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am sure I shall break _ mine _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If one could but go to Brighton ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c A little sea - bathing would set me up for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c And my aunt Philips is sure it would do _ me _ a great deal of good , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c A little sea - bathing would set me up for ever . \u201d",
+      "mention_text": "she",
+      "quote_start": 91747,
+      "quote_end": 91760,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If one could but go to Brighton ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c Oh yes!--if one could but go to Brighton ! But papa is so disagreeable . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c And my aunt Philips is sure it would do _ me _ a great deal of good , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I can not see why Mrs. Forster should not ask _ me _ as well as Lydia , \u201d"
+        }
+      ]
+    }
+  ]
+}

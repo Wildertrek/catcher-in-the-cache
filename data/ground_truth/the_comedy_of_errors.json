@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Comedy of Errors",
+    "author": "William Shakespeare",
+    "year": "c. 1594"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_antipholus_of_syracuse",
+      "character_name": "Antipholus Of Syracuse",
+      "quote_count": 103,
+      "consensus_ocean": {
+        "O": 0.5669519999999999,
+        "C": -0.07228799999999999,
+        "E": 0.23034799999999994,
+        "A": -0.17420799999999997,
+        "N": 0.4836639999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.2,
+            "E": 0.5,
+            "A": 0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.7, \"C\": 0.2, \"E\": 0.5, \"A\": 0.3, \"N\": 0.6, \"confidence\": \"medium\", \"rationale\": \"Antipholus of Syracuse is often viewed as curious and imaginative, yet his experiences lead to significant anxiety and confusion, as noted in various analyses of the play's themes of identity and mistaken perceptions.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.6,
+            "A": -0.3,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.4,\n  \"E\": 0.6,\n  \"A\": -0.3,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Frye, Bloom, modern comedic analysis) identifies Antipholus of Syracuse as emotionally volatile and prone to suspicion/anger when confused by mistaken identity, socially engaged but quick to quarrel, with limited conscientiousness as he abandons rational planning when disoriented, though scholars note the character's limited psychological depth reflects the play's"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.3,
+            "E": -0.6,
+            "A": -0.5,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": -0.3,\n  \"E\": -0.6,\n  \"A\": -0.5,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Literary criticism frequently highlights Antipholus of Syracuse's melancholic disposition, his imaginative interpretation of events as supernatural, and his escalating anxiety and frustration due to the pervasive mistaken identities.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6534,
+            "C": 0.1704,
+            "E": 0.3941,
+            "A": -0.1936,
+            "N": 0.0988
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:06:58.358480+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001824
+        }
+      ]
+    },
+    {
+      "coref_id": "char_dromio_of_syracuse",
+      "character_name": "Dromio Of Syracuse",
+      "quote_count": 99,
+      "consensus_ocean": {
+        "O": 0.35238800000000003,
+        "C": 0.038131999999999985,
+        "E": 0.457484,
+        "A": 0.1313,
+        "N": 0.300484
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Dromio of Syracuse is often viewed as a witty and humorous character, showcasing a blend of social energy and agreeableness, while his lack of conscientiousness is evident in his impulsive nature, as noted in various analyses of Shakespeare's comedic characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.6,
+            "A": -0.2,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.4,\n  \"E\": 0.6,\n  \"A\": -0.2,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Dromio of Syracuse is characterized in critical tradition as a witty, verbally inventive servant whose wordplay and comic improvisation demonstrate moderate openness, but his role as a dependent, often confused character subject to beatings shows low conscientiousness and agreeableness, with reactive emotional volatility typical of the play's farcical servants as discussed in perform"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": -0.1,
+            "A": -0.2,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": -0.1,\n  \"A\": -0.2,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism often highlights Dromio of Syracuse's role as a bewildered, suffering, yet verbally witty servant, emphasizing his anxiety and loyalty amidst the play's farcical confusion rather than deep psychological complexity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4871,
+            "C": 0.2219,
+            "E": 0.6053,
+            "A": 0.2975,
+            "N": 0.1303
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:07:29.618113+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002213
+        }
+      ]
+    },
+    {
+      "coref_id": "char_adriana",
+      "character_name": "Adriana",
+      "quote_count": 79,
+      "consensus_ocean": {
+        "O": -0.05009600000000001,
+        "C": 0.12602799999999997,
+        "E": 0.5102399999999999,
+        "A": -0.23711600000000002,
+        "N": 0.67128
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.6,
+            "A": 0.3,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.6, \"A\": 0.3, \"N\": 0.7, \"confidence\": \"medium\", \"rationale\": \"Adriana is often interpreted as passionate and assertive, reflecting a blend of emotional depth and social engagement, though her neurotic tendencies and conflicts with her husband suggest a struggle with anxiety and moodiness.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.6,
+            "A": -0.4,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.6,\n  \"A\": -0.4,\n  \"N\": 0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Frye, and modern Errors scholarship) portrays Adriana as emotionally volatile and jealous, socially assertive but suspicious, with limited imaginative range\u2014a woman trapped by circumstance whose shrewish outbursts and lack of trust dominate her characterization.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.3,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.3,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus consistently highlights Adriana's intense jealousy, emotional volatility, and assertive, often confrontational, nature, driven by her perceived marital grievances and conventional expectations of marital fidelity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0932,
+            "C": 0.4501,
+            "E": 0.108,
+            "A": 0.0103,
+            "N": 0.426
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:07:58.067936+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002246
+        }
+      ]
+    },
+    {
+      "coref_id": "char_antipholus_of_ephesus",
+      "character_name": "Antipholus Of Ephesus",
+      "quote_count": 76,
+      "consensus_ocean": {
+        "O": -0.28638,
+        "C": 0.134784,
+        "E": 0.48061600000000004,
+        "A": -0.612852,
+        "N": 0.672164
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7978,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critical analyses often depict Antipholus of Ephesus as a character caught in confusion and frustration, reflecting moderate traits of extraversion and neuroticism, while his agreeableness is challenged by his aggressive responses to perceived betrayals.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.3,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.3,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Frye, Bloom, modern Shakespearean studies) identifies Antipholus of Ephesus as conventionally mercantile, socially assertive but prone to jealous rage and suspicion, with limited imaginative depth\u2014a stock comic type whose personality is largely reactive to the play's farcical confusions rather than psychologically complex.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.2,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.2,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus often portrays Antipholus of Ephesus as a conventional, established citizen driven to extreme frustration and anger by the inexplicable events, exhibiting low agreeableness and high neuroticism as his world unravels.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0915,
+            "C": 0.0528,
+            "E": 0.0022,
+            "A": -0.6459,
+            "N": 0.6863
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:08:35.231486+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002042
+        }
+      ]
+    },
+    {
+      "coref_id": "char_dromio_of_ephesus",
+      "character_name": "Dromio Of Ephesus",
+      "quote_count": 63,
+      "consensus_ocean": {
+        "O": 0.102936,
+        "C": -0.0474,
+        "E": 0.324556,
+        "A": 0.035564,
+        "N": 0.453592
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Dromio of Ephesus is often viewed as a witty and humorous character, showcasing a blend of social energy and agreeableness, while his low conscientiousness and neuroticism reflect his role as a comic servant in Shakespeare's farcical narrative.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.6,
+            "A": -0.2,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.4,\n  \"E\": 0.6,\n  \"A\": -0.2,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Dromio of Ephesus is characterized in critical tradition as a witty, verbally inventive servant (high E, moderate O) prone to physical comedy and complaint, with low conscientiousness and moderate emotional reactivity, though scholarly consensus on this minor character remains limited compared to major Shakespearean figures.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.5,
+            "E": -0.4,
+            "A": -0.3,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.5,\n  \"E\": -0.4,\n  \"A\": -0.3,\n  \"N\": 0.9,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Dromio of Ephesus as a long-suffering, anxious, and dutiful servant whose reactive wit and physical endurance are central to the play's farcical elements and exploration of mistaken identity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1962,
+            "C": -0.255,
+            "E": 0.3877,
+            "A": 0.0413,
+            "N": 0.5914
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:09:13.462086+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001732
+        }
+      ]
+    },
+    {
+      "coref_id": "char_luciana",
+      "character_name": "Luciana",
+      "quote_count": 43,
+      "consensus_ocean": {
+        "O": -0.13020400000000001,
+        "C": 0.35443199999999997,
+        "E": 0.19828800000000002,
+        "A": 0.42026399999999997,
+        "N": -0.011319999999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.5, \"A\": 0.7, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Luciana is often interpreted as a character who embodies a blend of curiosity and warmth, reflecting her desire for understanding and connection, though her role is less emphasized in critical analyses compared to other characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.4,
+            "A": -0.2,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.4,\n  \"A\": -0.2,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Luciana is a minor character whose personality receives limited sustained critical attention; scholars typically focus on the twin Antipholuses and Dromios, treating her primarily as a conventional romantic interest and moral voice rather than a psychologically complex subject.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": -0.4,
+            "A": 0.5,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": -0.4,\n  \"A\": 0.5,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Luciana as a figure of conventional virtue and propriety, contrasting with her sister Adriana's more passionate nature, demonstrating adherence to societal norms and a reserved demeanor.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3793,
+            "C": 0.4944,
+            "E": 0.2796,
+            "A": 0.6438,
+            "N": -0.469
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:09:51.103571+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00125
+        }
+      ]
+    },
+    {
+      "coref_id": "char_angelo",
+      "character_name": "Angelo",
+      "quote_count": 31,
+      "consensus_ocean": {
+        "O": -0.074084,
+        "C": 0.32734399999999997,
+        "E": 0.12265999999999999,
+        "A": -0.202272,
+        "N": 0.11072800000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Angelo is a minor character in 'The Comedy of Errors' and does not receive significant attention in major critical analyses, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.5,
+            "A": -0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": -0.7,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Angelo is a minor merchant character in a farce-driven plot; published criticism treats him as a functional dramatic device rather than a psychologically complex figure warranting sustained personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism, including major works by Bradley, Bloom, and Frye, and modern journal analyses, does not typically offer meaningful psychological assessments or consensus on the personality traits of minor, functional characters like Angelo the goldsmith from 'The Comedy of Errors', whose role primarily serves the plot's mistaken identity mechanics.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3503,
+            "C": 0.6548,
+            "E": 0.0095,
+            "A": -0.1224,
+            "N": 0.0526
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:10:30.226088+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001214
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duke",
+      "character_name": "Duke",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": -0.07553999999999998,
+        "C": 0.35013999999999995,
+        "E": 0.175076,
+        "A": 0.253252,
+        "N": -0.10261200000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8379,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Duke is a minor character in 'The Comedy of Errors' and does not receive significant attention in published critical analyses, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": 0.4,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Duke of Ephesus is a minor functional character whose personality receives minimal treatment in major critical works; he serves primarily as a legal authority figure and plot device rather than a subject of sustained psychological analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.1,
+            "E": 0.0,
+            "A": 0.1,
+            "N": -0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.1,\n  \"E\": 0.0,\n  \"A\": 0.1,\n  \"N\": -0.1,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of 'The Comedy of Errors' primarily focuses on the play's structure, themes of identity, and comedic devices, with Duke Solinus serving as a functional character representing authority and mercy rather than a subject of deep psychological personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3555,
+            "C": 0.6505,
+            "E": 0.1967,
+            "A": 0.4759,
+            "N": -0.5379
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:11:17.127638+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001118
+        }
+      ]
+    },
+    {
+      "coref_id": "char_egeon",
+      "character_name": "Egeon",
+      "quote_count": 17,
+      "consensus_ocean": {
+        "O": -0.171604,
+        "C": 0.5964799999999999,
+        "E": -0.31528,
+        "A": 0.302568,
+        "N": 0.47744400000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.7,
+            "E": 0.3,
+            "A": 0.6,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.7, \"E\": 0.3, \"A\": 0.6, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Egeon is portrayed as a determined and somewhat tragic figure, exhibiting a blend of conscientiousness and agreeableness, while his emotional state reflects a moderate level of neuroticism, as noted in various analyses of the play's themes of separation and identity.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": -0.2,
+            "A": -0.5,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": -0.2,\n  \"A\": -0.5,\n  \"N\": 0.6,\n  \"confidence\": \"low\",\n  \"rationale\": \"Egeon is a minor character whose personality receives limited sustained critical attention; scholars focus primarily on his functional role as the framing device establishing the separated-twins premise rather than psychological depth, making confident trait assessment difficult.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.9,
+            "E": -0.8,
+            "A": 0.6,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.9,\n  \"E\": -0.8,\n  \"A\": 0.6,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus emphasizes Egeon's profound sorrow and resignation (high Neuroticism), his unwavering dedication to his family (high Conscientiousness), and his withdrawn demeanor (low Extraversion), with little focus on imaginative or social engagement.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1843,
+            "C": 0.416,
+            "E": -0.526,
+            "A": 0.4806,
+            "N": 0.1623
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:11:49.591970+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001503
+        }
+      ]
+    },
+    {
+      "coref_id": "char_merchant",
+      "character_name": "Merchant",
+      "quote_count": 16,
+      "consensus_ocean": {
+        "O": -0.11247599999999999,
+        "C": 0.186256,
+        "E": -0.007503999999999999,
+        "A": -0.13985999999999998,
+        "N": -0.018283999999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6652,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The Merchant in 'The Comedy of Errors' is a minor character with limited analysis in published criticism, resulting in a lack of definitive traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Merchant in 'The Comedy of Errors' is an extremely minor character (appears briefly in Act 3) with no developed personality or psychological depth, and published criticism does not meaningfully analyze this figure as a distinct character.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of 'The Comedy of Errors' generally treats the Merchant as a functional plot device representing commerce and debt, rather than a developed character with a discernible personality, thus precluding a meaningful Big Five assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4017,
+            "C": 0.6652,
+            "E": -0.0268,
+            "A": -0.4995,
+            "N": -0.0653
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:12:34.902113+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000941
+        }
+      ]
+    }
+  ]
+}

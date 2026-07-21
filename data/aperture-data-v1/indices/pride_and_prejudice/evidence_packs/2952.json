@@ -1,0 +1,101 @@
+{
+  "coref_id": "2952",
+  "character_name": "her",
+  "quote_count": 3,
+  "mention_count": 24,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "127",
+      2
+    ],
+    [
+      "99",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Good gracious ! Lord bless me ! only think ! dear me ! Mr. Darcy ! Who would have thought it ? And is it really true ? Oh , my sweetest Lizzy ! how rich and how great you will be ! What pin - money , what jewels , what carriages you will have ! Jane \u2019s is nothing to it -- nothing at all . I am so pleased -- so happy . Such a charming man ! so handsome ! so tall ! Oh , my dear Lizzy ! pray apologize for my having disliked him so much before . I hope he will overlook it . Dear , dear Lizzy . A house in town ! Everything that is charming ! Three daughters married ! Ten thousand a year ! Oh , Lord ! what will become of me ? I shall go distracted . \u201d",
+      "mention_text": "her",
+      "quote_start": 148885,
+      "quote_end": 149036,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c This is an evening of wonders , indeed ! And so , Darcy did everything ; made up the match , gave the money , paid the fellow \u2019s debts , and got him his commission ! So much the better . It will save me a world of trouble and economy . Had it been your uncle \u2019s doing , I must and _ would _ have paid him ; but these violent young lovers carry everything their own way . I shall offer to pay him to - morrow , he will rant and storm about his love for you , and there will be an end of the matter . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c If any young men come for Mary or Kitty , send them in , for I am quite at leisure . \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c My dearest child , \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c I can think of nothing else . Ten thousand a year , and very likely more ! \u2019 Tis as good as a lord ! And a special licence -- you must and shall be married by a special licence . But , my dearest love , tell me what dish Mr. Darcy is particularly fond of , that I may have it to - morrow . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dearest child , \u201d",
+      "mention_text": "she",
+      "quote_start": 149085,
+      "quote_end": 149090,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c If any young men come for Mary or Kitty , send them in , for I am quite at leisure . \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c Good gracious ! Lord bless me ! only think ! dear me ! Mr. Darcy ! Who would have thought it ? And is it really true ? Oh , my sweetest Lizzy ! how rich and how great you will be ! What pin - money , what jewels , what carriages you will have ! Jane \u2019s is nothing to it -- nothing at all . I am so pleased -- so happy . Such a charming man ! so handsome ! so tall ! Oh , my dear Lizzy ! pray apologize for my having disliked him so much before . I hope he will overlook it . Dear , dear Lizzy . A house in town ! Everything that is charming ! Three daughters married ! Ten thousand a year ! Oh , Lord ! what will become of me ? I shall go distracted . \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c I can think of nothing else . Ten thousand a year , and very likely more ! \u2019 Tis as good as a lord ! And a special licence -- you must and shall be married by a special licence . But , my dearest love , tell me what dish Mr. Darcy is particularly fond of , that I may have it to - morrow . \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c I admire all my three sons - in - law highly , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can think of nothing else . Ten thousand a year , and very likely more ! \u2019 Tis as good as a lord ! And a special licence -- you must and shall be married by a special licence . But , my dearest love , tell me what dish Mr. Darcy is particularly fond of , that I may have it to - morrow . \u201d",
+      "mention_text": "she",
+      "quote_start": 149094,
+      "quote_end": 149162,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c Good gracious ! Lord bless me ! only think ! dear me ! Mr. Darcy ! Who would have thought it ? And is it really true ? Oh , my sweetest Lizzy ! how rich and how great you will be ! What pin - money , what jewels , what carriages you will have ! Jane \u2019s is nothing to it -- nothing at all . I am so pleased -- so happy . Such a charming man ! so handsome ! so tall ! Oh , my dear Lizzy ! pray apologize for my having disliked him so much before . I hope he will overlook it . Dear , dear Lizzy . A house in town ! Everything that is charming ! Three daughters married ! Ten thousand a year ! Oh , Lord ! what will become of me ? I shall go distracted . \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c My dearest child , \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c I admire all my three sons - in - law highly , \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c Wickham , perhaps , is my favourite ; but I think I shall like _ your _ husband quite as well as Jane \u2019s . \u201d"
+        }
+      ]
+    }
+  ]
+}

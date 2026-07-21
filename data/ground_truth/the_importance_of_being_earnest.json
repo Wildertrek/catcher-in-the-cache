@@ -1,0 +1,828 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Importance of Being Earnest",
+    "author": "Oscar Wilde",
+    "year": "1895"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_jack",
+      "character_name": "Jack",
+      "quote_count": 216,
+      "consensus_ocean": {
+        "O": 0.6286080000000001,
+        "C": -0.30741999999999997,
+        "E": 0.6662319999999999,
+        "A": -0.022796,
+        "N": -0.111276
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.8,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.8, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"high\", \"rationale\": \"Jack is portrayed as a character who balances societal expectations with personal desires, exhibiting a blend of social charm and underlying anxiety, as noted in various critical analyses of Wilde's exploration of identity and social norms.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": -0.55,
+            "E": 0.7,
+            "A": -0.4,
+            "N": 0.35
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": -0.55,\n  \"E\": 0.70,\n  \"A\": -0.40,\n  \"N\": 0.35,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Raby, Ellmann, Nassaar) identifies Jack as fundamentally duplicitous and imaginative in his deception, socially engaging yet morally unreliable, with calculated dishonesty masking emotional instability beneath a veneer of respectability.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.7,
+            "E": 0.6,
+            "A": -0.3,
+            "N": -0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": -0.7,\n  \"E\": 0.6,\n  \"A\": -0.3,\n  \"N\": -0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus emphasizes Jack's imaginative deception and lack of genuine 'earnestness' as central to Wilde's satire on Victorian hypocrisy, while also noting his social assertiveness and emotional composure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5736,
+            "C": -0.0265,
+            "E": 0.5794,
+            "A": 0.0043,
+            "N": -0.0117
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T05:15:49.523110+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002272
+        }
+      ]
+    },
+    {
+      "coref_id": "char_algernon_moncrieff",
+      "character_name": "Algernon Moncrieff",
+      "quote_count": 194,
+      "consensus_ocean": {
+        "O": 0.7663719999999999,
+        "C": -0.655176,
+        "E": 0.8299239999999999,
+        "A": -0.25901599999999997,
+        "N": -0.308168
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": 0.9,
+            "A": 0.2,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.5, \"E\": 0.9, \"A\": 0.2, \"N\": -0.2, \"confidence\": \"high\", \"rationale\": \"Algernon Moncrieff is often analyzed as a witty and hedonistic character, embodying high openness and extraversion, while his lack of conscientiousness and lower agreeableness reflect his self-indulgent nature, as noted in various critical interpretations of Wilde's work.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.8,
+            "E": 0.85,
+            "A": -0.6,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.8,\n  \"E\": 0.85,\n  \"A\": -0.6,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (e.g., Wilde scholarship by Ellmann, Raby, and Gagnier) identifies Algernon as witty and imaginative but fundamentally irresponsible, self-centered, and socially manipulative\u2014a character whose charm masks shallow amorality and deliberate avoidance of duty.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.9,
+            "E": 0.8,
+            "A": -0.7,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.9,\n  \"E\": 0.8,\n  \"A\": -0.7,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Algernon as the quintessential Wildean dandy, characterized by his imaginative wit, unconventional aestheticism, and deliberate rejection of Victorian earnestness and responsibility, maintaining a detached emotional composure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6799,
+            "C": -0.4542,
+            "E": 0.7783,
+            "A": 0.0178,
+            "N": -0.5006
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:26:23.185986+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001874
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cecily_cardew",
+      "character_name": "Cecily Cardew",
+      "quote_count": 145,
+      "consensus_ocean": {
+        "O": 0.742756,
+        "C": -0.320776,
+        "E": 0.700488,
+        "A": 0.307208,
+        "N": -0.27892799999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": 0.9,
+            "A": 0.7,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": 0.9, \"A\": 0.7, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Cecily Cardew is often interpreted as imaginative and playful, embodying a youthful curiosity and social warmth, though her lack of discipline and occasional naivety suggest a more complex personality.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.75,
+            "C": -0.65,
+            "E": 0.8,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.75,\n  \"C\": -0.65,\n  \"E\": 0.8,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Raby, Gagnier, Nassaar) identifies Cecily as imaginative and unconventional in her invented romance with Earnest, socially vivacious yet manipulative, undisciplined in her studies, and emotionally volatile\u2014embodying Wilde's critique of Victorian femininity through her performative self-creation and strategic deceptions.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.8,
+            "E": 0.7,
+            "A": 0.3,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.8,\n  \"E\": 0.7,\n  \"A\": 0.3,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Cecily's highly imaginative and unconventional nature, her lack of academic discipline, and her charming yet self-serving assertiveness, all while maintaining emotional composure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5527,
+            "C": -0.0742,
+            "E": 0.4446,
+            "A": 0.6686,
+            "N": -0.5676
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:27:08.351813+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001732
+        }
+      ]
+    },
+    {
+      "coref_id": "char_gwendolen",
+      "character_name": "Gwendolen",
+      "quote_count": 101,
+      "consensus_ocean": {
+        "O": 0.4405631578947369,
+        "C": 0.35847368421052633,
+        "E": 0.6987578947368421,
+        "A": -0.057042105263157894,
+        "N": 0.2753263157894737
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.8,
+            "A": 0.2,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.8, \"A\": 0.2, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Gwendolen is often interpreted as a character who embodies a blend of social ambition and superficiality, reflecting Wilde's critique of Victorian society, as noted in various critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.4,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Raby, Gagnier, Arata) identifies Gwendolen as socially commanding and conventional, with rigid adherence to propriety and social form, yet emotionally volatile when her desires are thwarted, and notably lacking in empathy toward Cecilia despite superficial politeness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5101,
+            "C": 0.373,
+            "E": 0.5252,
+            "A": 0.0166,
+            "N": 0.0616
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:27:58.469035+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002297
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lady_bracknell",
+      "character_name": "Lady Bracknell",
+      "quote_count": 76,
+      "consensus_ocean": {
+        "O": -0.780104,
+        "C": 0.92638,
+        "E": 0.59476,
+        "A": -0.7855359999999999,
+        "N": -0.20589999999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.25,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 1.0,
+            "E": 0.8,
+            "A": -0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 1.0, \"E\": 0.8, \"A\": -0.7, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Critics widely recognize Lady Bracknell as a symbol of Victorian propriety and social order, characterized by her strict adherence to societal norms (C), assertiveness in social situations (E), and a lack of empathy (A), while her conventionality suggests low Openness.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.85,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.75,
+            "N": 0.45
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.85,\n  \"C\": 0.90,\n  \"E\": 0.80,\n  \"A\": -0.75,\n  \"N\": 0.45,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (e.g., Wilde scholarship and analyses of Victorian comedy) identifies Lady Bracknell as rigidly conventional, obsessively rule-bound regarding social hierarchy, socially dominant and commanding, fundamentally lacking in empathy toward those beneath her station, and prone to indignation when her authority is questioned.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -1.0,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.9,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -1.0,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently identifies Lady Bracknell as the embodiment of rigid Victorian social convention, exhibiting formidable assertiveness, meticulous planfulness, and a complete lack of empathy, all while maintaining an unshakeable emotional composure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.7718,
+            "C": 0.9085,
+            "E": 0.067,
+            "A": -0.7912,
+            "N": -0.6925
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:28:31.543381+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002801
+        }
+      ]
+    },
+    {
+      "coref_id": "char_rev_canon_chasuble",
+      "character_name": "Rev. Canon Chasuble",
+      "quote_count": 44,
+      "consensus_ocean": {
+        "O": -0.23376800000000003,
+        "C": 0.46465199999999995,
+        "E": 0.346916,
+        "A": 0.562136,
+        "N": -0.46432399999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9794,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Rev. Canon Chasuble is often viewed as a somewhat conventional character, embodying a mix of social engagement and mild eccentricity, but lacks the depth and complexity found in more central figures, leading to moderate assessments of his traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.4,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": 0.4,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Chasuble is a minor character whose conventional ecclesiastical rigidity and formulaic speech patterns are noted in critical analyses as emblematic of Wilde's satire on institutional religion, though sustained personality analysis across major scholarly works is limited.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.1,
+            "E": 0.3,
+            "A": 0.7,
+            "N": -0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.1,\n  \"E\": 0.3,\n  \"A\": 0.7,\n  \"N\": -0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published critical analyses consistently characterize Chasuble as a conventionally pedantic and emotionally repressed clergyman, moderately agreeable and somewhat extraverted in his formal interactions, but lacking in genuine openness or rigorous conscientiousness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2794,
+            "C": 0.6309,
+            "E": 0.1247,
+            "A": 0.6362,
+            "N": -0.4583
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:29:08.748186+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00148
+        }
+      ]
+    },
+    {
+      "coref_id": "char_miss_prism",
+      "character_name": "Miss Prism",
+      "quote_count": 42,
+      "consensus_ocean": {
+        "O": -0.12383999999999999,
+        "C": 0.79764,
+        "E": 0.139712,
+        "A": -0.008632000000000018,
+        "N": 0.00724800000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.25,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.8,
+            "E": 0.4,
+            "A": 0.3,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.8, \"E\": 0.4, \"A\": 0.3, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Miss Prism is often analyzed as a character embodying a mix of conventionality and a suppressed imaginative side, reflecting Wilde's critique of Victorian morality and the complexities of her role as a governess.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.75,
+            "C": 0.85,
+            "E": 0.6,
+            "A": -0.55,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.75,\n  \"C\": 0.85,\n  \"E\": 0.60,\n  \"A\": -0.55,\n  \"N\": 0.40,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Raby, Ellmann) identifies Miss Prism as a pedantic, rule-bound governess whose rigid moralism, obsessive manuscript-writing, and conventional propriety mask emotional repression and latent hypocrisy, making her simultaneously conscientious yet judgmental and emotionally guarded.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.9,
+            "E": -0.5,
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.9,\n  \"E\": -0.5,\n  \"A\": -0.3,\n  \"N\": 0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently identifies Miss Prism as embodying Victorian didacticism and repressed morality, characterized by extreme conscientiousness, conventionality, and underlying anxiety related to her past transgression.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.372,
+            "C": 0.663,
+            "E": 0.0704,
+            "A": 0.4406,
+            "N": -0.4884
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:29:45.176425+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001556
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lane",
+      "character_name": "Lane",
+      "quote_count": 21,
+      "consensus_ocean": {
+        "O": -0.156056,
+        "C": 0.5430919999999999,
+        "E": -0.46810399999999996,
+        "A": 0.39238,
+        "N": -0.44287200000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Lane is a minor character in 'The Importance of Being Earnest' and does not receive significant attention in published literary criticism, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.6,
+            "A": 0.5,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.6,\n  \"A\": 0.5,\n  \"N\": -0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lane is a minor servant character with limited stage presence; published criticism treats him primarily as a functional dramatic device rather than a subject of personality analysis, making trait assessment speculative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.7,
+            "E": -0.8,
+            "A": 0.6,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.4,\n  \"C\": 0.7,\n  \"E\": -0.8,\n  \"A\": 0.6,\n  \"N\": -0.9,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently notes Lane's deadpan wit, professional composure, and subtle ironic observations, which exemplify Wilde's inversion of social hierarchy and the play's comedic style.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3002,
+            "C": 0.6539,
+            "E": -0.4718,
+            "A": 0.4585,
+            "N": -0.4674
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:30:28.605751+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000834
+        }
+      ]
+    },
+    {
+      "coref_id": "char_merriman",
+      "character_name": "Merriman",
+      "quote_count": 17,
+      "consensus_ocean": {
+        "O": -0.13999999999999999,
+        "C": 0.427064,
+        "E": -0.05193199999999999,
+        "A": 0.267704,
+        "N": -0.184028
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Merriman is a minor character in 'The Importance of Being Earnest' and has not been the focus of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.6,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.8,\n  \"E\": 0.2,\n  \"A\": 0.6,\n  \"N\": -0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Merriman is a minor servant character with minimal dialogue or psychological depth; published criticism treats him as a functional plot device rather than a subject of personality analysis, making trait assessment speculative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.1,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.1,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Merriman is a minor, functional character whose personality is not a subject of meaningful discussion in published literary criticism, which primarily focuses on the main characters and thematic elements of the play.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.7538,
+            "E": -0.3569,
+            "A": 0.4418,
+            "N": -0.4001
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:31:14.480172+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000843
+        }
+      ]
+    },
+    {
+      "coref_id": "char_hon",
+      "character_name": "Hon",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": 0.0,
+        "C": 0.0,
+        "E": 0.0,
+        "A": 0.0,
+        "N": 0.0
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Hon is a minor character in 'The Importance of Being Earnest' and has not been the subject of significant critical analysis, leading to a lack of consensus on personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Hon is not a character in The Importance of Being Earnest; published criticism addresses Algernon, Cecily, Gwendolen, Jack, Lady Bracknell, and others, but no character by this name appears in the play or its scholarly literature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism does not discuss a character named 'Hon' in Oscar Wilde's 'The Importance of Being Earnest,' as no such character appears in the play.\"\n}\n```"
+        }
+      ]
+    }
+  ]
+}

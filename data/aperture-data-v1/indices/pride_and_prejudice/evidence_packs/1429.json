@@ -1,0 +1,75 @@
+{
+  "coref_id": "1429",
+  "character_name": "her niece",
+  "quote_count": 2,
+  "mention_count": 12,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ],
+    [
+      "164",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c But , my dear Elizabeth , \u201d",
+      "mention_text": "she",
+      "quote_start": 63708,
+      "quote_end": 63715,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "on:--\u201cI am now convinced , my dear aunt , that I have never been much in love ; for had I really experienced that pure and elevating passion , I should at present detest his very name , and wish him all manner of evil . But my feelings are not only cordial towards _ him _ , they are even impartial towards Miss King . I can not find out that I hate her at all , or that I am in the least unwilling to think her a very good sort of girl . There can be no love in all this . My watchfulness has been effectual ; and though I should certainly be a more interesting object to all my acquaintance , were I distractedly in love with him , I can not say that I regret my comparative insignificance . Importance may sometimes be purchased too dearly . Kitty and Lydia take his defection much more to heart than I do . They are young in the ways of the world , and not yet open to the mortifying conviction that handsome young men must have something to live on as well as the plain . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c On the Stairs \u201d"
+        },
+        {
+          "speaker_coref_id": "1429",
+          "quote_text": "\u201c what sort of girl is Miss King ? I should be sorry to think our friend mercenary . \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c Pray , my dear aunt , what is the difference in matrimonial affairs , between the mercenary and the prudent motive ? Where does discretion end , and avarice begin ? Last Christmas you were afraid of his marrying me , because it would be imprudent ; and now , because he is trying to get a girl with only ten thousand pounds , you want to find out that he is mercenary . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c what sort of girl is Miss King ? I should be sorry to think our friend mercenary . \u201d",
+      "mention_text": "she",
+      "quote_start": 63719,
+      "quote_end": 63738,
+      "addressee_coref_id": "164",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c On the Stairs \u201d"
+        },
+        {
+          "speaker_coref_id": "1429",
+          "quote_text": "\u201c But , my dear Elizabeth , \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c Pray , my dear aunt , what is the difference in matrimonial affairs , between the mercenary and the prudent motive ? Where does discretion end , and avarice begin ? Last Christmas you were afraid of his marrying me , because it would be imprudent ; and now , because he is trying to get a girl with only ten thousand pounds , you want to find out that he is mercenary . \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c If you will only tell me what sort of girl Miss King is , I shall know what to think . \u201d"
+        }
+      ]
+    }
+  ]
+}

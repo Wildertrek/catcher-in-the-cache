@@ -1,0 +1,45 @@
+{
+  "coref_id": "589",
+  "character_name": "the mother",
+  "quote_count": 1,
+  "mention_count": 17,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "103",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Oh dear ! Yes , certainly . I am sure Lizzy will be very happy -- I am sure she can have no objection . Come , Kitty , I want you upstairs . \u201d",
+      "mention_text": "she",
+      "quote_start": 45573,
+      "quote_end": 45608,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "16",
+          "quote_text": "\u201c to assure you in the most animated language \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c May I hope , madam , for your interest with your fair daughter Elizabeth , when I solicit for the honour of a private audience with her in the course of this morning ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Dear ma\u2019am , do not go . I beg you will not go . Mr. Collins must excuse me . He can have nothing to say to me that anybody need not hear . I am going away myself . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , no , nonsense , Lizzy . I desire you will stay where you are . \u201d"
+        }
+      ]
+    }
+  ]
+}

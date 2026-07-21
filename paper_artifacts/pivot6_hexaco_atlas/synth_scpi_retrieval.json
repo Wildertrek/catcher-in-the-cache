@@ -1,0 +1,715 @@
+{
+ "per_char": [
+  {
+   "name": "Dorrit Klaes",
+   "work": "The Lichfield Dispatches",
+   "target_H": 0.85,
+   "target_A_HEX": -0.7,
+   "scpi_pred_H": 0.234,
+   "scpi_pred_A_HEX": 0.064,
+   "nearest_canonical": [
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.412
+    },
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.411
+    },
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.406
+    },
+    {
+     "name": "Edward",
+     "book": "sense_and_sensibility",
+     "sim": 0.399
+    },
+    {
+     "name": "Nils Krogstad",
+     "book": "a_dolls_house",
+     "sim": 0.392
+    }
+   ]
+  },
+  {
+   "name": "Tessaro Vinn",
+   "work": "A Gilded Residue",
+   "target_H": -0.8,
+   "target_A_HEX": 0.8,
+   "scpi_pred_H": 0.137,
+   "scpi_pred_A_HEX": -0.023,
+   "nearest_canonical": [
+    {
+     "name": "the host",
+     "book": "the_count_of_monte_cristo",
+     "sim": 0.472
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.44
+    },
+    {
+     "name": "Fetyukovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.435
+    },
+    {
+     "name": "Bertuccio",
+     "book": "the_count_of_monte_cristo",
+     "sim": 0.431
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.428
+    }
+   ]
+  },
+  {
+   "name": "Pella Sond",
+   "work": "Undertow Season",
+   "target_H": 0.5,
+   "target_A_HEX": 0.7,
+   "scpi_pred_H": 0.382,
+   "scpi_pred_A_HEX": 0.303,
+   "nearest_canonical": [
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.393
+    },
+    {
+     "name": "O",
+     "book": "the_scarlet_letter",
+     "sim": 0.365
+    },
+    {
+     "name": "Torvald Helmer",
+     "book": "a_dolls_house",
+     "sim": 0.362
+    },
+    {
+     "name": "Silvius",
+     "book": "as_you_like_it",
+     "sim": 0.357
+    },
+    {
+     "name": "Mrs. Elvsted",
+     "book": "hedda_gabler",
+     "sim": 0.355
+    }
+   ]
+  },
+  {
+   "name": "Gren Talvic",
+   "work": "Iron and Almanac",
+   "target_H": 0.6,
+   "target_A_HEX": -0.5,
+   "scpi_pred_H": 0.212,
+   "scpi_pred_A_HEX": 0.039,
+   "nearest_canonical": [
+    {
+     "name": "Ippolit Kirillovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.385
+    },
+    {
+     "name": "VII",
+     "book": "the_idiot",
+     "sim": 0.365
+    },
+    {
+     "name": "Lima",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.352
+    },
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.347
+    },
+    {
+     "name": "the landowner",
+     "book": "anna_karenina",
+     "sim": 0.345
+    }
+   ]
+  },
+  {
+   "name": "Ysm\u00e9 Charoud",
+   "work": "The Perfumer's Balcony",
+   "target_H": 0.4,
+   "target_A_HEX": 0.5,
+   "scpi_pred_H": 0.202,
+   "scpi_pred_A_HEX": 0.057,
+   "nearest_canonical": [
+    {
+     "name": "his companion",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.431
+    },
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.414
+    },
+    {
+     "name": "Lady Markby",
+     "book": "an_ideal_husband",
+     "sim": 0.41
+    },
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.407
+    },
+    {
+     "name": "Dorian",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.404
+    }
+   ]
+  },
+  {
+   "name": "Dorrit Vashem",
+   "work": "The Glassblower's Accord",
+   "target_H": 0.8,
+   "target_A_HEX": -0.7,
+   "scpi_pred_H": 0.095,
+   "scpi_pred_A_HEX": -0.1,
+   "nearest_canonical": [
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.431
+    },
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.413
+    },
+    {
+     "name": "The Flower Girl",
+     "book": "pygmalion",
+     "sim": 0.413
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.412
+    },
+    {
+     "name": "the host",
+     "book": "the_count_of_monte_cristo",
+     "sim": 0.402
+    }
+   ]
+  },
+  {
+   "name": "Caelum Trist",
+   "work": "Pale Meridian",
+   "target_H": -0.8,
+   "target_A_HEX": 0.8,
+   "scpi_pred_H": 0.02,
+   "scpi_pred_A_HEX": -0.111,
+   "nearest_canonical": [
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.452
+    },
+    {
+     "name": "Duke Of Norfolk",
+     "book": "king_henry_viii",
+     "sim": 0.448
+    },
+    {
+     "name": "the host",
+     "book": "the_count_of_monte_cristo",
+     "sim": 0.446
+    },
+    {
+     "name": "Fabian",
+     "book": "twelfth_night",
+     "sim": 0.446
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.445
+    }
+   ]
+  },
+  {
+   "name": "Fenra Quillen",
+   "work": "The Understory Cartographs",
+   "target_H": 0.6,
+   "target_A_HEX": 0.6,
+   "scpi_pred_H": 0.364,
+   "scpi_pred_A_HEX": 0.173,
+   "nearest_canonical": [
+    {
+     "name": "Stapleton",
+     "book": "the_hound_of_the_baskervilles",
+     "sim": 0.37
+    },
+    {
+     "name": "Dr. Mortimer",
+     "book": "the_hound_of_the_baskervilles",
+     "sim": 0.362
+    },
+    {
+     "name": "my odious companion",
+     "book": "frankenstein_or_the_modern_prometheus",
+     "sim": 0.361
+    },
+    {
+     "name": "Edward",
+     "book": "sense_and_sensibility",
+     "sim": 0.353
+    },
+    {
+     "name": "Towson",
+     "book": "heart_of_darkness",
+     "sim": 0.351
+    }
+   ]
+  },
+  {
+   "name": "Marek Solenne",
+   "work": "Ironweed Summer",
+   "target_H": 0.9,
+   "target_A_HEX": -0.8,
+   "scpi_pred_H": 0.291,
+   "scpi_pred_A_HEX": 0.142,
+   "nearest_canonical": [
+    {
+     "name": "Hovstad",
+     "book": "an_enemy_of_the_people",
+     "sim": 0.381
+    },
+    {
+     "name": "Ippolit Kirillovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.381
+    },
+    {
+     "name": "Lima",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.371
+    },
+    {
+     "name": "Mrs. Alving",
+     "book": "ghosts",
+     "sim": 0.367
+    },
+    {
+     "name": "Morten Kiil",
+     "book": "an_enemy_of_the_people",
+     "sim": 0.364
+    }
+   ]
+  },
+  {
+   "name": "Lirien Dace",
+   "work": "The Sable Consort",
+   "target_H": -0.9,
+   "target_A_HEX": 0.9,
+   "scpi_pred_H": -0.106,
+   "scpi_pred_A_HEX": -0.238,
+   "nearest_canonical": [
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.441
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.44
+    },
+    {
+     "name": "Lady Markby",
+     "book": "an_ideal_husband",
+     "sim": 0.431
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.42
+    },
+    {
+     "name": "his companion",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.41
+    }
+   ]
+  },
+  {
+   "name": "Darveth Solke",
+   "work": "The Unburnt Ledger",
+   "target_H": 0.8,
+   "target_A_HEX": -0.6,
+   "scpi_pred_H": -0.016,
+   "scpi_pred_A_HEX": -0.059,
+   "nearest_canonical": [
+    {
+     "name": "Aslaksen",
+     "book": "an_enemy_of_the_people",
+     "sim": 0.43
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.417
+    },
+    {
+     "name": "Nathaniel",
+     "book": "loves_labours_lost",
+     "sim": 0.41
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.408
+    },
+    {
+     "name": "Fetyukovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.402
+    }
+   ]
+  },
+  {
+   "name": "Ysabel Creen",
+   "work": "A Slow House Burning",
+   "target_H": -0.85,
+   "target_A_HEX": 0.8,
+   "scpi_pred_H": 0.002,
+   "scpi_pred_A_HEX": -0.009,
+   "nearest_canonical": [
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.419
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.413
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.397
+    },
+    {
+     "name": "Lady Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.384
+    },
+    {
+     "name": "Mrs",
+     "book": "hedda_gabler",
+     "sim": 0.37
+    }
+   ]
+  },
+  {
+   "name": "Tormund Brael",
+   "work": "Undertow Season",
+   "target_H": 0.55,
+   "target_A_HEX": -0.3,
+   "scpi_pred_H": -0.105,
+   "scpi_pred_A_HEX": -0.165,
+   "nearest_canonical": [
+    {
+     "name": "Harris",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.489
+    },
+    {
+     "name": "Lima",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.477
+    },
+    {
+     "name": "the stranger",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.454
+    },
+    {
+     "name": "Cetology",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.438
+    },
+    {
+     "name": "Flask",
+     "book": "moby_dick_or_the_whale",
+     "sim": 0.431
+    }
+   ]
+  },
+  {
+   "name": "Pella Vassik",
+   "work": "Chromatic Displacement",
+   "target_H": 0.3,
+   "target_A_HEX": -0.2,
+   "scpi_pred_H": 0.286,
+   "scpi_pred_A_HEX": 0.115,
+   "nearest_canonical": [
+    {
+     "name": "Mrs",
+     "book": "hedda_gabler",
+     "sim": 0.371
+    },
+    {
+     "name": "Golenishtchev",
+     "book": "anna_karenina",
+     "sim": 0.35
+    },
+    {
+     "name": "the painter",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.344
+    },
+    {
+     "name": "Dorian",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.343
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.341
+    }
+   ]
+  },
+  {
+   "name": "Ossian Drewe",
+   "work": "The Margin Walkers",
+   "target_H": 0.65,
+   "target_A_HEX": 0.1,
+   "scpi_pred_H": 0.291,
+   "scpi_pred_A_HEX": 0.142,
+   "nearest_canonical": [
+    {
+     "name": "Mrs. Alving",
+     "book": "ghosts",
+     "sim": 0.397
+    },
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.396
+    },
+    {
+     "name": "Aslaksen",
+     "book": "an_enemy_of_the_people",
+     "sim": 0.388
+    },
+    {
+     "name": "Ippolit Kirillovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.385
+    },
+    {
+     "name": "Peter Stockmann",
+     "book": "an_enemy_of_the_people",
+     "sim": 0.377
+    }
+   ]
+  },
+  {
+   "name": "Quillen Dray",
+   "work": "The Cartography of Silences",
+   "target_H": 0.8,
+   "target_A_HEX": -0.65,
+   "scpi_pred_H": 0.098,
+   "scpi_pred_A_HEX": -0.131,
+   "nearest_canonical": [
+    {
+     "name": "the gentleman",
+     "book": "the_brothers_karamazov",
+     "sim": 0.411
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.406
+    },
+    {
+     "name": "Holmes",
+     "book": "the_hound_of_the_baskervilles",
+     "sim": 0.39
+    },
+    {
+     "name": "Ezra Jennings",
+     "book": "the_moonstone",
+     "sim": 0.389
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.388
+    }
+   ]
+  },
+  {
+   "name": "Sable Maren Voss",
+   "work": "A Gentler Knife",
+   "target_H": -0.75,
+   "target_A_HEX": 0.8,
+   "scpi_pred_H": 0.046,
+   "scpi_pred_A_HEX": -0.084,
+   "nearest_canonical": [
+    {
+     "name": "Lord Goring",
+     "book": "an_ideal_husband",
+     "sim": 0.439
+    },
+    {
+     "name": "Mrs. Cheveley",
+     "book": "an_ideal_husband",
+     "sim": 0.436
+    },
+    {
+     "name": "Sir Robert Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.425
+    },
+    {
+     "name": "Lady Chiltern",
+     "book": "an_ideal_husband",
+     "sim": 0.4
+    },
+    {
+     "name": "Mrs. Marchmont",
+     "book": "an_ideal_husband",
+     "sim": 0.397
+    }
+   ]
+  },
+  {
+   "name": "Erith Cade Pollowick",
+   "work": "The Museum of Unfinished Things",
+   "target_H": 0.5,
+   "target_A_HEX": 0.6,
+   "scpi_pred_H": 0.101,
+   "scpi_pred_A_HEX": -0.151,
+   "nearest_canonical": [
+    {
+     "name": "Betsy",
+     "book": "anna_karenina",
+     "sim": 0.38
+    },
+    {
+     "name": "I",
+     "book": "pride_and_prejudice",
+     "sim": 0.372
+    },
+    {
+     "name": "Hedda Tesman",
+     "book": "hedda_gabler",
+     "sim": 0.371
+    },
+    {
+     "name": "Dorian",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.366
+    },
+    {
+     "name": "the painter",
+     "book": "the_picture_of_dorian_gray",
+     "sim": 0.364
+    }
+   ]
+  },
+  {
+   "name": "Darvon Selk",
+   "work": "Ironbound Meridian",
+   "target_H": 0.7,
+   "target_A_HEX": -0.2,
+   "scpi_pred_H": 0.267,
+   "scpi_pred_A_HEX": 0.214,
+   "nearest_canonical": [
+    {
+     "name": "Dr. Mortimer",
+     "book": "the_hound_of_the_baskervilles",
+     "sim": 0.378
+    },
+    {
+     "name": "Towson",
+     "book": "heart_of_darkness",
+     "sim": 0.374
+    },
+    {
+     "name": "Mr. Betteredge",
+     "book": "the_moonstone",
+     "sim": 0.367
+    },
+    {
+     "name": "Holmes",
+     "book": "the_hound_of_the_baskervilles",
+     "sim": 0.366
+    },
+    {
+     "name": "Ippolit Kirillovitch",
+     "book": "the_brothers_karamazov",
+     "sim": 0.365
+    }
+   ]
+  },
+  {
+   "name": "Tessaly Brune",
+   "work": "What the Warm Wind Carries",
+   "target_H": 0.45,
+   "target_A_HEX": 0.75,
+   "scpi_pred_H": 0.379,
+   "scpi_pred_A_HEX": 0.322,
+   "nearest_canonical": [
+    {
+     "name": "Betsy",
+     "book": "anna_karenina",
+     "sim": 0.391
+    },
+    {
+     "name": "Hedda Tesman",
+     "book": "hedda_gabler",
+     "sim": 0.38
+    },
+    {
+     "name": "VI",
+     "book": "the_idiot",
+     "sim": 0.37
+    },
+    {
+     "name": "I",
+     "book": "pride_and_prejudice",
+     "sim": 0.365
+    },
+    {
+     "name": "Miss Temple",
+     "book": "jane_eyre",
+     "sim": 0.364
+    }
+   ]
+  }
+ ],
+ "spec": {
+  "n_canon_total": 1981,
+  "n_canon_hexaco_labeled": 60,
+  "k": 5,
+  "note": "OCEAN-GT prediction skipped (format-fragile join); neighbors+projection from embeddings; HEXACO via LLM-rater consensus retrieval = cache-floor variant (flagged)."
+ },
+ "summary": {
+  "r_H_A_HEX_scpi_retrieval_on_synth": 0.9146,
+  "r_H_A_HEX_author_designed_targets": -0.744,
+  "reading": "SCPI retrieval over LLM-rated canonical HEXACO returns +bundled structure on synth chars, cannot recover the designed decoupling (retrieval floor)."
+ }
+}

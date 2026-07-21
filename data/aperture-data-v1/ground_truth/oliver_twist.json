@@ -1,0 +1,1197 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "201",
+      "character_name": "Oliver Twist",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.305,
+        "C": 0.566,
+        "E": -0.232,
+        "A": 0.654,
+        "N": 0.309
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.305,
+            "C": 0.566,
+            "E": -0.232,
+            "A": 0.654,
+            "N": 0.309
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Akhtaj2010_INFERIORITY_FEELING_OLIVER_TWIST.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Alatawi2023_Mutual_Identities_Fostering_Empathy.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aminah2018_Social_Injustice_Reflected_Charles.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Imansari2021_CHILDREN_WITH_CHILDHOOD_SHAPING.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lu2023_Brief_Analysis_Character_Nancy.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mogea2023_Suffering_Reflected_Charles_Dickens.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.305,
+              "confidence_interval": [
+                -0.172,
+                0.783
+              ],
+              "n_sources": 2,
+              "std_dev": 0.244
+            },
+            "C": {
+              "score": 0.566,
+              "confidence_interval": [
+                0.232,
+                0.9
+              ],
+              "n_sources": 11,
+              "std_dev": 0.17
+            },
+            "E": {
+              "score": -0.232,
+              "confidence_interval": [
+                -0.941,
+                0.478
+              ],
+              "n_sources": 6,
+              "std_dev": 0.362
+            },
+            "A": {
+              "score": 0.654,
+              "confidence_interval": [
+                0.46,
+                0.847
+              ],
+              "n_sources": 10,
+              "std_dev": 0.099
+            },
+            "N": {
+              "score": 0.309,
+              "confidence_interval": [
+                -0.613,
+                1.0
+              ],
+              "n_sources": 7,
+              "std_dev": 0.47
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "133",
+      "character_name": "Fagin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3362823529411765,
+        "C": 0.007941176470588234,
+        "E": 0.324564705882353,
+        "A": -0.7410117647058824,
+        "N": 0.39794117647058824
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4722,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.025,
+            "E": 0.519,
+            "A": -0.833,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Imansari2021_CHILDREN_WITH_CHILDHOOD_SHAPING.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mogea2023_Suffering_Reflected_Charles_Dickens.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.025,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.67
+            },
+            "E": {
+              "score": 0.519,
+              "confidence_interval": [
+                0.326,
+                0.711
+              ],
+              "n_sources": 2,
+              "std_dev": 0.098
+            },
+            "A": {
+              "score": -0.833,
+              "confidence_interval": [
+                -0.925,
+                -0.741
+              ],
+              "n_sources": 6,
+              "std_dev": 0.047
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1024,
+            "C": 0.055,
+            "E": 0.0468,
+            "A": -0.6096,
+            "N": 0.395
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:24:55.915311+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.0011
+        }
+      ]
+    },
+    {
+      "coref_id": "243",
+      "character_name": "Bill Sikes",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "A": -0.829,
+        "N": 0.6
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": -0.829,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aminah2018_Social_Injustice_Reflected_Charles.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lu2023_Brief_Analysis_Character_Nancy.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.829,
+              "confidence_interval": [
+                -0.98,
+                -0.678
+              ],
+              "n_sources": 5,
+              "std_dev": 0.077
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "pending"
+        }
+      ]
+    },
+    {
+      "coref_id": "131",
+      "character_name": "Nancy",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.07225294117647059,
+        "C": -0.27091176470588235,
+        "E": 0.34859411764705883,
+        "A": 0.6371058823529412,
+        "N": 0.5902235294117647
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5531,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.5,
+            "A": 0.674,
+            "N": 0.637
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lu2023_Brief_Analysis_Character_Nancy.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.674,
+              "confidence_interval": [
+                0.502,
+                0.846
+              ],
+              "n_sources": 6,
+              "std_dev": 0.088
+            },
+            "N": {
+              "score": 0.637,
+              "confidence_interval": [
+                0.392,
+                0.882
+              ],
+              "n_sources": 3,
+              "std_dev": 0.125
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2531,
+            "C": -0.0865,
+            "E": 0.1323,
+            "A": 0.5844,
+            "N": 0.5234
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:25:26.590292+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000843
+        }
+      ]
+    },
+    {
+      "coref_id": "187",
+      "character_name": "The Artful Dodger",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.40253529411764705,
+        "C": -0.48362352941176473,
+        "E": 0.5682117647058823,
+        "A": -0.3430235294117647,
+        "N": -0.4189823529411765
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2367,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.564,
+            "E": 0.6,
+            "A": -0.429,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.564,
+              "confidence_interval": [
+                -0.658,
+                -0.471
+              ],
+              "n_sources": 3,
+              "std_dev": 0.048
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.429,
+              "confidence_interval": [
+                -0.617,
+                -0.241
+              ],
+              "n_sources": 3,
+              "std_dev": 0.096
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2633,
+            "C": -0.3688,
+            "E": 0.5228,
+            "A": -0.2202,
+            "N": -0.4461
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:26:02.594925+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001318
+        }
+      ]
+    },
+    {
+      "coref_id": "6545",
+      "character_name": "Monks",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3302,
+        "C": -0.2630058823529412,
+        "E": -0.09239999999999998,
+        "A": -0.719529411764706,
+        "N": 0.5548705882352941
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0297,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.687,
+            "A": -0.771,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.687,
+              "confidence_interval": [
+                -0.891,
+                -0.483
+              ],
+              "n_sources": 3,
+              "std_dev": 0.104
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.771,
+              "confidence_interval": [
+                -0.913,
+                -0.628
+              ],
+              "n_sources": 3,
+              "std_dev": 0.073
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3302,
+            "C": 0.3427,
+            "E": -0.0924,
+            "A": -0.646,
+            "N": 0.4904
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:26:51.317115+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001063
+        }
+      ]
+    },
+    {
+      "coref_id": "280",
+      "character_name": "Rose Maylie",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.0805,
+        "C": 0.6049,
+        "E": 0.37150000000000005,
+        "A": 0.8301823529411764,
+        "N": -0.4801
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0733,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.8,
+                0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0805,
+            "C": 0.6049,
+            "E": 0.3715,
+            "A": 0.8733,
+            "N": -0.4801
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:27:22.244408+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001344
+        }
+      ]
+    },
+    {
+      "coref_id": "132",
+      "character_name": "Mr. Bumble",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.5602235294117647,
+        "C": 0.009999999999999993,
+        "E": 0.30916470588235295,
+        "A": -0.6542117647058824,
+        "N": 0.08026470588235295
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7765,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.158,
+            "E": 0.4,
+            "A": -0.672,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Alzouabi2021_Social_Environment_Crime_Dickens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aminah2018_Social_Injustice_Reflected_Charles.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hossain2023_Children_more_than_little.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mogea2023_Suffering_Reflected_Charles_Dickens.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.158,
+              "confidence_interval": [
+                -0.97,
+                0.653
+              ],
+              "n_sources": 3,
+              "std_dev": 0.414
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.672,
+              "confidence_interval": [
+                -0.76,
+                -0.584
+              ],
+              "n_sources": 5,
+              "std_dev": 0.045
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5034,
+            "C": 0.25,
+            "E": 0.1794,
+            "A": -0.6288,
+            "N": -0.3765
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:28:03.159217+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001101
+        }
+      ]
+    },
+    {
+      "coref_id": "127",
+      "character_name": "Mr. Brownlow",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5082,
+        "C": 0.5354333333333334,
+        "E": 0.4121666666666667,
+        "A": 0.7030333333333333,
+        "N": 0.18203333333333332
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6539,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.603,
+            "E": 0.5,
+            "A": 0.741,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Imansari2021_CHILDREN_WITH_CHILDHOOD_SHAPING.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jayakumar2022_Social_Systems_Characters_Literary_Fiction.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.603,
+              "confidence_interval": [
+                0.444,
+                0.762
+              ],
+              "n_sources": 3,
+              "std_dev": 0.081
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.741,
+              "confidence_interval": [
+                0.574,
+                0.909
+              ],
+              "n_sources": 5,
+              "std_dev": 0.085
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3246,
+            "C": 0.4003,
+            "E": 0.2365,
+            "A": 0.6271,
+            "N": -0.2539
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:28:39.095737+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001217
+        }
+      ]
+    },
+    {
+      "coref_id": "279",
+      "character_name": "Mrs. Maylie",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.1968,
+        "C": 0.6636000000000001,
+        "E": -0.0316,
+        "A": 0.7140823529411765,
+        "N": -0.33692352941176473
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6389,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.7,
+            "A": 0.7,
+            "N": -0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Persulessy2018_Social_Values_Charles_Dickenss.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1968,
+            "C": 0.6116,
+            "E": -0.0316,
+            "A": 0.7342,
+            "N": 0.0389
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:29:09.603801+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001261
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

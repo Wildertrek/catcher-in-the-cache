@@ -1,0 +1,1335 @@
+{
+  "coref_id": "126",
+  "character_name": "Mrs. Bennet",
+  "quote_count": 193,
+  "mention_count": 983,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "118",
+      5
+    ],
+    [
+      "102",
+      4
+    ],
+    [
+      "107",
+      3
+    ],
+    [
+      "99",
+      3
+    ],
+    [
+      "525",
+      3
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c He came down to see the place \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5420,
+      "quote_end": 5428,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c new \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c impudent and mannish grown , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I hope Mr. Bingley will like it \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I hope Mr. Bingley will like it \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5435,
+      "quote_end": 5443,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c impudent and mannish grown , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He came down to see the place \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I \u2019m the tallest \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5445,
+      "quote_end": 5450,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He came down to see the place \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I hope Mr. Bingley will like it \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c When the party entered \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He rode a black horse \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5452,
+      "quote_end": 5458,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I hope Mr. Bingley will like it \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c When the party entered \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c She is tolerable \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c When the party entered \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5460,
+      "quote_end": 5465,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c She is tolerable \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Without once opening his lips \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c She is tolerable \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5467,
+      "quote_end": 5471,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c When the party entered \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Without once opening his lips \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Without once opening his lips \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5484,
+      "quote_end": 5490,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c When the party entered \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c She is tolerable \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The entreaties of several \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5503,
+      "quote_end": 5508,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c She is tolerable \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Without once opening his lips \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Cheerful prognostics \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c A note for Miss Bennet \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5510,
+      "quote_end": 5516,
+      "addressee_coref_id": "107",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Without once opening his lips \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Cheerful prognostics \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The apothecary came \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Cheerful prognostics \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5518,
+      "quote_end": 5521,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The apothecary came \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Covering a screen \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The apothecary came \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5523,
+      "quote_end": 5527,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Cheerful prognostics \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Covering a screen \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Mrs. Bennet and her two youngest girls \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Covering a screen \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5529,
+      "quote_end": 5533,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Cheerful prognostics \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The apothecary came \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Mrs. Bennet and her two youngest girls \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no ; stay where you are \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Mrs. Bennet and her two youngest girls \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5535,
+      "quote_end": 5543,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The apothecary came \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Covering a screen \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no ; stay where you are \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Piling up the fire \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c No , no ; stay where you are \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5550,
+      "quote_end": 5559,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Covering a screen \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Mrs. Bennet and her two youngest girls \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Piling up the fire \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Piling up the fire \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5561,
+      "quote_end": 5566,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Mrs. Bennet and her two youngest girls \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no ; stay where you are \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The officers of the ----shire \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Protested that he never read novels \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5586,
+      "quote_end": 5593,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , no ; stay where you are \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Piling up the fire \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The officers of the ----shire \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Delighted to see their dear friend again \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The officers of the ----shire \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5607,
+      "quote_end": 5613,
+      "addressee_coref_id": "429",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Piling up the fire \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Delighted to see their dear friend again \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Such very superior dancing is not often seen \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Delighted to see their dear friend again \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 5615,
+      "quote_end": 5623,
+      "addressee_coref_id": "429",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The officers of the ----shire \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c Such very superior dancing is not often seen \u201d"
+        },
+        {
+          "speaker_coref_id": "429",
+          "quote_text": "\u201c To assure you in the most animated language \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Do n\u2019t keep coughing so , Kitty , for heaven \u2019s sake ! Have a little compassion on my nerves . You tear them to pieces . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 7516,
+      "quote_end": 7544,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c No more have I , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and I am glad to find that you do not depend on her serving you . \u201d"
+        },
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c Kitty has no discretion in her coughs , \u201d"
+        },
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c she times them ill . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c To - morrow fortnight . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 7594,
+      "quote_end": 7600,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c I do not cough for my own amusement , \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c When is your next ball to be , Lizzy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Ay , so it is , \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c and Mrs. Long does not come back till the day before ; so , it will be impossible for her to introduce him , for she will not know him herself . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Nonsense , nonsense ! \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 7795,
+      "quote_end": 7800,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Impossible , Mr. Bennet , impossible , when I am not acquainted with him myself ; how can you be so teasing ? \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I honour your circumspection . A fortnight \u2019s acquaintance is certainly very little . One can not know what a man really is by the end of a fortnight . But if _ we _ do not venture , somebody else will ; and after all , Mrs. Long and her nieces must stand their chance ; and , therefore , as she will think it an act of kindness , if you decline the office , I will take it on myself . \u201d"
+        },
+        {
+          "speaker_coref_id": "455",
+          "quote_text": "\u201c What can be the meaning of that emphatic exclamation ? \u201d"
+        },
+        {
+          "speaker_coref_id": "455",
+          "quote_text": "\u201c Do you consider the forms of introduction , and the stress that is laid on them , as nonsense ? I can not quite agree with you _ there _ . What say you , Mary ? For you are a young lady of deep reflection , I know , and read great books , and make extracts . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am sorry to hear _ that _ ; but why did you not tell me so before ? If I had known as much this morning , I certainly would not have called on him . It is very unlucky ; but as I have actually paid the visit , we can not escape the acquaintance now . \u201d",
+      "mention_text": "she",
+      "quote_start": 7924,
+      "quote_end": 7984,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "455",
+          "quote_text": "\u201c let us return to Mr. Bingley . \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I am sick of Mr. Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c How good it was in you , my dear Mr. Bennet ! But I knew I should persuade you at last . I was sure you loved your girls too well to neglect such an acquaintance . Well , how pleased I am ! And it is such a good joke , too , that you should have gone this morning , and never said a word about it till now . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Now , Kitty , you may cough as much as you choose , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How good it was in you , my dear Mr. Bennet ! But I knew I should persuade you at last . I was sure you loved your girls too well to neglect such an acquaintance . Well , how pleased I am ! And it is such a good joke , too , that you should have gone this morning , and never said a word about it till now . \u201d",
+      "mention_text": "she",
+      "quote_start": 8030,
+      "quote_end": 8103,
+      "addressee_coref_id": "118",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I am sick of Mr. Bingley , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am sorry to hear _ that _ ; but why did you not tell me so before ? If I had known as much this morning , I certainly would not have called on him . It is very unlucky ; but as I have actually paid the visit , we can not escape the acquaintance now . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Now , Kitty , you may cough as much as you choose , \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c What an excellent father you have , girls , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I \u2019m the tallest \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 8310,
+      "quote_end": 8315,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am not afraid ; for though I _ am _ the youngest , I \u2019m the tallest . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If I can but see one of my daughters happily settled at Netherfield , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He rode a black horse \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 8320,
+      "quote_end": 8326,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am not afraid ; for though I _ am _ the youngest , I \u2019m the tallest . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If I can but see one of my daughters happily settled at Netherfield , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c and all the others equally well married , I shall have nothing to wish for . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If I can but see one of my daughters happily settled at Netherfield , \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 8494,
+      "quote_end": 8509,
+      "addressee_coref_id": "102",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c and all the others equally well married , I shall have nothing to wish for . \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c When the Party entered \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and all the others equally well married , I shall have nothing to wish for . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 8517,
+      "quote_end": 8534,
+      "addressee_coref_id": "102",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If I can but see one of my daughters happily settled at Netherfield , \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c When the Party entered \u201d"
+        },
+        {
+          "speaker_coref_id": "335",
+          "quote_text": "\u201c Come , Darcy , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , my dear , \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 10179,
+      "quote_end": 10185,
+      "addressee_coref_id": "463",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c If he had had any compassion for _ me _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c he would not have danced half so much ! For God \u2019s sake , say no more of his partners . O that he had sprained his ancle in the first dance ! \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am quite delighted with him . He is so excessively handsome ! and his sisters are charming women . I never in my life saw anything more elegant than their dresses . I dare say the lace upon Mrs. Hurst \u2019s gown---- \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c But I can assure you , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am quite delighted with him . He is so excessively handsome ! and his sisters are charming women . I never in my life saw anything more elegant than their dresses . I dare say the lace upon Mrs. Hurst \u2019s gown---- \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 10190,
+      "quote_end": 10234,
+      "addressee_coref_id": "160",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c he would not have danced half so much ! For God \u2019s sake , say no more of his partners . O that he had sprained his ancle in the first dance ! \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c But I can assure you , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that Lizzy does not lose much by not suiting _ his _ fancy ; for he is a most disagreeable , horrid man , not at all worth pleasing . So high and so conceited , that there was no enduring him ! He walked here , and he walked there , fancying himself so very great ! Not handsome enough to dance with ! I wish you had been there , my dear , to have given him one of your set - downs . I quite detest the man . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But I can assure you , \u201d",
+      "mention_text": "she",
+      "quote_start": 10282,
+      "quote_end": 10289,
+      "addressee_coref_id": "525",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am quite delighted with him . He is so excessively handsome ! and his sisters are charming women . I never in my life saw anything more elegant than their dresses . I dare say the lace upon Mrs. Hurst \u2019s gown---- \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that Lizzy does not lose much by not suiting _ his _ fancy ; for he is a most disagreeable , horrid man , not at all worth pleasing . So high and so conceited , that there was no enduring him ! He walked here , and he walked there , fancying himself so very great ! Not handsome enough to dance with ! I wish you had been there , my dear , to have given him one of your set - downs . I quite detest the man . \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c He is just what a young - man ought to be , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that Lizzy does not lose much by not suiting _ his _ fancy ; for he is a most disagreeable , horrid man , not at all worth pleasing . So high and so conceited , that there was no enduring him ! He walked here , and he walked there , fancying himself so very great ! Not handsome enough to dance with ! I wish you had been there , my dear , to have given him one of your set - downs . I quite detest the man . \u201d",
+      "mention_text": "she",
+      "quote_start": 10293,
+      "quote_end": 10386,
+      "addressee_coref_id": "525",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am quite delighted with him . He is so excessively handsome ! and his sisters are charming women . I never in my life saw anything more elegant than their dresses . I dare say the lace upon Mrs. Hurst \u2019s gown---- \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c But I can assure you , \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c He is just what a young - man ought to be , \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c sensible , good - humoured , lively ; and I never saw such happy manners ! so much ease , with such perfect good breeding ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c _ You _ began the evening well , Charlotte , \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 11939,
+      "quote_end": 11950,
+      "addressee_coref_id": "525",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I know you do : and it is _ that _ which makes the wonder . With _ your _ good sense , to be so honestly blind to the follies and nonsense of others ! Affectation of candour is common enough ; one meets with it everywhere . But to be candid without ostentation or design,--to take the good of everybody \u2019s character and make it still better , and say nothing of the bad,--belongs to you alone . And so , you like this man \u2019s sisters , too , do you ? Their manners are not equal to his . \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Certainly not , at first ; but they are very pleasing women when you converse with them . Miss Bingley is to live with her brother , and keep his house ; and I am much mistaken if we shall not find a very charming neighbour in her . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ You _ were Mr. Bingley \u2019s first choice . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but he seemed to like his second better . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c _ You _ were Mr. Bingley \u2019s first choice . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 11965,
+      "quote_end": 11976,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Certainly not , at first ; but they are very pleasing women when you converse with them . Miss Bingley is to live with her brother , and keep his house ; and I am much mistaken if we shall not find a very charming neighbour in her . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ You _ began the evening well , Charlotte , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but he seemed to like his second better . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , you mean Jane , I suppose , because he danced with her twice . To be sure that _ did _ seem as if he admired her -- indeed , I rather believe he _ did_--I heard something about it -- but I hardly know what -- something about Mr. Robinson . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes ; but he seemed to like his second better . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 11977,
+      "quote_end": 11989,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ You _ began the evening well , Charlotte , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ You _ were Mr. Bingley \u2019s first choice . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , you mean Jane , I suppose , because he danced with her twice . To be sure that _ did _ seem as if he admired her -- indeed , I rather believe he _ did_--I heard something about it -- but I hardly know what -- something about Mr. Robinson . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Perhaps you mean what I overheard between him and Mr. Robinson : did not I mention it to you ? Mr. Robinson \u2019s asking him how he liked our Meryton assemblies , and whether he did not think there were a great many pretty women in the room , and _ which _ he thought the prettiest ? and his answering immediately to the last question , \u2018 Oh , the eldest Miss Bennet , beyond a doubt : there can not be two opinions on that point . \u2019 \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , you mean Jane , I suppose , because he danced with her twice . To be sure that _ did _ seem as if he admired her -- indeed , I rather believe he _ did_--I heard something about it -- but I hardly know what -- something about Mr. Robinson . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 11990,
+      "quote_end": 12045,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ You _ were Mr. Bingley \u2019s first choice . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but he seemed to like his second better . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Perhaps you mean what I overheard between him and Mr. Robinson : did not I mention it to you ? Mr. Robinson \u2019s asking him how he liked our Meryton assemblies , and whether he did not think there were a great many pretty women in the room , and _ which _ he thought the prettiest ? and his answering immediately to the last question , \u2018 Oh , the eldest Miss Bennet , beyond a doubt : there can not be two opinions on that point . \u2019 \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Upon my word ! Well , that was very decided , indeed -- that does seem as if -- but , however , it may all come to nothing , you know . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Perhaps you mean what I overheard between him and Mr. Robinson : did not I mention it to you ? Mr. Robinson \u2019s asking him how he liked our Meryton assemblies , and whether he did not think there were a great many pretty women in the room , and _ which _ he thought the prettiest ? and his answering immediately to the last question , \u2018 Oh , the eldest Miss Bennet , beyond a doubt : there can not be two opinions on that point . \u2019 \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12046,
+      "quote_end": 12137,
+      "addressee_coref_id": "107",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but he seemed to like his second better . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , you mean Jane , I suppose , because he danced with her twice . To be sure that _ did _ seem as if he admired her -- indeed , I rather believe he _ did_--I heard something about it -- but I hardly know what -- something about Mr. Robinson . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Upon my word ! Well , that was very decided , indeed -- that does seem as if -- but , however , it may all come to nothing , you know . \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c _ My _ overhearings were more to the purpose than _ yours _ , Eliza , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Upon my word ! Well , that was very decided , indeed -- that does seem as if -- but , however , it may all come to nothing , you know . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12138,
+      "quote_end": 12172,
+      "addressee_coref_id": "138",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , you mean Jane , I suppose , because he danced with her twice . To be sure that _ did _ seem as if he admired her -- indeed , I rather believe he _ did_--I heard something about it -- but I hardly know what -- something about Mr. Robinson . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Perhaps you mean what I overheard between him and Mr. Robinson : did not I mention it to you ? Mr. Robinson \u2019s asking him how he liked our Meryton assemblies , and whether he did not think there were a great many pretty women in the room , and _ which _ he thought the prettiest ? and his answering immediately to the last question , \u2018 Oh , the eldest Miss Bennet , beyond a doubt : there can not be two opinions on that point . \u2019 \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c _ My _ overhearings were more to the purpose than _ yours _ , Eliza , \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c Mr. Darcy is not so well worth listening to as his friend , is he ? Poor Eliza ! to be only just _ tolerable _ . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I beg you will not put it into Lizzy \u2019s head to be vexed by his ill - treatment , for he is such a disagreeable man that it would be quite a misfortune to be liked by him . Mrs. Long told me last night that he sat close to her for half an hour without once opening his lips . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12223,
+      "quote_end": 12286,
+      "addressee_coref_id": "138",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c _ My _ overhearings were more to the purpose than _ yours _ , Eliza , \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c Mr. Darcy is not so well worth listening to as his friend , is he ? Poor Eliza ! to be only just _ tolerable _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Without once opening his lips \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Are you quite sure , ma\u2019am ? Is not there a little mistake ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Without once opening his lips \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12290,
+      "quote_end": 12296,
+      "addressee_coref_id": "138",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c Mr. Darcy is not so well worth listening to as his friend , is he ? Poor Eliza ! to be only just _ tolerable _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I beg you will not put it into Lizzy \u2019s head to be vexed by his ill - treatment , for he is such a disagreeable man that it would be quite a misfortune to be liked by him . Mrs. Long told me last night that he sat close to her for half an hour without once opening his lips . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Are you quite sure , ma\u2019am ? Is not there a little mistake ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I certainly saw Mr. Darcy speaking to her . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Ay , because she asked him at last how he liked Netherfield , and he could not help answering her ; but she said he seemed very angry at being spoke to . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12338,
+      "quote_end": 12372,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Are you quite sure , ma\u2019am ? Is not there a little mistake ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I certainly saw Mr. Darcy speaking to her . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Miss Bingley told me , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c that he never speaks much unless among his intimate acquaintance . With _ them _ he is remarkably agreeable . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I do not believe a word of it , my dear . If he had been so very agreeable , he would have talked to Mrs. Long . But I can guess how it was ; everybody says that he is eat up with pride , and I dare say he had heard somehow that Mrs. Long does not keep a carriage , and had to come to the ball in a hack chaise . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12405,
+      "quote_end": 12481,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Miss Bingley told me , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c that he never speaks much unless among his intimate acquaintance . With _ them _ he is remarkably agreeable . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I do not mind his not talking to Mrs. Long , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c but I wish he had danced with Eliza . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I believe , ma\u2019am , I may safely promise you _ never _ to dance with him . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12537,
+      "quote_end": 12556,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Another time , Lizzy , \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I would not dance with _ him _ , if I were you . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c His pride , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c does not offend _ me _ so much as pride often does , because there is an excuse for it . One can not wonder that so very fine a young man , with family , fortune , everything in his favour , should think highly of himself . If I may so express it , he has a _ right _ to be proud . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Then you would drink a great deal more than you ought , \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12845,
+      "quote_end": 12858,
+      "addressee_coref_id": "163",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c If I were as rich as Mr. Darcy , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not care how proud I was . I would keep a pack of foxhounds , and drink a bottle of wine every day . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c and if I were to see you at it , I should take away your bottle directly . \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c It may , perhaps , be pleasant , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and if I were to see you at it , I should take away your bottle directly . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 12863,
+      "quote_end": 12882,
+      "addressee_coref_id": "163",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not care how proud I was . I would keep a pack of foxhounds , and drink a bottle of wine every day . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Then you would drink a great deal more than you ought , \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c It may , perhaps , be pleasant , \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c to be able to impose on the public in such a case ; but it is sometimes a disadvantage to be so very guarded . If a woman conceals her affection with the same skill from the object of it , she may lose the opportunity of fixing him ; and it will then be but poor consolation to believe the world equally in the dark . There is so much of gratitude or vanity in almost every attachment , that it is not safe to leave any to itself . We can all _ begin _ freely -- a slight preference is natural enough ; but there are very few of us who have heart enough to be really in love without encouragement . In nine cases out of ten , a woman had better show _ more _ affection than she feels . Bingley likes your sister undoubtedly ; but he may never do more than like her , if she does not help him on . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am astonished , my dear , \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16258,
+      "quote_end": 16266,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c From all that I can collect by your manner of talking , you must be two of the silliest girls in the country . I have suspected it some time , but I am now convinced . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that you should be so ready to think your own children silly . If I wished to think slightingly of anybody \u2019s children , it should not be of my own , however . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If my children are silly , I must hope to be always sensible of it . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that you should be so ready to think your own children silly . If I wished to think slightingly of anybody \u2019s children , it should not be of my own , however . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16271,
+      "quote_end": 16306,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c From all that I can collect by your manner of talking , you must be two of the silliest girls in the country . I have suspected it some time , but I am now convinced . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am astonished , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If my children are silly , I must hope to be always sensible of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but as it happens , they are all of them very clever . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If my children are silly , I must hope to be always sensible of it . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16307,
+      "quote_end": 16324,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am astonished , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that you should be so ready to think your own children silly . If I wished to think slightingly of anybody \u2019s children , it should not be of my own , however . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but as it happens , they are all of them very clever . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This is the only point , I flatter myself , on which we do not agree . I had hoped that our sentiments coincided in every particular , but I must so far differ from you as to think our two youngest daughters uncommonly foolish . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes ; but as it happens , they are all of them very clever . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16325,
+      "quote_end": 16341,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that you should be so ready to think your own children silly . If I wished to think slightingly of anybody \u2019s children , it should not be of my own , however . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If my children are silly , I must hope to be always sensible of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This is the only point , I flatter myself , on which we do not agree . I had hoped that our sentiments coincided in every particular , but I must so far differ from you as to think our two youngest daughters uncommonly foolish . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c My dear Mr. Bennet , you must not expect such girls to have the sense of their father and mother . When they get to our age , I dare say they will not think about officers any more than we do . I remember the time when I liked a red coat myself very well -- and , indeed , so I do still at my heart ; and if a smart young colonel , with five or six thousand a year , should want one of my girls , I shall not say nay to him ; and I thought Colonel Forster looked very becoming the other night at Sir William \u2019s in his regimentals . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c This is the only point , I flatter myself , on which we do not agree . I had hoped that our sentiments coincided in every particular , but I must so far differ from you as to think our two youngest daughters uncommonly foolish . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16342,
+      "quote_end": 16389,
+      "addressee_coref_id": "99",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If my children are silly , I must hope to be always sensible of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but as it happens , they are all of them very clever . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c My dear Mr. Bennet , you must not expect such girls to have the sense of their father and mother . When they get to our age , I dare say they will not think about officers any more than we do . I remember the time when I liked a red coat myself very well -- and , indeed , so I do still at my heart ; and if a smart young colonel , with five or six thousand a year , should want one of my girls , I shall not say nay to him ; and I thought Colonel Forster looked very becoming the other night at Sir William \u2019s in his regimentals . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mamma , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear Mr. Bennet , you must not expect such girls to have the sense of their father and mother . When they get to our age , I dare say they will not think about officers any more than we do . I remember the time when I liked a red coat myself very well -- and , indeed , so I do still at my heart ; and if a smart young colonel , with five or six thousand a year , should want one of my girls , I shall not say nay to him ; and I thought Colonel Forster looked very becoming the other night at Sir William \u2019s in his regimentals . \u201d",
+      "mention_text": "Mrs. Bennet",
+      "quote_start": 16390,
+      "quote_end": 16509,
+      "addressee_coref_id": "118",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes ; but as it happens , they are all of them very clever . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This is the only point , I flatter myself , on which we do not agree . I had hoped that our sentiments coincided in every particular , but I must so far differ from you as to think our two youngest daughters uncommonly foolish . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mamma , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson \u2019s as they did when they first came ; she sees them now very often standing in Clarke \u2019s library . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "898",
+      "character_name": "Edmond Dantes",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6732764705882353,
+        "C": 0.7072882352941176,
+        "E": 0.10805882352941175,
+        "A": 0.28454117647058824,
+        "N": 0.15356470588235296
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3222,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.7,
+            "E": -0.244,
+            "A": 0.246,
+            "N": 0.698
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hidayati2019_ANGUISH_ALEXANDER_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Luo2017_Contrastive_Analysis_Theme_Revenge.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ricky2024_VERSATILITY_ALEXANDRE_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.56,
+                0.84
+              ],
+              "n_sources": 3,
+              "std_dev": 0.071
+            },
+            "E": {
+              "score": -0.244,
+              "confidence_interval": [
+                -1.0,
+                0.641
+              ],
+              "n_sources": 3,
+              "std_dev": 0.451
+            },
+            "A": {
+              "score": 0.246,
+              "confidence_interval": [
+                -0.497,
+                0.989
+              ],
+              "n_sources": 3,
+              "std_dev": 0.379
+            },
+            "N": {
+              "score": 0.698,
+              "confidence_interval": [
+                0.419,
+                0.976
+              ],
+              "n_sources": 2,
+              "std_dev": 0.142
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6351,
+            "C": 0.7177,
+            "E": 0.611,
+            "A": 0.3396,
+            "N": -0.6242
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:13:08.741150+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001931
+        }
+      ]
+    },
+    {
+      "coref_id": "745",
+      "character_name": "Fernand Mondego",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1907,
+        "C": -0.20384117647058825,
+        "E": -0.1373,
+        "A": -0.685835294117647,
+        "N": 0.5629
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9621,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.6,
+            "A": -0.7,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hidayati2019_ANGUISH_ALEXANDER_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1907,
+            "C": 0.3621,
+            "E": -0.1373,
+            "A": -0.6656,
+            "N": 0.5099
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:13:40.571396+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001248
+        }
+      ]
+    },
+    {
+      "coref_id": "1282",
+      "character_name": "Danglars",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2812,
+        "C": -0.15422352941176473,
+        "E": 0.4684,
+        "A": -0.3703,
+        "N": 0.09655294117647059
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0826,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.6,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hidayati2019_ANGUISH_ALEXANDER_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2812,
+            "C": 0.4826,
+            "E": 0.4684,
+            "A": 0.1007,
+            "N": -0.4798
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:14:13.652536+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000999
+        }
+      ]
+    },
+    {
+      "coref_id": "1408",
+      "character_name": "Villefort",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "C": -0.7,
+        "A": -0.8,
+        "N": 0.8
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.7,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hidayati2019_ANGUISH_ALEXANDER_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.8,
+              "confidence_interval": [
+                -1.0,
+                -0.212
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "733",
+      "character_name": "Mercedes",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2962,
+        "C": 0.5685,
+        "E": 0.0707,
+        "A": 0.6475,
+        "N": 0.35907647058823533
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5851,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Hidayati2019_ANGUISH_ALEXANDER_DUMAS_NOVEL.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2962,
+            "C": 0.5685,
+            "E": 0.0707,
+            "A": 0.6475,
+            "N": 0.0149
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:14:54.723505+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001399
+        }
+      ]
+    },
+    {
+      "coref_id": "850",
+      "character_name": "Abbe Faria",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.816864705882353,
+        "C": 0.6995882352941175,
+        "E": -0.384,
+        "A": 0.6850352941176471,
+        "N": -0.6543
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2792,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.7,
+            "A": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Luo2017_Contrastive_Analysis_Theme_Revenge.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.312,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6981,
+            "C": 0.699,
+            "E": -0.384,
+            "A": 0.5208,
+            "N": -0.6543
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:15:29.910730+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001557
+        }
+      ]
+    },
+    {
+      "coref_id": "728",
+      "character_name": "Haydee",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5402,
+        "C": 0.4487,
+        "E": 0.27326470588235297,
+        "A": 0.5979823529411765,
+        "N": -0.0363
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7935,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "E": 0.6,
+            "A": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Luo2017_Contrastive_Analysis_Theme_Revenge.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5402,
+            "C": 0.4487,
+            "E": -0.1935,
+            "A": 0.5951,
+            "N": -0.0363
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:16:08.021358+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002632
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

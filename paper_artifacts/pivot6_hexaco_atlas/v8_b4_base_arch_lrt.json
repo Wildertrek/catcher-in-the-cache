@@ -1,0 +1,11 @@
+{
+  "wave_b4_test": "regime ~ base_arch_family + alignment_regime_v2 (Wave B4 base-arch reclassification)",
+  "n_models": 25,
+  "lr_stat": 0.08113535975422792,
+  "df_diff": 1,
+  "p_value": 0.7757646621864634,
+  "r2_small": 0.890878989425405,
+  "r2_big": 0.8912325582743417,
+  "delta_r2": 0.0003535688489366695,
+  "verdict": "RETRACTION_SURVIVES_EMPIRICALLY"
+}

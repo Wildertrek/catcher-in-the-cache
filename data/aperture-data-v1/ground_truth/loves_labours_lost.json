@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Love's Labour's Lost",
+    "author": "William Shakespeare",
+    "year": "c. 1595"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_berowne",
+      "character_name": "Berowne",
+      "quote_count": 159,
+      "consensus_ocean": {
+        "O": 0.821112,
+        "C": -0.35798800000000003,
+        "E": 0.7292919999999998,
+        "A": -0.008179999999999998,
+        "N": 0.06004000000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": 0.6, \"A\": 0.4, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Berowne is often viewed as the most intellectually curious and imaginative character in 'Love's Labour's Lost,' displaying a blend of wit and charm, while his lack of discipline and occasional emotional volatility are noted in various critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.5,
+            "E": 0.8,
+            "A": -0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.5,\n  \"E\": 0.8,\n  \"A\": -0.3,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, and modern scholarship) identifies Berowne as the play's most imaginative and verbally inventive character whose wit and eloquence mask emotional volatility and difficulty with commitment, yet whose self-awareness and eventual repentance distinguish him from his peers' more rigid pedantry.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.6,
+            "E": 0.8,
+            "A": -0.2,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.6,\n  \"E\": 0.8,\n  \"A\": -0.2,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Berowne's exceptional wit, intellectual curiosity, and rhetorical brilliance, alongside his initial resistance to discipline and his confident, self-possessed demeanor.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8754,
+            "C": -0.5071,
+            "E": 0.7189,
+            "A": 0.0565,
+            "N": 0.043
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:57:23.185532+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002604
+        }
+      ]
+    },
+    {
+      "coref_id": "char_king",
+      "character_name": "King",
+      "quote_count": 115,
+      "consensus_ocean": {
+        "O": 0.46753599999999995,
+        "C": 0.11028800000000001,
+        "E": 0.477992,
+        "A": 0.053464,
+        "N": 0.013680000000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"King is a minor character in 'Love's Labour's Lost' and does not receive significant attention in published literary criticism, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.3,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"The King of Navarre is characterized by scholars as an idealistic but self-deceiving leader whose ambitious academy scheme reveals both imaginative aspiration and rigid rule-making, tempered by emotional volatility when his plans unravel, though critical consensus treats him as a secondary figure whose personality serves primarily to anchor the play's central theme of wit versus love."
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.8,
+            "E": 0.7,
+            "A": -0.1,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": -0.8,\n  \"E\": 0.7,\n  \"A\": -0.1,\n  \"N\": 0.0,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently notes the King's imaginative but impractical initial vow, his immediate and comedic failure to uphold its strictures, and his role as a leader in the play's intellectual and romantic pursuits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6412,
+            "C": 0.4796,
+            "E": 0.4214,
+            "A": 0.5338,
+            "N": -0.294
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:57:53.017862+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002178
+        }
+      ]
+    },
+    {
+      "coref_id": "char_princess",
+      "character_name": "Princess",
+      "quote_count": 104,
+      "consensus_ocean": {
+        "O": 0.6703439999999999,
+        "C": 0.672812,
+        "E": 0.6201679999999999,
+        "A": 0.526964,
+        "N": -0.36468
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.6, \"E\": 0.5, \"A\": 0.7, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight Princess's intelligence and wit, suggesting a high level of openness and agreeableness, while her assertiveness and emotional stability are more moderate.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": 0.8,
+            "A": 0.5,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": 0.5,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"The Princess is characterized by wit, social command, and pragmatic intelligence in critical consensus (e.g., Bloom, Frye on comedic heroines), though she remains a relatively minor figure whose full psychological complexity receives limited sustained analysis compared to major Shakespearean characters.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.8,
+            "E": 0.7,
+            "A": 0.3,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": 0.3,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus identifies the Princess as intelligent, witty, morally steadfast, and emotionally stable, consistently demonstrating composure and principled judgment throughout the play.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6798,
+            "C": 0.6029,
+            "E": 0.5006,
+            "A": 0.5963,
+            "N": -0.531
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:58:19.214791+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001812
+        }
+      ]
+    },
+    {
+      "coref_id": "char_armado",
+      "character_name": "Armado",
+      "quote_count": 102,
+      "consensus_ocean": {
+        "O": 0.788712,
+        "C": -0.26114399999999993,
+        "E": 0.7006479999999999,
+        "A": -0.082344,
+        "N": 0.38491600000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": 0.7,
+            "A": 0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": 0.7, \"A\": 0.5, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Armado is often viewed as a character of high imagination and social energy, embodying a blend of romantic idealism and comedic folly, as noted in various analyses of Shakespeare's comedic characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.6,
+            "E": 0.8,
+            "A": -0.5,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.6,\n  \"E\": 0.8,\n  \"A\": -0.5,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Armado is consistently read by scholars (e.g., Frye, Bloom, and modern critics) as an imaginative but undisciplined braggart and fantast whose verbose, affected speech and social pretension mask emotional insecurity and lack of genuine empathy, making him a stock miles gloriosus figure whose personality combines high extraversion and openness with low conscientiousness and agreeablen"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.7,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": -0.7,\n  \"E\": 0.7,\n  \"A\": -0.6,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critics consistently highlight Armado's highly imaginative, unconventional language and self-presentation (Openness), his lack of practical discipline (low Conscientiousness), his performative and attention-seeking nature (Extraversion), his self-absorption and lack of genuine empathy (low Agreeableness), and his theatrical emotionality and underlying insecurity (Neuroticism), as discu"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8454,
+            "C": 0.0102,
+            "E": 0.6166,
+            "A": 0.2202,
+            "N": 0.1747
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:58:48.791504+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001869
+        }
+      ]
+    },
+    {
+      "coref_id": "char_costard",
+      "character_name": "Costard",
+      "quote_count": 83,
+      "consensus_ocean": {
+        "O": 0.10985199999999999,
+        "C": -0.603088,
+        "E": 0.523448,
+        "A": 0.462348,
+        "N": -0.204364
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": 0.7,
+            "A": 0.6,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": 0.7, \"A\": 0.6, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Costard is often viewed as a comic character who embodies a certain level of wit and social energy, but his lack of discipline and reliability suggests a more carefree and less conscientious nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.6,
+            "E": 0.7,
+            "A": 0.4,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.6,\n  \"E\": 0.7,\n  \"A\": 0.4,\n  \"N\": 0.2,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Costard is a rustic clown characterized by malapropism and verbal bungling rather than imaginative depth; scholars note his low conscientiousness (unreliability, poor judgment) and high extraversion (garrulous, socially engaged), with moderate agreeableness reflecting his good-natured but opportunistic nature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.9,
+            "E": 0.4,
+            "A": 0.7,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.9,\n  \"E\": 0.4,\n  \"A\": 0.7,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus identifies Costard as a simple, good-natured rustic whose lack of education leads to linguistic humor and unreliability, but who remains emotionally stable and socially engaged.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2209,
+            "C": -0.4396,
+            "E": 0.3266,
+            "A": 0.1941,
+            "N": -0.3013
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:59:28.642579+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001716
+        }
+      ]
+    },
+    {
+      "coref_id": "char_boyet",
+      "character_name": "Boyet",
+      "quote_count": 79,
+      "consensus_ocean": {
+        "O": 0.510156,
+        "C": 0.26050399999999996,
+        "E": 0.524996,
+        "A": 0.165292,
+        "N": -0.139048
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.0,
+            "E": 0.6,
+            "A": 0.5,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.7, \"C\": 0.0, \"E\": 0.6, \"A\": 0.5, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Boyet is often seen as a witty and clever character who embodies a playful curiosity and social energy, though he lacks the discipline and reliability associated with higher conscientiousness.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.3,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Boyet is a minor courtier whose personality receives limited sustained critical attention; scholars note his role as witty messenger and observer rather than as a psychologically complex character warranting deep analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily focuses on Boyet's dramatic function as a witty observer and messenger, rather than offering in-depth psychological analysis of his personality traits, making a confident Big Five assessment based on critical consensus impossible.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7077,
+            "C": 0.5018,
+            "E": 0.7607,
+            "A": 0.4189,
+            "N": -0.4966
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:59:56.078662+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002081
+        }
+      ]
+    },
+    {
+      "coref_id": "char_moth",
+      "character_name": "Moth",
+      "quote_count": 78,
+      "consensus_ocean": {
+        "O": 0.542084,
+        "C": -0.19305599999999998,
+        "E": 0.4544119999999999,
+        "A": -0.10595599999999998,
+        "N": -0.24894
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Moth is a minor character in 'Love's Labour's Lost' and has not been the focus of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.4,
+            "E": 0.7,
+            "A": -0.2,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": -0.4,\n  \"E\": 0.7,\n  \"A\": -0.2,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Moth is a minor page character with limited textual presence; published criticism treats him primarily as a witty, quick-tongued servant-attendant whose verbal cleverness and social performance dominate his characterization, but sustained personality analysis is sparse in major scholarly works.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.2,
+            "E": 0.7,
+            "A": -0.6,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.2,\n  \"E\": 0.7,\n  \"A\": -0.6,\n  \"N\": -0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently emphasizes Moth's exceptional wit, intellectual agility, and role as a clever, often mischievous, foil to Armado, indicating high openness and extraversion, but lower agreeableness and neuroticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6503,
+            "C": -0.1752,
+            "E": 0.4229,
+            "A": 0.3073,
+            "N": -0.4605
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:00:29.481726+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001646
+        }
+      ]
+    },
+    {
+      "coref_id": "char_rosaline",
+      "character_name": "Rosaline",
+      "quote_count": 74,
+      "consensus_ocean": {
+        "O": 0.678028,
+        "C": 0.28364,
+        "E": 0.6031920000000001,
+        "A": 0.07425199999999998,
+        "N": -0.170948
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.3,
+            "A": 0.2,
+            "N": 0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.3, \"A\": 0.2, \"N\": 0.1, \"confidence\": \"medium\", \"rationale\": \"Rosaline is often interpreted as a witty and intelligent character who exhibits a degree of independence and playfulness, but her role is limited, leading to less extensive critical analysis.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": 0.45,
+            "E": 0.7,
+            "A": 0.35,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": 0.45,\n  \"E\": 0.70,\n  \"A\": 0.35,\n  \"N\": 0.40,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Rosaline is characterized in critical tradition (e.g., Bloom, Frye, and modern feminist criticism) as witty, verbally inventive, and socially commanding, yet emotionally guarded and resistant to romantic convention, making her moderately open and extraverted but lower in agreeableness due to her sharp mockery and emotional reserve.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.3,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.3,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism frequently emphasizes Rosaline's sharp wit, intellectual independence, and assertive nature, particularly in her challenging interactions with Berowne and her demand for his penance, indicating high openness, extraversion, and conscientiousness, with lower agreeableness and neuroticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7501,
+            "C": 0.113,
+            "E": 0.6114,
+            "A": 0.0509,
+            "N": -0.4391
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:01:07.480023+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001642
+        }
+      ]
+    },
+    {
+      "coref_id": "char_dumaine",
+      "character_name": "Dumaine",
+      "quote_count": 55,
+      "consensus_ocean": {
+        "O": 0.39976,
+        "C": 0.020476,
+        "E": 0.33799999999999997,
+        "A": 0.311496,
+        "N": 0.12394399999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.742,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.5, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Dumaine is often seen as a character who exhibits a blend of curiosity and social engagement, but he remains somewhat underexplored in critical literature, leading to moderate confidence in these assessments.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.2,
+            "E": 0.5,
+            "A": 0.1,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.2,\n  \"E\": 0.5,\n  \"A\": 0.1,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Dumaine is a minor courtier in Love's Labour's Lost with limited individual characterization in published criticism; scholars typically treat him as part of the undifferentiated trio of lords rather than as a distinct personality, making confident trait assessment unreliable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats Dumaine as a minor character, offering little specific psychological analysis beyond his role as one of the King's companions who breaks his vow, thus precluding a detailed assessment of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.742,
+            "C": -0.0983,
+            "E": 0.35,
+            "A": 0.5982,
+            "N": 0.0998
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:01:48.167555+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001119
+        }
+      ]
+    },
+    {
+      "coref_id": "char_holofernes",
+      "character_name": "Holofernes",
+      "quote_count": 54,
+      "consensus_ocean": {
+        "O": 0.48704400000000003,
+        "C": 0.47216800000000003,
+        "E": 0.559872,
+        "A": -0.569308,
+        "N": -0.046187999999999986
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0823,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.2,
+            "A": -0.3,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.2, \"A\": -0.3, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Holofernes is often viewed as a pedantic and somewhat pretentious character, reflecting a moderate level of openness and neuroticism, while his agreeableness is diminished by his critical and condescending nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Holofernes is consistently read by scholars as a pedantic, verbose schoolmaster whose ostentatious display of linguistic learning (malapropisms, Latinate affectation) masks shallow understanding; critics from the Variorum editions onward note his social ambition and performative extraversion coupled with arrogance and lack of genuine empathy for others' perspectives.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.9,
+            "E": 0.7,
+            "A": -0.8,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.9,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": -0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus identifies Holofernes as a caricature of pedantry, characterized by his rigid adherence to linguistic rules, ostentatious display of learning, and condescending corrections of others, reflecting his low agreeableness and high conscientiousness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8823,
+            "C": 0.4006,
+            "E": 0.5424,
+            "A": -0.5761,
+            "N": -0.4221
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:02:24.765959+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001802
+        }
+      ]
+    }
+  ]
+}

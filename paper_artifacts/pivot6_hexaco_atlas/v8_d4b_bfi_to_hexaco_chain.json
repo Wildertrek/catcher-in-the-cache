@@ -1,0 +1,896 @@
+{
+  "version": "v8_d4b",
+  "k_neighbors": 5,
+  "embedding_model": "text-embedding-3-small",
+  "n_bfi_items": 44,
+  "n_hexaco_markers": 66,
+  "ocean_factors": [
+    "Openness",
+    "Conscientiousness",
+    "Extraversion",
+    "Agreeableness",
+    "Neuroticism"
+  ],
+  "hexaco_factors": [
+    "Honesty-Humility",
+    "Emotionality",
+    "Extraversion",
+    "Agreeableness",
+    "Conscientiousness",
+    "Openness to Experience"
+  ],
+  "ocean_to_hexaco_chain_W": [
+    [
+      0.03950649874134845,
+      0.05887932067007416,
+      0.037903155081570675,
+      0.0,
+      0.1,
+      0.7637110255070068
+    ],
+    [
+      0.08678764528544597,
+      0.08443337517137245,
+      0.0418258413981905,
+      0.021743551241700923,
+      0.7201691688040964,
+      0.04504041809919381
+    ],
+    [
+      0.08902042369426313,
+      0.17155276397721406,
+      0.6176399729048803,
+      0.0725785352466923,
+      0.0,
+      0.049208304176950296
+    ],
+    [
+      0.1779099403573729,
+      0.1347629486871999,
+      0.13255992519341697,
+      0.5330141420370913,
+      0.0217530437249189,
+      0.0
+    ],
+    [
+      0.0,
+      0.9099161070216999,
+      0.04457028937596173,
+      0.02253773128715476,
+      0.022975872315183644,
+      0.0
+    ]
+  ],
+  "per_bfi_item_predictions": [
+    {
+      "item_id": "bfi01",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi02",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.19618331337711886,
+        0.41602404711938684,
+        0.1920152459792243,
+        0.0,
+        0.1957773935242701,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi03",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi04",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        0.8297503641624268,
+        0.1702496358375733,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi05",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "item_id": "bfi06",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.245828265789741,
+        0.19566105075834697,
+        0.3718099209339215,
+        0.0,
+        0.0,
+        0.18670076251799053
+      ]
+    },
+    {
+      "item_id": "bfi07",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.19946081224875806,
+        0.0,
+        0.0,
+        0.8005391877512419,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi08",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.19606918129408626,
+        0.20287509463786121,
+        0.0,
+        0.19569196117530832,
+        0.0,
+        0.4053637628927443
+      ]
+    },
+    {
+      "item_id": "bfi09",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        0.6298803423084104,
+        0.18631267917012054,
+        0.0,
+        0.18380697852146916,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi10",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "item_id": "bfi11",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi12",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.0,
+        0.3906342475099829,
+        0.609365752490017,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi13",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.39130150371957884,
+        0.0,
+        0.0,
+        0.0,
+        0.6086984962804212,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi14",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi15",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "item_id": "bfi16",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi17",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi18",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.15594541991768304,
+        0.0,
+        0.0,
+        0.844054580082317,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi19",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi20",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.3790315508157067,
+        0.0,
+        0.0,
+        0.6209684491842933
+      ]
+    },
+    {
+      "item_id": "bfi21",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.24559513287901807,
+        0.1955807238319736,
+        0.3727002763796577,
+        0.1861238669093506,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi22",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Honesty-Humility",
+      "soft_distribution": [
+        0.8045514145730023,
+        0.0,
+        0.1954485854269977,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi23",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.19371812255534862,
+        0.0,
+        0.18835191861306033,
+        0.0,
+        0.6179299588315911,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi24",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi25",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "item_id": "bfi26",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.0,
+        0.2019203281127378,
+        0.19660958592546254,
+        0.3945044150641878,
+        0.0,
+        0.2069656708976118
+      ]
+    },
+    {
+      "item_id": "bfi27",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.0,
+        0.4062082435554295,
+        0.0,
+        0.5937917564445705,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi28",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi29",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi30",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.20124480463437538,
+        0.0,
+        0.0,
+        0.0,
+        0.7987551953656247
+      ]
+    },
+    {
+      "item_id": "bfi31",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.22073999088534602,
+        0.779260009114654,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi32",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi33",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi34",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        0.8196981497027619,
+        0.0,
+        0.18030185029723808,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi35",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi36",
+      "bfi_factor": "Extraversion",
+      "predicted_hexaco_top1": "Extraversion",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi37",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.20528119929323074,
+        0.0,
+        0.0,
+        0.7947188007067693,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi38",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi39",
+      "bfi_factor": "Neuroticism",
+      "predicted_hexaco_top1": "Emotionality",
+      "soft_distribution": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi40",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "item_id": "bfi41",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.2085417066034788,
+        0.20156021769326612,
+        0.0,
+        0.0,
+        0.0,
+        0.589898075703255
+      ]
+    },
+    {
+      "item_id": "bfi42",
+      "bfi_factor": "Agreeableness",
+      "predicted_hexaco_top1": "Agreeableness",
+      "soft_distribution": [
+        0.19571272372424628,
+        0.0,
+        0.19620974284451387,
+        0.6080775334312398,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi43",
+      "bfi_factor": "Conscientiousness",
+      "predicted_hexaco_top1": "Conscientiousness",
+      "soft_distribution": [
+        0.0,
+        0.40107986198680773,
+        0.18808065397065415,
+        0.0,
+        0.4108394840425381,
+        0.0
+      ]
+    },
+    {
+      "item_id": "bfi44",
+      "bfi_factor": "Openness",
+      "predicted_hexaco_top1": "Openness to Experience",
+      "soft_distribution": [
+        0.18652328081000571,
+        0.18598818437310016,
+        0.0,
+        0.0,
+        0.0,
+        0.6274885348168942
+      ]
+    }
+  ],
+  "ipip_holdout_validation": {
+    "n_items": 50,
+    "accuracy_top1": 0.72,
+    "threshold": 0.55,
+    "validated": true,
+    "per_item_predictions": [
+      {
+        "item_id": 1,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 2,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 3,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 4,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 5,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 6,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 7,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 8,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 9,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 10,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 11,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 12,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 13,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 14,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 15,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 16,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 17,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 18,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 19,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 20,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 21,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 22,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 23,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 24,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 25,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 26,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 27,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 28,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 29,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 30,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 31,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 32,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 33,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 34,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 35,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 36,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 37,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 38,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Honesty-Humility"
+      },
+      {
+        "item_id": 39,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 40,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 41,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 42,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 43,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 44,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 45,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      },
+      {
+        "item_id": 46,
+        "expected_ocean": "Extraversion",
+        "predicted_hexaco": "Extraversion"
+      },
+      {
+        "item_id": 47,
+        "expected_ocean": "Agreeableness",
+        "predicted_hexaco": "Agreeableness"
+      },
+      {
+        "item_id": 48,
+        "expected_ocean": "Conscientiousness",
+        "predicted_hexaco": "Conscientiousness"
+      },
+      {
+        "item_id": 49,
+        "expected_ocean": "Neuroticism",
+        "predicted_hexaco": "Emotionality"
+      },
+      {
+        "item_id": 50,
+        "expected_ocean": "Openness",
+        "predicted_hexaco": "Openness to Experience"
+      }
+    ]
+  }
+}

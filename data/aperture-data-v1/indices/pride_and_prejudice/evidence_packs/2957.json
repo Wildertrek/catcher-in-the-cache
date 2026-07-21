@@ -1,0 +1,101 @@
+{
+  "coref_id": "2957",
+  "character_name": "her intended son",
+  "quote_count": 3,
+  "mention_count": 84,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "2952",
+      2
+    ],
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I admire all my three sons - in - law highly , \u201d",
+      "mention_text": "he",
+      "quote_start": 149302,
+      "quote_end": 149315,
+      "addressee_coref_id": "2952",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c My dearest child , \u201d"
+        },
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c I can think of nothing else . Ten thousand a year , and very likely more ! \u2019 Tis as good as a lord ! And a special licence -- you must and shall be married by a special licence . But , my dearest love , tell me what dish Mr. Darcy is particularly fond of , that I may have it to - morrow . \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c Wickham , perhaps , is my favourite ; but I think I shall like _ your _ husband quite as well as Jane \u2019s . \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c The obsequious civility . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Wickham , perhaps , is my favourite ; but I think I shall like _ your _ husband quite as well as Jane \u2019s . \u201d",
+      "mention_text": "he",
+      "quote_start": 149319,
+      "quote_end": 149345,
+      "addressee_coref_id": "2952",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2952",
+          "quote_text": "\u201c I can think of nothing else . Ten thousand a year , and very likely more ! \u2019 Tis as good as a lord ! And a special licence -- you must and shall be married by a special licence . But , my dearest love , tell me what dish Mr. Darcy is particularly fond of , that I may have it to - morrow . \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c I admire all my three sons - in - law highly , \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c The obsequious civility . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c How could you begin ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The obsequious civility . \u201d",
+      "mention_text": "he",
+      "quote_start": 149349,
+      "quote_end": 149354,
+      "addressee_coref_id": "107",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c I admire all my three sons - in - law highly , \u201d"
+        },
+        {
+          "speaker_coref_id": "2957",
+          "quote_text": "\u201c Wickham , perhaps , is my favourite ; but I think I shall like _ your _ husband quite as well as Jane \u2019s . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c How could you begin ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I can comprehend your going on charmingly , when you had once made a beginning ; but what could set you off in the first place ? \u201d"
+        }
+      ]
+    }
+  ]
+}

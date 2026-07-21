@@ -1,0 +1,560 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "1241",
+      "character_name": "The Creature",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5519481481481482,
+        "C": 0.3506074074074074,
+        "E": -0.5418296296296297,
+        "A": -0.09575185185185182,
+        "N": 0.7775666666666666
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8939,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.678,
+            "C": 0.44,
+            "E": -0.646,
+            "A": 0.136,
+            "N": 0.789
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "1837-2990-2-PB.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "2506-8328-1-PB.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Badii2021_Frankenstein_or_modern_Prometheus.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Canepari2019_It_Could_Worse_Could.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Erle2020_Monsters_interdisciplinary_explorations_monstrosity.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fakhruddin2015_internal_conflict_faced_Victor.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Thawait2020_Asian_Conference_Arts_amp.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Unknown2020_Mary_Shelleys_Frankenstein.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "gayatri_spivak_three_womens_texts_and_a_critique_of_imperialism.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_719605.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0130zel2011_Analysis_comparison_main_evil.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.678,
+              "confidence_interval": [
+                0.441,
+                0.916
+              ],
+              "n_sources": 9,
+              "std_dev": 0.121
+            },
+            "C": {
+              "score": 0.44,
+              "confidence_interval": [
+                -0.488,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.473
+            },
+            "E": {
+              "score": -0.646,
+              "confidence_interval": [
+                -0.966,
+                -0.325
+              ],
+              "n_sources": 8,
+              "std_dev": 0.163
+            },
+            "A": {
+              "score": 0.136,
+              "confidence_interval": [
+                -0.966,
+                1.0
+              ],
+              "n_sources": 10,
+              "std_dev": 0.562
+            },
+            "N": {
+              "score": 0.789,
+              "confidence_interval": [
+                0.663,
+                0.915
+              ],
+              "n_sources": 9,
+              "std_dev": 0.064
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1918,
+            "C": 0.0952,
+            "E": -0.2442,
+            "A": -0.7579,
+            "N": 0.7449
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:12:36.023466+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000992
+        }
+      ]
+    },
+    {
+      "coref_id": "0",
+      "character_name": "Victor Frankenstein",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7270333333333334,
+        "C": -0.2316666666666667,
+        "E": -0.5227,
+        "A": -0.4763333333333334,
+        "N": 0.5557666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6547,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.787,
+            "C": -0.292,
+            "E": -0.459,
+            "A": -0.634,
+            "N": 0.774
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Badii2021_Frankenstein_or_modern_Prometheus.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Canepari2019_It_Could_Worse_Could.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Erle2020_Monsters_interdisciplinary_explorations_monstrosity.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fakhruddin2015_internal_conflict_faced_Victor.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Giordano2023_Defense_Mechanisms_Victor_Frankensteins.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Shelton2019_Anthony_Carlisle_Mary_Shelley.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Szollosy2016_Freud_Frankenstein_our_fear.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "TAN2021_QUIXOTIC_IDEALISM_MORAL_DECAY.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Unknown2020_Mary_Shelleys_Frankenstein.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "gayatri_spivak_three_womens_texts_and_a_critique_of_imperialism.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0130zel2011_Analysis_comparison_main_evil.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.787,
+              "confidence_interval": [
+                0.686,
+                0.888
+              ],
+              "n_sources": 11,
+              "std_dev": 0.051
+            },
+            "C": {
+              "score": -0.292,
+              "confidence_interval": [
+                -1.0,
+                0.652
+              ],
+              "n_sources": 11,
+              "std_dev": 0.482
+            },
+            "E": {
+              "score": -0.459,
+              "confidence_interval": [
+                -0.556,
+                -0.363
+              ],
+              "n_sources": 3,
+              "std_dev": 0.049
+            },
+            "A": {
+              "score": -0.634,
+              "confidence_interval": [
+                -0.865,
+                -0.403
+              ],
+              "n_sources": 11,
+              "std_dev": 0.118
+            },
+            "N": {
+              "score": 0.774,
+              "confidence_interval": [
+                0.528,
+                1.0
+              ],
+              "n_sources": 8,
+              "std_dev": 0.126
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6071,
+            "C": -0.111,
+            "E": -0.6501,
+            "A": -0.161,
+            "N": 0.1193
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:13:07.409595+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00197
+        }
+      ]
+    },
+    {
+      "coref_id": "125",
+      "character_name": "Henry Clerval",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5630823529411766,
+        "C": 0.6381941176470588,
+        "E": 0.5478058823529413,
+        "A": 0.783464705882353,
+        "N": -0.38545882352941174
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4504,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.556,
+            "C": 0.7,
+            "E": 0.5,
+            "A": 0.7,
+            "N": -0.2
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "TAN2021_QUIXOTIC_IDEALISM_MORAL_DECAY.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Thawait2020_Asian_Conference_Arts_amp.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Unknown2020_Mary_Shelleys_Frankenstein.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "gayatri_spivak_three_womens_texts_and_a_critique_of_imperialism.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.556,
+              "confidence_interval": [
+                0.459,
+                0.653
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.5,
+                0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5732,
+            "C": 0.5499,
+            "E": 0.6161,
+            "A": 0.9027,
+            "N": -0.6504
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:13:35.410575+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002212
+        }
+      ]
+    },
+    {
+      "coref_id": "123",
+      "character_name": "Elizabeth Lavenza",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6013823529411764,
+        "C": 0.6026,
+        "E": 0.3617000000000001,
+        "A": 0.6521882352941176,
+        "N": -0.4913
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3696,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.7,
+            "A": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "gayatri_spivak_three_womens_texts_and_a_critique_of_imperialism.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4605,
+            "C": 0.6026,
+            "E": 0.3617,
+            "A": 0.8696,
+            "N": -0.4913
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:14:22.531913+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002028
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

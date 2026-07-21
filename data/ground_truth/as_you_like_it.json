@@ -1,0 +1,203 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_gemini_handoff"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_rosalind",
+      "character_name": "Rosalind",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8279757575757577,
+        "C": 0.47699393939393947,
+        "E": 0.7453606060606062,
+        "A": 0.7148424242424244,
+        "N": -0.6016121212121213
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6924,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "SGT",
+          "subtype": "authoritative",
+          "weight": 0.8,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.5,
+            "E": 0.8,
+            "A": 0.9,
+            "N": -0.9
+          },
+          "citation": "Zimbardo & Johnson (2024), Psychology According to Shakespeare, Prometheus Books",
+          "scholarly_sources": [
+            {
+              "paper": "Zimbardo & Johnson (2024), Psychology According to Shakespeare, Prometheus Books",
+              "framework": "psychometric",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "confidence": "high",
+          "added_from": "gemini_handoff_2026-04-10",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.6000000000000001,
+                1
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.5,
+              "confidence_interval": [
+                0.2,
+                0.8
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.5,
+                1
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.6000000000000001,
+                1
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1,
+                -0.6000000000000001
+              ],
+              "n_sources": 1,
+              "std_dev": 0.0
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.65,
+            "C": 0.4,
+            "E": 0.65,
+            "A": 0.4,
+            "N": -0.4
+          },
+          "citation": "Gay (1994) As She Likes It, Routledge; Rahman (2020) Masculinity of Rosalind, Hill Publishing Group",
+          "scholarly_sources": [
+            {
+              "paper": "Gay1994_As_She_Likes_It_Routledge.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rahman2020_Masculinity_Rosalind_Hill_Publishing.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": "medium",
+          "added_from": "swarm_research_2026-04-13",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "C": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "E": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.35,
+                0.95
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "A": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.9176,
+            "C": 0.5344,
+            "E": 0.7567,
+            "A": 0.7414,
+            "N": -0.2076
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:40:10.385129+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002384
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

@@ -1,0 +1,158 @@
+{
+  "computed_at": "2026-04-29",
+  "method": "Spearman 1904 attenuation correction; reliability proxy = 1 - mean|r within-method heterotrait| (Schmitt & Stults 1986 style)",
+  "reliability_per_method": {
+    "M2_classifier": {
+      "n_within_cells": 20,
+      "mean_abs_within_r": 0.25076000000000004,
+      "reliability_proxy": 0.7492399999999999
+    },
+    "M3_regressor": {
+      "n_within_cells": 20,
+      "mean_abs_within_r": 0.18178000000000002,
+      "reliability_proxy": 0.81822
+    },
+    "M4_consensus": {
+      "n_within_cells": 20,
+      "mean_abs_within_r": 0.20053,
+      "reliability_proxy": 0.79947
+    },
+    "M5_probe": {
+      "n_within_cells": 20,
+      "mean_abs_within_r": 0.14866,
+      "reliability_proxy": 0.85134
+    },
+    "M6_scpi": {
+      "n_within_cells": 20,
+      "mean_abs_within_r": 0.25734,
+      "reliability_proxy": 0.74266
+    }
+  },
+  "disattenuated_pairs": [
+    {
+      "pair": "M2_classifier <-> M3_regressor",
+      "method_a": "M2_classifier",
+      "method_b": "M3_regressor",
+      "obs_r": 0.2643,
+      "rel_a": 0.7492399999999999,
+      "rel_b": 0.81822,
+      "denom_sqrt_rel": 0.7829707228242956,
+      "disatt_r": 0.3375605144552906,
+      "disatt_r_uncapped": 0.3375605144552906,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M2_classifier <-> M4_consensus",
+      "method_a": "M2_classifier",
+      "method_b": "M4_consensus",
+      "obs_r": 0.2278,
+      "rel_a": 0.7492399999999999,
+      "rel_b": 0.79947,
+      "denom_sqrt_rel": 0.7739476098548272,
+      "disatt_r": 0.2943351682974116,
+      "disatt_r_uncapped": 0.2943351682974116,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M2_classifier <-> M5_probe",
+      "method_a": "M2_classifier",
+      "method_b": "M5_probe",
+      "obs_r": 0.201,
+      "rel_a": 0.7492399999999999,
+      "rel_b": 0.85134,
+      "denom_sqrt_rel": 0.798660116445037,
+      "disatt_r": 0.2516715131521566,
+      "disatt_r_uncapped": 0.2516715131521566,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M2_classifier <-> M6_scpi",
+      "method_a": "M2_classifier",
+      "method_b": "M6_scpi",
+      "obs_r": 0.02,
+      "rel_a": 0.7492399999999999,
+      "rel_b": 0.74266,
+      "denom_sqrt_rel": 0.7459427447197271,
+      "disatt_r": 0.026811709265319814,
+      "disatt_r_uncapped": 0.026811709265319814,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M3_regressor <-> M4_consensus",
+      "method_a": "M3_regressor",
+      "method_b": "M4_consensus",
+      "obs_r": 0.841,
+      "rel_a": 0.81822,
+      "rel_b": 0.79947,
+      "denom_sqrt_rel": 0.8087906672310209,
+      "disatt_r": 1.0,
+      "disatt_r_uncapped": 1.0398240658231765,
+      "saturated_at_1": true
+    },
+    {
+      "pair": "M3_regressor <-> M5_probe",
+      "method_a": "M3_regressor",
+      "method_b": "M5_probe",
+      "obs_r": 0.6641,
+      "rel_a": 0.81822,
+      "rel_b": 0.85134,
+      "denom_sqrt_rel": 0.8346157288237503,
+      "disatt_r": 0.7956955243773522,
+      "disatt_r_uncapped": 0.7956955243773522,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M3_regressor <-> M6_scpi",
+      "method_a": "M3_regressor",
+      "method_b": "M6_scpi",
+      "obs_r": 0.3329,
+      "rel_a": 0.81822,
+      "rel_b": 0.74266,
+      "denom_sqrt_rel": 0.7795250253840476,
+      "disatt_r": 0.42705492339516693,
+      "disatt_r_uncapped": 0.42705492339516693,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M4_consensus <-> M5_probe",
+      "method_a": "M4_consensus",
+      "method_b": "M5_probe",
+      "obs_r": 0.6893,
+      "rel_a": 0.79947,
+      "rel_b": 0.85134,
+      "denom_sqrt_rel": 0.8249974483596904,
+      "disatt_r": 0.835517735685738,
+      "disatt_r_uncapped": 0.835517735685738,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M4_consensus <-> M6_scpi",
+      "method_a": "M4_consensus",
+      "method_b": "M6_scpi",
+      "obs_r": 0.2551,
+      "rel_a": 0.79947,
+      "rel_b": 0.74266,
+      "denom_sqrt_rel": 0.7705416213287897,
+      "disatt_r": 0.3310658281639389,
+      "disatt_r_uncapped": 0.3310658281639389,
+      "saturated_at_1": false
+    },
+    {
+      "pair": "M5_probe <-> M6_scpi",
+      "method_a": "M5_probe",
+      "method_b": "M6_scpi",
+      "obs_r": 0.3304,
+      "rel_a": 0.85134,
+      "rel_b": 0.74266,
+      "denom_sqrt_rel": 0.7951453731236823,
+      "disatt_r": 0.41552150231603924,
+      "disatt_r_uncapped": 0.41552150231603924,
+      "saturated_at_1": false
+    }
+  ],
+  "caveats": [
+    "Reliability proxy assumes within-method heterotrait r is pure method effect (overstates reliability if traits genuinely correlate).",
+    "Disattenuation can exceed 1.0 when reliability proxies are noisy or method overlap is high; we cap at 1.0 in the reported value and flag saturation.",
+    "Single-indicator setting: no internal consistency reliability available; the proxy is an upper bound."
+  ]
+}

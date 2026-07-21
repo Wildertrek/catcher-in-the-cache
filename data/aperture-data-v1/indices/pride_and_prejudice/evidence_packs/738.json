@@ -1,0 +1,291 @@
+{
+  "coref_id": "738",
+  "character_name": "I",
+  "quote_count": 10,
+  "mention_count": 12,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "102",
+      3
+    ],
+    [
+      "126",
+      2
+    ],
+    [
+      "107",
+      2
+    ],
+    [
+      "106",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Whatever I do is done in a hurry , \u201d",
+      "mention_text": "he",
+      "quote_start": 21174,
+      "quote_end": 21184,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c if it was not for such good friends , I do not know what would become of her , for she is very ill indeed , and suffers a vast deal , though with the greatest patience in the world , which is always the way with her , for she has , without exception , the sweetest temper I ever met with . I often tell my other girls they are nothing to _ her _ . You have a sweet room here , Mr. Bingley , and a charming prospect over that gravel walk . I do not know a place in the country that is equal to Netherfield . You will not think of quitting it in a hurry , I hope , though you have but a short lease . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c and therefore if I should resolve to quit Netherfield , I should probably be off in five minutes . At present , however , I consider myself as quite fixed here . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is exactly what I should have supposed of you , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and therefore if I should resolve to quit Netherfield , I should probably be off in five minutes . At present , however , I consider myself as quite fixed here . \u201d",
+      "mention_text": "he",
+      "quote_start": 21188,
+      "quote_end": 21221,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c if it was not for such good friends , I do not know what would become of her , for she is very ill indeed , and suffers a vast deal , though with the greatest patience in the world , which is always the way with her , for she has , without exception , the sweetest temper I ever met with . I often tell my other girls they are nothing to _ her _ . You have a sweet room here , Mr. Bingley , and a charming prospect over that gravel walk . I do not know a place in the country that is equal to Netherfield . You will not think of quitting it in a hurry , I hope , though you have but a short lease . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Whatever I do is done in a hurry , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is exactly what I should have supposed of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c You begin to comprehend me , do you ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You begin to comprehend me , do you ? \u201d",
+      "mention_text": "he",
+      "quote_start": 21238,
+      "quote_end": 21248,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c and therefore if I should resolve to quit Netherfield , I should probably be off in five minutes . At present , however , I consider myself as quite fixed here . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is exactly what I should have supposed of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Oh yes -- I understand you perfectly . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c I wish I might take this for a compliment ; but to be so easily seen through , I am afraid , is pitiful . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh yes -- I understand you perfectly . \u201d",
+      "mention_text": "he",
+      "quote_start": 21256,
+      "quote_end": 21265,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c That is exactly what I should have supposed of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c You begin to comprehend me , do you ? \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c I wish I might take this for a compliment ; but to be so easily seen through , I am afraid , is pitiful . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c That is as it happens . It does not necessarily follow that a deep , intricate character is more or less estimable than such a one as yours . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I wish I might take this for a compliment ; but to be so easily seen through , I am afraid , is pitiful . \u201d",
+      "mention_text": "he",
+      "quote_start": 21266,
+      "quote_end": 21292,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c You begin to comprehend me , do you ? \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Oh yes -- I understand you perfectly . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c That is as it happens . It does not necessarily follow that a deep , intricate character is more or less estimable than such a one as yours . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Lizzy , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c That is as it happens . It does not necessarily follow that a deep , intricate character is more or less estimable than such a one as yours . \u201d",
+      "mention_text": "he",
+      "quote_start": 21293,
+      "quote_end": 21323,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Oh yes -- I understand you perfectly . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c I wish I might take this for a compliment ; but to be so easily seen through , I am afraid , is pitiful . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Lizzy , \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c remember where you are , and do not run on in the wild manner that you are suffered to do at home . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Lizzy , \u201d",
+      "mention_text": "he",
+      "quote_start": 21324,
+      "quote_end": 21327,
+      "addressee_coref_id": "102",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c I wish I might take this for a compliment ; but to be so easily seen through , I am afraid , is pitiful . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c That is as it happens . It does not necessarily follow that a deep , intricate character is more or less estimable than such a one as yours . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c remember where you are , and do not run on in the wild manner that you are suffered to do at home . \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I did not know before , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c remember where you are , and do not run on in the wild manner that you are suffered to do at home . \u201d",
+      "mention_text": "he",
+      "quote_start": 21332,
+      "quote_end": 21356,
+      "addressee_coref_id": "102",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c That is as it happens . It does not necessarily follow that a deep , intricate character is more or less estimable than such a one as yours . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Lizzy , \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I did not know before , \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c that you were a studier of character . It must be an amusing study . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes ; but intricate characters are the _ most _ amusing . They have at least that advantage . \u201d",
+      "mention_text": "he",
+      "quote_start": 21387,
+      "quote_end": 21407,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I did not know before , \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c that you were a studier of character . It must be an amusing study . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c The country , \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c can in general supply but few subjects for such a study . In a country neighbourhood you move in a very confined and unvarying society . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But people themselves alter so much , that there is something new to be observed in them for ever . \u201d",
+      "mention_text": "he",
+      "quote_start": 21444,
+      "quote_end": 21465,
+      "addressee_coref_id": "106",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c The country , \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c can in general supply but few subjects for such a study . In a country neighbourhood you move in a very confined and unvarying society . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes , indeed , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I assure you there is quite as much of _ that _ going on in the country as in town . \u201d"
+        }
+      ]
+    }
+  ]
+}

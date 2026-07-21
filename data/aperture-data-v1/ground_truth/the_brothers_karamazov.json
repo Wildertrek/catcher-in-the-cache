@@ -1,0 +1,1070 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "604",
+      "character_name": "Ivan Karamazov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4899666666666667,
+        "C": -0.19196666666666665,
+        "E": -0.23763333333333336,
+        "A": 0.08663333333333335,
+        "N": 0.5221333333333332
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9176,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.735,
+            "C": -0.411,
+            "E": -0.4,
+            "A": -0.095,
+            "N": 0.828
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Colgrove2019_Emotional_Impact_Evil_Philosophical.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.735,
+              "confidence_interval": [
+                0.608,
+                0.862
+              ],
+              "n_sources": 4,
+              "std_dev": 0.065
+            },
+            "C": {
+              "score": -0.411,
+              "confidence_interval": [
+                -0.606,
+                -0.217
+              ],
+              "n_sources": 3,
+              "std_dev": 0.099
+            },
+            "E": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.095,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.577
+            },
+            "N": {
+              "score": 0.828,
+              "confidence_interval": [
+                0.669,
+                0.987
+              ],
+              "n_sources": 3,
+              "std_dev": 0.081
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0001,
+            "C": 0.2461,
+            "E": 0.0871,
+            "A": 0.4499,
+            "N": -0.0896
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:01:59.542816+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000837
+        }
+      ]
+    },
+    {
+      "coref_id": "294",
+      "character_name": "Alyosha Karamazov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.702364705882353,
+        "C": 0.6135411764705883,
+        "E": -0.2117058823529412,
+        "A": 0.883335294117647,
+        "N": -0.09645294117647056
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7151,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.659,
+            "E": -0.25,
+            "A": 0.873,
+            "N": 0.198
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.659,
+              "confidence_interval": [
+                0.409,
+                0.91
+              ],
+              "n_sources": 4,
+              "std_dev": 0.128
+            },
+            "E": {
+              "score": -0.25,
+              "confidence_interval": [
+                -0.55,
+                0.05
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.873,
+              "confidence_interval": [
+                0.787,
+                0.96
+              ],
+              "n_sources": 4,
+              "std_dev": 0.044
+            },
+            "N": {
+              "score": 0.198,
+              "confidence_interval": [
+                -0.636,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.426
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8486,
+            "C": 0.5486,
+            "E": -0.157,
+            "A": 0.8981,
+            "N": -0.5171
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:02:34.788700+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001957
+        }
+      ]
+    },
+    {
+      "coref_id": "0",
+      "character_name": "Dmitri Karamazov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5918058823529412,
+        "C": -0.3309470588235294,
+        "E": 0.6737117647058825,
+        "A": 0.06108235294117648,
+        "N": 0.452
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.357,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.53,
+            "C": -0.19,
+            "E": 0.73,
+            "A": 0.159,
+            "N": 0.599
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kibalnik2022_Secret_Surveillance_Dostoevsky_Staraya.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.53,
+              "confidence_interval": [
+                0.44,
+                0.619
+              ],
+              "n_sources": 2,
+              "std_dev": 0.046
+            },
+            "C": {
+              "score": -0.19,
+              "confidence_interval": [
+                -1.0,
+                0.847
+              ],
+              "n_sources": 4,
+              "std_dev": 0.529
+            },
+            "E": {
+              "score": 0.73,
+              "confidence_interval": [
+                0.64,
+                0.819
+              ],
+              "n_sources": 2,
+              "std_dev": 0.046
+            },
+            "A": {
+              "score": 0.159,
+              "confidence_interval": [
+                -0.52,
+                0.838
+              ],
+              "n_sources": 3,
+              "std_dev": 0.346
+            },
+            "N": {
+              "score": 0.599,
+              "confidence_interval": [
+                0.392,
+                0.805
+              ],
+              "n_sources": 3,
+              "std_dev": 0.105
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6801,
+            "C": -0.5323,
+            "E": 0.5933,
+            "A": -0.0788,
+            "N": 0.242
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:03:07.273482+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002307
+        }
+      ]
+    },
+    {
+      "coref_id": "141",
+      "character_name": "Smerdyakov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1434,
+        "C": -0.4549823529411765,
+        "E": -0.6313,
+        "A": -0.7266882352941177,
+        "N": 0.6958823529411764
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8379,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.8,
+            "A": -0.858,
+            "N": 0.735
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kibalnik2022_Secret_Surveillance_Dostoevsky_Staraya.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.8,
+              "confidence_interval": [
+                -0.8,
+                -0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.858,
+              "confidence_interval": [
+                -0.955,
+                -0.762
+              ],
+              "n_sources": 3,
+              "std_dev": 0.049
+            },
+            "N": {
+              "score": 0.735,
+              "confidence_interval": [
+                0.586,
+                0.883
+              ],
+              "n_sources": 3,
+              "std_dev": 0.076
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1434,
+            "C": 0.0379,
+            "E": -0.6313,
+            "A": -0.5391,
+            "N": 0.64
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:03:38.273795+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002103
+        }
+      ]
+    },
+    {
+      "coref_id": "132",
+      "character_name": "Father Zossima",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7056588235294118,
+        "C": 0.6899647058823529,
+        "E": 0.3926941176470588,
+        "A": 0.9344176470588235,
+        "N": -0.5711529411764706
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2606,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.677,
+            "C": 0.743,
+            "E": 0.5,
+            "A": 0.889,
+            "N": -0.465
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kibalnik2022_Secret_Surveillance_Dostoevsky_Staraya.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.677,
+              "confidence_interval": [
+                0.595,
+                0.759
+              ],
+              "n_sources": 3,
+              "std_dev": 0.042
+            },
+            "C": {
+              "score": 0.743,
+              "confidence_interval": [
+                0.646,
+                0.841
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.889,
+              "confidence_interval": [
+                0.826,
+                0.951
+              ],
+              "n_sources": 5,
+              "std_dev": 0.032
+            },
+            "N": {
+              "score": -0.465,
+              "confidence_interval": [
+                -0.649,
+                -0.281
+              ],
+              "n_sources": 2,
+              "std_dev": 0.094
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7466,
+            "C": 0.6142,
+            "E": 0.2394,
+            "A": 0.9993,
+            "N": -0.7228
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:04:14.058013+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001999
+        }
+      ]
+    },
+    {
+      "coref_id": "143",
+      "character_name": "Fyodor Pavlovitch",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3741,
+        "C": -0.8004352941176471,
+        "E": 0.49360000000000004,
+        "A": -0.6324470588235294,
+        "N": 0.2847
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2418,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.9,
+            "A": -0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1.0,
+                -0.312
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3741,
+            "C": -0.6582,
+            "E": 0.4936,
+            "A": -0.6788,
+            "N": 0.2847
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:04:44.776866+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002256
+        }
+      ]
+    },
+    {
+      "coref_id": "140",
+      "character_name": "Grushenka",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.36540000000000006,
+        "C": -0.38609999999999994,
+        "E": 0.579,
+        "A": 0.050905882352941176,
+        "N": 0.2514
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0488,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.071
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.071,
+              "confidence_interval": [
+                -0.665,
+                0.807
+              ],
+              "n_sources": 3,
+              "std_dev": 0.375
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3654,
+            "C": -0.3861,
+            "E": 0.579,
+            "A": 0.0222,
+            "N": 0.2514
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:05:19.265251+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00184
+        }
+      ]
+    },
+    {
+      "coref_id": "5509",
+      "character_name": "Father Ferapont",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "C": 0.7,
+        "E": -0.8,
+        "A": -0.7
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.7,
+            "E": -0.8,
+            "A": -0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.8,
+              "confidence_interval": [
+                -1.0,
+                -0.212
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "596",
+      "character_name": "Rakitin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3271,
+        "C": -0.37126470588235294,
+        "E": 0.1709,
+        "A": -0.7967705882352941,
+        "N": 0.1903
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5555,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.6,
+            "A": -0.9
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Valentukonis2023_Eastern_Orthodox_Tradition_Light.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1.0,
+                -0.312
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3271,
+            "C": -0.0445,
+            "E": 0.1709,
+            "A": -0.6493,
+            "N": 0.1903
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:05:52.746679+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002496
+        }
+      ]
+    },
+    {
+      "coref_id": "193",
+      "character_name": "Katerina Ivanovna",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6398,
+        "C": 0.36458823529411766,
+        "E": 0.5056,
+        "A": -0.15118823529411762,
+        "N": 0.18610000000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3614,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.4,
+            "A": -0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Whitlock2016_Bowing_Forgiveness_Brothers_Karamazov.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6398,
+            "C": 0.314,
+            "E": 0.5056,
+            "A": 0.0614,
+            "N": 0.1861
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:06:28.619122+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001764
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

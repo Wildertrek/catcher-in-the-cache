@@ -1,0 +1,45 @@
+{
+  "coref_id": "1676",
+  "character_name": "she",
+  "quote_count": 1,
+  "mention_count": 20,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c You need not be frightened . I never heard any harm of her ; and I dare say she is one of the most tractable creatures in the world . She is a very great favourite with some ladies of my acquaintance , Mrs. Hurst and Miss Bingley . I think I have heard you say that you know them . \u201d",
+      "mention_text": "She",
+      "quote_start": 75204,
+      "quote_end": 75266,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c that is an advantage which he must divide with me . I am joined with him in the guardianship of Miss Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Are you , indeed ? And pray what sort of a guardian do you make ? Does your charge give you much trouble ? Young ladies of her age are sometimes a little difficult to manage ; and if she has the true Darcy spirit , she may like to have her own way . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I know them a little . Their brother is a pleasant , gentlemanlike man -- he is a great friend of Darcy \u2019s . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh yes , \u201d"
+        }
+      ]
+    }
+  ]
+}

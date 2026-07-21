@@ -1,0 +1,72 @@
+{
+  "analysis_date": "2026-05-17",
+  "purpose": "Post-SME-audit confound-controlled reanalysis of family clustering and alignment-regime claims",
+  "data": {
+    "n_models": 25,
+    "n_models_with_regime": 21,
+    "n_families": 10,
+    "n_regimes": 7
+  },
+  "regime_family_crosstab": {
+    "CAI": "4/4 Anthropic",
+    "RLHF": "5/5 OpenAI",
+    "Hybrid": "4/4 Google",
+    "RLHF-RAG": "1/1 Cohere",
+    "DPO": "5 models across Meta(2)+Qwen(2)+Gemma(1)",
+    "SFT-only": "2 models across DeepSeek(1)+Mistral(1)"
+  },
+  "two_way_anova": {
+    "model": "abs_r_H_A_HEX ~ C(alignment_regime) + C(family)",
+    "n": 21,
+    "R_squared": 0.8751282028854105,
+    "regime_F": 13.011333983790177,
+    "regime_p": 0.00016873205810634964,
+    "family_F": 10.512320112791475,
+    "family_p": 0.00022696788340057544
+  },
+  "likelihood_ratio_test_regime_adds_info_beyond_family": {
+    "family_only_LL": 35.622285905857936,
+    "family_plus_regime_LL": 35.622285905857936,
+    "LR_stat": 0.0,
+    "df": 5,
+    "p": 1.0,
+    "interpretation": "regime does NOT add info beyond family \u2014 fully confounded in this manifest"
+  },
+  "family_only_singleton_collapsed": {
+    "description": "Family ANOVA with 4 singleton cells (Cohere, DeepSeek, Mistral, Gemma) collapsed to \"Other\"",
+    "n_models": 25,
+    "n_cells": 7,
+    "eta2": 0.7428132668699159,
+    "F": 8.664676336483538,
+    "p": 0.00016007419936977203,
+    "singletons_collapsed": [
+      "Cohere",
+      "DeepSeek",
+      "Mistral",
+      "Gemma"
+    ]
+  },
+  "family_eta2_bootstrap_ci": {
+    "n_resamples": 2000,
+    "mean": 0.7818867751614127,
+    "ci_lower_95": 0.5388894281529162,
+    "ci_upper_95": 0.9595473732676784
+  },
+  "per_family_means": {
+    "Google": 0.5871234882733634,
+    "xAI": 0.6478072978656819,
+    "DeepSeek": 0.6620303879158854,
+    "Gemma": 0.7129650425548061,
+    "Cohere": 0.725416493588152,
+    "Qwen": 0.7323981880127628,
+    "Mistral": 0.7572589081184884,
+    "Anthropic": 0.7748541005047036,
+    "OpenAI": 0.8304135434932778,
+    "Meta": 0.9211563561798434
+  },
+  "manuscript_implication": {
+    "regime_claim": "RETRACT. The five-bucket regime taxonomy is structurally collinear with provider for 4 of 6 cells (CAI=4/4 Anthropic, RLHF=5/5 OpenAI, Hybrid=4/4 Google, RLHF-RAG=1/1 Cohere). LRT p=1.000: regime adds zero information beyond family. Drop the \"alignment-regime-dependent\" claim from abstract, \u00a71, \u00a75, \u00a77. Move the 5-bucket taxonomy to \u00a76 limitations as known design flaw of the cross-rater atlas.",
+    "family_claim": "STRENGTHEN. Family clustering survives singleton-cell collapse (\u03b7\u00b2 = 0.743, p = 0.0002, vs original 0.755, p = 0.003 with singleton inflation). Bootstrap 95% CI [0.539, 0.960]. Report ICC permutation p = 0.003 as primary; report \u03b7\u00b2 with CI; acknowledge singleton inflation in original \u03b7\u00b2.",
+    "descriptive_finding": "Google is the family at lowest |r| (mean 0.587, n=4). Report this descriptively without regime framing. The mechanism question (why Google?) is now framed as descriptive in this paper, with the alignment-regime hypothesis queued for atlas v2 with 2+ providers per regime cell."
+  }
+}

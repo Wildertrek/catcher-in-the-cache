@@ -1,0 +1,563 @@
+book,coref_id,character_name,n_sources,tiers_present,source_types,sources_with_weights,has_AGT,has_SGT,has_PGT,has_MGT,has_CGT
+a_christmas_carol,40,Scrooge,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_christmas_carol,87,Bob,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_christmas_carol,88,Mrs. Cratchit,0,,,,False,False,False,False,False
+a_christmas_carol,1276,Spirit,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_christmas_carol,332,Ghost Of Marley,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_christmas_carol,190,Frederick,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_christmas_carol,90,Peter,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_dolls_house,char_nora,Nora,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_dolls_house,char_torvald_helmer,Helmer,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_dolls_house,char_mrs_linde,Mrs. Linden,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_dolls_house,char_nils_krogstad,Krogstad,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_dolls_house,char_doctor_rank,Dr. Rank,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_lysander,Lysander,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_theseus,Theseus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_hermia,Hermia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_demetrius,Demetrius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_bottom,Bottom,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_quince,Quince,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_helena,Helena,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_puck,Puck,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_oberon,Oberon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_midsummer_nights_dream,char_titania,Titania,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+a_tale_of_two_cities,206,Carton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+a_tale_of_two_cities,160,Madame Defarge,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+a_tale_of_two_cities,203,Lucie Manette,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+a_tale_of_two_cities,189,Charles Darnay,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+adventures_of_huckleberry_finn,117,Jim,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+adventures_of_huckleberry_finn,0,Huck Finn,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+adventures_of_huckleberry_finn,499,The King,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,55,Alice,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,299,The Cheshire Cat,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,314,The Mad Hatter,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,909,The Queen of Hearts,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,26,The White Rabbit,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alices_adventures_in_wonderland,220,The Caterpillar,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+alls_well_that_ends_well,char_parolles,Parolles,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_helena,Helena,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_bertram,Bertram,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_lafew,Lafew,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_countess_of_rossillon,Countess Of Rossillon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_king_of_france,King Of France,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_first_lord,First Lord,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_clown,Clown,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_diana,Diana,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+alls_well_that_ends_well,char_second_lord,Second Lord,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_dr_thomas_stockmann,Dr. Stockmann,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_hovstad,Hovstad,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_peter_stockmann,Burgomaster,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_mrs_stockmann,Mrs. Stockmann,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_aslaksen,Aslaksen,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_petra,Petra,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_billing,Billing,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_enemy_of_the_people,char_morten_kiil,Morten Kiil,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_lord_goring,Lord Goring,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_sir_robert_chiltern,Sir Robert Chiltern,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_mrs_cheveley,Mrs. Cheveley,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_lady_chiltern,Lady Chiltern,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_mabel_chiltern,Mabel Chiltern,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_lord_caversham,Lord Caversham,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_phipps,Phipps,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_lady_markby,Lady Markby,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_mrs_marchmont,Mrs. Marchmont,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+an_ideal_husband,char_lady_basildon,Lady Basildon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+anna_karenina,266,Anna Karenina,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+anna_karenina,172,Karenin,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+anna_karenina,224,Vronsky,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+anna_karenina,154,Dolly Oblonsky,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+anna_karenina,179,Levin,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+anna_karenina,184,Kitty,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+anna_karenina,295,Betsy Tverskaya,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+anna_karenina,270,Countess Lidia Ivanovna,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+anna_karenina,149,Stepan Oblonsky,0,,,,False,False,False,False,False
+anna_karenina,158,Anna Karenina,0,,,,False,False,False,False,False
+antony_and_cleopatra,char_cleopatra,Cleopatra,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,True,False,False,True
+antony_and_cleopatra,char_mark_antony,Mark Antony,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+as_you_like_it,char_rosalind,Rosalind,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,True,False,False,True
+coriolanus,char_caius_martius_coriolanus,Caius Martius Coriolanus,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_menenius_agrippa,Menenius Agrippa,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_sicinius_velutus,Sicinius Velutus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_junius_brutus,Junius Brutus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_cominius,Cominius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_volumnia,Volumnia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_tullus_aufidius,Tullus Aufidius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_first_citizen,First Citizen,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_virgilia,Virgilia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+coriolanus,char_titus_lartius,Titus Lartius,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+crime_and_punishment,112,Raskolnikov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,123,Sonia,0,,,,False,False,False,False,False
+crime_and_punishment,121,Katerina Ivanovna,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,140,Svidrigailov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,143,Luzhin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,221,Razumihin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,138,Dounia,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+crime_and_punishment,216,Porfiry,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+cymbeline,char_imogen,Imogen,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_cymbeline,Cymbeline,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_posthumus_leonatus,Posthumus Leonatus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_cloten,Cloten,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_iachimo,Iachimo,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_guiderius,Guiderius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_pisanio,Pisanio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_belarius,Belarius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_arviragus,Arviragus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+cymbeline,char_queen,Queen,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+david_copperfield,0,David Copperfield,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,255,Mr. Murdstone,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,244,Peggotty,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,440,Ham Peggotty,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,230,Mr. Micawber,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,238,Betsey Trotwood,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,232,Dora Spenlow,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,475,Steerforth,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,229,Tommy Traddles,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+david_copperfield,422,Uriah Heep,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+dracula,219,Jonathan Harker,0,,,,False,False,False,False,False
+dracula,212,Mina Harker,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+dracula,280,Lucy Westenra,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+dracula,214,Dr. Seward,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+dracula,286,Arthur Holmwood,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+dracula,282,Quincey Morris,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,122,Emma Woodhouse,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,108,Mr. Knightley,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,187,Mr. Woodhouse,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,124,Harriet Smith,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,118,Miss Bates,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,230,Mrs. Elton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,110,Mr. Elton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+emma,115,Frank Churchill,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+frankenstein_or_the_modern_prometheus,1241,The Creature,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+frankenstein_or_the_modern_prometheus,0,Victor Frankenstein,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+frankenstein_or_the_modern_prometheus,125,Henry Clerval,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+frankenstein_or_the_modern_prometheus,123,Elizabeth Lavenza,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+ghosts,char_mrs_alving,Mrs. Alving,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+ghosts,char_manders,Manders,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+ghosts,char_oswald_alving,Oswald,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+ghosts,char_regina_engstrand,Regina,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+ghosts,char_engstrand,Engstrand,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+great_expectations,246,Dolge Orlick,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,210,Estella,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,204,Miss Havisham,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,305,Herbert Pocket,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,195,Biddy,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,268,Mr. Jaggers,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,171,Mr. Pumblechook,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,163,Mr. Wopsle,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+great_expectations,0,Pip,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+hamlet,char_hamlet,Prince Hamlet,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+hamlet,char_ophelia,Ophelia,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+hamlet,char_horatio,Horatio,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+hamlet,char_polonius,Polonius,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+hamlet,char_laertes,Laertes,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+hamlet,char_queen,Queen Gertrude,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+hamlet,char_king,King Claudius,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+heart_of_darkness,0,Marlow,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,54,Kurtz,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,530,the manager,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,257,the fellow,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,319,the secretary,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,1686,that man,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,759,the uncle,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,390,Her captain,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,1131,the arch - priest,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+heart_of_darkness,766,the other,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+hedda_gabler,char_mrs_elvsted,Mrs. Elvsted,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+hedda_gabler,char_brack,Judge Brack,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+hedda_gabler,char_berta,Berta,1,CGT,CGT,CGT/vt_verifier_token@0.35,False,False,False,False,True
+jane_eyre,365,Bertha Mason,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,317,Mr. Rochester,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+jane_eyre,0,Jane Eyre,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+jane_eyre,223,Helen Burns,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,204,Miss Temple,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,177,St. John Rivers,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,212,Mrs. Reed,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,197,Mr. Brocklehurst,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,156,Bessie Lee,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+jane_eyre,158,John Reed,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_henry_iv_part_1,char_falstaff,Falstaff,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,True,False,False,True
+king_henry_iv_part_2,char_sir_john_falstaff,Sir John Falstaff,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_prince_john_of_lancaster,Prince John Of Lancaster,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_shallow,Shallow,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_chief_justice,Chief Justice,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_hostess,Hostess,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_king_henry,King Henry,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_doll_tearsheet,Doll Tearsheet,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_bardolph,Bardolph,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_pistol,Pistol,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_iv_part_2,char_poins,Poins,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_king_henry,King Henry,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_fluellen,Fluellen,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_pistol,Pistol,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_constable,Constable,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_katharine,Katharine,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_dauphin,Dauphin,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_duke_of_orleans,Duke Of Orleans,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_williams,Williams,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_gower,Gower,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_v,char_duke_of_exeter,Duke Of Exeter,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_lord_talbot,Lord Talbot,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_duke_of_gloucester,Duke Of Gloucester,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_joan_la_pucelle,Joan La Pucelle,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_earl_of_suffolk,Earl Of Suffolk,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_charles,Charles,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_king_henry,King Henry,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_york,York,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_bishop_of_winchester,Bishop Of Winchester,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_richard_plantagenet,Richard Plantagenet,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_1,char_duke_of_somerset,Duke Of Somerset,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_king_henry_the_sixth,King Henry The Sixth,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_gloucester,Gloucester,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_duke_of_suffolk,Duke Of Suffolk,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_queen_margaret,Queen Margaret,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_cade,Cade,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_york,York,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_earl_of_warwick,Earl Of Warwick,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_cardinal,Cardinal,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_duke_of_buckingham,Duke Of Buckingham,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_2,char_dick,Dick,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_richard,Richard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_king_edward,King Edward,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_earl_of_warwick,Earl Of Warwick,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_king_henry,King Henry,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_queen_margaret,Queen Margaret,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_george,George,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_york,York,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_lord_clifford,Lord Clifford,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_edward,Edward,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_vi_part_3,char_lady_grey,Lady Grey,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_king_henry_the_eighth,King Henry The Eighth,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_cardinal_wolsey,Cardinal Wolsey,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_queen_katherine,Queen Katherine,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_duke_of_norfolk,Duke Of Norfolk,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_lord_chamberlain,Lord Chamberlain,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_second_gentleman,Second Gentleman,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_first_gentleman,First Gentleman,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_duke_of_suffolk,Duke Of Suffolk,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_duke_of_buckingham,Duke Of Buckingham,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_henry_viii,char_earl_of_surrey,Earl Of Surrey,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_king_john,King John,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_bastard,Bastard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_hubert_de_burgh,Hubert De Burgh,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_king_philip_ii,King Philip Ii,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_earl_of_salisbury,Earl Of Salisbury,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_constance,Constance,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_louis,Louis,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_arthur,Arthur,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_cardinal_pandulph,Cardinal Pandulph,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_john,char_queen_eleanor,Queen Eleanor,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_lear,char_lear,King Lear,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,True,False,False,True
+king_lear,char_kent,Kent,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_lear,char_gloucester,Gloucester,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_lear,char_edgar,Edgar,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_lear,char_edmund,Edmund,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_lear,char_cordelia,Cordelia,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+king_richard_ii,char_king_richard_the_second,King Richard The Second,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_bolingbroke,Bolingbroke,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_duchess_of_york,Duchess Of York,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_earl_of_northumberland,Earl Of Northumberland,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_duke_of_aumerle,Duke Of Aumerle,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_duchess_of_gloucester,Duchess Of Gloucester,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_john_of_gaunt,John Of Gaunt,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_queen_to_king_richard,Queen To King Richard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_king_henry,King Henry,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_ii,char_thomas_mowbray,Thomas Mowbray,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_richard,Richard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_king_richard,King Richard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_queen_elizabeth,Queen Elizabeth,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_duke_of_buckingham,Duke Of Buckingham,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_duchess_of_york,Duchess Of York,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_lady_anne,Lady Anne,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_lord_hastings,Lord Hastings,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_first_murderer,First Murderer,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_lord_stanley,Lord Stanley,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+king_richard_iii,char_queen_margaret,Queen Margaret,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+les_miserables,1804,Javert,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+les_miserables,1667,Fantine,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+les_miserables,1320,Enjolras,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+les_miserables,2781,Marius Pontmercy,1,AGT,AGT,AGT/peer_tier_2@0.7,True,False,False,False,False
+les_miserables,2647,Jean Valjean,0,,,,False,False,False,False,False
+les_miserables,1373,Cosette,1,AGT,AGT,AGT/peer_tier_2@0.7,True,False,False,False,False
+loves_labours_lost,char_berowne,Berowne,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_king,King,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_princess,Princess,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_armado,Armado,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_costard,Costard,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_boyet,Boyet,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_moth,Moth,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_rosaline,Rosaline,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_dumaine,Dumaine,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+loves_labours_lost,char_holofernes,Holofernes,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+macbeth,char_macbeth,Macbeth,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+macbeth,char_lady_macbeth,Lady Macbeth,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+macbeth,char_duncan,Duncan,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+macbeth,char_banquo,Banquo,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+macbeth,char_malcolm,Malcolm,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+macbeth,char_macduff,Macduff,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+macbeth,char_ross,Ross,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+measure_for_measure,char_duke,Duke,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_isabella,Isabella,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_lucio,Lucio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_angelo,Angelo,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_escalus,Escalus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_provost,Provost,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_pompey,Pompey,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_claudio,Claudio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_elbow,Elbow,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+measure_for_measure,char_mariana,Mariana,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+moby_dick_or_the_whale,0,Ishmael,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+moby_dick_or_the_whale,559,Captain Ahab,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+moby_dick_or_the_whale,579,Starbuck,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+moby_dick_or_the_whale,580,Queequeg,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+moby_dick_or_the_whale,569,Stubb,0,,,,False,False,False,False,False
+much_ado_about_nothing,char_don_pedro,Don Pedro,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_benedick,Benedick,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_claudio,Claudio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_leonato,Leonato,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_beatrice,Beatrice,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_dogberry,Dogberry,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_hero,Hero,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_don_john,Don John,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_borachio,Borachio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+much_ado_about_nothing,char_margaret,Margaret,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_oedipus,Oedipus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_creon,Creon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_jocasta,Jocasta,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_stranger,Stranger,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_leader,Leader,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_tiresias,Tiresias,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oedipus_king_of_thebes,char_shepherd,Shepherd,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+oliver_twist,133,Fagin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+oliver_twist,187,The Artful Dodger,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+oliver_twist,280,Rose Maylie,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+oliver_twist,132,Mr. Bumble,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+oliver_twist,127,Mr. Brownlow,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+oliver_twist,279,Mrs. Maylie,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_iago,Iago,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_othello,Othello,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_desdemona,Desdemona,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_cassio,Cassio,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_emilia,Emilia,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_roderigo,Roderigo,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+othello,char_brabantio,Brabantio,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pericles_prince_of_tyre,char_pericles,Pericles,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_marina,Marina,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_simonides,Simonides,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_bawd,Bawd,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_lysimachus,Lysimachus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_boult,Boult,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_helicanus,Helicanus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_thaisa,Thaisa,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_cerimon,Cerimon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pericles_prince_of_tyre,char_cleon,Cleon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pride_and_prejudice,107,Elizabeth Bennet,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,127,Mr. Darcy,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,126,Mrs. Bennet,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,138,Charlotte Lucas,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,118,Mr. Bennet,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,192,Jane Bennet,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,99,Lydia Bennet,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,100,Wickham,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,102,Mr. Bingley,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,161,Caroline Bingley,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,130,Lady Catherine de Bourgh,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,103,Mr. Collins,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_1@1.0;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+pride_and_prejudice,106,Miss Darcy,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,156,Sir William,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,194,Mrs. Gardiner,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pride_and_prejudice,216,Mr. Gardiner,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+pygmalion,char_higgins,Higgins,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_liza,Liza,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_pickering,Pickering,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_doolittle,Doolittle,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_mrs_higgins,Mrs. Higgins,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_mrs_pearce,Mrs. Pearce,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_the_flower_girl,The Flower Girl,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_the_note_taker,The Note Taker,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_freddy,Freddy,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+pygmalion,char_mrs_eynsford_hill,Mrs. Eynsford Hill,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+romeo_and_juliet,char_romeo,Romeo,3,CGT/PGT/SGT,CGT;PGT;SGT,SGT/authoritative@0.8;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,True,True,False,True
+romeo_and_juliet,char_juliet,Juliet Capulet,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+romeo_and_juliet,char_friar_lawrence,Friar Laurence,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+romeo_and_juliet,char_mercutio,Mercutio,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+romeo_and_juliet,char_nurse,The Nurse,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+romeo_and_juliet,char_benvolio,Benvolio,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+sense_and_sensibility,255,Elinor Dashwood,0,,,,False,False,False,False,False
+sense_and_sensibility,98,Marianne Dashwood,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+sense_and_sensibility,114,Mrs. Jennings,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+sense_and_sensibility,102,Fanny Dashwood,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+sense_and_sensibility,115,Colonel Brandon,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+sense_and_sensibility,96,Mrs. Dashwood,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+sense_and_sensibility,108,Edward Ferrars,0,,,,False,False,False,False,False
+sense_and_sensibility,97,Elinor Dashwood,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,294,Alyosha Karamazov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,0,Dmitri Karamazov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,141,Smerdyakov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,143,Fyodor Pavlovitch,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,140,Grushenka,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,596,Rakitin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_brothers_karamazov,193,Katerina Ivanovna,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_comedy_of_errors,char_antipholus_of_syracuse,Antipholus Of Syracuse,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_dromio_of_syracuse,Dromio Of Syracuse,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_adriana,Adriana,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_antipholus_of_ephesus,Antipholus Of Ephesus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_dromio_of_ephesus,Dromio Of Ephesus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_luciana,Luciana,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_angelo,Angelo,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_duke,Duke,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_egeon,Egeon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_comedy_of_errors,char_merchant,Merchant,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_count_of_monte_cristo,898,Edmond Dantes,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_count_of_monte_cristo,733,Mercedes,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_great_gatsby,157,Jay Gatsby,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_great_gatsby,159,Daisy Buchanan,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_great_gatsby,160,Tom Buchanan,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_great_gatsby,175,Myrtle Wilson,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_great_gatsby,0,Nick Carraway,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_great_gatsby,166,Jordan Baker,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_great_gatsby,170,George Wilson,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_hound_of_the_baskervilles,0,Sherlock Holmes,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,573,Prince Myshkin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,132,Nastasya Filippovna,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,239,Ippolit Terentyev,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,135,Lebedev,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,125,Rogozhin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,201,Kolya Ivolgin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_idiot,194,Aglaya Epanchin,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_importance_of_being_earnest,char_jack,Jack,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_importance_of_being_earnest,char_gwendolen,Gwendolen,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_importance_of_being_earnest,char_lady_bracknell,Lady Bracknell,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_importance_of_being_earnest,char_miss_prism,Miss Prism,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_importance_of_being_earnest,char_lane,Lane,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_importance_of_being_earnest,char_merriman,Merriman,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merchant_of_venice,char_portia,Portia,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,True,False,False,True
+the_merchant_of_venice,char_shylock,Shylock,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_merry_wives_of_windsor,char_mistress_ford,Mistress Ford,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_mistress_page,Mistress Page,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_sir_john_falstaff,Sir John Falstaff,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_sir_hugh_evans,Sir Hugh Evans,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_mistress_quickly,Mistress Quickly,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_shallow,Shallow,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_slender,Slender,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_doctor_caius,Doctor Caius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_host,Host,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_merry_wives_of_windsor,char_pistol,Pistol,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,13,Gregor,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,79,the chief clerk,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,14,Mr. Samsa,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,16,Mrs. Samsa,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,23,Project Gutenberg,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,889,you,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_metamorphosis,17,Grete,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_moonstone,146,Gabriel Betteredge,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_picture_of_dorian_gray,107,Dorian Gray,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_picture_of_dorian_gray,115,Basil Hallward,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_picture_of_dorian_gray,114,Lord Henry Wotton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_picture_of_dorian_gray,167,Sibyl Vane,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_picture_of_dorian_gray,184,James Vane,2,AGT/CGT,AGT;CGT,AGT/peer_tier_1@1.0;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_scarlet_letter,119,Hester Prynne,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_2@0.7;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+the_scarlet_letter,173,Pearl,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_scarlet_letter,156,Roger Chillingworth,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_scarlet_letter,191,Arthur Dimmesdale,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_scarlet_letter,150,Governor Bellingham,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_scarlet_letter,139,Mistress Hibbins,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,25,Mr. Utterson,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,79,the lawyer,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,44,Poole,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,19,Jekyll,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,0,I,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,27,Mr. Enfield,0,,,,False,False,False,False,False
+the_strange_case_of_dr_jekyll_and_mr_hyde,238,the butler,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,20,Mr. Hyde,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,201,the other,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_strange_case_of_dr_jekyll_and_mr_hyde,593,my visitor,3,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_petruchio,Petruchio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_tranio,Tranio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_katherina,Katherina,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_hortensio,Hortensio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_baptista_minola,Baptista Minola,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_lucentio,Lucentio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_grumio,Grumio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_gremio,Gremio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_biondello,Biondello,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_taming_of_the_shrew,char_bianca,Bianca,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_tempest,char_prospero,Prospero,3,AGT/CGT/SGT,AGT;CGT;SGT,SGT/authoritative@0.8;AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,True,False,False,True
+the_tempest,char_caliban,Caliban,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+the_two_gentlemen_of_verona,char_valentine,Valentine,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_proteus,Proteus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_speed,Speed,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_julia,Julia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_lance,Lance,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_silvia,Silvia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_lucetta,Lucetta,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_duke_of_milan,Duke Of Milan,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_thurio,Thurio,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_gentlemen_of_verona,char_host,Host,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_palamon,Palamon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_arcite,Arcite,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_daughter,Daughter,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_theseus,Theseus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_emilia,Emilia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_iailor,Iailor,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_wooer,Wooer,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_perithous,Perithous,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_doctor,Doctor,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_two_noble_kinsmen,char_hippolita,Hippolita,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_leontes,Leontes,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_camillo,Camillo,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_autolycus,Autolycus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_clown,Clown,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_paulina,Paulina,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_polixenes,Polixenes,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_florizel,Florizel,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_hermione,Hermione,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+the_winters_tale,char_perdita,Perdita,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_timon,Timon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_apemantus,Apemantus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_flavius,Flavius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_alcibiades,Alcibiades,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_poet,Poet,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_painter,Painter,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_first_senator,First Senator,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_lucius,Lucius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_second_friend,Second Friend,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+timon_of_athens,char_caphis,Caphis,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_titus_andronicus,Titus Andronicus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_marcus_andronicus,Marcus Andronicus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_aaron,Aaron,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_lucius,Lucius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_saturninus,Saturninus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_tamora,Tamora,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_demetrius,Demetrius,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_chiron,Chiron,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_lavinia,Lavinia,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+titus_andronicus,char_bassianus,Bassianus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_cressida,Cressida,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_pandarus,Pandarus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_troilus,Troilus,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_thersites,Thersites,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_ulysses,Ulysses,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_achilles,Achilles,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_hector,Hector,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_agamemnon,Agamemnon,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_ajax,Ajax,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+troilus_and_cressida,char_diomedes,Diomedes,4,CGT,CGT,CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/literary_canon@0.3;CGT/vt_verifier_token@0.35,False,False,False,False,True
+twelfth_night,char_malvolio,Malvolio,3,AGT/CGT/PGT,AGT;CGT;PGT,AGT/peer_tier_3@0.5;PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,True,False,True,False,True
+twelfth_night,char_duke,Duke Orsino,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+twelfth_night,char_viola,Viola,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+twelfth_night,char_olivia,Olivia,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+twelfth_night,char_sebastian,Sebastian,2,CGT/PGT,CGT;PGT,PGT/open_psychometrics@0.55;CGT/vt_verifier_token@0.35,False,False,True,False,True
+war_and_peace,377,Sonya,3,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,402,Natasha Rostova,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,622,Princess Mary,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,330,Pierre Bezukhov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,364,Kutuzov,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,425,Rostóv,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+war_and_peace,1891,the countess,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,43,Heathcliff,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,57,Catherine Earnshaw,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,90,Isabella Linton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,48,Edgar Linton,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,77,Hindley Earnshaw,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,0,Nelly Dean,2,AGT/CGT,AGT;CGT,AGT/peer_tier_2@0.7;CGT/vt_verifier_token@0.35,True,False,False,False,True
+wuthering_heights,46,Joseph,2,AGT/CGT,AGT;CGT,AGT/peer_tier_3@0.5;CGT/vt_verifier_token@0.35,True,False,False,False,True

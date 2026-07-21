@@ -1,0 +1,45 @@
+{
+  "coref_id": "96",
+  "character_name": "Miss Austen",
+  "quote_count": 1,
+  "mention_count": 86,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor ; \u201d",
+      "mention_text": "she",
+      "quote_start": 3615,
+      "quote_end": 3648,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c miniature , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c impropriety \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c May I ask whether these pleasing attentions proceed from the impulse of the moment , or are the result of previous study ? \u201d"
+        },
+        {
+          "speaker_coref_id": "132",
+          "quote_text": "\u201c one of Mr. Philips \u2019s clerks . \u201d"
+        }
+      ]
+    }
+  ]
+}

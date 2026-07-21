@@ -1,0 +1,239 @@
+{
+  "coref_id": "124",
+  "character_name": "Mary",
+  "quote_count": 8,
+  "mention_count": 73,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "174",
+      2
+    ],
+    [
+      "450",
+      2
+    ],
+    [
+      "130",
+      2
+    ],
+    [
+      "192",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Pride , \u201d",
+      "mention_text": "Mary",
+      "quote_start": 12665,
+      "quote_end": 12668,
+      "addressee_coref_id": "174",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c That is very true , \u201d"
+        },
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c and I could easily forgive _ his _ pride , if he had not mortified _ mine _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c is a very common failing , I believe . By all that I have ever read , I am convinced that it is very common indeed ; that human nature is particularly prone to it , and that there are very few of us who do not cherish a feeling of self - complacency on the score of some quality or other , real or imaginary . Vanity and pride are different things , though the words are often used synonymously . A person may be proud without being vain . Pride relates more to our opinion of ourselves ; vanity to what we would have others think of us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c If I were as rich as Mr. Darcy , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c is a very common failing , I believe . By all that I have ever read , I am convinced that it is very common indeed ; that human nature is particularly prone to it , and that there are very few of us who do not cherish a feeling of self - complacency on the score of some quality or other , real or imaginary . Vanity and pride are different things , though the words are often used synonymously . A person may be proud without being vain . Pride relates more to our opinion of ourselves ; vanity to what we would have others think of us . \u201d",
+      "mention_text": "Mary",
+      "quote_start": 12682,
+      "quote_end": 12794,
+      "addressee_coref_id": "174",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c and I could easily forgive _ his _ pride , if he had not mortified _ mine _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c Pride , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c If I were as rich as Mr. Darcy , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not care how proud I was . I would keep a pack of foxhounds , and drink a bottle of wine every day . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I admire the activity of your benevolence , \u201d",
+      "mention_text": "Mary",
+      "quote_start": 17512,
+      "quote_end": 17521,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c to send for the horses ? \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c No , indeed . I do not wish to avoid the walk . The distance is nothing , when one has a motive ; only three miles . I shall be back by dinner . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c but every impulse of feeling should be guided by reason ; and , in my opinion , exertion should always be in proportion to what is required . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c We will go as far as Meryton with you , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c but every impulse of feeling should be guided by reason ; and , in my opinion , exertion should always be in proportion to what is required . \u201d",
+      "mention_text": "Mary",
+      "quote_start": 17525,
+      "quote_end": 17554,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c No , indeed . I do not wish to avoid the walk . The distance is nothing , when one has a motive ; only three miles . I shall be back by dinner . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c I admire the activity of your benevolence , \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c We will go as far as Meryton with you , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c If we make haste , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c In point of composition , \u201d",
+      "mention_text": "Mary",
+      "quote_start": 29683,
+      "quote_end": 29689,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c I can not make him out . There is something very pompous in his style . And what can he mean by apologizing for being next in the entail ? We can not suppose he would help it , if he could . Can he be a sensible man , sir ? \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c No , my dear ; I think not . I have great hopes of finding him quite the reverse . There is a mixture of servility and self - importance in his letter which promises well . I am impatient to see him . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c his letter does not seem defective . The idea of the olive branch perhaps is not wholly new , yet I think it is well expressed . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c You are very kind , sir , I am sure ; and I wish with all my heart it may prove so ; for else they will be destitute enough . Things are settled so oddly . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c his letter does not seem defective . The idea of the olive branch perhaps is not wholly new , yet I think it is well expressed . \u201d",
+      "mention_text": "Mary",
+      "quote_start": 29693,
+      "quote_end": 29721,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c No , my dear ; I think not . I have great hopes of finding him quite the reverse . There is a mixture of servility and self - importance in his letter which promises well . I am impatient to see him . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c In point of composition , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c You are very kind , sir , I am sure ; and I wish with all my heart it may prove so ; for else they will be destitute enough . Things are settled so oddly . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c You allude , perhaps , to the entail of this estate . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c While I can have my mornings to myself , \u201d",
+      "mention_text": "she",
+      "quote_start": 38597,
+      "quote_end": 38607,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It is difficult , indeed -- it is distressing . One does not know what to think . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I beg your pardon;--one knows exactly what to think . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c it is enough . I think it is no sacrifice to join occasionally in evening engagements . Society has claims on us all ; and I profess myself one of those who consider intervals of recreation and amusement as desirable for everybody . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I am by no means of opinion , I assure you , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it is enough . I think it is no sacrifice to join occasionally in evening engagements . Society has claims on us all ; and I profess myself one of those who consider intervals of recreation and amusement as desirable for everybody . \u201d",
+      "mention_text": "she",
+      "quote_start": 38611,
+      "quote_end": 38655,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I beg your pardon;--one knows exactly what to think . \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c While I can have my mornings to myself , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I am by no means of opinion , I assure you , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c that a ball of this kind , given by a young man of character , to respectable people , can have any evil tendency ; and I am so far from objecting to dancing myself , that I shall hope to be honoured with the hands of all my fair cousins in the course of the evening ; and I take this opportunity of soliciting yours , Miss Elizabeth , for the two first dances especially ; a preference which I trust my cousin Jane will attribute to the right cause , and not to any disrespect for her . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "coref_id": "288",
+  "character_name": "Kitty,--",
+  "quote_count": 1,
+  "mention_count": 4,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "130",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Come here , my love , I want to speak to you , \u201d",
+      "mention_text": "her",
+      "quote_start": 135598,
+      "quote_end": 135612,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c What is the matter , mamma ? What do you keep winking at me for ? What am I to do ? \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c Nothing , child , nothing . I did not wink at you . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Lizzy , my dear , I want to speak with you . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c We may as well leave them by themselves , you know , \u201d"
+        }
+      ]
+    }
+  ]
+}

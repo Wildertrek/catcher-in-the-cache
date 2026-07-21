@@ -1,0 +1,45 @@
+{
+  "coref_id": "2911",
+  "character_name": "their",
+  "quote_count": 1,
+  "mention_count": 4,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "102",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c What could have become of Mr. Bingley and Jane ? \u201d",
+      "mention_text": "their",
+      "quote_start": 145749,
+      "quote_end": 145760,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c My object _ then _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c was to show you , by every civility in my power , that I was not so mean as to resent the past ; and I hoped to obtain your forgiveness , to lessen your ill opinion , by letting you see that your reproofs had been attended to . How soon any other wishes introduced themselves , I can hardly tell , but I believe in about half an hour after I had seen you . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I must ask whether you were surprised ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Not at all . When I went away , I felt that it would soon happen . \u201d"
+        }
+      ]
+    }
+  ]
+}

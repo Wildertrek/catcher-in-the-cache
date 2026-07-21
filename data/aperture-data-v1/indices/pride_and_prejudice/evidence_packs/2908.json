@@ -1,0 +1,123 @@
+{
+  "coref_id": "2908",
+  "character_name": "I",
+  "quote_count": 4,
+  "mention_count": 24,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "127",
+      4
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Had you then persuaded yourself that I should ? \u201d",
+      "mention_text": "she",
+      "quote_start": 145334,
+      "quote_end": 145344,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c The letter , perhaps , began in bitterness , but it did not end so . The adieu is charity itself . But think no more of the letter . The feelings of the person who wrote and the person who received it are now so widely different from what they were then , that every unpleasant circumstance attending it ought to be forgotten . You must learn some of my philosophy . Think only of the past as its remembrance gives you pleasure . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I can not give you credit for any philosophy of the kind . _ Your _ retrospections must be so totally void of reproach , that the contentment arising from them is not of philosophy , but , what is much better , of ignorance . But with _ me _ , it is not so . Painful recollections will intrude , which can not , which ought not to be repelled . I have been a selfish being all my life , in practice , though not in principle . As a child I was taught what was _ right _ , but I was not taught to correct my temper . I was given good principles , but left to follow them in pride and conceit . Unfortunately an only son ( for many years an only _ child _ ) , I was spoiled by my parents , who , though good themselves , ( my father particularly , all that was benevolent and amiable , ) allowed , encouraged , almost taught me to be selfish and overbearing , to care for none beyond my own family circle , to think meanly of all the rest of the world , to _ wish _ at least to think meanly of their sense and worth compared with my own . Such I was , from eight to eight - and - twenty ; and such I might still have been but for you , dearest , loveliest Elizabeth ! What do I not owe you ! You taught me a lesson , hard indeed at first , but most advantageous . By you , I was properly humbled . I came to you without a doubt of my reception . You showed me how insufficient were all my pretensions to please a woman worthy of being pleased . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Indeed I had . What will you think of my vanity ? I believed you to be wishing , expecting my addresses . \u201d"
+        },
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c My manners must have been in fault , but not intentionally , I assure you . I never meant to deceive you , but my spirits might often lead me wrong . How you must have hated me after _ that _ evening ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My manners must have been in fault , but not intentionally , I assure you . I never meant to deceive you , but my spirits might often lead me wrong . How you must have hated me after _ that _ evening ! \u201d",
+      "mention_text": "she",
+      "quote_start": 145370,
+      "quote_end": 145415,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c Had you then persuaded yourself that I should ? \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Indeed I had . What will you think of my vanity ? I believed you to be wishing , expecting my addresses . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Hate you ! I was angry , perhaps , at first , but my anger soon began to take a proper direction . \u201d"
+        },
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c I am almost afraid of asking what you thought of me when we met at Pemberley . You blamed me for coming ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am almost afraid of asking what you thought of me when we met at Pemberley . You blamed me for coming ? \u201d",
+      "mention_text": "she",
+      "quote_start": 145441,
+      "quote_end": 145465,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c My manners must have been in fault , but not intentionally , I assure you . I never meant to deceive you , but my spirits might often lead me wrong . How you must have hated me after _ that _ evening ! \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Hate you ! I was angry , perhaps , at first , but my anger soon began to take a proper direction . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c No , indeed , I felt nothing but surprise . \u201d"
+        },
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c Your surprise could not be greater than _ mine _ in being noticed by you . My conscience told me that I deserved no extraordinary politeness , and I confess that I did not expect to receive _ more _ than my due . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Your surprise could not be greater than _ mine _ in being noticed by you . My conscience told me that I deserved no extraordinary politeness , and I confess that I did not expect to receive _ more _ than my due . \u201d",
+      "mention_text": "she",
+      "quote_start": 145478,
+      "quote_end": 145523,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "2908",
+          "quote_text": "\u201c I am almost afraid of asking what you thought of me when we met at Pemberley . You blamed me for coming ? \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c No , indeed , I felt nothing but surprise . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c My object _ then _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c was to show you , by every civility in my power , that I was not so mean as to resent the past ; and I hoped to obtain your forgiveness , to lessen your ill opinion , by letting you see that your reproofs had been attended to . How soon any other wishes introduced themselves , I can hardly tell , but I believe in about half an hour after I had seen you . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "coref_id": "1082",
+  "character_name": "I",
+  "quote_count": 11,
+  "mention_count": 21,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "156",
+      6
+    ],
+    [
+      "127",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Yes , always , \u201d",
+      "mention_text": "she",
+      "quote_start": 41111,
+      "quote_end": 41116,
+      "addressee_coref_id": "156",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c No -- I can not talk of books in a ball - room ; my head is always full of something else . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The _ present _ always occupies you in such scenes -- does it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I remember hearing you once say , Mr. Darcy , that you hardly ever forgave;--that your resentment , once created , was unappeasable . You are very cautious , I suppose , as to its _ being created _ ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I remember hearing you once say , Mr. Darcy , that you hardly ever forgave;--that your resentment , once created , was unappeasable . You are very cautious , I suppose , as to its _ being created _ ? \u201d",
+      "mention_text": "her",
+      "quote_start": 41145,
+      "quote_end": 41186,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The _ present _ always occupies you in such scenes -- does it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Yes , always , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And never allow yourself to be blinded by prejudice ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And never allow yourself to be blinded by prejudice ? \u201d",
+      "mention_text": "her",
+      "quote_start": 41200,
+      "quote_end": 41211,
+      "addressee_coref_id": "156",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I remember hearing you once say , Mr. Darcy , that you hardly ever forgave;--that your resentment , once created , was unappeasable . You are very cautious , I suppose , as to its _ being created _ ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I hope not . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c It is particularly incumbent on those who never change their opinion , to be secure of judging properly at first . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I hope not . \u201d",
+      "mention_text": "her",
+      "quote_start": 41212,
+      "quote_end": 41217,
+      "addressee_coref_id": "156",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And never allow yourself to be blinded by prejudice ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c It is particularly incumbent on those who never change their opinion , to be secure of judging properly at first . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c May I ask to what these questions tend ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It is particularly incumbent on those who never change their opinion , to be secure of judging properly at first . \u201d",
+      "mention_text": "her",
+      "quote_start": 41218,
+      "quote_end": 41240,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And never allow yourself to be blinded by prejudice ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I hope not . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c May I ask to what these questions tend ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Merely to the illustration of _ your _ character , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c May I ask to what these questions tend ? \u201d",
+      "mention_text": "her",
+      "quote_start": 41241,
+      "quote_end": 41251,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I hope not . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c It is particularly incumbent on those who never change their opinion , to be secure of judging properly at first . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Merely to the illustration of _ your _ character , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I am trying to make it out . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Merely to the illustration of _ your _ character , \u201d",
+      "mention_text": "she",
+      "quote_start": 41252,
+      "quote_end": 41263,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c It is particularly incumbent on those who never change their opinion , to be secure of judging properly at first . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c May I ask to what these questions tend ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I am trying to make it out . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And what is your success ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am trying to make it out . \u201d",
+      "mention_text": "she",
+      "quote_start": 41274,
+      "quote_end": 41283,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c May I ask to what these questions tend ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Merely to the illustration of _ your _ character , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And what is your success ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I do not get on at all . I hear such different accounts of you as puzzle me exceedingly . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And what is your success ? \u201d",
+      "mention_text": "her",
+      "quote_start": 41284,
+      "quote_end": 41291,
+      "addressee_coref_id": "156",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Merely to the illustration of _ your _ character , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I am trying to make it out . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I do not get on at all . I hear such different accounts of you as puzzle me exceedingly . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I can readily believe , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I do not get on at all . I hear such different accounts of you as puzzle me exceedingly . \u201d",
+      "mention_text": "She",
+      "quote_start": 41297,
+      "quote_end": 41318,
+      "addressee_coref_id": "156",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I am trying to make it out . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And what is your success ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I can readily believe , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c that reports may vary greatly with respect to me ; and I could wish , Miss Bennet , that you were not to sketch my character at the present moment , as there is reason to fear that the performance would reflect no credit on either . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But if I do not take your likeness now , I may never have another opportunity . \u201d",
+      "mention_text": "She",
+      "quote_start": 41380,
+      "quote_end": 41398,
+      "addressee_coref_id": "156",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I can readily believe , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c that reports may vary greatly with respect to me ; and I could wish , Miss Bennet , that you were not to sketch my character at the present moment , as there is reason to fear that the performance would reflect no credit on either . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I would by no means suspend any pleasure of yours , \u201d"
+        },
+        {
+          "speaker_coref_id": "1083",
+          "quote_text": "\u201c So , Miss Eliza , I hear you are quite delighted with George Wickham ? Your sister has been talking to me about him , and asking me a thousand questions ; and I find that the young man forgot to tell you , among his other communications , that he was the son of old Wickham , the late Mr. Darcy \u2019s steward . Let me recommend you , however , as a friend , not to give implicit confidence to all his assertions ; for , as to Mr. Darcy \u2019s using him ill , it is perfectly false : for , on the contrary , he has been always remarkably kind to him , though George Wickham has treated Mr. Darcy in a most infamous manner . I do not know the particulars , but I know very well that Mr. Darcy is not in the least to blame ; that he can not bear to hear George Wickham mentioned ; and that though my brother thought he could not well avoid including him in his invitation to the officers , he was excessively glad to find that he had taken himself out of the way . His coming into the country at all is a most insolent thing , indeed , and I wonder how he could presume to do it . I pity you , Miss Eliza , for this discovery of your favourite \u2019s guilt ; but really , considering his descent , one could not expect much better . \u201d"
+        }
+      ]
+    }
+  ]
+}

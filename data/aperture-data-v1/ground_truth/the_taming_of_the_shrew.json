@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Taming of the Shrew",
+    "author": "William Shakespeare",
+    "year": "c. 1590"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_petruchio",
+      "character_name": "Petruchio",
+      "quote_count": 158,
+      "consensus_ocean": {
+        "O": 0.494156,
+        "C": 0.70342,
+        "E": 0.863068,
+        "A": -0.6874879999999999,
+        "N": -0.18072000000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.7,
+            "E": 0.9,
+            "A": -0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.7, \"E\": 0.9, \"A\": -0.5, \"N\": 0.2, \"confidence\": \"high\", \"rationale\": \"Petruchio is often viewed as assertive and unconventional in his approach to courtship and marriage, displaying high extraversion and conscientiousness, while his aggressive tactics suggest low agreeableness, as noted in various critical analyses including those by A.C. Bradley and Harold Bloom.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.7,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, modern feminist and performance-based scholarship) identifies Petruchio as a calculated, assertive fortune-hunter employing psychological manipulation and verbal dominance rather than imaginative unconventionality, with low agreeableness and moderate emotional volatility masked by performative control.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 1.0,
+            "A": -1.0,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 1.0,\n  \"A\": -1.0,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus frequently highlights Petruchio's performative nature, his strategic and disciplined execution of an unconventional 'taming' plan, his overwhelming assertiveness, and his deliberate lack of conventional agreeableness or emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3077,
+            "C": 0.6265,
+            "E": 0.7681,
+            "A": -0.5696,
+            "N": -0.474
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:56:07.698874+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002634
+        }
+      ]
+    },
+    {
+      "coref_id": "char_tranio",
+      "character_name": "Tranio",
+      "quote_count": 90,
+      "consensus_ocean": {
+        "O": 0.703908,
+        "C": 0.615376,
+        "E": 0.754176,
+        "A": 0.100332,
+        "N": -0.276512
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.5,
+            "E": 0.8,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.7, \"C\": 0.5, \"E\": 0.8, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Tranio is often viewed as clever and resourceful, displaying a high degree of social energy and adaptability, as noted in various analyses of his role as a servant and a facilitator in the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": 0.7,
+            "E": 0.75,
+            "A": -0.15,
+            "N": 0.35
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": 0.70,\n  \"E\": 0.75,\n  \"A\": -0.15,\n  \"N\": 0.35,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Tranio is a clever servant whose wit and improvisational scheming (disguising as Lucentio) demonstrate openness and extraversion, but scholarly consensus treats him as a minor comic functionary whose personality serves plot mechanics rather than deep characterization, limiting confidence in trait assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.7,
+            "E": 0.8,
+            "A": -0.6,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": 0.7,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus consistently highlights Tranio's exceptional cleverness, resourcefulness, and theatrical ingenuity in orchestrating the elaborate deception for Lucentio, while maintaining a calm and assertive demeanor, though his methods involve significant manipulation of others.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6711,
+            "C": 0.5692,
+            "E": 0.6792,
+            "A": 0.4869,
+            "N": -0.4304
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:56:38.906685+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002345
+        }
+      ]
+    },
+    {
+      "coref_id": "char_katherina",
+      "character_name": "Katherina",
+      "quote_count": 82,
+      "consensus_ocean": {
+        "O": 0.427828,
+        "C": -0.12819599999999998,
+        "E": 0.495964,
+        "A": -0.683252,
+        "N": 0.46686400000000006
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.2,
+            "E": 0.6,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.2, \"E\": 0.6, \"A\": -0.5, \"N\": 0.4, \"confidence\": \"high\", \"rationale\": \"Katherina is often interpreted as a strong-willed and independent character, showcasing high openness and extraversion, while her contentious nature and emotional volatility reflect lower agreeableness and higher neuroticism, as discussed in various critical analyses including those by A.C. Bradley and Harold Bloom.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.6,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, modern feminist scholars) reads Katherina as initially sharp-tongued and combative with low agreeableness, high extraversion in her verbal aggression, moderate neuroticism in her volatile outbursts, and interpretations diverge on whether her final submission represents genuine transformation or strategic adaptation, complicating her conscientiousness "
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.6,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.6,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published literary criticism consistently highlights Katherina's initial extreme disagreeableness, emotional volatility, and assertiveness, with scholarly debate focusing on the sincerity or performative nature of her later conformity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0149,
+            "C": -0.2007,
+            "E": -0.0287,
+            "A": -0.7259,
+            "N": 0.0388
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:57:13.146978+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00193
+        }
+      ]
+    },
+    {
+      "coref_id": "char_hortensio",
+      "character_name": "Hortensio",
+      "quote_count": 71,
+      "consensus_ocean": {
+        "O": 0.090636,
+        "C": 0.24249599999999996,
+        "E": 0.391268,
+        "A": 0.212384,
+        "N": -0.404424
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6237,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.5, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Hortensio is often viewed as a secondary character whose traits are less explored in depth, but he displays a moderate level of sociability and agreeableness while lacking significant emotional depth or volatility.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": 0.2,
+            "A": 0.1,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": 0.2,\n  \"A\": 0.1,\n  \"N\": -0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Hortensio is a minor character whose personality receives limited sustained critical attention; scholars typically focus on Petruchio, Katherine, and Bianca, leaving Hortensio's psychological profile underdeveloped in major critical works.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.0,
+            "E": 0.6,
+            "A": 0.2,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.0,\n  \"E\": 0.6,\n  \"A\": 0.2,\n  \"N\": -0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism often characterizes Hortensio as a pragmatic, somewhat opportunistic suitor who, despite his initial imaginative disguise, ultimately represents a more conventional and less successful approach to courtship compared to Petruchio.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3237,
+            "C": 0.5232,
+            "E": 0.2831,
+            "A": 0.0728,
+            "N": -0.4158
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:57:41.751483+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001917
+        }
+      ]
+    },
+    {
+      "coref_id": "char_baptista_minola",
+      "character_name": "Baptista Minola",
+      "quote_count": 68,
+      "consensus_ocean": {
+        "O": -0.29128000000000004,
+        "C": 0.604368,
+        "E": 0.404068,
+        "A": -0.08535200000000003,
+        "N": 0.025575999999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.0,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.0, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Baptista Minola is often viewed as a pragmatic and somewhat conventional character, focused on the marriage prospects of his daughters, which aligns with moderate conscientiousness and extraversion but limited openness and agreeableness.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.5,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Baptista is conventionally portrayed in criticism as a pragmatic, business-minded patriarch concerned with marrying off his daughters profitably; he shows little imagination or unconventionality, high regard for order and financial planning, but limited empathy\u2014particularly toward Bianca's autonomy\u2014though he remains socially engaged as a merchant and father figure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.4,
+            "A": -0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": -0.4,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism generally portrays Baptista as a conventional patriarch, primarily concerned with social order, reputation, and the pragmatic arrangement of his daughters' marriages, rather than their individual emotional well-being, leading to low openness and agreeableness, moderate conscientiousness and extraversion, and some neuroticism due to his predicament.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.074,
+            "C": 0.6156,
+            "E": 0.2431,
+            "A": 0.4666,
+            "N": -0.1658
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:58:14.533345+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001779
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lucentio",
+      "character_name": "Lucentio",
+      "quote_count": 62,
+      "consensus_ocean": {
+        "O": 0.6985399999999999,
+        "C": 0.249608,
+        "E": 0.283132,
+        "A": 0.580256,
+        "N": -0.20674
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1486,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.5,
+            "E": 0.6,
+            "A": 0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.7, \"C\": 0.5, \"E\": 0.6, \"A\": 0.8, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Lucentio is often viewed as an imaginative and romantic character, displaying curiosity and warmth, though he also exhibits a degree of conventionality in his pursuit of love, as noted in various critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.5,
+            "E": 0.4,
+            "A": 0.3,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.5,\n  \"E\": 0.4,\n  \"A\": 0.3,\n  \"N\": -0.2,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Lucentio is a minor character whose defining trait\u2014disguising himself as a tutor to pursue Bianca\u2014demonstrates moderate openness to unconventional schemes and some conscientiousness in execution, but critical consensus treats him as a stock romantic youth lacking the psychological depth that would warrant strong scoring on most dimensions.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.6,
+            "E": -0.4,
+            "A": 0.6,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.6,\n  \"E\": -0.4,\n  \"A\": 0.6,\n  \"N\": -0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism generally portrays Lucentio as an impulsive romantic who readily abandons his academic pursuits for love, relying on elaborate deceptions orchestrated by his servant Tranio, and exhibiting a generally stable temperament.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7805,
+            "C": 0.5486,
+            "E": 0.4969,
+            "A": 0.6152,
+            "N": -0.3955
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:58:44.794102+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001783
+        }
+      ]
+    },
+    {
+      "coref_id": "char_grumio",
+      "character_name": "Grumio",
+      "quote_count": 62,
+      "consensus_ocean": {
+        "O": 0.09109199999999999,
+        "C": -0.125524,
+        "E": 0.648088,
+        "A": -0.46868,
+        "N": 0.17975999999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": -0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": -0.5, \"E\": 0.5, \"A\": -0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Grumio is often viewed as a comic servant whose role is to provide humor and commentary, reflecting a moderate level of openness and extraversion, but with low conscientiousness and agreeableness, as noted in various analyses of Shakespeare's comedic characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Grumio is a minor servant character whose personality emerges primarily through obedience to Petruchio and crude verbal sparring; critical consensus treats him as a stock comic type\u2014loyal but coarse, with limited psychological depth\u2014rather than a subject of sustained character analysis comparable to major Shakespearean figures.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.7,
+            "E": 0.9,
+            "A": -0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": -0.7,\n  \"E\": 0.9,\n  \"A\": -0.8,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Grumio is consistently characterized in criticism as Petruchio's witty, insolent, and often unreliable servant, whose primary function is to provide comic relief and comment on the main action, reflecting traits of high openness and extraversion, low conscientiousness and agreeableness, and moderate emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1539,
+            "C": 0.1517,
+            "E": 0.5146,
+            "A": -0.131,
+            "N": 0.042
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:59:16.345716+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001746
+        }
+      ]
+    },
+    {
+      "coref_id": "char_gremio",
+      "character_name": "Gremio",
+      "quote_count": 57,
+      "consensus_ocean": {
+        "O": -0.36070800000000003,
+        "C": 0.5190279999999999,
+        "E": 0.574584,
+        "A": -0.200164,
+        "N": -0.09616399999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9137,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Gremio is often viewed as a somewhat comical and self-interested character, lacking depth in emotional complexity, which leads to a moderate assessment of his traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.65,
+            "C": 0.55,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.45
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.65,\n  \"C\": 0.55,\n  \"E\": 0.70,\n  \"A\": -0.60,\n  \"N\": 0.45,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Gremio is a minor character whose personality emerges primarily through his role as a conventional, materialistic suitor; critical consensus treats him as a stock comic type\u2014verbose, socially ambitious, and lacking imagination\u2014rather than a psychologically complex figure warranting deep analysis in major scholarly works.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.5,
+            "E": 0.8,
+            "A": -0.6,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.5,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently characterizes Gremio as a wealthy, doting, and persistent old suitor, often highlighting his conventionality, competitiveness, and comedic exasperation rather than deep psychological complexity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1311,
+            "C": 0.5251,
+            "E": 0.3378,
+            "A": 0.3137,
+            "N": -0.3863
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:59:46.112182+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001684
+        }
+      ]
+    },
+    {
+      "coref_id": "char_biondello",
+      "character_name": "Biondello",
+      "quote_count": 39,
+      "consensus_ocean": {
+        "O": 0.09911999999999999,
+        "C": 0.17219199999999998,
+        "E": 0.486444,
+        "A": 0.17641199999999999,
+        "N": 0.060399999999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Biondello is often viewed as a lively and witty character who provides comic relief and demonstrates social energy, though he lacks depth in critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.3,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.3,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Biondello is a minor servant character with limited textual presence; published criticism treats him primarily as a functional plot device rather than a psychologically complex figure warranting sustained personality analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.2,
+            "E": 0.0,
+            "A": 0.2,
+            "N": -0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.2,\n  \"E\": 0.0,\n  \"A\": 0.2,\n  \"N\": -0.1,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published critical analyses of Biondello primarily focus on his functional role in advancing the plot and facilitating deception, rather than offering deep psychological assessments of his personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.354,
+            "C": 0.1864,
+            "E": 0.5373,
+            "A": 0.3729,
+            "N": 0.13
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:00:24.288105+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001391
+        }
+      ]
+    },
+    {
+      "coref_id": "char_bianca",
+      "character_name": "Bianca",
+      "quote_count": 29,
+      "consensus_ocean": {
+        "O": 0.42385599999999996,
+        "C": 0.300068,
+        "E": 0.346232,
+        "A": 0.32068,
+        "N": -0.354128
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.7,
+            "A": 0.6,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.7, \"A\": 0.6, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Bianca is often interpreted as a character who embodies charm and social grace, but her complexity and the societal constraints she faces suggest a moderate level of openness and conscientiousness, as noted in various critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.7,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": 0.7,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Frye, and modern feminist scholarship) treats Bianca as a conventionally obedient, modest daughter who performs compliance strategically; she shows modest openness and conscientiousness, high agreeableness, and emotional stability, though her limited stage time and subordinate role to Katherine's arc restrict depth of analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.3,
+            "E": 0.5,
+            "A": -0.7,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.4,\n  \"C\": 0.3,\n  \"E\": 0.5,\n  \"A\": -0.7,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus often interprets Bianca's initial demureness as a strategic facade, revealing a self-willed, assertive, and less agreeable nature in the play's conclusion, contrasting sharply with her public persona and demonstrating low neuroticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4852,
+            "C": 0.0431,
+            "E": -0.2206,
+            "A": 0.631,
+            "N": -0.4076
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:01:08.980393+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001209
+        }
+      ]
+    }
+  ]
+}

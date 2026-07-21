@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T20:27:39Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Timon of Athens",
+    "author": "William Shakespeare",
+    "year": "c. 1606"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_timon",
+      "character_name": "Timon",
+      "quote_count": 210,
+      "consensus_ocean": {
+        "O": 0.273696,
+        "C": -0.708432,
+        "E": -0.25157599999999997,
+        "A": -0.83862,
+        "N": 0.774792
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": -0.5,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": -0.5, \"A\": -0.8, \"N\": 0.8, \"confidence\": \"high\", \"rationale\": \"Timon is often viewed as a character who embodies both the extremes of generosity and misanthropy, reflecting a complex personality marked by emotional volatility and a decline in social warmth, as discussed in various critical analyses including A.C. Bradley's interpretations.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.8,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.85,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, modern scholarship) identifies Timon as emotionally volatile and misanthropic with extreme swings from indiscriminate generosity to bitter rejection, marked by poor judgment and lack of self-discipline, though socially commanding in his extremes.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": -0.9,
+            "E": -0.8,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": -0.9,\n  \"E\": -0.8,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Timon's initial boundless generosity and naive trust, which violently transform into extreme misanthropy, emotional volatility, and complete social withdrawal after betrayal, as discussed by scholars like A.C. Bradley and in modern psychological readings of the play.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4632,
+            "C": -0.6444,
+            "E": -0.3842,
+            "A": -0.7665,
+            "N": 0.5814
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:27:39.439436+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003078
+        }
+      ]
+    },
+    {
+      "coref_id": "char_apemantus",
+      "character_name": "Apemantus",
+      "quote_count": 101,
+      "consensus_ocean": {
+        "O": 0.21721199999999996,
+        "C": -0.07814800000000001,
+        "E": 0.003644000000000025,
+        "A": -0.822684,
+        "N": 0.523376
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3727,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": -0.5,
+            "A": -0.8,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": -0.5, \"A\": -0.8, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Apemantus is often viewed as a cynical and misanthropic character, reflecting a blend of unconventionality and emotional volatility, as noted in various critical analyses of Shakespeare's work.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": -0.55,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": -0.55,\n  \"E\": 0.70,\n  \"A\": -0.80,\n  \"N\": 0.75,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Apemantus is characterized in critical tradition (e.g., G. Wilson Knight, Northrop Frye) as a cynical, verbally inventive misanthrope whose bitter wit and philosophical unconventionality contrast with his lack of discipline, low empathy, and volatile emotional hostility toward society.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.9,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.4,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently depicts Apemantus as a cynical, misanthropic philosopher, characterized by his unyielding negativity, confrontational assertiveness, and profound distrust of humanity, serving as a foil to Timon's initial naivety.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1329,
+            "C": 0.0209,
+            "E": -0.6727,
+            "A": -0.7953,
+            "N": 0.3692
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:21:11.529558+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001884
+        }
+      ]
+    },
+    {
+      "coref_id": "char_flavius",
+      "character_name": "Flavius",
+      "quote_count": 41,
+      "consensus_ocean": {
+        "O": -0.236036,
+        "C": 0.585872,
+        "E": -0.094248,
+        "A": 0.696056,
+        "N": 0.171936
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Flavius is often viewed as a practical and somewhat cynical character, reflecting a moderate level of conscientiousness and agreeableness, but he does not exhibit strong traits in openness, extraversion, or neuroticism according to critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.7,
+            "E": 0.3,
+            "A": 0.8,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.7,\n  \"E\": 0.3,\n  \"A\": 0.8,\n  \"N\": -0.2,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Flavius emerges in critical consensus as a loyal steward of conventional virtue\u2014dutiful and conscientious\u2014whose constancy and empathetic concern for Timon's ruin mark him as the play's moral anchor, though his minor role and limited textual presence restrict deeper personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.9,
+            "E": -0.3,
+            "A": 0.9,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.9,\n  \"E\": -0.3,\n  \"A\": 0.9,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Flavius as the epitome of loyalty, conscientiousness, and empathy, contrasting his unwavering devotion and practical efforts with Timon's misanthropy and the general corruption, while also noting his deep distress over Timon's downfall.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3287,
+            "C": 0.2924,
+            "E": -0.3366,
+            "A": 0.6002,
+            "N": 0.2712
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:21:53.535918+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001807
+        }
+      ]
+    },
+    {
+      "coref_id": "char_alcibiades",
+      "character_name": "Alcibiades",
+      "quote_count": 39,
+      "consensus_ocean": {
+        "O": 0.508172,
+        "C": 0.17464399999999997,
+        "E": 0.704396,
+        "A": 0.13269999999999998,
+        "N": 0.08199999999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.2,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.2, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Alcibiades in 'Timon of Athens' is characterized by a blend of ambition and social assertiveness, reflecting a moderate level of openness and extraversion, while his agreeableness is low due to his self-serving nature, as noted in various critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.6,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.6,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Alcibiades emerges in critical consensus as a martial pragmatist and ambitious soldier whose foil relationship with Timon emphasizes his disciplined pursuit of power over Timon's emotional excess, yet he remains a minor figure whose personality receives limited sustained analysis in major Shakespearean criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.8,
+            "E": 0.7,
+            "A": 0.5,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": 0.5,\n  \"N\": -0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism, including analyses by G. Wilson Knight, consistently portrays Alcibiades as a pragmatic, assertive, and disciplined military leader who seeks a balanced form of justice, contrasting with Timon's despair and the Senators' inflexibility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6149,
+            "C": 0.4523,
+            "E": 0.7157,
+            "A": 0.3025,
+            "N": -0.05
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:22:35.452811+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001395
+        }
+      ]
+    },
+    {
+      "coref_id": "char_poet",
+      "character_name": "Poet",
+      "quote_count": 30,
+      "consensus_ocean": {
+        "O": 0.39482399999999995,
+        "C": -0.218032,
+        "E": 0.273188,
+        "A": 0.011231999999999975,
+        "N": 0.26695599999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4544,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": -0.2,
+            "A": 0.3,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": -0.2, \"A\": 0.3, \"N\": 0.7, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley note that Timon exhibits a complex personality marked by initial generosity and later bitterness, reflecting a moderate level of openness and high neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.8,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.8,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Poet is a minor character appearing only briefly in Act 1; published criticism (including Bradley and Bloom) focuses overwhelmingly on Timon himself, leaving the Poet's personality largely underdeveloped and subject to minimal scholarly consensus.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily analyzes the Poet as a symbolic type representing mercenary artistry and flattery within the play's themes of corruption and patronage, rather than offering detailed psychological assessments of his individual personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8958,
+            "C": 0.3356,
+            "E": 0.5471,
+            "A": 0.5544,
+            "N": -0.3323
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:23:14.717046+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001316
+        }
+      ]
+    },
+    {
+      "coref_id": "char_painter",
+      "character_name": "Painter",
+      "quote_count": 30,
+      "consensus_ocean": {
+        "O": 0.199172,
+        "C": -0.04423999999999999,
+        "E": 0.06499200000000001,
+        "A": -0.17424800000000001,
+        "N": -0.10149599999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.242,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Painter is a minor character in 'Timon of Athens' and has not been the subject of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.8,
+            "E": 0.0,
+            "A": -0.7,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.8,\n  \"E\": 0.0,\n  \"A\": -0.7,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Painter is an extremely minor character (appears briefly in Act 1) with minimal dialogue or developed personality; published criticism rarely addresses him substantively, making reliable trait assessment impossible.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.1,
+            "E": 0.1,
+            "A": -0.1,
+            "N": -0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.1,\n  \"E\": 0.1,\n  \"A\": -0.1,\n  \"N\": -0.1,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses Painter as a functional type representing opportunistic flattery and parasitic artistry, rather than offering deep psychological analysis of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5399,
+            "C": 0.442,
+            "E": 0.1464,
+            "A": 0.0634,
+            "N": -0.4482
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:23:52.884865+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001139
+        }
+      ]
+    },
+    {
+      "coref_id": "char_first_senator",
+      "character_name": "First Senator",
+      "quote_count": 27,
+      "consensus_ocean": {
+        "O": -0.078176,
+        "C": 0.43266799999999994,
+        "E": 0.077684,
+        "A": 0.011695999999999995,
+        "N": -0.13182
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6881,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The First Senator in 'Timon of Athens' is a minor character whose traits are not extensively analyzed in critical literature, but he generally represents a pragmatic and somewhat conventional perspective on the events surrounding Timon.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": -0.2,
+            "N": 0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.5,\n  \"E\": 0.3,\n  \"A\": -0.2,\n  \"N\": 0.1,\n  \"confidence\": \"low\",\n  \"rationale\": \"The First Senator is a minor functional character appearing briefly in Act 3 to represent Athenian authority; published criticism (including Bradley and modern editions) treats him as a dramatic instrument rather than a developed personality, offering minimal characterological analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism, including major works like Bradley's or Bloom's, generally treats the First Senator as a functional representative of the Athenian state's pragmatic and self-interested nature, rather than offering detailed analysis of their individual personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2792,
+            "C": 0.6881,
+            "E": 0.0203,
+            "A": 0.2132,
+            "N": -0.5565
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:24:22.166902+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001257
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lucius",
+      "character_name": "Lucius",
+      "quote_count": 26,
+      "consensus_ocean": {
+        "O": -0.07455999999999999,
+        "C": -0.19718,
+        "E": 0.25202399999999997,
+        "A": -0.03424400000000001,
+        "N": 0.074184
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1777,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Lucius is a minor character in 'Timon of Athens' and does not receive significant attention in published literary criticism, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.8,
+            "E": 0.6,
+            "A": -0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.8,\n  \"E\": 0.6,\n  \"A\": -0.7,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lucius is a minor parasitic character whose personality receives minimal sustained critical attention; scholars focus overwhelmingly on Timon and Apemantus, leaving Lucius's traits largely underdeveloped in the published critical tradition.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses Lucius as a representative figure of ingratitude and a functional character among Timon's false friends, rather than offering detailed analysis of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.352,
+            "C": -0.0185,
+            "E": 0.3858,
+            "A": 0.4777,
+            "N": 0.0078
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:24:58.345036+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001222
+        }
+      ]
+    },
+    {
+      "coref_id": "char_second_friend",
+      "character_name": "Second Friend",
+      "quote_count": 17,
+      "consensus_ocean": {
+        "O": -0.028083999999999998,
+        "C": -0.034831999999999995,
+        "E": 0.037380000000000004,
+        "A": 0.128408,
+        "N": 0.046591999999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4586,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Second Friend is a minor character in 'Timon of Athens' and lacks significant analysis in published criticism, resulting in an ambiguous personality profile.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Second Friend is an extremely minor character with minimal dialogue and no sustained presence in published critical analyses of Timon of Athens; scholars focus on Timon, Apemantus, and the parasitic lords, leaving Second Friend too underdeveloped for meaningful personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats 'Second Friend' as an undifferentiated member of Timon's ungrateful circle, offering no specific psychological assessment of this individual character.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1003,
+            "C": -0.1244,
+            "E": 0.1335,
+            "A": 0.4586,
+            "N": 0.1664
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:25:30.755125+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000926
+        }
+      ]
+    },
+    {
+      "coref_id": "char_caphis",
+      "character_name": "Caphis",
+      "quote_count": 14,
+      "consensus_ocean": {
+        "O": -0.13999999999999999,
+        "C": 0.321244,
+        "E": 0.09126399999999998,
+        "A": 0.014148000000000004,
+        "N": -0.030008
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9791,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Caphis is a minor character in 'Timon of Athens' and has not been the focus of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.7,
+            "E": 0.3,
+            "A": -0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.7,\n  \"E\": 0.3,\n  \"A\": -0.5,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Caphis is a minor servant character with minimal textual presence; published criticism treats him as a functional functionary in Timon's debt-collection scenes rather than a psychologically developed personality worthy of sustained analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Caphis is a minor, functional character in 'Timon of Athens' whose individual personality traits are not a subject of significant critical analysis in published literary scholarship.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5473,
+            "E": 0.0688,
+            "A": 0.4791,
+            "N": -0.2786
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:26:10.826347+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000794
+        }
+      ]
+    }
+  ]
+}

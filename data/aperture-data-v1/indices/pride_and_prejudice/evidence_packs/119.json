@@ -1,0 +1,45 @@
+{
+  "coref_id": "119",
+  "character_name": "Mr. Goldwin Smith",
+  "quote_count": 1,
+  "mention_count": 3,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "117",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c metaphor has been exhausted in depicting the perfection of it , combined with the narrowness of her field ; \u201d",
+      "mention_text": "he",
+      "quote_start": 2227,
+      "quote_end": 2247,
+      "addressee_coref_id": "117",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "117",
+          "quote_text": "\u201c the other side , \u201d"
+        },
+        {
+          "speaker_coref_id": "117",
+          "quote_text": "\u201c the accepted hells beneath , \u201d"
+        },
+        {
+          "speaker_coref_id": "0",
+          "quote_text": "\u201c narrow \u201d"
+        },
+        {
+          "speaker_coref_id": "355",
+          "quote_text": "\u201c absolute . \u201d"
+        }
+      ]
+    }
+  ]
+}

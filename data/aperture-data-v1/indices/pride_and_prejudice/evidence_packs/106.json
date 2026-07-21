@@ -1,0 +1,425 @@
+{
+  "coref_id": "106",
+  "character_name": "Miss Darcy",
+  "quote_count": 15,
+  "mention_count": 226,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "102",
+      4
+    ],
+    [
+      "107",
+      3
+    ],
+    [
+      "710",
+      2
+    ],
+    [
+      "161",
+      2
+    ],
+    [
+      "738",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Your list of the common extent of accomplishments , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 19928,
+      "quote_end": 19938,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c All young ladies accomplished ! My dear Charles , what do you mean ? \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c Yes , all of them , I think . They all paint tables , cover screens , and net purses . I scarcely know any one who can not do all this ; and I am sure I never heard a young lady spoken of for the first time , without being informed that she was very accomplished . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c has too much truth . The word is applied to many a woman who deserves it no otherwise than by netting a purse or covering a screen ; but I am very far from agreeing with you in your estimation of ladies in general . I can not boast of knowing more than half - a - dozen in the whole range of my acquaintance that are really accomplished . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Nor I , I am sure , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c has too much truth . The word is applied to many a woman who deserves it no otherwise than by netting a purse or covering a screen ; but I am very far from agreeing with you in your estimation of ladies in general . I can not boast of knowing more than half - a - dozen in the whole range of my acquaintance that are really accomplished . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 19942,
+      "quote_end": 20013,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c Yes , all of them , I think . They all paint tables , cover screens , and net purses . I scarcely know any one who can not do all this ; and I am sure I never heard a young lady spoken of for the first time , without being informed that she was very accomplished . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Your list of the common extent of accomplishments , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Nor I , I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Then , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c All this she must possess , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 20160,
+      "quote_end": 20167,
+      "addressee_coref_id": "710",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "710",
+          "quote_text": "\u201c Oh , certainly , \u201d"
+        },
+        {
+          "speaker_coref_id": "710",
+          "quote_text": "\u201c no one can be really esteemed accomplished who does not greatly surpass what is usually met with . A woman must have a thorough knowledge of music , singing , drawing , dancing , and the modern languages , to deserve the word ; and , besides all this , she must possess a certain something in her air and manner of walking , the tone of her voice , her address and expressions , or the word will be but half deserved . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c and to all she must yet add something more substantial in the improvement of her mind by extensive reading . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I am no longer surprised at your knowing _ only _ six accomplished women . I rather wonder now at your knowing _ any _ . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and to all she must yet add something more substantial in the improvement of her mind by extensive reading . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 20171,
+      "quote_end": 20192,
+      "addressee_coref_id": "710",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "710",
+          "quote_text": "\u201c no one can be really esteemed accomplished who does not greatly surpass what is usually met with . A woman must have a thorough knowledge of music , singing , drawing , dancing , and the modern languages , to deserve the word ; and , besides all this , she must possess a certain something in her air and manner of walking , the tone of her voice , her address and expressions , or the word will be but half deserved . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c All this she must possess , \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I am no longer surprised at your knowing _ only _ six accomplished women . I rather wonder now at your knowing _ any _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Are you so severe upon your own sex as to doubt the possibility of all this ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Are you so severe upon your own sex as to doubt the possibility of all this ? \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 20221,
+      "quote_end": 20239,
+      "addressee_coref_id": "160",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c and to all she must yet add something more substantial in the improvement of her mind by extensive reading . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I am no longer surprised at your knowing _ only _ six accomplished women . I rather wonder now at your knowing _ any _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c _ I _ never saw such a woman . _ I _ never saw such capacity , and taste , and application , and elegance , as you describe , united . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Eliza Bennet , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Undoubtedly , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 20407,
+      "quote_end": 20410,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Eliza Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c is one of those young ladies who seek to recommend themselves to the other sex by undervaluing their own ; and with many men , I daresay , it succeeds ; but , in my opinion , it is a paltry device , a very mean art . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c there is meanness in _ all _ the arts which ladies sometimes condescend to employ for captivation . Whatever bears affinity to cunning is despicable . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Indeed I have , sir , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c there is meanness in _ all _ the arts which ladies sometimes condescend to employ for captivation . Whatever bears affinity to cunning is despicable . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 20422,
+      "quote_end": 20449,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c is one of those young ladies who seek to recommend themselves to the other sex by undervaluing their own ; and with many men , I daresay , it succeeds ; but , in my opinion , it is a paltry device , a very mean art . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Undoubtedly , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Indeed I have , sir , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She is a great deal too ill to be moved . Mr. Jones says we must not think of moving her . We must trespass a little longer on your kindness . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The country , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 21408,
+      "quote_end": 21412,
+      "addressee_coref_id": "738",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c that you were a studier of character . It must be an amusing study . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Yes ; but intricate characters are the _ most _ amusing . They have at least that advantage . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c can in general supply but few subjects for such a study . In a country neighbourhood you move in a very confined and unvarying society . \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c But people themselves alter so much , that there is something new to be observed in them for ever . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c can in general supply but few subjects for such a study . In a country neighbourhood you move in a very confined and unvarying society . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 21416,
+      "quote_end": 21443,
+      "addressee_coref_id": "738",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c Yes ; but intricate characters are the _ most _ amusing . They have at least that advantage . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c The country , \u201d"
+        },
+        {
+          "speaker_coref_id": "738",
+          "quote_text": "\u201c But people themselves alter so much , that there is something new to be observed in them for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Yes , indeed , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Ay , that is because you have the right disposition . But that gentleman , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 21637,
+      "quote_end": 21653,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c When I am in the country , \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I never wish to leave it ; and when I am in town , it is pretty much the same . They have each their advantages , and I can be equally happy in either . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c seemed to think the country was nothing at all . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Indeed , mamma , you are mistaken , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c seemed to think the country was nothing at all . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 21658,
+      "quote_end": 21669,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I never wish to leave it ; and when I am in town , it is pretty much the same . They have each their advantages , and I can be equally happy in either . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Ay , that is because you have the right disposition . But that gentleman , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Indeed , mamma , you are mistaken , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c You quite mistook Mr. Darcy . He only meant that there was not such a variety of people to be met with in the country as in town , which you must acknowledge to be true . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh dear , yes ; but you must own she is very plain . Lady Lucas herself has often said so , and envied me Jane \u2019s beauty . I do not like to boast of my own child ; but to be sure , Jane -- one does not often see anybody better looking . It is what everybody says . I do not trust my own partiality . When she was only fifteen there was a gentleman at my brother Gardiner \u2019s in town so much in love with her , that my sister - in - law was sure he would make her an offer before we came away . But , however , he did not . Perhaps he thought her too young . However , he wrote some verses on her , and very pretty they were . \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 22035,
+      "quote_end": 22179,
+      "addressee_coref_id": "157",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "743",
+          "quote_text": "\u201c No , she would go home . I fancy she was wanted about the mince - pies . For my part , Mr. Bingley , _ I _ always keep servants that can do their own work ; _ my _ daughters are brought up differently . But everybody is to judge for themselves , and the Lucases are a very good sort of girls , I assure you . It is a pity they are not handsome ! Not that _ I _ think Charlotte so _ very _ plain ; but then she is our particular friend . \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c She seems a very pleasant young woman , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And so ended his affection , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c There has been many a one , I fancy , overcome in the same way . I wonder who first discovered the efficacy of poetry in driving away love ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I have been used to consider poetry as the _ food _ of love , \u201d",
+      "mention_text": "Darcy",
+      "quote_start": 22225,
+      "quote_end": 22241,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And so ended his affection , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c There has been many a one , I fancy , overcome in the same way . I wonder who first discovered the efficacy of poetry in driving away love ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Of a fine , stout , healthy love it may . Everything nourishes what is strong already . But if it be only a slight , thin sort of inclination , I am convinced that one good sonnet will starve it entirely away . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am perfectly ready , I assure you , to keep my engagement ; and , when your sister is recovered , you shall , if you please , name the very day of the ball . But you would not wish to be dancing while she is ill ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And this is always the way with him , \u201d",
+      "mention_text": "she",
+      "quote_start": 98338,
+      "quote_end": 98348,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c That is not very likely ; our authority was too good . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c He is certainly a good brother , \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Whatever can give his sister any pleasure , is sure to be done in a moment . There is nothing he would not do for her . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c delightful , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Whatever can give his sister any pleasure , is sure to be done in a moment . There is nothing he would not do for her . \u201d",
+      "mention_text": "she",
+      "quote_start": 98352,
+      "quote_end": 98380,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c He is certainly a good brother , \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c And this is always the way with him , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c delightful , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c charming , \u201d"
+        }
+      ]
+    }
+  ]
+}

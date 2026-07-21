@@ -1,0 +1,61 @@
+manifest_index,op_id,op_name,book,coref_id,held_out_subset
+0,GG/3,Daisy Buchanan,the_great_gatsby,159,True
+1,AK/3,Count Alexei Vronsky,anna_karenina,224,False
+2,AHF/1,Huckleberry Finn,adventures_of_huckleberry_finn,0,False
+3,HML/1,Prince Hamlet,hamlet,char_hamlet,False
+4,AK/6,Konstantin Levin,anna_karenina,179,False
+5,AK/7,Betsy Tverskaya,anna_karenina,295,True
+6,TWN/4,Duke Orsino,twelfth_night,char_duke,False
+7,GG/4,Tom Buchanan,the_great_gatsby,160,False
+8,AK/2,Count Alexei Karenin,anna_karenina,172,False
+9,RJ/1,Romeo Montague,romeo_and_juliet,char_romeo,False
+10,SSB/3,Colonel Brandon,sense_and_sensibility,115,False
+11,SCL/1,Hester Prynne,the_scarlet_letter,119,False
+12,RJ/2,Juliet Capulet,romeo_and_juliet,char_juliet,True
+13,GG/6,Jordan Baker,the_great_gatsby,166,True
+14,AK/8,Kitty Shcherbatskaya,anna_karenina,184,False
+15,LM/2,Javert,les_miserables,1804,False
+16,TWN/1,Viola,twelfth_night,char_viola,False
+17,JE/2,Edward Rochester,jane_eyre,317,False
+18,AK/10,Countess Lidia Ivanovna,anna_karenina,270,False
+19,HML/2,Queen Gertrude,hamlet,char_queen,False
+20,RJ/3,Friar Laurence,romeo_and_juliet,char_friar_lawrence,False
+21,AK/4,Dolly Oblonskaya,anna_karenina,154,False
+22,TWN/3,Olivia,twelfth_night,char_olivia,False
+23,GG/2,Nick Carraway,the_great_gatsby,0,False
+24,HML/3,King Claudius,hamlet,char_king,False
+25,MCB/2,Lady Macbeth,macbeth,char_lady_macbeth,False
+26,AK/5,Stepan Oblonsky,anna_karenina,149,False
+27,SSB/2,Marianne Dashwood,sense_and_sensibility,98,False
+28,GG/1,Jay Gatsby,the_great_gatsby,157,False
+29,TWN/2,Sebastian,twelfth_night,char_sebastian,False
+30,AHF/2,Jim,adventures_of_huckleberry_finn,117,False
+31,PP/7,Mrs. Bennet,pride_and_prejudice,126,False
+32,TTC/2,Lucie Manette,a_tale_of_two_cities,203,False
+33,RJ/4,Mercutio,romeo_and_juliet,char_mercutio,True
+34,RJ/5,The Nurse,romeo_and_juliet,char_nurse,False
+35,LM/5,Marius Pontmercy,les_miserables,2781,False
+36,LM/3,Fantine,les_miserables,1667,True
+37,HML/5,Ophelia,hamlet,char_ophelia,False
+38,TWN/5,Malvolio,twelfth_night,char_malvolio,False
+39,SSB/4,Edward Ferrars,sense_and_sensibility,108,False
+40,SSB/1,Elinor Dashwood,sense_and_sensibility,97,False
+41,HML/6,Horatio,hamlet,char_horatio,False
+42,TTC/1,Sydney Carton,a_tale_of_two_cities,206,False
+43,TTC/3,Charles Darnay,a_tale_of_two_cities,189,False
+44,GG/5,Myrtle Wilson,the_great_gatsby,170,False
+45,PP/10,Mr. William Collins,pride_and_prejudice,103,True
+46,LM/1,Jean Valjean,les_miserables,2647,False
+47,HML/4,Polonius,hamlet,char_polonius,False
+48,LM/4,Cosette,les_miserables,1373,True
+49,PP/4,Charles Bingley,pride_and_prejudice,102,False
+50,PP/1,Elizabeth Bennet,pride_and_prejudice,107,False
+51,MCB/1,Macbeth,macbeth,char_macbeth,False
+52,RJ/6,Benvolio,romeo_and_juliet,char_benvolio,False
+53,AK/1,Anna Karenina,anna_karenina,158,False
+54,JE/1,Jane Eyre,jane_eyre,0,True
+55,PP/9,Lydia Bennet,pride_and_prejudice,99,False
+56,PP/2,Mr. Darcy,pride_and_prejudice,127,False
+57,PP/3,Jane Bennet,pride_and_prejudice,192,True
+58,PP/6,Lady Catherine de Bourgh,pride_and_prejudice,130,False
+59,PP/8,George Wickham,pride_and_prejudice,100,False

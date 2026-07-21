@@ -1,0 +1,45 @@
+{
+  "coref_id": "1017",
+  "character_name": "I",
+  "quote_count": 1,
+  "mention_count": 9,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "106",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I wish I could call her amiable . It gives me pain to speak ill of a Darcy ; but she is too much like her brother,--very , very proud . As a child , she was affectionate and pleasing , and extremely fond of me ; and I have devoted hours and hours to her amusement . But she is nothing to me now . She is a handsome girl , about fifteen or sixteen , and , I understand , highly accomplished . Since her father \u2019s death her home has been London , where a lady lives with her , and superintends her education . \u201d",
+      "mention_text": "He",
+      "quote_start": 36665,
+      "quote_end": 36774,
+      "addressee_coref_id": "106",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c Yes ; it has often led him to be liberal and generous ; to give his money freely , to display hospitality , to assist his tenants , and relieve the poor . Family pride , and _ filial _ pride , for he is very proud of what his father was , have done this . Not to appear to disgrace his family , to degenerate from the popular qualities , or lose the influence of the Pemberley House , is a powerful motive . He has also _ brotherly _ pride , which , with _ some _ brotherly affection , makes him a very kind and careful guardian of his sister ; and you will hear him generally cried up as the most attentive and best of brothers . \u201d"
+        },
+        {
+          "speaker_coref_id": "1016",
+          "quote_text": "\u201c What sort of a girl is Miss Darcy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1019",
+          "quote_text": "\u201c I am astonished at his intimacy with Mr. Bingley . How can Mr. Bingley , who seems good - humour itself , and is , I really believe , truly amiable , be in friendship with such a man ? How can they suit each other ? Do you know Mr. Bingley ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1019",
+          "quote_text": "\u201c Not at all . \u201d"
+        }
+      ]
+    }
+  ]
+}

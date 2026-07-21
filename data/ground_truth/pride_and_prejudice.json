@@ -1,0 +1,2506 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T20:27:39Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "107",
+      "character_name": "Elizabeth Bennet",
+      "quote_count": 437,
+      "consensus_ocean": {
+        "O": 0.666671052631579,
+        "C": 0.6125763157894738,
+        "E": 0.3369631578947368,
+        "A": 0.3420736842105263,
+        "N": -0.12692894736842106
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.086,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.55,
+            "E": 0.7,
+            "A": 0.4,
+            "N": -0.2
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "4346-20291-1-PB.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "4603-12162-1-PB.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abbas2021_Similarity_Indonesian_British_Womens.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aly2016_Matchmaking_problems_Marah_Ruslis.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Made2021_Exploring_Characterization_Main_Characters.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Magomedova2017_HALOEFFECT_JANE_AUSTINS_BOOK.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mohammed2023_Exploring_Female_Empowerment_Comparative.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Yamin2011_Id_Ego_Superego_Pride.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yan2020_Study_Pride_Prejudice_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yu2023_Personality_Understanding_Fictional_Characters.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Zheng2019_Analysis_Violation_Cooperative_Principle.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "paris_2017_character_conflict.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "notes": "Intelligent, quick-witted, outspoken; challenges social conventions; seeks equality and mutual respect. Confident and resilient, low anxiety.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.672,
+              "confidence_interval": [
+                0.548,
+                0.796
+              ],
+              "n_sources": 19,
+              "std_dev": 0.063
+            },
+            "C": {
+              "score": 0.321,
+              "confidence_interval": [
+                -0.395,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.365
+            },
+            "E": {
+              "score": 0.59,
+              "confidence_interval": [
+                0.356,
+                0.825
+              ],
+              "n_sources": 12,
+              "std_dev": 0.12
+            },
+            "A": {
+              "score": -0.068,
+              "confidence_interval": [
+                -0.798,
+                0.661
+              ],
+              "n_sources": 18,
+              "std_dev": 0.372
+            },
+            "N": {
+              "score": -0.034,
+              "confidence_interval": [
+                -0.801,
+                0.733
+              ],
+              "n_sources": 13,
+              "std_dev": 0.391
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.502,
+            "C": 0.767,
+            "E": -0.386,
+            "A": 0.059,
+            "N": 0.284
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/1",
+          "pgt_op_name": "Elizabeth Bennet",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5445,
+            "C": 0.5487,
+            "E": 0.4358,
+            "A": 0.6214,
+            "N": -0.5639
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:22:21.625458+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001452
+        }
+      ]
+    },
+    {
+      "coref_id": "127",
+      "character_name": "Mr. Darcy",
+      "quote_count": 91,
+      "consensus_ocean": {
+        "O": 0.5627578947368421,
+        "C": 0.5602342105263158,
+        "E": -0.04556315789473684,
+        "A": 0.31267894736842106,
+        "N": 0.04953157894736843
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9736,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": 0.1,
+            "A": 0.6,
+            "N": 0.2
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abbas2021_Similarity_Indonesian_British_Womens.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Made2021_Exploring_Characterization_Main_Characters.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Magomedova2017_HALOEFFECT_JANE_AUSTINS_BOOK.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Yamin2011_Id_Ego_Superego_Pride.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yan2020_Study_Pride_Prejudice_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yu2023_Personality_Understanding_Fictional_Characters.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Zheng2019_Analysis_Violation_Cooperative_Principle.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Initially proud and reserved, he undergoes humility and emotional growth, showing increased warmth and respect in relationships.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.457,
+              "confidence_interval": [
+                0.331,
+                0.583
+              ],
+              "n_sources": 6,
+              "std_dev": 0.064
+            },
+            "C": {
+              "score": 0.659,
+              "confidence_interval": [
+                0.49,
+                0.829
+              ],
+              "n_sources": 9,
+              "std_dev": 0.087
+            },
+            "E": {
+              "score": -0.523,
+              "confidence_interval": [
+                -0.8,
+                -0.245
+              ],
+              "n_sources": 12,
+              "std_dev": 0.142
+            },
+            "A": {
+              "score": -0.311,
+              "confidence_interval": [
+                -1.0,
+                0.396
+              ],
+              "n_sources": 14,
+              "std_dev": 0.361
+            },
+            "N": {
+              "score": -0.018,
+              "confidence_interval": [
+                -0.845,
+                0.808
+              ],
+              "n_sources": 5,
+              "std_dev": 0.422
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.774,
+            "C": 0.26,
+            "E": 0.009,
+            "A": 0.227,
+            "N": -0.023
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/2",
+          "pgt_op_name": "Mr. Darcy",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1244,
+            "C": 0.6327,
+            "E": -0.5472,
+            "A": -0.3736,
+            "N": -0.2664
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:39:18.255835+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001708
+        }
+      ]
+    },
+    {
+      "coref_id": "126",
+      "character_name": "Mrs. Bennet",
+      "quote_count": 140,
+      "consensus_ocean": {
+        "O": -0.07526250000000001,
+        "C": -0.11140937500000003,
+        "E": 0.5854062499999999,
+        "A": 0.13930625,
+        "N": 0.4309374999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.839,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.3,
+            "E": 0.6,
+            "A": 0.3,
+            "N": 0.6
+          },
+          "citation": "Oatley 2016; Mare 2025",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abbas2021_Similarity_Indonesian_British_Womens.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aly2016_Matchmaking_problems_Marah_Ruslis.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Yan2020_Study_Pride_Prejudice_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Zheng2019_Analysis_Violation_Cooperative_Principle.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Single-minded focus on marrying daughters, emotionally volatile, socially forward, conventional in outlook.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.578,
+              "confidence_interval": [
+                -0.659,
+                -0.496
+              ],
+              "n_sources": 7,
+              "std_dev": 0.042
+            },
+            "C": {
+              "score": -0.167,
+              "confidence_interval": [
+                -1.0,
+                0.694
+              ],
+              "n_sources": 7,
+              "std_dev": 0.439
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 4,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": -0.409,
+              "confidence_interval": [
+                -0.535,
+                -0.284
+              ],
+              "n_sources": 6,
+              "std_dev": 0.064
+            },
+            "N": {
+              "score": 0.58,
+              "confidence_interval": [
+                0.367,
+                0.793
+              ],
+              "n_sources": 10,
+              "std_dev": 0.109
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.194,
+            "C": -0.539,
+            "E": 0.723,
+            "A": 0.048,
+            "N": 0.392
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/7",
+          "pgt_op_name": "Mrs. Bennet",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4392,
+            "C": -0.2623,
+            "E": 0.34,
+            "A": -0.0386,
+            "N": 0.154
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:22:54.000309+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001404
+        }
+      ]
+    },
+    {
+      "coref_id": "138",
+      "character_name": "Charlotte Lucas",
+      "quote_count": 38,
+      "consensus_ocean": {
+        "O": -0.25755555555555554,
+        "C": 0.5841592592592592,
+        "E": 0.005648148148148143,
+        "A": 0.29405925925925924,
+        "N": -0.28939259259259253
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4075,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.6,
+            "E": -0.1,
+            "A": 0.2,
+            "N": -0.2
+          },
+          "citation": "Mare 2025",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Aly2016_Matchmaking_problems_Marah_Ruslis.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mohammed2023_Exploring_Female_Empowerment_Comparative.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Yamin2011_Id_Ego_Superego_Pride.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Pragmatic and security-oriented in marriage; emotionally restrained.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.217,
+              "confidence_interval": [
+                -0.87,
+                0.435
+              ],
+              "n_sources": 7,
+              "std_dev": 0.333
+            },
+            "C": {
+              "score": 0.521,
+              "confidence_interval": [
+                0.223,
+                0.818
+              ],
+              "n_sources": 8,
+              "std_dev": 0.152
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.372,
+              "confidence_interval": [
+                0.285,
+                0.46
+              ],
+              "n_sources": 3,
+              "std_dev": 0.045
+            },
+            "N": {
+              "score": -0.208,
+              "confidence_interval": [
+                -0.982,
+                0.566
+              ],
+              "n_sources": 5,
+              "std_dev": 0.395
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.422,
+            "C": 0.5389,
+            "E": 0.3075,
+            "A": 0.5628,
+            "N": -0.5448
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:39:57.273832+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001558
+        }
+      ]
+    },
+    {
+      "coref_id": "118",
+      "character_name": "Mr. Bennet",
+      "quote_count": 76,
+      "consensus_ocean": {
+        "O": 0.27832592592592587,
+        "C": -0.18496296296296297,
+        "E": -0.2921703703703703,
+        "A": -0.27295925925925923,
+        "N": -0.3986518518518518
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1043,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.2,
+            "E": -0.3,
+            "A": -0.3,
+            "N": -0.4
+          },
+          "citation": "Oatley 2016",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fischer2020_Tracing_Personality_Structure_Narratives.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Zheng2019_Analysis_Violation_Cooperative_Principle.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Quick wit and sarcasm, but reserved and capricious; low warmth and low emotional volatility.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.581,
+              "confidence_interval": [
+                0.414,
+                0.749
+              ],
+              "n_sources": 6,
+              "std_dev": 0.086
+            },
+            "C": {
+              "score": 0.094,
+              "confidence_interval": [
+                -0.897,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.506
+            },
+            "E": {
+              "score": -0.543,
+              "confidence_interval": [
+                -0.894,
+                -0.192
+              ],
+              "n_sources": 4,
+              "std_dev": 0.179
+            },
+            "A": {
+              "score": -0.174,
+              "confidence_interval": [
+                -1.0,
+                0.711
+              ],
+              "n_sources": 5,
+              "std_dev": 0.451
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2164,
+            "C": -0.142,
+            "E": -0.2698,
+            "A": -0.1957,
+            "N": -0.3948
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:40:37.522824+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001409
+        }
+      ]
+    },
+    {
+      "coref_id": "192",
+      "character_name": "Jane Bennet",
+      "quote_count": 137,
+      "consensus_ocean": {
+        "O": -0.11572812500000003,
+        "C": 0.48229999999999995,
+        "E": 0.17299062499999998,
+        "A": 0.3333062499999999,
+        "N": 0.30975625
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.272,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.8,
+            "N": 0.4
+          },
+          "citation": "Mare 2025; Oatley 2016; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "2013-41944-002.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Abbas2021_Similarity_Indonesian_British_Womens.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mohammed2023_Exploring_Female_Empowerment_Comparative.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "paris_2017_character_conflict.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "notes": "Gentle, kind, and traditional; represents idealized domestic virtue and romantic love.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.356,
+              "confidence_interval": [
+                -0.266,
+                0.977
+              ],
+              "n_sources": 3,
+              "std_dev": 0.317
+            },
+            "C": {
+              "score": 0.579,
+              "confidence_interval": [
+                -0.08,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.336
+            },
+            "E": {
+              "score": -0.223,
+              "confidence_interval": [
+                -0.836,
+                0.389
+              ],
+              "n_sources": 6,
+              "std_dev": 0.312
+            },
+            "A": {
+              "score": 0.704,
+              "confidence_interval": [
+                0.389,
+                1.0
+              ],
+              "n_sources": 10,
+              "std_dev": 0.161
+            },
+            "N": {
+              "score": -0.19,
+              "confidence_interval": [
+                -0.936,
+                0.556
+              ],
+              "n_sources": 3,
+              "std_dev": 0.381
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.751,
+            "C": 0.294,
+            "E": -0.025,
+            "A": -0.472,
+            "N": 0.713
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/3",
+          "pgt_op_name": "Jane Bennet",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1489,
+            "C": 0.5428,
+            "E": -0.1699,
+            "A": 0.6654,
+            "N": -0.5044
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:41:08.749865+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001934
+        }
+      ]
+    },
+    {
+      "coref_id": "99",
+      "character_name": "Lydia Bennet",
+      "quote_count": 67,
+      "consensus_ocean": {
+        "O": 0.05705789473684211,
+        "C": -0.5538,
+        "E": 0.6619,
+        "A": -0.1876868421052632,
+        "N": 0.44212368421052634
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3219,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.7,
+            "E": 0.8,
+            "A": -0.2,
+            "N": 0.4
+          },
+          "citation": "Mare 2025",
+          "scholarly_sources": [
+            {
+              "paper": "2013-41944-002.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Impulsive, thrill-seeking, and socially uninhibited; low discipline.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.788,
+                0.388
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.679,
+              "confidence_interval": [
+                -0.913,
+                -0.446
+              ],
+              "n_sources": 9,
+              "std_dev": 0.119
+            },
+            "E": {
+              "score": 0.713,
+              "confidence_interval": [
+                0.554,
+                0.871
+              ],
+              "n_sources": 6,
+              "std_dev": 0.081
+            },
+            "A": {
+              "score": -0.521,
+              "confidence_interval": [
+                -0.759,
+                -0.283
+              ],
+              "n_sources": 3,
+              "std_dev": 0.121
+            },
+            "N": {
+              "score": 0.329,
+              "confidence_interval": [
+                -0.149,
+                0.808
+              ],
+              "n_sources": 5,
+              "std_dev": 0.244
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.246,
+            "C": -0.261,
+            "E": 0.236,
+            "A": -0.268,
+            "N": 1.003
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/9",
+          "pgt_op_name": "Lydia Bennet",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4106,
+            "C": -0.5962,
+            "E": 0.9366,
+            "A": -0.0263,
+            "N": -0.3189
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:41:41.784983+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001782
+        }
+      ]
+    },
+    {
+      "coref_id": "100",
+      "character_name": "Wickham",
+      "quote_count": 33,
+      "consensus_ocean": {
+        "O": 0.08662105263157897,
+        "C": -0.1735657894736842,
+        "E": 0.46505,
+        "A": -0.11669473684210524,
+        "N": 0.12549210526315793
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.657,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.2,
+            "C": -0.4,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.2
+          },
+          "citation": "Oatley 2016; Mare 2025",
+          "scholarly_sources": [
+            {
+              "paper": "Abbas2021_Similarity_Indonesian_British_Womens.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2023_Outlook_Equality_Love_Review.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Yamin2011_Id_Ego_Superego_Pride.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Charming and socially bold, but unreliable and self-serving.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.688,
+              "confidence_interval": [
+                -0.82,
+                -0.557
+              ],
+              "n_sources": 6,
+              "std_dev": 0.067
+            },
+            "E": {
+              "score": 0.674,
+              "confidence_interval": [
+                0.435,
+                0.913
+              ],
+              "n_sources": 3,
+              "std_dev": 0.122
+            },
+            "A": {
+              "score": -0.661,
+              "confidence_interval": [
+                -0.889,
+                -0.432
+              ],
+              "n_sources": 8,
+              "std_dev": 0.117
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.035,
+            "C": 0.506,
+            "E": -0.03,
+            "A": 1.057,
+            "N": 0.213
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/8",
+          "pgt_op_name": "George Wickham",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0462,
+            "C": -0.5945,
+            "E": 0.5717,
+            "A": -0.5802,
+            "N": -0.2249
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:42:11.064984+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001884
+        }
+      ]
+    },
+    {
+      "coref_id": "102",
+      "character_name": "Mr. Bingley",
+      "quote_count": 36,
+      "consensus_ocean": {
+        "O": 0.19980937499999998,
+        "C": 0.061521874999999976,
+        "E": 0.6731906249999999,
+        "A": 0.4574812499999999,
+        "N": -0.14150312499999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.917,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.3,
+            "E": 0.7,
+            "A": 0.8,
+            "N": -0.3
+          },
+          "citation": "Oatley 2016; Mare 2025",
+          "scholarly_sources": [
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Made2021_Exploring_Characterization_Main_Characters.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Yan2020_Study_Pride_Prejudice_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Agreeable, sociable, and romantic; energetic in social settings with low anxiety.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": 0.696,
+              "confidence_interval": [
+                0.45,
+                0.942
+              ],
+              "n_sources": 5,
+              "std_dev": 0.125
+            },
+            "A": {
+              "score": 0.663,
+              "confidence_interval": [
+                0.569,
+                0.758
+              ],
+              "n_sources": 4,
+              "std_dev": 0.048
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.087,
+            "C": -0.264,
+            "E": 0.73,
+            "A": -0.117,
+            "N": 0.314
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/4",
+          "pgt_op_name": "Charles Bingley",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1767,
+            "C": 0.0961,
+            "E": 0.5303,
+            "A": 0.6752,
+            "N": -0.5403
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:42:51.766787+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001468
+        }
+      ]
+    },
+    {
+      "coref_id": "161",
+      "character_name": "Caroline Bingley",
+      "quote_count": 72,
+      "consensus_ocean": {
+        "O": 0.09395294117647059,
+        "C": -0.20038235294117648,
+        "E": 0.4779764705882353,
+        "A": -0.6983117647058823,
+        "N": 0.35118823529411763
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9705,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.6,
+            "E": 0.7,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "Deresiewicz1997_Community_Cognition_PrideAndPrejudice.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Made2021_Exploring_Characterization_Main_Characters.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Manipulative, status-driven, calculative deception; lacks genuine principles",
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.215,
+              "confidence_interval": [
+                -0.678,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.456
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.554,
+              "confidence_interval": [
+                -0.734,
+                -0.375
+              ],
+              "n_sources": 5,
+              "std_dev": 0.092
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2004,
+            "C": 0.3705,
+            "E": 0.1608,
+            "A": -0.6959,
+            "N": 0.1386
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:43:30.286991+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001584
+        }
+      ]
+    },
+    {
+      "coref_id": "130",
+      "character_name": "Lady Catherine de Bourgh",
+      "quote_count": 73,
+      "consensus_ocean": {
+        "O": -0.30699736842105263,
+        "C": 0.5114500000000001,
+        "E": 0.3024710526315789,
+        "A": -0.21130789473684206,
+        "N": 0.0354605263157895
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4051,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.6,
+            "E": 0.5,
+            "A": -0.6,
+            "N": 0.1
+          },
+          "citation": "Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rossato2016_Elizabeth_Bennet_woman_her.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Rigidly hierarchical and controlling; forceful in social dominance.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.246,
+              "confidence_interval": [
+                -1.0,
+                0.722
+              ],
+              "n_sources": 3,
+              "std_dev": 0.494
+            },
+            "C": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": 0.635,
+              "confidence_interval": [
+                0.452,
+                0.819
+              ],
+              "n_sources": 3,
+              "std_dev": 0.094
+            },
+            "A": {
+              "score": -0.711,
+              "confidence_interval": [
+                -0.906,
+                -0.516
+              ],
+              "n_sources": 3,
+              "std_dev": 0.099
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.22,
+            "C": 0.236,
+            "E": 0.024,
+            "A": 0.767,
+            "N": 0.249
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/6",
+          "pgt_op_name": "Lady Catherine de Bourgh",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5837,
+            "C": 0.6913,
+            "E": 0.1757,
+            "A": -0.6381,
+            "N": -0.4845
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:44:00.975733+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001994
+        }
+      ]
+    },
+    {
+      "coref_id": "103",
+      "character_name": "Mr. Collins",
+      "quote_count": 55,
+      "consensus_ocean": {
+        "O": -0.43458684210526316,
+        "C": 0.6075184210526317,
+        "E": 0.42845,
+        "A": -0.3603657894736842,
+        "N": -0.08385789473684209
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.829,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.7,
+            "E": 0.3,
+            "A": -0.1,
+            "N": -0.2
+          },
+          "citation": "Mare 2025; Oatley 2016",
+          "scholarly_sources": [
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            },
+            {
+              "paper": "Zheng2019_Analysis_Violation_Cooperative_Principle.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "mare_2025_social_norms.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "oatley_2016_psychology.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "notes": "Duty-bound and status-focused; performs social obligation more than intimacy.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.042,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.641
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.067,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.577
+            },
+            "N": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.199,
+            "C": 0.439,
+            "E": 0.825,
+            "A": -0.929,
+            "N": 0.28
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "PP/10",
+          "pgt_op_name": "Mr. William Collins",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.6179,
+            "C": 0.6081,
+            "E": 0.1723,
+            "A": -0.2107,
+            "N": -0.3238
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:44:44.592932+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002761
+        }
+      ]
+    },
+    {
+      "coref_id": "92",
+      "character_name": "Mary Bennet",
+      "quote_count": 3,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {},
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Teaching Societal Polyphony in Burney and Austen.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "notes": "Character grounded in scholarly papers. OCEAN traits pending comprehensive analysis.",
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.465,
+              "confidence_interval": [
+                0.079,
+                0.851
+              ],
+              "n_sources": 3,
+              "std_dev": 0.197
+            },
+            "C": {
+              "score": 0.504,
+              "confidence_interval": [
+                0.308,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.788,
+                0.388
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "288",
+      "character_name": "Kitty Bennet",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "C": -0.083,
+        "A": 0.5,
+        "N": 0.5
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.083,
+            "A": 0.5,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ispriyani2008_Social_problems_moral_values.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "PilawskaGronostaj2024_Jane_Austen_Elizabeth_Bennet.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.083,
+              "confidence_interval": [
+                -0.866,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.4
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "106",
+      "character_name": "Miss Darcy",
+      "quote_count": 15,
+      "consensus_ocean": {
+        "O": 0.5741,
+        "C": 0.6006,
+        "E": -0.22934117647058824,
+        "A": 0.6711588235294118,
+        "N": -0.3981294117647059
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3129,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": -0.3,
+            "A": 0.8,
+            "N": -0.5
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "title": "Character and Conflict in Jane Austen's Novels: A Psychological Approach",
+              "authors": "Paris, Bernard J.",
+              "year": 2017,
+              "evidence": "Reserved, admiring listener; shows genuine warmth and positive regard for Elizabeth"
+            }
+          ],
+          "notes": "Reserved, admiring listener; shows genuine warmth and positive regard for Elizabeth",
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5371,
+            "C": 0.4586,
+            "E": -0.1284,
+            "A": 0.4871,
+            "N": -0.2526
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:45:24.896001+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001048
+        }
+      ]
+    },
+    {
+      "coref_id": "156",
+      "character_name": "Sir William",
+      "quote_count": 26,
+      "consensus_ocean": {
+        "O": 0.10628823529411766,
+        "C": -0.02273529411764707,
+        "E": 0.5572,
+        "A": 0.5293588235294118,
+        "N": 0.04225882352941181
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8688,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": -0.2,
+            "E": 0.7,
+            "A": 0.5,
+            "N": 0.4
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "title": "The Influence of Social Norms and Etiquette on the Behavior and Decision-Making of Characters in Jane Austen's Pride and Prejudice",
+              "authors": "Mare, B.S. et al.",
+              "year": 2025,
+              "evidence": "Hollow man - form over substance; socially anxious, awed by hierarchy"
+            },
+            {
+              "title": "Character and Conflict in Jane Austen's Novels: A Psychological Approach",
+              "authors": "Paris, Bernard J.",
+              "year": 2017,
+              "evidence": "Hollow man - form over substance; socially anxious, awed by hierarchy"
+            }
+          ],
+          "notes": "Hollow man - form over substance; socially anxious, awed by hierarchy",
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3133,
+            "C": 0.2305,
+            "E": 0.3532,
+            "A": 0.5713,
+            "N": -0.4688
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:46:14.441195+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001104
+        }
+      ]
+    },
+    {
+      "coref_id": "159",
+      "character_name": "Mr. Hurst",
+      "quote_count": 10,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {},
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "notes": "Character grounded in scholarly papers. OCEAN traits pending comprehensive analysis.",
+          "validation_status": "grounded_pending_trait_analysis"
+        }
+      ]
+    },
+    {
+      "coref_id": "160",
+      "character_name": "Mrs. Hurst",
+      "quote_count": 13,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {},
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "notes": "Character grounded in scholarly papers. OCEAN traits pending comprehensive analysis.",
+          "validation_status": "grounded_pending_trait_analysis"
+        }
+      ]
+    },
+    {
+      "coref_id": "180",
+      "character_name": "Mrs. Philips",
+      "quote_count": 7,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {},
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "notes": "Character grounded in scholarly papers. OCEAN traits pending comprehensive analysis.",
+          "validation_status": "grounded_pending_trait_analysis"
+        }
+      ]
+    },
+    {
+      "coref_id": "194",
+      "character_name": "Mrs. Gardiner",
+      "quote_count": 46,
+      "consensus_ocean": {
+        "O": 0.4884529411764706,
+        "C": 0.7190470588235295,
+        "E": 0.38433529411764705,
+        "A": 0.7391411764705883,
+        "N": -0.6076411764705881
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2809,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.8,
+            "E": 0.5,
+            "A": 0.8,
+            "N": -0.7
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "title": "Character and Conflict in Jane Austen's Novels: A Psychological Approach",
+              "authors": "Paris, Bernard J.",
+              "year": 2017,
+              "evidence": "Model character - emotionally balanced, genuinely caring, combines feeling and form"
+            }
+          ],
+          "notes": "Model character - emotionally balanced, genuinely caring, combines feeling and form",
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3291,
+            "C": 0.6034,
+            "E": 0.2191,
+            "A": 0.6522,
+            "N": -0.4757
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:46:49.087445+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001759
+        }
+      ]
+    },
+    {
+      "coref_id": "198",
+      "character_name": "Hill",
+      "quote_count": 4,
+      "consensus_ocean": {},
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {},
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "notes": "Character grounded in scholarly papers. OCEAN traits pending comprehensive analysis.",
+          "validation_status": "grounded_pending_trait_analysis"
+        }
+      ]
+    },
+    {
+      "coref_id": "216",
+      "character_name": "Mr. Gardiner",
+      "quote_count": 10,
+      "consensus_ocean": {
+        "O": 0.39590588235294116,
+        "C": 0.7763058823529412,
+        "E": 0.3952294117647059,
+        "A": 0.6912941176470588,
+        "N": -0.6313
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4973,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.9,
+            "E": 0.6,
+            "A": 0.8,
+            "N": -0.8
+          },
+          "citation": "Oatley 2016; Mare 2025; Paris 2017",
+          "scholarly_sources": [
+            {
+              "title": "Character and Conflict in Jane Austen's Novels: A Psychological Approach",
+              "authors": "Paris, Bernard J.",
+              "year": 2017,
+              "evidence": "Competent crisis-manager, principled and supportive; handles adversity with composure"
+            }
+          ],
+          "notes": "Competent crisis-manager, principled and supportive; handles adversity with composure",
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2472,
+            "C": 0.5996,
+            "E": 0.1027,
+            "A": 0.536,
+            "N": -0.3903
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:47:39.865686+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000951
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

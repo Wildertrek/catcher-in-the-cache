@@ -1,0 +1,373 @@
+{
+  "coref_id": "160",
+  "character_name": "Mrs. Hurst",
+  "quote_count": 13,
+  "mention_count": 69,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      4
+    ],
+    [
+      "107",
+      2
+    ],
+    [
+      "106",
+      2
+    ],
+    [
+      "192",
+      1
+    ],
+    [
+      "697",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c She has nothing , in short , to recommend her , but being an excellent walker . I shall never forget her appearance this morning . She really looked almost wild . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18549,
+      "quote_end": 18582,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c The Apothecary came \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c covering a screen \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c She did indeed , Louisa . I could hardly keep my countenance . Very nonsensical to come at all ! Why must _ she _ be scampering about the country , because her sister had a cold ? Her hair so untidy , so blowzy ! \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c Yes , and her petticoat ; I hope you saw her petticoat , six inches deep in mud , I am absolutely certain , and the gown which had been let down to hide it not doing its office . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c She did indeed , Louisa . I could hardly keep my countenance . Very nonsensical to come at all ! Why must _ she _ be scampering about the country , because her sister had a cold ? Her hair so untidy , so blowzy ! \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18583,
+      "quote_end": 18630,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c covering a screen \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c She has nothing , in short , to recommend her , but being an excellent walker . I shall never forget her appearance this morning . She really looked almost wild . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c Yes , and her petticoat ; I hope you saw her petticoat , six inches deep in mud , I am absolutely certain , and the gown which had been let down to hide it not doing its office . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Your picture may be very exact , Louisa , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes , and her petticoat ; I hope you saw her petticoat , six inches deep in mud , I am absolutely certain , and the gown which had been let down to hide it not doing its office . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18631,
+      "quote_end": 18672,
+      "addressee_coref_id": "161",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c She has nothing , in short , to recommend her , but being an excellent walker . I shall never forget her appearance this morning . She really looked almost wild . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c She did indeed , Louisa . I could hardly keep my countenance . Very nonsensical to come at all ! Why must _ she _ be scampering about the country , because her sister had a cold ? Her hair so untidy , so blowzy ! \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Your picture may be very exact , Louisa , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c but this was all lost upon me . I thought Miss Elizabeth Bennet looked remarkably well when she came into the room this morning . Her dirty petticoat quite escaped my notice . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Certainly not . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18765,
+      "quote_end": 18769,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c _ You _ observed it , Mr. Darcy , I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c and I am inclined to think that you would not wish to see _ your sister _ make such an exhibition . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c To walk three miles , or four miles , or five miles , or whatever it is , above her ancles in dirt , and alone , quite alone ! what could she mean by it ? It seems to me to show an abominable sort of conceited independence , a most country - town indifference to decorum . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c It shows an affection for her sister that is very pleasing , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I have an excessive regard for Jane Bennet,--she is really a very sweet girl,--and I wish with all my heart she were well settled . But with such a father and mother , and such low connections , I am afraid there is no chance of it . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18911,
+      "quote_end": 18960,
+      "addressee_coref_id": "192",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "697",
+          "quote_text": "\u201c Not at all , \u201d"
+        },
+        {
+          "speaker_coref_id": "697",
+          "quote_text": "\u201c they were brightened by the exercise . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I think I have heard you say that their uncle is an attorney in Meryton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c Yes ; and they have another , who lives somewhere near Cheapside . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I think I have heard you say that their uncle is an attorney in Meryton ? \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18961,
+      "quote_end": 18978,
+      "addressee_coref_id": "697",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "697",
+          "quote_text": "\u201c they were brightened by the exercise . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I have an excessive regard for Jane Bennet,--she is really a very sweet girl,--and I wish with all my heart she were well settled . But with such a father and mother , and such low connections , I am afraid there is no chance of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c Yes ; and they have another , who lives somewhere near Cheapside . \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c That is capital , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes ; and they have another , who lives somewhere near Cheapside . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 18979,
+      "quote_end": 18993,
+      "addressee_coref_id": "525",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I have an excessive regard for Jane Bennet,--she is really a very sweet girl,--and I wish with all my heart she were well settled . But with such a father and mother , and such low connections , I am afraid there is no chance of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I think I have heard you say that their uncle is an attorney in Meryton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c That is capital , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c If they had uncles enough to fill _ all _ Cheapside , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am no longer surprised at your knowing _ only _ six accomplished women . I rather wonder now at your knowing _ any _ . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 20193,
+      "quote_end": 20220,
+      "addressee_coref_id": "106",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c All this she must possess , \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c and to all she must yet add something more substantial in the improvement of her mind by extensive reading . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Are you so severe upon your own sex as to doubt the possibility of all this ? \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c _ I _ never saw such a woman . _ I _ never saw such capacity , and taste , and application , and elegance , as you describe , united . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c _ I _ never saw such a woman . _ I _ never saw such capacity , and taste , and application , and elegance , as you describe , united . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 20240,
+      "quote_end": 20273,
+      "addressee_coref_id": "106",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c I am no longer surprised at your knowing _ only _ six accomplished women . I rather wonder now at your knowing _ any _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "106",
+          "quote_text": "\u201c Are you so severe upon your own sex as to doubt the possibility of all this ? \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Eliza Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c is one of those young ladies who seek to recommend themselves to the other sex by undervaluing their own ; and with many men , I daresay , it succeeds ; but , in my opinion , it is a paltry device , a very mean art . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh yes . Do let the portraits of your uncle and aunt Philips be placed in the gallery at Pemberley . Put them next to your great - uncle the judge . They are in the same profession , you know , only in different lines . As for your Elizabeth \u2019s picture , you must not attempt to have it taken , for what painter could do justice to those beautiful eyes ? \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 25208,
+      "quote_end": 25283,
+      "addressee_coref_id": "180",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c No , no ; stay where you are \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Have you anything else to propose for my domestic felicity ? \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It would not be easy , indeed , to catch their expression ; but their colour and shape , and the eyelashes , so remarkably fine , might be copied . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I did not know that you intended to walk , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You used us abominably ill , \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 25359,
+      "quote_end": 25366,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It would not be easy , indeed , to catch their expression ; but their colour and shape , and the eyelashes , so remarkably fine , might be copied . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I did not know that you intended to walk , \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c running away without telling us that you were coming out . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c This walk is not wide enough for our party . We had better go into the avenue . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c running away without telling us that you were coming out . \u201d",
+      "mention_text": "Mrs. Hurst",
+      "quote_start": 25371,
+      "quote_end": 25383,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I did not know that you intended to walk , \u201d"
+        },
+        {
+          "speaker_coref_id": "160",
+          "quote_text": "\u201c You used us abominably ill , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c This walk is not wide enough for our party . We had better go into the avenue . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c No , no ; stay where you are . You are charmingly grouped , and appear to uncommon advantage . The picturesque would be spoilt by admitting a fourth . Good - bye . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Piling up the fire \u201d",
+      "mention_text": "she",
+      "quote_start": 25538,
+      "quote_end": 25543,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c This walk is not wide enough for our party . We had better go into the avenue . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c No , no ; stay where you are . You are charmingly grouped , and appear to uncommon advantage . The picturesque would be spoilt by admitting a fourth . Good - bye . \u201d"
+        },
+        {
+          "speaker_coref_id": "159",
+          "quote_text": "\u201c very glad ; \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c How pleasant it is to spend an evening in this way ! I declare , after all , there is no enjoyment like reading ! How much sooner one tires of anything than of a book ! When I have a house of my own , I shall be miserable if I have not an excellent library . \u201d"
+        }
+      ]
+    }
+  ]
+}

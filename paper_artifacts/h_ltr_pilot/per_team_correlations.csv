@@ -1,0 +1,9 @@
+probe,condition,team_type,mean_r,n
+claude,P,S (canonical),0.3217495089974686,43
+claude,P,X (cross-book),0.2608358878610536,35
+claude,C,S (canonical),0.16460691586264542,43
+claude,C,X (cross-book),0.16242638391319594,35
+gpt-4o-mini,P,S (canonical),0.18933193921937208,43
+gpt-4o-mini,P,X (cross-book),0.10086814679759919,36
+gpt-4o-mini,C,S (canonical),0.09737159818988114,43
+gpt-4o-mini,C,X (cross-book),0.1395316112122892,36

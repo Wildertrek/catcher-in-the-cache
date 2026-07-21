@@ -1,0 +1,1335 @@
+{
+  "coref_id": "99",
+  "character_name": "Lydia",
+  "quote_count": 67,
+  "mention_count": 594,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      12
+    ],
+    [
+      "126",
+      5
+    ],
+    [
+      "130",
+      4
+    ],
+    [
+      "103",
+      4
+    ],
+    [
+      "100",
+      4
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Oh , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 8248,
+      "quote_end": 8251,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c What an excellent father you have , girls , \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I do not know how you will ever make him amends for his kindness ; or me either , for that matter . At our time of life , it is not so pleasant , I can tell you , to be making new acquaintances every day ; but for your sakes we would do anything . Lydia , my love , though you _ are _ the youngest , I dare say Mr. Bingley will dance with you at the next ball . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am not afraid ; for though I _ am _ the youngest , I \u2019m the tallest . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am not afraid ; for though I _ am _ the youngest , I \u2019m the tallest . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 8257,
+      "quote_end": 8277,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I do not know how you will ever make him amends for his kindness ; or me either , for that matter . At our time of life , it is not so pleasant , I can tell you , to be making new acquaintances every day ; but for your sakes we would do anything . Lydia , my love , though you _ are _ the youngest , I dare say Mr. Bingley will dance with you at the next ball . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I \u2019m the tallest \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c He rode a black horse \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Mamma , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 16510,
+      "quote_end": 16513,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c This is the only point , I flatter myself , on which we do not agree . I had hoped that our sentiments coincided in every particular , but I must so far differ from you as to think our two youngest daughters uncommonly foolish . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c My dear Mr. Bennet , you must not expect such girls to have the sense of their father and mother . When they get to our age , I dare say they will not think about officers any more than we do . I remember the time when I liked a red coat myself very well -- and , indeed , so I do still at my heart ; and if a smart young colonel , with five or six thousand a year , should want one of my girls , I shall not say nay to him ; and I thought Colonel Forster looked very becoming the other night at Sir William \u2019s in his regimentals . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson \u2019s as they did when they first came ; she sees them now very often standing in Clarke \u2019s library . \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Well , Jane , who is it from ? What is it about ? What does he say ? Well , Jane , make haste and tell us ; make haste , my love . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c my aunt says that Colonel Forster and Captain Carter do not go so often to Miss Watson \u2019s as they did when they first came ; she sees them now very often standing in Clarke \u2019s library . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 16517,
+      "quote_end": 16556,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c My dear Mr. Bennet , you must not expect such girls to have the sense of their father and mother . When they get to our age , I dare say they will not think about officers any more than we do . I remember the time when I liked a red coat myself very well -- and , indeed , so I do still at my heart ; and if a smart young colonel , with five or six thousand a year , should want one of my girls , I shall not say nay to him ; and I thought Colonel Forster looked very becoming the other night at Sir William \u2019s in his regimentals . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mamma , \u201d"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Well , Jane , who is it from ? What is it about ? What does he say ? Well , Jane , make haste and tell us ; make haste , my love . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c It is from Miss Bingley , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c With the officers ! \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 16759,
+      "quote_end": 16764,
+      "addressee_coref_id": "185",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c If you are not so compassionate as to dine to - day with Louisa and me , we shall be in danger of hating each other for the rest of our lives ; for a whole day \u2019s _ t\u00eate - \u00e0 - t\u00eate _ between two women can never end without a quarrel . Come as soon as you can on the receipt of this . My brother and the gentlemen are to dine with the officers . Yours ever ,"
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c CAROLINE BINGLEY . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I wonder my aunt did not tell us of _ that _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Dining out , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I wonder my aunt did not tell us of _ that _ . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 16768,
+      "quote_end": 16782,
+      "addressee_coref_id": "185",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c CAROLINE BINGLEY . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c With the officers ! \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Dining out , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that is very unlucky . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If we make haste , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 17586,
+      "quote_end": 17592,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c but every impulse of feeling should be guided by reason ; and , in my opinion , exertion should always be in proportion to what is required . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c We will go as far as Meryton with you , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c perhaps we may see something of Captain Carter , before he goes . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c The Apothecary came \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c perhaps we may see something of Captain Carter , before he goes . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 17601,
+      "quote_end": 17615,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c We will go as far as Meryton with you , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c If we make haste , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c The Apothecary came \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c covering a screen \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh yes -- it would be much better to wait till Jane was well ; and by that time , most likely , Captain Carter would be at Meryton again . And when you have given _ your _ ball , \u201d",
+      "mention_text": "she",
+      "quote_start": 22663,
+      "quote_end": 22705,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Of a fine , stout , healthy love it may . Everything nourishes what is strong already . But if it be only a slight , thin sort of inclination , I am convinced that one good sonnet will starve it entirely away . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am perfectly ready , I assure you , to keep my engagement ; and , when your sister is recovered , you shall , if you please , name the very day of the ball . But you would not wish to be dancing while she is ill ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I shall insist on their giving one also . I shall tell Colonel Forster it will be quite a shame if he does not . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c How delighted Miss Darcy will be to receive such a letter ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I shall insist on their giving one also . I shall tell Colonel Forster it will be quite a shame if he does not . \u201d",
+      "mention_text": "she",
+      "quote_start": 22709,
+      "quote_end": 22735,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am perfectly ready , I assure you , to keep my engagement ; and , when your sister is recovered , you shall , if you please , name the very day of the ball . But you would not wish to be dancing while she is ill ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh yes -- it would be much better to wait till Jane was well ; and by that time , most likely , Captain Carter would be at Meryton again . And when you have given _ your _ ball , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c How delighted Miss Darcy will be to receive such a letter ! \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c You write uncommonly fast . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Fordyce \u2019s Sermons . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 31402,
+      "quote_end": 31407,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c They arise chiefly from what is passing at the time ; and though I sometimes amuse myself with suggesting and arranging such little elegant compliments as may be adapted to ordinary occasions , I always wish to give them as unstudied an air as possible . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Do you know , mamma , that my uncle Philips talks of turning away Richard ? and if he does , Colonel Forster will hire him . My aunt told me so herself on Saturday . I shall walk to Meryton to - morrow to hear more about it , and to ask when Mr. Denny comes back from town . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I have often observed how little young ladies are interested by books of a serious stamp , though written solely for their benefit . It amazes me , I confess ; for certainly there can be nothing so advantageous to them as instruction . But I will no longer importune my young cousin . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Do you know , mamma , that my uncle Philips talks of turning away Richard ? and if he does , Colonel Forster will hire him . My aunt told me so herself on Saturday . I shall walk to Meryton to - morrow to hear more about it , and to ask when Mr. Denny comes back from town . \u201d",
+      "mention_text": "she",
+      "quote_start": 31434,
+      "quote_end": 31496,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Fordyce \u2019s Sermons . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I have often observed how little young ladies are interested by books of a serious stamp , though written solely for their benefit . It amazes me , I confess ; for certainly there can be nothing so advantageous to them as instruction . But I will no longer importune my young cousin . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c As to her _ younger _ daughters , she could not take upon her to say -- she could not positively answer -- but she did not _ know _ of any prepossession;--her _ eldest _ daughter she must just mention -- she felt it incumbent on her to hint , was likely to be very soon engaged . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Lord , how tired I am ! \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 45163,
+      "quote_end": 45171,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c If I , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c were so fortunate as to be able to sing , I should have great pleasure , I am sure , in obliging the company with an air ; for I consider music as a very innocent diversion , and perfectly compatible with the profession of a clergyman . I do not mean , however , to assert that we can be justified in devoting too much of our time to music , for there are certainly other things to be attended to . The rector of a parish has much to do . In the first place , he must make such an agreement for tithes as may be beneficial to himself and not offensive to his patron . He must write his own sermons ; and the time that remains will not be too much for his parish duties , and the care and improvement of his dwelling , which he can not be excused from making as comfortable as possible . And I do not think it of light importance that he should have attentive and conciliatory manners towards everybody , especially towards those to whom he owes his preferment . I can not acquit him of that duty ; nor could I think well of the man who should omit an occasion of testifying his respect towards anybody connected with the family . \u201d"
+        },
+        {
+          "speaker_coref_id": "16",
+          "quote_text": "\u201c to assure you in the most animated language \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c May I hope , madam , for your interest with your fair daughter Elizabeth , when I solicit for the honour of a private audience with her in the course of this morning ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And we mean to treat you all , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 87595,
+      "quote_end": 87604,
+      "addressee_coref_id": "1810",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How nicely we are crammed in \u201d"
+        },
+        {
+          "speaker_coref_id": "1810",
+          "quote_text": "\u201c Is not this nice ? is not this an agreeable surprise ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but you must lend us the money , for we have just spent ours at the shop out there . \u201d"
+        },
+        {
+          "speaker_coref_id": "1810",
+          "quote_text": "purchases,--\u201cLook here , I have bought this bonnet . I do not think it is very pretty ; but I thought I might as well buy it as not . I shall pull it to pieces as soon as I get home , and see if I can make it up any better . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c but you must lend us the money , for we have just spent ours at the shop out there . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 87608,
+      "quote_end": 87629,
+      "addressee_coref_id": "1810",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1810",
+          "quote_text": "\u201c Is not this nice ? is not this an agreeable surprise ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And we mean to treat you all , \u201d"
+        },
+        {
+          "speaker_coref_id": "1810",
+          "quote_text": "purchases,--\u201cLook here , I have bought this bonnet . I do not think it is very pretty ; but I thought I might as well buy it as not . I shall pull it to pieces as soon as I get home , and see if I can make it up any better . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , but there were two or three much uglier in the shop ; and when I have bought some prettier - coloured satin to trim it with fresh , I think it will be very tolerable . Besides , it will not much signify what one wears this summer , after the ----shire have left Meryton , and they are going in a fortnight . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , but there were two or three much uglier in the shop ; and when I have bought some prettier - coloured satin to trim it with fresh , I think it will be very tolerable . Besides , it will not much signify what one wears this summer , after the ----shire have left Meryton , and they are going in a fortnight . \u201d",
+      "mention_text": "she",
+      "quote_start": 87704,
+      "quote_end": 87771,
+      "addressee_coref_id": "1810",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but you must lend us the money , for we have just spent ours at the shop out there . \u201d"
+        },
+        {
+          "speaker_coref_id": "1810",
+          "quote_text": "purchases,--\u201cLook here , I have bought this bonnet . I do not think it is very pretty ; but I thought I might as well buy it as not . I shall pull it to pieces as soon as I get home , and see if I can make it up any better . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Are they , indeed ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c They are going to be encamped near Brighton ; and I do so want papa to take us all there for the summer ! It would be such a delicious scheme , and I dare say would hardly cost anything at all . Mamma would like to go , too , of all things ! Only think what a miserable summer else we shall have ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c They are going to be encamped near Brighton ; and I do so want papa to take us all there for the summer ! It would be such a delicious scheme , and I dare say would hardly cost anything at all . Mamma would like to go , too , of all things ! Only think what a miserable summer else we shall have ! \u201d",
+      "mention_text": "she",
+      "quote_start": 87787,
+      "quote_end": 87854,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , but there were two or three much uglier in the shop ; and when I have bought some prettier - coloured satin to trim it with fresh , I think it will be very tolerable . Besides , it will not much signify what one wears this summer , after the ----shire have left Meryton , and they are going in a fortnight . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Are they , indeed ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c _ that _ would be a delightful scheme , indeed , and completely do for us at once . Good Heaven ! Brighton and a whole campful of soldiers , to us , who have been overset already by one poor regiment of militia , and the monthly balls of Meryton ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Now I have got some news for you , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 87916,
+      "quote_end": 87926,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c _ that _ would be a delightful scheme , indeed , and completely do for us at once . Good Heaven ! Brighton and a whole campful of soldiers , to us , who have been overset already by one poor regiment of militia , and the monthly balls of Meryton ! \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c What do you think ? It is excellent news , capital news , and about a certain person that we all like . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Ay , that is just like your formality and discretion . You thought the waiter must not hear , as if he cared ! I dare say he often hears worse things said than I am going to say . But he is an ugly fellow ! I am glad he is gone . I never saw such a long chin in my life . Well , but now for my news : it is about dear Wickham ; too good for the waiter , is not it ? There is no danger of Wickham \u2019s marrying Mary King -- there \u2019s for you ! She is gone down to her uncle at Liverpool ; gone to stay . Wickham is safe . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c What do you think ? It is excellent news , capital news , and about a certain person that we all like . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 87937,
+      "quote_end": 87961,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c _ that _ would be a delightful scheme , indeed , and completely do for us at once . Good Heaven ! Brighton and a whole campful of soldiers , to us , who have been overset already by one poor regiment of militia , and the monthly balls of Meryton ! \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Now I have got some news for you , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Ay , that is just like your formality and discretion . You thought the waiter must not hear , as if he cared ! I dare say he often hears worse things said than I am going to say . But he is an ugly fellow ! I am glad he is gone . I never saw such a long chin in my life . Well , but now for my news : it is about dear Wickham ; too good for the waiter , is not it ? There is no danger of Wickham \u2019s marrying Mary King -- there \u2019s for you ! She is gone down to her uncle at Liverpool ; gone to stay . Wickham is safe . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And Mary King is safe ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How nicely we are crammed in ! \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 88299,
+      "quote_end": 88307,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c But I hope there is no strong attachment on either side , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I am sure there is not on _ his _ . I will answer for it , he never cared three straws about her . Who _ could _ about such a nasty little freckled thing ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I am glad I brought my bonnet , if it is only for the fun of having another band - box ! Well , now let us be quite comfortable and snug , and talk and laugh all the way home . And in the first place , let us hear what has happened to you all since you went away . Have you seen any pleasant men ? Have you had any flirting ? I was in great hopes that one of you would have got a husband before you came back . Jane will be quite an old maid soon , I declare . She is almost three - and - twenty ! Lord ! how ashamed I should be of not being married before three - and - twenty ! My aunt Philips wants you so to get husbands you ca n\u2019t think . She says Lizzy had better have taken Mr. Collins ; but _ I _ do not think there would have been any fun in it . Lord ! how I should like to be married before any of you ! and then I would _ chaperon _ you about to all the balls . Dear me ! we had such a good piece of fun the other day at Colonel Forster \u2019s ! Kitty and me were to spend the day there , and Mrs. Forster promised to have a little dance in the evening ; ( by - the - bye , Mrs. Forster and me are _ such _ friends ! ) and so she asked the two Harringtons to come : but Harriet was ill , and so Pen was forced to come by herself ; and then , what do you think we did ? We dressed up Chamberlayne in woman \u2019s clothes , on purpose to pass for a lady,--only think what fun ! Not a soul knew of it , but Colonel and Mrs. Forster , and Kitty and me , except my aunt , for we were forced to borrow one of her gowns ; and you can not imagine how well he looked ! When Denny , and Wickham , and Pratt , and two or three more of the men came in , they did not know him in the least . Lord ! how I laughed ! and so did Mrs. Forster . I thought I should have died . And _ that _ made the men suspect something , and then they soon found out what was the matter . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I am glad you are come back , Lizzy . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am glad I brought my bonnet , if it is only for the fun of having another band - box ! Well , now let us be quite comfortable and snug , and talk and laugh all the way home . And in the first place , let us hear what has happened to you all since you went away . Have you seen any pleasant men ? Have you had any flirting ? I was in great hopes that one of you would have got a husband before you came back . Jane will be quite an old maid soon , I declare . She is almost three - and - twenty ! Lord ! how ashamed I should be of not being married before three - and - twenty ! My aunt Philips wants you so to get husbands you ca n\u2019t think . She says Lizzy had better have taken Mr. Collins ; but _ I _ do not think there would have been any fun in it . Lord ! how I should like to be married before any of you ! and then I would _ chaperon _ you about to all the balls . Dear me ! we had such a good piece of fun the other day at Colonel Forster \u2019s ! Kitty and me were to spend the day there , and Mrs. Forster promised to have a little dance in the evening ; ( by - the - bye , Mrs. Forster and me are _ such _ friends ! ) and so she asked the two Harringtons to come : but Harriet was ill , and so Pen was forced to come by herself ; and then , what do you think we did ? We dressed up Chamberlayne in woman \u2019s clothes , on purpose to pass for a lady,--only think what fun ! Not a soul knew of it , but Colonel and Mrs. Forster , and Kitty and me , except my aunt , for we were forced to borrow one of her gowns ; and you can not imagine how well he looked ! When Denny , and Wickham , and Pratt , and two or three more of the men came in , they did not know him in the least . Lord ! how I laughed ! and so did Mrs. Forster . I thought I should have died . And _ that _ made the men suspect something , and then they soon found out what was the matter . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 88311,
+      "quote_end": 88740,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c I am sure there is not on _ his _ . I will answer for it , he never cared three straws about her . Who _ could _ about such a nasty little freckled thing ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c How nicely we are crammed in ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I am glad you are come back , Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , Mary , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am sure I shall break _ mine _ , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 91701,
+      "quote_end": 91712,
+      "addressee_coref_id": "1861",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c I cried for two days together when Colonel Miller \u2019s regiment went away . I thought I should have broke my heart . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c If one could but go to Brighton ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c Oh yes!--if one could but go to Brighton ! But papa is so disagreeable . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can not see why Mrs. Forster should not ask _ me _ as well as Lydia , \u201d",
+      "mention_text": "she",
+      "quote_start": 92018,
+      "quote_end": 92037,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1861",
+          "quote_text": "\u201c A little sea - bathing would set me up for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c And my aunt Philips is sure it would do _ me _ a great deal of good , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c though I am _ not _ her particular friend . I have just as much right to be asked as she has , and more too , for I am two years older . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Lydia will never be easy till she has exposed herself in some public place or other , and we can never expect her to do it with so little expense or inconvenience to her family as under the present circumstances . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c though I am _ not _ her particular friend . I have just as much right to be asked as she has , and more too , for I am two years older . \u201d",
+      "mention_text": "she",
+      "quote_start": 92041,
+      "quote_end": 92076,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c And my aunt Philips is sure it would do _ me _ a great deal of good , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I can not see why Mrs. Forster should not ask _ me _ as well as Lydia , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Lydia will never be easy till she has exposed herself in some public place or other , and we can never expect her to do it with so little expense or inconvenience to her family as under the present circumstances . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c If you were aware , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c E. GARDINER . \u201d",
+      "mention_text": "she",
+      "quote_start": 123015,
+      "quote_end": 123019,
+      "addressee_coref_id": "100",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c It was greatly my wish that he should do so , \u201d"
+        },
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c as soon as his marriage was fixed on . And I think you will agree with me , in considering a removal from that corps as highly advisable , both on his account and my niece \u2019s . It is Mr. Wickham \u2019s intention to go into the Regulars ; and , among his former friends , there are still some who are able and willing to assist him in the army . He has the promise of an ensigncy in General---- \u2019s regiment , now quartered in the north . It is an advantage to have it so far from this part of the kingdom . He promises fairly ; and I hope among different people , where they may each have a character to preserve , they will both be more prudent . I have written to Colonel Forster , to inform him of our present arrangements , and to request that he will satisfy the various creditors of Mr. Wickham in and near Brighton with assurances of speedy payment , for which I have pledged myself . And will you give yourself the trouble of carrying similar assurances to his creditors in Meryton , of whom I shall subjoin a list , according to his information ? He has given in all his debts ; I hope at least he has not deceived us . Haggerston has our directions , and all will be completed in a week . They will then join his regiment , unless they are first invited to Longbourn ; and I understand from Mrs. Gardiner that my niece is very desirous of seeing you all before she leaves the south . She is well , and begs to be dutifully remembered to you and her mother.--Yours , etc ."
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c She is so fond of Mrs. Forster , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c it will be quite shocking to send her away ! And there are several of the young men , too , that she likes very much . The officers may not be so pleasant in General---- \u2019s regiment . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c She is so fond of Mrs. Forster , \u201d",
+      "mention_text": "she",
+      "quote_start": 123128,
+      "quote_end": 123137,
+      "addressee_coref_id": "100",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c as soon as his marriage was fixed on . And I think you will agree with me , in considering a removal from that corps as highly advisable , both on his account and my niece \u2019s . It is Mr. Wickham \u2019s intention to go into the Regulars ; and , among his former friends , there are still some who are able and willing to assist him in the army . He has the promise of an ensigncy in General---- \u2019s regiment , now quartered in the north . It is an advantage to have it so far from this part of the kingdom . He promises fairly ; and I hope among different people , where they may each have a character to preserve , they will both be more prudent . I have written to Colonel Forster , to inform him of our present arrangements , and to request that he will satisfy the various creditors of Mr. Wickham in and near Brighton with assurances of speedy payment , for which I have pledged myself . And will you give yourself the trouble of carrying similar assurances to his creditors in Meryton , of whom I shall subjoin a list , according to his information ? He has given in all his debts ; I hope at least he has not deceived us . Haggerston has our directions , and all will be completed in a week . They will then join his regiment , unless they are first invited to Longbourn ; and I understand from Mrs. Gardiner that my niece is very desirous of seeing you all before she leaves the south . She is well , and begs to be dutifully remembered to you and her mother.--Yours , etc ."
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c E. GARDINER . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c it will be quite shocking to send her away ! And there are several of the young men , too , that she likes very much . The officers may not be so pleasant in General---- \u2019s regiment . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c With an affectionate smile \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it will be quite shocking to send her away ! And there are several of the young men , too , that she likes very much . The officers may not be so pleasant in General---- \u2019s regiment . \u201d",
+      "mention_text": "she",
+      "quote_start": 123141,
+      "quote_end": 123181,
+      "addressee_coref_id": "107",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c E. GARDINER . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c She is so fond of Mrs. Forster , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c With an affectionate smile \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Only think of its being three months , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Only think of its being three months , \u201d",
+      "mention_text": "she",
+      "quote_start": 123974,
+      "quote_end": 123983,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c it will be quite shocking to send her away ! And there are several of the young men , too , that she likes very much . The officers may not be so pleasant in General---- \u2019s regiment . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c With an affectionate smile \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c since I went away : it seems but a fortnight , I declare ; and yet there have been things enough happened in the time . Good gracious ! when I went away , I am sure I had no more idea of being married till I came back again ! though I thought it would be very good fun if I was . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , mamma , do the people hereabouts know I am married to - day ? I was afraid they might not ; and we overtook William Goulding in his curricle , so I was determined he should know it , and so I let down the side glass next to him , and took off my glove and let my hand just rest upon the window frame , so that he might see the ring , and then I bowed and smiled like anything . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c since I went away : it seems but a fortnight , I declare ; and yet there have been things enough happened in the time . Good gracious ! when I went away , I am sure I had no more idea of being married till I came back again ! though I thought it would be very good fun if I was . \u201d",
+      "mention_text": "she",
+      "quote_start": 123987,
+      "quote_end": 124052,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c With an affectionate smile \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Only think of its being three months , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , mamma , do the people hereabouts know I am married to - day ? I was afraid they might not ; and we overtook William Goulding in his curricle , so I was determined he should know it , and so I let down the side glass next to him , and took off my glove and let my hand just rest upon the window frame , so that he might see the ring , and then I bowed and smiled like anything . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Ah , Jane , I take your place now , and you must go lower , because I am a married woman . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Mrs. Wickham \u201d",
+      "mention_text": "herself",
+      "quote_start": 124321,
+      "quote_end": 124324,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , mamma , do the people hereabouts know I am married to - day ? I was afraid they might not ; and we overtook William Goulding in his curricle , so I was determined he should know it , and so I let down the side glass next to him , and took off my glove and let my hand just rest upon the window frame , so that he might see the ring , and then I bowed and smiled like anything . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Ah , Jane , I take your place now , and you must go lower , because I am a married woman . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Well , mamma , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c and what do you think of my husband ? Is not he a charming man ? I am sure my sisters must all envy me . I only hope they may have half my good luck . They must all go to Brighton . That is the place to get husbands . What a pity it is , mamma , we did not all go ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Well , mamma , \u201d",
+      "mention_text": "she",
+      "quote_start": 124355,
+      "quote_end": 124360,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Ah , Jane , I take your place now , and you must go lower , because I am a married woman . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mrs. Wickham \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c and what do you think of my husband ? Is not he a charming man ? I am sure my sisters must all envy me . I only hope they may have half my good luck . They must all go to Brighton . That is the place to get husbands . What a pity it is , mamma , we did not all go ! \u201d"
+        },
+        {
+          "speaker_coref_id": "198",
+          "quote_text": "\u201c Very true ; and if I had my will we should . But , my dear Lydia , I do n\u2019t at all like your going such a way off . Must it be so ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and what do you think of my husband ? Is not he a charming man ? I am sure my sisters must all envy me . I only hope they may have half my good luck . They must all go to Brighton . That is the place to get husbands . What a pity it is , mamma , we did not all go ! \u201d",
+      "mention_text": "she",
+      "quote_start": 124375,
+      "quote_end": 124442,
+      "addressee_coref_id": "198",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mrs. Wickham \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Well , mamma , \u201d"
+        },
+        {
+          "speaker_coref_id": "198",
+          "quote_text": "\u201c Very true ; and if I had my will we should . But , my dear Lydia , I do n\u2019t at all like your going such a way off . Must it be so ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , Lord ! yes ; there is nothing in that . I shall like it of all things . You and papa , and my sisters , must come down and see us . We shall be at Newcastle all the winter , and I dare say there will be some balls , and I will take care to get good partners for them all . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , Lord ! yes ; there is nothing in that . I shall like it of all things . You and papa , and my sisters , must come down and see us . We shall be at Newcastle all the winter , and I dare say there will be some balls , and I will take care to get good partners for them all . \u201d",
+      "mention_text": "she",
+      "quote_start": 124481,
+      "quote_end": 124549,
+      "addressee_coref_id": "198",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c and what do you think of my husband ? Is not he a charming man ? I am sure my sisters must all envy me . I only hope they may have half my good luck . They must all go to Brighton . That is the place to get husbands . What a pity it is , mamma , we did not all go ! \u201d"
+        },
+        {
+          "speaker_coref_id": "198",
+          "quote_text": "\u201c Very true ; and if I had my will we should . But , my dear Lydia , I do n\u2019t at all like your going such a way off . Must it be so ? \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I should like it beyond anything ! \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And then when you go away , you may leave one or two of my sisters behind you ; and I dare say I shall get husbands for them before the winter is over . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And then when you go away , you may leave one or two of my sisters behind you ; and I dare say I shall get husbands for them before the winter is over . \u201d",
+      "mention_text": "she",
+      "quote_start": 124563,
+      "quote_end": 124599,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Oh , Lord ! yes ; there is nothing in that . I shall like it of all things . You and papa , and my sisters , must come down and see us . We shall be at Newcastle all the winter , and I dare say there will be some balls , and I will take care to get good partners for them all . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I should like it beyond anything ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I thank you for my share of the favour , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c but I do not particularly like your way of getting husbands . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Lizzy , I never gave _ you _ an account of my wedding , I believe . You were not by , when I told mamma , and the others , all about it . Are not you curious to hear how it was managed ? \u201d",
+      "mention_text": "she",
+      "quote_start": 124926,
+      "quote_end": 124973,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I thank you for my share of the favour , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c but I do not particularly like your way of getting husbands . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , really , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I think there can not be too little said on the subject . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c La ! You are so strange ! But I must tell you how it went off . We were married , you know , at St. Clement \u2019s , because Wickham \u2019s lodgings were in that parish . And it was settled that we should all be there by eleven o\u2019clock . My uncle and aunt and I were to go together ; and the others were to meet us at the church .",
+      "mention_text": "she",
+      "quote_start": 124998,
+      "quote_end": 125072,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , really , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I think there can not be too little said on the subject . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Well , Monday morning came , and I was in such a fuss ! I was so afraid , you know , that something would happen to put it off , and then I should have gone quite distracted . And there was my aunt , all the time I was dressing , preaching and talking away just as if she was reading a sermon . However , I did not hear above one word in ten , for I was thinking , you may suppose , of my dear Wickham . I longed to know whether he would be married in his blue coat ."
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Well , and so we breakfasted at ten as usual : I thought it would never be over ; for , by the bye , you are to understand that my uncle and aunt were horrid unpleasant all the time I was with them . If you \u2019ll believe me , I did not once put my foot out of doors , though I was there a fortnight . Not one party , or scheme , or anything ! To be sure , London was rather thin , but , however , the Little Theatre was open ."
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Well , and so we breakfasted at ten as usual : I thought it would never be over ; for , by the bye , you are to understand that my uncle and aunt were horrid unpleasant all the time I was with them . If you \u2019ll believe me , I did not once put my foot out of doors , though I was there a fortnight . Not one party , or scheme , or anything ! To be sure , London was rather thin , but , however , the Little Theatre was open .",
+      "mention_text": "she",
+      "quote_start": 125180,
+      "quote_end": 125278,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c La ! You are so strange ! But I must tell you how it went off . We were married , you know , at St. Clement \u2019s , because Wickham \u2019s lodgings were in that parish . And it was settled that we should all be there by eleven o\u2019clock . My uncle and aunt and I were to go together ; and the others were to meet us at the church ."
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Well , Monday morning came , and I was in such a fuss ! I was so afraid , you know , that something would happen to put it off , and then I should have gone quite distracted . And there was my aunt , all the time I was dressing , preaching and talking away just as if she was reading a sermon . However , I did not hear above one word in ten , for I was thinking , you may suppose , of my dear Wickham . I longed to know whether he would be married in his blue coat ."
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Well , and so , just as the carriage came to the door , my uncle was called away upon business to that horrid man Mr. Stone . And then , you know , when once they get together , there is no end of it . Well , I was so frightened I did not know what to do , for my uncle was to give me away ; and if we were beyond the hour we could not be married all day . But , luckily , he came back again in ten minutes \u2019 time , and then we all set out . However , I recollected afterwards , that if he _ had _ been prevented going , the wedding need not be put off , for Mr. Darcy might have done as well . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Mr. Darcy ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Thank you , \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 125543,
+      "quote_end": 125547,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , certainly , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c we will ask you no questions . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c for if you did , I should certainly tell you all , and then Wickham would be so angry . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c You may readily comprehend , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c for if you did , I should certainly tell you all , and then Wickham would be so angry . \u201d",
+      "mention_text": "Lydia",
+      "quote_start": 125551,
+      "quote_end": 125572,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c we will ask you no questions . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Thank you , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c You may readily comprehend , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c what my curiosity must be to know how a person unconnected with any of us , and , comparatively speaking , a stranger to our family , should have been amongst you at such a time . Pray write instantly , and let me understand it -- unless it is , for very cogent reasons , to remain in the secrecy which Lydia seems to think necessary ; and then I must endeavour to be satisfied with ignorance . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You certainly do , \u201d",
+      "mention_text": "she",
+      "quote_start": 128717,
+      "quote_end": 128722,
+      "addressee_coref_id": "100",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c M. GARDINER . \u201d"
+        },
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c I am afraid I interrupt your solitary ramble , my dear sister ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but it does not follow that the interruption must be unwelcome . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I should be sorry , indeed , if it were . _ We _ were always good friends , and now we are better . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c but it does not follow that the interruption must be unwelcome . \u201d",
+      "mention_text": "she",
+      "quote_start": 128729,
+      "quote_end": 128742,
+      "addressee_coref_id": "100",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c I am afraid I interrupt your solitary ramble , my dear sister ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c You certainly do , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I should be sorry , indeed , if it were . _ We _ were always good friends , and now we are better . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c True . Are the others coming out ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I should be sorry , indeed , if it were . _ We _ were always good friends , and now we are better . \u201d",
+      "mention_text": "She",
+      "quote_start": 128743,
+      "quote_end": 128769,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c You certainly do , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but it does not follow that the interruption must be unwelcome . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c True . Are the others coming out ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I do not know . Mrs. Bennet and Lydia are going in the carriage to Meryton . And so , my dear sister , I find , from our uncle and aunt , that you have actually seen Pemberley . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c True . Are the others coming out ? \u201d",
+      "mention_text": "she",
+      "quote_start": 128770,
+      "quote_end": 128779,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c but it does not follow that the interruption must be unwelcome . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I should be sorry , indeed , if it were . _ We _ were always good friends , and now we are better . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I do not know . Mrs. Bennet and Lydia are going in the carriage to Meryton . And so , my dear sister , I find , from our uncle and aunt , that you have actually seen Pemberley . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I almost envy you the pleasure , and yet I believe it would be too much for me , or else I could take it in my way to Newcastle . And you saw the old housekeeper , I suppose ? Poor Reynolds , she was always very fond of me . But of course she did not mention my name to you . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I do not know . Mrs. Bennet and Lydia are going in the carriage to Meryton . And so , my dear sister , I find , from our uncle and aunt , that you have actually seen Pemberley . \u201d",
+      "mention_text": "She",
+      "quote_start": 128780,
+      "quote_end": 128821,
+      "addressee_coref_id": "126",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I should be sorry , indeed , if it were . _ We _ were always good friends , and now we are better . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c True . Are the others coming out ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I almost envy you the pleasure , and yet I believe it would be too much for me , or else I could take it in my way to Newcastle . And you saw the old housekeeper , I suppose ? Poor Reynolds , she was always very fond of me . But of course she did not mention my name to you . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Yes , she did . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I almost envy you the pleasure , and yet I believe it would be too much for me , or else I could take it in my way to Newcastle . And you saw the old housekeeper , I suppose ? Poor Reynolds , she was always very fond of me . But of course she did not mention my name to you . \u201d",
+      "mention_text": "she",
+      "quote_start": 128828,
+      "quote_end": 128893,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c True . Are the others coming out ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I do not know . Mrs. Bennet and Lydia are going in the carriage to Meryton . And so , my dear sister , I find , from our uncle and aunt , that you have actually seen Pemberley . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Yes , she did . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And what did she say ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes , she did . \u201d",
+      "mention_text": "She",
+      "quote_start": 128894,
+      "quote_end": 128900,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I do not know . Mrs. Bennet and Lydia are going in the carriage to Meryton . And so , my dear sister , I find , from our uncle and aunt , that you have actually seen Pemberley . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I almost envy you the pleasure , and yet I believe it would be too much for me , or else I could take it in my way to Newcastle . And you saw the old housekeeper , I suppose ? Poor Reynolds , she was always very fond of me . But of course she did not mention my name to you . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And what did she say ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c That you were gone into the army , and she was afraid had -- not turned out well . At such a distance as _ that _ , you know , things are strangely misrepresented . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And what did she say ? \u201d",
+      "mention_text": "she",
+      "quote_start": 128901,
+      "quote_end": 128908,
+      "addressee_coref_id": "2640",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I almost envy you the pleasure , and yet I believe it would be too much for me , or else I could take it in my way to Newcastle . And you saw the old housekeeper , I suppose ? Poor Reynolds , she was always very fond of me . But of course she did not mention my name to you . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Yes , she did . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c That you were gone into the army , and she was afraid had -- not turned out well . At such a distance as _ that _ , you know , things are strangely misrepresented . \u201d"
+        },
+        {
+          "speaker_coref_id": "2640",
+          "quote_text": "\u201c Certainly , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c That you were gone into the army , and she was afraid had -- not turned out well . At such a distance as _ that _ , you know , things are strangely misrepresented . \u201d",
+      "mention_text": "She",
+      "quote_start": 128909,
+      "quote_end": 128946,
+      "addressee_coref_id": "2640",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Yes , she did . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And what did she say ? \u201d"
+        },
+        {
+          "speaker_coref_id": "2640",
+          "quote_text": "\u201c Certainly , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I was surprised to see Darcy in town last month . We passed each other several times . I wonder what he can be doing there . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I was surprised to see Darcy in town last month . We passed each other several times . I wonder what he can be doing there . \u201d",
+      "mention_text": "She",
+      "quote_start": 128970,
+      "quote_end": 128998,
+      "addressee_coref_id": "2640",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c That you were gone into the army , and she was afraid had -- not turned out well . At such a distance as _ that _ , you know , things are strangely misrepresented . \u201d"
+        },
+        {
+          "speaker_coref_id": "2640",
+          "quote_text": "\u201c Certainly , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Perhaps preparing for his marriage with Miss de Bourgh , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It must be something particular to take him there at this time of year . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Undoubtedly . Did you see him while you were at Lambton ? I thought I understood from the Gardiners that you had . \u201d",
+      "mention_text": "She",
+      "quote_start": 129031,
+      "quote_end": 129055,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Perhaps preparing for his marriage with Miss de Bourgh , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It must be something particular to take him there at this time of year . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes ; he introduced us to his sister . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And do you like her ? \u201d"
+        }
+      ]
+    }
+  ]
+}

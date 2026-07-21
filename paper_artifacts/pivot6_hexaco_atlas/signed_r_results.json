@@ -1,0 +1,143 @@
+{
+  "designed_synthetic_r": -0.74,
+  "canonical_signed_r_mean": 0.7475,
+  "synthetic_signed_r_mean": 0.2184,
+  "n_raters": 26,
+  "synth_positive_raters": 20,
+  "synth_negative_raters": 6,
+  "synth_abs_r_mean": 0.2967,
+  "interpretation": "Faithful measurement of the designed -0.74 anti-correlation would yield a negative synthetic signed r; pure attenuation would shrink toward zero from the negative side. The observed positive mean (retrieval direction), positive in a large majority of raters, is the retrieval signature, not measurement and not simple attenuation.",
+  "per_rater": [
+    {
+      "rater": "anthropic_1",
+      "canon_signed_r": 0.7118600858597973,
+      "synth_signed_r": 0.08536890131532704
+    },
+    {
+      "rater": "anthropic_2",
+      "canon_signed_r": 0.7774383123414722,
+      "synth_signed_r": 0.2679962197679446
+    },
+    {
+      "rater": "anthropic_3",
+      "canon_signed_r": 0.7956208819245063,
+      "synth_signed_r": 0.2526409044071877
+    },
+    {
+      "rater": "anthropic_4",
+      "canon_signed_r": 0.7893187327951271,
+      "synth_signed_r": 0.5671764207057993
+    },
+    {
+      "rater": "cohere_1",
+      "canon_signed_r": 0.7190371827395896,
+      "synth_signed_r": 0.5291435226066245
+    },
+    {
+      "rater": "deepseek_1",
+      "canon_signed_r": 0.6784899656230341,
+      "synth_signed_r": 0.16093457307225353
+    },
+    {
+      "rater": "deepseek_2",
+      "canon_signed_r": 0.7774095965618398,
+      "synth_signed_r": 0.09688679006020201
+    },
+    {
+      "rater": "gemma_1",
+      "canon_signed_r": 0.6989544996957752,
+      "synth_signed_r": -0.2901557597893285
+    },
+    {
+      "rater": "google_1",
+      "canon_signed_r": 0.5742933841116764,
+      "synth_signed_r": -0.2003189330923041
+    },
+    {
+      "rater": "google_2",
+      "canon_signed_r": 0.5731901315801184,
+      "synth_signed_r": -0.1817067313614242
+    },
+    {
+      "rater": "google_3",
+      "canon_signed_r": 0.6449978584858039,
+      "synth_signed_r": 0.021843961080650457
+    },
+    {
+      "rater": "google_4",
+      "canon_signed_r": 0.5526862994080711,
+      "synth_signed_r": -0.08896113279351525
+    },
+    {
+      "rater": "google_5",
+      "canon_signed_r": 0.7421130563655923,
+      "synth_signed_r": 0.6511270080665017
+    },
+    {
+      "rater": "meta_1",
+      "canon_signed_r": 0.8934253666026741,
+      "synth_signed_r": 0.5457176902454729
+    },
+    {
+      "rater": "meta_2",
+      "canon_signed_r": 0.9660903332577602,
+      "synth_signed_r": 0.4298752062049723
+    },
+    {
+      "rater": "meta_3",
+      "canon_signed_r": 0.9067263761652818,
+      "synth_signed_r": 0.37824411212559034
+    },
+    {
+      "rater": "mistral_1",
+      "canon_signed_r": 0.764951416658053,
+      "synth_signed_r": 0.1527532506411713
+    },
+    {
+      "rater": "openai_1",
+      "canon_signed_r": 0.8057855396396605,
+      "synth_signed_r": 0.24803556295832907
+    },
+    {
+      "rater": "openai_2",
+      "canon_signed_r": 0.7326564830011394,
+      "synth_signed_r": 0.006868569886236089
+    },
+    {
+      "rater": "openai_3",
+      "canon_signed_r": 0.7261607104090958,
+      "synth_signed_r": 0.35945969795288096
+    },
+    {
+      "rater": "openai_4",
+      "canon_signed_r": 0.9199355797642875,
+      "synth_signed_r": 0.6233772758713093
+    },
+    {
+      "rater": "openai_5",
+      "canon_signed_r": 0.9178979400049594,
+      "synth_signed_r": 0.4016145107419416
+    },
+    {
+      "rater": "qwen_1",
+      "canon_signed_r": 0.8063155779689034,
+      "synth_signed_r": 0.5393154326175963
+    },
+    {
+      "rater": "qwen_2",
+      "canon_signed_r": 0.6461965282168235,
+      "synth_signed_r": 0.37887127715254565
+    },
+    {
+      "rater": "xai_1",
+      "canon_signed_r": 0.6665982449522221,
+      "synth_signed_r": -0.14793870109816712
+    },
+    {
+      "rater": "xai_2",
+      "canon_signed_r": 0.6466157291106782,
+      "synth_signed_r": -0.10852929240017374
+    }
+  ],
+  "_SUPERSEDED": "26-rater panel (includes the duplicate xai_2 Grok run). The paper reports the 25-rater panel: synthetic signed mean +0.2315, 95% CI [0.123, 0.338], positive in 20 of 25, sign test p = 0.0041. Regenerate with panel25/compute_panel25.py, which reads per_rater from this file and drops xai_2."
+}

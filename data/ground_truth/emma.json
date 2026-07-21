@@ -1,0 +1,919 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "122",
+      "character_name": "Emma Woodhouse",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.26200000000000007,
+        "C": -0.11866666666666664,
+        "E": 0.5815666666666667,
+        "A": -0.2731666666666667,
+        "N": 0.13880000000000006
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9876,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.076,
+            "C": -0.429,
+            "E": 0.582,
+            "A": -0.49,
+            "N": 0.468
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Helmita2022_Struggle_Matchmaker_Find_Love.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mila2023_SUPERIORITY_COMPLEX_JANE_AUSTENS.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "paris_2017_character_conflict.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.076,
+              "confidence_interval": [
+                -0.728,
+                0.881
+              ],
+              "n_sources": 6,
+              "std_dev": 0.41
+            },
+            "C": {
+              "score": -0.429,
+              "confidence_interval": [
+                -0.673,
+                -0.185
+              ],
+              "n_sources": 6,
+              "std_dev": 0.125
+            },
+            "E": {
+              "score": 0.582,
+              "confidence_interval": [
+                0.393,
+                0.772
+              ],
+              "n_sources": 6,
+              "std_dev": 0.097
+            },
+            "A": {
+              "score": -0.49,
+              "confidence_interval": [
+                -0.91,
+                -0.07
+              ],
+              "n_sources": 7,
+              "std_dev": 0.214
+            },
+            "N": {
+              "score": 0.468,
+              "confidence_interval": [
+                0.267,
+                0.669
+              ],
+              "n_sources": 4,
+              "std_dev": 0.103
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.634,
+            "C": 0.502,
+            "E": 0.5807,
+            "A": 0.1605,
+            "N": -0.5196
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:08:00.779101+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002318
+        }
+      ]
+    },
+    {
+      "coref_id": "108",
+      "character_name": "Mr. Knightley",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.11006666666666667,
+        "C": 0.7325333333333334,
+        "E": 0.24530000000000002,
+        "A": 0.5197333333333334,
+        "N": -0.41776666666666673
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6748,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.335,
+            "C": 0.745,
+            "E": 0.267,
+            "A": 0.458,
+            "N": -0.386
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mila2023_SUPERIORITY_COMPLEX_JANE_AUSTENS.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.335,
+              "confidence_interval": [
+                0.185,
+                0.485
+              ],
+              "n_sources": 3,
+              "std_dev": 0.077
+            },
+            "C": {
+              "score": 0.745,
+              "confidence_interval": [
+                0.57,
+                0.92
+              ],
+              "n_sources": 3,
+              "std_dev": 0.089
+            },
+            "E": {
+              "score": 0.267,
+              "confidence_interval": [
+                0.174,
+                0.359
+              ],
+              "n_sources": 3,
+              "std_dev": 0.047
+            },
+            "A": {
+              "score": 0.458,
+              "confidence_interval": [
+                -0.381,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.428
+            },
+            "N": {
+              "score": -0.386,
+              "confidence_interval": [
+                -0.454,
+                -0.317
+              ],
+              "n_sources": 4,
+              "std_dev": 0.035
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3398,
+            "C": 0.7076,
+            "E": 0.2019,
+            "A": 0.6432,
+            "N": -0.4813
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:08:27.411958+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002081
+        }
+      ]
+    },
+    {
+      "coref_id": "187",
+      "character_name": "Mr. Woodhouse",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.6487666666666667,
+        "C": 0.061333333333333344,
+        "E": -0.5941666666666667,
+        "A": 0.1373,
+        "N": 0.6526333333333335
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7421,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.8,
+            "C": -0.168,
+            "E": -0.679,
+            "A": -0.102,
+            "N": 0.9
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Mila2023_SUPERIORITY_COMPLEX_JANE_AUSTENS.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.8,
+              "confidence_interval": [
+                -0.8,
+                -0.8
+              ],
+              "n_sources": 3,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": -0.168,
+              "confidence_interval": [
+                -0.939,
+                0.604
+              ],
+              "n_sources": 3,
+              "std_dev": 0.394
+            },
+            "E": {
+              "score": -0.679,
+              "confidence_interval": [
+                -0.759,
+                -0.6
+              ],
+              "n_sources": 3,
+              "std_dev": 0.04
+            },
+            "A": {
+              "score": -0.102,
+              "confidence_interval": [
+                -0.979,
+                0.775
+              ],
+              "n_sources": 3,
+              "std_dev": 0.447
+            },
+            "N": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.9,
+                0.9
+              ],
+              "n_sources": 3,
+              "std_dev": 0.0
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3463,
+            "C": 0.52,
+            "E": -0.4245,
+            "A": 0.6159,
+            "N": 0.1579
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:08:57.740009+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002066
+        }
+      ]
+    },
+    {
+      "coref_id": "124",
+      "character_name": "Harriet Smith",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2497333333333334,
+        "C": -0.018466666666666666,
+        "E": -0.128,
+        "A": 0.6870666666666667,
+        "N": 0.2581333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.372,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.263,
+            "C": -0.048,
+            "E": -0.004,
+            "A": 0.702,
+            "N": 0.358
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Mila2023_SUPERIORITY_COMPLEX_JANE_AUSTENS.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.263,
+              "confidence_interval": [
+                -0.55,
+                0.023
+              ],
+              "n_sources": 3,
+              "std_dev": 0.146
+            },
+            "C": {
+              "score": -0.048,
+              "confidence_interval": [
+                -0.262,
+                0.167
+              ],
+              "n_sources": 3,
+              "std_dev": 0.11
+            },
+            "E": {
+              "score": -0.004,
+              "confidence_interval": [
+                -0.557,
+                0.548
+              ],
+              "n_sources": 3,
+              "std_dev": 0.282
+            },
+            "A": {
+              "score": 0.702,
+              "confidence_interval": [
+                0.537,
+                0.867
+              ],
+              "n_sources": 4,
+              "std_dev": 0.084
+            },
+            "N": {
+              "score": 0.358,
+              "confidence_interval": [
+                0.261,
+                0.455
+              ],
+              "n_sources": 2,
+              "std_dev": 0.049
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2232,
+            "C": 0.0406,
+            "E": -0.376,
+            "A": 0.6572,
+            "N": 0.0584
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:09:42.187477+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001967
+        }
+      ]
+    },
+    {
+      "coref_id": "118",
+      "character_name": "Miss Bates",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.08443333333333335,
+        "C": -0.0074666666666666675,
+        "E": 0.5518000000000001,
+        "A": 0.7746333333333335,
+        "N": -0.032233333333333336
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5887,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.094,
+            "E": 0.6,
+            "A": 0.792,
+            "N": 0.164
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Abuhassan2019_PSYCHOSOCIAL_DEVELOPMENT_PORTRAYED_JANE.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.094,
+              "confidence_interval": [
+                -0.179,
+                0.367
+              ],
+              "n_sources": 2,
+              "std_dev": 0.139
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": 0.792,
+              "confidence_interval": [
+                0.597,
+                0.987
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "N": {
+              "score": 0.164,
+              "confidence_interval": [
+                -0.689,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.435
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2533,
+            "C": -0.2104,
+            "E": 0.4554,
+            "A": 0.7399,
+            "N": -0.4247
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:10:10.729871+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001788
+        }
+      ]
+    },
+    {
+      "coref_id": "230",
+      "character_name": "Mrs. Elton",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.36110000000000003,
+        "C": 0.21016666666666667,
+        "E": 0.6463666666666668,
+        "A": -0.33673333333333344,
+        "N": -0.3186333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6218,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.1,
+            "E": 0.7,
+            "A": -0.544,
+            "N": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Lemos2010_LANGUAGE_CHARACTER_JANE_AUSTENS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.1,
+              "confidence_interval": [
+                -0.2,
+                0.4
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "E": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": -0.544,
+              "confidence_interval": [
+                -0.707,
+                -0.381
+              ],
+              "n_sources": 2,
+              "std_dev": 0.083
+            },
+            "N": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2833,
+            "C": 0.4305,
+            "E": 0.5391,
+            "A": 0.0778,
+            "N": 0.0441
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:10:41.084817+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002337
+        }
+      ]
+    },
+    {
+      "coref_id": "110",
+      "character_name": "Mr. Elton",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.0491,
+        "C": 0.48900000000000005,
+        "E": 0.2936,
+        "A": -0.21133333333333335,
+        "N": -0.0411
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.266,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "A": -0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0491,
+            "C": 0.489,
+            "E": 0.2936,
+            "A": -0.034,
+            "N": -0.0411
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:11:06.923429+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002084
+        }
+      ]
+    },
+    {
+      "coref_id": "115",
+      "character_name": "Frank Churchill",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4356,
+        "C": -0.13310000000000002,
+        "E": 0.5464,
+        "A": 0.015733333333333342,
+        "N": 0.2907
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8007,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "C": -0.4,
+            "A": -0.2,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Emma_26_03_10_00_13_10.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.788,
+                0.388
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4356,
+            "C": 0.4007,
+            "E": 0.5464,
+            "A": 0.4472,
+            "N": 0.0721
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:11:36.253355+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001759
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

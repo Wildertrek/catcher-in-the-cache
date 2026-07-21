@@ -1,0 +1,1338 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OCEAN6": {
+        "O": -0.6,
+        "C": -0.2,
+        "E": 0.8,
+        "A": -0.5,
+        "N": 0.5,
+        "H": -0.7,
+        "rationale": "The speaker is a highly extraverted and assertive individual who displays low Honesty-Humility through manipulative suggestions and disingenuous comments, while their cynicism towards intellectual topics indicates low Openness."
+      },
+      "usage": {
+        "input_tokens": 1138,
+        "output_tokens": 109,
+        "cost_usd": 0.0025125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792720.4451919
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": -0.2,
+        "E": 0.7,
+        "A": 0.3,
+        "N": -0.4,
+        "H": 0.4,
+        "rationale": "The speaker scores high on Openness due to their intellectual curiosity about unconventional forces and their search for the 'extraordinary,' and high on Extraversion, evidenced by their assertive, talkative, and socially proactive engagement in conversation."
+      },
+      "usage": {
+        "input_tokens": 1204,
+        "output_tokens": 115,
+        "cost_usd": 0.002655,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792742.639006
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": -0.2,
+        "E": 0.7,
+        "A": -0.6,
+        "N": -0.8,
+        "H": -0.9,
+        "rationale": "The speaker is an assertive and emotionally resilient individual who is frequently inquisitive and imaginative, but also consistently uses threats, demands, and elaborate lies to manipulate others."
+      },
+      "usage": {
+        "input_tokens": 1513,
+        "output_tokens": 101,
+        "cost_usd": 0.00290125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792765.002212
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.4,
+        "E": -0.3,
+        "A": -0.8,
+        "N": 0.9,
+        "H": -0.6,
+        "rationale": "The speaker is highly open and neurotic, evidenced by his philosophical introspection and profound melancholy, while his cynical, vengeful, and deceptive interactions indicate very low agreeableness and honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 1815,
+        "output_tokens": 108,
+        "cost_usd": 0.00334875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792792.021631
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": -0.2,
+        "E": 0.2,
+        "A": 0.5,
+        "N": 0.9,
+        "H": 0.4,
+        "rationale": "The speaker is characterized by overwhelming neuroticism, as seen in his constant anxiety, emotional volatility, and self-deprecating internal monologues, alongside a generally agreeable and considerate, if socially anxious, demeanor."
+      },
+      "usage": {
+        "input_tokens": 1185,
+        "output_tokens": 112,
+        "cost_usd": 0.00260125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792816.048077
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OCEAN6": {
+        "O": 0.4,
+        "C": 0.0,
+        "E": 0.8,
+        "A": -0.8,
+        "N": 0.3,
+        "H": -0.7,
+        "rationale": "The speaker is a cynical and assertive socialite, demonstrating high extraversion but low agreeableness and honesty-humility through their confrontational, sneering, and manipulative utterances."
+      },
+      "usage": {
+        "input_tokens": 1035,
+        "output_tokens": 105,
+        "cost_usd": 0.00234375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792835.763957
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.6,
+        "E": -0.5,
+        "A": -0.4,
+        "N": 0.9,
+        "H": -0.5,
+        "rationale": "The speaker is a highly open and neurotic individual, expressing his intense, melancholic passion through poetic and aesthetic language, while also revealing introversion, self-absorption, and a lack of humility in his commands and pronouncements."
+      },
+      "usage": {
+        "input_tokens": 2058,
+        "output_tokens": 115,
+        "cost_usd": 0.0037225,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792862.9137259
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OCEAN6": {
+        "O": -0.8,
+        "C": 0.1,
+        "E": 0.9,
+        "A": -0.9,
+        "N": 0.7,
+        "H": -0.9,
+        "rationale": "The speaker is an assertive extravert who displays very low agreeableness and honesty-humility through his arrogant, antagonistic, and prejudiced statements, while his pessimistic and dogmatic worldview indicates high neuroticism and low openness."
+      },
+      "usage": {
+        "input_tokens": 1098,
+        "output_tokens": 113,
+        "cost_usd": 0.0025025,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792883.341483
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OCEAN6": {
+        "O": 0.7,
+        "C": 0.8,
+        "E": 0.9,
+        "A": 0.3,
+        "N": 0.8,
+        "H": 0.6,
+        "rationale": "The speaker is a highly extraverted, conscientious, and neurotic public figure who displays intellectual curiosity (reading French poetry) and a commitment to social propriety and fairness while internally ruminating on personal anxieties."
+      },
+      "usage": {
+        "input_tokens": 1151,
+        "output_tokens": 109,
+        "cost_usd": 0.00252875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792905.296583
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.6,
+        "E": -0.2,
+        "A": -0.1,
+        "N": 0.9,
+        "H": -0.3,
+        "rationale": "The speaker is defined by extremely high Neuroticism, evident in his dramatic melancholy and emotional volatility, and high Openness, shown through his consistently poetic and metaphorical language, while his impulsivity and self-absorption suggest low Conscientiousness."
+      },
+      "usage": {
+        "input_tokens": 1482,
+        "output_tokens": 118,
+        "cost_usd": 0.0030325,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792927.366344
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.8,
+        "E": -0.7,
+        "A": 0.9,
+        "N": 0.8,
+        "H": 0.7,
+        "rationale": "The speaker is a highly conscientious, agreeable, and principled individual who demonstrates a strong sense of duty and concern for others, yet he is also a neurotic introvert, frequently appearing anxious, emotionally distressed, and socially reserved."
+      },
+      "usage": {
+        "input_tokens": 1636,
+        "output_tokens": 113,
+        "cost_usd": 0.003175,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792950.454217
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.8,
+        "E": 0.7,
+        "A": -0.4,
+        "N": 0.8,
+        "H": 0.7,
+        "rationale": "The speaker is highly assertive, emotionally distressed, and principled, consistently demonstrating self-discipline in her commitments while using imaginative language and directly confronting others."
+      },
+      "usage": {
+        "input_tokens": 1154,
+        "output_tokens": 99,
+        "cost_usd": 0.0024325,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792973.7246988
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": 0.3,
+        "E": 0.6,
+        "A": 0.7,
+        "N": 0.8,
+        "H": 0.9,
+        "rationale": "The speaker is an imaginative and philosophical individual who is remarkably sincere and direct about her intense, often anxious, emotions and is assertive in pursuing her unconventional love."
+      },
+      "usage": {
+        "input_tokens": 1632,
+        "output_tokens": 101,
+        "cost_usd": 0.00305,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778792996.480566
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": -0.7,
+        "E": 0.8,
+        "A": -0.5,
+        "N": -0.6,
+        "H": -0.7,
+        "rationale": "The speaker is a sociable and unconventional extravert who enjoys large parties, but also displays low conscientiousness and agreeableness through her self-serving logic about carelessness and a manipulative, gossipy nature."
+      },
+      "usage": {
+        "input_tokens": 1003,
+        "output_tokens": 109,
+        "cost_usd": 0.00234375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793015.858908
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OCEAN6": {
+        "O": -0.2,
+        "C": 0.0,
+        "E": 0.8,
+        "A": 0.5,
+        "N": 0.9,
+        "H": -0.3,
+        "rationale": "The speaker is a highly extraverted and emotionally volatile individual, engaging readily in social life while simultaneously experiencing significant anxiety, self-doubt, and internal conflict."
+      },
+      "usage": {
+        "input_tokens": 1198,
+        "output_tokens": 101,
+        "cost_usd": 0.0025075,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793036.121139
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OCEAN6": {
+        "O": -0.7,
+        "C": 0.9,
+        "E": 0.8,
+        "A": -0.9,
+        "N": 0.6,
+        "H": 0.3,
+        "rationale": "The speaker is an extremely conscientious and assertive but highly disagreeable authority figure, demonstrating a rigid, cold adherence to the law over mercy and expressing open hostility towards a perceived transgressor."
+      },
+      "usage": {
+        "input_tokens": 1089,
+        "output_tokens": 105,
+        "cost_usd": 0.00241125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793062.619298
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": 0.7,
+        "E": 0.6,
+        "A": 0.3,
+        "N": 0.8,
+        "H": -0.9,
+        "rationale": "The speaker is an imaginative, diligent, and articulate individual who, despite high anxiety, engages in a major deception for survival, indicating high Openness, Conscientiousness, and Neuroticism but very low Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 1691,
+        "output_tokens": 117,
+        "cost_usd": 0.00328375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793084.9279318
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.3,
+        "E": 0.5,
+        "A": -0.7,
+        "N": 0.5,
+        "H": 0.7,
+        "rationale": "The speaker is intellectually curious and values unvarnished truth, but he is also highly disagreeable, assertive, and emotionally moody, as shown by his brusque, probing questions and irritable outbursts."
+      },
+      "usage": {
+        "input_tokens": 1297,
+        "output_tokens": 108,
+        "cost_usd": 0.00270125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793111.910177
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.3,
+        "E": 0.7,
+        "A": 0.6,
+        "N": 0.9,
+        "H": -0.2,
+        "rationale": "The speaker is defined by extremely high neuroticism (e.g., 'I am so worried,' 'quite unhinged') and high extraversion/agreeableness (e.g., 'Dear friend,' offering help), but also uses strategic, emotionally persuasive communication that borders on manipulation, indicating lower honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 1459,
+        "output_tokens": 135,
+        "cost_usd": 0.00317375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793136.8040588
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OCEAN6": {
+        "O": -0.6,
+        "C": 0.2,
+        "E": 0.6,
+        "A": -0.3,
+        "N": 0.7,
+        "H": -0.5,
+        "rationale": "The speaker is a socially assertive (E) but conventional (low O) individual who displays high emotional distress under pressure (high N) and uses manipulation (low H) rather than empathy (low A) to manage conflict."
+      },
+      "usage": {
+        "input_tokens": 1175,
+        "output_tokens": 115,
+        "cost_usd": 0.00261875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793163.412858
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": 0.8,
+        "E": 0.7,
+        "A": 0.2,
+        "N": 0.3,
+        "H": 0.7,
+        "rationale": "The speaker is highly open, using poetic and philosophical language, and highly conscientious, offering prudent advice and creating detailed plans, but his agreeableness is only moderate due to his willingness to be stern and critical when counseling others."
+      },
+      "usage": {
+        "input_tokens": 2529,
+        "output_tokens": 114,
+        "cost_usd": 0.00430125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793196.727412
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OCEAN6": {
+        "O": -0.2,
+        "C": 0.6,
+        "E": 0.5,
+        "A": -0.3,
+        "N": 0.9,
+        "H": 0.8,
+        "rationale": "The speaker is extremely neurotic, expressing overwhelming despair and hatred in response to betrayal, but her high Honesty-Humility is evident in her sincere outrage at the deception, while she also shows signs of conscientiousness and a desire for social connection."
+      },
+      "usage": {
+        "input_tokens": 1507,
+        "output_tokens": 119,
+        "cost_usd": 0.00307375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793218.6633348
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OCEAN6": {
+        "O": -0.4,
+        "C": 0.5,
+        "E": 0.8,
+        "A": -0.7,
+        "N": 0.7,
+        "H": -0.8,
+        "rationale": "The speaker is highly assertive and commanding (high E), but also antagonistic (low A), emotionally volatile (high N), and uses manipulative deception, such as lying about a ring, to achieve her goals (very low H)."
+      },
+      "usage": {
+        "input_tokens": 1440,
+        "output_tokens": 115,
+        "cost_usd": 0.00295,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793237.797299
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.0,
+        "E": 0.4,
+        "A": -0.2,
+        "N": -0.4,
+        "H": 0.6,
+        "rationale": "The speaker is intellectually curious and socially engaged, but his directness manifests as a mix of sincerity (high H) and blunt, uncooperative criticism (low A), while he remains emotionally stable (low N)."
+      },
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 113,
+        "cost_usd": 0.0023075,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793260.071873
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OCEAN6": {
+        "O": -0.5,
+        "C": 0.8,
+        "E": 0.9,
+        "A": -0.7,
+        "N": 0.6,
+        "H": -0.9,
+        "rationale": "The speaker is a commanding and diligent public figure (high E, high C), but his manipulative rhetoric, deceptive spying, and cold invalidation of others' grief reveal profound dishonesty and disagreeableness (low H, low A) masking a guilty conscience (high N)."
+      },
+      "usage": {
+        "input_tokens": 2423,
+        "output_tokens": 123,
+        "cost_usd": 0.00425875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793288.7793112
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": 0.9,
+        "E": 0.8,
+        "A": -1.0,
+        "N": 0.5,
+        "H": -1.0,
+        "rationale": "The speaker is a highly assertive, imaginative, and ruthlessly conscientious individual who uses manipulation and deception to achieve their ambitious goals, resulting in extremely low Agreeableness and Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 2405,
+        "output_tokens": 108,
+        "cost_usd": 0.00408625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793308.0804741
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": -0.7,
+        "E": 0.5,
+        "A": -0.6,
+        "N": 0.9,
+        "H": -0.5,
+        "rationale": "The speaker is highly neurotic, expressing extreme emotional distress and anxious rumination, and highly open, shown by his imaginative dream recall, but he is also unconscientious and disagreeable, evidenced by his chaotic household and imperious tone with others."
+      },
+      "usage": {
+        "input_tokens": 1258,
+        "output_tokens": 119,
+        "cost_usd": 0.0027625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793329.036043
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.6,
+        "E": 0.8,
+        "A": -0.7,
+        "N": 0.9,
+        "H": 0.0,
+        "rationale": "The speaker is highly open and neurotic, driven by intense aesthetic sensitivity and volatile emotions, while also being extraverted and expressive, yet disagreeable in their harsh judgments of others and low in conscientiousness due to their passionate impulsivity."
+      },
+      "usage": {
+        "input_tokens": 2193,
+        "output_tokens": 115,
+        "cost_usd": 0.00389125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793345.702175
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": 0.2,
+        "E": 0.9,
+        "A": 0.7,
+        "N": 0.4,
+        "H": -0.7,
+        "rationale": "The speaker is highly extraverted and superficially agreeable, proactively arranging social events, while his stories of a worldly, adventurous life suggest high openness, but his grandiose and carefully managed self-presentation indicates low honesty and some underlying insecurity."
+      },
+      "usage": {
+        "input_tokens": 1113,
+        "output_tokens": 115,
+        "cost_usd": 0.00254125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793364.510289
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OCEAN6": {
+        "O": 0.7,
+        "C": 0.5,
+        "E": -0.2,
+        "A": 0.8,
+        "N": 0.8,
+        "H": 0.7,
+        "rationale": "The speaker is defined by profound melancholy and vulnerability (high N) and consistent kindness and gratitude (high A), while also showing intellectual curiosity (high O), a principled conscience (high H), and situational assertiveness that contrasts with an otherwise reserved nature (low-moderate E)."
+      },
+      "usage": {
+        "input_tokens": 1875,
+        "output_tokens": 125,
+        "cost_usd": 0.00359375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793389.422724
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": -0.1,
+        "E": 0.5,
+        "A": 0.9,
+        "N": 0.6,
+        "H": 0.8,
+        "rationale": "The speaker is exceptionally agreeable and sincere, showing great warmth and emotional expressiveness, while also demonstrating a curious and imaginative mind tempered by practical anxiety."
+      },
+      "usage": {
+        "input_tokens": 1967,
+        "output_tokens": 99,
+        "cost_usd": 0.00344875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793419.952895
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OCEAN6": {
+        "O": -0.5,
+        "C": 0.3,
+        "E": 0.2,
+        "A": 0.9,
+        "N": 0.8,
+        "H": 0.7,
+        "rationale": "The speaker scores very high in Agreeableness and Neuroticism, showing selfless devotion to her family while frequently expressing intense anxiety and distress when they are threatened."
+      },
+      "usage": {
+        "input_tokens": 1373,
+        "output_tokens": 101,
+        "cost_usd": 0.00272625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793443.3874009
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.3,
+        "E": 0.9,
+        "A": -0.6,
+        "N": -0.9,
+        "H": -0.8,
+        "rationale": "The speaker is highly extraverted and open, evidenced by their talkative, energetic nature and the long, imaginative Queen Mab monologue, but they are also disagreeable, cynical, and immodest, using sharp, bawdy wit to mock others and showing little emotional vulnerability or conscientiousness."
+      },
+      "usage": {
+        "input_tokens": 2341,
+        "output_tokens": 127,
+        "cost_usd": 0.00419625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793460.545473
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OCEAN6": {
+        "O": -0.6,
+        "C": -0.5,
+        "E": 0.9,
+        "A": 0.7,
+        "N": -0.4,
+        "H": -0.4,
+        "rationale": "The speaker is highly extraverted, evidenced by their extreme talkativeness and rambling, affectionate stories, but they are also disorganized (low C), conventional (low O), and somewhat immodest and transactional (low H)."
+      },
+      "usage": {
+        "input_tokens": 1601,
+        "output_tokens": 114,
+        "cost_usd": 0.00314125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793473.7455528
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OCEAN6": {
+        "O": 0.9,
+        "C": -0.6,
+        "E": 0.8,
+        "A": 0.4,
+        "N": 0.7,
+        "H": 0.3,
+        "rationale": "The speaker is a highly open, extraverted, and neurotic individual, delivering passionate, imaginative, and emotional speeches about his heroic father and political ideals, while his impulsive, anti-authoritarian actions suggest low conscientiousness."
+      },
+      "usage": {
+        "input_tokens": 1359,
+        "output_tokens": 114,
+        "cost_usd": 0.00283875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793495.048013
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OCEAN6": {
+        "O": -0.6,
+        "C": -0.5,
+        "E": 0.3,
+        "A": 0.4,
+        "N": 0.9,
+        "H": -0.3,
+        "rationale": "The speaker scores extremely high in Neuroticism, revealed through anxious impatience, emotional volatility, and desperate, rambling monologues, while her low Openness and Conscientiousness reflect a narrow focus on immediate survival and a disorganized state of mind."
+      },
+      "usage": {
+        "input_tokens": 1660,
+        "output_tokens": 118,
+        "cost_usd": 0.003255,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793514.707362
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.8,
+        "E": -0.7,
+        "A": 0.8,
+        "N": 0.9,
+        "H": 0.7,
+        "rationale": "The speaker is a highly neurotic, agreeable, and conscientious individual who expresses frequent fear and distress while remaining dutifully obedient, with her poetic and detailed descriptions indicating openness and her deferential manner suggesting introversion."
+      },
+      "usage": {
+        "input_tokens": 1467,
+        "output_tokens": 111,
+        "cost_usd": 0.00294375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793534.160079
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OCEAN6": {
+        "O": 0.4,
+        "C": 0.9,
+        "E": -0.3,
+        "A": -0.8,
+        "N": 0.5,
+        "H": -0.9,
+        "rationale": "The speaker is exceptionally conscientious and dutiful but also highly disagreeable, immodest, and status-obsessed, as revealed by his stern rebukes and elaborate, self-aggrandizing fantasies of power."
+      },
+      "usage": {
+        "input_tokens": 1666,
+        "output_tokens": 111,
+        "cost_usd": 0.0031925,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793552.317612
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OCEAN6": {
+        "O": -0.7,
+        "C": 0.8,
+        "E": -0.5,
+        "A": -0.6,
+        "N": 0.4,
+        "H": 0.9,
+        "rationale": "The speaker is highly conscientious and honest, valuing fixed opinions, utility, and moral propriety, while being reserved, critical of others, and explicitly rejecting unconventional aesthetic principles."
+      },
+      "usage": {
+        "input_tokens": 1799,
+        "output_tokens": 103,
+        "cost_usd": 0.00327875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793581.368192
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OCEAN6": {
+        "O": 0.7,
+        "C": 0.8,
+        "E": -0.3,
+        "A": 0.9,
+        "N": -0.9,
+        "H": 0.9,
+        "rationale": "The speaker is highly agreeable, emotionally stable, conscientious, and honest, consistently using calm, reasoned arguments to kindly support others and express sincere, principled judgments about art, literature, and character."
+      },
+      "usage": {
+        "input_tokens": 1857,
+        "output_tokens": 108,
+        "cost_usd": 0.00340125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793597.569792
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.8,
+        "E": 0.4,
+        "A": 0.9,
+        "N": 0.4,
+        "H": 0.9,
+        "rationale": "The speaker is a highly agreeable, conscientious, and honest individual who is dutiful and sincere, while also showing moderate neuroticism through his expressed fear and moderate openness in his intellectual curiosity."
+      },
+      "usage": {
+        "input_tokens": 1119,
+        "output_tokens": 106,
+        "cost_usd": 0.00245875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793618.109362
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": -0.8,
+        "E": 0.8,
+        "A": -0.6,
+        "N": 0.9,
+        "H": -0.4,
+        "rationale": "The speaker is a sociable but cynical and disagreeable individual, revealing high neuroticism through his self-description as a 'disappointed drudge' and a lack of conscientiousness through his aimlessness and drinking."
+      },
+      "usage": {
+        "input_tokens": 1237,
+        "output_tokens": 111,
+        "cost_usd": 0.00265625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793638.683372
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OCEAN6": {
+        "O": 0.6,
+        "C": 0.5,
+        "E": 0.3,
+        "A": 0.7,
+        "N": 0.6,
+        "H": 0.6,
+        "rationale": "The speaker is polite, cooperative, and principled (high A, H), with a reflective and curious nature (O), but also expresses significant confusion and vulnerability due to a recent traumatic experience (high N)."
+      },
+      "usage": {
+        "input_tokens": 1487,
+        "output_tokens": 111,
+        "cost_usd": 0.00296875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793657.767194
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OCEAN6": {
+        "O": -0.2,
+        "C": -0.4,
+        "E": 0.6,
+        "A": -0.9,
+        "N": 0.9,
+        "H": -0.6,
+        "rationale": "The speaker exhibits high Neuroticism through his anxiety, somatic complaints, and emotional volatility, and extremely low Agreeableness through his suspicious, cynical, and overtly antagonistic and confrontational remarks."
+      },
+      "usage": {
+        "input_tokens": 1062,
+        "output_tokens": 107,
+        "cost_usd": 0.0023975,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793676.233429
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OCEAN6": {
+        "O": -0.8,
+        "C": 0.7,
+        "E": -0.3,
+        "A": -0.9,
+        "N": -0.9,
+        "H": -1.0,
+        "rationale": "The speaker's utterances reveal a profoundly manipulative, immodest, and disagreeable nature, using formal, conscientious language to pursue social status while condescendingly dismissing others' perspectives."
+      },
+      "usage": {
+        "input_tokens": 2855,
+        "output_tokens": 106,
+        "cost_usd": 0.00462875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793701.225624
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OCEAN6": {
+        "O": -0.1,
+        "C": 0.2,
+        "E": 0.7,
+        "A": 0.5,
+        "N": 0.8,
+        "H": 0.6,
+        "rationale": "The speaker is highly neurotic, expressing intense anxiety and disbelief, but is also assertive and commanding while showing moments of kindness and straightforwardness."
+      },
+      "usage": {
+        "input_tokens": 917,
+        "output_tokens": 97,
+        "cost_usd": 0.00211625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793722.366579
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.7,
+        "E": 0.8,
+        "A": -0.8,
+        "N": 0.4,
+        "H": -0.9,
+        "rationale": "The speaker is a talkative and dutiful but highly manipulative and disagreeable figure who uses deception to control his children, revealing extremely low Honesty-Humility and Agreeableness despite his conventional, conscientious advice."
+      },
+      "usage": {
+        "input_tokens": 2422,
+        "output_tokens": 110,
+        "cost_usd": 0.0041275,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793747.6854248
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OCEAN6": {
+        "O": -0.3,
+        "C": 0.3,
+        "E": 0.6,
+        "A": -0.8,
+        "N": -0.4,
+        "H": -0.7,
+        "rationale": "The speaker is highly disagreeable and assertive, using insults and harsh judgments, while also demonstrating a practical, task-oriented focus on concrete matters like cutting grass and household chores."
+      },
+      "usage": {
+        "input_tokens": 1031,
+        "output_tokens": 104,
+        "cost_usd": 0.00232875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793769.9980202
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OCEAN6": {
+        "O": 0.7,
+        "C": 0.1,
+        "E": 0.8,
+        "A": -0.6,
+        "N": -0.8,
+        "H": 0.7,
+        "rationale": "The speaker is an extraverted, intellectually open, and emotionally stable individual who expresses herself with assertive wit, but her cynical and satirical observations of others' character and motives indicate low agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1578,
+        "output_tokens": 108,
+        "cost_usd": 0.0030525,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793828.89183
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": -0.2,
+        "E": -0.3,
+        "A": -0.7,
+        "N": 0.9,
+        "H": -0.9,
+        "rationale": "The speaker exhibits high Neuroticism through intense anxiety and guilt-ridden hallucinations and high Openness via his imaginative soliloquies, while his ambition-fueled plot to murder and deceive reveals extremely low Agreeableness and Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 2131,
+        "output_tokens": 119,
+        "cost_usd": 0.00385375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793856.391011
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OCEAN6": {
+        "O": 0.8,
+        "C": 0.9,
+        "E": 0.8,
+        "A": 0.9,
+        "N": -0.9,
+        "H": 0.8,
+        "rationale": "The speaker is a calm and stable peacemaker (low N) who is conscientious, agreeable, and honest (high C, A, H) in his sociable and articulate attempts (high E, O) to help his troubled cousin."
+      },
+      "usage": {
+        "input_tokens": 1462,
+        "output_tokens": 117,
+        "cost_usd": 0.0029975,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793877.507925
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OCEAN6": {
+        "O": 0.3,
+        "C": 0.0,
+        "E": 0.8,
+        "A": 0.9,
+        "N": 0.7,
+        "H": 0.8,
+        "rationale": "The speaker is highly extraverted and agreeable, expressing immense warmth and empathy, but also shows high neuroticism by deeply absorbing and reflecting another's distress, while attempting to be sincere and fair in a difficult situation."
+      },
+      "usage": {
+        "input_tokens": 1478,
+        "output_tokens": 113,
+        "cost_usd": 0.0029775,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793894.125559
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OCEAN6": {
+        "O": 0.4,
+        "C": -0.1,
+        "E": 0.7,
+        "A": -0.8,
+        "N": 0.9,
+        "H": -0.3,
+        "rationale": "The speaker is highly neurotic and disagreeable, reacting to perceived injustice with imaginative, assertive, and antagonistic outbursts, while also expressing a fearful and snobbish disdain for lower social status."
+      },
+      "usage": {
+        "input_tokens": 1049,
+        "output_tokens": 106,
+        "cost_usd": 0.00237125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793918.548214
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OCEAN6": {
+        "O": -0.7,
+        "C": -0.9,
+        "E": 1.0,
+        "A": -0.8,
+        "N": 0.6,
+        "H": -0.7,
+        "rationale": "The speaker is an extremely extraverted and sociable individual who is also highly unconscientious, impulsive, and self-centered, with a narrow focus on social amusement and status."
+      },
+      "usage": {
+        "input_tokens": 1817,
+        "output_tokens": 106,
+        "cost_usd": 0.00333125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793944.358597
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OCEAN6": {
+        "O": 0.5,
+        "C": 0.8,
+        "E": -0.9,
+        "A": -0.9,
+        "N": -0.8,
+        "H": -0.7,
+        "rationale": "The speaker is a proud, emotionally stable introvert who is extremely disagreeable, expressing critical and dismissive judgments with unyielding self-discipline."
+      },
+      "usage": {
+        "input_tokens": 1629,
+        "output_tokens": 97,
+        "cost_usd": 0.00300625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778793970.4218361
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OCEAN6": {
+        "O": 0.4,
+        "C": 0.5,
+        "E": 0.6,
+        "A": 0.5,
+        "N": -0.3,
+        "H": 0.8,
+        "rationale": "The speaker is a principled and fair-minded individual who is sociable and trusting, willing to change her opinions based on evidence, though she can also be assertive and judgmental about social propriety."
+      },
+      "usage": {
+        "input_tokens": 1608,
+        "output_tokens": 107,
+        "cost_usd": 0.00308,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778794002.410976
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OCEAN6": {
+        "O": -0.8,
+        "C": 0.7,
+        "E": 0.9,
+        "A": -0.9,
+        "N": -0.7,
+        "H": -0.9,
+        "rationale": "The speaker is a highly assertive and dominant extravert who is also extremely disagreeable, immodest, and conventional, constantly judging others, giving unsolicited advice, and boasting of her own influence."
+      },
+      "usage": {
+        "input_tokens": 1737,
+        "output_tokens": 108,
+        "cost_usd": 0.00325125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778794025.37857
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OCEAN6": {
+        "O": -0.2,
+        "C": -0.6,
+        "E": 0.9,
+        "A": -0.8,
+        "N": 0.8,
+        "H": -1.0,
+        "rationale": "The speaker presents as a highly extraverted and sociable individual, yet this charming exterior conceals a manipulative, dishonest (low H), antagonistic (low A), and neurotic (high N) personality focused on grievances and self-victimization."
+      },
+      "usage": {
+        "input_tokens": 2249,
+        "output_tokens": 117,
+        "cost_usd": 0.00398125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778794055.0967932
+    }
+  ]
+}

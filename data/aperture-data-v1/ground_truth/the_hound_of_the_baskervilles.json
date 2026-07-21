@@ -1,0 +1,214 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "0",
+      "character_name": "Sherlock Holmes",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7794333333333333,
+        "C": 0.8233666666666668,
+        "E": -0.41466666666666674,
+        "A": 0.32053333333333334,
+        "N": -0.4974000000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.344,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.75,
+            "C": 0.777,
+            "E": -0.3,
+            "A": 0.35,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chatterjee2020_Science_Andamans_Sign_Four.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rao2024_Exploring_Psychological_Depths_Role.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.75,
+              "confidence_interval": [
+                0.652,
+                0.848
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "C": {
+              "score": 0.777,
+              "confidence_interval": [
+                0.487,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.148
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.35,
+              "confidence_interval": [
+                0.252,
+                0.448
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8383,
+            "C": 0.9161,
+            "E": -0.644,
+            "A": 0.2616,
+            "N": -0.6922
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:21:02.428719+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00135
+        }
+      ]
+    },
+    {
+      "coref_id": "122",
+      "character_name": "Dr. Watson",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3864,
+        "C": 0.6618,
+        "E": 0.04839999999999999,
+        "A": 0.4019,
+        "N": 0.31738235294117645
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4435,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chatterjee2020_Science_Andamans_Sign_Four.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3864,
+            "C": 0.6618,
+            "E": 0.0484,
+            "A": 0.4019,
+            "N": 0.0565
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:21:41.712036+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000911
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

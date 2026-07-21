@@ -1,0 +1,659 @@
+{
+  "coref_id": "229",
+  "character_name": "Colonel Fitzwilliam",
+  "quote_count": 24,
+  "mention_count": 135,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      8
+    ],
+    [
+      "127",
+      7
+    ],
+    [
+      "1637",
+      2
+    ],
+    [
+      "106",
+      1
+    ],
+    [
+      "1676",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I may thank you , Eliza , for this piece of civility . Mr. Darcy would never have come so soon to wait upon me . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 70091,
+      "quote_end": 70118,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "1528",
+          "quote_text": "\u201c he never failed to inform them \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c The gentlemen accompanied him . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My eldest sister has been in town these three months . Have you never happened to see her there ? \u201d"
+        },
+        {
+          "speaker_coref_id": "3105",
+          "quote_text": "\u201c At Church \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You mean to frighten me , Mr. Darcy , by coming in all this state to hear me . But I will not be alarmed , though your sister _ does _ play so well . There is a stubbornness about me that never can bear to be frightened at the will of others . My courage always rises with every attempt to intimidate me . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71308,
+      "quote_end": 71375,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c that she does not need such advice . She practises very constantly . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c So much the better . It can not be done too much ; and when I next write to her , I shall charge her not to neglect it on any account . I often tell young ladies , that no excellence in music is to be acquired without constant practice . I have told Miss Bennet several times , that she will never play really well , unless she practises more ; and though Mrs. Collins has no instrument , she is very welcome , as I have often told her , to come to Rosings every day , and play on the pianoforte in Mrs. Jenkinson \u2019s room . She would be in nobody \u2019s way , you know , in that part of the house . \u201d"
+        },
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c I shall not say that you are mistaken , \u201d"
+        },
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c because you could not really believe me to entertain any design of alarming you ; and I have had the pleasure of your acquaintance long enough to know , that you find great enjoyment in occasionally professing opinions which , in fact , are not your own . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Your cousin will give you a very pretty notion of me , and teach you not to believe a word I say . I am particularly unlucky in meeting with a person so well able to expose my real character , in a part of the world where I had hoped to pass myself off with some degree of credit . Indeed , Mr. Darcy , it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire -- and , give me leave to say , very impolitic too -- for it is provoking me to retaliate , and such things may come out as will shock your relations to hear . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71455,
+      "quote_end": 71574,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c I shall not say that you are mistaken , \u201d"
+        },
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c because you could not really believe me to entertain any design of alarming you ; and I have had the pleasure of your acquaintance long enough to know , that you find great enjoyment in occasionally professing opinions which , in fact , are not your own . \u201d"
+        },
+        {
+          "speaker_coref_id": "1637",
+          "quote_text": "\u201c I am not afraid of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Pray let me hear what you have to accuse him of , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Pray let me hear what you have to accuse him of , \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71589,
+      "quote_end": 71602,
+      "addressee_coref_id": "1637",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Your cousin will give you a very pretty notion of me , and teach you not to believe a word I say . I am particularly unlucky in meeting with a person so well able to expose my real character , in a part of the world where I had hoped to pass myself off with some degree of credit . Indeed , Mr. Darcy , it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire -- and , give me leave to say , very impolitic too -- for it is provoking me to retaliate , and such things may come out as will shock your relations to hear . \u201d"
+        },
+        {
+          "speaker_coref_id": "1637",
+          "quote_text": "\u201c I am not afraid of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I should like to know how he behaves among strangers . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You shall hear , then -- but prepare for something very dreadful . The first time of my ever seeing him in Hertfordshire , you must know , was at a ball -- and at this ball , what do you think he did ? He danced only four dances ! I am sorry to pain you , but so it was . He danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . Mr. Darcy , you can not deny the fact . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I should like to know how he behaves among strangers . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71607,
+      "quote_end": 71619,
+      "addressee_coref_id": "1637",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1637",
+          "quote_text": "\u201c I am not afraid of you , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Pray let me hear what you have to accuse him of , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You shall hear , then -- but prepare for something very dreadful . The first time of my ever seeing him in Hertfordshire , you must know , was at a ball -- and at this ball , what do you think he did ? He danced only four dances ! I am sorry to pain you , but so it was . He danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . Mr. Darcy , you can not deny the fact . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I had not at that time the honour of knowing any lady in the assembly beyond my own party . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You shall hear , then -- but prepare for something very dreadful . The first time of my ever seeing him in Hertfordshire , you must know , was at a ball -- and at this ball , what do you think he did ? He danced only four dances ! I am sorry to pain you , but so it was . He danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . Mr. Darcy , you can not deny the fact . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71620,
+      "quote_end": 71726,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Pray let me hear what you have to accuse him of , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I should like to know how he behaves among strangers . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I had not at that time the honour of knowing any lady in the assembly beyond my own party . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c True ; and nobody can ever be introduced in a ball - room . Well , Colonel Fitzwilliam , what do I play next ? My fingers wait your orders . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I had not at that time the honour of knowing any lady in the assembly beyond my own party . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71727,
+      "quote_end": 71748,
+      "addressee_coref_id": "127",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I should like to know how he behaves among strangers . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You shall hear , then -- but prepare for something very dreadful . The first time of my ever seeing him in Hertfordshire , you must know , was at a ball -- and at this ball , what do you think he did ? He danced only four dances ! I am sorry to pain you , but so it was . He danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . Mr. Darcy , you can not deny the fact . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c True ; and nobody can ever be introduced in a ball - room . Well , Colonel Fitzwilliam , what do I play next ? My fingers wait your orders . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Perhaps , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c True ; and nobody can ever be introduced in a ball - room . Well , Colonel Fitzwilliam , what do I play next ? My fingers wait your orders . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 71749,
+      "quote_end": 71781,
+      "addressee_coref_id": "127",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You shall hear , then -- but prepare for something very dreadful . The first time of my ever seeing him in Hertfordshire , you must know , was at a ball -- and at this ball , what do you think he did ? He danced only four dances ! I am sorry to pain you , but so it was . He danced only four dances , though gentlemen were scarce ; and , to my certain knowledge , more than one young lady was sitting down in want of a partner . Mr. Darcy , you can not deny the fact . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I had not at that time the honour of knowing any lady in the assembly beyond my own party . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Perhaps , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I should have judged better had I sought an introduction , but I am ill - qualified to recommend myself to strangers . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can answer your question , \u201d",
+      "mention_text": "Fitzwilliam",
+      "quote_start": 71866,
+      "quote_end": 71873,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Shall we ask your cousin the reason of this ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Shall we ask him why a man of sense and education , and who has lived in the world , is ill - qualified to recommend himself to strangers ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c without applying to him . It is because he will not give himself the trouble . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I certainly have not the talent which some people possess , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c without applying to him . It is because he will not give himself the trouble . \u201d",
+      "mention_text": "Fitzwilliam",
+      "quote_start": 71877,
+      "quote_end": 71894,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Shall we ask him why a man of sense and education , and who has lived in the world , is ill - qualified to recommend himself to strangers ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I can answer your question , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I certainly have not the talent which some people possess , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c of conversing easily with those I have never seen before . I can not catch their tone of conversation , or appear interested in their concerns , as I often see done . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I have been making the tour of the park , \u201d",
+      "mention_text": "he",
+      "quote_start": 74510,
+      "quote_end": 74521,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c On looking up \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I did not know before that you ever walked this way . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c as I generally do every year , and intended to close it with a call at the Parsonage . Are you going much farther ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , I should have turned in a moment . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c as I generally do every year , and intended to close it with a call at the Parsonage . Are you going much farther ? \u201d",
+      "mention_text": "he",
+      "quote_start": 74525,
+      "quote_end": 74551,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I did not know before that you ever walked this way . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c I have been making the tour of the park , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , I should have turned in a moment . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Do you certainly leave Kent on Saturday ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes -- if Darcy does not put it off again . But I am at his disposal . He arranges the business just as he pleases . \u201d",
+      "mention_text": "he",
+      "quote_start": 74591,
+      "quote_end": 74619,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , I should have turned in a moment . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Do you certainly leave Kent on Saturday ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c And if not able to please himself in the arrangement , he has at least great pleasure in the power of choice . I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c He likes to have his own way very well , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And if not able to please himself in the arrangement , he has at least great pleasure in the power of choice . I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy . \u201d",
+      "mention_text": "he",
+      "quote_start": 74620,
+      "quote_end": 74665,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Do you certainly leave Kent on Saturday ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Yes -- if Darcy does not put it off again . But I am at his disposal . He arranges the business just as he pleases . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c He likes to have his own way very well , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c But so we all do . It is only that he has better means of having it than many others , because he is rich , and many others are poor . I speak feelingly . A younger son , you know , must be inured to self - denial and dependence . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He likes to have his own way very well , \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 74666,
+      "quote_end": 74677,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Yes -- if Darcy does not put it off again . But I am at his disposal . He arranges the business just as he pleases . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c And if not able to please himself in the arrangement , he has at least great pleasure in the power of choice . I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c But so we all do . It is only that he has better means of having it than many others , because he is rich , and many others are poor . I speak feelingly . A younger son , you know , must be inured to self - denial and dependence . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c In my opinion , the younger son of an earl can know very little of either . Now , seriously , what have you ever known of self - denial and dependence ? When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But so we all do . It is only that he has better means of having it than many others , because he is rich , and many others are poor . I speak feelingly . A younger son , you know , must be inured to self - denial and dependence . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 74682,
+      "quote_end": 74736,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c And if not able to please himself in the arrangement , he has at least great pleasure in the power of choice . I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c He likes to have his own way very well , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c In my opinion , the younger son of an earl can know very little of either . Now , seriously , what have you ever known of self - denial and dependence ? When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c These are home questions -- and perhaps I can not say that I have experienced many hardships of that nature . But in matters of greater weight , I may suffer from the want of money . Younger sons can not marry where they like . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c In my opinion , the younger son of an earl can know very little of either . Now , seriously , what have you ever known of self - denial and dependence ? When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for ? \u201d",
+      "mention_text": "he",
+      "quote_start": 74737,
+      "quote_end": 74794,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c He likes to have his own way very well , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c But so we all do . It is only that he has better means of having it than many others , because he is rich , and many others are poor . I speak feelingly . A younger son , you know , must be inured to self - denial and dependence . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c These are home questions -- and perhaps I can not say that I have experienced many hardships of that nature . But in matters of greater weight , I may suffer from the want of money . Younger sons can not marry where they like . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Unless where they like women of fortune , which I think they very often do . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c These are home questions -- and perhaps I can not say that I have experienced many hardships of that nature . But in matters of greater weight , I may suffer from the want of money . Younger sons can not marry where they like . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 74795,
+      "quote_end": 74842,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c But so we all do . It is only that he has better means of having it than many others , because he is rich , and many others are poor . I speak feelingly . A younger son , you know , must be inured to self - denial and dependence . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c In my opinion , the younger son of an earl can know very little of either . Now , seriously , what have you ever known of self - denial and dependence ? When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Unless where they like women of fortune , which I think they very often do . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Our habits of expense make us too dependent , and there are not many in my rank of life who can afford to marry without some attention to money . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Unless where they like women of fortune , which I think they very often do . \u201d",
+      "mention_text": "he",
+      "quote_start": 74843,
+      "quote_end": 74860,
+      "addressee_coref_id": "107",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c In my opinion , the younger son of an earl can know very little of either . Now , seriously , what have you ever known of self - denial and dependence ? When have you been prevented by want of money from going wherever you chose or procuring anything you had a fancy for ? \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c These are home questions -- and perhaps I can not say that I have experienced many hardships of that nature . But in matters of greater weight , I may suffer from the want of money . Younger sons can not marry where they like . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Our habits of expense make us too dependent , and there are not many in my rank of life who can afford to marry without some attention to money . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Is this , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Our habits of expense make us too dependent , and there are not many in my rank of life who can afford to marry without some attention to money . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 74861,
+      "quote_end": 74892,
+      "addressee_coref_id": "107",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c These are home questions -- and perhaps I can not say that I have experienced many hardships of that nature . But in matters of greater weight , I may suffer from the want of money . Younger sons can not marry where they like . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Unless where they like women of fortune , which I think they very often do . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Is this , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c meant for me ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c No , \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 75064,
+      "quote_end": 75067,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And pray , what is the usual price of an earl \u2019s younger son ? Unless the elder brother is very sickly , I suppose you would not ask above fifty thousand pounds . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I imagine your cousin brought you down with him chiefly for the sake of having somebody at his disposal . I wonder he does not marry , to secure a lasting convenience of that kind . But , perhaps , his sister does as well for the present ; and , as she is under his sole care , he may do what he likes with her . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c that is an advantage which he must divide with me . I am joined with him in the guardianship of Miss Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Are you , indeed ? And pray what sort of a guardian do you make ? Does your charge give you much trouble ? Young ladies of her age are sometimes a little difficult to manage ; and if she has the true Darcy spirit , she may like to have her own way . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that is an advantage which he must divide with me . I am joined with him in the guardianship of Miss Darcy . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 75072,
+      "quote_end": 75096,
+      "addressee_coref_id": "106",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I imagine your cousin brought you down with him chiefly for the sake of having somebody at his disposal . I wonder he does not marry , to secure a lasting convenience of that kind . But , perhaps , his sister does as well for the present ; and , as she is under his sole care , he may do what he likes with her . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c No , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Are you , indeed ? And pray what sort of a guardian do you make ? Does your charge give you much trouble ? Young ladies of her age are sometimes a little difficult to manage ; and if she has the true Darcy spirit , she may like to have her own way . \u201d"
+        },
+        {
+          "speaker_coref_id": "1676",
+          "quote_text": "\u201c You need not be frightened . I never heard any harm of her ; and I dare say she is one of the most tractable creatures in the world . She is a very great favourite with some ladies of my acquaintance , Mrs. Hurst and Miss Bingley . I think I have heard you say that you know them . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Are you , indeed ? And pray what sort of a guardian do you make ? Does your charge give you much trouble ? Young ladies of her age are sometimes a little difficult to manage ; and if she has the true Darcy spirit , she may like to have her own way . \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 75097,
+      "quote_end": 75153,
+      "addressee_coref_id": "1676",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c No , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c that is an advantage which he must divide with me . I am joined with him in the guardianship of Miss Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "1676",
+          "quote_text": "\u201c You need not be frightened . I never heard any harm of her ; and I dare say she is one of the most tractable creatures in the world . She is a very great favourite with some ladies of my acquaintance , Mrs. Hurst and Miss Bingley . I think I have heard you say that you know them . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I know them a little . Their brother is a pleasant , gentlemanlike man -- he is a great friend of Darcy \u2019s . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c There were some very strong objections against the lady , \u201d",
+      "mention_text": "Colonel Fitzwilliam",
+      "quote_start": 76041,
+      "quote_end": 76052,
+      "addressee_coref_id": "766",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c That is not an unnatural surmise , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c but it is lessening the honour of my cousin \u2019s triumph very sadly . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c To Jane herself , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c there could be no possibility of objection,--all loveliness and goodness as she is ! Her understanding excellent , her mind improved , and her manners captivating . Neither could anything be urged against my father , who , though with some peculiarities , has abilities which Mr. Darcy himself need not disdain , and respectability which he will probably never reach . \u201d"
+        }
+      ]
+    }
+  ]
+}

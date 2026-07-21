@@ -1,0 +1,1067 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T20:27:39Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "112",
+      "character_name": "Raskolnikov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6883,
+        "C": -0.5322333333333334,
+        "E": -0.7010666666666667,
+        "A": -0.2518,
+        "N": 0.6306333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6521,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.713,
+            "C": -0.535,
+            "E": -0.738,
+            "A": -0.367,
+            "N": 0.848
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Ego2024_Operasionalisasi_Ego_Superego_Dan.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Emir2016_Literature_Psychology_Context_Interaction.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lochmelis2024_REINTERPRETATION_IMAGES_FROM_DOSTOEVSKYS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lyngstad1975_Dostoevskij_Schiller.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sharma2017_Guilt_Full_Morality_Study.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "StepanianRumyantseva2022_Elusiveness_Symbols_Illustrations_Crime.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Yu2023_Personality_Understanding_Fictional_Characters.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.713,
+              "confidence_interval": [
+                0.647,
+                0.78
+              ],
+              "n_sources": 7,
+              "std_dev": 0.034
+            },
+            "C": {
+              "score": -0.535,
+              "confidence_interval": [
+                -0.739,
+                -0.331
+              ],
+              "n_sources": 6,
+              "std_dev": 0.104
+            },
+            "E": {
+              "score": -0.738,
+              "confidence_interval": [
+                -0.899,
+                -0.577
+              ],
+              "n_sources": 5,
+              "std_dev": 0.082
+            },
+            "A": {
+              "score": -0.367,
+              "confidence_interval": [
+                -0.833,
+                0.099
+              ],
+              "n_sources": 7,
+              "std_dev": 0.238
+            },
+            "N": {
+              "score": 0.848,
+              "confidence_interval": [
+                0.704,
+                0.993
+              ],
+              "n_sources": 8,
+              "std_dev": 0.074
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6389,
+            "C": -0.5267,
+            "E": -0.6272,
+            "A": -0.0214,
+            "N": 0.1959
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:23:31.551686+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003549
+        }
+      ]
+    },
+    {
+      "coref_id": "123",
+      "character_name": "Sonia",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.2968117647058824,
+        "C": -0.5144,
+        "E": -0.36813529411764706,
+        "A": 0.6668470588235295,
+        "N": 0.3485
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5631,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "E": -0.6,
+            "A": 0.78
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "StepanianRumyantseva2022_Elusiveness_Symbols_Illustrations_Crime.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.78,
+              "confidence_interval": [
+                0.641,
+                0.92
+              ],
+              "n_sources": 3,
+              "std_dev": 0.071
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1494,
+            "C": -0.5144,
+            "E": -0.0369,
+            "A": 0.5052,
+            "N": 0.3485
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:46:48.961223+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001009
+        }
+      ]
+    },
+    {
+      "coref_id": "121",
+      "character_name": "Katerina Ivanovna",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.25297647058823536,
+        "C": 0.0797,
+        "E": 0.0093,
+        "A": -0.3680764705882353,
+        "N": 0.6060941176470588
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9982,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.664,
+            "A": -0.532,
+            "N": 0.768
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chances2021_Dostoevsky_David_Foster_Wallace.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Colgrove2019_Emotional_Impact_Evil_Philosophical.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Namli2022_Brothers_Karamazov_theology_suffering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.664,
+              "confidence_interval": [
+                0.481,
+                0.847
+              ],
+              "n_sources": 2,
+              "std_dev": 0.093
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.532,
+              "confidence_interval": [
+                -0.624,
+                -0.441
+              ],
+              "n_sources": 2,
+              "std_dev": 0.047
+            },
+            "N": {
+              "score": 0.768,
+              "confidence_interval": [
+                0.676,
+                0.859
+              ],
+              "n_sources": 2,
+              "std_dev": 0.047
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3342,
+            "C": 0.0797,
+            "E": 0.0093,
+            "A": -0.1339,
+            "N": 0.3748
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:47:17.331559+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001595
+        }
+      ]
+    },
+    {
+      "coref_id": "2317",
+      "character_name": "Marmeladov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5,
+        "C": -0.7,
+        "A": 0.3,
+        "N": 0.8
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.7,
+            "A": 0.3,
+            "N": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "140",
+      "character_name": "Svidrigailov",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6265529411764706,
+        "C": -0.4330529411764706,
+        "E": -0.4444294117647059,
+        "A": -0.2611117647058824,
+        "N": 0.4601705882352941
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0343,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.645,
+            "C": -0.553,
+            "E": -0.4,
+            "A": -0.687,
+            "N": 0.716
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lochmelis2024_REINTERPRETATION_IMAGES_FROM_DOSTOEVSKYS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lyngstad1975_Dostoevskij_Schiller.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "StepanianRumyantseva2022_Elusiveness_Symbols_Illustrations_Crime.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.645,
+              "confidence_interval": [
+                0.548,
+                0.743
+              ],
+              "n_sources": 3,
+              "std_dev": 0.05
+            },
+            "C": {
+              "score": -0.553,
+              "confidence_interval": [
+                -0.778,
+                -0.329
+              ],
+              "n_sources": 3,
+              "std_dev": 0.115
+            },
+            "E": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.687,
+              "confidence_interval": [
+                -0.881,
+                -0.493
+              ],
+              "n_sources": 4,
+              "std_dev": 0.099
+            },
+            "N": {
+              "score": 0.716,
+              "confidence_interval": [
+                0.451,
+                0.98
+              ],
+              "n_sources": 2,
+              "std_dev": 0.135
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6002,
+            "C": -0.2617,
+            "E": -0.5079,
+            "A": 0.3473,
+            "N": 0.0947
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:47:47.296622+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001663
+        }
+      ]
+    },
+    {
+      "coref_id": "143",
+      "character_name": "Luzhin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.5213117647058824,
+        "C": 0.6133,
+        "E": -0.384,
+        "A": -0.6976529411764706,
+        "N": 0.39239999999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1911,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.6,
+            "A": -0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -0.7,
+                -0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4089,
+            "C": 0.6133,
+            "E": -0.384,
+            "A": -0.6943,
+            "N": 0.3924
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:48:32.914484+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002106
+        }
+      ]
+    },
+    {
+      "coref_id": "221",
+      "character_name": "Razumihin",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3078529411764706,
+        "C": 0.7153,
+        "E": 0.6554058823529412,
+        "A": 0.7940117647058824,
+        "N": -0.46784117647058826
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7095,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.8,
+            "E": 0.7,
+            "A": 0.9,
+            "N": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.9,
+              "confidence_interval": [
+                0.312,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1095,
+            "C": 0.5943,
+            "E": 0.5917,
+            "A": 0.6426,
+            "N": -0.4219
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:49:02.674238+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001536
+        }
+      ]
+    },
+    {
+      "coref_id": "138",
+      "character_name": "Dounia",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.19512941176470588,
+        "C": 0.5959235294117646,
+        "E": 0.0736,
+        "A": 0.6786705882352941,
+        "N": -0.3967
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7404,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.6,
+            "A": 0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Saraskina2024_Razumikhin_Love_Wonderful_Fate.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2404,
+            "C": 0.5901,
+            "E": 0.0736,
+            "A": 0.6482,
+            "N": -0.3967
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:49:38.124006+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001414
+        }
+      ]
+    },
+    {
+      "coref_id": "216",
+      "character_name": "Porfiry",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5683,
+        "C": 0.6522,
+        "E": 0.3947,
+        "A": 0.4729882352941176,
+        "N": -0.6347
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0656,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Li2021_Problem_Higher_Individuals_Works.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5683,
+            "C": 0.6522,
+            "E": 0.3947,
+            "A": 0.4344,
+            "N": -0.6347
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:50:14.745088+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00159
+        }
+      ]
+    },
+    {
+      "coref_id": "1501",
+      "character_name": "Alyona Ivanovna",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.55,
+        "C": 0.7,
+        "E": -0.3,
+        "A": -0.9,
+        "N": 0.6
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.55,
+            "C": 0.7,
+            "E": -0.3,
+            "A": -0.9,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Lochmelis2024_REINTERPRETATION_IMAGES_FROM_DOSTOEVSKYS.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.55,
+              "confidence_interval": null,
+              "n_sources": 0,
+              "source": "llm_consensus",
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": null,
+              "n_sources": 0,
+              "source": "llm_consensus",
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1.0,
+                -0.312
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": null,
+              "n_sources": 0,
+              "source": "llm_consensus",
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

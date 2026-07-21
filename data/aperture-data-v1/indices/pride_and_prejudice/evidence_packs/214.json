@@ -1,0 +1,135 @@
+{
+  "coref_id": "214",
+  "character_name": "Georgiana",
+  "quote_count": 4,
+  "mention_count": 79,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "194",
+      1
+    ],
+    [
+      "127",
+      1
+    ],
+    [
+      "102",
+      1
+    ],
+    [
+      "192",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c To make herself agreeable to all \u201d",
+      "mention_text": "Georgiana",
+      "quote_start": 102992,
+      "quote_end": 102999,
+      "addressee_coref_id": "194",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c From what we have seen of him , \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c I really should not have thought that he could have behaved in so cruel a way by anybody as he has done by poor Wickham . He has not an ill - natured look . On the contrary , there is something pleasing about his mouth when he speaks . And there is something of dignity in his countenance , that would not give one an unfavourable idea of his heart . But , to be sure , the good lady who showed us the house did give him a most flaming character ! I could hardly help laughing aloud sometimes . But he is a liberal master , I suppose , and _ that _ , in the eye of a servant , comprehends every virtue . \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c was a very long time since he had had the pleasure of seeing her ; \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c It is above eight months . We have not met since the 26th of November , when we were all dancing together at Netherfield . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You are joking , Lizzy . This can not be ! Engaged to Mr. Darcy ! No , no , you shall not deceive me : I know it to be impossible . \u201d",
+      "mention_text": "she",
+      "quote_start": 146542,
+      "quote_end": 146576,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c Unable to utter a syllable \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c My dear Lizzy , where can you have been walking to ? \u201d"
+        },
+        {
+          "speaker_coref_id": "214",
+          "quote_text": "\u201c This is a wretched beginning , indeed ! My sole dependence was on you ; and I am sure nobody else will believe me , if you do not . Yet , indeed , I am in earnest . I speak nothing but the truth . He still loves me , and we are engaged . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , Lizzy ! it can not be . I know how much you dislike him . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c This is a wretched beginning , indeed ! My sole dependence was on you ; and I am sure nobody else will believe me , if you do not . Yet , indeed , I am in earnest . I speak nothing but the truth . He still loves me , and we are engaged . \u201d",
+      "mention_text": "she",
+      "quote_start": 146577,
+      "quote_end": 146634,
+      "addressee_coref_id": "102",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c My dear Lizzy , where can you have been walking to ? \u201d"
+        },
+        {
+          "speaker_coref_id": "214",
+          "quote_text": "\u201c You are joking , Lizzy . This can not be ! Engaged to Mr. Darcy ! No , no , you shall not deceive me : I know it to be impossible . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , Lizzy ! it can not be . I know how much you dislike him . \u201d"
+        },
+        {
+          "speaker_coref_id": "214",
+          "quote_text": "\u201c You know nothing of the matter . _ That _ is all to be forgot . Perhaps I did not always love him so well as I do now ; but in such cases as these a good memory is unpardonable . This is the last time I shall ever remember it myself . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You know nothing of the matter . _ That _ is all to be forgot . Perhaps I did not always love him so well as I do now ; but in such cases as these a good memory is unpardonable . This is the last time I shall ever remember it myself . \u201d",
+      "mention_text": "she",
+      "quote_start": 146660,
+      "quote_end": 146715,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "214",
+          "quote_text": "\u201c This is a wretched beginning , indeed ! My sole dependence was on you ; and I am sure nobody else will believe me , if you do not . Yet , indeed , I am in earnest . I speak nothing but the truth . He still loves me , and we are engaged . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , Lizzy ! it can not be . I know how much you dislike him . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Good heaven ! can it be really so ? Yet now I must believe you , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c My dear , dear Lizzy , I would , I do congratulate you ; but are you certain -- forgive the question -- are you quite certain that you can be happy with him ? \u201d"
+        }
+      ]
+    }
+  ]
+}

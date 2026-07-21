@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T20:27:39Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Pygmalion",
+    "author": "George Bernard Shaw",
+    "year": "1913"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_higgins",
+      "character_name": "Higgins",
+      "quote_count": 243,
+      "consensus_ocean": {
+        "O": 0.73724,
+        "C": 0.6371,
+        "E": 0.634172,
+        "A": -0.672172,
+        "N": 0.27571999999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.651,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\n  \"O\": 0.8,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.2,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical analyses, such as those by Shaw scholars, often depict Higgins as a highly imaginative and unconventional character, marked by social assertiveness but lacking in empathy and cooperation.\"\n}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.75,
+            "C": 0.85,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.65
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.75,\n  \"C\": 0.85,\n  \"E\": 0.70,\n  \"A\": -0.80,\n  \"N\": 0.65,\n  \"confidence\": \"high\",\n  \"rationale\": \"Shaw's Higgins is widely characterized in critical scholarship as an intellectually brilliant but emotionally stunted, arrogant phonetician whose scientific creativity and methodical discipline are undermined by his callous indifference to others' feelings and volatile temperament, as analyzed in works examining Shaw's treatment of the artist-genius archetype and the play's critiqu"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Higgins as a brilliant but socially inept phonetician, characterized by his intellectual curiosity, professional dedication, domineering assertiveness, profound lack of empathy, and occasional temperamental outbursts.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.533,
+            "C": 0.4325,
+            "E": 0.4649,
+            "A": -0.5149,
+            "N": -0.001
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:27:02.847845+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001967
+        }
+      ]
+    },
+    {
+      "coref_id": "char_liza",
+      "character_name": "Liza",
+      "quote_count": 147,
+      "consensus_ocean": {
+        "O": 0.615768,
+        "C": 0.5789639999999999,
+        "E": 0.6245320000000001,
+        "A": 0.2776199999999999,
+        "N": 0.44912799999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5294,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.5,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.5, \"E\": 0.6, \"A\": 0.4, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Liza Doolittle is often analyzed as a character embodying significant openness and curiosity, particularly in her transformation and quest for identity, as noted in various critical discussions of Shaw's exploration of class and personal growth.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": 0.55,
+            "E": 0.7,
+            "A": 0.35,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": 0.55,\n  \"E\": 0.70,\n  \"A\": 0.35,\n  \"N\": 0.60,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Ervine, Nethercot, Gainor) emphasizes Liza's adaptive intelligence and social ambition, her emotional volatility under pressure, her initial lower agreeableness masking later moral assertiveness, and her capacity for self-reinvention despite limited formal education\u2014traits central to Shaw's critique of class mobility and female agency.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.9,
+            "E": 0.6,
+            "A": 0.3,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": 0.9,\n  \"E\": 0.6,\n  \"A\": 0.3,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus highlights Liza's remarkable openness to radical transformation, her immense discipline and conscientiousness in her training, her developing assertiveness and social confidence, her complex agreeableness tempered by a strong sense of dignity, and her significant emotional vulnerability and anxiety throughout her journey.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2706,
+            "C": 0.3963,
+            "E": 0.6019,
+            "A": 0.0915,
+            "N": 0.2326
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:48:09.669182+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002404
+        }
+      ]
+    },
+    {
+      "coref_id": "char_pickering",
+      "character_name": "Pickering",
+      "quote_count": 83,
+      "consensus_ocean": {
+        "O": 0.31064,
+        "C": 0.638984,
+        "E": 0.372164,
+        "A": 0.754552,
+        "N": -0.47062400000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.6,
+            "E": 0.4,
+            "A": 0.7,
+            "N": -0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.2, \"C\": 0.6, \"E\": 0.4, \"A\": 0.7, \"N\": -0.1, \"confidence\": \"medium\", \"rationale\": \"Critical analyses often depict Pickering as a gentleman of high moral standards and reliability, though not particularly imaginative or assertive.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.7,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": 0.7,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Pickering is consistently characterized in Shaw criticism as a gentlemanly, well-mannered foil to Higgins\u2014reliable and emotionally stable but intellectually conventional and secondary to the play's central conflicts, making him a minor character whose personality receives limited sustained critical analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.9,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.4,\n  \"C\": 0.8,\n  \"E\": 0.2,\n  \"A\": 0.9,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published literary criticism consistently portrays Pickering as the embodiment of traditional gentlemanly virtues, emphasizing his politeness, kindness, and moral integrity as a foil to Higgins's intellectual brilliance and social ineptitude, while also acknowledging his scholarly discipline and emotional stability.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.338,
+            "C": 0.5678,
+            "E": 0.3863,
+            "A": 0.7234,
+            "N": -0.4808
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:48:38.780429+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001682
+        }
+      ]
+    },
+    {
+      "coref_id": "char_doolittle",
+      "character_name": "Doolittle",
+      "quote_count": 65,
+      "consensus_ocean": {
+        "O": 0.48597999999999997,
+        "C": -0.6547799999999999,
+        "E": 0.6521279999999999,
+        "A": -0.215048,
+        "N": 0.12877199999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": 0.7,
+            "A": 0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": 0.7, \"A\": 0.3, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Doolittle is characterized by a mix of social charm and opportunism, reflecting a moderate level of openness and extraversion, while his lack of responsibility and planning suggests low conscientiousness, as noted in various analyses of Shaw's characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.7,
+            "E": 0.8,
+            "A": -0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.7,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (e.g., Ervine, Nethercot, Gainor) identifies Doolittle as a charming, socially fluent but fundamentally unreliable and amoral dustman whose opportunism, lack of principle, and resistance to respectability define his character as Shaw's critique of working-class morality and social hypocrisy.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.9,
+            "E": 0.8,
+            "A": -0.6,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.9,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently highlights Doolittle's unconventional philosophy, eloquent articulation, and initial rejection of middle-class responsibility, making him a key figure for Shaw's social critique.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2785,
+            "C": -0.5385,
+            "E": 0.3576,
+            "A": 0.0034,
+            "N": 0.4599
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:49:23.784055+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002404
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_higgins",
+      "character_name": "Mrs. Higgins",
+      "quote_count": 56,
+      "consensus_ocean": {
+        "O": 0.32412799999999997,
+        "C": 0.647832,
+        "E": 0.48931199999999997,
+        "A": 0.68656,
+        "N": -0.509576
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.7,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.5, \"E\": 0.3, \"A\": 0.7, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Mrs. Higgins is often viewed as a pragmatic and supportive character, embodying a balance of traditional values and a degree of openness to her son's endeavors, as noted in various analyses of Shaw's exploration of social class and personal relationships.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.7,
+            "A": 0.5,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": 0.5,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Mrs. Higgins emerges in critical consensus as a pragmatic, socially competent foil to her son's eccentricity\u2014sensible and well-organized rather than imaginative, emotionally stable, and moderately agreeable but not notably empathetic, as analyzed in standard Shaw criticism examining her role as voice of reason and social propriety.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.9,
+            "E": 0.7,
+            "A": 0.9,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.9,\n  \"E\": 0.7,\n  \"A\": 0.9,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Mrs. Higgins as a highly conscientious, agreeable, and emotionally stable character, serving as a rational and empathetic foil to her son, Henry, while demonstrating a moderate openness to challenging social norms.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0424,
+            "C": 0.5994,
+            "E": 0.2904,
+            "A": 0.652,
+            "N": -0.5342
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:49:57.402120+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001633
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_pearce",
+      "character_name": "Mrs. Pearce",
+      "quote_count": 50,
+      "consensus_ocean": {
+        "O": -0.42210000000000003,
+        "C": 0.789644,
+        "E": -0.056724,
+        "A": 0.5843999999999999,
+        "N": -0.34020799999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.2, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Mrs. Pearce is often viewed as a practical and disciplined character, reflecting her role as a caretaker and her reliability in managing Eliza's transformation, though she exhibits some warmth and empathy.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.8,
+            "E": -0.3,
+            "A": 0.4,
+            "N": 0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.8,\n  \"E\": -0.3,\n  \"A\": 0.4,\n  \"N\": 0.1,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Mrs. Pearce is consistently characterized in Shaw criticism as a practical, rule-bound housekeeper whose conventional propriety and domestic efficiency anchor the play's social commentary, though she remains a minor character whose psychological depth receives limited scholarly attention beyond her functional role as moral voice and household manager.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.9,
+            "E": 0.2,
+            "A": 0.7,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.9,\n  \"E\": 0.2,\n  \"A\": 0.7,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published critical analyses consistently portray Mrs. Pearce as a highly conventional, practical, and morally grounded figure who serves as a voice of reason and social conscience, contrasting with Higgins's eccentricities and lack of social awareness, demonstrating high conscientiousness, agreeableness, and emotional stability, alongside low openness to unconventionality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3075,
+            "C": 0.6773,
+            "E": -0.2883,
+            "A": 0.63,
+            "N": -0.4436
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:50:28.692142+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001667
+        }
+      ]
+    },
+    {
+      "coref_id": "char_the_flower_girl",
+      "character_name": "The Flower Girl",
+      "quote_count": 45,
+      "consensus_ocean": {
+        "O": 0.266028,
+        "C": -0.143228,
+        "E": 0.5442039999999999,
+        "A": 0.05914000000000001,
+        "N": 0.39463599999999993
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.2,
+            "E": 0.6,
+            "A": 0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.2, \"E\": 0.6, \"A\": 0.7, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Critics often highlight Eliza Doolittle's blend of curiosity and social energy, reflecting her journey from a flower girl to a more assertive individual, while also noting her emotional struggles.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.6,
+            "A": 0.2,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.4,\n  \"E\": 0.6,\n  \"A\": 0.2,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Eliza Doolittle dominates critical attention in Pygmalion scholarship (see Sos Eltis, Declan Kiberd); the Flower Girl as a distinct character appears only in Act I and receives minimal independent analysis, making robust personality assessment unreliable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.7,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": -0.7,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus, as seen in analyses by scholars like Margery M. Morgan and in collections like *Shaw: The Critical Heritage*, consistently portrays Eliza Doolittle (the titular 'Flower Girl' in her initial state) as spirited, emotionally volatile, assertive, and ambitious for change, yet lacking in formal discipline and trust.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2499,
+            "C": 0.2599,
+            "E": 0.2293,
+            "A": 0.1255,
+            "N": 0.1237
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:50:58.598256+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001794
+        }
+      ]
+    },
+    {
+      "coref_id": "char_the_note_taker",
+      "character_name": "The Note Taker",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": 0.23173199999999997,
+        "C": 0.19482799999999997,
+        "E": 0.138624,
+        "A": -0.140936,
+        "N": -0.01932
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7419,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The Note Taker is a minor character in 'Pygmalion' and has not been the subject of significant critical analysis, leading to a lack of consensus on personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.0,
+            "E": 0.0,
+            "A": -0.3,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": -0.3,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Note Taker is a minor, functionally anonymous character in Act I whose sole purpose is to establish Higgins's phonetic expertise; published Pygmalion criticism (e.g., Ervine, Crompton, Innes) focuses on Higgins, Eliza, and Pickering, leaving this peripheral figure without meaningful scholarly characterization.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.1,
+            "E": -0.1,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.1,\n  \"E\": -0.1,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of 'Pygmalion' does not offer meaningful analysis of The Note Taker's personality, focusing instead on his functional role as a silent observer in the opening scene.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7419,
+            "C": 0.6101,
+            "E": 0.5808,
+            "A": -0.2462,
+            "N": -0.069
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:51:36.407632+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001232
+        }
+      ]
+    },
+    {
+      "coref_id": "char_freddy",
+      "character_name": "Freddy",
+      "quote_count": 22,
+      "consensus_ocean": {
+        "O": -0.043955999999999995,
+        "C": -0.37751999999999997,
+        "E": 0.25429599999999997,
+        "A": 0.45889199999999997,
+        "N": 0.29359599999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.4, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Freddy is often viewed as a charming but somewhat ineffectual character, embodying a mix of social energy and a lack of direction, as noted in various analyses of Shaw's exploration of class and identity.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.4,
+            "E": 0.6,
+            "A": 0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.4,\n  \"E\": 0.6,\n  \"A\": 0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Freddy is a minor character in Pygmalion whose personality receives minimal sustained critical attention in major scholarly works; he functions primarily as a romantic foil and social type rather than a psychologically complex subject of analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.9,
+            "E": -0.6,
+            "A": 0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.9,\n  \"E\": -0.6,\n  \"A\": 0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently depicts Freddy as an amiable but ineffectual and unassertive young man, lacking ambition, intellectual curiosity, and discipline, who serves primarily as a passive suitor for Eliza.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2427,
+            "C": -0.234,
+            "E": 0.3082,
+            "A": 0.4389,
+            "N": 0.1057
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:52:18.914864+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001028
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_eynsford_hill",
+      "character_name": "Mrs. Eynsford Hill",
+      "quote_count": 22,
+      "consensus_ocean": {
+        "O": -0.346164,
+        "C": 0.11695199999999999,
+        "E": 0.22252799999999998,
+        "A": 0.15621199999999996,
+        "N": 0.10173999999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1034,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Mrs. Eynsford Hill is often viewed as a character representing the middle class's concerns and aspirations, reflecting a moderate balance of traits without strong extremes, as noted in various analyses of Shaw's social commentary.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.6,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.6,\n  \"E\": 0.5,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Mrs. Eynsford Hill is a minor character whose personality receives limited sustained analysis in major Shaw criticism; she is typically read as a conventional, socially anxious widow representing middle-class pretension rather than as a psychologically complex subject warranting detailed trait assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism on 'Pygmalion' primarily focuses on major characters like Eliza, Higgins, and Mrs. Higgins, or on Shaw's social commentary, and does not offer meaningful, in-depth analysis of Mrs. Eynsford Hill's individual personality traits beyond her function as a representative of a specific social class.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.6363,
+            "C": 0.5034,
+            "E": -0.0624,
+            "A": 0.5579,
+            "N": 0.0205
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:53:00.507786+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000967
+        }
+      ]
+    }
+  ]
+}

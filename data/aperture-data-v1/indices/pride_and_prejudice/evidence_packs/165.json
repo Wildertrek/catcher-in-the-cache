@@ -1,0 +1,191 @@
+{
+  "coref_id": "165",
+  "character_name": "Maria",
+  "quote_count": 6,
+  "mention_count": 35,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "103",
+      2
+    ],
+    [
+      "107",
+      1
+    ],
+    [
+      "130",
+      1
+    ],
+    [
+      "137",
+      1
+    ],
+    [
+      "1797",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c La ! my dear , \u201d",
+      "mention_text": "Maria",
+      "quote_start": 65871,
+      "quote_end": 65877,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And is this all ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I expected at least that the pigs were got into the garden , and here is nothing but Lady Catherine and her daughter ! \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c it is not Lady Catherine . The old lady is Mrs. Jenkinson , who lives with them . The other is Miss De Bourgh . Only look at her . She is quite a little creature . Who would have thought she could be so thin and small ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She is abominably rude to keep Charlotte out of doors in all this wind . Why does she not come in ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it is not Lady Catherine . The old lady is Mrs. Jenkinson , who lives with them . The other is Miss De Bourgh . Only look at her . She is quite a little creature . Who would have thought she could be so thin and small ! \u201d",
+      "mention_text": "Maria",
+      "quote_start": 65887,
+      "quote_end": 65937,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I expected at least that the pigs were got into the garden , and here is nothing but Lady Catherine and her daughter ! \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c La ! my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She is abominably rude to keep Charlotte out of doors in all this wind . Why does she not come in ? \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c Oh , Charlotte says she hardly ever does . It is the greatest of favours when Miss De Bourgh comes in . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , Charlotte says she hardly ever does . It is the greatest of favours when Miss De Bourgh comes in . \u201d",
+      "mention_text": "Maria",
+      "quote_start": 65962,
+      "quote_end": 65985,
+      "addressee_coref_id": "137",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c it is not Lady Catherine . The old lady is Mrs. Jenkinson , who lives with them . The other is Miss De Bourgh . Only look at her . She is quite a little creature . Who would have thought she could be so thin and small ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She is abominably rude to keep Charlotte out of doors in all this wind . Why does she not come in ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I like her appearance , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c She looks sickly and cross . Yes , she will do for him very well . She will make him a very proper wife . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Good gracious ! \u201d",
+      "mention_text": "Maria",
+      "quote_start": 87126,
+      "quote_end": 87130,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c But , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c you will of course wish to have your humble respects delivered to them , with your grateful thanks for their kindness to you while you have been here . \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c it seems but a day or two since we first came ! and yet how many things have happened ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1797",
+          "quote_text": "\u201c A great many indeed , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it seems but a day or two since we first came ! and yet how many things have happened ! \u201d",
+      "mention_text": "Maria",
+      "quote_start": 87141,
+      "quote_end": 87162,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c you will of course wish to have your humble respects delivered to them , with your grateful thanks for their kindness to you while you have been here . \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c Good gracious ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1797",
+          "quote_text": "\u201c A great many indeed , \u201d"
+        },
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c We have dined nine times at Rosings , besides drinking tea there twice ! How much I shall have to tell ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c We have dined nine times at Rosings , besides drinking tea there twice ! How much I shall have to tell ! \u201d",
+      "mention_text": "Maria",
+      "quote_start": 87178,
+      "quote_end": 87201,
+      "addressee_coref_id": "1797",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "165",
+          "quote_text": "\u201c it seems but a day or two since we first came ! and yet how many things have happened ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1797",
+          "quote_text": "\u201c A great many indeed , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And how much I shall have to conceal ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How nicely we are crammed in \u201d"
+        }
+      ]
+    }
+  ]
+}

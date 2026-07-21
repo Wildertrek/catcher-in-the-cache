@@ -1,0 +1,295 @@
+{
+  "coref_id": "249",
+  "character_name": "Mrs. Reynolds",
+  "quote_count": 10,
+  "mention_count": 27,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "1358",
+      3
+    ],
+    [
+      "107",
+      3
+    ],
+    [
+      "216",
+      2
+    ],
+    [
+      "127",
+      1
+    ],
+    [
+      "106",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c And that , \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97219,
+      "quote_end": 97223,
+      "addressee_coref_id": "1358",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c He is now gone into the army , \u201d"
+        },
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c but I am afraid he has turned out very wild . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c is my master -- and very like him . It was drawn at the same time as the other -- about eight years ago . \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c I have heard much of your master \u2019s fine person , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c is my master -- and very like him . It was drawn at the same time as the other -- about eight years ago . \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97235,
+      "quote_end": 97261,
+      "addressee_coref_id": "1358",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c but I am afraid he has turned out very wild . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c And that , \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c I have heard much of your master \u2019s fine person , \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c it is a handsome face . But , Lizzy , you can tell us whether it is like or not . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Does that young lady know Mr. Darcy ? \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97325,
+      "quote_end": 97334,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c I have heard much of your master \u2019s fine person , \u201d"
+        },
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c it is a handsome face . But , Lizzy , you can tell us whether it is like or not . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c A little . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And do not you think him a very handsome gentleman , ma\u2019am ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , yes -- the handsomest young lady that ever was seen ; and so accomplished ! She plays and sings all day long . In the next room is a new instrument just come down for her -- a present from my master : she comes here to - morrow with him . \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97477,
+      "quote_end": 97532,
+      "addressee_coref_id": "216",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I am sure _ I _ know none so handsome ; but in the gallery upstairs you will see a finer , larger picture of him than this . This room was my late master \u2019s favourite room , and these miniatures are just as they used to be then . He was very fond of them . \u201d"
+        },
+        {
+          "speaker_coref_id": "216",
+          "quote_text": "\u201c And is Miss Darcy as handsome as her brother ? \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Is your master much at Pemberley in the course of the year ? \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Not so much as I could wish , sir : but I dare say he may spend half his time here ; and Miss Darcy is always down for the summer months . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Is your master much at Pemberley in the course of the year ? \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97574,
+      "quote_end": 97588,
+      "addressee_coref_id": "216",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "216",
+          "quote_text": "\u201c And is Miss Darcy as handsome as her brother ? \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Oh , yes -- the handsomest young lady that ever was seen ; and so accomplished ! She plays and sings all day long . In the next room is a new instrument just come down for her -- a present from my master : she comes here to - morrow with him . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Not so much as I could wish , sir : but I dare say he may spend half his time here ; and Miss Darcy is always down for the summer months . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Except , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Not so much as I could wish , sir : but I dare say he may spend half his time here ; and Miss Darcy is always down for the summer months . \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97589,
+      "quote_end": 97623,
+      "addressee_coref_id": "106",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Oh , yes -- the handsomest young lady that ever was seen ; and so accomplished ! She plays and sings all day long . In the next room is a new instrument just come down for her -- a present from my master : she comes here to - morrow with him . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c Is your master much at Pemberley in the course of the year ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Except , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c when she goes to Ramsgate . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If your master would marry , you might see more of him . \u201d",
+      "mention_text": "Mrs. Reynolds",
+      "quote_start": 97639,
+      "quote_end": 97653,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Except , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c when she goes to Ramsgate . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , sir ; but I do not know when _ that _ will be . I do not know who is good enough for him . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It is very much to his credit , I am sure , that you should think so . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He is the best landlord , and the best master , \u201d",
+      "mention_text": "she",
+      "quote_start": 98081,
+      "quote_end": 98093,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c His father was an excellent man , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , ma\u2019am , that he was indeed ; and his son will be just like him -- just as affable to the poor . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c that ever lived . Not like the wild young men now - a - days , who think of nothing but themselves . There is not one of his tenants or servants but what will give him a good name . Some people call him proud ; but I am sure I never saw anything of it . To my fancy , it is only because he does not rattle away like other young men . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c In what an amiable light does this place him ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that ever lived . Not like the wild young men now - a - days , who think of nothing but themselves . There is not one of his tenants or servants but what will give him a good name . Some people call him proud ; but I am sure I never saw anything of it . To my fancy , it is only because he does not rattle away like other young men . \u201d",
+      "mention_text": "she",
+      "quote_start": 98097,
+      "quote_end": 98174,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , ma\u2019am , that he was indeed ; and his son will be just like him -- just as affable to the poor . \u201d"
+        },
+        {
+          "speaker_coref_id": "249",
+          "quote_text": "\u201c He is the best landlord , and the best master , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c In what an amiable light does this place him ! \u201d"
+        },
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c This fine account of him , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Perhaps we might be deceived . \u201d",
+      "mention_text": "she",
+      "quote_start": 98219,
+      "quote_end": 98226,
+      "addressee_coref_id": "1358",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c This fine account of him , \u201d"
+        },
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c is not quite consistent with his behaviour to our poor friend . \u201d"
+        },
+        {
+          "speaker_coref_id": "1358",
+          "quote_text": "\u201c That is not very likely ; our authority was too good . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c He is certainly a good brother , \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1427 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "0",
+      "character_name": "David Copperfield",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6027333333333335,
+        "C": 0.22426666666666667,
+        "E": 0.4265,
+        "A": 0.5152666666666667,
+        "N": 0.20430000000000006
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0641,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.656,
+            "C": 0.213,
+            "E": 0.4,
+            "A": 0.441,
+            "N": 0.559
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Bogachevska2019_TYPOLOGICAL_FEATURES_ARTISTIC_EMBODIMENT.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chyk2021_Ideas_Dangerous_Education_Modification.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Gonz\u00e1lez2013_Unreliable_Reader_Reading_Art.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Yu2023_Personality_Understanding_Fictional_Characters.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "stockwell-mahlberg-2015-mind-modelling-with-corpus-stylistics-in-david-copperfield.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.656,
+              "confidence_interval": [
+                0.491,
+                0.82
+              ],
+              "n_sources": 5,
+              "std_dev": 0.084
+            },
+            "C": {
+              "score": 0.213,
+              "confidence_interval": [
+                -0.639,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.435
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.441,
+              "confidence_interval": [
+                0.211,
+                0.67
+              ],
+              "n_sources": 7,
+              "std_dev": 0.117
+            },
+            "N": {
+              "score": 0.559,
+              "confidence_interval": [
+                0.333,
+                0.785
+              ],
+              "n_sources": 7,
+              "std_dev": 0.115
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4962,
+            "C": 0.2468,
+            "E": 0.4795,
+            "A": 0.6638,
+            "N": -0.5051
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:56:56.168710+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000998
+        }
+      ]
+    },
+    {
+      "coref_id": "255",
+      "character_name": "Mr. Murdstone",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.5701058823529411,
+        "C": 0.7214,
+        "E": -0.0068823529411764315,
+        "A": -0.8290941176470588,
+        "N": -0.3963294117647058
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.84,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.65,
+            "E": 0.339,
+            "A": -0.816,
+            "N": -0.2
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Bogachevska2019_TYPOLOGICAL_FEATURES_ARTISTIC_EMBODIMENT.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ucur2014mitchell.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.552,
+                0.748
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": 0.339,
+              "confidence_interval": [
+                -0.462,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.409
+            },
+            "A": {
+              "score": -0.816,
+              "confidence_interval": [
+                -0.931,
+                -0.702
+              ],
+              "n_sources": 7,
+              "std_dev": 0.058
+            },
+            "N": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.5,
+                0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5274,
+            "C": 0.8234,
+            "E": -0.501,
+            "A": -0.8478,
+            "N": -0.6768
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:57:45.020336+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001355
+        }
+      ]
+    },
+    {
+      "coref_id": "244",
+      "character_name": "Peggotty",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1284,
+        "C": 0.6223,
+        "E": 0.3659,
+        "A": 0.734735294117647,
+        "N": -0.1878
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1887,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.7,
+            "A": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1284,
+            "C": 0.5113,
+            "E": 0.3659,
+            "A": 0.6415,
+            "N": -0.1878
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:58:26.651171+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001281
+        }
+      ]
+    },
+    {
+      "coref_id": "440",
+      "character_name": "Ham Peggotty",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.07940000000000001,
+        "C": 0.34080000000000005,
+        "E": -0.1397666666666667,
+        "A": -0.42413333333333336,
+        "N": 0.5956666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1276,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.5,
+            "E": -0.328,
+            "A": -0.8,
+            "N": 0.864
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Osi\u0144ska2019_Then_Thickest_Dark_did.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Saoudi2021_Love_Charles_Dickenss_Great.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.2,
+              "confidence_interval": [
+                -0.388,
+                0.788
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.328,
+              "confidence_interval": [
+                -1.0,
+                0.577
+              ],
+              "n_sources": 3,
+              "std_dev": 0.462
+            },
+            "A": {
+              "score": -0.8,
+              "confidence_interval": [
+                -0.8,
+                -0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.864,
+              "confidence_interval": [
+                0.712,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.077
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1618,
+            "C": 0.0224,
+            "E": 0.2367,
+            "A": 0.3276,
+            "N": 0.059
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:58:58.522060+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001663
+        }
+      ]
+    },
+    {
+      "coref_id": "230",
+      "character_name": "Mr. Micawber",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4990117647058823,
+        "C": -0.6645470588235294,
+        "E": 0.5653294117647059,
+        "A": 0.6322411764705883,
+        "N": -0.2583529411764706
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.344,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.756,
+            "E": 0.6,
+            "A": 0.656,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.756,
+              "confidence_interval": [
+                -0.853,
+                -0.659
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.656,
+              "confidence_interval": [
+                0.559,
+                0.753
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4976,
+            "C": -0.5339,
+            "E": 0.5158,
+            "A": 0.5983,
+            "N": -0.056
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:59:30.131286+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001516
+        }
+      ]
+    },
+    {
+      "coref_id": "238",
+      "character_name": "Betsey Trotwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5206411764705882,
+        "C": 0.6700117647058823,
+        "E": 0.31914117647058826,
+        "A": 0.5186176470588235,
+        "N": -0.1454235294117647
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4746,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.613,
+            "C": 0.713,
+            "E": 0.268,
+            "A": 0.609,
+            "N": 0.05
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Lorenzer2023_Portrayal_Children_Dickens_Novels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.613,
+              "confidence_interval": [
+                0.346,
+                0.88
+              ],
+              "n_sources": 2,
+              "std_dev": 0.136
+            },
+            "C": {
+              "score": 0.713,
+              "confidence_interval": [
+                0.518,
+                0.907
+              ],
+              "n_sources": 2,
+              "std_dev": 0.099
+            },
+            "E": {
+              "score": 0.268,
+              "confidence_interval": [
+                -0.444,
+                0.979
+              ],
+              "n_sources": 2,
+              "std_dev": 0.363
+            },
+            "A": {
+              "score": 0.609,
+              "confidence_interval": [
+                0.358,
+                0.861
+              ],
+              "n_sources": 4,
+              "std_dev": 0.128
+            },
+            "N": {
+              "score": 0.05,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.55
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3887,
+            "C": 0.6086,
+            "E": 0.3922,
+            "A": 0.3895,
+            "N": -0.4246
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:00:09.757222+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001245
+        }
+      ]
+    },
+    {
+      "coref_id": "424",
+      "character_name": "Agnes Wickfield",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2512,
+        "C": 0.6460764705882354,
+        "E": -0.1993,
+        "A": 0.7598941176470588,
+        "N": -0.5493823529411765
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0974,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.656,
+            "A": 0.8,
+            "N": -0.55
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.656,
+              "confidence_interval": [
+                0.559,
+                0.753
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.8,
+                0.8
+              ],
+              "n_sources": 3,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": -0.55,
+              "confidence_interval": [
+                -0.648,
+                -0.452
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2512,
+            "C": 0.6319,
+            "E": -0.1993,
+            "A": 0.7026,
+            "N": -0.5485
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:00:48.316084+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000854
+        }
+      ]
+    },
+    {
+      "coref_id": "232",
+      "character_name": "Dora Spenlow",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.3502,
+        "C": -0.5066529411764706,
+        "E": 0.3475,
+        "A": 0.45752941176470585,
+        "N": 0.31167647058823533
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.346,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.6,
+            "A": 0.6,
+            "N": 0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.6,
+                -0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3502,
+            "C": -0.3733,
+            "E": 0.3475,
+            "A": 0.254,
+            "N": 0.1855
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:01:23.937239+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001345
+        }
+      ]
+    },
+    {
+      "coref_id": "475",
+      "character_name": "Steerforth",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3015058823529412,
+        "C": -0.02862941176470588,
+        "E": 0.5682117647058824,
+        "A": -0.5281941176470588,
+        "N": -0.46611176470588234
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5091,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.181,
+            "E": 0.544,
+            "A": -0.632,
+            "N": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Bogachevska2019_TYPOLOGICAL_FEATURES_ARTISTIC_EMBODIMENT.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                0.1,
+                0.7
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.181,
+              "confidence_interval": [
+                -0.798,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.499
+            },
+            "E": {
+              "score": 0.544,
+              "confidence_interval": [
+                0.447,
+                0.641
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "A": {
+              "score": -0.632,
+              "confidence_interval": [
+                -1.0,
+                -0.2
+              ],
+              "n_sources": 4,
+              "std_dev": 0.22
+            },
+            "N": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1608,
+            "C": -0.3281,
+            "E": 0.6028,
+            "A": -0.3799,
+            "N": -0.4177
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:02:07.061644+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001285
+        }
+      ]
+    },
+    {
+      "coref_id": "229",
+      "character_name": "Tommy Traddles",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.44138235294117645,
+        "C": 0.738935294117647,
+        "E": -0.16432941176470592,
+        "A": 0.7292352941176471,
+        "N": -0.38136470588235294
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8152,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.8,
+            "E": -0.5,
+            "A": 0.812,
+            "N": -0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2024_Description_FictionWriting_Mode_Between.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.7,
+                -0.1
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "C": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.812,
+              "confidence_interval": [
+                0.618,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.099
+            },
+            "N": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.888,
+                0.288
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5005,
+            "C": 0.6517,
+            "E": 0.3152,
+            "A": 0.611,
+            "N": -0.4976
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:02:36.189877+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001626
+        }
+      ]
+    },
+    {
+      "coref_id": "281",
+      "character_name": "Little Em'ly",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.22290000000000004,
+        "C": -0.4948117647058824,
+        "E": -0.1767,
+        "A": 0.0289,
+        "N": 0.6803764705882352
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4301,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "C": -0.5,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Huang2016_Charles_Dickens_Critical_Realism.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "project_muse_947503.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0301,
+            "C": -0.4874,
+            "E": -0.1767,
+            "A": 0.0289,
+            "N": 0.7952
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:03:15.499090+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001186
+        }
+      ]
+    },
+    {
+      "coref_id": "422",
+      "character_name": "Uriah Heep",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2565,
+        "C": 0.0924235294117647,
+        "E": -0.35697058823529415,
+        "A": -0.30507058823529415,
+        "N": -0.5226
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3234,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.25,
+            "E": -0.4,
+            "A": -0.85
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "project_muse_686843.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ucur2014mitchell.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.25,
+              "confidence_interval": [
+                -1.0,
+                0.828
+              ],
+              "n_sources": 2,
+              "std_dev": 0.55
+            },
+            "E": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.85,
+              "confidence_interval": [
+                -0.948,
+                -0.752
+              ],
+              "n_sources": 2,
+              "std_dev": 0.05
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2565,
+            "C": 0.5816,
+            "E": -0.2955,
+            "A": 0.4734,
+            "N": -0.5226
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:03:43.634907+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001256
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

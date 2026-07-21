@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "King John",
+    "author": "William Shakespeare",
+    "year": "c. 1596"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_king_john",
+      "character_name": "King John",
+      "quote_count": 97,
+      "consensus_ocean": {
+        "O": -0.405516,
+        "C": -0.53698,
+        "E": 0.099692,
+        "A": -0.706724,
+        "N": 0.696868
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": -0.5,
+            "E": 0.0,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": -0.5, \"E\": 0.0, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight King John's manipulative and often self-serving nature, indicating low conscientiousness and agreeableness, while his emotional volatility suggests higher neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.7,
+            "E": 0.5,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.7,\n  \"E\": 0.5,\n  \"A\": -0.8,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, modern Shakespearean scholarship) portrays John as impulsive and emotionally unstable, lacking strategic foresight and moral principle, yet capable of forceful assertion; his weakness, vacillation, and paranoia dominate interpretations of his character as fundamentally unfit for kingship.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.8,
+            "E": -0.2,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.8,\n  \"E\": -0.2,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays King John as a weak, vacillating, and morally compromised ruler, driven by fear and ambition, and plagued by anxiety and guilt, highlighting his unreliability, cruelty, and emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4197,
+            "C": -0.2035,
+            "E": 0.0989,
+            "A": -0.6383,
+            "N": 0.6031
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:29:25.670109+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003084
+        }
+      ]
+    },
+    {
+      "coref_id": "char_bastard",
+      "character_name": "Bastard",
+      "quote_count": 89,
+      "consensus_ocean": {
+        "O": 0.688828,
+        "C": 0.14668399999999998,
+        "E": 0.770796,
+        "A": -0.34828,
+        "N": -0.200344
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.2,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.2, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom note that Bastard exhibits a blend of social assertiveness and opportunism, reflecting a complex personality that is both engaging and self-serving.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.3,
+            "E": 0.8,
+            "A": -0.6,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.3,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"The Bastard (Philip Faulconbridge) is widely read in criticism as a witty, energetic opportunist with sharp satirical imagination and low agreeableness; scholarly consensus emphasizes his pragmatic amorality, verbal brilliance, and social mobility rather than emotional instability, though he lacks the conscientiousness of a reliable planner.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.8,
+            "E": 0.9,
+            "A": -0.7,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.8,\n  \"E\": 0.9,\n  \"A\": -0.7,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights the Bastard's unconventional wit, pragmatic effectiveness, assertive presence, cynical worldview, and emotional stability, making him a central figure in *King John*.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6601,
+            "C": 0.0953,
+            "E": 0.6957,
+            "A": -0.301,
+            "N": -0.6298
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:30:01.393616+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003368
+        }
+      ]
+    },
+    {
+      "coref_id": "char_hubert_de_burgh",
+      "character_name": "Hubert De Burgh",
+      "quote_count": 52,
+      "consensus_ocean": {
+        "O": -0.235784,
+        "C": 0.649592,
+        "E": -0.12558799999999998,
+        "A": 0.295316,
+        "N": 0.185028
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.6,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Hubert De Burgh is often viewed as a pragmatic and loyal character, reflecting a moderate level of conscientiousness and agreeableness, but lacks significant depth in published analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.4,
+            "A": -0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": -0.7,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Hubert emerges in critical consensus as a pragmatic, duty-bound functionary whose moral compromise in the Arthur murder plot\u2014and subsequent crisis of conscience\u2014reveals low agreeableness and conflicted emotional stability, though he remains organizationally competent rather than imaginative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.6,
+            "A": 0.9,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.6,\n  \"A\": 0.9,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently emphasizes Hubert's profound empathy and moral struggle in defying King John's cruel command, while also acknowledging his underlying loyalty and dutiful nature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3278,
+            "C": 0.6914,
+            "E": -0.2771,
+            "A": 0.4547,
+            "N": -0.0249
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:30:39.197680+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001544
+        }
+      ]
+    },
+    {
+      "coref_id": "char_king_philip_ii",
+      "character_name": "King Philip Ii",
+      "quote_count": 44,
+      "consensus_ocean": {
+        "O": -0.161768,
+        "C": 0.40620399999999995,
+        "E": 0.24242,
+        "A": -0.060248,
+        "N": 0.10240400000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9057,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.0, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"King Philip II is often portrayed as a character who exhibits a mix of reliability and emotional volatility, but he does not stand out significantly in the critical literature, leading to a moderate assessment of his traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": 0.6,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": 0.6,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Honigmann's Arden edition) portrays Philip as a pragmatic, calculating political operator driven by dynastic ambition rather than principle, with limited imaginative vision but considerable diplomatic assertiveness and manipulative cunning, though he remains a secondary figure whose psychology receives less sustained analysis than protagonists like Jo"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism on 'King John' primarily focuses on King John, Faulconbridge, and thematic elements, offering little in-depth psychological analysis of King Philip II beyond his functional role as a politically pragmatic monarch influenced by the Church, thus precluding a confident Big Five assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3206,
+            "C": 0.6793,
+            "E": 0.3515,
+            "A": 0.2134,
+            "N": -0.4057
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:31:06.772219+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001842
+        }
+      ]
+    },
+    {
+      "coref_id": "char_earl_of_salisbury",
+      "character_name": "Earl Of Salisbury",
+      "quote_count": 37,
+      "consensus_ocean": {
+        "O": -0.07811599999999999,
+        "C": 0.5308879999999999,
+        "E": 0.195844,
+        "A": 0.250624,
+        "N": 0.052668000000000006
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9353,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"Earl of Salisbury is often viewed as a loyal and pragmatic character, reflecting a moderate level of conscientiousness and agreeableness, but he does not exhibit strong traits in openness, extraversion, or neuroticism according to critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.4,
+            "E": 0.5,
+            "A": -0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.4,\n  \"E\": 0.5,\n  \"A\": -0.3,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Earl of Salisbury is a minor political figure in King John whose personality receives minimal sustained critical attention in major Shakespearean scholarship; most analysis focuses on the play's central conflicts between John, Constance, and the Bastard rather than peripheral nobles.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.7,
+            "E": 0.5,
+            "A": 0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": 0.4,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism generally views Salisbury as a principled, assertive, and emotionally reactive nobleman whose actions reflect the English aristocracy's shifting loyalties based on justice and national interest rather than personal ambition.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2353,
+            "C": 0.5246,
+            "E": -0.1577,
+            "A": 0.3808,
+            "N": -0.4119
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:31:54.806794+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001745
+        }
+      ]
+    },
+    {
+      "coref_id": "char_constance",
+      "character_name": "Constance",
+      "quote_count": 36,
+      "consensus_ocean": {
+        "O": 0.08609599999999999,
+        "C": -0.34485200000000005,
+        "E": 0.408028,
+        "A": -0.46372800000000003,
+        "N": 0.834892
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.3,
+            "A": -0.2,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.3, \"A\": -0.2, \"N\": 0.7, \"confidence\": \"medium\", \"rationale\": \"Constance is often portrayed as passionate and emotionally charged, reflecting a blend of openness and neuroticism, as noted in various analyses of her character's intense maternal instincts and tragic circumstances.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.3,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.3,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Constance is characterized in critical tradition (e.g., Tillyard, Reese) as emotionally volatile and maternally fierce rather than imaginative; she is assertive and vocal but fundamentally uncompromising and hostile to negotiation, with little restraint or planning beyond maternal rage.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 1.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.5,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 1.0,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Constance's overwhelming grief, rage, and defiance, indicating high neuroticism and low agreeableness, alongside her assertive, emotionally expressive nature and lack of practical planning or intellectual curiosity.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3932,
+            "C": -0.5459,
+            "E": 0.0001,
+            "A": -0.0276,
+            "N": 0.8389
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:32:24.516858+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002157
+        }
+      ]
+    },
+    {
+      "coref_id": "char_louis",
+      "character_name": "Louis",
+      "quote_count": 29,
+      "consensus_ocean": {
+        "O": 0.11669599999999998,
+        "C": 0.07720800000000001,
+        "E": 0.42651199999999995,
+        "A": -0.15156399999999998,
+        "N": 0.225468
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1882,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.3,
+            "A": 0.2,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.3, \"A\": 0.2, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Louis is portrayed as ambitious and somewhat idealistic, reflecting a moderate level of openness and neuroticism, but lacks the depth of character analysis found in more prominent figures in Shakespeare's works.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.5,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"low\",\n  \"rationale\": \"Louis of France is a minor character appearing only in Act 5; published criticism (including Bloom and Frye's general Shakespearean analyses) offers limited sustained characterization, making confident personality assessment difficult.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.1,
+            "C": 0.1,
+            "E": 0.1,
+            "A": -0.1,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.1,\n  \"C\": 0.1,\n  \"E\": 0.1,\n  \"A\": -0.1,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published criticism primarily focuses on Louis's political role and ambition as an antagonist in the play, rather than offering a deep psychological analysis of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5882,
+            "C": 0.6186,
+            "E": 0.5804,
+            "A": 0.0587,
+            "N": -0.0519
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:32:56.611466+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001583
+        }
+      ]
+    },
+    {
+      "coref_id": "char_arthur",
+      "character_name": "Arthur",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": 0.012791999999999998,
+        "C": -0.24876799999999996,
+        "E": -0.292636,
+        "A": 0.32804399999999995,
+        "N": 0.5364479999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -0.5,
+            "A": 0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -0.5, \"A\": 0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Arthur is often portrayed as a victim of circumstance, exhibiting a mix of vulnerability and resilience, which has led to interpretations of his character as embodying both innocence and the tragic consequences of political machinations.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": -0.3,
+            "E": 0.2,
+            "A": -0.6,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": -0.3,\n  \"E\": 0.2,\n  \"A\": -0.6,\n  \"N\": 0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, modern scholarship) portrays Arthur as a passive, emotionally vulnerable child-prince whose innocence and weakness contrast sharply with the play's ruthless political machinations, marked by low agreeableness due to his victimization and high neuroticism from his precarious position.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": -0.8,
+            "E": -0.6,
+            "A": 0.7,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": -0.8,\n  \"E\": -0.6,\n  \"A\": 0.7,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Arthur as an innocent and vulnerable child, whose high agreeableness and intense neuroticism (fear, anxiety) are central to his character, while displaying low conscientiousness and extraversion, and limited openness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1314,
+            "C": 0.0544,
+            "E": -0.2737,
+            "A": 0.6573,
+            "N": 0.2016
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:33:48.740335+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001283
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cardinal_pandulph",
+      "character_name": "Cardinal Pandulph",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": -0.39079600000000003,
+        "C": 0.7292080000000001,
+        "E": 0.47004,
+        "A": -0.418124,
+        "N": -0.216784
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.2,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.2, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Cardinal Pandulph is often viewed as a pragmatic and politically astute character, reflecting a balance of traits rather than extremes, as noted in various analyses of the play's political themes.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Pandulph emerges in critical consensus as a rigid ecclesiastical functionary\u2014conventional in doctrine, highly organized in pursuing papal interests, and notably lacking in empathy or moral flexibility, though scholarship on this minor character remains sparse compared to major Shakespearean figures.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.9,
+            "E": 0.6,
+            "A": -0.8,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.9,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Cardinal Pandulph as a cold, calculating, and highly disciplined representative of papal power, whose strategic assertiveness and lack of personal empathy drive the play's political conflicts.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1957,
+            "C": 0.7186,
+            "E": 0.393,
+            "A": -0.2933,
+            "N": -0.6028
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:34:24.570333+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001669
+        }
+      ]
+    },
+    {
+      "coref_id": "char_queen_eleanor",
+      "character_name": "Queen Eleanor",
+      "quote_count": 22,
+      "consensus_ocean": {
+        "O": 0.181596,
+        "C": 0.69664,
+        "E": 0.5631799999999999,
+        "A": -0.276992,
+        "N": 0.22006
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.7,
+            "E": 0.4,
+            "A": 0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.7, \"E\": 0.4, \"A\": 0.3, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Critics like A.C. Bradley note Eleanor's strong will and political acumen, suggesting a blend of conscientiousness and moderate openness, while her assertiveness and emotional stability are less pronounced.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Eleanor is characterized in critical consensus as a pragmatic, politically shrewd matriarch who exercises maternal authority and dynastic ambition with limited emotional warmth; scholars note her conventional medieval queenly role and instrumental rather than imaginative engagement with power.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.8,
+            "E": 0.7,
+            "A": -0.9,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": -0.9,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critics consistently portray Queen Eleanor as a formidable, shrewd, and ruthless political strategist, fiercely loyal to her son's claim, and lacking in empathy for her adversaries, often highlighted in discussions of the play's power dynamics and character foils.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3057,
+            "C": 0.688,
+            "E": 0.4685,
+            "A": -0.0464,
+            "N": 0.0145
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T14:35:08.908137+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000992
+        }
+      ]
+    }
+  ]
+}

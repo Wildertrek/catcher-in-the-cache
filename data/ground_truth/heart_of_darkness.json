@@ -1,0 +1,846 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T20:27:39Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": "1899"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "0",
+      "character_name": "Marlow",
+      "quote_count": 164,
+      "consensus_ocean": {
+        "O": 0.7579631578947368,
+        "C": 0.4481894736842105,
+        "E": -0.2137842105263158,
+        "A": -0.13894210526315792,
+        "N": 0.24890526315789474
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3244,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.3,
+            "E": 0.2,
+            "A": -0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.3,\n  \"E\": 0.2,\n  \"A\": -0.3,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Achebe, Said, Guerard, Watt) emphasizes Marlow's imaginative fascination with the unknown and moral ambiguity, his unreliability as narrator and lack of disciplined judgment, his introspective isolation, his complicity in colonial violence despite professed ethical concerns, and his psychological disturbance by encounters with Kurtz and the abyss of human nature.\"\n}\n"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.5,
+            "E": -0.7,
+            "A": -0.6,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.5,\n  \"E\": -0.7,\n  \"A\": -0.6,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Marlow's profound introspection and imaginative engagement with the 'heart of darkness,' leading to significant psychological distress, a critical detachment from society, and a professional conscientiousness in his duties.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6859,
+            "C": 0.5308,
+            "E": -0.1517,
+            "A": 0.3943,
+            "N": -0.5244
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T20:26:10.506138+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001228
+        }
+      ]
+    },
+    {
+      "coref_id": "54",
+      "character_name": "Kurtz",
+      "quote_count": 73,
+      "consensus_ocean": {
+        "O": 0.803492,
+        "C": -0.386444,
+        "E": 0.24041600000000002,
+        "A": -0.8319600000000001,
+        "N": 0.570632
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": -0.7,
+            "A": -0.9,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.5, \"E\": -0.7, \"A\": -0.9, \"N\": 0.6, \"confidence\": \"high\", \"rationale\": \"Kurtz is often analyzed as a complex character embodying high openness due to his radical ideas and visions, while his low conscientiousness, extraversion, and agreeableness reflect his moral decay and isolation in the wilderness, as noted in various critical interpretations of Conrad's work.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.85,
+            "C": -0.75,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.85,\n  \"C\": -0.75,\n  \"E\": 0.80,\n  \"A\": -0.90,\n  \"N\": 0.75,\n  \"confidence\": \"high\",\n  \"rationale\": \"Scholarly consensus (Achebe, Said, Watts, Brantlinger) identifies Kurtz as a charismatic visionary of radical imagination and godlike magnetism who abandons all moral restraint and social obligation, exhibiting profound emotional instability and pathological narcissism masked by eloquence and artistic pretension.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.9,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.9,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published literary criticism consistently depicts Kurtz as possessing radical Openness and assertive Extraversion, yet profoundly lacking in Conscientiousness and Agreeableness, ultimately succumbing to extreme Neuroticism as a symbol of colonial depravity and psychological collapse.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6839,
+            "C": 0.4627,
+            "E": 0.0872,
+            "A": -0.657,
+            "N": 0.1094
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:32:11.545827+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001112
+        }
+      ]
+    },
+    {
+      "coref_id": "530",
+      "character_name": "the manager",
+      "quote_count": 47,
+      "consensus_ocean": {
+        "O": -0.6251279999999999,
+        "C": 0.398252,
+        "E": -0.25174399999999997,
+        "A": -0.606012,
+        "N": 0.06524800000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5,
+            "E": -0.5,
+            "A": -0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 0.5, \"E\": -0.5, \"A\": -0.7, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Critical analyses, such as those by Edward Said and others, depict the manager as a symbol of colonial bureaucracy, characterized by a lack of imagination and empathy, while exhibiting a degree of reliability in his oppressive role.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Achebe, Said, Watts) identifies the Manager as a conventional bureaucrat devoted to profit and efficiency, emotionally detached and ruthlessly pragmatic, lacking imaginative vision or moral curiosity\u2014the antithesis of Kurtz's transgressive individualism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.9,
+            "C": -0.4,
+            "E": -0.7,
+            "A": -0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.9,\n  \"C\": -0.4,\n  \"E\": -0.7,\n  \"A\": -0.8,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays the Manager as unimaginative, passively manipulative, and driven by self-preservation and envy, embodying the mundane evil of colonialism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4326,
+            "C": 0.6509,
+            "E": -0.3848,
+            "A": -0.1929,
+            "N": -0.5384
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:33:02.010796+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001563
+        }
+      ]
+    },
+    {
+      "coref_id": "257",
+      "character_name": "the fellow",
+      "quote_count": 11,
+      "consensus_ocean": {
+        "O": 0.586476,
+        "C": -0.19604000000000002,
+        "E": 0.253392,
+        "A": -0.474352,
+        "N": 0.39955599999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"The fellow in 'Heart of Darkness' exhibits a moderate level of openness and neuroticism, while being characterized by low extraversion and agreeableness, as noted in various analyses of the novel's exploration of colonialism and human nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.75,
+            "C": -0.65,
+            "E": 0.55,
+            "A": -0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.75,\n  \"C\": -0.65,\n  \"E\": 0.55,\n  \"A\": -0.80,\n  \"N\": 0.70,\n  \"confidence\": \"high\",\n  \"rationale\": \"Scholarly consensus (Achebe, Said, Watts) identifies Kurtz as imaginatively visionary yet morally unmoored, charismatic but fundamentally solipsistic and emotionally unstable, with little regard for conventional restraint or ethical obligation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.7,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.7,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published critical consensus consistently portrays Kurtz as a figure of immense, yet ultimately destructive, charisma and intellect, whose radical openness to primal instincts leads to a complete breakdown of moral conscientiousness and agreeableness, culminating in profound psychological distress.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2517,
+            "C": 0.457,
+            "E": 0.1764,
+            "A": 0.1916,
+            "N": -0.2873
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:33:40.395145+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000975
+        }
+      ]
+    },
+    {
+      "coref_id": "319",
+      "character_name": "the secretary",
+      "quote_count": 10,
+      "consensus_ocean": {
+        "O": 0.12731599999999998,
+        "C": 0.131852,
+        "E": -0.083992,
+        "A": -0.11512799999999998,
+        "N": -0.08968399999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6286,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The secretary in 'Heart of Darkness' is a minor character who primarily serves to reflect the bureaucratic and impersonal nature of colonial enterprise, leading to limited critical analysis of his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The secretary is a negligible minor character in 'Heart of Darkness' who appears only briefly in the Company's offices; published criticism focuses on Marlow, Kurtz, and the Company itself rather than this functionary, leaving insufficient textual basis for personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of 'Heart of Darkness' does not meaningfully analyze the personality of the secretary, who is an extremely minor character serving primarily to establish the bureaucratic setting and atmosphere.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4547,
+            "C": 0.4709,
+            "E": 0.1286,
+            "A": 0.0174,
+            "N": -0.3203
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:34:30.755172+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000894
+        }
+      ]
+    },
+    {
+      "coref_id": "1686",
+      "character_name": "that man",
+      "quote_count": 6,
+      "consensus_ocean": {
+        "O": 0.695524,
+        "C": -0.371976,
+        "E": 0.31172799999999995,
+        "A": -0.521832,
+        "N": 0.49903200000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": -0.5,
+            "A": -0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": -0.5, \"A\": -0.3, \"N\": 0.6, \"confidence\": \"high\", \"rationale\": \"Critical analyses, such as those by Edward Said and others, highlight Kurtz's imaginative yet ultimately destructive vision, his lack of discipline, social withdrawal, and emotional turmoil.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.85,
+            "C": -0.7,
+            "E": 0.75,
+            "A": -0.8,
+            "N": 0.65
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.85,\n  \"C\": -0.70,\n  \"E\": 0.75,\n  \"A\": -0.80,\n  \"N\": 0.65,\n  \"confidence\": \"high\",\n  \"rationale\": \"Kurtz embodies the Romantic visionary corrupted by imperial ideology\u2014highly imaginative and charismatic but fundamentally undisciplined, lacking empathy, and psychologically unstable\u2014a consensus reflected in Chinua Achebe's postcolonial critique, Edward Said's Orientalism, and standard Conrad scholarship treating him as the novel's exploration of unchecked individualism and moral "
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.8,
+            "E": 0.9,
+            "A": -0.9,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.8,\n  \"E\": 0.9,\n  \"A\": -0.9,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism widely interprets Kurtz as a figure of radical imaginative openness and powerful extraversion, whose moral and psychological collapse is characterized by extreme low conscientiousness and agreeableness, and profound neuroticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2983,
+            "C": -0.2142,
+            "E": 0.1276,
+            "A": -0.1494,
+            "N": -0.0606
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:35:08.181495+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000825
+        }
+      ]
+    },
+    {
+      "coref_id": "759",
+      "character_name": "the uncle",
+      "quote_count": 6,
+      "consensus_ocean": {
+        "O": -0.046055999999999986,
+        "C": -0.010556,
+        "E": 0.018283999999999998,
+        "A": 0.063252,
+        "N": -0.02324
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3502,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The uncle in 'Heart of Darkness' is a minor character with limited analysis in published criticism, resulting in insufficient evidence to assess his personality traits meaningfully.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The uncle is an extremely minor figure (appears briefly in the opening) whom published criticism does not meaningfully analyze as a character; scholars focus on Marlow, Kurtz, and the Company, leaving insufficient textual and critical basis for personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism on 'Heart of Darkness' primarily focuses on major characters and themes, offering minimal in-depth psychological analysis of the Manager's uncle, who serves largely as a symbolic figure of the Company's corruption and incompetence rather than a subject of individual personality study.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2502,
+            "C": -0.0377,
+            "E": 0.0653,
+            "A": 0.2259,
+            "N": -0.083
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:35:44.011181+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000785
+        }
+      ]
+    },
+    {
+      "coref_id": "390",
+      "character_name": "Her captain",
+      "quote_count": 6,
+      "consensus_ocean": {
+        "O": 0.078264,
+        "C": 0.18068,
+        "E": 0.014751999999999998,
+        "A": -0.27126799999999995,
+        "N": 0.062636
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"The captain in 'Heart of Darkness' is often viewed as a minor character whose traits are overshadowed by Marlow and Kurtz, leading to limited critical analysis on his personality.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.4,
+            "A": -0.3,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": -0.3,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"The captain of the Nellie is an extremely minor frame-narrative device with minimal characterization in published criticism; scholars focus overwhelmingly on Marlow and Kurtz, leaving the captain's personality largely underdeveloped and unanalyzed in the secondary literature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism on 'Heart of Darkness' does not offer meaningful psychological analysis or consensus on the personality traits of this extremely minor character, who primarily serves a functional role in the narrative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1938,
+            "C": 0.131,
+            "E": 0.1384,
+            "A": -0.2831,
+            "N": -0.3763
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:36:13.545844+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000838
+        }
+      ]
+    },
+    {
+      "coref_id": "1131",
+      "character_name": "the arch - priest",
+      "quote_count": 5,
+      "consensus_ocean": {
+        "O": 0.19314399999999998,
+        "C": 0.128716,
+        "E": -0.011696000000000017,
+        "A": -0.068928,
+        "N": 0.019955999999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8868,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"The arch-priest in 'Heart of Darkness' is a minor character whose traits are not extensively analyzed in critical literature, but he embodies a sense of moral ambiguity and detachment that aligns with the themes of colonialism and hypocrisy in Conrad's work.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The 'arch-priest' is not a developed character in Heart of Darkness; Conrad's novella focuses on Marlow, Kurtz, and the Company's agents, with no arch-priest figure receiving meaningful critical attention in major scholarly analyses.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of Joseph Conrad's 'Heart of Darkness' does not identify or meaningfully discuss a character referred to as an 'arch-priest,' precluding a personality assessment based on scholarly consensus.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6898,
+            "C": 0.4597,
+            "E": 0.3868,
+            "A": 0.1824,
+            "N": -0.3573
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:36:52.146066+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000911
+        }
+      ]
+    },
+    {
+      "coref_id": "766",
+      "character_name": "the other",
+      "quote_count": 4,
+      "consensus_ocean": {
+        "O": 0.43396799999999996,
+        "C": -0.094856,
+        "E": 0.11196799999999998,
+        "A": -0.22953199999999999,
+        "N": 0.374844
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.25,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.2,
+            "E": -0.5,
+            "A": -0.3,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.2, \"E\": -0.5, \"A\": -0.3, \"N\": 0.6, \"confidence\": \"high\", \"rationale\": \"Critical analyses often depict Kurtz as a complex character embodying high openness through his radical ideas and artistic vision, while his lack of conscientiousness and social warmth reflects his moral decline and isolation.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.85,
+            "C": -0.7,
+            "E": 0.75,
+            "A": -0.8,
+            "N": 0.65
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.85,\n  \"C\": -0.70,\n  \"E\": 0.75,\n  \"A\": -0.80,\n  \"N\": 0.65,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Achebe, Said, Watts) identifies Kurtz as a charismatic visionary drawn to transgressive ideals and unconstrained by conventional morality, yet emotionally unstable and lacking disciplined restraint, embodying the romantic individualist corrupted by absolute power and isolation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily analyzes 'the other' as a thematic concept representing colonial anxieties and dehumanization, rather than as an individual character with a discernible personality for psychological assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1356,
+            "C": 0.0898,
+            "E": 0.1856,
+            "A": 0.1231,
+            "N": 0.2673
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T13:37:41.701453+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000878
+        }
+      ]
+    }
+  ]
+}

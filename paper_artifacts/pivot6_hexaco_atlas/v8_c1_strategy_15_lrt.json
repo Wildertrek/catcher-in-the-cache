@@ -1,0 +1,57 @@
+{
+  "approach": "V8-C1 Strategy 1.5: reclassify regimes using published training methodology",
+  "v2_taxonomy": [
+    "CAI",
+    "RLHF-pure",
+    "RLHF-Hybrid",
+    "DPO-primary"
+  ],
+  "v2_providers_per_regime": {
+    "CAI": 1,
+    "DPO-primary": 1,
+    "RLHF-Hybrid": 6,
+    "RLHF-pure": 2
+  },
+  "anova_v2": {
+    "f_stat": 0.9075225573769076,
+    "p_value": 0.45589260203772497,
+    "eta_squared": 0.12533360297105564,
+    "regime_means": {
+      "mean": {
+        "CAI": 0.775,
+        "DPO-primary": 0.757,
+        "RLHF-Hybrid": 0.689,
+        "RLHF-pure": 0.778
+      },
+      "count": {
+        "CAI": 4,
+        "DPO-primary": 1,
+        "RLHF-Hybrid": 11,
+        "RLHF-pure": 7
+      }
+    },
+    "n_groups": 4,
+    "n_total": 23
+  },
+  "lrt_v2_regime_beyond_family": {
+    "n": 23,
+    "lr_stat": 0.0,
+    "df_diff": 0,
+    "p_value": 1.0,
+    "note": "regime collinear with family (rank-deficient)",
+    "family_only_llf": 39.82119395062872,
+    "family_plus_regime_llf": 39.82119395062872
+  },
+  "lrt_v1_comparison_retracted": {
+    "n": 25,
+    "regime_col": "alignment_regime",
+    "lr_stat": 19.598863713507086,
+    "df_diff": 2,
+    "p_value": 5.548311283509744e-05,
+    "family_only_llf": 34.526744723059295,
+    "family_plus_regime_llf": 44.32617657981284,
+    "family_only_r2": 0.7552635484914918,
+    "family_plus_regime_r2": 0.8882541188734253,
+    "delta_r2": 0.13299057038193351
+  }
+}

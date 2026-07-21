@@ -1,0 +1,1324 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OP_A": 0.389,
+      "M4_A": 0.15,
+      "GT_A": 0.022418750000000032,
+      "HEXACO": {
+        "HH": -0.2,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows mild manipulativeness/social engineering (joking about arranging a marriage and \"fling you together\") and some immodest, status-tinged talk (e.g., \"Nordic race\"/\"white girlhood\"), while their tone is mostly light and non-hostile with only slight impatience or abruptness (\"Wait!\", \"Do n\u2019t look at me\")."
+      },
+      "usage": {
+        "input_tokens": 782,
+        "output_tokens": 118,
+        "cost_usd": 0.00745,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407192.4958248
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OP_A": 0.056,
+      "M4_A": 0.1,
+      "GT_A": -0.06367812499999997,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.25,
+        "rationale": "The speaker comes across as generally sincere and not exploitative (curious, candid questions, no signs of manipulation), but shows some touchiness and impatience\u2014e.g., repeatedly challenging others (\u201cThen you think I tell a lie?\u201d) and \u201cimpatiently awaiting\u201d\u2014suggesting only mildly positive Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 851,
+        "output_tokens": 99,
+        "cost_usd": 0.007225,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407194.739126
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OP_A": 0.26,
+      "M4_A": 0.5,
+      "GT_A": 0.4976499999999999,
+      "HEXACO": {
+        "HH": -0.45,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker shows exploitative, coercive intent (e.g., demanding money and saying he\u2019ll \u201cmake him pungle\u201d) and issues a direct threat to someone \u201cbotherin\u2019 around,\u201d indicating below-average Honesty-Humility and somewhat low Agreeableness via impatience/hostility rather than gentleness."
+      },
+      "usage": {
+        "input_tokens": 1153,
+        "output_tokens": 99,
+        "cost_usd": 0.008735,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407196.8964758
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OP_A": 0.22,
+      "M4_A": -0.35,
+      "GT_A": 0.06592222222222224,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker repeatedly emphasizes sincerity and moral concern about \u201cfoul play\u201d and honor (supporting moderately higher Honesty-Humility), but also shows notable irritability, sarcasm, and contempt toward others (\u201cmock me,\u201d \u201ctedious old fools,\u201d barbed insinuations), indicating lower HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1448,
+        "output_tokens": 99,
+        "cost_usd": 0.01021,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407199.076503
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OP_A": 0.479,
+      "M4_A": 0.6,
+      "GT_A": 0.5249642857142858,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.15,
+        "rationale": "The speaker shows some modest, conscientious concern for others and little sign of calculated exploitation (slightly positive HH), but their utterances include agitation, accusatory/stubborn probing, and a sharp, irritated remark (\u201cBe quiet, stupid,\u201d \u201cAh, that\u2019s a new trick!\u201d), indicating somewhat low patience and gentleness (slightly negative A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 831,
+        "output_tokens": 109,
+        "cost_usd": 0.007425,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407201.785325
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OP_A": -0.047,
+      "M4_A": 0.05,
+      "GT_A": -0.015694444444444445,
+      "HEXACO": {
+        "HH": -0.25,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker repeatedly sneers, jeers, and engages in mocking insinuations and gossip (suggesting low gentleness/forgiveness) while showing some cynical, socially probing manipulation in conversation rather than principled sincerity or modesty."
+      },
+      "usage": {
+        "input_tokens": 685,
+        "output_tokens": 82,
+        "cost_usd": 0.005885,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407206.1829062
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OP_A": 0.117,
+      "M4_A": -0.25,
+      "GT_A": 0.30810000000000004,
+      "HEXACO": {
+        "HH": 0.15,
+        "A_HEXACO": -0.05,
+        "rationale": "The speaker is emotionally effusive and at times controlling/manipulative in urging a messenger to 'be clamorous and leap all civil bounds' and to 'surprise her,' but also shows some fairness/generosity (paying for service, offering a jewel) and little overt anger, more impatience and entitlement when denied access."
+      },
+      "usage": {
+        "input_tokens": 1704,
+        "output_tokens": 102,
+        "cost_usd": 0.01158,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407208.3947809
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OP_A": -0.269,
+      "M4_A": -0.8,
+      "GT_A": -0.568884375,
+      "HEXACO": {
+        "HH": -0.55,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker is boastful and status-dominant (\"stronger and more of a man\"), expresses elitist/racist beliefs about \"dominant race\" and control, and shows a brusque, controlling manner with mild hostility (e.g., \"God damned fool,\" disliking being called 'hulking'), suggesting low Honesty-Humility and somewhat low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 744,
+        "output_tokens": 116,
+        "cost_usd": 0.0072,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407210.701716
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OP_A": -0.003,
+      "M4_A": -0.3,
+      "GT_A": -0.06365937499999999,
+      "HEXACO": {
+        "HH": 0.2,
+        "A_HEXACO": 0.35,
+        "rationale": "The speaker is largely polite and socially proper but also status-/self-focused (talking up a council act, emphasizing devotion and arrangements) without clear signs of exploitation, while their tone shows mild judgment and controlling resolve rather than pronounced warmth or forgiveness."
+      },
+      "usage": {
+        "input_tokens": 798,
+        "output_tokens": 84,
+        "cost_usd": 0.00651,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407212.860817
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OP_A": 0.189,
+      "M4_A": 0.2,
+      "GT_A": 0.4842411764705882,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.55,
+        "rationale": "The speaker\u2019s language is earnest, self-deprecating, and idealizing rather than cynical or exploitative (suggesting moderately high Honesty-Humility), and while he shows impatience once (\u201cPeace, peace...\u201d), his overall tone toward others is gentle, romantic, and non-hostile (moderately high HEXACO Agreeableness)."
+      },
+      "usage": {
+        "input_tokens": 1120,
+        "output_tokens": 105,
+        "cost_usd": 0.00875,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407215.1147509
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "OP_A": 0.319,
+      "M4_A": 0.7,
+      "GT_A": 0.58605,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.55,
+        "rationale": "The speaker is generally polite, self-reproaching, and concerned for others\u2019 welfare (supporting moderately high Agreeableness), but also engages in intrusive inquiry and shares/acts on gossip and private information (e.g., noticing and reporting a letter\u2019s addressee), suggesting only moderately positive Honesty-Humility rather than strongly principled restraint."
+      },
+      "usage": {
+        "input_tokens": 1307,
+        "output_tokens": 106,
+        "cost_usd": 0.009715,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407217.662178
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OP_A": 0.465,
+      "M4_A": 0.575,
+      "GT_A": 0.5481468749999999,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker shows some principled sincerity and fairness (e.g., admitting \u201cI have greatly wronged thee\u201d and pledging \u201cI will keep thy secret\u201d), but also clear secrecy/withholding (\u201cI will not speak,\u201d \u201cThat thou shalt never know\u201d) and a forceful, confrontational, unyielding tone in conflict (\u201cNever!\u201d, repeated \u201cI will not lose the child!\u201d), suggesting only slightly positive Honesty-Humility and low"
+      },
+      "usage": {
+        "input_tokens": 808,
+        "output_tokens": 131,
+        "cost_usd": 0.00797,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407237.579972
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OP_A": 0.282,
+      "M4_A": 0.5,
+      "GT_A": 0.4802166666666666,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker is consistently sincere and principled about love and marriage (seeking faithful vows, proposing honorable intent, offering \u201call my fortunes\u201d) with no signs of exploitation, and their tone is generally gentle and forgiving rather than hostile, showing only mild impatience toward the Nurse\u2019s sour demeanor."
+      },
+      "usage": {
+        "input_tokens": 1286,
+        "output_tokens": 93,
+        "cost_usd": 0.00922,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407240.153617
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OP_A": 0.024,
+      "M4_A": 0.0,
+      "GT_A": -0.12417500000000001,
+      "HEXACO": {
+        "HH": 0.15,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker shows mild manipulativeness and indirectness (e.g., arranging a meeting and teasing with a secret) with little sign of principled modesty, and displays some irritability/judgmentalness (\u201cI hate careless people,\u201d \u201cThey\u2019ll keep out of my way\u201d) rather than consistently gentle, forgiving affect."
+      },
+      "usage": {
+        "input_tokens": 645,
+        "output_tokens": 100,
+        "cost_usd": 0.006225,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407257.716428
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OP_A": 0.275,
+      "M4_A": 0.6,
+      "GT_A": 0.4221821428571429,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": 0.45,
+        "rationale": "The speaker shows some sincerity, remorse, and concern about wrongdoing (\u201cIf you can forgive me,\u201d \u201cLord, have pity on us\u201d) but also mild social manipulation/flattery and self-exculpation (\u201calways look nicer than anyone,\u201d \u201cIt\u2019s not my fault\u201d), while their tone is mostly gentle/forgiving with only occasional snide or nosy remarks (e.g., calling things dull/tiring, probing others\u2019 stories)."
+      },
+      "usage": {
+        "input_tokens": 848,
+        "output_tokens": 123,
+        "cost_usd": 0.00793,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407278.017237
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OP_A": -0.512,
+      "M4_A": -0.7,
+      "GT_A": -0.630278125,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker shows some fairness and principle in asserting control over a personal insult and asking to free the woman (moderately higher HH), but also displays marked harshness and authoritarian anger (\u201cYou will get six months. Now march!\u201d, \u201cjade\u201d, \u201cwretch\u201d) indicating low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 740,
+        "output_tokens": 95,
+        "cost_usd": 0.00655,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407280.4246001
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OP_A": 0.008,
+      "M4_A": 0.8,
+      "GT_A": 0.2865611111111111,
+      "HEXACO": {
+        "HH": 0.05,
+        "A_HEXACO": 0.35,
+        "rationale": "The speaker repeatedly pursues a disguise and asks others to conceal their identity (suggesting some willingness to deceive, though not for obvious exploitation), while generally speaking politely and without overt hostility\u2014despite some sharp or mocking remarks\u2014indicating mildly above-average gentleness and patience."
+      },
+      "usage": {
+        "input_tokens": 1331,
+        "output_tokens": 90,
+        "cost_usd": 0.009355,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407282.261546
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OP_A": 0.075,
+      "M4_A": -0.6,
+      "GT_A": -0.11303749999999999,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker shows some fairness and lack of overt exploitiveness (e.g., insisting on judging for himself and discounting eulogies), but also a probing, somewhat domineering and teasing interpersonal style with brusque remarks (\u201cwhat the deuce\u2026\u201d, \u201cdon\u2019t fall back on over-modesty\u201d) suggesting moderate honesty-humility and below-average gentleness/patience."
+      },
+      "usage": {
+        "input_tokens": 949,
+        "output_tokens": 110,
+        "cost_usd": 0.008045,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407284.590088
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OP_A": -0.152,
+      "M4_A": -0.1,
+      "GT_A": 0.19053333333333328,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.55,
+        "rationale": "The speaker presents as principled and service-oriented (offering help, emphasizing forgiveness and Christian love) but also shows moralizing self-importance and some controlling/manipulative undertones (repeated 'dear friend,' directing others, criticizing 'gentlemen' as petty, arranging meetings/household control), yielding moderately high Agreeableness and only mildly positive Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 1114,
+        "output_tokens": 114,
+        "cost_usd": 0.00899,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407288.3204129
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OP_A": 0.094,
+      "M4_A": 0.55,
+      "GT_A": 0.2504111111111111,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": 0.1,
+        "rationale": "The speaker is outwardly courteous and moralizing, but also appears politically instrumental (enlisting others to monitor/handle Hamlet, managing appearances), suggesting somewhat low Honesty-Humility, while their tone is mostly controlled yet occasionally sharp and accusatory rather than notably gentle or forgiving."
+      },
+      "usage": {
+        "input_tokens": 819,
+        "output_tokens": 91,
+        "cost_usd": 0.006825,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407291.144097
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OP_A": 0.226,
+      "M4_A": 0.6,
+      "GT_A": 0.39085,
+      "HEXACO": {
+        "HH": 0.65,
+        "A_HEXACO": 0.25,
+        "rationale": "The speaker consistently offers principled moral counsel and practical help without self-aggrandizement or exploitation (supporting higher Honesty-Humility), but also shows a notable readiness to scold and use sharp, shaming rebukes (\u201cfond mad man,\u201d \u201cFie, fie,\u201d \u201cmad men have no ears\u201d), indicating only moderately low gentleness/patience on HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2181,
+        "output_tokens": 116,
+        "cost_usd": 0.014385,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407293.8232698
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OP_A": 0.492,
+      "M4_A": 0.7,
+      "GT_A": 0.5689124999999998,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker expresses sincerity and lack of blame/manipulation toward others (e.g., defending Anna and speaking plainly about her situation), but shows pronounced anger and hostility in response to betrayal\u2014ruminating on hatred and even saying she could kill him\u2014indicating low HEXACO Agreeableness despite only mildly positive Honesty-Humility."
+      },
+      "usage": {
+        "input_tokens": 1156,
+        "output_tokens": 102,
+        "cost_usd": 0.00884,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407296.285194
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OP_A": -0.032,
+      "M4_A": 0.0,
+      "GT_A": 0.14035555555555554,
+      "HEXACO": {
+        "HH": 0.15,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker is generally blunt and sometimes deceit-adjacent (e.g., instructing to dismiss Orsino by claiming to be 'sick, or not at home' and accusing others of 'shameful cunning'), but also shows some fairness/modesty through apology and self-reproach ('So did I abuse myself...'), while their frequent scornful, impatient, and hostile remarks toward others ('dry fool,' 'if you be mad, be gone,' '"
+      },
+      "usage": {
+        "input_tokens": 1082,
+        "output_tokens": 143,
+        "cost_usd": 0.0097,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407299.605302
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OP_A": 0.599,
+      "M4_A": 0.3,
+      "GT_A": 0.2964678571428572,
+      "HEXACO": {
+        "HH": 0.05,
+        "A_HEXACO": -0.25,
+        "rationale": "The utterances show little evidence of deceit or exploitation (mostly curiosity and politeness with a quick apology), but they include impatience and a sharp insult (\"You're a rotten driver\"), suggesting somewhat low agreeableness and roughly neutral honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 581,
+        "output_tokens": 87,
+        "cost_usd": 0.005515,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407303.237195
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OP_A": -0.32,
+      "M4_A": -0.6,
+      "GT_A": -0.32167222222222225,
+      "HEXACO": {
+        "HH": -0.4,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker presents himself as principled and caring but repeatedly uses calculated court rhetoric and covert manipulation (deploying Rosencrantz/Guildenstern and arranging to spy on Hamlet), suggesting lower Honesty-Humility, while his tone is more controlling and mildly condemning than openly hostile (scolding Hamlet\u2019s grief) indicating slightly below-average HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2072,
+        "output_tokens": 108,
+        "cost_usd": 0.0136,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407306.725534
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OP_A": -0.419,
+      "M4_A": -0.8,
+      "GT_A": -0.47130555555555553,
+      "HEXACO": {
+        "HH": -0.95,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker repeatedly advocates deception ('look like the innocent flower, but be the serpent under\u2019t'), orchestrates drugging and framing others for murder, and shows ruthless willingness to kill and exploit (low Honesty-Humility), while also using harsh, contemptuous provocation and impatience toward their partner\u2019s hesitation ('coward,' 'infirm of purpose'), indicating low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2060,
+        "output_tokens": 113,
+        "cost_usd": 0.01369,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407309.2863429
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OP_A": 0.327,
+      "M4_A": 0.3,
+      "GT_A": 0.2990777777777778,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker admits to an inappropriate flirtation with the governess and frames it as partly not his blame (suggesting weak principled restraint and some self-serving rationalization), while his distressed, blaming, and somewhat irritable remarks (e.g., calling it an \u201cidiotic smile,\u201d snapping \u201cWhy do you tell me that?\u201d) indicate lower patience/forgiveness than average."
+      },
+      "usage": {
+        "input_tokens": 907,
+        "output_tokens": 112,
+        "cost_usd": 0.007895,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407311.988822
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OP_A": 0.151,
+      "M4_A": -0.15,
+      "GT_A": 0.12636874999999997,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker is often candid and even explicitly values being \"open and sincere\" (supporting moderately positive Honesty-Humility), but shows marked criticalness and sharp, impatient reactions toward others (e.g., harsh judgments of Edward\u2019s \u201cspiritless\u201d reading and threatening to leave the room when contradicted), indicating relatively low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1891,
+        "output_tokens": 107,
+        "cost_usd": 0.012665,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407314.274967
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OP_A": -0.173,
+      "M4_A": 0.25,
+      "GT_A": 0.04437187499999999,
+      "HEXACO": {
+        "HH": 0.15,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker is consistently polite, apologetic, and reassuring (high patience/lenience), but also self-promoting and image-managing with potentially dubious life claims (\u201cI\u2019ll tell you God\u2019s truth,\u201d wealthy-Oxford-rajah story), suggesting only slightly above-neutral honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 754,
+        "output_tokens": 95,
+        "cost_usd": 0.00662,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407316.927231
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OP_A": 0.406,
+      "M4_A": 0.5,
+      "GT_A": 0.41412777777777776,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.05,
+        "rationale": "The speaker repeatedly shows sincerity, gratitude, and concern about burdening others (supporting moderately high Honesty-Humility), but also displays sharp impatience and readiness to escalate into threats and hostility in several exchanges (pulling HEXACO Agreeableness toward neutral/slightly low)."
+      },
+      "usage": {
+        "input_tokens": 1529,
+        "output_tokens": 92,
+        "cost_usd": 0.010405,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407320.028609
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OP_A": 0.693,
+      "M4_A": 0.6,
+      "GT_A": 0.673825,
+      "HEXACO": {
+        "HH": -0.55,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker openly endorses exploitative, violent criminal behavior (highway robbery, killing for money) and shows little principled restraint, indicating low Honesty-Humility, while their interpersonal tone is mixed\u2014sometimes caring and polite, but also quick to anger and call things \u201cfool,\u201d yielding slightly low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1585,
+        "output_tokens": 101,
+        "cost_usd": 0.010955,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407322.624528
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "OP_A": 0.048,
+      "M4_A": -0.3,
+      "GT_A": 0.13930625,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker shows mild self-importance and status-focused concerns (e.g., \"I\u2019m the tallest,\" fixating on wealth/marriage and elegance) but little clear deceit or exploitation, while their impatience and irritability are evident in scolding and dismissive outbursts (\"for heaven\u2019s sake!\" \"Nonsense, nonsense!\")."
+      },
+      "usage": {
+        "input_tokens": 750,
+        "output_tokens": 107,
+        "cost_usd": 0.00696,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407324.993403
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OP_A": 0.293,
+      "M4_A": 0.9,
+      "GT_A": 0.4612333333333334,
+      "HEXACO": {
+        "HH": 0.45,
+        "A_HEXACO": 0.75,
+        "rationale": "Across the utterances the speaker repeatedly shows sincere concern and self-reproach rather than manipulation (pleading for pity and help for an 'innocent husband,' condemning a 'shame' of living poorly), and responds to distress with reassurance and gentleness ('Don't be frightened!'), indicating moderately high Honesty-Humility and clearly high Agreeableness (patience/soothing rather than hostil"
+      },
+      "usage": {
+        "input_tokens": 1024,
+        "output_tokens": 119,
+        "cost_usd": 0.00869,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407328.272897
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OP_A": 0.002,
+      "M4_A": -0.1,
+      "GT_A": 0.019188888888888884,
+      "HEXACO": {
+        "HH": -0.2,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker repeatedly mocks and objectifies others with bawdy, cutting jokes (suggesting lower gentleness and some willingness to demean for amusement), though there is little evidence of calculated deceit or exploitation beyond boastful, performative \"pink of courtesy\" self-praise."
+      },
+      "usage": {
+        "input_tokens": 1998,
+        "output_tokens": 88,
+        "cost_usd": 0.01263,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407330.915495
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OP_A": 0.15,
+      "M4_A": 0.5,
+      "GT_A": 0.3164444444444444,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker is largely candid and affectionate (reminiscing warmly, offering blessings) but also shows some materialistic/exploitative framing about marriage ('shall have the chinks'), while their tone is mostly genial and playful with a few sharp rebukes ('Out upon you!')."
+      },
+      "usage": {
+        "input_tokens": 1249,
+        "output_tokens": 93,
+        "cost_usd": 0.009035,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407333.5616808
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OP_A": 0.176,
+      "M4_A": 0.4,
+      "GT_A": 0.33812777777777775,
+      "HEXACO": {
+        "HH": 0.05,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker shows some principled loyalty and sincerity about his father, but also engages in boastful, contemptuous political insults and a somewhat self-serving, manipulative anecdote ('Let us save him...perhaps with my mistress') suggesting low gentleness/forgiveness and only slightly above-neutral honesty-humility."
+      },
+      "usage": {
+        "input_tokens": 1012,
+        "output_tokens": 98,
+        "cost_usd": 0.008,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407336.2160661
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OP_A": 0.511,
+      "M4_A": 0.8,
+      "GT_A": 0.631378125,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.15,
+        "rationale": "The speaker shows generally sincere, non-exploitative motives (focused on rescuing their child and fair payment), but also displays flashes of sharpness and impatience toward others (e.g., \"Was I speaking to you?\", \"Answer me!\", repeated \"Don't be long!\") suggesting only mildly high Honesty-Humility and slightly low-to-neutral HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1312,
+        "output_tokens": 113,
+        "cost_usd": 0.00995,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407338.7823648
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OP_A": 0.349,
+      "M4_A": 0.8,
+      "GT_A": 0.534084375,
+      "HEXACO": {
+        "HH": 0.65,
+        "A_HEXACO": 0.75,
+        "rationale": "The speaker repeatedly emphasizes honesty, honor, obedience, and returning gifts when 'givers prove unkind' (suggesting sincerity/modesty rather than exploitation), and their tone is largely gentle, deferential, and non-hostile\u2014expressing fear, concern, and grief rather than anger or stubbornness."
+      },
+      "usage": {
+        "input_tokens": 1111,
+        "output_tokens": 96,
+        "cost_usd": 0.008435,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407340.9529521
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OP_A": -0.327,
+      "M4_A": -0.8,
+      "GT_A": -0.5535107142857143,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.65,
+        "rationale": "The speaker shows notable immodesty and self-aggrandizing fantasy about status and control (e.g., imagining being 'Count' with officers and jewels), alongside a harsh, contemptuous, and easily irritated style of reprimand ('Are you mad?... no wit, manners, nor honesty'), indicating lower Honesty-Humility and low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1317,
+        "output_tokens": 108,
+        "cost_usd": 0.009825,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407343.384701
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OP_A": 0.622,
+      "M4_A": 0.5,
+      "GT_A": 0.5345,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.2,
+        "rationale": "The speaker shows notable sincerity and some moral concern (e.g., insisting on giving only 'honest' admiration and reflecting on honor/faith), but also admits self-justifying behavior around an engagement and displays a fairly fixed, blunt, and occasionally judgmental/stubborn tone rather than especially gentle or forgiving."
+      },
+      "usage": {
+        "input_tokens": 1473,
+        "output_tokens": 97,
+        "cost_usd": 0.010275,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407345.600859
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OP_A": 0.397,
+      "M4_A": 0.5,
+      "GT_A": 0.47586666666666666,
+      "HEXACO": {
+        "HH": 0.75,
+        "A_HEXACO": 0.4,
+        "rationale": "The speaker consistently argues in a fair-minded, principled, and non-exploitative way (defending others\u2019 merit and discouraging unjust judgments), while her tone shows mild irritability and sharp, teasing criticism at times (e.g., sarcastic remarks and firm objections), suggesting moderate\u2014not maximal\u2014gentleness and patience."
+      },
+      "usage": {
+        "input_tokens": 1515,
+        "output_tokens": 100,
+        "cost_usd": 0.010575,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407348.09552
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OP_A": 0.422,
+      "M4_A": 0.7,
+      "GT_A": 0.5075944444444445,
+      "HEXACO": {
+        "HH": 0.55,
+        "A_HEXACO": 0.65,
+        "rationale": "The speaker\u2019s utterances are consistently deferential, service-oriented, and non-exploitative (suggesting fair-minded sincerity), and they show worry and caution rather than anger or vindictiveness, indicating a generally gentle, agreeable temperament."
+      },
+      "usage": {
+        "input_tokens": 763,
+        "output_tokens": 82,
+        "cost_usd": 0.006275,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407350.253079
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OP_A": 0.417,
+      "M4_A": 0.3,
+      "GT_A": 0.4779882352941177,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker shows sarcasm, needling, and a somewhat taunting, self-pitying posture (\"do n\u2019t be nettled,\" \"do n\u2019t you be moral,\" \"disappointed drudge\"), suggesting low patience/gentleness and a somewhat cynical, not-very-principled interpersonal style rather than straightforward modest sincerity."
+      },
+      "usage": {
+        "input_tokens": 884,
+        "output_tokens": 104,
+        "cost_usd": 0.00754,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407352.587936
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OP_A": 0.095,
+      "M4_A": 0.75,
+      "GT_A": 0.3079166666666666,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.25,
+        "rationale": "The speaker is mostly straightforward and fair-minded (e.g., aiming to part \u201cwithout ill-blood\u201d and offering to pay), but also shows some contempt/insulting language (\u201cnumskulls,\u201d \u201cwhy the devil don\u2019t you dine?\u201d) and a bitter, self-disparaging, cynical stance that suggests only moderately low patience and gentleness rather than strong hostility."
+      },
+      "usage": {
+        "input_tokens": 1147,
+        "output_tokens": 111,
+        "cost_usd": 0.009065,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407355.0417202
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OP_A": 0.376,
+      "M4_A": -0.6,
+      "GT_A": 0.22490714285714286,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.75,
+        "rationale": "The speaker shows some opportunism and suspicion of others (\u201ccould make some money on the other,\u201d \u201cmost of these fellas will cheat you\u201d) suggesting lower Honesty-Humility, and displays pronounced irritability and aggression (\u201cThrow me down and beat me, you dirty little coward!\u201d) indicating very low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 708,
+        "output_tokens": 102,
+        "cost_usd": 0.0066,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407357.229443
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OP_A": -0.929,
+      "M4_A": -0.3,
+      "GT_A": -0.3603657894736842,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker repeatedly name-drops status and patronage, frames marriage in self-serving/instrumental terms, and condescends/manipulates (e.g., presuming refusals are mere \u201ccustom,\u201d emphasizing the other\u2019s small portion), indicating low Honesty-Humility, while his tone is generally formal and non-explosive yet stubborn and dismissive of others\u2019 wishes, suggesting mildly low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2538,
+        "output_tokens": 121,
+        "cost_usd": 0.01632,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407360.080717
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OP_A": 0.147,
+      "M4_A": 0.55,
+      "GT_A": 0.37881666666666663,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.05,
+        "rationale": "The speaker offers payment for shelter and shows some protective/soothing intent, but also issues abrupt commands and exclamations (e.g., \u201cBah!\u201d, \u201cPut your back against the wall\u201d), suggesting only mildly cooperative honesty-humility and slightly irritable, low-gentleness agreeableness."
+      },
+      "usage": {
+        "input_tokens": 564,
+        "output_tokens": 95,
+        "cost_usd": 0.00567,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407362.221478
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OP_A": -0.089,
+      "M4_A": -0.35,
+      "GT_A": -0.05870555555555555,
+      "HEXACO": {
+        "HH": -0.55,
+        "A_HEXACO": -0.35,
+        "rationale": "He explicitly endorses deceptive, reputation-managing tactics (using \u201cbait of falsehood\u201d and \u201cforgeries\u201d to fish out information about his son), suggesting lower Honesty-Humility, and while he shows some care and remorse, his sharp, contemptuous, controlling tone toward Ophelia (\u201cPooh!\u201d, \u201cgreen girl,\u201d \u201cbaby,\u201d \u201cyou\u2019ll tender me a fool,\u201d \u201cI charge you\u201d) indicates below-average HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2070,
+        "output_tokens": 128,
+        "cost_usd": 0.01419,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407365.446251
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OP_A": 0.369,
+      "M4_A": 0.6,
+      "GT_A": 0.4596111111111111,
+      "HEXACO": {
+        "HH": 0.1,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker shows some practical helpfulness (giving money to buy bread) but also uses insulting/harsh language (\u201cmalicious creature,\u201d \u201cMam\u2019selle Toad,\u201d \u201cGet along with you!\u201d) and references to stealing, suggesting only slightly above-neutral honesty-humility and somewhat low agreeableness due to impatience and contempt."
+      },
+      "usage": {
+        "input_tokens": 680,
+        "output_tokens": 103,
+        "cost_usd": 0.00649,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407367.808366
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "OP_A": -0.117,
+      "M4_A": 0.85,
+      "GT_A": 0.4574812499999999,
+      "HEXACO": {
+        "HH": 0.15,
+        "A_HEXACO": -0.05,
+        "rationale": "The speaker is generally frank and non-exploitative (no clear deceit or manipulation), but shows notable social snobbery/fastidious judgments of others (\u201cpunishment to\u2026stand up with,\u201d \u201cshe is tolerable\u201d) and some sarcastic, teasing contentiousness in dialogue, suggesting only slightly above-average Honesty-Humility and about average-to-slightly-low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1354,
+        "output_tokens": 113,
+        "cost_usd": 0.01016,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407370.587774
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OP_A": 0.059,
+      "M4_A": 0.05,
+      "GT_A": 0.3420736842105263,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": 0.05,
+        "rationale": "The speaker is witty but often cutting and status-focused (e.g., blunt remarks about others\u2019 looks/intelligence and a willingness to be 'impertinent'), suggesting only mildly principled/fair motives (not overtly exploitative) but relatively low gentleness and a readiness to criticize rather than forgive."
+      },
+      "usage": {
+        "input_tokens": 1235,
+        "output_tokens": 96,
+        "cost_usd": 0.009055,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407373.326208
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OP_A": 0.097,
+      "M4_A": -0.8,
+      "GT_A": -0.18105555555555553,
+      "HEXACO": {
+        "HH": -0.85,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker openly harbors 'black and deep desires,' plots and commits assassination while managing appearances and framing others (low sincerity/fairness \u2192 very low Honesty-Humility), and though not overtly hot-tempered, shows harshness and cold resolve with limited gentleness/forgiveness amid fear and guilt (moderately low HEXACO Agreeableness)."
+      },
+      "usage": {
+        "input_tokens": 1757,
+        "output_tokens": 109,
+        "cost_usd": 0.012055,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407376.383261
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OP_A": 0.146,
+      "M4_A": 0.7,
+      "GT_A": 0.3746666666666666,
+      "HEXACO": {
+        "HH": 0.55,
+        "A_HEXACO": 0.45,
+        "rationale": "The speaker repeatedly urges peace, fairness, and honest inquiry (breaking up fights, seeking grievances, giving counsel without exploiting others), suggesting moderately high Honesty-Humility, while their tone is mostly patient and supportive but includes some blunt, teasing, and mildly scolding remarks ('fools,' 'art thou mad?'), indicating slightly above-average HEXACO Agreeableness rather than"
+      },
+      "usage": {
+        "input_tokens": 1093,
+        "output_tokens": 116,
+        "cost_usd": 0.008945,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407380.5260348
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OP_A": -0.081,
+      "M4_A": 0.85,
+      "GT_A": 0.23606111111111108,
+      "HEXACO": {
+        "HH": 0.35,
+        "A_HEXACO": 0.75,
+        "rationale": "The speaker is warm, sympathetic, and repeatedly encourages forgiveness with gentle, patient language (high Agreeableness), while showing moderate honesty-humility\u2014generally sincere and caring, but also somewhat biased toward excusing her brother and subtly steering Dolly toward reconciliation."
+      },
+      "usage": {
+        "input_tokens": 1123,
+        "output_tokens": 87,
+        "cost_usd": 0.008225,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407382.6533551
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OP_A": 0.378,
+      "M4_A": -0.3,
+      "GT_A": 0.24895937499999996,
+      "HEXACO": {
+        "HH": -0.2,
+        "A_HEXACO": -0.75,
+        "rationale": "The speaker shows little concern for fairness or modesty (e.g., 'They are not fit to associate with me' and disdain for 'beggarly' relatives) and is highly irritable and hostile in multiple outbursts ('Wicked and cruel boy!', 'murderer', 'Rat! Rat!', repeated demands), indicating low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 107,
+        "cost_usd": 0.00669,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407385.149106
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OP_A": -0.268,
+      "M4_A": -0.4,
+      "GT_A": -0.1876868421052632,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.25,
+        "rationale": "The speaker is self-focused and status-seeking (boasting about being tallest, wanting to marry first, claiming entitlement to invitations, asking others to lend money after spending theirs) and shows low modesty and some willingness to impose on others, while also displaying touchy jealousy/resentment about fairness and invitations, though without sustained hostility."
+      },
+      "usage": {
+        "input_tokens": 1481,
+        "output_tokens": 102,
+        "cost_usd": 0.010465,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407387.961517
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OP_A": 0.227,
+      "M4_A": -0.5,
+      "GT_A": 0.31267894736842106,
+      "HEXACO": {
+        "HH": -0.25,
+        "A_HEXACO": -0.65,
+        "rationale": "The speaker shows low gentleness and forgiveness (openly dismissive, judgmental, and self-described as resentful with a \u201cgood opinion once lost\u2026for ever\u201d), while honesty-humility is mildly low due to snobbery/immodest social contempt and sharp insinuations, though not clear exploitation or deceit."
+      },
+      "usage": {
+        "input_tokens": 1297,
+        "output_tokens": 99,
+        "cost_usd": 0.009455,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407390.235604
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OP_A": -0.472,
+      "M4_A": 0.9,
+      "GT_A": 0.3333062499999999,
+      "HEXACO": {
+        "HH": 0.25,
+        "A_HEXACO": -0.35,
+        "rationale": "The speaker shows some regard for fairness and probity (defending others from 'actual blame,' discussing 'probity and honour') but also delivers cutting, status-tinged judgments and intrusive 'hints' about others' behavior, and is notably stubborn and sharp ('you will not laugh me out of my opinion,' sarcastic pardon), indicating lower gentleness and higher irritability."
+      },
+      "usage": {
+        "input_tokens": 1272,
+        "output_tokens": 112,
+        "cost_usd": 0.00972,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407392.9474812
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OP_A": 0.767,
+      "M4_A": -0.8,
+      "GT_A": -0.21130789473684206,
+      "HEXACO": {
+        "HH": -0.25,
+        "A_HEXACO": -0.55,
+        "rationale": "The speaker is self-important and status- and credit-seeking (repeatedly boasting about arranging positions and being thanked) and also intrusive, judgmental, and scolding in tone (criticizing others\u2019 upbringing, pushing advice, implying neglect), indicating lower Honesty-Humility and notably low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1392,
+        "output_tokens": 100,
+        "cost_usd": 0.00996,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407397.307945
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OP_A": 1.057,
+      "M4_A": -0.65,
+      "GT_A": -0.11669473684210524,
+      "HEXACO": {
+        "HH": -0.35,
+        "A_HEXACO": -0.45,
+        "rationale": "The speaker presents himself as wronged and blameless while repeatedly imputing cynical motives and \u201cscandalous\u201d misconduct to others (suggesting some self-serving bias and potential manipulativeness), and his tone is resentful and accusatory toward Mr. Darcy and others despite occasional claims of forgiveness, indicating relatively low patience/gentleness."
+      },
+      "usage": {
+        "input_tokens": 1920,
+        "output_tokens": 103,
+        "cost_usd": 0.01269,
+        "provider": "openai"
+      },
+      "model": "gpt-5.2",
+      "ts": 1777407399.5144918
+    }
+  ]
+}

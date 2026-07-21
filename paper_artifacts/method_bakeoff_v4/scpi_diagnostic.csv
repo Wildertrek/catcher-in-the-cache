@@ -1,0 +1,61 @@
+query_name,query_book,query_coref_id,query_M4_A,query_OP_A,query_GT_A,neighbor_name,neighbor_book,neighbor_coref_id,similarity,neighbor_GT_A,neighbor_M4_A,neighbor_OP_A
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,97,sense_and_sensibility,97,0.9237,0.4759,0.5,0.397
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,122,emma,122,0.9056,-0.2732,-0.3,nan
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,96,sense_and_sensibility,96,0.9049,0.6603,0.7,nan
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,110,emma,110,0.9046,-0.2113,-0.55,nan
+George Wickham,pride_and_prejudice,100,-0.65,1.057,-0.1167,108,sense_and_sensibility,108,0.904,0.5345,0.5,0.622
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,96,sense_and_sensibility,96,0.9288,0.6603,0.7,nan
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,187,emma,187,0.9204,0.1373,0.7,nan
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,114,sense_and_sensibility,114,0.9202,0.5787,0.5,nan
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,230,emma,230,0.9174,-0.3367,-0.55,nan
+Lady Catherine de Bourgh,pride_and_prejudice,130,-0.8,0.767,-0.2113,115,emma,115,0.907,0.0157,0.3,nan
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,97,sense_and_sensibility,97,0.9316,0.4759,0.5,0.397
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,96,sense_and_sensibility,96,0.9259,0.6603,0.7,nan
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,124,emma,124,0.9246,0.6871,0.8,nan
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,98,sense_and_sensibility,98,0.9243,0.1264,-0.15,0.151
+Jane Bennet,pride_and_prejudice,192,0.9,-0.472,0.3333,110,emma,110,0.9228,-0.2113,-0.55,nan
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,133,oliver_twist,133,0.8936,-0.741,-0.85,nan
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,204,great_expectations,204,0.8887,-0.7843,-0.8,nan
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,266,anna_karenina,266,0.8878,-0.3038,0.05,nan
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,1373,les_miserables,1373,0.8856,0.4596,0.6,0.369
+Myrtle Wilson,the_great_gatsby,170,-0.6,0.376,0.2249,0,great_expectations,0,0.8855,0.4559,0.55,nan
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,97,sense_and_sensibility,97,0.9222,0.4759,0.5,0.397
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,115,emma,115,0.922,0.0157,0.3,nan
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,110,emma,110,0.9212,-0.2113,-0.55,nan
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,108,sense_and_sensibility,108,0.9198,0.5345,0.5,0.622
+Charles Bingley,pride_and_prejudice,102,0.85,-0.117,0.4575,230,emma,230,0.9155,-0.3367,-0.55,nan
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,138,crime_and_punishment,138,0.9224,0.6787,0.75,nan
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,294,the_brothers_karamazov,294,0.9217,0.8833,0.9,nan
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,622,war_and_peace,622,0.9198,0.7775,0.85,nan
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,1891,war_and_peace,1891,0.9187,0.5984,0.3,nan
+Anna Karenina,anna_karenina,158,0.85,-0.081,0.2361,195,great_expectations,195,0.9146,0.7357,0.8,nan
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,char_hamlet,hamlet,char_hamlet,0.9097,0.0659,-0.35,0.22
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,char_earl_of_salisbury,king_john,char_earl_of_salisbury,0.906,0.2506,0.2,nan
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,char_richard,king_richard_iii,char_richard,0.9044,-0.9141,-0.7,nan
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,char_laertes,hamlet,char_laertes,0.9036,0.0235,-0.5,nan
+Macbeth,macbeth,char_macbeth,-0.8,0.097,-0.1811,char_belarius,cymbeline,char_belarius,0.9035,0.5684,0.7,nan
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,char_valentine,the_two_gentlemen_of_verona,char_valentine,0.9287,0.3504,0.0,nan
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,char_claudio,much_ado_about_nothing,char_claudio,0.9266,-0.3026,-0.5,nan
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,char_helena,alls_well_that_ends_well,char_helena,0.9255,0.5479,0.5,nan
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,char_boyet,loves_labours_lost,char_boyet,0.925,0.1653,0.4,nan
+Viola,twelfth_night,char_viola,0.8,0.008,0.2866,char_bertram,alls_well_that_ends_well,char_bertram,0.9222,-0.5398,-0.5,nan
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,97,sense_and_sensibility,97,0.9285,0.4759,0.5,0.397
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,98,sense_and_sensibility,98,0.9276,0.1264,-0.15,0.151
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,108,sense_and_sensibility,108,0.9217,0.5345,0.5,0.622
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,96,sense_and_sensibility,96,0.9214,0.6603,0.7,nan
+Mr. Darcy,pride_and_prejudice,127,-0.5,0.227,0.3127,114,sense_and_sensibility,114,0.9181,0.5787,0.5,nan
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,43,wuthering_heights,43,0.9105,-0.8386,-0.9,nan
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,48,wuthering_heights,48,0.9105,0.0978,-0.75,nan
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,0,wuthering_heights,0,0.9096,0.1766,0.0,nan
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,195,great_expectations,195,0.9041,0.7357,0.8,nan
+Jane Eyre,jane_eyre,0,-0.3,0.378,0.249,210,great_expectations,210,0.901,-0.7169,-0.9,nan
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,268,great_expectations,268,0.9169,-0.6479,-0.8,nan
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,305,great_expectations,305,0.9164,0.5984,0.7,nan
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,0,wuthering_heights,0,0.9143,0.1766,0.0,nan
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,195,great_expectations,195,0.9123,0.7357,0.8,nan
+Edward Rochester,jane_eyre,317,-0.6,0.075,-0.113,210,great_expectations,210,0.9113,-0.7169,-0.9,nan
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,172,anna_karenina,172,0.9236,-0.0637,-0.3,-0.003
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,177,jane_eyre,177,0.9214,-0.2408,-0.3,nan
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,224,anna_karenina,224,0.9203,-0.0637,0.1,0.056
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,279,oliver_twist,279,0.9158,0.7141,0.9,nan
+Charles Darnay,a_tale_of_two_cities,189,0.75,0.095,0.3079,280,oliver_twist,280,0.9148,0.8302,0.9,nan

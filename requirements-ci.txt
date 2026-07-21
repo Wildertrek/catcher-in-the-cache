@@ -1,0 +1,23 @@
+# Minimal scientific stack for CI smoke tests
+# (vs requirements.txt which includes provider SDKs for cold-fire reproduction).
+#
+# This file is the cached-artifact reproduction surface: every notebook in the
+# CI matrix (NB02, NB03, NB05, NB08, NB10) runs end-to-end on this stack alone.
+# No provider API keys, no LLM SDKs, no Modal. Pure JSON/CSV load + numpy/pandas
+# analysis + matplotlib rendering.
+#
+# Reviewers wanting to reproduce just the cached path:
+#   pip install -r requirements-ci.txt
+#   jupyter nbconvert --to notebook --execute notebooks/<NB>.ipynb
+#
+# For cold-fire reproduction (with provider APIs), use requirements.txt instead.
+
+numpy>=1.26,<2.0
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+ipywidgets>=8.0
+jupyter>=1.0
+nbconvert>=7.0
+plotly>=5.18

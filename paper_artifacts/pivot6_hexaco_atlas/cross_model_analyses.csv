@@ -1,0 +1,9 @@
+hypothesis,statistic,value,ci_low,ci_high,threshold,verdict
+H1_universal_collapse,25/25 models above |r|=0.30,1.0,0.8668077490609515,0.9999999999999999,>=0.88 (locked) / falsifier <0.70 wilson_lower,PASS_locked
+H2_family_clustering,ICC=0.624 permutation_p=0.003; ANOVA F=5.14 eta2=0.755 p=0.002728,0.6236855360821797,,,F>=3.0 p<0.05 eta2>=0.30 (locked); revised primary: ICC perm p<0.05,PASS
+H3_capability_correlation,Arena rho=-0.165 p=0.4749; AAI rho=-0.251 p=0.2731,-0.16493506493506493,,,|rho|>=0.30 at p<0.05 (locked direction: deepening),NULL
+H4_open_vs_closed,"open mean=0.795 (n=8), closed mean=0.718 (n=17); Welch t=1.54 p=0.1447; Hedges g=0.607; perm p=0.1619; effect CI=[-0.016, 0.169]",0.6070323369308704,-0.015602283958652501,0.16875530729498991,descriptive (A3.1b retracted threshold; report effect+CI+perm p),DESCRIPTIVE
+H6_alignment_regime,"ANOVA F=4.94 p=0.003767 eta2=0.622; means: CAI=0.775, RLHF=0.830, Hybrid=0.537, Unknown=0.746, RLHF-RAG=0.725, DPO=0.808, SFT-only=0.710",0.6221939183140803,,,eta2>=0.15 at p<0.10 (locked),PASS_NULL
+RQ6.5_orthogonality_discovery,models with |r|+1.96*SE<=0.30: [],0,,,any model below threshold (also needs held-out + 3-seed replication),NO_OUTLIER
+H5_head_to_head_proxy,12/25 models show var(HEXACO_A_HEX) >= var(OCEAN_A) on 60 chars,0.48,,,proxy: >=60% rank-preserved (NOTE: full Bar 2 requires GT; this is the cheap proxy),FAIL_proxy
+3seed_stability,mean within-model SD of |r| across 3 seeds = 0.0620 (n_models=25),0.062034820872632956,,,small SD = single-seed result robust,STABLE

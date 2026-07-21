@@ -1,0 +1,75 @@
+{
+  "coref_id": "0",
+  "character_name": "I",
+  "quote_count": 2,
+  "mention_count": 54,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "116",
+      1
+    ],
+    [
+      "119",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c cynicism \u201d",
+      "mention_text": "I",
+      "quote_start": 1963,
+      "quote_end": 1965,
+      "addressee_coref_id": "116",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Mr. Spectator , \u201d"
+        },
+        {
+          "speaker_coref_id": "116",
+          "quote_text": "\u201c he admires your _ Spectators _ mightily\u201d--might"
+        },
+        {
+          "speaker_coref_id": "117",
+          "quote_text": "\u201c cynical \u201d"
+        },
+        {
+          "speaker_coref_id": "117",
+          "quote_text": "\u201c the other side , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c narrow \u201d",
+      "mention_text": "I",
+      "quote_start": 2331,
+      "quote_end": 2333,
+      "addressee_coref_id": "119",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "117",
+          "quote_text": "\u201c the accepted hells beneath , \u201d"
+        },
+        {
+          "speaker_coref_id": "119",
+          "quote_text": "\u201c metaphor has been exhausted in depicting the perfection of it , combined with the narrowness of her field ; \u201d"
+        },
+        {
+          "speaker_coref_id": "355",
+          "quote_text": "\u201c absolute . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c while Mrs. Bennet was stirring the fire \u201d"
+        }
+      ]
+    }
+  ]
+}

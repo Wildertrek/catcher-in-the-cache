@@ -1,0 +1,71 @@
+{
+  "coref_id": "2451",
+  "character_name": "he",
+  "quote_count": 2,
+  "mention_count": 2,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "130",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Well , well , \u201d",
+      "mention_text": "he",
+      "quote_start": 117989,
+      "quote_end": 117994,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c If _ I _ should ever go to Brighton , I would behave better than Lydia . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c _ You _ go to Brighton ! I would not trust you so near it as Eastbourne , for fifty pounds ! No , Kitty , I have at least learnt to be cautious , and you will feel the effects of it . No officer is ever to enter my house again , nor even to pass through the village . Balls will be absolutely prohibited , unless you stand up with one of your sisters . And you are never to stir out of doors , till you can prove that you have spent ten minutes of every day in a rational manner . \u201d"
+        },
+        {
+          "speaker_coref_id": "2451",
+          "quote_text": "\u201c do not make yourself unhappy . If you are a good girl for the next ten years , I will take you to a review at the end of them . \u201d"
+        },
+        {
+          "speaker_coref_id": "627",
+          "quote_text": "\u201c I beg your pardon , madam , for interrupting you , but I was in hopes you might have got some good news from town , so I took the liberty of coming to ask . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c do not make yourself unhappy . If you are a good girl for the next ten years , I will take you to a review at the end of them . \u201d",
+      "mention_text": "he",
+      "quote_start": 117998,
+      "quote_end": 118030,
+      "addressee_coref_id": "130",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c _ You _ go to Brighton ! I would not trust you so near it as Eastbourne , for fifty pounds ! No , Kitty , I have at least learnt to be cautious , and you will feel the effects of it . No officer is ever to enter my house again , nor even to pass through the village . Balls will be absolutely prohibited , unless you stand up with one of your sisters . And you are never to stir out of doors , till you can prove that you have spent ten minutes of every day in a rational manner . \u201d"
+        },
+        {
+          "speaker_coref_id": "2451",
+          "quote_text": "\u201c Well , well , \u201d"
+        },
+        {
+          "speaker_coref_id": "627",
+          "quote_text": "\u201c I beg your pardon , madam , for interrupting you , but I was in hopes you might have got some good news from town , so I took the liberty of coming to ask . \u201d"
+        },
+        {
+          "speaker_coref_id": "627",
+          "quote_text": "\u201c What do you mean , Hill ? We have heard nothing from town . \u201d"
+        }
+      ]
+    }
+  ]
+}

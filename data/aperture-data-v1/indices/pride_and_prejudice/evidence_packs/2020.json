@@ -1,0 +1,45 @@
+{
+  "coref_id": "2020",
+  "character_name": "Mr.",
+  "quote_count": 1,
+  "mention_count": 2,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I say no more than the truth , and what everybody will say that knows him , \u201d",
+      "mention_text": "Mr.",
+      "quote_start": 97715,
+      "quote_end": 97733,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yes , sir ; but I do not know when _ that _ will be . I do not know who is good enough for him . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It is very much to his credit , I am sure , that you should think so . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I have never had a cross word from him in my life , and I have known him ever since he was four years old . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c There are very few people of whom so much can be said . You are lucky in having such a master . \u201d"
+        }
+      ]
+    }
+  ]
+}

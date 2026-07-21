@@ -1,0 +1,71 @@
+{
+  "coref_id": "164",
+  "character_name": "Miss King",
+  "quote_count": 2,
+  "mention_count": 46,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "80",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c How despicably have I acted ! \u201d",
+      "mention_text": "she",
+      "quote_start": 83903,
+      "quote_end": 83910,
+      "addressee_coref_id": "80",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c This must be false ! This can not be ! This must be the grossest falsehood!\u201d--and"
+        },
+        {
+          "speaker_coref_id": "80",
+          "quote_text": "\u201c Meeting accidentally in Town \u201d"
+        },
+        {
+          "speaker_coref_id": "164",
+          "quote_text": "\u201c I , who have prided myself on my discernment ! I , who have valued myself on my abilities ! who have often disdained the generous candour of my sister , and gratified my vanity in useless or blameless distrust . How humiliating is this discovery ! Yet , how just a humiliation ! Had I been in love , I could not have been more wretchedly blind . But vanity , not love , has been my folly . Pleased with the preference of one , and offended by the neglect of the other , on the very beginning of our acquaintance , I have courted prepossession and ignorance , and driven reason away where either were concerned . Till this moment , I never knew myself . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I , who have prided myself on my discernment ! I , who have valued myself on my abilities ! who have often disdained the generous candour of my sister , and gratified my vanity in useless or blameless distrust . How humiliating is this discovery ! Yet , how just a humiliation ! Had I been in love , I could not have been more wretchedly blind . But vanity , not love , has been my folly . Pleased with the preference of one , and offended by the neglect of the other , on the very beginning of our acquaintance , I have courted prepossession and ignorance , and driven reason away where either were concerned . Till this moment , I never knew myself . \u201d",
+      "mention_text": "she",
+      "quote_start": 83914,
+      "quote_end": 84044,
+      "addressee_coref_id": "80",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "80",
+          "quote_text": "\u201c Meeting accidentally in Town \u201d"
+        },
+        {
+          "speaker_coref_id": "164",
+          "quote_text": "\u201c How despicably have I acted ! \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c His parting obeisance \u201d"
+        },
+        {
+          "speaker_coref_id": "3546",
+          "quote_text": "\u201c What would she have said ? how would she have behaved ? \u201d"
+        }
+      ]
+    }
+  ]
+}

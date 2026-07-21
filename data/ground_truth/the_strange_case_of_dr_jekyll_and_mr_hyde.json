@@ -1,0 +1,846 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": "1886"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "25",
+      "character_name": "Mr. Utterson",
+      "quote_count": 119,
+      "consensus_ocean": {
+        "O": -0.552624,
+        "C": 0.795524,
+        "E": -0.34698799999999996,
+        "A": 0.6101719999999999,
+        "N": 0.0853
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1525,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.8,
+            "E": 0.3,
+            "A": 0.6,
+            "N": 0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.2, \"C\": 0.8, \"E\": 0.3, \"A\": 0.6, \"N\": 0.1, \"confidence\": \"high\", \"rationale\": \"Mr. Utterson is often characterized as a rational, reliable lawyer with a strong sense of duty and morality, reflecting a high level of conscientiousness and moderate agreeableness, while his reserved nature suggests lower openness and extraversion.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.5,
+            "A": 0.6,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.5,\n  \"A\": 0.6,\n  \"N\": 0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Arata, Veeder, Mighall) emphasizes Utterson as a deliberately conventional, methodical Victorian lawyer whose emotional restraint and moral rigidity define his character, making him the novella's embodiment of repressive respectability against which Jekyll's transgression is measured.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.9,
+            "C": 0.9,
+            "E": -0.8,
+            "A": 0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.9,\n  \"C\": 0.9,\n  \"E\": -0.8,\n  \"A\": 0.8,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently portrays Utterson as a conventional, highly conscientious, and introverted lawyer, driven by loyal concern for his friends and persistent anxiety, who struggles to comprehend the imaginative and transgressive nature of Jekyll's experiment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4308,
+            "C": 0.6983,
+            "E": -0.3821,
+            "A": 0.4649,
+            "N": -0.5525
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T11:51:28.259178+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001307
+        }
+      ]
+    },
+    {
+      "coref_id": "79",
+      "character_name": "the lawyer",
+      "quote_count": 106,
+      "consensus_ocean": {
+        "O": -0.41784800000000005,
+        "C": 0.672392,
+        "E": -0.141516,
+        "A": 0.4112,
+        "N": 0.032987999999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.2,
+            "A": 0.3,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.2, \"A\": 0.3, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"The lawyer, Mr. Utterson, is characterized by his conventionality and adherence to social norms, as noted in various analyses of Stevenson's exploration of Victorian morality.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": 0.6,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": 0.6,\n  \"N\": -0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Mr. Utterson is a minor character whose personality has received limited sustained critical analysis; scholars focus primarily on Jekyll and Hyde, treating Utterson mainly as a conventional Victorian observer and narrative device rather than a subject of deep characterological study.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.9,
+            "C": 0.9,
+            "E": -0.8,
+            "A": 0.3,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.9,\n  \"C\": 0.9,\n  \"E\": -0.8,\n  \"A\": 0.3,\n  \"N\": 0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently depicts Utterson as a highly conscientious, reserved, and conventional Victorian lawyer, whose internal anxiety and dread escalate as he confronts the inexplicable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2066,
+            "C": 0.6014,
+            "E": -0.4197,
+            "A": 0.44,
+            "N": 0.0321
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:50:22.711417+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001362
+        }
+      ]
+    },
+    {
+      "coref_id": "44",
+      "character_name": "Poole",
+      "quote_count": 41,
+      "consensus_ocean": {
+        "O": -0.4226599999999999,
+        "C": 0.7387919999999999,
+        "E": -0.255524,
+        "A": 0.537528,
+        "N": 0.43523199999999995
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.2, \"A\": 0.5, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Critical analyses often depict Poole as a reliable and dutiful character, reflecting a strong sense of responsibility and conscientiousness, while his limited social engagement suggests lower extraversion.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.5,
+            "A": 0.6,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.5,\n  \"A\": 0.6,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Poole is characterized in critical readings as a loyal, conventional servant whose reliability and emotional restraint anchor the narrative, though he remains a minor character whose inner life receives limited scholarly attention beyond his function as witness and moral touchstone.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.3,
+            "A": 0.6,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.3,\n  \"A\": 0.6,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism often highlights Poole's role as a loyal, conscientious servant whose profound distress and initiative drive the plot forward, reflecting the disruption of domestic order and the horror of Jekyll's transformation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3095,
+            "C": 0.5814,
+            "E": -0.3983,
+            "A": 0.4626,
+            "N": 0.3544
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:51:05.527579+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00133
+        }
+      ]
+    },
+    {
+      "coref_id": "19",
+      "character_name": "Jekyll",
+      "quote_count": 22,
+      "consensus_ocean": {
+        "O": 0.713288,
+        "C": 0.29478400000000005,
+        "E": 0.131528,
+        "A": 0.37943999999999994,
+        "N": 0.550116
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.6,
+            "E": 0.3,
+            "A": 0.5,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.6, \"E\": 0.3, \"A\": 0.5, \"N\": 0.7, \"confidence\": \"high\", \"rationale\": \"Critical analyses often highlight Jekyll's imaginative pursuit of scientific exploration and the duality of his character, reflecting a high level of openness and neuroticism due to his internal conflict.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.7,
+            "E": 0.3,
+            "A": 0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": 0.7,\n  \"E\": 0.3,\n  \"A\": 0.6,\n  \"N\": 0.5,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Veeder, Arata, Mighall) emphasizes Jekyll's intellectual ambition and scientific imagination balanced against his rigid Victorian respectability and self-control, with moderate social withdrawal and underlying anxiety about his dual nature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.6,
+            "E": 0.4,
+            "A": -0.1,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": -0.6,\n  \"E\": 0.4,\n  \"A\": -0.1,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Jekyll's radical scientific experiment and intellectual daring demonstrate high openness, but his reckless pursuit and ultimate failure to control Hyde reveal a profound lack of conscientiousness; he maintains a degree of extraversion for social standing, yet his self-serving ambition and disregard for harm compromise his agreeableness, while his internal conflict and despair signify e"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4046,
+            "C": 0.4528,
+            "E": -0.3874,
+            "A": 0.498,
+            "N": 0.1647
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:51:43.470041+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001089
+        }
+      ]
+    },
+    {
+      "coref_id": "0",
+      "character_name": "I",
+      "quote_count": 19,
+      "consensus_ocean": {
+        "O": 0.294636,
+        "C": 0.34814,
+        "E": 0.03286800000000001,
+        "A": 0.30248400000000003,
+        "N": 0.20194800000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9969,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"I is a minor character in 'The Strange Case of Dr. Jekyll and Mr. Hyde,' and there is limited published critical analysis specifically addressing their personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.85,
+            "C": 0.75,
+            "E": 0.6,
+            "A": 0.7,
+            "N": 0.65
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.85,\n  \"C\": 0.75,\n  \"E\": 0.60,\n  \"A\": 0.70,\n  \"N\": 0.65,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Veeder, Arata, Mighall) emphasizes Jekyll's intellectual curiosity and experimental boldness, his methodical scientific discipline, his social respectability masking inner conflict, and his psychological instability rooted in Victorian repression and moral duality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The character 'I' does not appear as a distinct, named individual in Robert Louis Stevenson's 'The Strange Case of Dr. Jekyll and Mr. Hyde,' precluding any meaningful assessment based on published literary criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3237,
+            "C": 0.6005,
+            "E": -0.3969,
+            "A": 0.4803,
+            "N": 0.1641
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:52:16.063395+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00133
+        }
+      ]
+    },
+    {
+      "coref_id": "27",
+      "character_name": "Mr. Enfield",
+      "quote_count": 17,
+      "consensus_ocean": {
+        "O": -0.093264,
+        "C": 0.44777199999999995,
+        "E": 0.23715999999999998,
+        "A": 0.25007199999999996,
+        "N": -0.20002399999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7812,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.4,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.4, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Mr. Enfield is characterized as a reliable and observant figure, but his conventionality and lack of emotional depth suggest a moderate level of openness and extraversion, as noted in various analyses of Stevenson's work.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": 0.4,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": 0.4,\n  \"N\": -0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Enfield is a minor character whose personality receives limited sustained critical attention; scholars focus primarily on his narrative function as a respectable witness to Hyde's brutality rather than his psychological depth, making trait assessment speculative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.1,
+            "E": -0.1,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.1,\n  \"E\": -0.1,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily focuses on Mr. Enfield's function as a narrative device and a representative of Victorian gentlemanly reserve, rather than offering detailed psychological analysis of his personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1812,
+            "C": 0.4849,
+            "E": 0.247,
+            "A": 0.2074,
+            "N": -0.2858
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:52:48.536034+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00154
+        }
+      ]
+    },
+    {
+      "coref_id": "238",
+      "character_name": "the butler",
+      "quote_count": 13,
+      "consensus_ocean": {
+        "O": -0.43587600000000004,
+        "C": 0.670768,
+        "E": -0.46303599999999995,
+        "A": 0.326208,
+        "N": 0.158804
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": -0.5,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": -0.5, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"medium\", \"rationale\": \"The butler, Poole, is characterized by a sense of duty and reliability, but his limited role and the focus on other characters in critical analyses suggest a moderate and somewhat conventional personality.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.6,
+            "A": 0.3,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.6,\n  \"A\": 0.3,\n  \"N\": -0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Poole the butler is too minor a character for sustained critical analysis; scholars focus on Jekyll, Hyde, and Utterson, leaving Poole's personality largely underdeveloped in published criticism beyond his function as a loyal, conventional servant.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.8,
+            "E": -0.3,
+            "A": 0.6,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.8,\n  \"E\": -0.3,\n  \"A\": 0.6,\n  \"N\": 0.9,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus identifies Poole as a loyal and reliable servant whose professional composure is ultimately overwhelmed by profound fear and anxiety regarding Dr. Jekyll's mysterious decline, serving as a crucial catalyst for Utterson's investigation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3567,
+            "C": 0.5956,
+            "E": -0.4537,
+            "A": 0.3936,
+            "N": 0.2243
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:53:23.799931+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000935
+        }
+      ]
+    },
+    {
+      "coref_id": "20",
+      "character_name": "Mr. Hyde",
+      "quote_count": 11,
+      "consensus_ocean": {
+        "O": -0.12249200000000005,
+        "C": -0.6624639999999999,
+        "E": -0.325384,
+        "A": -0.8862079999999999,
+        "N": 0.8218679999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": -0.3,
+            "A": -0.7,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\n  \"O\": 0.8,\n  \"C\": -0.5,\n  \"E\": -0.3,\n  \"A\": -0.7,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical analyses, such as those by David Punter and others, highlight Hyde's imaginative and unconventional nature, his lack of discipline and reliability, his introverted and aggressive tendencies, and his emotional volatility.\" \n}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": -0.9,
+            "E": 0.7,
+            "A": -0.95,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": -0.9,\n  \"E\": 0.7,\n  \"A\": -0.95,\n  \"N\": 0.85,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Veeder, Arata, Mighall) emphasizes Hyde as Jekyll's repressed id\u2014impulsive and lawless (low C), aggressive and domineering (high E), utterly lacking moral restraint and empathy (very low A), emotionally volatile and driven by base appetites (high N)\u2014while his limited imaginative agency reflects his status as embodied compulsion rather than autonomous consciousness"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.9,
+            "C": -1.0,
+            "E": -1.0,
+            "A": -1.0,
+            "N": 1.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.9,\n  \"C\": -1.0,\n  \"E\": -1.0,\n  \"A\": -1.0,\n  \"N\": 1.0,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently portrays Hyde as the embodiment of pure, unbridled evil, characterized by extreme impulsivity, malevolence, and a complete absence of empathy or social connection.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.6089,
+            "C": -0.3088,
+            "E": -0.6478,
+            "A": -0.8936,
+            "N": 0.5781
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:54:01.953856+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000776
+        }
+      ]
+    },
+    {
+      "coref_id": "201",
+      "character_name": "the other",
+      "quote_count": 10,
+      "consensus_ocean": {
+        "O": 0.1793,
+        "C": -0.43265200000000004,
+        "E": -0.07504399999999999,
+        "A": -0.586812,
+        "N": 0.657808
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.6,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": -0.3,
+            "A": -0.6,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.5, \"E\": -0.3, \"A\": -0.6, \"N\": 0.7, \"confidence\": \"high\", \"rationale\": \"Critical analyses often depict Mr. Hyde as a manifestation of repressed desires and primal instincts, highlighting his unconventionality and emotional volatility.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.75,
+            "C": -0.85,
+            "E": 0.65,
+            "A": -0.9,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.75,\n  \"C\": -0.85,\n  \"E\": 0.65,\n  \"A\": -0.90,\n  \"N\": 0.85,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Veeder, Arata, Mighall) identifies Hyde as embodying radical id-driven impulses, impulsive violence, and anarchic rejection of social constraint, with high neuroticism and low agreeableness reflecting his amoral, aggressive nature and imaginative malevolence.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": -1.0,
+            "E": -0.8,
+            "A": -1.0,
+            "N": 1.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": -1.0,\n  \"E\": -0.8,\n  \"A\": -1.0,\n  \"N\": 1.0,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published literary criticism consistently portrays Mr. Hyde as the embodiment of Jekyll's repressed, amoral, and impulsive desires, lacking empathy, discipline, and positive social engagement, while exhibiting extreme emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0025,
+            "C": 0.4691,
+            "E": 0.1177,
+            "A": 0.0471,
+            "N": 0.1636
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:54:49.343733+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000722
+        }
+      ]
+    },
+    {
+      "coref_id": "593",
+      "character_name": "my visitor",
+      "quote_count": 8,
+      "consensus_ocean": {
+        "O": 0.619442105263158,
+        "C": 0.2567,
+        "E": 0.0952421052631579,
+        "A": -0.5223736842105263,
+        "N": 0.4428000000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critics often describe the visitor as a representation of the duality of human nature, suggesting a moderate level of openness and neuroticism, but low extraversion and agreeableness due to his secretive and morally ambiguous nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.85,
+            "C": 0.75,
+            "E": 0.6,
+            "A": -0.7,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.85,\n  \"C\": 0.75,\n  \"E\": 0.60,\n  \"A\": -0.70,\n  \"N\": 0.80,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Veeder, Arata, Mighall) emphasizes Jekyll's intellectual curiosity and scientific ambition, his methodical dual life, social respectability masking inner volatility, profound lack of empathy toward victims, and acute psychological instability\u2014the core tension Stevenson explores through the novella's frame narrative.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5242,
+            "C": 0.0539,
+            "E": 0.1728,
+            "A": -0.3893,
+            "N": 0.0876
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:55:32.877214+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000918
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "char_macbeth",
+      "character_name": "Macbeth",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.33890555555555557,
+        "C": 0.16961111111111113,
+        "E": -0.07480555555555553,
+        "A": -0.18105555555555553,
+        "N": 0.4990333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7195,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.162,
+            "C": 0.289,
+            "E": 0.205,
+            "A": 0.097,
+            "N": 0.713
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "MCB/1",
+          "pgt_op_name": "Macbeth",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6169,
+            "C": -0.018,
+            "E": -0.5145,
+            "A": -0.618,
+            "N": 0.1628
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:03:02.577404+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002861
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lady_macbeth",
+      "character_name": "Lady Macbeth",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.4856722222222222,
+        "C": 0.8586,
+        "E": 0.2627277777777778,
+        "A": -0.47130555555555553,
+        "N": 0.3875722222222222
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4489,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.358,
+            "C": 0.972,
+            "E": 0.263,
+            "A": -0.419,
+            "N": 0.213
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "MCB/2",
+          "pgt_op_name": "Lady Macbeth",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6863,
+            "C": 0.6804,
+            "E": 0.2623,
+            "A": -0.5535,
+            "N": 0.6619
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:03:35.884185+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002128
+        }
+      ]
+    },
+    {
+      "coref_id": "char_duncan",
+      "character_name": "Duncan",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1066,
+        "C": 0.629,
+        "E": 0.625,
+        "A": 0.7819235294117647,
+        "N": -0.47900000000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.0439,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Altaf2023_Rhetorical_Appeals_Used_Shakespearean.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pershina2018_Metaphors_Crime_Punishment_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.8,
+                0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "pending"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1066,
+            "C": 0.629,
+            "E": 0.625,
+            "A": 0.7561,
+            "N": -0.479
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:04:16.273884+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001136
+        }
+      ]
+    },
+    {
+      "coref_id": "char_banquo",
+      "character_name": "Banquo",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5879764705882353,
+        "C": 0.6400882352941176,
+        "E": 0.0837,
+        "A": 0.4474000000000001,
+        "N": -0.3900588235294118
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.165,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "N": -0.458
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Mirza2020_Fall_Man_Shakespeares_Macbeth.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pershina2018_Metaphors_Crime_Punishment_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": -0.458,
+              "confidence_interval": [
+                -0.555,
+                -0.361
+              ],
+              "n_sources": 2,
+              "std_dev": 0.049
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5708,
+            "C": 0.5545,
+            "E": 0.0837,
+            "A": 0.4474,
+            "N": -0.293
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:04:42.753165+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001343
+        }
+      ]
+    },
+    {
+      "coref_id": "char_malcolm",
+      "character_name": "Malcolm",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7498148148148148,
+        "C": 0.2437259259259259,
+        "E": 0.08628148148148146,
+        "A": 0.179437037037037,
+        "N": -0.13929999999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.965,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.117,
+            "E": 0.0,
+            "A": 0.1,
+            "N": 0.0
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Mirza2020_Fall_Man_Shakespeares_Macbeth.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.117,
+              "confidence_interval": [
+                -0.395,
+                0.628
+              ],
+              "n_sources": 2,
+              "std_dev": 0.261
+            },
+            "E": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.1,
+              "confidence_interval": [
+                -0.338,
+                0.538
+              ],
+              "n_sources": 2,
+              "std_dev": 0.224
+            },
+            "N": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.035,
+            "C": 0.6058,
+            "E": 0.3328,
+            "A": 0.4064,
+            "N": -0.5373
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:05:11.972786+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001853
+        }
+      ]
+    },
+    {
+      "coref_id": "char_macduff",
+      "character_name": "Macduff",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6688999999999999,
+        "C": 0.2448407407407407,
+        "E": 0.0584111111111111,
+        "A": 0.23909259259259255,
+        "N": 0.07956666666666666
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2771,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.117,
+            "E": 0.0,
+            "A": 0.1,
+            "N": 0.0
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Mirza2020_Fall_Man_Shakespeares_Macbeth.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.117,
+              "confidence_interval": [
+                -0.395,
+                0.628
+              ],
+              "n_sources": 2,
+              "std_dev": 0.261
+            },
+            "E": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.1,
+              "confidence_interval": [
+                -0.338,
+                0.538
+              ],
+              "n_sources": 2,
+              "std_dev": 0.224
+            },
+            "N": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2771,
+            "C": 0.6101,
+            "E": 0.2253,
+            "A": 0.6365,
+            "N": 0.3069
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:05:40.223242+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001661
+        }
+      ]
+    },
+    {
+      "coref_id": "char_ross",
+      "character_name": "Ross",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.780511111111111,
+        "C": 0.16159629629629627,
+        "E": 0.0540037037037037,
+        "A": 0.12335555555555554,
+        "N": -0.13178148148148147
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8466,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 1.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Pizzolli2019_Personality_Traits_Literary_Texts.json",
+              "framework": "big_five",
+              "tier": 1,
+              "weight": 1.0
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 1.0,
+              "confidence_interval": [
+                0.412,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.0,
+              "confidence_interval": [
+                -0.588,
+                0.588
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1534,
+            "C": 0.6233,
+            "E": 0.2083,
+            "A": 0.4758,
+            "N": -0.5083
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:06:16.878663+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001475
+        }
+      ]
+    }
+  ],
+  "orphan_characters": [
+    {
+      "coref_id": "757",
+      "character_name": "The Witches",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "C": -0.9,
+        "E": 0.5,
+        "A": -0.817
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "C": -0.9,
+            "E": 0.5,
+            "A": -0.817
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Liu2025_Parasitism_Stripping_Desire_Lady.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Mirza2020_Fall_Man_Shakespeares_Macbeth.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Pershina2018_Metaphors_Crime_Punishment_Shakespeares.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zereen2023_Masculine_Traits_Women_Characters.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.9,
+              "confidence_interval": [
+                -1.0,
+                -0.312
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": -0.817,
+              "confidence_interval": [
+                -1.0,
+                -0.485
+              ],
+              "n_sources": 3,
+              "std_dev": 0.17
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    }
+  ],
+  "archive_metadata": {
+    "moved_by": "stage_07_g5_orphan_remap_2026-04-15",
+    "moved_at": "2026-04-15T13:20:42Z",
+    "n_moved": 1,
+    "orphan_reasons": [
+      "registry_has_three_individual_witches_no_aggregate"
+    ],
+    "orphan_names": [
+      "The Witches"
+    ],
+    "backup": "ground_truth.json.bak.2026-04-15"
+  },
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 6 orphan coref_id(s) to registry equivalents; archived 1 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "268": "char_macbeth",
+        "980": "char_lady_macbeth",
+        "162": "char_banquo",
+        "565": "char_malcolm",
+        "513": "char_macduff",
+        "114": "char_ross"
+      },
+      "archived": [
+        {
+          "coref_id": "757",
+          "character_name": "The Witches",
+          "reason": "registry_has_three_individual_witches_no_aggregate"
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

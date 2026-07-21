@@ -1,0 +1,75 @@
+{
+  "coref_id": "3131",
+  "character_name": "the girls",
+  "quote_count": 2,
+  "mention_count": 59,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "198",
+      1
+    ],
+    [
+      "450",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c If you are looking for my master , ma\u2019am , he is walking towards the little copse . \u201d",
+      "mention_text": "they",
+      "quote_start": 118266,
+      "quote_end": 118285,
+      "addressee_coref_id": "198",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "198",
+          "quote_text": "\u201c Dear madam , \u201d"
+        },
+        {
+          "speaker_coref_id": "198",
+          "quote_text": "\u201c do n\u2019t you know there is an express come for master from Mr. Gardiner ? He has been here this half hour , and master has had a letter . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Oh , papa , what news ? what news ? have you heard from my uncle ? \u201d"
+        },
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c Yes , I have had a letter from him by express . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The men sha n\u2019t come and part us , I am determined . We want none of them ; do we ? \u201d",
+      "mention_text": "the girls",
+      "quote_start": 134108,
+      "quote_end": 134131,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c If he does not come to me , _ then _ , \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I shall give him up for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c A man who has once been refused ! How could I ever be foolish enough to expect a renewal of his love ? Is there one among the sex who would not protest against such a weakness as a second proposal to the same woman ? There is no indignity so abhorrent to their feelings . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Is your sister at Pemberley still ? \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "coref_id": "1634",
+  "character_name": "her other nephew",
+  "quote_count": 2,
+  "mention_count": 10,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "229",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I shall not say that you are mistaken , \u201d",
+      "mention_text": "he",
+      "quote_start": 71376,
+      "quote_end": 71386,
+      "addressee_coref_id": "229",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c So much the better . It can not be done too much ; and when I next write to her , I shall charge her not to neglect it on any account . I often tell young ladies , that no excellence in music is to be acquired without constant practice . I have told Miss Bennet several times , that she will never play really well , unless she practises more ; and though Mrs. Collins has no instrument , she is very welcome , as I have often told her , to come to Rosings every day , and play on the pianoforte in Mrs. Jenkinson \u2019s room . She would be in nobody \u2019s way , you know , in that part of the house . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You mean to frighten me , Mr. Darcy , by coming in all this state to hear me . But I will not be alarmed , though your sister _ does _ play so well . There is a stubbornness about me that never can bear to be frightened at the will of others . My courage always rises with every attempt to intimidate me . \u201d"
+        },
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c because you could not really believe me to entertain any design of alarming you ; and I have had the pleasure of your acquaintance long enough to know , that you find great enjoyment in occasionally professing opinions which , in fact , are not your own . \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Your cousin will give you a very pretty notion of me , and teach you not to believe a word I say . I am particularly unlucky in meeting with a person so well able to expose my real character , in a part of the world where I had hoped to pass myself off with some degree of credit . Indeed , Mr. Darcy , it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire -- and , give me leave to say , very impolitic too -- for it is provoking me to retaliate , and such things may come out as will shock your relations to hear . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c because you could not really believe me to entertain any design of alarming you ; and I have had the pleasure of your acquaintance long enough to know , that you find great enjoyment in occasionally professing opinions which , in fact , are not your own . \u201d",
+      "mention_text": "he",
+      "quote_start": 71390,
+      "quote_end": 71439,
+      "addressee_coref_id": "229",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c You mean to frighten me , Mr. Darcy , by coming in all this state to hear me . But I will not be alarmed , though your sister _ does _ play so well . There is a stubbornness about me that never can bear to be frightened at the will of others . My courage always rises with every attempt to intimidate me . \u201d"
+        },
+        {
+          "speaker_coref_id": "1634",
+          "quote_text": "\u201c I shall not say that you are mistaken , \u201d"
+        },
+        {
+          "speaker_coref_id": "229",
+          "quote_text": "\u201c Your cousin will give you a very pretty notion of me , and teach you not to believe a word I say . I am particularly unlucky in meeting with a person so well able to expose my real character , in a part of the world where I had hoped to pass myself off with some degree of credit . Indeed , Mr. Darcy , it is very ungenerous in you to mention all that you knew to my disadvantage in Hertfordshire -- and , give me leave to say , very impolitic too -- for it is provoking me to retaliate , and such things may come out as will shock your relations to hear . \u201d"
+        },
+        {
+          "speaker_coref_id": "1637",
+          "quote_text": "\u201c I am not afraid of you , \u201d"
+        }
+      ]
+    }
+  ]
+}

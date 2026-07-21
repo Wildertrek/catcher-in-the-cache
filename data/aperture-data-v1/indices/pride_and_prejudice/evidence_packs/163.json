@@ -1,0 +1,633 @@
+{
+  "coref_id": "163",
+  "character_name": "Miss Lucas",
+  "quote_count": 23,
+  "mention_count": 132,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      4
+    ],
+    [
+      "127",
+      4
+    ],
+    [
+      "118",
+      4
+    ],
+    [
+      "138",
+      3
+    ],
+    [
+      "103",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I do not mind his not talking to Mrs. Long , \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 12482,
+      "quote_end": 12494,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c that he never speaks much unless among his intimate acquaintance . With _ them _ he is remarkably agreeable . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I do not believe a word of it , my dear . If he had been so very agreeable , he would have talked to Mrs. Long . But I can guess how it was ; everybody says that he is eat up with pride , and I dare say he had heard somehow that Mrs. Long does not keep a carriage , and had to come to the ball in a hack chaise . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c but I wish he had danced with Eliza . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Another time , Lizzy , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c but I wish he had danced with Eliza . \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 12499,
+      "quote_end": 12509,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I do not believe a word of it , my dear . If he had been so very agreeable , he would have talked to Mrs. Long . But I can guess how it was ; everybody says that he is eat up with pride , and I dare say he had heard somehow that Mrs. Long does not keep a carriage , and had to come to the ball in a hack chaise . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I do not mind his not talking to Mrs. Long , \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c Another time , Lizzy , \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I would not dance with _ him _ , if I were you . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c His pride , \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 12557,
+      "quote_end": 12561,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I would not dance with _ him _ , if I were you . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I believe , ma\u2019am , I may safely promise you _ never _ to dance with him . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c does not offend _ me _ so much as pride often does , because there is an excuse for it . One can not wonder that so very fine a young man , with family , fortune , everything in his favour , should think highly of himself . If I may so express it , he has a _ right _ to be proud . \u201d"
+        },
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c That is very true , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c does not offend _ me _ so much as pride often does , because there is an excuse for it . One can not wonder that so very fine a young man , with family , fortune , everything in his favour , should think highly of himself . If I may so express it , he has a _ right _ to be proud . \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 12566,
+      "quote_end": 12633,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I believe , ma\u2019am , I may safely promise you _ never _ to dance with him . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c His pride , \u201d"
+        },
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c That is very true , \u201d"
+        },
+        {
+          "speaker_coref_id": "174",
+          "quote_text": "\u201c and I could easily forgive _ his _ pride , if he had not mortified _ mine _ . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c If I were as rich as Mr. Darcy , \u201d",
+      "mention_text": "Lucas",
+      "quote_start": 12795,
+      "quote_end": 12805,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c Pride , \u201d"
+        },
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c is a very common failing , I believe . By all that I have ever read , I am convinced that it is very common indeed ; that human nature is particularly prone to it , and that there are very few of us who do not cherish a feeling of self - complacency on the score of some quality or other , real or imaginary . Vanity and pride are different things , though the words are often used synonymously . A person may be proud without being vain . Pride relates more to our opinion of ourselves ; vanity to what we would have others think of us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not care how proud I was . I would keep a pack of foxhounds , and drink a bottle of wine every day . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Then you would drink a great deal more than you ought , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I should not care how proud I was . I would keep a pack of foxhounds , and drink a bottle of wine every day . \u201d",
+      "mention_text": "Lucas",
+      "quote_start": 12817,
+      "quote_end": 12844,
+      "addressee_coref_id": "124",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "124",
+          "quote_text": "\u201c is a very common failing , I believe . By all that I have ever read , I am convinced that it is very common indeed ; that human nature is particularly prone to it , and that there are very few of us who do not cherish a feeling of self - complacency on the score of some quality or other , real or imaginary . Vanity and pride are different things , though the words are often used synonymously . A person may be proud without being vain . Pride relates more to our opinion of ourselves ; vanity to what we would have others think of us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c If I were as rich as Mr. Darcy , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Then you would drink a great deal more than you ought , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c and if I were to see you at it , I should take away your bottle directly . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Did not you think , Mr. Darcy , that I expressed myself uncommonly well just now , when I was teasing Colonel Forster to give us a ball at Meryton ? \u201d",
+      "mention_text": "she",
+      "quote_start": 14345,
+      "quote_end": 14377,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c But if he does it any more , I shall certainly let him know that I see what he is about . He has a very satirical eye , and if I do not begin by being impertinent myself , I shall soon grow afraid of him . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c With great energy ; but it is a subject which always makes a lady energetic . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are severe on us . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c With great energy ; but it is a subject which always makes a lady energetic . \u201d",
+      "mention_text": "she",
+      "quote_start": 14378,
+      "quote_end": 14395,
+      "addressee_coref_id": "156",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Did not you think , Mr. Darcy , that I expressed myself uncommonly well just now , when I was teasing Colonel Forster to give us a ball at Meryton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are severe on us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c It will be _ her _ turn soon to be teased , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You are severe on us . \u201d",
+      "mention_text": "she",
+      "quote_start": 14396,
+      "quote_end": 14403,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Did not you think , Mr. Darcy , that I expressed myself uncommonly well just now , when I was teasing Colonel Forster to give us a ball at Meryton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c With great energy ; but it is a subject which always makes a lady energetic . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c It will be _ her _ turn soon to be teased , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I am going to open the instrument , Eliza , and you know what follows . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It will be _ her _ turn soon to be teased , \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 14404,
+      "quote_end": 14417,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c With great energy ; but it is a subject which always makes a lady energetic . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are severe on us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I am going to open the instrument , Eliza , and you know what follows . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are a very strange creature by way of a friend!--always wanting me to play and sing before anybody and everybody ! If my vanity had taken a musical turn , you would have been invaluable ; but as it is , I would really rather not sit down before those who must be in the habit of hearing the very best performers . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am going to open the instrument , Eliza , and you know what follows . \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 14422,
+      "quote_end": 14439,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are severe on us . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c It will be _ her _ turn soon to be teased , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are a very strange creature by way of a friend!--always wanting me to play and sing before anybody and everybody ! If my vanity had taken a musical turn , you would have been invaluable ; but as it is , I would really rather not sit down before those who must be in the habit of hearing the very best performers . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Very well ; if it must be so , it must . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You are a very strange creature by way of a friend!--always wanting me to play and sing before anybody and everybody ! If my vanity had taken a musical turn , you would have been invaluable ; but as it is , I would really rather not sit down before those who must be in the habit of hearing the very best performers . \u201d",
+      "mention_text": "Miss Lucas",
+      "quote_start": 14440,
+      "quote_end": 14505,
+      "addressee_coref_id": "127",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c It will be _ her _ turn soon to be teased , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I am going to open the instrument , Eliza , and you know what follows . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Very well ; if it must be so , it must . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c There is a very fine old saying , which everybody here is of course familiar with--\u2018Keep your breath to cool your porridge,\u2019--and I shall keep mine to swell my song . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Very well ; if it must be so , it must . \u201d",
+      "mention_text": "she",
+      "quote_start": 14517,
+      "quote_end": 14530,
+      "addressee_coref_id": "127",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I am going to open the instrument , Eliza , and you know what follows . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c You are a very strange creature by way of a friend!--always wanting me to play and sing before anybody and everybody ! If my vanity had taken a musical turn , you would have been invaluable ; but as it is , I would really rather not sit down before those who must be in the habit of hearing the very best performers . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c There is a very fine old saying , which everybody here is of course familiar with--\u2018Keep your breath to cool your porridge,\u2019--and I shall keep mine to swell my song . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What a charming amusement for young people this is , Mr. Darcy ! There is nothing like dancing , after all . I consider it as one of the first refinements of polished societies . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Pray do , my dear Miss Lucas , \u201d",
+      "mention_text": "she",
+      "quote_start": 48916,
+      "quote_end": 48925,
+      "addressee_coref_id": "138",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c I am glad you are come , for there is such fun here ! What do you think has happened this morning ? Mr. Collins has made an offer to Lizzy , and she will not have him . \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c they entered the breakfast room \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c for nobody is on my side , nobody takes part with me ; I am cruelly used , nobody feels for my poor nerves . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Ay , there she comes , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c for nobody is on my side , nobody takes part with me ; I am cruelly used , nobody feels for my poor nerves . \u201d",
+      "mention_text": "she",
+      "quote_start": 48934,
+      "quote_end": 48960,
+      "addressee_coref_id": "138",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c they entered the breakfast room \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Pray do , my dear Miss Lucas , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Ay , there she comes , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c looking as unconcerned as may be , and caring no more for us than if we were at York , provided she can have her own way . But I tell you what , Miss Lizzy , if you take it into your head to go on refusing every offer of marriage in this way , you will never get a husband at all -- and I am sure I do not know who is to maintain you when your father is dead . _ I _ shall not be able to keep you -- and so I warn you . I have done with you from this very day . I told you in the library , you know , that I should never speak to you again , and you will find me as good as my word . I have no pleasure in talking to undutiful children . Not that I have much pleasure , indeed , in talking to anybody . People who suffer as I do from nervous complaints can have no great inclination for talking . Nobody can tell what I suffer ! But it is always so . Those who do not complain are never pitied . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Why should you be surprised , my dear Eliza ? Do you think it incredible that Mr. Collins should be able to procure any woman \u2019s good opinion , because he was not so happy as to succeed with you ? \u201d",
+      "mention_text": "she",
+      "quote_start": 53667,
+      "quote_end": 53709,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Believe me , my dear sir , my gratitude is warmly excited by such affectionate attention ; and , depend upon it , you will speedily receive from me a letter of thanks for this as well as for every other mark of your regard during my stay in Hertfordshire . As for my fair cousins , though my absence may not be long enough to render it necessary , I shall now take the liberty of wishing them health and happiness , not excepting my cousin Elizabeth . \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c Engaged to Mr. Collins ! my dear Charlotte , impossible ! \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c I see what you are feeling , \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c you must be surprised , very much surprised , so lately as Mr. Collins was wishing to marry you . But when you have had time to think it all over , I hope you will be satisfied with what I have done . I am not romantic , you know . I never was . I ask only a comfortable home ; and , considering Mr. Collins \u2019s character , connections , and situation in life , I am convinced that my chance of happiness with him is as fair as most people can boast on entering the marriage state . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Indeed , Mr. Bennet , \u201d",
+      "mention_text": "she",
+      "quote_start": 55702,
+      "quote_end": 55708,
+      "addressee_coref_id": "118",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Good Lord ! Sir William , how can you tell such a story ? Do not you know that Mr. Collins wants to marry Lizzy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ Whenever she spoke in a low voice _ \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c it is very hard to think that Charlotte Lucas should ever be mistress of this house , that _ I _ should be forced to make way for _ her _ , and live to see her take my place in it ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c it is very hard to think that Charlotte Lucas should ever be mistress of this house , that _ I _ should be forced to make way for _ her _ , and live to see her take my place in it ! \u201d",
+      "mention_text": "she",
+      "quote_start": 55712,
+      "quote_end": 55756,
+      "addressee_coref_id": "138",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c _ Whenever she spoke in a low voice _ \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Indeed , Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I can not bear to think that they should have all this estate . If it was not for the entail , I should not mind it . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can not bear to think that they should have all this estate . If it was not for the entail , I should not mind it . \u201d",
+      "mention_text": "she",
+      "quote_start": 55816,
+      "quote_end": 55845,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c it is very hard to think that Charlotte Lucas should ever be mistress of this house , that _ I _ should be forced to make way for _ her _ , and live to see her take my place in it ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c What should not you mind ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not mind anything at all . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c What should not you mind ? \u201d",
+      "mention_text": "she",
+      "quote_start": 55846,
+      "quote_end": 55853,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I can not bear to think that they should have all this estate . If it was not for the entail , I should not mind it . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not mind anything at all . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Let us be thankful that you are preserved from a state of such insensibility . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I should not mind anything at all . \u201d",
+      "mention_text": "she",
+      "quote_start": 55854,
+      "quote_end": 55863,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I can not bear to think that they should have all this estate . If it was not for the entail , I should not mind it . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c What should not you mind ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Let us be thankful that you are preserved from a state of such insensibility . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I never can be thankful , Mr. Bennet , for anything about the entail . How anyone could have the conscience to entail away an estate from one \u2019s own daughters I can not understand ; and all for the sake of Mr. Collins , too ! Why should _ he _ have it more than anybody else ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Let us be thankful that you are preserved from a state of such insensibility . \u201d",
+      "mention_text": "she",
+      "quote_start": 55864,
+      "quote_end": 55880,
+      "addressee_coref_id": "118",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c What should not you mind ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not mind anything at all . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I never can be thankful , Mr. Bennet , for anything about the entail . How anyone could have the conscience to entail away an estate from one \u2019s own daughters I can not understand ; and all for the sake of Mr. Collins , too ! Why should _ he _ have it more than anybody else ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I leave it to yourself to determine , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I never can be thankful , Mr. Bennet , for anything about the entail . How anyone could have the conscience to entail away an estate from one \u2019s own daughters I can not understand ; and all for the sake of Mr. Collins , too ! Why should _ he _ have it more than anybody else ? \u201d",
+      "mention_text": "she",
+      "quote_start": 55881,
+      "quote_end": 55941,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I should not mind anything at all . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Let us be thankful that you are preserved from a state of such insensibility . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I leave it to yourself to determine , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c O that my dear mother had more command over herself ! she can have no idea of the pain she gives me by her continual reflections on him . But I will not repine . It can not last long . He will be forgot , and we shall all be as we were before . \u201d"
+        }
+      ]
+    }
+  ]
+}

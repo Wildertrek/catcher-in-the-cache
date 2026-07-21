@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Titus Andronicus",
+    "author": "William Shakespeare",
+    "year": "c. 1590"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_titus_andronicus",
+      "character_name": "Titus Andronicus",
+      "quote_count": 119,
+      "consensus_ocean": {
+        "O": 0.113092,
+        "C": 0.582764,
+        "E": 0.09015600000000003,
+        "A": -0.538692,
+        "N": 0.8294640000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0039,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.5,
+            "E": 0.3,
+            "A": -0.5,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.2, \"C\": 0.5, \"E\": 0.3, \"A\": -0.5, \"N\": 0.8, \"confidence\": \"high\", \"rationale\": \"Titus Andronicus is often portrayed as a tragic figure driven by revenge and emotional turmoil, reflecting high neuroticism and low agreeableness, as noted in various critical analyses including A.C. Bradley's discussions on Shakespearean tragedy.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bradley, Bloom, modern scholarship) identifies Titus as a rigid, honor-bound military man whose extreme emotional volatility, vengeful ruthlessness, and near-total loss of empathy following his mutilation define his arc, while his disciplined adherence to Roman duty and martial code initially structure his character.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.4,
+            "C": 0.9,
+            "E": -0.3,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.4,\n  \"C\": 0.9,\n  \"E\": -0.3,\n  \"A\": -0.8,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Titus as initially rigid and duty-bound, then consumed by profound grief and a cunning, brutal desire for vengeance, demonstrating low agreeableness and high neuroticism, alongside unwavering conscientiousness and a dark, unconventional imagination in his revenge.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4039,
+            "C": 0.2813,
+            "E": -0.1923,
+            "A": -0.1239,
+            "N": 0.7338
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:26:46.916751+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003184
+        }
+      ]
+    },
+    {
+      "coref_id": "char_marcus_andronicus",
+      "character_name": "Marcus Andronicus",
+      "quote_count": 64,
+      "consensus_ocean": {
+        "O": -0.16317600000000002,
+        "C": 0.5786359999999999,
+        "E": 0.036992,
+        "A": 0.381308,
+        "N": -0.07110399999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5,
+            "E": -0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 0.5, \"E\": -0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Critics often depict Marcus Andronicus as a character marked by a rigid adherence to duty and tradition, reflecting a complex interplay of honor and emotional turmoil.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.6,
+            "E": 0.4,
+            "A": 0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": 0.5,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Marcus Andronicus is a minor character whose personality receives limited sustained critical attention in major Shakespearean scholarship; most analysis focuses on Titus, Tamora, and Aaron, leaving Marcus's psychological profile underdeveloped in published criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.4,
+            "C": 0.7,
+            "E": 0.2,
+            "A": 0.8,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.4,\n  \"C\": 0.7,\n  \"E\": 0.2,\n  \"A\": 0.8,\n  \"N\": -0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Marcus as a dutiful, empathetic, and well-meaning figure, often serving as a voice of lament and reason amidst the play's brutality, though not particularly innovative or assertive.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4458,
+            "C": 0.5237,
+            "E": 0.0464,
+            "A": 0.6761,
+            "N": -0.5968
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:27:21.208252+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002434
+        }
+      ]
+    },
+    {
+      "coref_id": "char_aaron",
+      "character_name": "Aaron",
+      "quote_count": 57,
+      "consensus_ocean": {
+        "O": 0.65804,
+        "C": 0.26089599999999996,
+        "E": 0.463172,
+        "A": -0.9079560000000001,
+        "N": 0.36289199999999994
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.75,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": 0.6,
+            "A": -0.9,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.5, \"E\": 0.6, \"A\": -0.9, \"N\": 0.7, \"confidence\": \"high\", \"rationale\": \"Aaron is often characterized as a cunning and imaginative villain, displaying high openness and extraversion, while his lack of agreeableness and high neuroticism align with critical interpretations of his manipulative and vengeful nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.9,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": 0.85,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bloom, Bevington, Bate) identifies Aaron as a Machiavellian villain of calculated cunning and theatrical self-awareness, yet driven by vengeful passion and racial resentment; his elaborate plotting demonstrates conscientiousness and imaginative malevolence, while his fundamental cruelty, emotional intensity, and complete absence of empathy or remorse establish extre"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -1.0,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -1.0,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Aaron as a figure of pure, calculated malice, characterized by his intellectual cunning, meticulous planning, and complete lack of empathy or remorse, as discussed by scholars like Harold Bloom and in numerous journal articles on Shakespearean villainy.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.293,
+            "C": -0.0968,
+            "E": -0.0601,
+            "A": -0.8427,
+            "N": 0.7389
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:27:59.764743+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00253
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lucius",
+      "character_name": "Lucius",
+      "quote_count": 51,
+      "consensus_ocean": {
+        "O": -0.09326799999999999,
+        "C": 0.5239119999999999,
+        "E": 0.42534,
+        "A": -0.259776,
+        "N": 0.07619200000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.5,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Lucius is a relatively minor character in 'Titus Andronicus,' and while he plays a role in the narrative, there is limited critical analysis specifically addressing his personality traits in depth.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.8,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Dessen) identifies Lucius as dutiful and militaristic but emotionally volatile and vengeful, lacking imaginative flexibility; he embodies rigid Roman virtue corrupted by trauma and familial loyalty rather than empathetic reasoning.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.8,
+            "E": 0.7,
+            "A": -0.4,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.8,\n  \"E\": 0.7,\n  \"A\": -0.4,\n  \"N\": -0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently characterizes Lucius as a resolute and pragmatic leader who, despite his vengeful actions, ultimately restores order to Rome, highlighting his conscientiousness, extraversion, and emotional stability.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3331,
+            "C": 0.5854,
+            "E": 0.4905,
+            "A": 0.1008,
+            "N": 0.1864
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:28:42.075430+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001754
+        }
+      ]
+    },
+    {
+      "coref_id": "char_saturninus",
+      "character_name": "Saturninus",
+      "quote_count": 49,
+      "consensus_ocean": {
+        "O": -0.598244,
+        "C": 0.23765199999999997,
+        "E": 0.5604359999999999,
+        "A": -0.694272,
+        "N": 0.63632
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.5,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": 0.5, \"E\": 0.5, \"A\": -0.5, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Saturninus is often portrayed as ambitious and power-hungry, reflecting a lack of openness and agreeableness, while exhibiting some level of extraversion and neuroticism in his quest for dominance.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.9,
+            "N": 0.85
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": 0.85,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Bevington) identifies Saturninus as a volatile, emotionally unstable tyrant lacking empathy or moral imagination, yet capable of calculated political assertion and administrative function, making him conventionally ambitious rather than creatively open.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": -0.7,
+            "E": 0.5,
+            "A": -1.0,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": -0.7,\n  \"E\": 0.5,\n  \"A\": -1.0,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently depicts Saturninus as an impulsive, cruel, and easily manipulated tyrant, lacking empathy, discipline, and emotional stability, while being highly assertive in his pursuit of power.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4223,
+            "C": 0.5059,
+            "E": 0.4587,
+            "A": -0.4224,
+            "N": 0.344
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:29:12.109085+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001917
+        }
+      ]
+    },
+    {
+      "coref_id": "char_tamora",
+      "character_name": "Tamora",
+      "quote_count": 49,
+      "consensus_ocean": {
+        "O": 0.5266919999999999,
+        "C": 0.357768,
+        "E": 0.688072,
+        "A": -0.7271799999999999,
+        "N": 0.7560439999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": 0.7, \"A\": -0.8, \"N\": 0.9, \"confidence\": \"high\", \"rationale\": \"Critics like A.C. Bradley and Harold Bloom highlight Tamora's assertive and vengeful nature, emphasizing her emotional volatility and lack of cooperation, which aligns with her role as a powerful antagonist in the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.7,
+            "A": -0.8,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": -0.8,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Bloom, Bevington, Enterline) identifies Tamora as a calculating, ambitious political operator with fierce emotional volatility, strategic cunning, and profound cruelty masking deep vengeful rage, rather than imaginative or empathetic.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 0.7,
+            "A": -1.0,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 0.7,\n  \"A\": -1.0,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently identifies Tamora as a formidable, vengeful antagonist, driven by a potent blend of strategic malice, inventive cruelty, and intense emotional grievance, utterly lacking in empathy or agreeableness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4239,
+            "C": 0.4206,
+            "E": 0.6574,
+            "A": -0.3685,
+            "N": 0.5573
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:29:52.033416+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002159
+        }
+      ]
+    },
+    {
+      "coref_id": "char_demetrius",
+      "character_name": "Demetrius",
+      "quote_count": 39,
+      "consensus_ocean": {
+        "O": -0.33204399999999995,
+        "C": 0.171708,
+        "E": 0.36264399999999997,
+        "A": -0.54228,
+        "N": 0.29675599999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.5,
+            "C": -0.2,
+            "E": 0.5,
+            "A": -0.7,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": -0.5, \"C\": -0.2, \"E\": 0.5, \"A\": -0.7, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Demetrius is often portrayed as a violent and impulsive character, reflecting a lack of conscientiousness and agreeableness, while his assertiveness and social energy are evident in his interactions, particularly in his pursuit of Lavinia.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.5,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.5,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.7,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus treats Demetrius as a brutal, opportunistic villain driven by lust and revenge with little imaginative depth; scholars note his impulsive cruelty and lack of empathy align with the play's early tragic-sensationalist mode, though he receives less sustained analysis than Titus or Aaron.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats Demetrius as a functional, undifferentiated villain alongside his brother Chiron, rather than providing a nuanced individual psychological assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1573,
+            "C": 0.3561,
+            "E": 0.3523,
+            "A": -0.651,
+            "N": 0.2027
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:30:33.597462+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001207
+        }
+      ]
+    },
+    {
+      "coref_id": "char_chiron",
+      "character_name": "Chiron",
+      "quote_count": 30,
+      "consensus_ocean": {
+        "O": 0.316504,
+        "C": 0.049963999999999995,
+        "E": 0.268992,
+        "A": -0.551052,
+        "N": 0.42603599999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": 0.0,
+            "A": -0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": 0.0, \"A\": -0.8, \"N\": 0.7, \"confidence\": \"medium\", \"rationale\": \"Chiron is often interpreted as a symbol of brutality and revenge, reflecting a complex personality marked by emotional volatility and a lack of empathy, as discussed in various critical analyses of 'Titus Andronicus'.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.8,
+            "E": 0.6,
+            "A": -0.9,
+            "N": 0.75
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.8,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": 0.75,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Chiron emerges in critical scholarship as a calculating, methodical villain whose imaginative cruelty and systematic planning (alongside his brother Demetrius) exemplify Renaissance villainy, though he receives less sustained analysis than primary antagonists like Aaron, and critics note his relative dependence on Aaron's intellectual leadership.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats Chiron as a functional, interchangeable villain alongside his brother Demetrius, rather than offering meaningful individual psychological assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1018,
+            "C": -0.0787,
+            "E": 0.4464,
+            "A": -0.5109,
+            "N": 0.2787
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:31:10.325932+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001114
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lavinia",
+      "character_name": "Lavinia",
+      "quote_count": 15,
+      "consensus_ocean": {
+        "O": -0.09976,
+        "C": 0.189768,
+        "E": -0.202516,
+        "A": 0.40410399999999996,
+        "N": 0.454352
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Lavinia's character is often analyzed in terms of her victimization and the emotional turmoil she experiences, which suggests a moderate level of neuroticism, while her other traits are less distinctly defined in critical literature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.3,
+            "E": -0.5,
+            "A": 0.4,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.3,\n  \"E\": -0.5,\n  \"A\": 0.4,\n  \"N\": 0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Bloom, Garber) emphasizes Lavinia's transformation from conventional, obedient daughter to traumatized victim whose mutilation strips agency and voice, leaving her emotionally volatile and withdrawn, though her pre-violation characterization shows modest conscientiousness and agreeableness within patriarchal constraints.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.5,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published criticism primarily analyzes Lavinia as a symbol of violated innocence and a catalyst for the play's revenge plot, rather than focusing on her complex psychological traits, making a detailed personality assessment challenging, though her portrayal consistently implies high agreeableness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.158,
+            "C": 0.4206,
+            "E": -0.2947,
+            "A": 0.6718,
+            "N": 0.5084
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:31:46.236917+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001144
+        }
+      ]
+    },
+    {
+      "coref_id": "char_bassianus",
+      "character_name": "Bassianus",
+      "quote_count": 14,
+      "consensus_ocean": {
+        "O": -0.26222,
+        "C": 0.010084000000000004,
+        "E": 0.24734799999999998,
+        "A": -0.060904,
+        "N": 0.059836
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2682,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Bassianus is a relatively minor character in 'Titus Andronicus,' and there is limited critical analysis specifically addressing his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": -0.6,
+            "E": 0.6,
+            "A": -0.8,
+            "N": 0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": -0.6,\n  \"E\": 0.6,\n  \"A\": -0.8,\n  \"N\": 0.7,\n  \"confidence\": \"low\",\n  \"rationale\": \"Bassianus is a minor character whose personality receives minimal sustained critical attention in major Shakespearean scholarship; available analyses note his impulsive elopement and lack of moral restraint, but the corpus lacks the depth of characterization study afforded to protagonists.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses Bassianus in terms of his plot function as the rightful suitor and an innocent victim, rather than offering a detailed psychological assessment of his personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3365,
+            "C": 0.5503,
+            "E": 0.3691,
+            "A": 0.4682,
+            "N": -0.3863
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T17:32:15.643134+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001094
+        }
+      ]
+    }
+  ]
+}

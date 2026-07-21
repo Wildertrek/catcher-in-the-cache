@@ -1,0 +1,711 @@
+{
+  "coref_id": "156",
+  "character_name": "Sir William",
+  "quote_count": 26,
+  "mention_count": 168,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "127",
+      6
+    ],
+    [
+      "1082",
+      5
+    ],
+    [
+      "107",
+      3
+    ],
+    [
+      "103",
+      2
+    ],
+    [
+      "157",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c That is a question which Mr. Darcy only can answer . \u201d",
+      "mention_text": "Sir William Lucas",
+      "quote_start": 14218,
+      "quote_end": 14230,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c What does Mr. Darcy mean , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c by listening to my conversation with Colonel Forster ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c But if he does it any more , I shall certainly let him know that I see what he is about . He has a very satirical eye , and if I do not begin by being impertinent myself , I shall soon grow afraid of him . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The entreaties of several \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The entreaties of several \u201d",
+      "mention_text": "Sir William Lucas",
+      "quote_start": 14284,
+      "quote_end": 14289,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c That is a question which Mr. Darcy only can answer . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c But if he does it any more , I shall certainly let him know that I see what he is about . He has a very satirical eye , and if I do not begin by being impertinent myself , I shall soon grow afraid of him . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Did not you think , Mr. Darcy , that I expressed myself uncommonly well just now , when I was teasing Colonel Forster to give us a ball at Meryton ? \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c With great energy ; but it is a subject which always makes a lady energetic . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c What a charming amusement for young people this is , Mr. Darcy ! There is nothing like dancing , after all . I consider it as one of the first refinements of polished societies . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 14811,
+      "quote_end": 14847,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Very well ; if it must be so , it must . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c There is a very fine old saying , which everybody here is of course familiar with--\u2018Keep your breath to cool your porridge,\u2019--and I shall keep mine to swell my song . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Certainly , sir ; and it has the advantage also of being in vogue amongst the less polished societies of the world : every savage can dance . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Your friend performs delightfully , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Certainly , sir ; and it has the advantage also of being in vogue amongst the less polished societies of the world : every savage can dance . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 14848,
+      "quote_end": 14877,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c There is a very fine old saying , which everybody here is of course familiar with--\u2018Keep your breath to cool your porridge,\u2019--and I shall keep mine to swell my song . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What a charming amusement for young people this is , Mr. Darcy ! There is nothing like dancing , after all . I consider it as one of the first refinements of polished societies . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Your friend performs delightfully , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c and I doubt not that you are an adept in the science yourself , Mr. Darcy . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Your friend performs delightfully , \u201d",
+      "mention_text": "he",
+      "quote_start": 14883,
+      "quote_end": 14889,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What a charming amusement for young people this is , Mr. Darcy ! There is nothing like dancing , after all . I consider it as one of the first refinements of polished societies . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Certainly , sir ; and it has the advantage also of being in vogue amongst the less polished societies of the world : every savage can dance . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c and I doubt not that you are an adept in the science yourself , Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You saw me dance at Meryton , I believe , sir . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and I doubt not that you are an adept in the science yourself , Mr. Darcy . \u201d",
+      "mention_text": "he",
+      "quote_start": 14904,
+      "quote_end": 14922,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Certainly , sir ; and it has the advantage also of being in vogue amongst the less polished societies of the world : every savage can dance . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Your friend performs delightfully , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You saw me dance at Meryton , I believe , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Yes , indeed , and received no inconsiderable pleasure from the sight . Do you often dance at St. James \u2019s ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You saw me dance at Meryton , I believe , sir . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 14923,
+      "quote_end": 14936,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Your friend performs delightfully , \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c and I doubt not that you are an adept in the science yourself , Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Yes , indeed , and received no inconsiderable pleasure from the sight . Do you often dance at St. James \u2019s ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Never , sir . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Yes , indeed , and received no inconsiderable pleasure from the sight . Do you often dance at St. James \u2019s ? \u201d",
+      "mention_text": "he",
+      "quote_start": 14937,
+      "quote_end": 14960,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c and I doubt not that you are an adept in the science yourself , Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You saw me dance at Meryton , I believe , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Never , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Do you not think it would be a proper compliment to the place ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Never , sir . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 14961,
+      "quote_end": 14966,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You saw me dance at Meryton , I believe , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Yes , indeed , and received no inconsiderable pleasure from the sight . Do you often dance at St. James \u2019s ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Do you not think it would be a proper compliment to the place ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c It is a compliment which I never pay to any place if I can avoid it . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Do you not think it would be a proper compliment to the place ? \u201d",
+      "mention_text": "he",
+      "quote_start": 14967,
+      "quote_end": 14982,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Yes , indeed , and received no inconsiderable pleasure from the sight . Do you often dance at St. James \u2019s ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Never , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c It is a compliment which I never pay to any place if I can avoid it . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You have a house in town , I conclude ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It is a compliment which I never pay to any place if I can avoid it . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 14983,
+      "quote_end": 15001,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Never , sir . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Do you not think it would be a proper compliment to the place ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You have a house in town , I conclude ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I had once some thoughts of fixing in town myself , for I am fond of superior society ; but I did not feel quite certain that the air of London would agree with Lady Lucas . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You have a house in town , I conclude ? \u201d",
+      "mention_text": "he",
+      "quote_start": 15002,
+      "quote_end": 15013,
+      "addressee_coref_id": "107",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Do you not think it would be a proper compliment to the place ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c It is a compliment which I never pay to any place if I can avoid it . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I had once some thoughts of fixing in town myself , for I am fond of superior society ; but I did not feel quite certain that the air of London would agree with Lady Lucas . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My dear Miss Eliza , why are not you dancing ? Mr. Darcy , you must allow me to present this young lady to you as a very desirable partner . You can not refuse to dance , I am sure , when so much beauty is before you . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I had once some thoughts of fixing in town myself , for I am fond of superior society ; but I did not feel quite certain that the air of London would agree with Lady Lucas . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 15018,
+      "quote_end": 15056,
+      "addressee_coref_id": "157",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c It is a compliment which I never pay to any place if I can avoid it . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c You have a house in town , I conclude ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My dear Miss Eliza , why are not you dancing ? Mr. Darcy , you must allow me to present this young lady to you as a very desirable partner . You can not refuse to dance , I am sure , when so much beauty is before you . \u201d"
+        },
+        {
+          "speaker_coref_id": "178",
+          "quote_text": "\u201c Indeed , sir , I have not the least intention of dancing . I entreat you not to suppose that I moved this way in order to beg for a partner . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Sir William \u2019s interruption has made me forget what we were talking of . \u201d",
+      "mention_text": "he",
+      "quote_start": 40922,
+      "quote_end": 40937,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I have been most highly gratified , indeed , my dear sir ; such very superior dancing is not often seen . It is evident that you belong to the first circles . Allow me to say , however , that your fair partner does not disgrace you : and that I must hope to have this pleasure often repeated , especially when a certain desirable event , my dear Miss Eliza ( glancing at her sister and Bingley ) , shall take place . What congratulations will then flow in ! I appeal to Mr. Darcy;--but let me not interrupt you , sir . You will not thank me for detaining you from the bewitching converse of that young lady , whose bright eyes are also upbraiding me . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Such very superior dancing is not often seen . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I do not think we were speaking at all . Sir William could not have interrupted any two people in the room who had less to say for themselves . We have tried two or three subjects already without success , and what we are to talk of next I can not imagine . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What think you of books ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I do not think we were speaking at all . Sir William could not have interrupted any two people in the room who had less to say for themselves . We have tried two or three subjects already without success , and what we are to talk of next I can not imagine . \u201d",
+      "mention_text": "he",
+      "quote_start": 40938,
+      "quote_end": 40993,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Such very superior dancing is not often seen . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Sir William \u2019s interruption has made me forget what we were talking of . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What think you of books ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Books -- oh no!--I am sure we never read the same , or not with the same feelings . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c What think you of books ? \u201d",
+      "mention_text": "he",
+      "quote_start": 40994,
+      "quote_end": 41001,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Sir William \u2019s interruption has made me forget what we were talking of . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I do not think we were speaking at all . Sir William could not have interrupted any two people in the room who had less to say for themselves . We have tried two or three subjects already without success , and what we are to talk of next I can not imagine . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Books -- oh no!--I am sure we never read the same , or not with the same feelings . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am sorry you think so ; but if that be the case , there can at least be no want of subject . We may compare our different opinions . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Books -- oh no!--I am sure we never read the same , or not with the same feelings . \u201d",
+      "mention_text": "he",
+      "quote_start": 41007,
+      "quote_end": 41027,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I do not think we were speaking at all . Sir William could not have interrupted any two people in the room who had less to say for themselves . We have tried two or three subjects already without success , and what we are to talk of next I can not imagine . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What think you of books ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am sorry you think so ; but if that be the case , there can at least be no want of subject . We may compare our different opinions . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c No -- I can not talk of books in a ball - room ; my head is always full of something else . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am sorry you think so ; but if that be the case , there can at least be no want of subject . We may compare our different opinions . \u201d",
+      "mention_text": "he",
+      "quote_start": 41028,
+      "quote_end": 41060,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c What think you of books ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Books -- oh no!--I am sure we never read the same , or not with the same feelings . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c No -- I can not talk of books in a ball - room ; my head is always full of something else . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The _ present _ always occupies you in such scenes -- does it ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c No -- I can not talk of books in a ball - room ; my head is always full of something else . \u201d",
+      "mention_text": "he",
+      "quote_start": 41061,
+      "quote_end": 41085,
+      "addressee_coref_id": "1082",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c Books -- oh no!--I am sure we never read the same , or not with the same feelings . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am sorry you think so ; but if that be the case , there can at least be no want of subject . We may compare our different opinions . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c The _ present _ always occupies you in such scenes -- does it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Yes , always , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The _ present _ always occupies you in such scenes -- does it ? \u201d",
+      "mention_text": "he",
+      "quote_start": 41086,
+      "quote_end": 41101,
+      "addressee_coref_id": "1082",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am sorry you think so ; but if that be the case , there can at least be no want of subject . We may compare our different opinions . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c No -- I can not talk of books in a ball - room ; my head is always full of something else . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Yes , always , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I remember hearing you once say , Mr. Darcy , that you hardly ever forgave;--that your resentment , once created , was unappeasable . You are very cautious , I suppose , as to its _ being created _ ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am , \u201d",
+      "mention_text": "he",
+      "quote_start": 41187,
+      "quote_end": 41191,
+      "addressee_coref_id": "1082",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c Yes , always , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I remember hearing you once say , Mr. Darcy , that you hardly ever forgave;--that your resentment , once created , was unappeasable . You are very cautious , I suppose , as to its _ being created _ ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And never allow yourself to be blinded by prejudice ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I hope not . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I can readily believe , \u201d",
+      "mention_text": "he",
+      "quote_start": 41319,
+      "quote_end": 41325,
+      "addressee_coref_id": "1082",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c And what is your success ? \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I do not get on at all . I hear such different accounts of you as puzzle me exceedingly . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c that reports may vary greatly with respect to me ; and I could wish , Miss Bennet , that you were not to sketch my character at the present moment , as there is reason to fear that the performance would reflect no credit on either . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c But if I do not take your likeness now , I may never have another opportunity . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that reports may vary greatly with respect to me ; and I could wish , Miss Bennet , that you were not to sketch my character at the present moment , as there is reason to fear that the performance would reflect no credit on either . \u201d",
+      "mention_text": "he",
+      "quote_start": 41331,
+      "quote_end": 41379,
+      "addressee_coref_id": "107",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c I do not get on at all . I hear such different accounts of you as puzzle me exceedingly . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I can readily believe , \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c But if I do not take your likeness now , I may never have another opportunity . \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I would by no means suspend any pleasure of yours , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I would by no means suspend any pleasure of yours , \u201d",
+      "mention_text": "he",
+      "quote_start": 41399,
+      "quote_end": 41411,
+      "addressee_coref_id": "1082",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c that reports may vary greatly with respect to me ; and I could wish , Miss Bennet , that you were not to sketch my character at the present moment , as there is reason to fear that the performance would reflect no credit on either . \u201d"
+        },
+        {
+          "speaker_coref_id": "1082",
+          "quote_text": "\u201c But if I do not take your likeness now , I may never have another opportunity . \u201d"
+        },
+        {
+          "speaker_coref_id": "1083",
+          "quote_text": "\u201c So , Miss Eliza , I hear you are quite delighted with George Wickham ? Your sister has been talking to me about him , and asking me a thousand questions ; and I find that the young man forgot to tell you , among his other communications , that he was the son of old Wickham , the late Mr. Darcy \u2019s steward . Let me recommend you , however , as a friend , not to give implicit confidence to all his assertions ; for , as to Mr. Darcy \u2019s using him ill , it is perfectly false : for , on the contrary , he has been always remarkably kind to him , though George Wickham has treated Mr. Darcy in a most infamous manner . I do not know the particulars , but I know very well that Mr. Darcy is not in the least to blame ; that he can not bear to hear George Wickham mentioned ; and that though my brother thought he could not well avoid including him in his invitation to the officers , he was excessively glad to find that he had taken himself out of the way . His coming into the country at all is a most insolent thing , indeed , and I wonder how he could presume to do it . I pity you , Miss Eliza , for this discovery of your favourite \u2019s guilt ; but really , considering his descent , one could not expect much better . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c His guilt and his descent appear , by your account , to be the same , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I am the less surprised at what has happened , \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 66351,
+      "quote_end": 66362,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I confess , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c that I should not have been at all surprised by her Ladyship \u2019s asking us on Sunday to drink tea and spend the evening at Rosings . I rather expected , from my knowledge of her affability , that it would happen . But who could have foreseen such an attention as this ? Who could have imagined that we should receive an invitation to dine there ( an invitation , moreover , including the whole party ) so immediately after your arrival ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c from that knowledge of what the manners of the great really are , which my situation in life has allowed me to acquire . About the court , such instances of elegant breeding are not uncommon . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Do not make yourself uneasy , my dear cousin , about your apparel . Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter . I would advise you merely to put on whatever of your clothes is superior to the rest -- there is no occasion for anything more . Lady Catherine will not think the worse of you for being simply dressed . She likes to have the distinction of rank preserved . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c from that knowledge of what the manners of the great really are , which my situation in life has allowed me to acquire . About the court , such instances of elegant breeding are not uncommon . \u201d",
+      "mention_text": "Sir William",
+      "quote_start": 66367,
+      "quote_end": 66405,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c that I should not have been at all surprised by her Ladyship \u2019s asking us on Sunday to drink tea and spend the evening at Rosings . I rather expected , from my knowledge of her affability , that it would happen . But who could have foreseen such an attention as this ? Who could have imagined that we should receive an invitation to dine there ( an invitation , moreover , including the whole party ) so immediately after your arrival ? \u201d"
+        },
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I am the less surprised at what has happened , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Do not make yourself uneasy , my dear cousin , about your apparel . Lady Catherine is far from requiring that elegance of dress in us which becomes herself and daughter . I would advise you merely to put on whatever of your clothes is superior to the rest -- there is no occasion for anything more . Lady Catherine will not think the worse of you for being simply dressed . She likes to have the distinction of rank preserved . \u201d"
+        },
+        {
+          "speaker_coref_id": "130",
+          "quote_text": "\u201c Your father \u2019s estate is entailed on Mr. Collins , I think ? For your sake , \u201d"
+        }
+      ]
+    }
+  ]
+}

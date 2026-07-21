@@ -1,0 +1,75 @@
+{
+  "coref_id": "2291",
+  "character_name": "him",
+  "quote_count": 2,
+  "mention_count": 8,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ],
+    [
+      "194",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Good God ! what is the matter ? \u201d",
+      "mention_text": "he",
+      "quote_start": 108338,
+      "quote_end": 108347,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh ! where , where is my uncle ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I beg your pardon , but I must leave you . I must find Mr. Gardiner this moment on business that can not be delayed ; I have not an instant to lose . \u201d"
+        },
+        {
+          "speaker_coref_id": "2291",
+          "quote_text": "\u201c I will not detain you a minute ; but let me , or let the servant , go after Mr. and Mrs. Gardiner . You are not well enough ; you can not go yourself . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Let me call your maid . Is there nothing you could take to give you present relief ? A glass of wine ; shall I get you one ? You are very ill . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I will not detain you a minute ; but let me , or let the servant , go after Mr. and Mrs. Gardiner . You are not well enough ; you can not go yourself . \u201d",
+      "mention_text": "he",
+      "quote_start": 108361,
+      "quote_end": 108398,
+      "addressee_coref_id": "194",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c I beg your pardon , but I must leave you . I must find Mr. Gardiner this moment on business that can not be delayed ; I have not an instant to lose . \u201d"
+        },
+        {
+          "speaker_coref_id": "2291",
+          "quote_text": "\u201c Good God ! what is the matter ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Let me call your maid . Is there nothing you could take to give you present relief ? A glass of wine ; shall I get you one ? You are very ill . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c No , I thank you , \u201d"
+        }
+      ]
+    }
+  ]
+}

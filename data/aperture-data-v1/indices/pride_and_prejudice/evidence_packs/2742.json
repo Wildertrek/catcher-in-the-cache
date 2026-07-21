@@ -1,0 +1,75 @@
+{
+  "coref_id": "2742",
+  "character_name": "the young lady",
+  "quote_count": 2,
+  "mention_count": 18,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "99",
+      1
+    ],
+    [
+      "127",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Well , girls , \u201d",
+      "mention_text": "she",
+      "quote_start": 134523,
+      "quote_end": 134528,
+      "addressee_coref_id": "99",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c And quite alone ? Have all her friends left her ? \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mrs. Annesley is with her . The others have been gone on to Scarborough these three weeks . \u201d"
+        },
+        {
+          "speaker_coref_id": "2742",
+          "quote_text": "\u201c what say you to the day ? I think everything has passed off uncommonly well , I assure you . The dinner was as well dressed as any I ever saw . The venison was roasted to a turn -- and everybody said , they never saw so fat a haunch . The soup was fifty times better than what we had at the Lucases \u2019 last week ; and even Mr. Darcy acknowledged that the partridges were remarkably well done ; and I suppose he has two or three French cooks at least . And , my dear Jane , I never saw you look in greater beauty . Mrs. Long said so too , for I asked her whether you did not . And what do you think she said besides ? \u2018 Ah ! Mrs. Bennet , we shall have her at Netherfield at last ! \u2019 She did , indeed . I do think Mrs. Long is as good a creature as ever lived -- and her nieces are very pretty behaved girls , and not at all handsome : I like them prodigiously . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c M^{rs } . Long and her nieces . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c what say you to the day ? I think everything has passed off uncommonly well , I assure you . The dinner was as well dressed as any I ever saw . The venison was roasted to a turn -- and everybody said , they never saw so fat a haunch . The soup was fifty times better than what we had at the Lucases \u2019 last week ; and even Mr. Darcy acknowledged that the partridges were remarkably well done ; and I suppose he has two or three French cooks at least . And , my dear Jane , I never saw you look in greater beauty . Mrs. Long said so too , for I asked her whether you did not . And what do you think she said besides ? \u2018 Ah ! Mrs. Bennet , we shall have her at Netherfield at last ! \u2019 She did , indeed . I do think Mrs. Long is as good a creature as ever lived -- and her nieces are very pretty behaved girls , and not at all handsome : I like them prodigiously . \u201d",
+      "mention_text": "she",
+      "quote_start": 134541,
+      "quote_end": 134731,
+      "addressee_coref_id": "127",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Mrs. Annesley is with her . The others have been gone on to Scarborough these three weeks . \u201d"
+        },
+        {
+          "speaker_coref_id": "2742",
+          "quote_text": "\u201c Well , girls , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c M^{rs } . Long and her nieces . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c It has been a very agreeable day , \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "coref_id": "3025",
+  "character_name": "you",
+  "quote_count": 3,
+  "mention_count": 78,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "294",
+      3
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Project Gutenberg \u201d",
+      "mention_text": "you",
+      "quote_start": 153835,
+      "quote_end": 153838,
+      "addressee_coref_id": "294",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Plain Vanilla ASCII \u201d",
+      "mention_text": "you",
+      "quote_start": 154099,
+      "quote_end": 154103,
+      "addressee_coref_id": "294",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Project Gutenberg \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Information about donations to the Project Gutenberg Literary Archive Foundation . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Information about donations to the Project Gutenberg Literary Archive Foundation . \u201d",
+      "mention_text": "You",
+      "quote_start": 154372,
+      "quote_end": 154384,
+      "addressee_coref_id": "294",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "3025",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Plain Vanilla ASCII \u201d"
+        },
+        {
+          "speaker_coref_id": "294",
+          "quote_text": "\u201c Defects , \u201d"
+        },
+        {
+          "speaker_coref_id": "296",
+          "quote_text": "\u201c Right of Replacement or Refund \u201d"
+        }
+      ]
+    }
+  ]
+}

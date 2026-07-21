@@ -1,0 +1,550 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "117",
+      "character_name": "Jim",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3175071428571429,
+        "C": 0.3028642857142857,
+        "E": -0.1832714285714286,
+        "A": 0.673825,
+        "N": -0.15254642857142858
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7639,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.442,
+            "C": 0.6,
+            "E": -0.3,
+            "A": 0.7,
+            "N": -0.4
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2023_Revisiting_Mark_Twains_Adventures.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Liu2021_Study_Construction_Americanism_Mark.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.442,
+              "confidence_interval": [
+                0.264,
+                0.62
+              ],
+              "n_sources": 2,
+              "std_dev": 0.091
+            },
+            "C": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": -0.3,
+              "confidence_interval": [
+                -0.6,
+                0.0
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.203,
+            "C": -0.081,
+            "E": -0.269,
+            "A": 0.693,
+            "N": 0.282
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AHF/2",
+          "pgt_op_name": "Jim",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3196,
+            "C": 0.4816,
+            "E": 0.1182,
+            "A": 0.6063,
+            "N": -0.4819
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:07:44.486770+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001737
+        }
+      ]
+    },
+    {
+      "coref_id": "0",
+      "character_name": "Huck Finn",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.510396875,
+        "C": -0.37842187499999996,
+        "E": 0.258478125,
+        "A": 0.4976499999999999,
+        "N": 0.08950625000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9664,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.666,
+            "C": -0.518,
+            "E": 0.3,
+            "A": 0.607,
+            "N": 0.37
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "AlGhammaz2023_Revisiting_Mark_Twains_Adventures.json",
+              "framework": "postcolonial",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ETD-5608-035-ZHANG-7928.86.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Liu2021_Study_Construction_Americanism_Mark.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.666,
+              "confidence_interval": [
+                0.519,
+                0.813
+              ],
+              "n_sources": 3,
+              "std_dev": 0.075
+            },
+            "C": {
+              "score": -0.518,
+              "confidence_interval": [
+                -0.711,
+                -0.325
+              ],
+              "n_sources": 2,
+              "std_dev": 0.098
+            },
+            "E": {
+              "score": 0.3,
+              "confidence_interval": [
+                -0.288,
+                0.888
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.607,
+              "confidence_interval": [
+                0.283,
+                0.932
+              ],
+              "n_sources": 3,
+              "std_dev": 0.166
+            },
+            "N": {
+              "score": 0.37,
+              "confidence_interval": [
+                0.216,
+                0.525
+              ],
+              "n_sources": 3,
+              "std_dev": 0.079
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.303,
+            "C": -0.328,
+            "E": 0.178,
+            "A": 0.26,
+            "N": 0.169
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "AHF/1",
+          "pgt_op_name": "Huckleberry Finn",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5251,
+            "C": -0.1785,
+            "E": 0.3019,
+            "A": 0.6524,
+            "N": -0.5964
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:08:20.057780+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001467
+        }
+      ]
+    },
+    {
+      "coref_id": "175",
+      "character_name": "Tom Sawyer",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8,
+        "C": -0.5,
+        "E": 0.6,
+        "A": 0.6
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": 0.6,
+            "A": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Liu2021_Study_Construction_Americanism_Mark.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "partial"
+        }
+      ]
+    },
+    {
+      "coref_id": "495",
+      "character_name": "The Duke",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6,
+        "C": -0.4953941176470588,
+        "E": 0.5167,
+        "A": -0.5673705882352941,
+        "N": 0.1411
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4969,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.7,
+            "A": -0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Liu2021_Study_Construction_Americanism_Mark.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.2031,
+            "E": 0.5167,
+            "A": -0.3779,
+            "N": 0.1411
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:08:46.255879+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001711
+        }
+      ]
+    },
+    {
+      "coref_id": "499",
+      "character_name": "The King",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.2313,
+        "C": -0.5792705882352941,
+        "E": 0.3882999999999999,
+        "A": -0.5196058823529411,
+        "N": 0.0042
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4381,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": -0.7,
+            "A": -0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Liu2021_Study_Construction_Americanism_Mark.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2313,
+            "C": -0.4068,
+            "E": 0.3883,
+            "A": -0.2619,
+            "N": 0.0042
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:09:23.087721+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001571
+        }
+      ]
+    }
+  ],
+  "backfill_history": [
+    {
+      "by": "stage_07_g5_orphan_remap_2026-04-15",
+      "at": "2026-04-15T13:20:42Z",
+      "note": "Remapped 1 orphan coref_id(s) to registry equivalents; archived 0 unmappable entries to orphan_characters[].",
+      "remapped": {
+        "2651": "495"
+      },
+      "archived": []
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

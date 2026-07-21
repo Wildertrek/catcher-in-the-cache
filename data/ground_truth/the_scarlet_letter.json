@@ -1,0 +1,881 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "119",
+      "character_name": "Hester Prynne",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5240031249999999,
+        "C": 0.41162499999999996,
+        "E": -0.13260624999999998,
+        "A": 0.5481468749999999,
+        "N": 0.223071875
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.542,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.598,
+            "C": 0.622,
+            "E": -0.044,
+            "A": 0.569,
+            "N": 0.016
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ahmed2022_Sin_Punishment_Scarlet_Letter.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chen2017_Arthur_Dimmesdales_Double_Personalities.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hamad2023_Analysis_Interactional_Metadiscourse_Markers.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Iqbal2021_SOCIAL_MATRIX_CONSTRUCTION_GENDER.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "JIA2023_AMBIVALENCE_DIMMESDALE_SCARLET_LETTER.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kulakevych2025_NARRATIVE_CODE_NATHANIEL_HAWTHORNES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Letter2020_Female_Archetypal_Will_Nathaniel.json",
+              "framework": "jungian",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Listyowati2020_Analysis_Adultery_Hawthornes_Scarlet.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Minderop2022_Conflict_Between_Life_Death.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Unknown2022_EMMA_DONOGHUEun_ODASINDA_NATHANIEL.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "U\u00e7um2015_ltbgtA_Reconsideration_Nathaniel_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zhang2016_Research_Names_Implications_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "khan2025_SIN_SELF_SOCIETY_FREE.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.598,
+              "confidence_interval": [
+                0.293,
+                0.902
+              ],
+              "n_sources": 12,
+              "std_dev": 0.155
+            },
+            "C": {
+              "score": 0.622,
+              "confidence_interval": [
+                0.213,
+                1.0
+              ],
+              "n_sources": 12,
+              "std_dev": 0.209
+            },
+            "E": {
+              "score": -0.044,
+              "confidence_interval": [
+                -0.953,
+                0.866
+              ],
+              "n_sources": 12,
+              "std_dev": 0.464
+            },
+            "A": {
+              "score": 0.569,
+              "confidence_interval": [
+                -0.149,
+                1.0
+              ],
+              "n_sources": 13,
+              "std_dev": 0.366
+            },
+            "N": {
+              "score": 0.016,
+              "confidence_interval": [
+                -0.96,
+                0.991
+              ],
+              "n_sources": 12,
+              "std_dev": 0.498
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.436,
+            "C": 0.087,
+            "E": 0.0,
+            "A": 0.465,
+            "N": 0.558
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "SCL/1",
+          "pgt_op_name": "Hester Prynne",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5143,
+            "C": 0.501,
+            "E": -0.5182,
+            "A": 0.6371,
+            "N": 0.1109
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:46:35.718871+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001314
+        }
+      ]
+    },
+    {
+      "coref_id": "173",
+      "character_name": "Pearl",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7098666666666668,
+        "C": -0.4945666666666667,
+        "E": 0.4192000000000001,
+        "A": -0.10926666666666668,
+        "N": 0.18353333333333335
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9494,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.752,
+            "C": -0.636,
+            "E": 0.415,
+            "A": -0.366,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ahmed2022_Sin_Punishment_Scarlet_Letter.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kulakevych2025_NARRATIVE_CODE_NATHANIEL_HAWTHORNES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Unknown2022_EMMA_DONOGHUEun_ODASINDA_NATHANIEL.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "U\u00e7um2015_ltbgtA_Reconsideration_Nathaniel_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zhang2016_Research_Names_Implications_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "khan2025_SIN_SELF_SOCIETY_FREE.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.752,
+              "confidence_interval": [
+                0.528,
+                0.976
+              ],
+              "n_sources": 7,
+              "std_dev": 0.114
+            },
+            "C": {
+              "score": -0.636,
+              "confidence_interval": [
+                -0.788,
+                -0.485
+              ],
+              "n_sources": 3,
+              "std_dev": 0.077
+            },
+            "E": {
+              "score": 0.415,
+              "confidence_interval": [
+                0.158,
+                0.672
+              ],
+              "n_sources": 5,
+              "std_dev": 0.131
+            },
+            "A": {
+              "score": -0.366,
+              "confidence_interval": [
+                -0.459,
+                -0.273
+              ],
+              "n_sources": 4,
+              "std_dev": 0.047
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6256,
+            "C": -0.2117,
+            "E": 0.4276,
+            "A": 0.4042,
+            "N": -0.4494
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:47:09.338744+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001271
+        }
+      ]
+    },
+    {
+      "coref_id": "156",
+      "character_name": "Roger Chillingworth",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5578333333333334,
+        "C": 0.5683000000000001,
+        "E": -0.4685666666666667,
+        "A": -0.7956333333333334,
+        "N": 0.5639333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4412,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.57,
+            "C": 0.533,
+            "E": -0.401,
+            "A": -0.813,
+            "N": 0.711
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ahmed2022_Sin_Punishment_Scarlet_Letter.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Chen2017_Arthur_Dimmesdales_Double_Personalities.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Iqbal2021_SOCIAL_MATRIX_CONSTRUCTION_GENDER.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kulakevych2025_NARRATIVE_CODE_NATHANIEL_HAWTHORNES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Unknown2022_EMMA_DONOGHUEun_ODASINDA_NATHANIEL.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "U\u00e7um2015_ltbgtA_Reconsideration_Nathaniel_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zhang2016_Research_Names_Implications_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zhang2023_Interpretation_Chillingworth_Scarlet_Letter.json",
+              "framework": "jungian",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "khan2025_SIN_SELF_SOCIETY_FREE.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.57,
+              "confidence_interval": [
+                0.241,
+                0.9
+              ],
+              "n_sources": 4,
+              "std_dev": 0.168
+            },
+            "C": {
+              "score": 0.533,
+              "confidence_interval": [
+                -0.092,
+                1.0
+              ],
+              "n_sources": 7,
+              "std_dev": 0.319
+            },
+            "E": {
+              "score": -0.401,
+              "confidence_interval": [
+                -0.597,
+                -0.205
+              ],
+              "n_sources": 3,
+              "std_dev": 0.1
+            },
+            "A": {
+              "score": -0.813,
+              "confidence_interval": [
+                -1.0,
+                -0.536
+              ],
+              "n_sources": 10,
+              "std_dev": 0.141
+            },
+            "N": {
+              "score": 0.711,
+              "confidence_interval": [
+                0.529,
+                0.893
+              ],
+              "n_sources": 5,
+              "std_dev": 0.093
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5335,
+            "C": 0.6389,
+            "E": -0.6037,
+            "A": -0.7609,
+            "N": 0.2698
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:47:48.542397+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001788
+        }
+      ]
+    },
+    {
+      "coref_id": "191",
+      "character_name": "Arthur Dimmesdale",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3881333333333334,
+        "C": -0.2789000000000001,
+        "E": -0.44340000000000007,
+        "A": -0.07213333333333334,
+        "N": 0.6682666666666667
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6176,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.456,
+            "C": -0.21,
+            "E": -0.387,
+            "A": -0.278,
+            "N": 0.858
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Chen2017_Arthur_Dimmesdales_Double_Personalities.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Iqbal2021_SOCIAL_MATRIX_CONSTRUCTION_GENDER.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "JIA2023_AMBIVALENCE_DIMMESDALE_SCARLET_LETTER.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kulakevych2025_NARRATIVE_CODE_NATHANIEL_HAWTHORNES.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Listyowati2020_Analysis_Adultery_Hawthornes_Scarlet.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Minderop2022_Conflict_Between_Life_Death.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Unknown2022_EMMA_DONOGHUEun_ODASINDA_NATHANIEL.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "U\u00e7um2015_ltbgtA_Reconsideration_Nathaniel_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zhang2016_Research_Names_Implications_Hawthornes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "khan2025_SIN_SELF_SOCIETY_FREE.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.456,
+              "confidence_interval": [
+                0.177,
+                0.735
+              ],
+              "n_sources": 7,
+              "std_dev": 0.142
+            },
+            "C": {
+              "score": -0.21,
+              "confidence_interval": [
+                -1.0,
+                0.964
+              ],
+              "n_sources": 9,
+              "std_dev": 0.599
+            },
+            "E": {
+              "score": -0.387,
+              "confidence_interval": [
+                -1.0,
+                0.51
+              ],
+              "n_sources": 8,
+              "std_dev": 0.458
+            },
+            "A": {
+              "score": -0.278,
+              "confidence_interval": [
+                -1.0,
+                0.482
+              ],
+              "n_sources": 5,
+              "std_dev": 0.388
+            },
+            "N": {
+              "score": 0.858,
+              "confidence_interval": [
+                0.707,
+                1.0
+              ],
+              "n_sources": 11,
+              "std_dev": 0.077
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2524,
+            "C": -0.4167,
+            "E": -0.5562,
+            "A": 0.3396,
+            "N": 0.2888
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:48:23.962206+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000947
+        }
+      ]
+    },
+    {
+      "coref_id": "150",
+      "character_name": "Governor Bellingham",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.41403333333333336,
+        "C": 0.6709,
+        "E": 0.22216666666666665,
+        "A": -0.38296666666666673,
+        "N": 0.15783333333333338
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0265,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.35,
+            "A": -0.548,
+            "N": 0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Letter2020_Female_Archetypal_Will_Nathaniel.json",
+              "framework": "jungian",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.6,
+              "confidence_interval": [
+                -0.6,
+                -0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.35,
+              "confidence_interval": [
+                0.05,
+                0.65
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": -0.548,
+              "confidence_interval": [
+                -0.715,
+                -0.381
+              ],
+              "n_sources": 2,
+              "std_dev": 0.085
+            },
+            "N": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0421,
+            "C": 0.6127,
+            "E": -0.0335,
+            "A": -0.0529,
+            "N": -0.5265
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:49:11.416894+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00099
+        }
+      ]
+    },
+    {
+      "coref_id": "139",
+      "character_name": "Mistress Hibbins",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6773,
+        "C": -0.38260000000000005,
+        "E": 0.1119,
+        "A": -0.35201764705882355,
+        "N": 0.21195294117647057
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9424,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "A": -0.7,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kartika2022_Societal_Perception_Female_Subject.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": -0.7,
+              "confidence_interval": [
+                -1.0,
+                -0.112
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6773,
+            "C": -0.3826,
+            "E": 0.1119,
+            "A": 0.1451,
+            "N": -0.3424
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:49:46.626790+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000882
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}

@@ -1,0 +1,177 @@
+{
+  "per_factor": {
+    "O": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out",
+      "MAE": 0.2967,
+      "MAE_ci": [
+        0.2812,
+        0.3125
+      ],
+      "r": 0.4258,
+      "r_ci": [
+        0.3577,
+        0.4915
+      ],
+      "target_source": "M4 multi-provider consensus (n=562)"
+    },
+    "C": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out",
+      "MAE": 0.3149,
+      "MAE_ci": [
+        0.2976,
+        0.3328
+      ],
+      "r": 0.4155,
+      "r_ci": [
+        0.3462,
+        0.4826
+      ],
+      "target_source": "M4 multi-provider consensus (n=562)"
+    },
+    "E": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out",
+      "MAE": 0.2566,
+      "MAE_ci": [
+        0.242,
+        0.2718
+      ],
+      "r": 0.4736,
+      "r_ci": [
+        0.4094,
+        0.534
+      ],
+      "target_source": "M4 multi-provider consensus (n=562)"
+    },
+    "A": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out",
+      "MAE": 0.3508,
+      "MAE_ci": [
+        0.3317,
+        0.3702
+      ],
+      "r": 0.4469,
+      "r_ci": [
+        0.3792,
+        0.5078
+      ],
+      "target_source": "M4 multi-provider consensus (n=562)"
+    },
+    "N": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out",
+      "MAE": 0.2643,
+      "MAE_ci": [
+        0.2482,
+        0.2808
+      ],
+      "r": 0.4112,
+      "r_ci": [
+        0.341,
+        0.4802
+      ],
+      "target_source": "M4 multi-provider consensus (n=562)"
+    },
+    "H": {
+      "n_train": 60,
+      "evaluation_loo": {
+        "scheme": "leave-one-character-out",
+        "MAE": 0.307,
+        "MAE_ci": [
+          0.2528,
+          0.3657
+        ],
+        "r": 0.5323,
+        "r_ci": [
+          0.2908,
+          0.7117
+        ]
+      },
+      "evaluation_lowo": {
+        "scheme": "leave-one-work-out (cross-work generalization)",
+        "MAE": 0.3982,
+        "MAE_ci": [
+          0.3182,
+          0.4825
+        ],
+        "r": -0.0317,
+        "r_ci": [
+          -0.3216,
+          0.2577
+        ]
+      },
+      "target_source": "HEXACO multi-provider probe (n=60 across 13 works)",
+      "alpha": 0.01
+    },
+    "P": {
+      "n_train": 60,
+      "evaluation_loo": {
+        "scheme": "leave-one-character-out",
+        "MAE": 0.3116,
+        "MAE_ci": [
+          0.2537,
+          0.3716
+        ],
+        "r": 0.4072,
+        "r_ci": [
+          0.1714,
+          0.6097
+        ]
+      },
+      "evaluation_lowo": {
+        "scheme": "leave-one-work-out (cross-work generalization)",
+        "MAE": 0.3484,
+        "MAE_ci": [
+          0.2845,
+          0.4154
+        ],
+        "r": 0.2657,
+        "r_ci": [
+          0.0072,
+          0.5222
+        ]
+      },
+      "target_source": "HEXACO multi-provider probe (n=60 across 13 works)",
+      "alpha": 0.01
+    }
+  },
+  "factor_purity": {
+    "r_H_vs_P_target_labels": 0.5812,
+    "r_H_vs_P_regressor_outputs": 0.5559,
+    "human_norm_range": [
+      0.2,
+      0.3
+    ],
+    "note": "If the cheap regressor's H and P outputs collapse together (both r >> 0.30), the LLM probe's factor-purity gap propagates into the regressor. The regressor cannot recover orthogonality the LLM probe didn't produce; this is a known measurement-side limit documented in the paper \u00a7RQ7."
+  },
+  "latency": {
+    "per_char_seconds_mean": 0.0011296452884562314,
+    "per_char_seconds_median": 0.0010868159588426352,
+    "per_char_seconds_p95": 0.0013058826676569878,
+    "iterations": 100,
+    "note": "Excludes embedding API call. Embedding is ~0.3-0.6s/char and ~$0.0001/char with OpenAI text-embedding-3-large."
+  },
+  "spec": {
+    "test": "LLM-free OCEAN-HP 7-output Ridge regressor on text-embedding-3-large",
+    "embedding": "OpenAI text-embedding-3-large, mean-utterance pool (3072-d)",
+    "heads": {
+      "OCEAN-5": {
+        "path": "personality_models/ocean_ridge_regressor_v2_cheap.pkl",
+        "alpha": 1.0,
+        "n_train": 562,
+        "target": "M4 multi-provider consensus labels (the paper)"
+      },
+      "H, P": {
+        "path": "personality_models/hexaco_ridge_heads_v2.pkl",
+        "alpha": 1.0,
+        "n_train": 60,
+        "target": "HEXACO multi-provider probe panel (the paper \u00a7RQ7)"
+      }
+    },
+    "evaluation": "OCEAN-5: leave-one-book-out across 75 works on 562 chars. H/P: leave-one-work-out across 13 works on 60 chars (HEXACO subset). Per-factor MAE / r with 10,000-resample paired-char bootstrap 95% CIs.",
+    "deployment_path": "embedding API call \u2192 Ridge predict. Total: ~0.5 s/char and ~$0.0001/char. 60\u00d7 faster and 500\u00d7 cheaper than M4 multi-provider consensus."
+  }
+}

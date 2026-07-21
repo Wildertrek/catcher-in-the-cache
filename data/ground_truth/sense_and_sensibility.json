@@ -1,0 +1,1085 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "255",
+      "character_name": "Elinor Dashwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.1533,
+        "C": 0.7114,
+        "E": -0.1123666666666667,
+        "A": 0.5802333333333334,
+        "N": -0.4969000000000001
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7551,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.405,
+            "C": 0.738,
+            "E": 0.008,
+            "A": 0.577,
+            "N": -0.492
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hanna2016_Analysis_Main_Characters_Conflicts.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hubbard2002_Conversation_characterisation_corpus_linguistics.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Jackson2000_Sense_Sensibility_Betrayal_Discovering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kusumawardhani2020_WOMEN_INDEPENDENCE_JANE_AUSTENS.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sultana2020_Noras_Transcendental_Consciousness_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yanyan2015_Females_Consciousness_Shift_from.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.405,
+              "confidence_interval": [
+                0.06,
+                0.749
+              ],
+              "n_sources": 3,
+              "std_dev": 0.176
+            },
+            "C": {
+              "score": 0.738,
+              "confidence_interval": [
+                0.605,
+                0.871
+              ],
+              "n_sources": 8,
+              "std_dev": 0.068
+            },
+            "E": {
+              "score": 0.008,
+              "confidence_interval": [
+                -0.777,
+                0.792
+              ],
+              "n_sources": 4,
+              "std_dev": 0.4
+            },
+            "A": {
+              "score": 0.577,
+              "confidence_interval": [
+                0.339,
+                0.815
+              ],
+              "n_sources": 7,
+              "std_dev": 0.121
+            },
+            "N": {
+              "score": -0.492,
+              "confidence_interval": [
+                -0.644,
+                -0.34
+              ],
+              "n_sources": 8,
+              "std_dev": 0.077
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3501,
+            "C": 0.6582,
+            "E": -0.3531,
+            "A": 0.5867,
+            "N": -0.5067
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:56:52.629356+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001015
+        }
+      ]
+    },
+    {
+      "coref_id": "98",
+      "character_name": "Marianne Dashwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.59051875,
+        "C": -0.41996249999999996,
+        "E": 0.416003125,
+        "A": 0.12636874999999997,
+        "N": 0.7652781249999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7178,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.654,
+            "C": -0.446,
+            "E": 0.565,
+            "A": 0.032,
+            "N": 0.748
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hanna2016_Analysis_Main_Characters_Conflicts.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Hubbard2002_Conversation_characterisation_corpus_linguistics.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Jackson2000_Sense_Sensibility_Betrayal_Discovering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kusumawardhani2020_WOMEN_INDEPENDENCE_JANE_AUSTENS.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sultana2020_Noras_Transcendental_Consciousness_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yanyan2015_Females_Consciousness_Shift_from.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.654,
+              "confidence_interval": [
+                0.467,
+                0.841
+              ],
+              "n_sources": 8,
+              "std_dev": 0.095
+            },
+            "C": {
+              "score": -0.446,
+              "confidence_interval": [
+                -0.647,
+                -0.246
+              ],
+              "n_sources": 6,
+              "std_dev": 0.102
+            },
+            "E": {
+              "score": 0.565,
+              "confidence_interval": [
+                0.417,
+                0.714
+              ],
+              "n_sources": 7,
+              "std_dev": 0.076
+            },
+            "A": {
+              "score": 0.032,
+              "confidence_interval": [
+                -0.839,
+                0.904
+              ],
+              "n_sources": 5,
+              "std_dev": 0.445
+            },
+            "N": {
+              "score": 0.748,
+              "confidence_interval": [
+                0.559,
+                0.938
+              ],
+              "n_sources": 8,
+              "std_dev": 0.097
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.262,
+            "C": -0.377,
+            "E": 0.279,
+            "A": 0.151,
+            "N": 0.794
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "SSB/2",
+          "pgt_op_name": "Marianne Dashwood",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.9798,
+            "C": -0.4354,
+            "E": 0.3333,
+            "A": 0.2764,
+            "N": 0.7547
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:57:39.195981+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001972
+        }
+      ]
+    },
+    {
+      "coref_id": "114",
+      "character_name": "Mrs. Jennings",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2557,
+        "C": -0.0053,
+        "E": 0.7340764705882353,
+        "A": 0.578735294117647,
+        "N": -0.39219999999999994
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2945,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "E": 0.8,
+            "A": 0.7
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "10.53032TCL.2021.6.5.16.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2557,
+            "C": -0.0053,
+            "E": 0.6399,
+            "A": 0.4055,
+            "N": -0.3922
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:58:15.977836+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001776
+        }
+      ]
+    },
+    {
+      "coref_id": "102",
+      "character_name": "Fanny Dashwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.06903333333333334,
+        "C": 0.6739666666666667,
+        "E": -0.6432333333333334,
+        "A": 0.6540666666666668,
+        "N": 0.42276666666666673
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1137,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": -0.111,
+            "C": 0.711,
+            "E": -0.9,
+            "A": 0.656,
+            "N": 0.794
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "2013-41944-002.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "paris_2017_character_conflict.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.111,
+              "confidence_interval": [
+                -1.0,
+                0.96
+              ],
+              "n_sources": 2,
+              "std_dev": 0.547
+            },
+            "C": {
+              "score": 0.711,
+              "confidence_interval": [
+                0.516,
+                0.906
+              ],
+              "n_sources": 2,
+              "std_dev": 0.099
+            },
+            "E": {
+              "score": -0.9,
+              "confidence_interval": [
+                -0.9,
+                -0.9
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "A": {
+              "score": 0.656,
+              "confidence_interval": [
+                -0.356,
+                1.0
+              ],
+              "n_sources": 3,
+              "std_dev": 0.516
+            },
+            "N": {
+              "score": 0.794,
+              "confidence_interval": [
+                0.454,
+                1.0
+              ],
+              "n_sources": 2,
+              "std_dev": 0.174
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4291,
+            "C": 0.5999,
+            "E": -0.1297,
+            "A": 0.6502,
+            "N": -0.3197
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:58:52.119225+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000899
+        }
+      ]
+    },
+    {
+      "coref_id": "207",
+      "character_name": "Edward Ferrars",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.287,
+        "C": 0.638,
+        "E": -0.42700000000000005,
+        "A": 0.7,
+        "N": 0.3
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.287,
+            "C": 0.638,
+            "E": -0.427,
+            "A": 0.7,
+            "N": 0.3
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sultana2020_Noras_Transcendental_Consciousness_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yanyan2015_Females_Consciousness_Shift_from.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.287,
+              "confidence_interval": [
+                0.02,
+                0.554
+              ],
+              "n_sources": 2,
+              "std_dev": 0.136
+            },
+            "C": {
+              "score": 0.638,
+              "confidence_interval": [
+                0.484,
+                0.791
+              ],
+              "n_sources": 3,
+              "std_dev": 0.078
+            },
+            "E": {
+              "score": -0.427,
+              "confidence_interval": [
+                -0.718,
+                -0.137
+              ],
+              "n_sources": 3,
+              "std_dev": 0.148
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.3,
+              "confidence_interval": [
+                0.0,
+                0.6
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "115",
+      "character_name": "Colonel Brandon",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.39541874999999993,
+        "C": 0.6414,
+        "E": -0.36795625,
+        "A": 0.58605,
+        "N": -0.27449375
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5958,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.66,
+            "E": -0.5,
+            "A": 0.755,
+            "N": -0.406
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jackson2000_Sense_Sensibility_Betrayal_Discovering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sultana2020_Noras_Transcendental_Consciousness_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yanyan2015_Females_Consciousness_Shift_from.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": 0.66,
+              "confidence_interval": [
+                0.504,
+                0.817
+              ],
+              "n_sources": 3,
+              "std_dev": 0.08
+            },
+            "E": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.755,
+              "confidence_interval": [
+                0.614,
+                0.897
+              ],
+              "n_sources": 4,
+              "std_dev": 0.072
+            },
+            "N": {
+              "score": -0.406,
+              "confidence_interval": [
+                -0.602,
+                -0.21
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.384,
+            "C": 0.647,
+            "E": -0.263,
+            "A": 0.319,
+            "N": 0.043
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "SSB/3",
+          "pgt_op_name": "Colonel Brandon",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0042,
+            "C": 0.5954,
+            "E": -0.2688,
+            "A": 0.6678,
+            "N": -0.5104
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:59:27.018509+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001557
+        }
+      ]
+    },
+    {
+      "coref_id": "172",
+      "character_name": "Willoughby",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.475,
+        "C": -0.683,
+        "E": 0.683,
+        "A": -0.728
+      },
+      "consensus_method": "single_source",
+      "disagreement_score": 0.0,
+      "has_warning": false,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.475,
+            "C": -0.683,
+            "E": 0.683,
+            "A": -0.728
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Fathoni2015_Social_Discrimination_Jane_Austens.json",
+              "framework": "marxist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Jackson2000_Sense_Sensibility_Betrayal_Discovering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sultana2020_Noras_Transcendental_Consciousness_from.json",
+              "framework": "humanistic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Yanyan2015_Females_Consciousness_Shift_from.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.475,
+              "confidence_interval": [
+                0.333,
+                0.618
+              ],
+              "n_sources": 4,
+              "std_dev": 0.073
+            },
+            "C": {
+              "score": -0.683,
+              "confidence_interval": [
+                -0.843,
+                -0.523
+              ],
+              "n_sources": 4,
+              "std_dev": 0.082
+            },
+            "E": {
+              "score": 0.683,
+              "confidence_interval": [
+                0.61,
+                0.756
+              ],
+              "n_sources": 3,
+              "std_dev": 0.037
+            },
+            "A": {
+              "score": -0.728,
+              "confidence_interval": [
+                -0.887,
+                -0.569
+              ],
+              "n_sources": 4,
+              "std_dev": 0.081
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "validated"
+        }
+      ]
+    },
+    {
+      "coref_id": "96",
+      "character_name": "Mrs. Dashwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.24320588235294116,
+        "C": -0.0698058823529412,
+        "E": 0.5173176470588235,
+        "A": 0.6603470588235294,
+        "N": 0.3935411764705882
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8665,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.6,
+            "C": -0.4,
+            "E": 0.6,
+            "A": 0.7,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Jackson2000_Sense_Sensibility_Betrayal_Discovering.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Kusumawardhani2020_WOMEN_INDEPENDENCE_JANE_AUSTENS.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": -0.4,
+              "confidence_interval": [
+                -0.988,
+                0.188
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.3,
+                0.9
+              ],
+              "n_sources": 0,
+              "std_dev": 0.0,
+              "completion_method": "consensus_informed"
+            },
+            "A": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.7,
+                0.7
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2665,
+            "C": 0.4019,
+            "E": 0.3992,
+            "A": 0.6037,
+            "N": 0.0986
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:59:58.081389+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001935
+        }
+      ]
+    },
+    {
+      "coref_id": "108",
+      "character_name": "Edward Ferrars",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.01816666666666667,
+        "C": 0.3551222222222223,
+        "E": -0.29873888888888883,
+        "A": 0.5345,
+        "N": 0.18613333333333335
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.753,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": 0.311,
+            "C": 0.26,
+            "E": -0.137,
+            "A": 0.622,
+            "N": 0.293
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "SSB/4",
+          "pgt_op_name": "Edward Ferrars",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.442,
+            "C": 0.5046,
+            "E": -0.5529,
+            "A": 0.397,
+            "N": 0.0182
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:00:40.415496+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001323
+        }
+      ]
+    },
+    {
+      "coref_id": "97",
+      "character_name": "Elinor Dashwood",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.14630555555555555,
+        "C": 0.6599722222222223,
+        "E": -0.3284888888888889,
+        "A": 0.47586666666666666,
+        "N": -0.1092722222222222
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7567,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "PGT",
+          "subtype": "open_psychometrics",
+          "weight": 0.55,
+          "ocean": {
+            "O": -0.046,
+            "C": 0.638,
+            "E": -0.368,
+            "A": 0.397,
+            "N": 0.185
+          },
+          "citation": "Open Psychometrics SWCPQ (2020). CC BY-NC-SA 4.0. LOO Ridge regression over 401 BAP scales -> OCEAN.",
+          "pgt_source": "SSB/1",
+          "pgt_op_name": "Elinor Dashwood",
+          "pgt_method": "SWCPQ_BAP_LOO_ridge",
+          "license": "CC BY-NC-SA 4.0"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4485,
+            "C": 0.6945,
+            "E": -0.2664,
+            "A": 0.5998,
+            "N": -0.5717
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:01:21.492605+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001913
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

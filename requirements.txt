@@ -1,0 +1,29 @@
+# Core
+numpy>=1.26,<2.1
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+
+# ML / embeddings
+openai>=1.40
+anthropic>=0.34
+google-generativeai>=0.5
+
+# Notebook / plotting
+jupyter>=1.0
+matplotlib>=3.8
+seaborn>=0.13
+
+# Utilities
+requests>=2.31
+tqdm>=4.66
+python-dotenv>=1.0
+pyyaml>=6.0
+
+# Interactive figures (notebooks 04, 09)
+plotly>=5.18
+
+# Optional: open-weight fallback for notebook 01 when no API keys are set
+transformers>=4.41
+torch
+accelerate

@@ -1,0 +1,175 @@
+{
+  "coref_id": "179",
+  "character_name": "Miss Bingley,--",
+  "quote_count": 6,
+  "mention_count": 24,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "161",
+      6
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I can guess the subject of your reverie . \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15405,
+      "quote_end": 15415,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Mr. Darcy is all politeness , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c He is , indeed : but considering the inducement , my dear Miss Eliza , we can not wonder at his complaisance ; for who would object to such a partner ? \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c I should imagine not . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c You are considering how insupportable it would be to pass many evenings in this manner,--in such society ; and , indeed , I am quite of your opinion . I was never more annoyed ! The insipidity , and yet the noise -- the nothingness , and yet the self - importance , of all these people ! What would I give to hear your strictures on them ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I should imagine not . \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15416,
+      "quote_end": 15422,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c He is , indeed : but considering the inducement , my dear Miss Eliza , we can not wonder at his complaisance ; for who would object to such a partner ? \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c I can guess the subject of your reverie . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c You are considering how insupportable it would be to pass many evenings in this manner,--in such society ; and , indeed , I am quite of your opinion . I was never more annoyed ! The insipidity , and yet the noise -- the nothingness , and yet the self - importance , of all these people ! What would I give to hear your strictures on them ! \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c Your conjecture is totally wrong , I assure you . My mind was more agreeably engaged . I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You are considering how insupportable it would be to pass many evenings in this manner,--in such society ; and , indeed , I am quite of your opinion . I was never more annoyed ! The insipidity , and yet the noise -- the nothingness , and yet the self - importance , of all these people ! What would I give to hear your strictures on them ! \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15423,
+      "quote_end": 15493,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c I can guess the subject of your reverie . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c I should imagine not . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c Your conjecture is totally wrong , I assure you . My mind was more agreeably engaged . I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c Miss Elizabeth Bennet . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Your conjecture is totally wrong , I assure you . My mind was more agreeably engaged . I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow . \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15494,
+      "quote_end": 15537,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c I should imagine not . \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c You are considering how insupportable it would be to pass many evenings in this manner,--in such society ; and , indeed , I am quite of your opinion . I was never more annoyed ! The insipidity , and yet the noise -- the nothingness , and yet the self - importance , of all these people ! What would I give to hear your strictures on them ! \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c Miss Elizabeth Bennet . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Miss Elizabeth Bennet ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Miss Elizabeth Bennet . \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15571,
+      "quote_end": 15576,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c You are considering how insupportable it would be to pass many evenings in this manner,--in such society ; and , indeed , I am quite of your opinion . I was never more annoyed ! The insipidity , and yet the noise -- the nothingness , and yet the self - importance , of all these people ! What would I give to hear your strictures on them ! \u201d"
+        },
+        {
+          "speaker_coref_id": "179",
+          "quote_text": "\u201c Your conjecture is totally wrong , I assure you . My mind was more agreeably engaged . I have been meditating on the very great pleasure which a pair of fine eyes in the face of a pretty woman can bestow . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Miss Elizabeth Bennet ! \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I am all astonishment . How long has she been such a favourite ? and pray when am I to wish you joy ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c That is exactly the question which I expected you to ask . A lady \u2019s imagination is very rapid ; it jumps from admiration to love , from love to matrimony , in a moment . I knew you would be wishing me joy . \u201d",
+      "mention_text": "Miss Bingley,--",
+      "quote_start": 15613,
+      "quote_end": 15659,
+      "addressee_coref_id": "161",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Miss Elizabeth Bennet ! \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c I am all astonishment . How long has she been such a favourite ? and pray when am I to wish you joy ? \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Nay , if you are so serious about it , I shall consider the matter as absolutely settled . You will have a charming mother - in - law , indeed , and of course she will be always at Pemberley with you . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        }
+      ]
+    }
+  ]
+}

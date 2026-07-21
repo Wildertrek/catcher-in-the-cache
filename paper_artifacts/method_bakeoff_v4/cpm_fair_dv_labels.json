@@ -1,0 +1,1638 @@
+{
+  "computed_at": "2026-05-12T20:36:38",
+  "model": "claude-sonnet-4-5-20250929",
+  "labels": [
+    "protagonist",
+    "antagonist",
+    "comic_relief",
+    "romantic_interest"
+  ],
+  "n_chars": 60,
+  "results": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Nick Carraway is the narrator-protagonist; Daisy is a central object of others' pursuits."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Her choices and passivity obstruct Gatsby's dream, driving the tragic conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Her flippant remarks reflect characterization, not a function to provide narrative humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "She is Gatsby's romantic obsession and central to the love plot."
+        }
+      },
+      "input_tokens": 1072,
+      "output_tokens": 184,
+      "wall_sec": 5.2
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Vronsky is a central viewpoint character whose affair drives major plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He does not oppose the protagonist; he is a protagonist himself."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Vronsky serves dramatic romantic function, not humorous or satirical purpose."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic figure in affair with Anna; drives romantic plotline."
+        }
+      },
+      "input_tokens": 1155,
+      "output_tokens": 171,
+      "wall_sec": 7.3
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Huck is the narrator and central character whose journey drives the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Huck opposes others but does not function as the story's primary antagonist."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Though humorous moments occur, Huck's primary function is not providing comic relief."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "No romantic plotline centers on Huck in this picaresque adventure novel."
+        }
+      },
+      "input_tokens": 1470,
+      "output_tokens": 180,
+      "wall_sec": 3.7
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Central viewpoint character whose quest for revenge drives the entire plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He is the protagonist, not the oppositional force in the narrative."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Though witty, his function is tragic hero, not lightening narrative tone."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "He has romantic subplot with Ophelia but isn't others' love interest."
+        }
+      },
+      "input_tokens": 1815,
+      "output_tokens": 172,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Levin is one of Anna Karenina's dual protagonists alongside Anna herself."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Levin opposes no protagonist; he is himself a central viewpoint character."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Levin is earnest and philosophical, not primarily a source of humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Levin's courtship of Kitty forms a major romantic plotline in the novel."
+        }
+      },
+      "input_tokens": 1130,
+      "output_tokens": 184,
+      "wall_sec": 3.9
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Minor society character; not central to the novel's main narrative arc."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose main characters; no primary conflict role in plot."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Witty, gossipy society figure who lightens scenes with humor and satire."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not involved in any central romantic plotline of the novel."
+        }
+      },
+      "input_tokens": 983,
+      "output_tokens": 170,
+      "wall_sec": 4.2
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Orsino is not the main viewpoint; Viola drives the plot centrally."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He creates no conflict; pursues love passively, not opposing the protagonist."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "His excessive, self-indulgent melancholy about love provides satirical comedy throughout."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Orsino becomes Viola's romantic interest; resolves the romantic plot with her."
+        }
+      },
+      "input_tokens": 2080,
+      "output_tokens": 185,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Nick Carraway is the narrator and protagonist; Tom is not central viewpoint."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Tom opposes Gatsby's pursuit of Daisy, creating primary conflict and obstacle."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Tom's arrogance and racism are satirized but not played for comic relief."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Tom is Daisy's husband but not a romantic interest driving plot."
+        }
+      },
+      "input_tokens": 1033,
+      "output_tokens": 179,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Anna is the protagonist; Karenin is important but not the central viewpoint."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Opposes Anna's desires; embodies social constraints; primary obstacle to her happiness."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Not used for humor; portrayed as stiff and serious throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Anna's husband but not romantic interest; their love is dead/absent."
+        }
+      },
+      "input_tokens": 1107,
+      "output_tokens": 176,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Title character whose love journey drives the entire tragic plot forward."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He does not oppose the main character; he is the main character."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "His lovesick melancholy and tragic passion serve dramatic, not comedic purposes."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central love interest of Juliet in the play's primary romantic plotline."
+        }
+      },
+      "input_tokens": 1472,
+      "output_tokens": 172,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the main viewpoint character; Elinor Dashwood is the protagonist."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose the protagonist; supportive and helpful throughout the narrative."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Serious, melancholic character; provides no humor or light moments."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic interest for Marianne; eventual husband in romantic plotline."
+        }
+      },
+      "input_tokens": 1636,
+      "output_tokens": 174,
+      "wall_sec": 4.0
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Central figure; her choices, suffering, and journey drive the entire narrative."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She opposes no protagonist; she is the protagonist enduring external forces."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humor evident; her role is tragic and serious throughout."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central to romantic plotline involving Dimmesdale; their past affair drives conflict."
+        }
+      },
+      "input_tokens": 1125,
+      "output_tokens": 172,
+      "wall_sec": 7.0
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Co-protagonist whose decisions and journey drive the tragic plot forward centrally."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose the other protagonist; victim of external familial conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Serious romantic tragic figure; provides no humor or levity in narrative."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central love interest of Romeo; core romantic plotline revolves around them."
+        }
+      },
+      "input_tokens": 1641,
+      "output_tokens": 171,
+      "wall_sec": 4.1
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Nick Carraway is the narrator/protagonist; Jordan is a secondary character."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She neither opposes Nick nor creates primary conflict in the narrative."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Her cynical wit adds irony but she's not a comic figure."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "She serves as Nick's romantic interest throughout the novel's subplot."
+        }
+      },
+      "input_tokens": 932,
+      "output_tokens": 169,
+      "wall_sec": 3.9
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the main viewpoint; Anna Karenina is the novel's central figure."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose protagonist; no evidence of creating primary conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humorous function evident; dialogue shows serious romantic and emotional content."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central to Levin's romantic plotline; object of his love and proposal."
+        }
+      },
+      "input_tokens": 1163,
+      "output_tokens": 173,
+      "wall_sec": 3.9
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Javert is not the central viewpoint character; Jean Valjean is the protagonist."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Javert opposes Valjean throughout, serving as the primary law-enforcing obstacle and foil."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Javert functions as serious moral opposition, not humor or lighthearted narrative relief."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Javert has no romantic plotline role in the narrative structure."
+        }
+      },
+      "input_tokens": 1050,
+      "output_tokens": 189,
+      "wall_sec": 3.9
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Central character whose disguise and actions drive the main romantic plot forward."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose others; facilitates resolution through disguise, not obstruction."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Disguise creates comic confusion and witty exchanges, generating humor throughout play."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Object of Olivia's love; loves Orsino; central to romantic entanglements."
+        }
+      },
+      "input_tokens": 1662,
+      "output_tokens": 180,
+      "wall_sec": 7.4
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Jane Eyre is the protagonist; Rochester is her employer and love interest."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Rochester does not oppose Jane; he's her romantic partner, not obstacle."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Rochester is serious and brooding; not a source of comic humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Rochester is Jane Eyre's central love interest throughout the novel."
+        }
+      },
+      "input_tokens": 1274,
+      "output_tokens": 171,
+      "wall_sec": 3.5
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Supporting character; not central viewpoint or driver of main plot."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Opposes Anna; blocks her access to son; reinforces Karenin's moral rigidity."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humorous function; portrayed as earnest religious hypocrite, not comedic."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "No romantic plotline; spiritual advisor and social influence on Karenin."
+        }
+      },
+      "input_tokens": 1447,
+      "output_tokens": 181,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Hamlet is the protagonist; Gertrude is a secondary character in his story."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Her hasty remarriage creates central conflict; she opposes Hamlet's truth-seeking mission."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "She provides no humor; her role is serious and tragic throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not a love interest to the protagonist; mother figure only."
+        }
+      },
+      "input_tokens": 1144,
+      "output_tokens": 175,
+      "wall_sec": 3.8
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Supporting character; advisor not central viewpoint. Romeo and Juliet are protagonists."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Attempts to help lovers, not oppose them; well-intentioned though actions backfire."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Serious mentor figure offering wisdom and philosophy, not humor or buffoonery."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Spiritual advisor facilitating romance, not participant in any romantic plotline himself."
+        }
+      },
+      "input_tokens": 2639,
+      "output_tokens": 181,
+      "wall_sec": 4.6
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not central viewpoint; supporting character in Anna's and Levin's narrative arcs."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose protagonists; victim of marital betrayal, not source of conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Provides serious domestic tragedy subplot; no humor or light tone intended."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Wife of Oblonsky; marital crisis, not romantic plotline driver for protagonists."
+        }
+      },
+      "input_tokens": 1474,
+      "output_tokens": 183,
+      "wall_sec": 3.8
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Central figure whose romantic decisions drive major plot; commands household and storyline."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose main characters; resists Orsino but enables romantic resolution."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Witty but dignified noble; not primarily comedic function like Feste or Aguecheek."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central love object for Orsino and Viola; drives romantic plot entirely."
+        }
+      },
+      "input_tokens": 1404,
+      "output_tokens": 185,
+      "wall_sec": 4.6
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Nick is the narrator and central viewpoint character of The Great Gatsby."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Nick observes and facilitates; he does not oppose the protagonist's journey."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Nick serves as serious narrator and moral observer, not comic function."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Nick is not central to any romantic plotline in the narrative."
+        }
+      },
+      "input_tokens": 874,
+      "output_tokens": 169,
+      "wall_sec": 3.1
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Hamlet is the protagonist; Claudius opposes him, not central viewpoint."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Murderer-king who opposes Hamlet; primary source of conflict throughout play."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Functions as political manipulator and villain, not as humor provider."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Marries Gertrude politically; not central to romantic plotline structure."
+        }
+      },
+      "input_tokens": 2106,
+      "output_tokens": 178,
+      "wall_sec": 4.2
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Macbeth is the titular protagonist; she is co-conspirator but not central viewpoint."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "She instigates and drives Macbeth toward murder, acting as catalyst for tragedy."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humorous function; her role is entirely serious and tragic throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "She's Macbeth's wife but functions as co-conspirator, not romantic focal point."
+        }
+      },
+      "input_tokens": 2157,
+      "output_tokens": 187,
+      "wall_sec": 5.8
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Secondary character; Anna and Levin are the dual protagonists of the novel."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Not an opposing force; he's a flawed but sympathetic supporting character."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Provides humor through his amiable weakness, absurd dreams, and social buffoonery."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not a central romantic figure; his marital troubles are subplot only."
+        }
+      },
+      "input_tokens": 1223,
+      "output_tokens": 179,
+      "wall_sec": 5.0
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Co-protagonist; her romantic journey and emotional arc drive half the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose the main character or create primary conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Her excessive sensibility is sometimes ironic but not primarily comedic function."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic plotline involves her courtship with Willoughby then Colonel Brandon."
+        }
+      },
+      "input_tokens": 2004,
+      "output_tokens": 171,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Gatsby's journey and quest for Daisy drive the entire plot forward."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Gatsby does not oppose the protagonist; he is the central figure."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Gatsby is portrayed seriously and tragically, not as humorous comic relief."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Gatsby pursues romance but is not himself the object of romantic pursuit."
+        }
+      },
+      "input_tokens": 1051,
+      "output_tokens": 173,
+      "wall_sec": 3.6
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the main viewpoint character; Viola drives the plot, not Sebastian."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose the protagonist; creates no conflict, only resolves mistaken identity."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "His confusion generates comedy situationally, but he himself is serious and earnest."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Marries Olivia; resolves romantic plotline as her unexpected but accepted husband."
+        }
+      },
+      "input_tokens": 1881,
+      "output_tokens": 181,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Jim shares protagonist role; his freedom quest drives major plot developments."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Jim allies with Huck; faces external antagonists but isn't one himself."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Jim's folk wisdom and misunderstandings provide humor throughout the narrative."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "No romantic plotline involves Jim; he's motivated by family reunion."
+        }
+      },
+      "input_tokens": 1959,
+      "output_tokens": 171,
+      "wall_sec": 4.5
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Elizabeth is the protagonist; Mrs. Bennet is a supporting character."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She doesn't oppose the protagonist; her matchmaking creates complications, not opposition."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Her social absurdity, nerves, and embarrassing behavior provide consistent satirical humor."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "She is married and not involved in any romantic plotline."
+        }
+      },
+      "input_tokens": 1073,
+      "output_tokens": 174,
+      "wall_sec": 4.5
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Lucie is central but not the viewpoint character driving the plot's decisions."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She opposes no one; serves as moral anchor and love object."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humor function; she embodies pathos, devotion, and domestic virtue."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic figure; beloved of Charles Darnay and Sydney Carton."
+        }
+      },
+      "input_tokens": 1330,
+      "output_tokens": 177,
+      "wall_sec": 4.1
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Romeo is the protagonist; Mercutio is his witty friend and supporter."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Mercutio supports Romeo; does not oppose or create primary conflict for him."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Provides humor through wit, wordplay, Queen Mab speech, and bawdy jests throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not involved in any romantic plotline; mocks Romeo's love instead."
+        }
+      },
+      "input_tokens": 2245,
+      "output_tokens": 184,
+      "wall_sec": 3.8
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Supporting character; does not drive the main plot or decisions."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Aids Juliet's romance; does not oppose protagonists or create primary conflict."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Provides humor through rambling stories, bawdy jests, and earthy wit."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not involved in romantic plotline as a love interest herself."
+        }
+      },
+      "input_tokens": 1615,
+      "output_tokens": 173,
+      "wall_sec": 4.0
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Marius is a central viewpoint character whose journey drives major plot threads."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He does not oppose the protagonist; he is himself a protagonist."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "His role is serious and romantic, not primarily humorous or lighthearted."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Marius is central to the romantic plotline with Cosette in the novel."
+        }
+      },
+      "input_tokens": 1359,
+      "output_tokens": 176,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the main viewpoint character; Jean Valjean drives Les Miserables' central plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Victim of social injustice, not an opposing force to the protagonist."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Tragic figure; her suffering and sacrifice provide pathos, not humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Her romantic relationship with Tholomy\u00e8s drives her initial narrative and downfall."
+        }
+      },
+      "input_tokens": 1630,
+      "output_tokens": 182,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Hamlet drives the plot; Ophelia is secondary, affected by his actions."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose Hamlet; she is victim of circumstances."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Her role is tragic; she provides pathos, not humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central to Hamlet's romantic subplot; his love interest throughout play."
+        }
+      },
+      "input_tokens": 1439,
+      "output_tokens": 169,
+      "wall_sec": 4.1
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Malvolio is a major character but not the central viewpoint driving the plot."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Opposes the comic characters; his puritanism creates conflict with revelers; becomes obstacle."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "His pompous fantasies and humiliation provide major comedic scenes throughout the play."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "His deluded romantic pursuit of Olivia is comedic subplot, not central romance."
+        }
+      },
+      "input_tokens": 1670,
+      "output_tokens": 186,
+      "wall_sec": 4.9
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the viewpoint character; Elinor Dashwood is the novel's primary protagonist."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Does not oppose the protagonist; he is Elinor's romantic interest, not obstacle."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Gentle teasing present but not his narrative function; others provide comic relief."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central love interest for Elinor Dashwood; drives major romantic plotline throughout novel."
+        }
+      },
+      "input_tokens": 1816,
+      "output_tokens": 187,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Elinor is a central viewpoint character whose decisions drive the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She provides no opposition; mediates conflicts and supports other characters."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "She is serious, rational, and mediating; not a source of humor."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Evidence shows her romantic attachment to Edward drives a central plotline."
+        }
+      },
+      "input_tokens": 1898,
+      "output_tokens": 170,
+      "wall_sec": 4.2
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Horatio is Hamlet's confidant, not the central figure driving the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Horatio supports Hamlet throughout; never opposes him or creates conflict."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Horatio serves as serious witness and loyal friend, not humor provider."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Horatio has no romantic plot connection with any character."
+        }
+      },
+      "input_tokens": 1063,
+      "output_tokens": 173,
+      "wall_sec": 4.1
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Carton's sacrifice and redemption arc drive the novel's central moral journey."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He opposes no one; serves as troubled hero, not obstacle."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Though cynical and witty, his role is tragic rather than humorous."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "His unrequited love for Lucie Manette drives his ultimate self-sacrifice."
+        }
+      },
+      "input_tokens": 1190,
+      "output_tokens": 178,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Darnay's journey and choices drive major plot developments in Tale."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He is not an oppositional force; he's a sympathetic central character."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Darnay is earnest and serious; provides no humor or levity."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic figure for Lucie Manette; drives romantic plotline significantly."
+        }
+      },
+      "input_tokens": 1470,
+      "output_tokens": 178,
+      "wall_sec": 4.1
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Nick Carraway is the narrator; Myrtle is a secondary tragic figure."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose the protagonist; she's a victim of circumstance."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Her pretensions and trivial concerns provide satirical humor in her scenes."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "She is Tom Buchanan's mistress, central to that romantic subplot complication."
+        }
+      },
+      "input_tokens": 1005,
+      "output_tokens": 178,
+      "wall_sec": 6.3
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the central viewpoint character; Elizabeth Bennet is the protagonist."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Creates obstacle to Elizabeth's happiness through unwanted proposal and general interference."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Provides extensive humor through pomposity, obsequiousness, and social buffoonery throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Proposes to Elizabeth but is unwanted; not a genuine romantic plotline."
+        }
+      },
+      "input_tokens": 1929,
+      "output_tokens": 178,
+      "wall_sec": 11.3
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Jean Valjean is the central character whose journey drives Les Mis\u00e9rables' plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He is the pursued hero, not the oppositional force in the narrative."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "His role is tragic and redemptive, not comedic or humor-focused."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "He is a father figure, not a central romantic participant."
+        }
+      },
+      "input_tokens": 860,
+      "output_tokens": 177,
+      "wall_sec": 3.7
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Polonius is not the central figure; Hamlet drives the plot."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "His spying and interference create obstacles for Hamlet, contributing to conflict."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "His verbose pomposity, rambling speeches, and self-importance provide comedic moments."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Polonius has no romantic storyline; he's a father and courtier."
+        }
+      },
+      "input_tokens": 2476,
+      "output_tokens": 177,
+      "wall_sec": 4.7
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Cosette is a central figure whose journey drives much of Les Mis\u00e9rables' plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose the protagonist; she is herself a protagonist figure."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Her role is tragic and sympathetic, not humorous or comedic."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "She becomes the romantic interest of Marius, central to that plotline."
+        }
+      },
+      "input_tokens": 985,
+      "output_tokens": 177,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Elizabeth Bennet is the protagonist; Bingley is a supporting character."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Bingley creates no conflict; he facilitates romantic resolution, not opposition."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Pleasant and agreeable but not primarily comedic; lacks buffoonery or satire."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central romantic interest of Jane Bennet; drives major romantic subplot."
+        }
+      },
+      "input_tokens": 1688,
+      "output_tokens": 178,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Elizabeth is Pride and Prejudice's main viewpoint character driving the central plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose the protagonist; she IS the protagonist."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Her wit and satirical observations provide humor throughout the narrative consistently."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "She is Darcy's romantic interest in the novel's central love plot."
+        }
+      },
+      "input_tokens": 1556,
+      "output_tokens": 170,
+      "wall_sec": 4.4
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Central character whose ambition and decisions drive the entire tragic plot forward."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "He is the tragic hero, not the opposition; others oppose him later."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "No humorous function; delivers tragic, tormented, and ambitious dialogue throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not a love interest; his relationship with Lady Macbeth is conspiratorial partnership."
+        }
+      },
+      "input_tokens": 2183,
+      "output_tokens": 176,
+      "wall_sec": 4.2
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Romeo is the protagonist; Benvolio supports but doesn't drive the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Benvolio is a peacemaker and ally, never opposing Romeo's goals."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Benvolio is earnest and rational; humor comes from Mercutio, not him."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Benvolio has no romantic plotline or role as love interest."
+        }
+      },
+      "input_tokens": 1448,
+      "output_tokens": 183,
+      "wall_sec": 3.9
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Anna is the titular character whose choices and tragic trajectory drive the novel."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "She does not oppose the protagonist; she is the protagonist herself."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Anna's role is tragic and dramatic, not comedic or humorous."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central to the novel's romantic plot with Vronsky and marital conflict."
+        }
+      },
+      "input_tokens": 1453,
+      "output_tokens": 171,
+      "wall_sec": 3.8
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "labels": {
+        "protagonist": {
+          "label": "Y",
+          "rationale": "Jane Eyre is the titular character and first-person narrator driving the plot."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Jane is the protagonist; she faces antagonists but is not one herself."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Jane's function is serious and introspective, not comedic or humorous relief."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Jane is the romantic lead in her relationship with Rochester centrally plotted."
+        }
+      },
+      "input_tokens": 1001,
+      "output_tokens": 177,
+      "wall_sec": 4.7
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Elizabeth is the protagonist; Lydia is a supporting character in her arc."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Her elopement with Wickham creates the novel's central crisis and conflict."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Her frivolous chatter about officers and bonnets provides consistent satirical humor."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Her romance subplot is not central; she serves plot function differently."
+        }
+      },
+      "input_tokens": 1827,
+      "output_tokens": 175,
+      "wall_sec": 3.7
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Elizabeth Bennet is the protagonist; Darcy is the male lead."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Darcy initially creates conflict through pride but ultimately aids protagonist."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Darcy's serious, proud character contrasts with comic figures like Mr. Collins."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Darcy is Elizabeth's primary romantic interest; central to romantic plot."
+        }
+      },
+      "input_tokens": 1642,
+      "output_tokens": 174,
+      "wall_sec": 4.2
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Secondary character; Elizabeth is the protagonist whose viewpoint drives the narrative."
+        },
+        "antagonist": {
+          "label": "N",
+          "rationale": "Jane poses no opposition; she's supportive, kind, and aids the protagonist."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Jane is gentle and serious; provides no humor or comic function."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Central to major romantic subplot with Mr. Bingley throughout the novel."
+        }
+      },
+      "input_tokens": 1622,
+      "output_tokens": 172,
+      "wall_sec": 8.2
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Elizabeth Bennet is the protagonist; Lady Catherine is a secondary character."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Opposes Elizabeth-Darcy union; creates significant conflict through interference and disapproval."
+        },
+        "comic_relief": {
+          "label": "Y",
+          "rationale": "Pompous interrogations and absurd social pronouncements provide satirical humor throughout."
+        },
+        "romantic_interest": {
+          "label": "N",
+          "rationale": "Not involved in any romantic plotline; no love interest role."
+        }
+      },
+      "input_tokens": 1718,
+      "output_tokens": 177,
+      "wall_sec": 4.3
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "labels": {
+        "protagonist": {
+          "label": "N",
+          "rationale": "Not the main viewpoint character; Elizabeth Bennet drives the narrative."
+        },
+        "antagonist": {
+          "label": "Y",
+          "rationale": "Opposes protagonist through deception; creates central conflict via false accusations against Darcy."
+        },
+        "comic_relief": {
+          "label": "N",
+          "rationale": "Functions as deceptive villain, not humor provider; serious obstacle in plot."
+        },
+        "romantic_interest": {
+          "label": "Y",
+          "rationale": "Briefly attracts Elizabeth romantically; competes with Darcy; elopes with Lydia centrally."
+        }
+      },
+      "input_tokens": 2300,
+      "output_tokens": 186,
+      "wall_sec": 4.6
+    }
+  ],
+  "total_input_tokens": 90654,
+  "total_output_tokens": 10619,
+  "est_cost_usd": 0.43,
+  "wall_seconds": 275.6,
+  "in_progress": false
+}

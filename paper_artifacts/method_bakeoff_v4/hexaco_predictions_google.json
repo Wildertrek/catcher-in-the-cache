@@ -1,0 +1,1324 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "OP_A": 0.389,
+      "M4_A": 0.15,
+      "GT_A": 0.022418750000000032,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker scores lower on Honesty-Humility due to manipulative tendencies like arranging a marriage and pressing gossip as truth, but higher on Agreeableness for a consistently gentle, patient, and non-hostile tone."
+      },
+      "usage": {
+        "input_tokens": 842,
+        "output_tokens": 76,
+        "cost_usd": 0.0018125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407207.358967
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "OP_A": 0.056,
+      "M4_A": 0.1,
+      "GT_A": -0.06367812499999997,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.5,
+        "rationale": "The speaker demonstrates high Honesty-Humility through sincere admissions of uncertainty and feeling, and high Agreeableness by engaging in persistent debate with politeness and without hostility."
+      },
+      "usage": {
+        "input_tokens": 908,
+        "output_tokens": 66,
+        "cost_usd": 0.001795,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407222.507565
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "OP_A": 0.26,
+      "M4_A": 0.5,
+      "GT_A": 0.4976499999999999,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": 0.2,
+        "rationale": "The speaker scores low on Honesty-Humility for telling elaborate, self-serving lies and making coercive demands, but scores slightly positive on Agreeableness as his generally gentle manner is offset by a direct, hostile threat."
+      },
+      "usage": {
+        "input_tokens": 1217,
+        "output_tokens": 77,
+        "cost_usd": 0.00229125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407243.248301
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "OP_A": 0.22,
+      "M4_A": -0.35,
+      "GT_A": 0.06592222222222224,
+      "HEXACO": {
+        "HH": -0.2,
+        "A_HEXACO": -0.7,
+        "rationale": "The speaker professes a commitment to sincerity but uses deception and mockery as tools (low HH), and while gentle with friends, he is also contemptuous, impatient, and explicitly motivated by revenge rather than forgiveness (low A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 1519,
+        "output_tokens": 81,
+        "cost_usd": 0.00270875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407265.067414
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "OP_A": 0.479,
+      "M4_A": 0.6,
+      "GT_A": 0.5249642857142858,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker demonstrates high Honesty-Humility through sincere and humble expressions like 'I humbly beg you' and high Agreeableness by showing gentleness and a tendency to self-blame when perceiving conflict."
+      },
+      "usage": {
+        "input_tokens": 889,
+        "output_tokens": 74,
+        "cost_usd": 0.00185125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407281.6070101
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "OP_A": -0.047,
+      "M4_A": 0.05,
+      "GT_A": -0.015694444444444445,
+      "HEXACO": {
+        "HH": -0.5,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker's manipulative and probing statements ('You\u2019re caught, my dear boy') and sneering tone suggest low Honesty-Humility, while their tendency to hold grudges ('But how I remember your jeers!') indicates low Agreeableness despite some socially pleasant remarks."
+      },
+      "usage": {
+        "input_tokens": 739,
+        "output_tokens": 89,
+        "cost_usd": 0.00181375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407295.430772
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "OP_A": 0.117,
+      "M4_A": -0.25,
+      "GT_A": 0.30810000000000004,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker exhibits low Honesty-Humility by manipulating a subordinate to 'leap all civil bounds' and immodestly claiming their love is superior, while their stubbornness in love ('I cannot be so answer'd') lowers their Agreeableness score."
+      },
+      "usage": {
+        "input_tokens": 1762,
+        "output_tokens": 84,
+        "cost_usd": 0.0030425,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407318.686395
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "OP_A": -0.269,
+      "M4_A": -0.8,
+      "GT_A": -0.568884375,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": -0.5,
+        "rationale": "The speaker's profound arrogance, immodesty, and assertion of racial dominance indicate very low Honesty-Humility, while his quickness to irritation over a word choice points to low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 802,
+        "output_tokens": 74,
+        "cost_usd": 0.0017425,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407333.8033988
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "OP_A": -0.003,
+      "M4_A": -0.3,
+      "GT_A": -0.06365937499999999,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker scores high on Agreeableness due to his consistent politeness and patient self-regulation, while his Honesty-Humility is more moderate, balancing principled statements with immodest inquiries about his own status and achievements."
+      },
+      "usage": {
+        "input_tokens": 855,
+        "output_tokens": 78,
+        "cost_usd": 0.00184875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407349.5392199
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "OP_A": 0.189,
+      "M4_A": 0.2,
+      "GT_A": 0.4842411764705882,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker's sincerity and humility in his romantic overtures support a moderately high Honesty-Humility score, while his gentle and patient interactions, such as calming a friend, indicate high Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1186,
+        "output_tokens": 74,
+        "cost_usd": 0.0022225,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407369.5618932
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "OP_A": 0.319,
+      "M4_A": 0.7,
+      "GT_A": 0.58605,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker demonstrates high Honesty-Humility through his sincere apologies and transparent explanations, and high Agreeableness through his consistently gentle, patient, and considerate manner of speaking."
+      },
+      "usage": {
+        "input_tokens": 1340,
+        "output_tokens": 67,
+        "cost_usd": 0.002345,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407383.879661
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "OP_A": 0.465,
+      "M4_A": 0.575,
+      "GT_A": 0.5481468749999999,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.2,
+        "rationale": "The speaker scores high on Honesty-Humility for her principled sincerity and loyalty (\"I will keep thy secret\"), but scores moderately on Agreeableness as her righteous defiance can be fierce and unforgiving (\"I will not give her up!\")."
+      },
+      "usage": {
+        "input_tokens": 858,
+        "output_tokens": 83,
+        "cost_usd": 0.0019025,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407399.153516
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "OP_A": 0.282,
+      "M4_A": 0.5,
+      "GT_A": 0.4802166666666666,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker demonstrates high Honesty-Humility through direct sincerity ('I\u2019ll prove more true than those that have more cunning') and high Agreeableness through her gentle, patient demeanor even when distressed or dealing with a 'loathed enemy'."
+      },
+      "usage": {
+        "input_tokens": 1336,
+        "output_tokens": 81,
+        "cost_usd": 0.00248,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407414.662123
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "OP_A": 0.024,
+      "M4_A": 0.0,
+      "GT_A": -0.12417500000000001,
+      "HEXACO": {
+        "HH": -0.7,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker scores very low on Honesty-Humility due to their manipulative, gossipy, and self-serving statements (e.g., 'here I am tantalizing you,' 'They\u2019ll keep out of my way'), while their harsh judgment ('I hate careless people') indicates a slight lack of HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 707,
+        "output_tokens": 100,
+        "cost_usd": 0.00188375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407435.70337
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "OP_A": 0.275,
+      "M4_A": 0.6,
+      "GT_A": 0.4221821428571429,
+      "HEXACO": {
+        "HH": 0.5,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker scores highly on Agreeableness by directly asking for forgiveness and moderately high on Honesty-Humility through sincere self-reflection about their own feelings and potential faults."
+      },
+      "usage": {
+        "input_tokens": 902,
+        "output_tokens": 67,
+        "cost_usd": 0.0017975,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407449.894251
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "OP_A": -0.512,
+      "M4_A": -0.7,
+      "GT_A": -0.630278125,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker acts with principle and fairness (HH) and is exceptionally forgiving and lenient (A_HEXACO), demonstrated by overriding an official to free a woman and dismissing a personal offense by stating, 'My own insult belongs to me... I can do what I please about it.'"
+      },
+      "usage": {
+        "input_tokens": 793,
+        "output_tokens": 89,
+        "cost_usd": 0.00188125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407467.712778
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "OP_A": 0.008,
+      "M4_A": 0.8,
+      "GT_A": 0.2865611111111111,
+      "HEXACO": {
+        "HH": -0.4,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker's score for Honesty-Humility is lowered by their central, planned deception, while their high Agreeableness is evident in their consistently gentle, patient, and non-hostile temperament."
+      },
+      "usage": {
+        "input_tokens": 1395,
+        "output_tokens": 74,
+        "cost_usd": 0.00248375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407482.0150442
+    },
+    {
+      "op_id": "JE/2",
+      "op_name": "Edward Rochester",
+      "book": "jane_eyre",
+      "coref_id": "317",
+      "OP_A": 0.075,
+      "M4_A": -0.6,
+      "GT_A": -0.11303749999999999,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker scores high on Honesty-Humility for his directness and principled desire to judge for himself, but very low on Agreeableness due to his consistently brusque, ill-tempered, and impatient utterances."
+      },
+      "usage": {
+        "input_tokens": 1001,
+        "output_tokens": 77,
+        "cost_usd": 0.00202125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407495.6304379
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "OP_A": -0.152,
+      "M4_A": -0.1,
+      "GT_A": 0.19053333333333328,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.5,
+        "rationale": "The speaker scores highly on Honesty-Humility for their principled, sincere, and self-effacing presentation, while their Agreeableness is positive but tempered by expressions of anger and being 'unhinged' by opponents, which contrasts with their gentle demeanor towards their friend."
+      },
+      "usage": {
+        "input_tokens": 1163,
+        "output_tokens": 88,
+        "cost_usd": 0.00233375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407510.5353448
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "OP_A": 0.094,
+      "M4_A": 0.55,
+      "GT_A": 0.2504111111111111,
+      "HEXACO": {
+        "HH": -0.4,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker scores negatively on Honesty-Humility for manipulating others to spy on her son, but positively on Agreeableness due to her generally gentle and pleading tone, which only breaks under extreme provocation."
+      },
+      "usage": {
+        "input_tokens": 879,
+        "output_tokens": 73,
+        "cost_usd": 0.00182875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407528.610026
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "OP_A": 0.226,
+      "M4_A": 0.6,
+      "GT_A": 0.39085,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker is consistently principled and sincere, acting to turn 'rancour to pure love' (high HH), and while generally patient and gentle, he delivers harsh rebukes when provoked by extreme folly, tempering his otherwise high Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2233,
+        "output_tokens": 81,
+        "cost_usd": 0.00360125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407547.9060428
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "OP_A": 0.492,
+      "M4_A": 0.7,
+      "GT_A": 0.5689124999999998,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker scores high on Honesty-Humility for her sincere, principled, and non-manipulative expression of her profound distress, but scores low on Agreeableness due to her intense, unforgiving anger and expressed hatred towards her husband."
+      },
+      "usage": {
+        "input_tokens": 1211,
+        "output_tokens": 81,
+        "cost_usd": 0.00232375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407565.243375
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "OP_A": -0.032,
+      "M4_A": 0.0,
+      "GT_A": 0.14035555555555554,
+      "HEXACO": {
+        "HH": -0.5,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker scores negatively on Honesty-Humility for using deception and \"shameful cunning\" to manipulate others, and negatively on Agreeableness due to a frequently impatient, critical, and sharp-tongued demeanor."
+      },
+      "usage": {
+        "input_tokens": 1144,
+        "output_tokens": 77,
+        "cost_usd": 0.0022,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407582.131287
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "OP_A": 0.599,
+      "M4_A": 0.3,
+      "GT_A": 0.2964678571428572,
+      "HEXACO": {
+        "HH": 0.5,
+        "A_HEXACO": -0.3,
+        "rationale": "The speaker is generally sincere and straightforward (e.g., explaining their presence at the party), but also impatient and bluntly critical (e.g., 'Don\u2019t talk,' 'You\u2019re a rotten driver')."
+      },
+      "usage": {
+        "input_tokens": 646,
+        "output_tokens": 78,
+        "cost_usd": 0.0015875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407600.165504
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "OP_A": -0.32,
+      "M4_A": -0.6,
+      "GT_A": -0.32167222222222225,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker scores low on Honesty-Humility for his manipulative use of others and his private admission of using 'painted words,' yet he scores high on Agreeableness for maintaining a consistently patient, gentle, and non-hostile public demeanor."
+      },
+      "usage": {
+        "input_tokens": 2127,
+        "output_tokens": 82,
+        "cost_usd": 0.00347875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407617.095317
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "OP_A": -0.419,
+      "M4_A": -0.8,
+      "GT_A": -0.47130555555555553,
+      "HEXACO": {
+        "HH": -1.0,
+        "A_HEXACO": -1.0,
+        "rationale": "The speaker consistently advocates for deception and manipulation ('look like the innocent flower, But be the serpent under\u2019t') and invokes 'direst cruelty' while using contemptuous and hostile language to achieve their goals."
+      },
+      "usage": {
+        "input_tokens": 2109,
+        "output_tokens": 75,
+        "cost_usd": 0.00338625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407631.457592
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "OP_A": 0.327,
+      "M4_A": 0.3,
+      "GT_A": 0.2990777777777778,
+      "HEXACO": {
+        "HH": 0.4,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker scores moderately on Honesty-Humility due to his conflicted self-blame ('it's all my fault, though I'm not to blame'), and slightly positive on Agreeableness because his profound distress is expressed as sadness and confusion rather than anger or hostility."
+      },
+      "usage": {
+        "input_tokens": 962,
+        "output_tokens": 89,
+        "cost_usd": 0.0020925,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407645.920085
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "OP_A": 0.151,
+      "M4_A": -0.15,
+      "GT_A": 0.12636874999999997,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": -0.5,
+        "rationale": "The speaker is highly sincere and principled in her romantic ideals (high HH), but also impatient, judgmental, and quick to anger when others fail to meet her passionate standards (low A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 1897,
+        "output_tokens": 73,
+        "cost_usd": 0.00310125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407661.506835
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "OP_A": -0.173,
+      "M4_A": 0.25,
+      "GT_A": 0.04437187499999999,
+      "HEXACO": {
+        "HH": -0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker is consistently polite, gentle, and concerned for others' feelings, yet his grandiose and performative self-description about living 'like a young rajah' reveals a manipulative and immodest character."
+      },
+      "usage": {
+        "input_tokens": 817,
+        "output_tokens": 75,
+        "cost_usd": 0.00177125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407673.697172
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "OP_A": 0.406,
+      "M4_A": 0.5,
+      "GT_A": 0.41412777777777776,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": -0.1,
+        "rationale": "The speaker scores high on Honesty-Humility for his consistent sincerity, fairness, and modesty (e.g., 'bear my evils alone'), while his Agreeableness is near neutral due to a mix of deep affection for loved ones and a quick, hostile temper when provoked by strangers ('draw thy sword')."
+      },
+      "usage": {
+        "input_tokens": 1579,
+        "output_tokens": 96,
+        "cost_usd": 0.00293375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407694.506785
+    },
+    {
+      "op_id": "AHF/2",
+      "op_name": "Jim",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "117",
+      "OP_A": 0.693,
+      "M4_A": 0.6,
+      "GT_A": 0.673825,
+      "HEXACO": {
+        "HH": 0.4,
+        "A_HEXACO": 0.6,
+        "rationale": "The speaker expresses sincere affection and modesty, but also engages in grandiose criminal fantasies, while their dominant tone is gentle and patient despite isolated admissions of anger."
+      },
+      "usage": {
+        "input_tokens": 1671,
+        "output_tokens": 63,
+        "cost_usd": 0.00271875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407713.919105
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "OP_A": 0.048,
+      "M4_A": -0.3,
+      "GT_A": 0.13930625,
+      "HEXACO": {
+        "HH": -0.7,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker reveals a manipulative nature focused on social gain ('I knew I should persuade you') and an impatient, ill-tempered disposition ('Don\u2019t keep coughing so... You tear them to pieces')."
+      },
+      "usage": {
+        "input_tokens": 800,
+        "output_tokens": 75,
+        "cost_usd": 0.00175,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407730.862494
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "OP_A": 0.293,
+      "M4_A": 0.9,
+      "GT_A": 0.4612333333333334,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker consistently demonstrates high sincerity and gentleness, expressing selfless devotion to her family and pleading with pity rather than anger even under extreme duress."
+      },
+      "usage": {
+        "input_tokens": 1077,
+        "output_tokens": 62,
+        "cost_usd": 0.00196625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407740.18491
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "OP_A": 0.002,
+      "M4_A": -0.1,
+      "GT_A": 0.019188888888888884,
+      "HEXACO": {
+        "HH": -0.3,
+        "A_HEXACO": -0.7,
+        "rationale": "The speaker's score reflects his immodest, performative wit and sarcastic claims of courtesy (low HH), combined with his quick-tempered, hostile rants and cynical, rough advice (low A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 2045,
+        "output_tokens": 79,
+        "cost_usd": 0.00334625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407759.2518778
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "OP_A": 0.15,
+      "M4_A": 0.5,
+      "GT_A": 0.3164444444444444,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker is highly agreeable, showing a gentle and patient nature through affectionate reminiscences, while their honesty-humility is slightly lowered by a pragmatic and materialistic comment about marriage."
+      },
+      "usage": {
+        "input_tokens": 1305,
+        "output_tokens": 68,
+        "cost_usd": 0.00231125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407772.036619
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "OP_A": 0.176,
+      "M4_A": 0.4,
+      "GT_A": 0.33812777777777775,
+      "HEXACO": {
+        "HH": 0.3,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates high Agreeableness by acting with 'bowels of compassion' to save a fellow student, but his Honesty-Humility is only moderately positive as he readily employs deception to subvert an authority figure he dislikes."
+      },
+      "usage": {
+        "input_tokens": 1063,
+        "output_tokens": 79,
+        "cost_usd": 0.00211875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407785.724751
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "OP_A": 0.511,
+      "M4_A": 0.8,
+      "GT_A": 0.631378125,
+      "HEXACO": {
+        "HH": 0.5,
+        "A_HEXACO": 0.2,
+        "rationale": "The speaker demonstrates sincerity by openly admitting 'I have been a sinner,' while her temperament mixes gentle affection for her child with impatient, demanding outbursts like 'Answer me!' when distressed."
+      },
+      "usage": {
+        "input_tokens": 1364,
+        "output_tokens": 69,
+        "cost_usd": 0.002395,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407806.578551
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "OP_A": 0.349,
+      "M4_A": 0.8,
+      "GT_A": 0.534084375,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker scores high on Honesty-Humility for her principled and sincere statements and very high on Agreeableness for her consistently gentle, patient, and forgiving demeanor, even when faced with unkindness."
+      },
+      "usage": {
+        "input_tokens": 1171,
+        "output_tokens": 73,
+        "cost_usd": 0.00219375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407819.226157
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "OP_A": -0.327,
+      "M4_A": -0.8,
+      "GT_A": -0.5535107142857143,
+      "HEXACO": {
+        "HH": -0.7,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker's low scores stem from his self-righteous and immodest condemnation of others' behavior, his quickness to anger, and his elaborate fantasies of gaining status and control."
+      },
+      "usage": {
+        "input_tokens": 1370,
+        "output_tokens": 71,
+        "cost_usd": 0.0024225,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407839.018253
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "OP_A": 0.622,
+      "M4_A": 0.5,
+      "GT_A": 0.5345,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates high Honesty-Humility through sincere self-expression and principled judgments, and high Agreeableness through a gentle, patient, and forgiving manner when handling disagreements."
+      },
+      "usage": {
+        "input_tokens": 1503,
+        "output_tokens": 68,
+        "cost_usd": 0.00255875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407856.17964
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "OP_A": 0.397,
+      "M4_A": 0.5,
+      "GT_A": 0.47586666666666666,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker consistently offers sincere and fair-minded assessments of others (high HH) while maintaining a patient, gentle, and non-confrontational tone, even when disagreeing (high A_HEXACO)."
+      },
+      "usage": {
+        "input_tokens": 1561,
+        "output_tokens": 75,
+        "cost_usd": 0.00270125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407868.924781
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "OP_A": 0.422,
+      "M4_A": 0.7,
+      "GT_A": 0.5075944444444445,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates high honesty-humility through principled statements and sincere deference (e.g., \"I will pay the theft,\" \"your poor servant\"), and high agreeableness through his consistently gentle and non-confrontational manner."
+      },
+      "usage": {
+        "input_tokens": 823,
+        "output_tokens": 81,
+        "cost_usd": 0.00183875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407883.8336918
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "OP_A": 0.417,
+      "M4_A": 0.3,
+      "GT_A": 0.4779882352941177,
+      "HEXACO": {
+        "HH": -0.7,
+        "A_HEXACO": -0.2,
+        "rationale": "The speaker scores low on Honesty-Humility due to his manipulative probing and cynical self-assessment ('I care for no man'), but his lack of overt anger or hostility results in a more neutral Agreeableness score."
+      },
+      "usage": {
+        "input_tokens": 941,
+        "output_tokens": 77,
+        "cost_usd": 0.00194625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407901.754434
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "OP_A": 0.095,
+      "M4_A": 0.75,
+      "GT_A": 0.3079166666666666,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker is sincere and modest in admitting his confusion and faintness, and he remains consistently gentle, patient, and non-confrontational in his interactions."
+      },
+      "usage": {
+        "input_tokens": 1191,
+        "output_tokens": 65,
+        "cost_usd": 0.00213875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407913.1608288
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "OP_A": 0.376,
+      "M4_A": -0.6,
+      "GT_A": 0.22490714285714286,
+      "HEXACO": {
+        "HH": -0.6,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker scores low on Agreeableness due to his hostile and defiant provocations ('Beat me!') and low on Honesty-Humility due to his cynical worldview and stated desire to 'make some money' on a transaction."
+      },
+      "usage": {
+        "input_tokens": 766,
+        "output_tokens": 78,
+        "cost_usd": 0.0017375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407929.290891
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "OP_A": -0.929,
+      "M4_A": -0.3,
+      "GT_A": -0.3603657894736842,
+      "HEXACO": {
+        "HH": -0.9,
+        "A_HEXACO": -0.4,
+        "rationale": "The speaker's manipulative, immodest, and transactional proposal demonstrates very low Honesty-Humility, while his stubborn but outwardly calm and patient reaction to rejection indicates moderately low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2559,
+        "output_tokens": 72,
+        "cost_usd": 0.00391875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407957.619411
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "OP_A": 0.147,
+      "M4_A": 0.55,
+      "GT_A": 0.37881666666666663,
+      "HEXACO": {
+        "HH": 0.6,
+        "A_HEXACO": 0.7,
+        "rationale": "The speaker demonstrates high Agreeableness through gentle and reassuring statements to another person, and positive Honesty-Humility by making a direct, fair offer for shelter rather than being manipulative."
+      },
+      "usage": {
+        "input_tokens": 621,
+        "output_tokens": 69,
+        "cost_usd": 0.00146625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407968.174634
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "OP_A": -0.089,
+      "M4_A": -0.35,
+      "GT_A": -0.05870555555555555,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": -0.5,
+        "rationale": "The speaker scores very low on Honesty-Humility for explicitly instructing his servant to use deception and manipulation ('Your bait of falsehood takes this carp of truth'), and moderately low on Agreeableness for his harsh, dismissive, and authoritarian treatment of his daughter ('Affection! Pooh! You speak like a green girl')."
+      },
+      "usage": {
+        "input_tokens": 2126,
+        "output_tokens": 99,
+        "cost_usd": 0.0036475,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777407985.33111
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "OP_A": 0.369,
+      "M4_A": 0.6,
+      "GT_A": 0.4596111111111111,
+      "HEXACO": {
+        "HH": 0.2,
+        "A_HEXACO": -0.7,
+        "rationale": "The speaker scores very low on Agreeableness due to hostile and insulting remarks ('malicious creature,' 'Mam\u2019selle Toad'), while their directness and lack of clear manipulation result in a neutral-positive Honesty-Humility score."
+      },
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 81,
+        "cost_usd": 0.00172875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408008.232231
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "OP_A": -0.117,
+      "M4_A": 0.85,
+      "GT_A": 0.4574812499999999,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker scores high on Honesty-Humility for his principled stance and self-deprecating humor, and high on Agreeableness for his consistently patient, gentle, and good-natured demeanor in conversation."
+      },
+      "usage": {
+        "input_tokens": 1400,
+        "output_tokens": 75,
+        "cost_usd": 0.0025,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408021.666661
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "OP_A": 0.059,
+      "M4_A": 0.05,
+      "GT_A": 0.3420736842105263,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.2,
+        "rationale": "The speaker scores high on Honesty-Humility for valuing sincerity over design and condemning manipulation, but is more moderate on Agreeableness as her gentle affection for her sister contrasts with her sharp, confrontational stance toward those she perceives as arrogant."
+      },
+      "usage": {
+        "input_tokens": 1282,
+        "output_tokens": 81,
+        "cost_usd": 0.0024125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408045.473401
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "OP_A": 0.097,
+      "M4_A": -0.8,
+      "GT_A": -0.18105555555555553,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": 0.3,
+        "rationale": "The speaker explicitly plans deception and murder for personal gain, indicating extremely low Honesty-Humility, while his general temperament is not hostile or quick to anger, suggesting a more neutral Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1835,
+        "output_tokens": 72,
+        "cost_usd": 0.00301375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408073.238445
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "OP_A": 0.146,
+      "M4_A": 0.7,
+      "GT_A": 0.3746666666666666,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker consistently acts as a sincere peacemaker and a patient, gentle friend, showing a principled and non-hostile approach to conflict and personal problems."
+      },
+      "usage": {
+        "input_tokens": 1166,
+        "output_tokens": 64,
+        "cost_usd": 0.0020975,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408088.997709
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "OP_A": -0.081,
+      "M4_A": 0.85,
+      "GT_A": 0.23606111111111108,
+      "HEXACO": {
+        "HH": 0.7,
+        "A_HEXACO": 0.8,
+        "rationale": "The speaker expresses sincere, heartfelt sympathy and is honest about her own perspective, while also showing immense gentleness and a forgiving nature by advocating for reconciliation."
+      },
+      "usage": {
+        "input_tokens": 1182,
+        "output_tokens": 63,
+        "cost_usd": 0.0021075,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408103.683234
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "OP_A": 0.378,
+      "M4_A": -0.3,
+      "GT_A": 0.24895937499999996,
+      "HEXACO": {
+        "HH": -0.4,
+        "A_HEXACO": -0.8,
+        "rationale": "The speaker's hostile outbursts ('Wicked and cruel boy!') and stubbornness ('I will not stir.') indicate very low Agreeableness, while their immodesty ('They are not fit to associate with me.') points to low Honesty-Humility despite a strong sense of personal justice."
+      },
+      "usage": {
+        "input_tokens": 753,
+        "output_tokens": 92,
+        "cost_usd": 0.00186125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408128.451581
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "OP_A": -0.268,
+      "M4_A": -0.4,
+      "GT_A": -0.1876868421052632,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": -0.5,
+        "rationale": "The speaker scores very low on Honesty-Humility due to consistent immodesty, entitlement, and manipulative demands, and moderately low on Agreeableness for her demanding nature and entitled anger when feeling slighted."
+      },
+      "usage": {
+        "input_tokens": 1521,
+        "output_tokens": 75,
+        "cost_usd": 0.00265125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408143.1309729
+    },
+    {
+      "op_id": "PP/2",
+      "op_name": "Mr. Darcy",
+      "book": "pride_and_prejudice",
+      "coref_id": "127",
+      "OP_A": 0.227,
+      "M4_A": -0.5,
+      "GT_A": 0.31267894736842106,
+      "HEXACO": {
+        "HH": -0.8,
+        "A_HEXACO": -0.9,
+        "rationale": "The speaker's profound arrogance and immodesty indicate very low Honesty-Humility, while his self-described unyielding, resentful, and unforgiving nature demonstrates very low HEXACO Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 1333,
+        "output_tokens": 75,
+        "cost_usd": 0.00241625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408159.522676
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "OP_A": -0.472,
+      "M4_A": 0.9,
+      "GT_A": 0.3333062499999999,
+      "HEXACO": {
+        "HH": 0.8,
+        "A_HEXACO": 0.9,
+        "rationale": "The speaker consistently demonstrates sincerity and fairness by reporting facts carefully, while also showing a gentle and forgiving nature by refusing to assign blame and seeking positive interpretations of others' actions."
+      },
+      "usage": {
+        "input_tokens": 1312,
+        "output_tokens": 67,
+        "cost_usd": 0.00231,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408183.610323
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "OP_A": 0.767,
+      "M4_A": -0.8,
+      "GT_A": -0.21130789473684206,
+      "HEXACO": {
+        "HH": -0.9,
+        "A_HEXACO": -0.7,
+        "rationale": "The speaker scores very low on Honesty-Humility due to extreme immodesty and self-importance, and low on Agreeableness due to their highly critical, judgmental, and ungentle manner of interrogating and advising others."
+      },
+      "usage": {
+        "input_tokens": 1441,
+        "output_tokens": 80,
+        "cost_usd": 0.00260125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408200.754184
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "OP_A": 1.057,
+      "M4_A": -0.65,
+      "GT_A": -0.11669473684210524,
+      "HEXACO": {
+        "HH": -0.9,
+        "A_HEXACO": -0.7,
+        "rationale": "The speaker feigns humility and impartiality while engaging in a systematic, manipulative, and self-serving character assassination, revealing a deeply resentful and unforgiving nature."
+      },
+      "usage": {
+        "input_tokens": 1953,
+        "output_tokens": 65,
+        "cost_usd": 0.00309125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1777408222.669019
+    }
+  ]
+}

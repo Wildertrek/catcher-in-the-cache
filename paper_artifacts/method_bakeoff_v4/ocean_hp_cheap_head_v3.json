@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "version": "v3-full562",
+    "computed_at": "2026-05-13T12:53:57",
+    "training_corpus": "562 chars across 75 works (out of 562 bake-off chars and 75 books)",
+    "hexaco_source": "Claude Sonnet 4.5 single-provider HEXACO probe (full-562 corpus, ~$3.30, 2026-05-13)",
+    "embedding": "OpenAI text-embedding-3-large, mean-utterance pool, 3072-d",
+    "alpha": 0.1,
+    "alpha_selection": "5-fold CV grid search over [0.001, 0.01, 0.1, 1.0, 10.0, 100.0]",
+    "evaluation": "leave-one-book-out with 10,000-resample bootstrap CIs"
+  },
+  "per_factor": {
+    "H": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out (LOBO)",
+      "MAE": 0.3519,
+      "MAE_ci": [
+        0.3311,
+        0.3731
+      ],
+      "r": 0.518,
+      "r_ci": [
+        0.4537,
+        0.5775
+      ],
+      "target_source": "Claude Sonnet 4.5 HEXACO probe (full 562 chars)"
+    },
+    "P": {
+      "n_train": 562,
+      "evaluation": "leave-one-book-out (LOBO)",
+      "MAE": 0.311,
+      "MAE_ci": [
+        0.2929,
+        0.3289
+      ],
+      "r": 0.6294,
+      "r_ci": [
+        0.5754,
+        0.6786
+      ],
+      "target_source": "Claude Sonnet 4.5 HEXACO probe (full 562 chars)"
+    }
+  },
+  "factor_purity": {
+    "r_H_vs_P_target_labels": 0.6813,
+    "r_H_vs_P_regressor_outputs_LOBO": 0.7606,
+    "human_norm_range": [
+      0.2,
+      0.3
+    ],
+    "note": "If the regressor's LOBO predictions show H\u2194P correlation close to the training labels' H\u2194P, the cheap head inherits the LLM probe's factor-purity gap."
+  }
+}

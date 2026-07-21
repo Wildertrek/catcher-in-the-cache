@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Pericles, Prince of Tyre",
+    "author": "William Shakespeare",
+    "year": "c. 1608"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_pericles",
+      "character_name": "Pericles",
+      "quote_count": 120,
+      "consensus_ocean": {
+        "O": 0.5989319999999999,
+        "C": 0.302396,
+        "E": 0.076824,
+        "A": 0.719328,
+        "N": 0.11991199999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.9,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.5,
+            "E": 0.4,
+            "A": 0.8,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.7, \"C\": 0.5, \"E\": 0.4, \"A\": 0.8, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Pericles is often viewed as a character marked by his adventurous spirit and emotional depth, reflecting a blend of openness and agreeableness, while his journey through trials suggests a moderate level of conscientiousness and emotional stability.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.3,
+            "E": 0.4,
+            "A": 0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.3,\n  \"E\": 0.4,\n  \"A\": 0.7,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (Bloom, Frye, and modern scholars) identifies Pericles as a passive, virtue-driven protagonist whose openness to fortune and suffering, combined with emotional resilience and moral goodness, contrasts with weak agency and inconsistent characterization across the play's disputed authorship.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.4,
+            "C": -0.2,
+            "E": -0.3,
+            "A": 0.8,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.4,\n  \"C\": -0.2,\n  \"E\": -0.3,\n  \"A\": 0.8,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently portrays Pericles as a virtuous, compassionate, and resilient figure who endures immense suffering with patience, often reacting to fate rather than actively shaping it, and experiencing profound grief before his eventual redemption.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6819,
+            "C": 0.5657,
+            "E": -0.1542,
+            "A": 0.5976,
+            "N": 0.0854
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:33:30.312190+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.003255
+        }
+      ]
+    },
+    {
+      "coref_id": "char_marina",
+      "character_name": "Marina",
+      "quote_count": 63,
+      "consensus_ocean": {
+        "O": 0.704852,
+        "C": 0.673684,
+        "E": 0.50298,
+        "A": 0.852144,
+        "N": -0.38515200000000005
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.6,
+            "E": 0.5,
+            "A": 0.9,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.6, \"E\": 0.5, \"A\": 0.9, \"N\": 0.3, \"confidence\": \"high\", \"rationale\": \"Marina is often viewed as a character embodying resilience and virtue, showcasing high agreeableness and openness through her compassion and adaptability in challenging circumstances, as noted in various critical analyses of the play.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": 0.8,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": 0.8,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Marina exhibits resilience, virtue, and moral constancy through trials (abduction, brothel placement) that scholars like F.D. Hoeniger and recent critics emphasize as her defining traits, though the play's collaborative authorship and her limited agency in the narrative limit confidence in deeper personality assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 0.8,
+            "A": 0.9,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": 0.9,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently highlights Marina's extraordinary virtue, resilience, and redemptive power, particularly her unwavering moral integrity, persuasive eloquence, and emotional stability in the face of extreme adversity, as discussed by scholars like G. Wilson Knight and in analyses of Shakespearean romance.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5459,
+            "C": 0.5203,
+            "E": 0.2535,
+            "A": 0.8148,
+            "N": -0.5184
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:33:57.800533+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00165
+        }
+      ]
+    },
+    {
+      "coref_id": "char_simonides",
+      "character_name": "Simonides",
+      "quote_count": 42,
+      "consensus_ocean": {
+        "O": 0.08341599999999999,
+        "C": 0.315696,
+        "E": 0.26856399999999997,
+        "A": 0.270676,
+        "N": -0.18206799999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Simonides is a minor character in 'Pericles, Prince of Tyre,' and does not receive significant attention in published literary criticism, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.4,
+            "A": 0.7,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": 0.7,\n  \"N\": -0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Simonides is a minor character whose personality receives minimal treatment in major critical works; scholarship on Pericles itself is sparse compared to canonical plays, and Simonides appears primarily as a functional plot device (hospitable father-in-law) rather than a psychologically developed figure warranting sustained characterization analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally focuses on Simonides' functional role as a wise and benevolent king and father, rather than providing a detailed psychological assessment of his personality.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.2122,
+            "C": 0.6132,
+            "E": 0.6163,
+            "A": 0.3667,
+            "N": -0.3931
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:34:41.450778+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001603
+        }
+      ]
+    },
+    {
+      "coref_id": "char_bawd",
+      "character_name": "Bawd",
+      "quote_count": 42,
+      "consensus_ocean": {
+        "O": -0.30420400000000003,
+        "C": 0.010928000000000004,
+        "E": 0.33031200000000005,
+        "A": -0.511944,
+        "N": 0.246204
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3293,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": -0.5, \"E\": 0.7, \"A\": -0.3, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Bawd is often interpreted as a pragmatic and opportunistic character, reflecting a blend of social energy and a lack of conscientiousness, as noted in various analyses of the play's themes of morality and survival.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.9,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.9,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Bawd is a minor but functional character in the brothel subplot; critical consensus treats her as a pragmatic, profit-driven operator lacking imagination or moral scruples, with efficient management of her business but minimal empathy, as noted in performance-focused studies of Pericles' underworld scenes.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism generally treats Bawd as a functional, archetypal character representing vice, rather than offering detailed psychological analysis of her individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.8293,
+            "C": -0.1324,
+            "E": 0.0654,
+            "A": -0.7998,
+            "N": 0.2793
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:35:09.594637+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001352
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lysimachus",
+      "character_name": "Lysimachus",
+      "quote_count": 40,
+      "consensus_ocean": {
+        "O": 0.254352,
+        "C": 0.531056,
+        "E": 0.45186000000000004,
+        "A": 0.6391760000000001,
+        "N": -0.432928
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Lysimachus is often viewed as a pragmatic and somewhat conventional character, displaying moderate traits of conscientiousness and extraversion, while his emotional stability is less emphasized in critical analyses.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": 0.4,
+            "A": 0.5,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": 0.5,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lysimachus is a minor character (Governor of Mytilene) whose personality receives minimal treatment in published criticism; scholars focus primarily on Marina's agency and Pericles' redemption arc, leaving Lysimachus's traits largely underdeveloped in the scholarly record.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.6,
+            "C": 0.5,
+            "E": 0.4,
+            "A": 0.9,
+            "N": -0.7
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.6,\n  \"C\": 0.5,\n  \"E\": 0.4,\n  \"A\": 0.9,\n  \"N\": -0.7,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism frequently highlights Lysimachus's moral integrity, empathy, and openness to virtue, particularly in his pivotal interaction with Marina in the brothel, where he acts as a figure of redemption and stability.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3084,
+            "C": 0.5252,
+            "E": 0.4995,
+            "A": 0.6542,
+            "N": -0.5176
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:35:45.948330+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001352
+        }
+      ]
+    },
+    {
+      "coref_id": "char_boult",
+      "character_name": "Boult",
+      "quote_count": 38,
+      "consensus_ocean": {
+        "O": -0.23962399999999998,
+        "C": 0.185636,
+        "E": 0.272096,
+        "A": -0.36839999999999995,
+        "N": 0.08964399999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Boult is a minor character in 'Pericles, Prince of Tyre,' and does not receive significant attention in published literary criticism, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.5,
+            "A": -0.8,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.5,\n  \"A\": -0.8,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Boult is a minor functionary in a brothel with limited textual presence; published criticism treats him primarily as a stock comic type rather than a psychologically complex character warranting sustained analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily discusses Boult in terms of his functional role as a pander's servant and a figure of vice, rather than offering a detailed psychological assessment of his individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2558,
+            "C": 0.1487,
+            "E": 0.5432,
+            "A": -0.63,
+            "N": -0.0227
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:36:21.235736+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001115
+        }
+      ]
+    },
+    {
+      "coref_id": "char_helicanus",
+      "character_name": "Helicanus",
+      "quote_count": 36,
+      "consensus_ocean": {
+        "O": -0.181456,
+        "C": 0.7813,
+        "E": -0.027379999999999995,
+        "A": 0.7389319999999999,
+        "N": -0.557044
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.9,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.2, \"A\": 0.9, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Helicanus is often viewed as a loyal and reliable advisor to Pericles, demonstrating high conscientiousness and agreeableness, while his limited role suggests a more subdued personality with moderate openness and extraversion.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.7,
+            "N": -0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.8,\n  \"E\": 0.2,\n  \"A\": 0.7,\n  \"N\": -0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Helicanus is consistently characterized in scholarship as a loyal, prudent counselor and regent whose steadfast reliability and emotional restraint define his role, though he remains a minor figure whose personality receives limited sustained critical analysis beyond his function as a stabilizing, trustworthy presence.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.9,
+            "E": -0.3,
+            "A": 0.8,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.9,\n  \"E\": -0.3,\n  \"A\": 0.8,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Helicanus as the embodiment of unwavering loyalty, practical wisdom, and steadfast integrity, serving as a moral anchor in Pericles's absence.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3052,
+            "C": 0.6475,
+            "E": -0.1835,
+            "A": 0.5819,
+            "N": -0.5323
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:36:47.923635+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001363
+        }
+      ]
+    },
+    {
+      "coref_id": "char_thaisa",
+      "character_name": "Thaisa",
+      "quote_count": 32,
+      "consensus_ocean": {
+        "O": 0.2911119999999999,
+        "C": 0.5959999999999999,
+        "E": 0.102432,
+        "A": 0.761836,
+        "N": -0.11164
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.3,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.8,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.5, \"E\": 0.3, \"A\": 0.8, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"Thaisa is often viewed as a virtuous and compassionate character, embodying qualities of agreeableness and emotional stability, though her role is less explored in critical literature compared to more central characters.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.6,
+            "E": -0.3,
+            "A": 0.7,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.6,\n  \"E\": -0.3,\n  \"A\": 0.7,\n  \"N\": 0.5,\n  \"confidence\": \"low\",\n  \"rationale\": \"Thaisa is a minor character whose limited stage presence and largely passive role (wife, mother, apparent corpse, silent restoration) have generated minimal sustained critical analysis in major Shakespearean scholarship, making confident personality assessment difficult.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.2,
+            "A": 0.9,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.8,\n  \"E\": 0.2,\n  \"A\": 0.9,\n  \"N\": -0.8,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism generally portrays Thaisa as an archetypal figure of feminine virtue, highlighting her gentle nature, unwavering commitment as a priestess, and remarkable emotional stability in the face of profound loss.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5254,
+            "C": 0.5,
+            "E": 0.1944,
+            "A": 0.6637,
+            "N": -0.313
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:37:28.357811+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001134
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cerimon",
+      "character_name": "Cerimon",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": 0.66392,
+        "C": 0.745904,
+        "E": 0.31861599999999995,
+        "A": 0.8446440000000001,
+        "N": -0.561552
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.8,
+            "E": 0.3,
+            "A": 0.9,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.8, \"E\": 0.3, \"A\": 0.9, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Cerimon is often viewed as a compassionate and wise character, demonstrating high conscientiousness and agreeableness, while his role as a healer suggests a moderate level of openness and low neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.65,
+            "C": 0.7,
+            "E": 0.55,
+            "A": 0.8,
+            "N": -0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.65,\n  \"C\": 0.70,\n  \"E\": 0.55,\n  \"A\": 0.80,\n  \"N\": -0.60,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Cerimon is characterized in critical tradition as a benevolent, learned physician-magician whose medical knowledge, charitable interventions, and emotional stability mark him as conscientious and agreeable, though he remains a minor figure whose personality receives limited sustained analysis in major Shakespearean criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 0.3,
+            "A": 1.0,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 0.3,\n  \"A\": 1.0,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Cerimon as a benevolent, learned, and disciplined physician, embodying compassion, intellectual curiosity, and methodical skill, which are clearly reflected in his actions and dialogue.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.614,
+            "C": 0.6068,
+            "E": 0.1522,
+            "A": 0.7023,
+            "N": -0.5484
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:38:19.939022+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001188
+        }
+      ]
+    },
+    {
+      "coref_id": "char_cleon",
+      "character_name": "Cleon",
+      "quote_count": 19,
+      "consensus_ocean": {
+        "O": -0.163652,
+        "C": 0.21788,
+        "E": 0.049484,
+        "A": -0.18847199999999997,
+        "N": 0.241004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4126,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Cleon is a minor character in 'Pericles, Prince of Tyre,' and does not receive significant attention in published literary criticism, resulting in a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.7,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"Cleon is a minor character whose personality receives limited sustained critical attention; scholars typically note his conventional, self-interested governance and lack of moral imagination, but the sparse textual evidence and critical consensus limit confident assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": -0.4,
+            "E": -0.3,
+            "A": -0.8,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": -0.4,\n  \"E\": -0.3,\n  \"A\": -0.8,\n  \"N\": 0.5,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published critical consensus identifies Cleon as a morally weak and passive figure, characterized by his initial despair, his ultimate complicity in the plot against Marina, and his lack of resolve against his wife Dionyza's evil.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4441,
+            "C": 0.521,
+            "E": 0.0053,
+            "A": 0.6126,
+            "N": 0.0893
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:38:49.225567+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001357
+        }
+      ]
+    }
+  ]
+}

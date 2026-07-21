@@ -1,0 +1,97 @@
+{
+  "coref_id": "92",
+  "character_name": "Mary",
+  "quote_count": 3,
+  "mention_count": 44,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      3
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Far be it from me , my dear sister , to depreciate such pleasures . They would doubtless be congenial with the generality of female minds . But I confess they would have no charms for _ me _ . I should infinitely prefer a book . \u201d",
+      "mention_text": "Mary",
+      "quote_start": 89136,
+      "quote_end": 89184,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , Mary , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I wish you had gone with us , for we had such fun ! as we went along Kitty and me drew up all the blinds , and pretended there was nobody in the coach ; and I should have gone so all the way , if Kitty had not been sick ; and when we got to the George , I do think we behaved very handsomely , for we treated the other three with the nicest cold luncheon in the world , and if you would have gone , we would have treated you too . And then when we came away it was such fun ! I thought we never should have got into the coach . I was ready to die of laughter . And then we were so merry all the way home ! we talked and laughed so loud , that anybody might have heard us ten miles off ! \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c His being so sure of succeeding was wrong , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c and certainly ought not to have appeared ; but consider how much it must increase his disappointment . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c This is a most unfortunate affair , and will probably be much talked of . But we must stem the tide of malice , and pour into the wounded bosoms of each other the balm of sisterly consolation . \u201d",
+      "mention_text": "she",
+      "quote_start": 113591,
+      "quote_end": 113631,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , my dear brother , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that is exactly what I could most wish for . And now do , when you get to town , find them out , wherever they may be ; and if they are not married already , _ make _ them marry . And as for wedding clothes , do not let them wait for that , but tell Lydia she shall have as much money as she chooses to buy them , after they are married . And , above all things , keep Mr. Bennet from fighting . Tell him what a dreadful state I am in -- that I am frightened out of my wits ; and have such tremblings , such flutterings all over me , such spasms in my side , and pains in my head , and such beatings at my heart , that I can get no rest by night nor by day . And tell my dear Lydia not to give any directions about her clothes till she has seen me , for she does not know which are the best warehouses . Oh , brother , how kind you are ! I know you will contrive it all . \u201d"
+        },
+        {
+          "speaker_coref_id": "92",
+          "quote_text": "\u201c Unhappy as the event must be for Lydia , we may draw from it this useful lesson:--that loss of virtue in a female is irretrievable , that one false step involves her in endless ruin , that her reputation is no less brittle than it is beautiful , and that she can not be too much guarded in her behaviour towards the undeserving of the other sex . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c But tell me all and everything about it which I have not already heard . Give me further particulars . What did Colonel Forster say ? Had they no apprehension of anything before the elopement took place ? They must have seen them together for ever . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Unhappy as the event must be for Lydia , we may draw from it this useful lesson:--that loss of virtue in a female is irretrievable , that one false step involves her in endless ruin , that her reputation is no less brittle than it is beautiful , and that she can not be too much guarded in her behaviour towards the undeserving of the other sex . \u201d",
+      "mention_text": "she",
+      "quote_start": 113644,
+      "quote_end": 113713,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that is exactly what I could most wish for . And now do , when you get to town , find them out , wherever they may be ; and if they are not married already , _ make _ them marry . And as for wedding clothes , do not let them wait for that , but tell Lydia she shall have as much money as she chooses to buy them , after they are married . And , above all things , keep Mr. Bennet from fighting . Tell him what a dreadful state I am in -- that I am frightened out of my wits ; and have such tremblings , such flutterings all over me , such spasms in my side , and pains in my head , and such beatings at my heart , that I can get no rest by night nor by day . And tell my dear Lydia not to give any directions about her clothes till she has seen me , for she does not know which are the best warehouses . Oh , brother , how kind you are ! I know you will contrive it all . \u201d"
+        },
+        {
+          "speaker_coref_id": "92",
+          "quote_text": "\u201c This is a most unfortunate affair , and will probably be much talked of . But we must stem the tide of malice , and pour into the wounded bosoms of each other the balm of sisterly consolation . \u201d"
+        },
+        {
+          "speaker_coref_id": "382",
+          "quote_text": "\u201c But tell me all and everything about it which I have not already heard . Give me further particulars . What did Colonel Forster say ? Had they no apprehension of anything before the elopement took place ? They must have seen them together for ever . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Colonel Forster did own that he had often suspected some partiality , especially on Lydia \u2019s side , but nothing to give him any alarm . I am so grieved for him . His behaviour was attentive and kind to the utmost . He _ was _ coming to us , in order to assure us of his concern , before he had any idea of their not being gone to Scotland : when that apprehension first got abroad , it hastened his journey . \u201d"
+        }
+      ]
+    }
+  ]
+}

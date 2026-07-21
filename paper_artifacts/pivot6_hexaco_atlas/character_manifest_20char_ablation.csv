@@ -1,0 +1,21 @@
+manifest_index,op_id,op_name,book,coref_id,held_out_subset
+0,GG/3,Daisy Buchanan,the_great_gatsby,159,True
+5,AK/7,Betsy Tverskaya,anna_karenina,295,True
+12,RJ/2,Juliet Capulet,romeo_and_juliet,char_juliet,True
+13,GG/6,Jordan Baker,the_great_gatsby,166,True
+33,RJ/4,Mercutio,romeo_and_juliet,char_mercutio,True
+36,LM/3,Fantine,les_miserables,1667,True
+45,PP/10,Mr. William Collins,pride_and_prejudice,103,True
+48,LM/4,Cosette,les_miserables,1373,True
+54,JE/1,Jane Eyre,jane_eyre,0,True
+57,PP/3,Jane Bennet,pride_and_prejudice,192,True
+1,AK/3,Count Alexei Vronsky,anna_karenina,224,False
+2,AHF/1,Huckleberry Finn,adventures_of_huckleberry_finn,0,False
+3,HML/1,Prince Hamlet,hamlet,char_hamlet,False
+4,AK/6,Konstantin Levin,anna_karenina,179,False
+6,TWN/4,Duke Orsino,twelfth_night,char_duke,False
+7,GG/4,Tom Buchanan,the_great_gatsby,160,False
+8,AK/2,Count Alexei Karenin,anna_karenina,172,False
+9,RJ/1,Romeo Montague,romeo_and_juliet,char_romeo,False
+10,SSB/3,Colonel Brandon,sense_and_sensibility,115,False
+11,SCL/1,Hester Prynne,the_scarlet_letter,119,False

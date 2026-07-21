@@ -1,0 +1,17 @@
+{
+  "method": "permutation_null",
+  "n_perm": 5000,
+  "seed": 42,
+  "permutation_scheme": "jointly permute HH and A_HEX across characters (preserves within-char HH-A_HEX dependence; breaks char-to-OCEAN linkage)",
+  "observed_n_stable": 53,
+  "observed_pct_stable": 0.8833,
+  "null_distribution": {
+    "mean_pct_stable": 0.8772,
+    "ci_lo_2_5": 0.8167,
+    "ci_hi_97_5": 0.9333,
+    "max_pct_stable": 0.9833
+  },
+  "p_one_sided": 0.536,
+  "interpretation": "p_one_sided is the fraction of null permutations producing as much or more stability as observed. If p < 0.05, the observed 93% stability exceeds what permuted-HEXACO would produce by chance.",
+  "_DEPRECATED": "Superseded. This is the 5,000-permutation run (p = 0.536, reported as 0.54). The paper and notebook 02 use the 10,000-permutation run in cpm_rq10_ocean_hp_permutation_null.json (p = 0.526, reported as 0.53). Both are nulls; the 10k run is canonical because it is the one the notebook loads. Kept for provenance."
+}

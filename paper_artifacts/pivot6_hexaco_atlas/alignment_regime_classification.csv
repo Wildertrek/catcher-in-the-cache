@@ -1,0 +1,27 @@
+model_id,alignment_regime,regime_citation,accessed_date
+claude-opus-4-6,CAI,Bai et al. 2022 (Constitutional AI) https://arxiv.org/abs/2212.08073,2026-05-17
+claude-sonnet-4-5-20250929,CAI,Bai et al. 2022 (Constitutional AI) https://arxiv.org/abs/2212.08073,2026-05-17
+claude-sonnet-4-20250514,CAI,Bai et al. 2022 (Constitutional AI) https://arxiv.org/abs/2212.08073,2026-05-17
+claude-haiku-4-5-20251001,CAI,Bai et al. 2022 (Constitutional AI) https://arxiv.org/abs/2212.08073,2026-05-17
+gpt-5.2-2025-12-11,RLHF,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,2026-05-17
+gpt-5,RLHF,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,2026-05-17
+o4-mini,RLHF,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,2026-05-17
+gpt-4o-2024-08-06,RLHF,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,2026-05-17
+gpt-4o-2024-05-13,RLHF,Ouyang et al. 2022 (InstructGPT) https://arxiv.org/abs/2203.02155,2026-05-17
+gemini-3.1-pro-preview,Hybrid,Gemini model card (RLHF + SFT + safety filters) https://deepmind.google/technologies/gemini/,2026-05-17
+gemini-3-pro-preview,Hybrid,Gemini model card (RLHF + SFT + safety filters) https://deepmind.google/technologies/gemini/,2026-05-17
+gemini-2.5-pro,Hybrid,Gemini model card (RLHF + SFT + safety filters) https://deepmind.google/technologies/gemini/,2026-05-17
+gemini-2.5-flash,Hybrid,Gemini model card (RLHF + SFT + safety filters) https://deepmind.google/technologies/gemini/,2026-05-17
+gemini-2.0-flash,Hybrid,Gemini model card (RLHF + SFT + safety filters) https://deepmind.google/technologies/gemini/,2026-05-17
+x-ai/grok-4-07-09,RLHF-light,xAI Grok system card (alignment regime per provider disclosure),2026-05-17
+x-ai/grok-3,RLHF-light,xAI Grok system card (alignment regime per provider disclosure),2026-05-17
+cohere/command-a-03-2025,RLHF-RAG,Cohere Command-A model card (RLHF + retrieval-tuned),2026-05-17
+meta-llama/llama-4-maverick,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+meta-llama/llama-3.3-70b-instruct,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+meta-llama/llama-3.1-405b-instruct,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+qwen/qwen-2.5-72b-instruct,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+qwen/qwen3-32b,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+google/gemma-4-26b-a4b-it-20260403,DPO,Rafailov et al. 2023 (Direct Preference Optimization) https://arxiv.org/abs/2305.18290,2026-05-17
+deepseek/deepseek-chat-v3.1,SFT-only,DeepSeek V3 / Mistral Large model cards (SFT-dominant pipelines per provider disclosure),2026-05-17
+deepseek/deepseek-r1,SFT-only,DeepSeek V3 / Mistral Large model cards (SFT-dominant pipelines per provider disclosure),2026-05-17
+mistralai/mistral-large-2411,SFT-only,DeepSeek V3 / Mistral Large model cards (SFT-dominant pipelines per provider disclosure),2026-05-17

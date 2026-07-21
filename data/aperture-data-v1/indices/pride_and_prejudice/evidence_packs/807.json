@@ -1,0 +1,71 @@
+{
+  "coref_id": "807",
+  "character_name": "he",
+  "quote_count": 2,
+  "mention_count": 2,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c And yours , \u201d",
+      "mention_text": "he",
+      "quote_start": 27426,
+      "quote_end": 27430,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "525",
+          "quote_text": "\u201c There is , I believe , in every disposition a tendency to some particular evil , a natural defect , which not even the best education can overcome . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And _ your _ defect is a propensity to hate everybody . \u201d"
+        },
+        {
+          "speaker_coref_id": "807",
+          "quote_text": "\u201c is wilfully to misunderstand them . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Do let us have a little music , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c is wilfully to misunderstand them . \u201d",
+      "mention_text": "he",
+      "quote_start": 27438,
+      "quote_end": 27445,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And _ your _ defect is a propensity to hate everybody . \u201d"
+        },
+        {
+          "speaker_coref_id": "807",
+          "quote_text": "\u201c And yours , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Do let us have a little music , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Louisa , you will not mind my waking Mr. Hurst . \u201d"
+        }
+      ]
+    }
+  ]
+}

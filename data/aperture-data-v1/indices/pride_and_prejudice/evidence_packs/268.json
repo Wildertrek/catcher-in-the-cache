@@ -1,0 +1,71 @@
+{
+  "coref_id": "268",
+  "character_name": "Most",
+  "quote_count": 2,
+  "mention_count": 8,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "192",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I dislike it very much , \u201d",
+      "mention_text": "he",
+      "quote_start": 119140,
+      "quote_end": 119147,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Let me write for you , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c if you dislike the trouble yourself . \u201d"
+        },
+        {
+          "speaker_coref_id": "268",
+          "quote_text": "\u201c but it must be done . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And -- may I ask ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c but it must be done . \u201d",
+      "mention_text": "he",
+      "quote_start": 119151,
+      "quote_end": 119158,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c if you dislike the trouble yourself . \u201d"
+        },
+        {
+          "speaker_coref_id": "268",
+          "quote_text": "\u201c I dislike it very much , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c And -- may I ask ? \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c but the terms , I suppose , must be complied with . \u201d"
+        }
+      ]
+    }
+  ]
+}

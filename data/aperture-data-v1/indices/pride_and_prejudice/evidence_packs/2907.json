@@ -1,0 +1,71 @@
+{
+  "coref_id": "2907",
+  "character_name": "her",
+  "quote_count": 2,
+  "mention_count": 7,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "127",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "he,--\u201cdid it _ soon _ make you think better of me ? Did you , on reading it , give any credit to its contents ? \u201d",
+      "mention_text": "She",
+      "quote_start": 144730,
+      "quote_end": 144756,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , do not repeat what I then said . These recollections will not do at all . I assure you that I have long been most heartily ashamed of it . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Did it , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I knew , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c that what I wrote must give you pain , but it was necessary . I hope you have destroyed the letter . There was one part , especially the opening of it , which I should dread your having the power of reading again . I can remember some expressions which might justly make you hate me . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The letter shall certainly be burnt , if you believe it essential to the preservation of my regard ; but , though we have both reason to think my opinions not entirely unalterable , they are not , I hope , quite so easily changed as that implies . \u201d",
+      "mention_text": "She",
+      "quote_start": 144846,
+      "quote_end": 144896,
+      "addressee_coref_id": "127",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I knew , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c that what I wrote must give you pain , but it was necessary . I hope you have destroyed the letter . There was one part , especially the opening of it , which I should dread your having the power of reading again . I can remember some expressions which might justly make you hate me . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c When I wrote that letter , \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c I believed myself perfectly calm and cool ; but I am since convinced that it was written in a dreadful bitterness of spirit . \u201d"
+        }
+      ]
+    }
+  ]
+}

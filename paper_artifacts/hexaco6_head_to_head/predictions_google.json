@@ -1,0 +1,1315 @@
+{
+  "predictions": [
+    {
+      "op_id": "GG/3",
+      "op_name": "Daisy Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "159",
+      "HEXACO": {
+        "H": -0.4,
+        "E_HEX": -0.5,
+        "X": 0.8,
+        "A_HEX": -0.2,
+        "C_HEX": -0.4,
+        "O_HEX": 0.3,
+        "rationale": "The speaker is a socially bold extravert who directs conversation and playfully manipulates social situations, suggesting high X and low H; they appear emotionally stable (low E_HEX) and somewhat cynical or teasing (low A_HEX), while their flighty, whimsical comments indicate low Conscientiousness and moderate Openness."
+      },
+      "usage": {
+        "input_tokens": 1172,
+        "output_tokens": 141,
+        "cost_usd": 0.002875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789790.201901
+    },
+    {
+      "op_id": "AK/3",
+      "op_name": "Count Alexei Vronsky",
+      "book": "anna_karenina",
+      "coref_id": "224",
+      "HEXACO": {
+        "H": 0.3,
+        "E_HEX": 0.2,
+        "X": 0.8,
+        "A_HEX": 0.4,
+        "C_HEX": -0.1,
+        "O_HEX": 0.9,
+        "rationale": "The speaker scores high on Extraversion and Openness, demonstrated by his sociable engagement in debate and his deep intellectual curiosity about extraordinary and unconventional phenomena."
+      },
+      "usage": {
+        "input_tokens": 1238,
+        "output_tokens": 107,
+        "cost_usd": 0.0026175,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789812.942919
+    },
+    {
+      "op_id": "AHF/1",
+      "op_name": "Huckleberry Finn",
+      "book": "adventures_of_huckleberry_finn",
+      "coref_id": "0",
+      "HEXACO": {
+        "H": -0.8,
+        "E_HEX": -0.7,
+        "X": 0.7,
+        "A_HEX": -0.8,
+        "C_HEX": -0.5,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is manipulative and threatening ('I\u2019ll make him pungle... I want it'), indicating low Honesty-Humility and Agreeableness, but is also socially bold, inquisitive, and self-reliant in their interactions and storytelling."
+      },
+      "usage": {
+        "input_tokens": 1547,
+        "output_tokens": 126,
+        "cost_usd": 0.00319375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789835.0359921
+    },
+    {
+      "op_id": "HML/1",
+      "op_name": "Prince Hamlet",
+      "book": "hamlet",
+      "coref_id": "char_hamlet",
+      "HEXACO": {
+        "H": -0.3,
+        "E_HEX": 0.6,
+        "X": 0.5,
+        "A_HEX": -0.8,
+        "C_HEX": 0.3,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is highly open, as seen in his philosophical and inquisitive nature, but also very low in agreeableness, evidenced by his cynical, contemptuous, and vengeful statements."
+      },
+      "usage": {
+        "input_tokens": 1849,
+        "output_tokens": 114,
+        "cost_usd": 0.00345125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789861.362158
+    },
+    {
+      "op_id": "AK/6",
+      "op_name": "Konstantin Levin",
+      "book": "anna_karenina",
+      "coref_id": "179",
+      "HEXACO": {
+        "H": 0.7,
+        "E_HEX": 0.9,
+        "X": -0.6,
+        "A_HEX": 0.6,
+        "C_HEX": 0.5,
+        "O_HEX": 0.3,
+        "rationale": "The speaker scores extremely high on Emotionality, evident in his pervasive anxiety, sentimentality, and emotional dependence, which contrasts with his low Extraversion, shown through social fear and hesitation despite a desire for connection."
+      },
+      "usage": {
+        "input_tokens": 1219,
+        "output_tokens": 120,
+        "cost_usd": 0.00272375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789886.1728058
+    },
+    {
+      "op_id": "AK/7",
+      "op_name": "Betsy Tverskaya",
+      "book": "anna_karenina",
+      "coref_id": "295",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": -0.8,
+        "X": 0.9,
+        "A_HEX": -0.8,
+        "C_HEX": -0.1,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is a socially bold and dominant extravert who is also cynical, manipulative, and unforgiving (low H, low A_HEX), emotionally tough (low E_HEX), and shows some unconventional curiosity (high O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1069,
+        "output_tokens": 126,
+        "cost_usd": 0.00259625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789908.6773891
+    },
+    {
+      "op_id": "TWN/4",
+      "op_name": "Duke Orsino",
+      "book": "twelfth_night",
+      "coref_id": "char_duke",
+      "HEXACO": {
+        "H": -0.4,
+        "E_HEX": 0.9,
+        "X": -0.5,
+        "A_HEX": -0.6,
+        "C_HEX": -0.7,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is a highly emotional, sentimental, and aesthetically sensitive individual who is also self-absorbed, impulsive, and introverted, showing a willingness to manipulate others to achieve his romantic goals."
+      },
+      "usage": {
+        "input_tokens": 2092,
+        "output_tokens": 116,
+        "cost_usd": 0.003775,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789929.276159
+    },
+    {
+      "op_id": "GG/4",
+      "op_name": "Tom Buchanan",
+      "book": "the_great_gatsby",
+      "coref_id": "160",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": 0.2,
+        "X": 0.9,
+        "A_HEX": -0.8,
+        "C_HEX": 0.0,
+        "O_HEX": -0.8,
+        "rationale": "The speaker is extremely low in Honesty-Humility and Agreeableness, evidenced by his arrogance, hostility, and sense of superiority, while being highly extraverted and socially dominant, and very low in Openness due to his rigid, dogmatic worldview."
+      },
+      "usage": {
+        "input_tokens": 1132,
+        "output_tokens": 129,
+        "cost_usd": 0.002705,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789948.0971851
+    },
+    {
+      "op_id": "AK/2",
+      "op_name": "Count Alexei Karenin",
+      "book": "anna_karenina",
+      "coref_id": "172",
+      "HEXACO": {
+        "H": 0.2,
+        "E_HEX": 0.5,
+        "X": 0.8,
+        "A_HEX": 0.6,
+        "C_HEX": 0.7,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is a highly extraverted and conscientious public figure who expresses emotional dependence, intellectual curiosity, and a generally agreeable demeanor, though their concern with public opinion and status slightly lowers their Honesty-Humility score."
+      },
+      "usage": {
+        "input_tokens": 1185,
+        "output_tokens": 121,
+        "cost_usd": 0.00269125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789965.700578
+    },
+    {
+      "op_id": "RJ/1",
+      "op_name": "Romeo Montague",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_romeo",
+      "HEXACO": {
+        "H": 0.3,
+        "E_HEX": 0.9,
+        "X": 0.2,
+        "A_HEX": 0.7,
+        "C_HEX": -0.8,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is defined by extreme emotionality, poetic openness, and romantic impulsivity, while also being gentle and non-hostile in his interactions."
+      },
+      "usage": {
+        "input_tokens": 1516,
+        "output_tokens": 108,
+        "cost_usd": 0.002975,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778789982.0466769
+    },
+    {
+      "op_id": "SSB/3",
+      "op_name": "Colonel Brandon",
+      "book": "sense_and_sensibility",
+      "coref_id": "115",
+      "HEXACO": {
+        "H": 0.9,
+        "E_HEX": 0.8,
+        "X": -0.3,
+        "A_HEX": 0.8,
+        "C_HEX": 0.9,
+        "O_HEX": 0.3,
+        "rationale": "The speaker scores very high in Honesty-Humility, Emotionality, Agreeableness, and Conscientiousness due to his principled modesty, expressed anxiety, gentle manner, and diligent sense of duty, while appearing somewhat reserved and conventional."
+      },
+      "usage": {
+        "input_tokens": 1670,
+        "output_tokens": 125,
+        "cost_usd": 0.0033375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790007.106412
+    },
+    {
+      "op_id": "SCL/1",
+      "op_name": "Hester Prynne",
+      "book": "the_scarlet_letter",
+      "coref_id": "119",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": 0.6,
+        "X": 0.7,
+        "A_HEX": -0.7,
+        "C_HEX": 0.8,
+        "O_HEX": 0.5,
+        "rationale": "The speaker presents as a principled and self-disciplined individual who is socially bold and stubbornly defiant rather than agreeable, while also expressing significant emotional anxiety and inquisitiveness."
+      },
+      "usage": {
+        "input_tokens": 1188,
+        "output_tokens": 111,
+        "cost_usd": 0.002595,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790031.426927
+    },
+    {
+      "op_id": "RJ/2",
+      "op_name": "Juliet Capulet",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_juliet",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": 0.9,
+        "X": 0.5,
+        "A_HEX": 0.7,
+        "C_HEX": -0.2,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is highly emotional, sincere, and open to unconventional ideas, engaging others with gentle confidence but acting with a passionate impulsivity that overrides her initial prudence."
+      },
+      "usage": {
+        "input_tokens": 1666,
+        "output_tokens": 110,
+        "cost_usd": 0.0031825,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790051.129505
+    },
+    {
+      "op_id": "GG/6",
+      "op_name": "Jordan Baker",
+      "book": "the_great_gatsby",
+      "coref_id": "166",
+      "HEXACO": {
+        "H": -0.8,
+        "E_HEX": -0.7,
+        "X": 0.9,
+        "A_HEX": -0.3,
+        "C_HEX": -0.8,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is a highly extraverted and socially confident individual (high X) who is also manipulative, gossipy, and irresponsible (low H, low C), expressing a cynical and unconventional worldview (high O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1037,
+        "output_tokens": 122,
+        "cost_usd": 0.00251625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790069.6500459
+    },
+    {
+      "op_id": "AK/8",
+      "op_name": "Kitty Shcherbatskaya",
+      "book": "anna_karenina",
+      "coref_id": "184",
+      "HEXACO": {
+        "H": -0.3,
+        "E_HEX": 0.8,
+        "X": 0.9,
+        "A_HEX": 0.4,
+        "C_HEX": -0.1,
+        "O_HEX": -0.4,
+        "rationale": "The speaker is a highly sociable and lively extravert, but also extremely anxious, dependent, and emotionally volatile, with a conventional mindset and somewhat questionable sincerity in her romantic dealings."
+      },
+      "usage": {
+        "input_tokens": 1232,
+        "output_tokens": 113,
+        "cost_usd": 0.00267,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790092.8374138
+    },
+    {
+      "op_id": "LM/2",
+      "op_name": "Javert",
+      "book": "les_miserables",
+      "coref_id": "1804",
+      "HEXACO": {
+        "H": 0.3,
+        "E_HEX": -0.8,
+        "X": 0.9,
+        "A_HEX": 0.4,
+        "C_HEX": 0.3,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is a socially bold and authoritative leader (high X, low E_HEX) who acts on a strong, unconventional sense of personal principle (high O_HEX), leading him to be both harsh in judgment and remarkably forgiving (moderate A_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1123,
+        "output_tokens": 130,
+        "cost_usd": 0.00270375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790120.908465
+    },
+    {
+      "op_id": "TWN/1",
+      "op_name": "Viola",
+      "book": "twelfth_night",
+      "coref_id": "char_viola",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": 0.7,
+        "X": 0.8,
+        "A_HEX": 0.6,
+        "C_HEX": 0.7,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is a creative and socially bold individual who engages in a major deception out of necessity, while also being emotionally sensitive, gentle, and diligent in carrying out her plan."
+      },
+      "usage": {
+        "input_tokens": 1725,
+        "output_tokens": 113,
+        "cost_usd": 0.00328625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790149.041224
+    },
+    {
+      "op_id": "AK/10",
+      "op_name": "Countess Lidia Ivanovna",
+      "book": "anna_karenina",
+      "coref_id": "270",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": 0.9,
+        "X": 0.8,
+        "A_HEX": 0.3,
+        "C_HEX": 0.4,
+        "O_HEX": -0.4,
+        "rationale": "The speaker is a socially bold (high X) and highly anxious and sentimental individual (high E_HEX) who uses manipulative flattery and a guise of humility to insinuate herself into the lives of others (low H)."
+      },
+      "usage": {
+        "input_tokens": 1493,
+        "output_tokens": 124,
+        "cost_usd": 0.00310625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790222.137481
+    },
+    {
+      "op_id": "HML/2",
+      "op_name": "Queen Gertrude",
+      "book": "hamlet",
+      "coref_id": "char_queen",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": 0.6,
+        "X": 0.8,
+        "A_HEX": -0.3,
+        "C_HEX": 0.2,
+        "O_HEX": -0.5,
+        "rationale": "The speaker is a socially dominant (high X) and manipulative (low H) individual who, despite a conventional mindset (low O), displays significant fearfulness when directly confronted (high E_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1209,
+        "output_tokens": 118,
+        "cost_usd": 0.00269125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790249.346959
+    },
+    {
+      "op_id": "RJ/3",
+      "op_name": "Friar Laurence",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_friar_lawrence",
+      "HEXACO": {
+        "H": 0.4,
+        "E_HEX": -0.6,
+        "X": 0.8,
+        "A_HEX": 0.7,
+        "C_HEX": 0.8,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is a philosophical, prudent, and loquacious advisor (high O_HEX, C_HEX, X) who offers patient counsel (high A_HEX) and remains emotionally stable (low E_HEX), acting with sincere, if deceptive, intentions to help others."
+      },
+      "usage": {
+        "input_tokens": 2563,
+        "output_tokens": 135,
+        "cost_usd": 0.00455375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790268.83735
+    },
+    {
+      "op_id": "AK/4",
+      "op_name": "Dolly Oblonskaya",
+      "book": "anna_karenina",
+      "coref_id": "154",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": 0.9,
+        "X": -0.4,
+        "A_HEX": -0.9,
+        "C_HEX": 0.5,
+        "O_HEX": 0.3,
+        "rationale": "The speaker scores very high on Emotionality and very low on Agreeableness, expressing overwhelming distress, emotional dependence, and intense, unforgiving anger, while her sincerity and references to her past work and duties suggest moderately high Honesty-Humility and Conscientiousness."
+      },
+      "usage": {
+        "input_tokens": 1541,
+        "output_tokens": 131,
+        "cost_usd": 0.00323625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790292.6422138
+    },
+    {
+      "op_id": "TWN/3",
+      "op_name": "Olivia",
+      "book": "twelfth_night",
+      "coref_id": "char_olivia",
+      "HEXACO": {
+        "H": -0.4,
+        "E_HEX": 0.7,
+        "X": 0.4,
+        "A_HEX": -0.8,
+        "C_HEX": 0.6,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is critical and impatient (low A_HEX) but also emotionally expressive and fearful of judgment (high E_HEX), using creative, inquisitive language (high O_HEX) while also confessing to a significant act of 'shameful cunning' (low H)."
+      },
+      "usage": {
+        "input_tokens": 1474,
+        "output_tokens": 134,
+        "cost_usd": 0.0031825,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790324.832953
+    },
+    {
+      "op_id": "GG/2",
+      "op_name": "Nick Carraway",
+      "book": "the_great_gatsby",
+      "coref_id": "0",
+      "HEXACO": {
+        "H": 0.4,
+        "E_HEX": -0.3,
+        "X": -0.2,
+        "A_HEX": -0.6,
+        "C_HEX": 0.2,
+        "O_HEX": 0.7,
+        "rationale": "The speaker is highly inquisitive and reflective (high Openness) but also impatient, blunt, and critical (low Agreeableness), while generally being reserved and observant (low Extraversion)."
+      },
+      "usage": {
+        "input_tokens": 976,
+        "output_tokens": 114,
+        "cost_usd": 0.00236,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790355.21688
+    },
+    {
+      "op_id": "HML/3",
+      "op_name": "King Claudius",
+      "book": "hamlet",
+      "coref_id": "char_king",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": -0.6,
+        "X": 0.9,
+        "A_HEX": -0.4,
+        "C_HEX": 0.8,
+        "O_HEX": -0.3,
+        "rationale": "The speaker is a manipulative (low H), emotionally tough (low E_HEX), and socially dominant (high X) leader who is highly conscientious (high C_HEX) but also impatient with dissent (low A_HEX) and holds conventional views despite his rhetorical skill (low O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 2457,
+        "output_tokens": 138,
+        "cost_usd": 0.00445125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790395.515106
+    },
+    {
+      "op_id": "MCB/2",
+      "op_name": "Lady Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_lady_macbeth",
+      "HEXACO": {
+        "H": -1.0,
+        "E_HEX": -0.8,
+        "X": 0.9,
+        "A_HEX": -1.0,
+        "C_HEX": 0.9,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is profoundly manipulative, hostile, and ruthless (very low H, very low A_HEX), while also being tough, socially dominant, and a meticulous planner (low E_HEX, high X, high C_HEX), using imaginative and unconventional language to pursue her ambitions (high O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 2439,
+        "output_tokens": 140,
+        "cost_usd": 0.00444875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790426.653624
+    },
+    {
+      "op_id": "AK/5",
+      "op_name": "Stepan Oblonsky",
+      "book": "anna_karenina",
+      "coref_id": "149",
+      "HEXACO": {
+        "H": -0.3,
+        "E_HEX": 0.8,
+        "X": 0.5,
+        "A_HEX": -0.2,
+        "C_HEX": -0.7,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is highly emotional and anxious ('Oh, it\u2019s awful!'), open to experience (describing a bizarre, creative dream), but also highly disorganized ('Everything\u2019s in confusion') and shows a self-serving lack of humility ('it\u2019s all my fault, though I\u2019m not to blame')."
+      },
+      "usage": {
+        "input_tokens": 1292,
+        "output_tokens": 143,
+        "cost_usd": 0.003045,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790444.601642
+    },
+    {
+      "op_id": "SSB/2",
+      "op_name": "Marianne Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "98",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": 0.9,
+        "X": 0.8,
+        "A_HEX": -0.7,
+        "C_HEX": -0.4,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is defined by extremely high Emotionality and Openness, evident in their passionate, sentimental nature and intense focus on aesthetics, while their low Agreeableness and moderate-low Conscientiousness are shown through their judgmental impatience and emotional impulsivity."
+      },
+      "usage": {
+        "input_tokens": 2227,
+        "output_tokens": 127,
+        "cost_usd": 0.00405375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790467.488725
+    },
+    {
+      "op_id": "GG/1",
+      "op_name": "Jay Gatsby",
+      "book": "the_great_gatsby",
+      "coref_id": "157",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": 0.2,
+        "X": 0.8,
+        "A_HEX": 0.7,
+        "C_HEX": -0.1,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is highly extraverted and open, describing a life of adventure and art, but their grandiose and likely fabricated self-presentation ('lived like a young rajah') indicates very low honesty-humility and a manipulative desire to control their image."
+      },
+      "usage": {
+        "input_tokens": 1147,
+        "output_tokens": 128,
+        "cost_usd": 0.00271375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790492.404877
+    },
+    {
+      "op_id": "TWN/2",
+      "op_name": "Sebastian",
+      "book": "twelfth_night",
+      "coref_id": "char_sebastian",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": 0.7,
+        "X": 0.3,
+        "A_HEX": -0.5,
+        "C_HEX": -0.3,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is highly sentimental and prone to tears (high E_HEX) and very inquisitive and open to unconventional experiences (high O_HEX), while also being modest and sincere (high H); however, he is also quick to anger and physical aggression when provoked (low A_HEX) and follows an impulsive, unplanned path (low C_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1909,
+        "output_tokens": 149,
+        "cost_usd": 0.00387625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790520.124182
+    },
+    {
+      "op_id": "PP/7",
+      "op_name": "Mrs. Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "126",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": 0.8,
+        "X": 0.8,
+        "A_HEX": -0.7,
+        "C_HEX": -0.2,
+        "O_HEX": -0.8,
+        "rationale": "The speaker is a highly emotional and extraverted but irritable individual, whose manipulative and conventional focus on social maneuvering for her daughters' marriages indicates low Honesty-Humility and Openness."
+      },
+      "usage": {
+        "input_tokens": 1130,
+        "output_tokens": 115,
+        "cost_usd": 0.0025625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790610.127912
+    },
+    {
+      "op_id": "TTC/2",
+      "op_name": "Lucie Manette",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "203",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": 0.9,
+        "X": 0.1,
+        "A_HEX": 0.9,
+        "C_HEX": 0.4,
+        "O_HEX": -0.2,
+        "rationale": "The speaker scores very high in Emotionality and Agreeableness, expressing intense fear and anxiety ('What shall I do!') while remaining gentle and empathetic in her pleas ('O sister - woman, think of me'), combined with a high Honesty-Humility evident in her sincere devotion to her family."
+      },
+      "usage": {
+        "input_tokens": 1407,
+        "output_tokens": 137,
+        "cost_usd": 0.00312875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790635.0752409
+    },
+    {
+      "op_id": "RJ/4",
+      "op_name": "Mercutio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_mercutio",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": -0.8,
+        "X": 0.9,
+        "A_HEX": -0.7,
+        "C_HEX": 0.5,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is a highly extraverted and creative wit (high X, high O_HEX) who is also cynical, tough-minded, and mocking (low H, low E_HEX, low A_HEX), as shown in his elaborate, imaginative speeches that satirize love and social convention."
+      },
+      "usage": {
+        "input_tokens": 2375,
+        "output_tokens": 138,
+        "cost_usd": 0.00434875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790657.234345
+    },
+    {
+      "op_id": "RJ/5",
+      "op_name": "The Nurse",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_nurse",
+      "HEXACO": {
+        "H": 0.2,
+        "E_HEX": 0.8,
+        "X": 0.9,
+        "A_HEX": 0.4,
+        "C_HEX": -0.5,
+        "O_HEX": -0.6,
+        "rationale": "The speaker scores high on Extraversion and Emotionality, reflected in their lively, sociable, and highly sentimental rambling, but low on Conscientiousness and Openness due to their disorganized speech and focus on conventional, concrete matters."
+      },
+      "usage": {
+        "input_tokens": 1635,
+        "output_tokens": 123,
+        "cost_usd": 0.00327375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790678.650017
+    },
+    {
+      "op_id": "LM/5",
+      "op_name": "Marius Pontmercy",
+      "book": "les_miserables",
+      "coref_id": "2781",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": 0.3,
+        "X": 0.8,
+        "A_HEX": -0.7,
+        "C_HEX": -0.8,
+        "O_HEX": 0.7,
+        "rationale": "The speaker is a bold, witty extravert (high X) who is impulsively deceptive and hostile towards opponents (low H, low A_HEX, low C_HEX), while also being deeply sentimental and unconventional (high E_HEX, high O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1393,
+        "output_tokens": 132,
+        "cost_usd": 0.00306125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790706.7449942
+    },
+    {
+      "op_id": "LM/3",
+      "op_name": "Fantine",
+      "book": "les_miserables",
+      "coref_id": "1667",
+      "HEXACO": {
+        "H": 0.3,
+        "E_HEX": 0.9,
+        "X": 0.4,
+        "A_HEX": -0.5,
+        "C_HEX": -0.6,
+        "O_HEX": 0.5,
+        "rationale": "The speaker is defined by extremely high Emotionality, expressing constant anxiety, fear, and sentimental dependence regarding her child, which fuels her low Agreeableness (impatience, hostility) and low Conscientiousness (disorganized, rambling speech)."
+      },
+      "usage": {
+        "input_tokens": 1694,
+        "output_tokens": 125,
+        "cost_usd": 0.0033675,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790736.5210938
+    },
+    {
+      "op_id": "HML/5",
+      "op_name": "Ophelia",
+      "book": "hamlet",
+      "coref_id": "char_ophelia",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": 0.9,
+        "X": -0.9,
+        "A_HEX": 0.9,
+        "C_HEX": 0.8,
+        "O_HEX": 0.3,
+        "rationale": "The speaker is highly emotional, fearful, and dependent (high E_HEX), while also being extremely agreeable, gentle, and dutifully obedient (high A_HEX and C_HEX), but shows very low extraversion through their consistent social deference and reserved manner."
+      },
+      "usage": {
+        "input_tokens": 1501,
+        "output_tokens": 131,
+        "cost_usd": 0.00318625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790752.1379468
+    },
+    {
+      "op_id": "TWN/5",
+      "op_name": "Malvolio",
+      "book": "twelfth_night",
+      "coref_id": "char_malvolio",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": -0.8,
+        "X": -0.2,
+        "A_HEX": -0.8,
+        "C_HEX": 0.9,
+        "O_HEX": -0.5,
+        "rationale": "The speaker is highly conscientious and dutiful, but also immodest, ill-tempered, and conventional, as shown by his angry enforcement of household rules and his elaborate fantasies of achieving status and control."
+      },
+      "usage": {
+        "input_tokens": 1700,
+        "output_tokens": 119,
+        "cost_usd": 0.003315,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790777.382694
+    },
+    {
+      "op_id": "SSB/4",
+      "op_name": "Edward Ferrars",
+      "book": "sense_and_sensibility",
+      "coref_id": "108",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": -0.8,
+        "X": -0.6,
+        "A_HEX": 0.7,
+        "C_HEX": 0.8,
+        "O_HEX": -0.9,
+        "rationale": "The speaker is highly principled and sincere (H), prudent and orderly (C), patient and gentle (A_HEX), but also emotionally self-reliant (low E_HEX), admits to shyness (low X), and explicitly rejects aesthetic and unconventional ideas for the practical and familiar (very low O_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1833,
+        "output_tokens": 141,
+        "cost_usd": 0.00370125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790801.3128698
+    },
+    {
+      "op_id": "SSB/1",
+      "op_name": "Elinor Dashwood",
+      "book": "sense_and_sensibility",
+      "coref_id": "97",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": -0.7,
+        "X": 0.6,
+        "A_HEX": 0.9,
+        "C_HEX": 0.8,
+        "O_HEX": 0.6,
+        "rationale": "The speaker is highly agreeable, conscientious, and honest, demonstrated by her patient, principled, and well-reasoned defense of others, while also showing low emotionality through her consistently calm and stable demeanor."
+      },
+      "usage": {
+        "input_tokens": 1891,
+        "output_tokens": 119,
+        "cost_usd": 0.00355375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790821.463134
+    },
+    {
+      "op_id": "HML/6",
+      "op_name": "Horatio",
+      "book": "hamlet",
+      "coref_id": "char_horatio",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": 0.6,
+        "X": 0.4,
+        "A_HEX": 0.5,
+        "C_HEX": 0.8,
+        "O_HEX": 0.4,
+        "rationale": "The speaker is highly sincere, prudent, and dutiful, expressing deference to superiors and reporting events with great care, while also showing clear signs of fear, wonder, and concern for others."
+      },
+      "usage": {
+        "input_tokens": 1153,
+        "output_tokens": 115,
+        "cost_usd": 0.00259125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790851.227715
+    },
+    {
+      "op_id": "TTC/1",
+      "op_name": "Sydney Carton",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "206",
+      "HEXACO": {
+        "H": -0.5,
+        "E_HEX": -0.7,
+        "X": 0.8,
+        "A_HEX": -0.6,
+        "C_HEX": -0.8,
+        "O_HEX": 0.7,
+        "rationale": "The speaker is a socially bold, inquisitive, and emotionally tough individual who displays a cynical, undisciplined, and manipulative approach to his interactions."
+      },
+      "usage": {
+        "input_tokens": 1271,
+        "output_tokens": 107,
+        "cost_usd": 0.00265875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790869.166136
+    },
+    {
+      "op_id": "TTC/3",
+      "op_name": "Charles Darnay",
+      "book": "a_tale_of_two_cities",
+      "coref_id": "189",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": 0.3,
+        "X": 0.5,
+        "A_HEX": 0.8,
+        "C_HEX": 0.3,
+        "O_HEX": 0.7,
+        "rationale": "The speaker is highly agreeable, seeking to part 'without ill-blood,' and open, shown by his inquisitive and detailed story about the Tower, while also being moderately extraverted and emotionally vulnerable, admitting to feeling faint and confused."
+      },
+      "usage": {
+        "input_tokens": 1521,
+        "output_tokens": 124,
+        "cost_usd": 0.00314125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790889.157252
+    },
+    {
+      "op_id": "GG/5",
+      "op_name": "Myrtle Wilson",
+      "book": "the_great_gatsby",
+      "coref_id": "170",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": 0.7,
+        "X": 0.4,
+        "A_HEX": -0.8,
+        "C_HEX": -0.5,
+        "O_HEX": -0.2,
+        "rationale": "The speaker displays very low Agreeableness through hostile and defiant outbursts, high Emotionality through expressions of anxiety and desperation, and low Honesty-Humility with a cynical worldview focused on money."
+      },
+      "usage": {
+        "input_tokens": 1096,
+        "output_tokens": 116,
+        "cost_usd": 0.00253,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790911.463671
+    },
+    {
+      "op_id": "PP/10",
+      "op_name": "Mr. William Collins",
+      "book": "pride_and_prejudice",
+      "coref_id": "103",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": 0.7,
+        "X": 0.6,
+        "A_HEX": -0.7,
+        "C_HEX": 0.9,
+        "O_HEX": -0.8,
+        "rationale": "The speaker's utterances reveal a character who is highly conscientious and methodical in his self-serving plans, but extremely low in honesty-humility and agreeableness, as shown by his pompous, manipulative, and stubborn reaction to having his marriage proposal rejected."
+      },
+      "usage": {
+        "input_tokens": 2889,
+        "output_tokens": 130,
+        "cost_usd": 0.00491125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790941.5452921
+    },
+    {
+      "op_id": "LM/1",
+      "op_name": "Jean Valjean",
+      "book": "les_miserables",
+      "coref_id": "2647",
+      "HEXACO": {
+        "H": 0.3,
+        "E_HEX": 0.8,
+        "X": 0.7,
+        "A_HEX": 0.5,
+        "C_HEX": 0.1,
+        "O_HEX": 0.5,
+        "rationale": "The speaker exhibits high emotionality through expressions of fear and anxiety ('I am mad! I am dreaming!'), yet is also extraverted and agreeable, issuing bold commands while showing gentle concern for others' well-being ('Are you less cold now?')."
+      },
+      "usage": {
+        "input_tokens": 951,
+        "output_tokens": 130,
+        "cost_usd": 0.00248875,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790965.3523872
+    },
+    {
+      "op_id": "HML/4",
+      "op_name": "Polonius",
+      "book": "hamlet",
+      "coref_id": "char_polonius",
+      "HEXACO": {
+        "H": -0.8,
+        "E_HEX": -0.4,
+        "X": 0.8,
+        "A_HEX": -0.6,
+        "C_HEX": 0.7,
+        "O_HEX": -0.5,
+        "rationale": "The speaker's talkative and socially confident demeanor (high X) and meticulously planned schemes (high C) are undermined by his manipulative nature (e.g., using 'a bait of falsehood' to spy on his son) and harsh, dismissive attitude toward his daughter, indicating very low Honesty-Humility and low Agreeableness."
+      },
+      "usage": {
+        "input_tokens": 2456,
+        "output_tokens": 147,
+        "cost_usd": 0.00454,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778790989.554859
+    },
+    {
+      "op_id": "LM/4",
+      "op_name": "Cosette",
+      "book": "les_miserables",
+      "coref_id": "1373",
+      "HEXACO": {
+        "H": -0.6,
+        "E_HEX": -0.1,
+        "X": 0.7,
+        "A_HEX": -0.8,
+        "C_HEX": 0.6,
+        "O_HEX": 0.4,
+        "rationale": "The speaker is highly disagreeable and hostile, evidenced by insults and harsh judgments, yet also shows conscientiousness through detailed, practical explanations and self-correction on tasks."
+      },
+      "usage": {
+        "input_tokens": 1065,
+        "output_tokens": 110,
+        "cost_usd": 0.00243125,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791029.431927
+    },
+    {
+      "op_id": "PP/4",
+      "op_name": "Charles Bingley",
+      "book": "pride_and_prejudice",
+      "coref_id": "102",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": -0.7,
+        "X": 0.9,
+        "A_HEX": 0.8,
+        "C_HEX": -0.2,
+        "O_HEX": 0.7,
+        "rationale": "The speaker scores high on Extraversion and Agreeableness, being exceptionally sociable, lively, and good-tempered, while his repeated appeals to his own sincerity ('upon my honour') indicate high Honesty-Humility; he also shows intellectual curiosity (Openness) and emotional stability (low Emotionality), with a slightly less conscientious, easy-going attitude."
+      },
+      "usage": {
+        "input_tokens": 1730,
+        "output_tokens": 150,
+        "cost_usd": 0.0036625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791049.138416
+    },
+    {
+      "op_id": "PP/1",
+      "op_name": "Elizabeth Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "107",
+      "HEXACO": {
+        "H": 0.8,
+        "E_HEX": -0.4,
+        "X": 0.7,
+        "A_HEX": -0.6,
+        "C_HEX": 0.7,
+        "O_HEX": 0.8,
+        "rationale": "The speaker is principled against manipulation (high H), socially bold and witty (high X), prudent in her judgments (high C), and intellectually curious (high O), while also being critical and sharp-tongued (low A) and more self-reliant than fearful (low E)."
+      },
+      "usage": {
+        "input_tokens": 1612,
+        "output_tokens": 135,
+        "cost_usd": 0.003365,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791071.469184
+    },
+    {
+      "op_id": "MCB/1",
+      "op_name": "Macbeth",
+      "book": "macbeth",
+      "coref_id": "char_macbeth",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": 0.8,
+        "X": 0.6,
+        "A_HEX": -0.7,
+        "C_HEX": 0.7,
+        "O_HEX": 0.9,
+        "rationale": "The speaker is an imaginative and deliberative leader whose ambition drives him to profound deception and hostility, which in turn causes him extreme anxiety and guilt."
+      },
+      "usage": {
+        "input_tokens": 2165,
+        "output_tokens": 107,
+        "cost_usd": 0.00377625,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791105.079875
+    },
+    {
+      "op_id": "RJ/6",
+      "op_name": "Benvolio",
+      "book": "romeo_and_juliet",
+      "coref_id": "char_benvolio",
+      "HEXACO": {
+        "H": 0.7,
+        "E_HEX": 0.4,
+        "X": 0.8,
+        "A_HEX": 0.7,
+        "C_HEX": 0.6,
+        "O_HEX": 0.7,
+        "rationale": "The speaker is a socially bold (X) and principled (H) peacemaker (A_HEX) who uses creative, metaphorical language (O_HEX) and diligent reasoning (C_HEX) to empathize with and advise his cousin (E_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1496,
+        "output_tokens": 131,
+        "cost_usd": 0.00318,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791129.0291278
+    },
+    {
+      "op_id": "AK/1",
+      "op_name": "Anna Karenina",
+      "book": "anna_karenina",
+      "coref_id": "158",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": 0.8,
+        "X": 0.7,
+        "A_HEX": 0.8,
+        "C_HEX": 0.0,
+        "O_HEX": 0.4,
+        "rationale": "The speaker is highly emotional, extraverted, and agreeable, acting as a sincere and gentle mediator who expresses deep empathy and advocates for forgiveness, with little evidence for conscientiousness."
+      },
+      "usage": {
+        "input_tokens": 1512,
+        "output_tokens": 113,
+        "cost_usd": 0.00302,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791145.968204
+    },
+    {
+      "op_id": "JE/1",
+      "op_name": "Jane Eyre",
+      "book": "jane_eyre",
+      "coref_id": "0",
+      "HEXACO": {
+        "H": -0.7,
+        "E_HEX": 0.8,
+        "X": 0.6,
+        "A_HEX": -0.9,
+        "C_HEX": -0.2,
+        "O_HEX": 0.5,
+        "rationale": "The speaker is defined by very low Agreeableness (hostile, stubborn) and Honesty-Humility (immodest), and very high Emotionality (fearful, anxious), while also being socially bold and demonstrating a creative imagination."
+      },
+      "usage": {
+        "input_tokens": 1083,
+        "output_tokens": 126,
+        "cost_usd": 0.00261375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791173.72233
+    },
+    {
+      "op_id": "PP/9",
+      "op_name": "Lydia Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "99",
+      "HEXACO": {
+        "H": -0.8,
+        "E_HEX": -0.7,
+        "X": 0.9,
+        "A_HEX": -0.6,
+        "C_HEX": -0.9,
+        "O_HEX": -0.5,
+        "rationale": "The speaker is a classic extravert who is highly sociable, bold, and lively, but also demonstrates low Honesty-Humility through entitlement and immodesty, low Conscientiousness through impulsivity, and low Agreeableness through jealousy and a demanding nature."
+      },
+      "usage": {
+        "input_tokens": 1851,
+        "output_tokens": 130,
+        "cost_usd": 0.00361375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791201.448353
+    },
+    {
+      "op_id": "PP/3",
+      "op_name": "Jane Bennet",
+      "book": "pride_and_prejudice",
+      "coref_id": "192",
+      "HEXACO": {
+        "H": 0.6,
+        "E_HEX": -0.7,
+        "X": 0.6,
+        "A_HEX": 0.3,
+        "C_HEX": 0.7,
+        "O_HEX": 0.4,
+        "rationale": "The speaker is principled and diligent in seeking truth (high H, high C), emotionally stable and self-reliant (low E_HEX), and socially confident in expressing their reasoned, though sometimes critical, opinions (high X, mid A_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1642,
+        "output_tokens": 128,
+        "cost_usd": 0.0033325,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791268.998008
+    },
+    {
+      "op_id": "PP/6",
+      "op_name": "Lady Catherine de Bourgh",
+      "book": "pride_and_prejudice",
+      "coref_id": "130",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": -0.9,
+        "X": 0.9,
+        "A_HEX": -0.9,
+        "C_HEX": 0.8,
+        "O_HEX": -0.9,
+        "rationale": "The speaker is an immodest, domineering, and critical individual (low H, high X, low A_HEX) who expresses tough, conventional, and prescriptive views on how others should live (low E_HEX, low O_HEX, high C_HEX)."
+      },
+      "usage": {
+        "input_tokens": 1771,
+        "output_tokens": 134,
+        "cost_usd": 0.00355375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791287.5919292
+    },
+    {
+      "op_id": "PP/8",
+      "op_name": "George Wickham",
+      "book": "pride_and_prejudice",
+      "coref_id": "100",
+      "HEXACO": {
+        "H": -0.9,
+        "E_HEX": 0.6,
+        "X": 0.8,
+        "A_HEX": -0.8,
+        "C_HEX": -0.6,
+        "O_HEX": 0.5,
+        "rationale": "The speaker presents as a sociable and articulate individual who is also highly manipulative, unforgiving, and emotionally dependent, crafting a self-serving narrative of victimhood to discredit an adversary."
+      },
+      "usage": {
+        "input_tokens": 2283,
+        "output_tokens": 114,
+        "cost_usd": 0.00399375,
+        "provider": "google"
+      },
+      "model": "gemini-2.5-pro",
+      "ts": 1778791316.7110772
+    }
+  ]
+}

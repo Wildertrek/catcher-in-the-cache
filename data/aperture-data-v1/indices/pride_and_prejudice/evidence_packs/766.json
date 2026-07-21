@@ -1,0 +1,45 @@
+{
+  "coref_id": "766",
+  "character_name": "the lady",
+  "quote_count": 1,
+  "mention_count": 13,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "unexpected--\u201cfor your housekeeper , \u201d",
+      "mention_text": "she",
+      "quote_start": 100857,
+      "quote_end": 100861,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "194",
+          "quote_text": "\u201c when he knows who they are ! He takes them now for people of fashion . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Why is he so altered ? From what can it proceed ? It can not be for _ me _ , it can not be for _ my _ sake that his manners are thus softened . My reproofs at Hunsford could not work such a change as this . It is impossible that he should still love me . \u201d"
+        },
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c informed us that you would certainly not be here till to - morrow ; and , indeed , before we left Bakewell , we understood that you were not immediately expected in the country . \u201d"
+        },
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c They will join me early to - morrow , \u201d"
+        }
+      ]
+    }
+  ]
+}

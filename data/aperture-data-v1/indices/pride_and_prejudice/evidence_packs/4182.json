@@ -1,0 +1,101 @@
+{
+  "coref_id": "4182",
+  "character_name": "daughter",
+  "quote_count": 3,
+  "mention_count": 16,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "118",
+      2
+    ],
+    [
+      "216",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c My dear Sir , * /",
+      "mention_text": "daughter",
+      "quote_start": 116372,
+      "quote_end": 116378,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c to go to Epsom , the place where they last changed horses , see the postilions , and try if anything could be made out from them . His principal object must be to discover the number of the hackney coach which took them from Clapham . It had come with a fare from London ; and as he thought the circumstance of a gentleman and lady \u2019s removing from one carriage into another might be remarked , he meant to make inquiries at Clapham . If he could anyhow discover at what house the coachman had before set down his fare , he determined to make inquiries there , and hoped it might not be impossible to find out the stand and number of the coach . I do not know of any other designs that he had formed ; but he was in such a hurry to be gone , and his spirits so greatly discomposed , that I had difficulty in finding out even so much as this . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I have written to Colonel Forster to desire him to find out , if possible , from some of the young man \u2019s intimates in the regiment , whether Wickham has any relations or connections who would be likely to know in what part of the town he has now concealed himself . If there were anyone that one could apply to , with a probability of gaining such a clue as that , it might be of essential consequence . At present we have nothing to guide us . Colonel Forster will , I dare say , do everything in his power to satisfy us on this head . But , on second thoughts , perhaps Lizzy could tell us what relations he has now living better than any other person . \u201d"
+        },
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c I feel myself called upon , by our relationship , and my situation in life , to condole with you on the grievous affliction you are now suffering under , of which we were yesterday informed by a letter from Hertfordshire . Be assured , my dear sir , that Mrs. Collins and myself sincerely sympathize with you , and all your respectable family , in your present distress , which must be of the bitterest kind , because proceeding from a cause which no time can remove . No arguments shall be wanting on my part , that can alleviate so severe a misfortune ; or that may comfort you , under a circumstance that must be , of all others , most afflicting to a parent \u2019s mind . The death of your daughter would have been a blessing in comparison of this . And it is the more to be lamented , because there is reason to suppose , as my dear Charlotte informs me , that this licentiousness of behaviour in your"
+        },
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c To whom I have related the affair \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I feel myself called upon , by our relationship , and my situation in life , to condole with you on the grievous affliction you are now suffering under , of which we were yesterday informed by a letter from Hertfordshire . Be assured , my dear sir , that Mrs. Collins and myself sincerely sympathize with you , and all your respectable family , in your present distress , which must be of the bitterest kind , because proceeding from a cause which no time can remove . No arguments shall be wanting on my part , that can alleviate so severe a misfortune ; or that may comfort you , under a circumstance that must be , of all others , most afflicting to a parent \u2019s mind . The death of your daughter would have been a blessing in comparison of this . And it is the more to be lamented , because there is reason to suppose , as my dear Charlotte informs me , that this licentiousness of behaviour in your",
+      "mention_text": "daughter",
+      "quote_start": 116379,
+      "quote_end": 116555,
+      "addressee_coref_id": "118",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I have written to Colonel Forster to desire him to find out , if possible , from some of the young man \u2019s intimates in the regiment , whether Wickham has any relations or connections who would be likely to know in what part of the town he has now concealed himself . If there were anyone that one could apply to , with a probability of gaining such a clue as that , it might be of essential consequence . At present we have nothing to guide us . Colonel Forster will , I dare say , do everything in his power to satisfy us on this head . But , on second thoughts , perhaps Lizzy could tell us what relations he has now living better than any other person . \u201d"
+        },
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c My dear Sir , * /"
+        },
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c To whom I have related the affair \u201d"
+        },
+        {
+          "speaker_coref_id": "216",
+          "quote_text": "\u201c I am , dear sir , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c To whom I have related the affair \u201d",
+      "mention_text": "daughter",
+      "quote_start": 116559,
+      "quote_end": 116567,
+      "addressee_coref_id": "216",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c My dear Sir , * /"
+        },
+        {
+          "speaker_coref_id": "4182",
+          "quote_text": "\u201c I feel myself called upon , by our relationship , and my situation in life , to condole with you on the grievous affliction you are now suffering under , of which we were yesterday informed by a letter from Hertfordshire . Be assured , my dear sir , that Mrs. Collins and myself sincerely sympathize with you , and all your respectable family , in your present distress , which must be of the bitterest kind , because proceeding from a cause which no time can remove . No arguments shall be wanting on my part , that can alleviate so severe a misfortune ; or that may comfort you , under a circumstance that must be , of all others , most afflicting to a parent \u2019s mind . The death of your daughter would have been a blessing in comparison of this . And it is the more to be lamented , because there is reason to suppose , as my dear Charlotte informs me , that this licentiousness of behaviour in your"
+        },
+        {
+          "speaker_coref_id": "216",
+          "quote_text": "\u201c I am , dear sir , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c A gamester ! \u201d"
+        }
+      ]
+    }
+  ]
+}

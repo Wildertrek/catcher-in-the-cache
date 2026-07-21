@@ -1,0 +1,217 @@
+{
+  "coref_id": "180",
+  "character_name": "Mrs. Philips",
+  "quote_count": 7,
+  "mention_count": 62,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "130",
+      2
+    ],
+    [
+      "99",
+      2
+    ],
+    [
+      "103",
+      1
+    ],
+    [
+      "102",
+      1
+    ],
+    [
+      "656",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Lady Catherine de Bourgh , \u201d",
+      "mention_text": "she",
+      "quote_start": 37199,
+      "quote_end": 37205,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I know very well , madam , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c that when persons sit down to a card table they must take their chance of these things,--and happily I am not in such circumstances as to make five shillings any object . There are , undoubtedly , many who could not say the same ; but , thanks to Lady Catherine de Bourgh , I am removed far beyond the necessity of regarding little matters . \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c has very lately given him a living . I hardly know how Mr. Collins was first introduced to her notice , but he certainly has not known her long . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c You know of course that Lady Catherine de Bourgh and Lady Anne Darcy were sisters ; consequently that she is aunt to the present Mr. Darcy . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c has very lately given him a living . I hardly know how Mr. Collins was first introduced to her notice , but he certainly has not known her long . \u201d",
+      "mention_text": "she",
+      "quote_start": 37209,
+      "quote_end": 37240,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c that when persons sit down to a card table they must take their chance of these things,--and happily I am not in such circumstances as to make five shillings any object . There are , undoubtedly , many who could not say the same ; but , thanks to Lady Catherine de Bourgh , I am removed far beyond the necessity of regarding little matters . \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Lady Catherine de Bourgh , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c You know of course that Lady Catherine de Bourgh and Lady Anne Darcy were sisters ; consequently that she is aunt to the present Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c No , indeed , I did not . I knew nothing at all of Lady Catherine \u2019s connections . I never heard of her existence till the day before yesterday . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c No , indeed , I did not . I knew nothing at all of Lady Catherine \u2019s connections . I never heard of her existence till the day before yesterday . \u201d",
+      "mention_text": "she",
+      "quote_start": 37270,
+      "quote_end": 37302,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c has very lately given him a living . I hardly know how Mr. Collins was first introduced to her notice , but he certainly has not known her long . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c You know of course that Lady Catherine de Bourgh and Lady Anne Darcy were sisters ; consequently that she is aunt to the present Mr. Darcy . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Her daughter , Miss de Bourgh , will have a very large fortune , and it is believed that she and her cousin will unite the two estates . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Mr. Collins , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Well , well , and so Mr. Bingley is coming down , sister , \u201d",
+      "mention_text": "Mrs. Philips",
+      "quote_start": 130071,
+      "quote_end": 130086,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c It must make you better satisfied that your other four are single . \u201d"
+        },
+        {
+          "speaker_coref_id": "656",
+          "quote_text": "\u201c It is no such thing . Lydia does not leave me because she is married ; but only because her husband \u2019s regiment happens to be so far off . If that had been nearer , she would not have gone so soon . \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Well , so much the better . Not that I care about it , though . He is nothing to us , you know , and I am sure I never want to see him again . But , however , he is very welcome to come to Netherfield , if he likes it . And who knows what _ may _ happen ? But that is nothing to us . You know , sister , we agreed long ago never to mention a word about it . And so , it is quite certain he is coming ? \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c You may depend on it , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Well , so much the better . Not that I care about it , though . He is nothing to us , you know , and I am sure I never want to see him again . But , however , he is very welcome to come to Netherfield , if he likes it . And who knows what _ may _ happen ? But that is nothing to us . You know , sister , we agreed long ago never to mention a word about it . And so , it is quite certain he is coming ? \u201d",
+      "mention_text": "Mrs. Philips",
+      "quote_start": 130098,
+      "quote_end": 130198,
+      "addressee_coref_id": "656",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "656",
+          "quote_text": "\u201c It is no such thing . Lydia does not leave me because she is married ; but only because her husband \u2019s regiment happens to be so far off . If that had been nearer , she would not have gone so soon . \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Well , well , and so Mr. Bingley is coming down , sister , \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c You may depend on it , \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c for Mrs. Nichols was in Meryton last night : I saw her passing by , and went out myself on purpose to know the truth of it ; and she told me that it was certainly true . He comes down on Thursday , at the latest , very likely on Wednesday . She was going to the butcher \u2019s , she told me , on purpose to order in some meat on Wednesday , and she has got three couple of ducks just fit to be killed . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You may depend on it , \u201d",
+      "mention_text": "Mrs. Philips",
+      "quote_start": 130199,
+      "quote_end": 130206,
+      "addressee_coref_id": "99",
+      "addressee_source": "comention",
+      "context": [
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Well , well , and so Mr. Bingley is coming down , sister , \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Well , so much the better . Not that I care about it , though . He is nothing to us , you know , and I am sure I never want to see him again . But , however , he is very welcome to come to Netherfield , if he likes it . And who knows what _ may _ happen ? But that is nothing to us . You know , sister , we agreed long ago never to mention a word about it . And so , it is quite certain he is coming ? \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c for Mrs. Nichols was in Meryton last night : I saw her passing by , and went out myself on purpose to know the truth of it ; and she told me that it was certainly true . He comes down on Thursday , at the latest , very likely on Wednesday . She was going to the butcher \u2019s , she told me , on purpose to order in some meat on Wednesday , and she has got three couple of ducks just fit to be killed . \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I saw you look at me to - day , Lizzy , when my aunt told us of the present report ; and I know I appeared distressed ; but do n\u2019t imagine it was from any silly cause . I was only confused for the moment , because I felt that I _ should _ be looked at . I do assure you that the news does not affect me either with pleasure or pain . I am glad of one thing , that he comes alone ; because we shall see the less of him . Not that I am afraid of _ myself _ , but I dread other people \u2019s remarks . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c for Mrs. Nichols was in Meryton last night : I saw her passing by , and went out myself on purpose to know the truth of it ; and she told me that it was certainly true . He comes down on Thursday , at the latest , very likely on Wednesday . She was going to the butcher \u2019s , she told me , on purpose to order in some meat on Wednesday , and she has got three couple of ducks just fit to be killed . \u201d",
+      "mention_text": "Mrs. Philips",
+      "quote_start": 130211,
+      "quote_end": 130301,
+      "addressee_coref_id": "99",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c Well , so much the better . Not that I care about it , though . He is nothing to us , you know , and I am sure I never want to see him again . But , however , he is very welcome to come to Netherfield , if he likes it . And who knows what _ may _ happen ? But that is nothing to us . You know , sister , we agreed long ago never to mention a word about it . And so , it is quite certain he is coming ? \u201d"
+        },
+        {
+          "speaker_coref_id": "180",
+          "quote_text": "\u201c You may depend on it , \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c I saw you look at me to - day , Lizzy , when my aunt told us of the present report ; and I know I appeared distressed ; but do n\u2019t imagine it was from any silly cause . I was only confused for the moment , because I felt that I _ should _ be looked at . I do assure you that the news does not affect me either with pleasure or pain . I am glad of one thing , that he comes alone ; because we shall see the less of him . Not that I am afraid of _ myself _ , but I dread other people \u2019s remarks . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Yet it is hard , \u201d"
+        }
+      ]
+    }
+  ]
+}

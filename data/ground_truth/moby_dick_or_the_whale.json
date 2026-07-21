@@ -1,0 +1,541 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "0",
+      "character_name": "Ishmael",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6217470588235294,
+        "C": -0.18652352941176473,
+        "E": 0.36380588235294115,
+        "A": 0.3111529411764706,
+        "N": 0.3631941176470588
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7613,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": 0.4,
+            "A": 0.569,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ferrante2022_Comprehensive_Combining_Subtle_Ishmaels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "ajn005.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.8,
+                0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "C": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": 0.569,
+              "confidence_interval": [
+                0.277,
+                0.86
+              ],
+              "n_sources": 2,
+              "std_dev": 0.149
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.3671,
+            "C": 0.2613,
+            "E": 0.3121,
+            "A": -0.0572,
+            "N": 0.0249
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:12:14.715849+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001145
+        }
+      ]
+    },
+    {
+      "coref_id": "559",
+      "character_name": "Captain Ahab",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.35673333333333335,
+        "C": 0.31930000000000003,
+        "E": 0.3284333333333334,
+        "A": -0.7070333333333335,
+        "N": 0.5807333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7388,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.19,
+            "C": 0.153,
+            "E": 0.37,
+            "A": -0.783,
+            "N": 0.827
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ferrante2022_Comprehensive_Combining_Subtle_Ishmaels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rahmawati2023_Making_Meaning_Pandemic_Through.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Sakuma2024_Geopolitical_Imaginaries_MobyDick_or.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "TULGAR2019_Ahab_G\u00fcne\u015fe_House_Tanr\u0131ya.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Zinnah2022_Social_Image_Crisis_Santiago.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "ajn005.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.19,
+              "confidence_interval": [
+                -0.496,
+                0.877
+              ],
+              "n_sources": 3,
+              "std_dev": 0.35
+            },
+            "C": {
+              "score": 0.153,
+              "confidence_interval": [
+                -1.0,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.683
+            },
+            "E": {
+              "score": 0.37,
+              "confidence_interval": [
+                -0.416,
+                1.0
+              ],
+              "n_sources": 5,
+              "std_dev": 0.401
+            },
+            "A": {
+              "score": -0.783,
+              "confidence_interval": [
+                -0.892,
+                -0.673
+              ],
+              "n_sources": 6,
+              "std_dev": 0.056
+            },
+            "N": {
+              "score": 0.827,
+              "confidence_interval": [
+                0.653,
+                1.0
+              ],
+              "n_sources": 6,
+              "std_dev": 0.088
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6902,
+            "C": 0.6519,
+            "E": 0.2453,
+            "A": -0.5551,
+            "N": 0.0882
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:12:50.229659+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001491
+        }
+      ]
+    },
+    {
+      "coref_id": "579",
+      "character_name": "Starbuck",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.1637,
+        "C": 0.6602235294117647,
+        "E": -0.2606,
+        "A": 0.5270764705882353,
+        "N": -0.3942411764705882
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4997,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "C": 0.7,
+            "A": 0.6,
+            "N": -0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Rahmawati2023_Making_Meaning_Pandemic_Through.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "C": {
+              "score": 0.7,
+              "confidence_interval": [
+                0.112,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": -0.6,
+              "confidence_interval": [
+                -1.0,
+                -0.012
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1637,
+            "C": 0.6034,
+            "E": -0.2606,
+            "A": 0.4229,
+            "N": -0.1003
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:13:22.147124+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001682
+        }
+      ]
+    },
+    {
+      "coref_id": "580",
+      "character_name": "Queequeg",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.5324882352941176,
+        "C": 0.4297,
+        "E": 0.0964,
+        "A": 0.7543352941176471,
+        "N": -0.41939999999999994
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1109,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.5,
+            "A": 0.8
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Rahmawati2023_Making_Meaning_Pandemic_Through.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.5,
+              "confidence_interval": [
+                -0.088,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "A": {
+              "score": 0.8,
+              "confidence_interval": [
+                0.212,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "N": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            }
+          },
+          "validation_status": "insufficient_sources"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5789,
+            "C": 0.4297,
+            "E": 0.0964,
+            "A": 0.6891,
+            "N": -0.4194
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:14:06.468969+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001267
+        }
+      ]
+    },
+    {
+      "coref_id": "569",
+      "character_name": "Stubb",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.3176058823529412,
+        "C": 0.589,
+        "E": 0.6039117647058824,
+        "A": 0.4104999999999999,
+        "N": -0.45079411764705885
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.2001,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_3",
+          "weight": 0.5,
+          "ocean": {
+            "O": 0.4,
+            "E": 0.6,
+            "N": -0.5
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Ferrante2022_Comprehensive_Combining_Subtle_Ishmaels.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.4,
+              "confidence_interval": [
+                -0.188,
+                0.988
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "C": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.012,
+                1.0
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            },
+            "A": {
+              "score": null,
+              "confidence_interval": null,
+              "n_sources": 0
+            },
+            "N": {
+              "score": -0.5,
+              "confidence_interval": [
+                -1.0,
+                0.088
+              ],
+              "n_sources": 1,
+              "std_dev": 0.3
+            }
+          },
+          "validation_status": "partial"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.1999,
+            "C": 0.589,
+            "E": 0.6095,
+            "A": 0.4105,
+            "N": -0.3805
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:14:50.769751+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000912
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration+vt_integration"
+}

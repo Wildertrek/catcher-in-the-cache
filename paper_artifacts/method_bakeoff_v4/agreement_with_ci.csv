@@ -1,0 +1,11 @@
+method_a,method_b,n,r,r_lo,r_hi,above_0.5,above_0.7
+M2_classifier,M3_regressor,2810,0.2643,0.2287,0.2988,False,False
+M2_classifier,M4_consensus,2810,0.2278,0.1914,0.2634,False,False
+M2_classifier,M5_probe,2580,0.201,0.1648,0.2372,False,False
+M2_classifier,M6_scpi,2810,0.02,-0.0154,0.0548,False,False
+M3_regressor,M4_consensus,2810,0.841,0.8271,0.8541,True,True
+M3_regressor,M5_probe,2580,0.6641,0.6396,0.6874,True,False
+M3_regressor,M6_scpi,2810,0.3329,0.2987,0.3666,False,False
+M4_consensus,M5_probe,2580,0.6893,0.6637,0.7136,True,False
+M4_consensus,M6_scpi,2810,0.2551,0.219,0.2902,False,False
+M5_probe,M6_scpi,2580,0.3304,0.2943,0.3669,False,False

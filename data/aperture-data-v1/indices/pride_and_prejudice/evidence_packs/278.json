@@ -1,0 +1,45 @@
+{
+  "coref_id": "278",
+  "character_name": "CHAPTER LII",
+  "quote_count": 1,
+  "mention_count": 2,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I am sure she did not listen . \u201d",
+      "mention_text": "CHAPTER LII",
+      "quote_start": 125935,
+      "quote_end": 125944,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Not that I _ shall _ , though , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c and , my dear aunt , if you do not tell me in an honourable manner , I shall certainly be reduced to tricks and stratagems to find it out . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Gracechurch Street , _ Sept. 6 _ . * /"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My dear Niece ,"
+        }
+      ]
+    }
+  ]
+}

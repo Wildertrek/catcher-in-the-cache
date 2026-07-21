@@ -1,0 +1,1335 @@
+{
+  "coref_id": "118",
+  "character_name": "Mr. Bennet",
+  "quote_count": 76,
+  "mention_count": 347,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      11
+    ],
+    [
+      "102",
+      4
+    ],
+    [
+      "441",
+      4
+    ],
+    [
+      "334",
+      3
+    ],
+    [
+      "161",
+      3
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c _ You _ want to tell me , and I have no objection to hearing it . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6305,
+      "quote_end": 6323,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "437",
+          "quote_text": "\u201c for Mrs. Long has just been here , and she told me all about it . \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c Do not you want to know who has taken it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c He came down to see the place \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Why , my dear , you must know , Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England ; that he came down on Monday in a chaise and four to see the place , and was so much delighted with it that he agreed with Mr. Morris immediately ; that he is to take possession before Michaelmas , and some of his servants are to be in the house by the end of next week . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He came down to see the place \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6327,
+      "quote_end": 6335,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c Do not you want to know who has taken it ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c _ You _ want to tell me , and I have no objection to hearing it . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Why , my dear , you must know , Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England ; that he came down on Monday in a chaise and four to see the place , and was so much delighted with it that he agreed with Mr. Morris immediately ; that he is to take possession before Michaelmas , and some of his servants are to be in the house by the end of next week . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c What is his name ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Why , my dear , you must know , Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England ; that he came down on Monday in a chaise and four to see the place , and was so much delighted with it that he agreed with Mr. Morris immediately ; that he is to take possession before Michaelmas , and some of his servants are to be in the house by the end of next week . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6352,
+      "quote_end": 6440,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c _ You _ want to tell me , and I have no objection to hearing it . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c He came down to see the place \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c What is his name ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Bingley . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c What is his name ? \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6441,
+      "quote_end": 6447,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c He came down to see the place \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Why , my dear , you must know , Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England ; that he came down on Monday in a chaise and four to see the place , and was so much delighted with it that he agreed with Mr. Morris immediately ; that he is to take possession before Michaelmas , and some of his servants are to be in the house by the end of next week . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Bingley . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is he married or single ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Bingley . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6448,
+      "quote_end": 6451,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Why , my dear , you must know , Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England ; that he came down on Monday in a chaise and four to see the place , and was so much delighted with it that he agreed with Mr. Morris immediately ; that he is to take possession before Michaelmas , and some of his servants are to be in the house by the end of next week . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c What is his name ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is he married or single ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Oh , single , my dear , to be sure ! A single man of large fortune ; four or five thousand a year . What a fine thing for our girls ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Is he married or single ? \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6452,
+      "quote_end": 6459,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c What is his name ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Bingley . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Oh , single , my dear , to be sure ! A single man of large fortune ; four or five thousand a year . What a fine thing for our girls ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How so ? how can it affect them ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Oh , single , my dear , to be sure ! A single man of large fortune ; four or five thousand a year . What a fine thing for our girls ! \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6460,
+      "quote_end": 6494,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Bingley . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is he married or single ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How so ? how can it affect them ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How so ? how can it affect them ? \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6495,
+      "quote_end": 6505,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is he married or single ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Oh , single , my dear , to be sure ! A single man of large fortune ; four or five thousand a year . What a fine thing for our girls ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c how can you be so tiresome ? You must know that I am thinking of his marrying one of them . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear Mr. Bennet , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6506,
+      "quote_end": 6512,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Oh , single , my dear , to be sure ! A single man of large fortune ; four or five thousand a year . What a fine thing for our girls ! \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How so ? how can it affect them ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c how can you be so tiresome ? You must know that I am thinking of his marrying one of them . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is that his design in settling here ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c how can you be so tiresome ? You must know that I am thinking of his marrying one of them . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6517,
+      "quote_end": 6539,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c How so ? how can it affect them ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is that his design in settling here ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Design ? Nonsense , how can you talk so ! But it is very likely that he _ may _ fall in love with one of them , and therefore you must visit him as soon as he comes . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Is that his design in settling here ? \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6540,
+      "quote_end": 6549,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c how can you be so tiresome ? You must know that I am thinking of his marrying one of them . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Design ? Nonsense , how can you talk so ! But it is very likely that he _ may _ fall in love with one of them , and therefore you must visit him as soon as he comes . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I see no occasion for that . You and the girls may go -- or you may send them by themselves , which perhaps will be still better ; for as you are as handsome as any of them , Mr. Bingley might like you the best of the party . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Design ? Nonsense , how can you talk so ! But it is very likely that he _ may _ fall in love with one of them , and therefore you must visit him as soon as he comes . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6550,
+      "quote_end": 6591,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c how can you be so tiresome ? You must know that I am thinking of his marrying one of them . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is that his design in settling here ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I see no occasion for that . You and the girls may go -- or you may send them by themselves , which perhaps will be still better ; for as you are as handsome as any of them , Mr. Bingley might like you the best of the party . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , you flatter me . I certainly _ have _ had my share of beauty , but I do not pretend to be anything extraordinary now . When a woman has five grown - up daughters , she ought to give over thinking of her own beauty . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I see no occasion for that . You and the girls may go -- or you may send them by themselves , which perhaps will be still better ; for as you are as handsome as any of them , Mr. Bingley might like you the best of the party . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6592,
+      "quote_end": 6644,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Is that his design in settling here ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Design ? Nonsense , how can you talk so ! But it is very likely that he _ may _ fall in love with one of them , and therefore you must visit him as soon as he comes . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , you flatter me . I certainly _ have _ had my share of beauty , but I do not pretend to be anything extraordinary now . When a woman has five grown - up daughters , she ought to give over thinking of her own beauty . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c In such cases , a woman has not often much beauty to think of . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear , you flatter me . I certainly _ have _ had my share of beauty , but I do not pretend to be anything extraordinary now . When a woman has five grown - up daughters , she ought to give over thinking of her own beauty . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6645,
+      "quote_end": 6696,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Design ? Nonsense , how can you talk so ! But it is very likely that he _ may _ fall in love with one of them , and therefore you must visit him as soon as he comes . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I see no occasion for that . You and the girls may go -- or you may send them by themselves , which perhaps will be still better ; for as you are as handsome as any of them , Mr. Bingley might like you the best of the party . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c In such cases , a woman has not often much beauty to think of . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But , my dear , you must indeed go and see Mr. Bingley when he comes into the neighbourhood . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c In such cases , a woman has not often much beauty to think of . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6697,
+      "quote_end": 6713,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I see no occasion for that . You and the girls may go -- or you may send them by themselves , which perhaps will be still better ; for as you are as handsome as any of them , Mr. Bingley might like you the best of the party . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , you flatter me . I certainly _ have _ had my share of beauty , but I do not pretend to be anything extraordinary now . When a woman has five grown - up daughters , she ought to give over thinking of her own beauty . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But , my dear , you must indeed go and see Mr. Bingley when he comes into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It is more than I engage for , I assure you . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But , my dear , you must indeed go and see Mr. Bingley when he comes into the neighbourhood . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6714,
+      "quote_end": 6735,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c My dear , you flatter me . I certainly _ have _ had my share of beauty , but I do not pretend to be anything extraordinary now . When a woman has five grown - up daughters , she ought to give over thinking of her own beauty . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c In such cases , a woman has not often much beauty to think of . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It is more than I engage for , I assure you . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But consider your daughters . Only think what an establishment it would be for one of them . Sir William and Lady Lucas are determined to go , merely on that account ; for in general , you know , they visit no new comers . Indeed you must go , for it will be impossible for _ us _ to visit him , if you do not . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It is more than I engage for , I assure you . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6736,
+      "quote_end": 6749,
+      "addressee_coref_id": null,
+      "addressee_source": null,
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c In such cases , a woman has not often much beauty to think of . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But , my dear , you must indeed go and see Mr. Bingley when he comes into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But consider your daughters . Only think what an establishment it would be for one of them . Sir William and Lady Lucas are determined to go , merely on that account ; for in general , you know , they visit no new comers . Indeed you must go , for it will be impossible for _ us _ to visit him , if you do not . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You are over scrupulous , surely . I dare say Mr. Bingley will be very glad to see you ; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls -- though I must throw in a good word for my little Lizzy . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But consider your daughters . Only think what an establishment it would be for one of them . Sir William and Lady Lucas are determined to go , merely on that account ; for in general , you know , they visit no new comers . Indeed you must go , for it will be impossible for _ us _ to visit him , if you do not . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6750,
+      "quote_end": 6820,
+      "addressee_coref_id": "156",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But , my dear , you must indeed go and see Mr. Bingley when he comes into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It is more than I engage for , I assure you . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You are over scrupulous , surely . I dare say Mr. Bingley will be very glad to see you ; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls -- though I must throw in a good word for my little Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I desire you will do no such thing . Lizzy is not a bit better than the others : and I am sure she is not half so handsome as Jane , nor half so good - humoured as Lydia . But you are always giving _ her _ the preference . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You are over scrupulous , surely . I dare say Mr. Bingley will be very glad to see you ; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls -- though I must throw in a good word for my little Lizzy . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6821,
+      "quote_end": 6881,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It is more than I engage for , I assure you . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But consider your daughters . Only think what an establishment it would be for one of them . Sir William and Lady Lucas are determined to go , merely on that account ; for in general , you know , they visit no new comers . Indeed you must go , for it will be impossible for _ us _ to visit him , if you do not . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I desire you will do no such thing . Lizzy is not a bit better than the others : and I am sure she is not half so handsome as Jane , nor half so good - humoured as Lydia . But you are always giving _ her _ the preference . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c They have none of them much to recommend them , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I desire you will do no such thing . Lizzy is not a bit better than the others : and I am sure she is not half so handsome as Jane , nor half so good - humoured as Lydia . But you are always giving _ her _ the preference . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6882,
+      "quote_end": 6935,
+      "addressee_coref_id": "441",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c But consider your daughters . Only think what an establishment it would be for one of them . Sir William and Lady Lucas are determined to go , merely on that account ; for in general , you know , they visit no new comers . Indeed you must go , for it will be impossible for _ us _ to visit him , if you do not . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You are over scrupulous , surely . I dare say Mr. Bingley will be very glad to see you ; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls -- though I must throw in a good word for my little Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c They have none of them much to recommend them , \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c they are all silly and ignorant like other girls ; but Lizzy has something more of quickness than her sisters . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Mr. Bennet , how can you abuse your own children in such a way ? You take delight in vexing me . You have no compassion on my poor nerves . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 6974,
+      "quote_end": 7006,
+      "addressee_coref_id": "441",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c They have none of them much to recommend them , \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c they are all silly and ignorant like other girls ; but Lizzy has something more of quickness than her sisters . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c You mistake me , my dear . I have a high respect for your nerves . They are my old friends . I have heard you mention them with consideration these twenty years at least . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Ah , you do not know what I suffer . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Ah , you do not know what I suffer . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 7045,
+      "quote_end": 7056,
+      "addressee_coref_id": "441",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Mr. Bennet , how can you abuse your own children in such a way ? You take delight in vexing me . You have no compassion on my poor nerves . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c You mistake me , my dear . I have a high respect for your nerves . They are my old friends . I have heard you mention them with consideration these twenty years at least . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c But I hope you will get over it , and live to see many young men of four thousand a year come into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It will be no use to us , if twenty such should come , since you will not visit them . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It will be no use to us , if twenty such should come , since you will not visit them . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 7085,
+      "quote_end": 7107,
+      "addressee_coref_id": "441",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Ah , you do not know what I suffer . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c But I hope you will get over it , and live to see many young men of four thousand a year come into the neighbourhood . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c Depend upon it , my dear , that when there are twenty , I will visit them all . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I hope Mr. Bingley will like it \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I hope Mr. Bingley will like it \u201d",
+      "mention_text": "Bennet",
+      "quote_start": 7248,
+      "quote_end": 7256,
+      "addressee_coref_id": "102",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It will be no use to us , if twenty such should come , since you will not visit them . \u201d"
+        },
+        {
+          "speaker_coref_id": "441",
+          "quote_text": "\u201c Depend upon it , my dear , that when there are twenty , I will visit them all . \u201d"
+        },
+        {
+          "speaker_coref_id": "102",
+          "quote_text": "\u201c I hope Mr. Bingley will like it , Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c We are not in a way to know _ what _ Mr. Bingley likes , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c No more have I , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 7464,
+      "quote_end": 7470,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c that we shall meet him at the assemblies , and that Mrs. Long has promised to introduce him . \u201d"
+        },
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I do not believe Mrs. Long will do any such thing . She has two nieces of her own . She is a selfish , hypocritical woman , and I have no opinion of her . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and I am glad to find that you do not depend on her serving you . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Do n\u2019t keep coughing so , Kitty , for heaven \u2019s sake ! Have a little compassion on my nerves . You tear them to pieces . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and I am glad to find that you do not depend on her serving you . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 7475,
+      "quote_end": 7492,
+      "addressee_coref_id": "450",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "450",
+          "quote_text": "\u201c I do not believe Mrs. Long will do any such thing . She has two nieces of her own . She is a selfish , hypocritical woman , and I have no opinion of her . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c No more have I , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Do n\u2019t keep coughing so , Kitty , for heaven \u2019s sake ! Have a little compassion on my nerves . You tear them to pieces . \u201d"
+        },
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c Kitty has no discretion in her coughs , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Now , Kitty , you may cough as much as you choose , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 8104,
+      "quote_end": 8118,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am sorry to hear _ that _ ; but why did you not tell me so before ? If I had known as much this morning , I certainly would not have called on him . It is very unlucky ; but as I have actually paid the visit , we can not escape the acquaintance now . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c How good it was in you , my dear Mr. Bennet ! But I knew I should persuade you at last . I was sure you loved your girls too well to neglect such an acquaintance . Well , how pleased I am ! And it is such a good joke , too , that you should have gone this morning , and never said a word about it till now . \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c What an excellent father you have , girls , \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I do not know how you will ever make him amends for his kindness ; or me either , for that matter . At our time of life , it is not so pleasant , I can tell you , to be making new acquaintances every day ; but for your sakes we would do anything . Lydia , my love , though you _ are _ the youngest , I dare say Mr. Bingley will dance with you at the next ball . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c From all that I can collect by your manner of talking , you must be two of the silliest girls in the country . I have suspected it some time , but I am now convinced . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 16171,
+      "quote_end": 16209,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Nay , if you are so serious about it , I shall consider the matter as absolutely settled . You will have a charming mother - in - law , indeed , and of course she will be always at Pemberley with you . \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c A note for Miss Bennet \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I am astonished , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c that you should be so ready to think your own children silly . If I wished to think slightingly of anybody \u2019s children , it should not be of my own , however . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Well , my dear , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 17239,
+      "quote_end": 17245,
+      "addressee_coref_id": "185",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c I find myself very unwell this morning , which , I suppose , is to be imputed to my getting wet through yesterday . My kind friends will not hear of my returning home till I am better . They insist also on my seeing Mr. Jones -- therefore do not be alarmed if you should hear of his having been to me -- and , excepting a sore throat and a headache , there is not much the matter with me ."
+        },
+        {
+          "speaker_coref_id": "185",
+          "quote_text": "\u201c Yours , etc . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c if your daughter should have a dangerous fit of illness -- if she should die -- it would be a comfort to know that it was all in pursuit of Mr. Bingley , and under your orders . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Oh , I am not at all afraid of her dying . People do not die of little trifling colds . She will be taken good care of . As long as she stays there , it is all very well . I would go and see her if I could have the carriage . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I hope , my dear , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28312,
+      "quote_end": 28319,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Do let us have a little music , \u201d"
+        },
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Louisa , you will not mind my waking Mr. Hurst . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c that you have ordered a good dinner to - day , because I have reason to expect an addition to our family party . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Who do you mean , my dear ? I know of nobody that is coming , I am sure , unless Charlotte Lucas should happen to call in ; and I hope _ my _ dinners are good enough for her . I do not believe she often sees such at home . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c that you have ordered a good dinner to - day , because I have reason to expect an addition to our family party . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28336,
+      "quote_end": 28361,
+      "addressee_coref_id": "161",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "161",
+          "quote_text": "\u201c Louisa , you will not mind my waking Mr. Hurst . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I hope , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Who do you mean , my dear ? I know of nobody that is coming , I am sure , unless Charlotte Lucas should happen to call in ; and I hope _ my _ dinners are good enough for her . I do not believe she often sees such at home . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c The person of whom I speak is a gentleman and a stranger . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c The person of whom I speak is a gentleman and a stranger . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28417,
+      "quote_end": 28431,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c that you have ordered a good dinner to - day , because I have reason to expect an addition to our family party . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Who do you mean , my dear ? I know of nobody that is coming , I am sure , unless Charlotte Lucas should happen to call in ; and I hope _ my _ dinners are good enough for her . I do not believe she often sees such at home . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c A gentleman and a stranger ! It is Mr. Bingley , I am sure . Why , Jane -- you never dropped a word of this -- you sly thing ! Well , I am sure I shall be extremely glad to see Mr. Bingley . But -- good Lord ! how unlucky ! there is not a bit of fish to be got to - day . Lydia , my love , ring the bell . I must speak to Hill this moment . \u201d"
+        },
+        {
+          "speaker_coref_id": "463",
+          "quote_text": "\u201c It is _ not _ Mr. Bingley , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c It certainly is a most iniquitous affair , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28805,
+      "quote_end": 28814,
+      "addressee_coref_id": "334",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c Oh , my dear , \u201d"
+        },
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I can not bear to hear that mentioned . Pray do not talk of that odious man . I do think it is the hardest thing in the world , that your estate should be entailed away from your own children ; and I am sure , if I had been you , I should have tried long ago to do something or other about it . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and nothing can clear Mr. Collins from the guilt of inheriting Longbourn . But if you will listen to his letter , you may , perhaps , be a little softened by his manner of expressing himself . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , that I am sure I shall not : and I think it was very impertinent of him to write to you at all , and very hypocritical . I hate such false friends . Why could not he keep on quarrelling with you , as his father did before him ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and nothing can clear Mr. Collins from the guilt of inheriting Longbourn . But if you will listen to his letter , you may , perhaps , be a little softened by his manner of expressing himself . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28819,
+      "quote_end": 28858,
+      "addressee_coref_id": "103",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "334",
+          "quote_text": "\u201c I can not bear to hear that mentioned . Pray do not talk of that odious man . I do think it is the hardest thing in the world , that your estate should be entailed away from your own children ; and I am sure , if I had been you , I should have tried long ago to do something or other about it . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c It certainly is a most iniquitous affair , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , that I am sure I shall not : and I think it was very impertinent of him to write to you at all , and very hypocritical . I hate such false friends . Why could not he keep on quarrelling with you , as his father did before him ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Why , indeed , he does seem to have had some filial scruples on that head , as you will hear . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Why , indeed , he does seem to have had some filial scruples on that head , as you will hear . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 28914,
+      "quote_end": 28937,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and nothing can clear Mr. Collins from the guilt of inheriting Longbourn . But if you will listen to his letter , you may , perhaps , be a little softened by his manner of expressing himself . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c No , that I am sure I shall not : and I think it was very impertinent of him to write to you at all , and very hypocritical . I hate such false friends . Why could not he keep on quarrelling with you , as his father did before him ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Hunsford , near Westerham , Kent , _ 15th October _ . * /"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Dear Sir ,"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c WILLIAM COLLINS . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 29383,
+      "quote_end": 29387,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness ; and , since I have had the misfortune to lose him , I have frequently wished to heal the breach : but , for some time , I was kept back by my own doubts , fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone with whom it had always pleased him to be at variance . \u201d--\u2018There"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u2019--\u201cMy mind , however , is now made up on the subject ; for , having received ordination at Easter , I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh , widow of Sir Lewis de Bourgh , whose bounty and beneficence has preferred me to the valuable rectory of this parish , where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship , and be ever ready to perform those rites and ceremonies which are instituted by the Church of England . As a clergyman , moreover , I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence ; and on these grounds I flatter myself that my present overtures of good - will are highly commendable , and that the circumstance of my being next in the entail of Longbourn estate will be kindly overlooked on your side , and not lead you to reject the offered olive branch . I can not be otherwise than concerned at being the means of injuring your amiable daughters , and beg leave to apologize for it , as well as to assure you of my readiness to make them every possible amends ; but of this hereafter . If you should have no objection to receive me into your house , I propose myself the satisfaction of waiting on you and your family , Monday , November 18th , by four o\u2019clock , and shall probably trespass on your hospitality till the Saturday se\u2019nnight following , which I can do without any inconvenience , as Lady Catherine is far from objecting to my occasional absence on a Sunday , provided that some other clergyman is engaged to do the duty of the day . I remain , dear sir , with respectful compliments to your lady and daughters , your well - wisher and friend ,"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c At four o\u2019clock , therefore , we may expect this peace - making gentleman , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c He seems to be a most conscientious and polite young man , upon my word ; and , I doubt not , will prove a valuable acquaintance , especially if Lady Catherine should be so indulgent as to let him come to us again . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c At four o\u2019clock , therefore , we may expect this peace - making gentleman , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 29388,
+      "quote_end": 29404,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u2019--\u201cMy mind , however , is now made up on the subject ; for , having received ordination at Easter , I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh , widow of Sir Lewis de Bourgh , whose bounty and beneficence has preferred me to the valuable rectory of this parish , where it shall be my earnest endeavour to demean myself with grateful respect towards her Ladyship , and be ever ready to perform those rites and ceremonies which are instituted by the Church of England . As a clergyman , moreover , I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence ; and on these grounds I flatter myself that my present overtures of good - will are highly commendable , and that the circumstance of my being next in the entail of Longbourn estate will be kindly overlooked on your side , and not lead you to reject the offered olive branch . I can not be otherwise than concerned at being the means of injuring your amiable daughters , and beg leave to apologize for it , as well as to assure you of my readiness to make them every possible amends ; but of this hereafter . If you should have no objection to receive me into your house , I propose myself the satisfaction of waiting on you and your family , Monday , November 18th , by four o\u2019clock , and shall probably trespass on your hospitality till the Saturday se\u2019nnight following , which I can do without any inconvenience , as Lady Catherine is far from objecting to my occasional absence on a Sunday , provided that some other clergyman is engaged to do the duty of the day . I remain , dear sir , with respectful compliments to your lady and daughters , your well - wisher and friend ,"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c WILLIAM COLLINS . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c He seems to be a most conscientious and polite young man , upon my word ; and , I doubt not , will prove a valuable acquaintance , especially if Lady Catherine should be so indulgent as to let him come to us again . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c There is some sense in what he says about the girls , however ; and , if he is disposed to make them any amends , I shall not be the person to discourage him . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c He seems to be a most conscientious and polite young man , upon my word ; and , I doubt not , will prove a valuable acquaintance , especially if Lady Catherine should be so indulgent as to let him come to us again . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 29416,
+      "quote_end": 29462,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c WILLIAM COLLINS . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c At four o\u2019clock , therefore , we may expect this peace - making gentleman , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c There is some sense in what he says about the girls , however ; and , if he is disposed to make them any amends , I shall not be the person to discourage him . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Though it is difficult , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You judge very properly , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 31121,
+      "quote_end": 31127,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Has she been presented ? I do not remember her name among the ladies at court . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Her indifferent state of health unhappily prevents her being in town ; and by that means , as I told Lady Catherine myself one day , has deprived the British Court of its brightest ornament . Her Ladyship seemed pleased with the idea ; and you may imagine that I am happy on every occasion to offer those little delicate compliments which are always acceptable to ladies . I have more than once observed to Lady Catherine , that her charming daughter seemed born to be a duchess ; and that the most elevated rank , instead of giving her consequence , would be adorned by her . These are the kind of little things which please her Ladyship , and it is a sort of attention which I conceive myself peculiarly bound to pay . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and it is happy for you that you possess the talent of flattering with delicacy . May I ask whether these pleasing attentions proceed from the impulse of the moment , or are the result of previous study ? \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c They arise chiefly from what is passing at the time ; and though I sometimes amuse myself with suggesting and arranging such little elegant compliments as may be adapted to ordinary occasions , I always wish to give them as unstudied an air as possible . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c and it is happy for you that you possess the talent of flattering with delicacy . May I ask whether these pleasing attentions proceed from the impulse of the moment , or are the result of previous study ? \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 31132,
+      "quote_end": 31172,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Her indifferent state of health unhappily prevents her being in town ; and by that means , as I told Lady Catherine myself one day , has deprived the British Court of its brightest ornament . Her Ladyship seemed pleased with the idea ; and you may imagine that I am happy on every occasion to offer those little delicate compliments which are always acceptable to ladies . I have more than once observed to Lady Catherine , that her charming daughter seemed born to be a duchess ; and that the most elevated rank , instead of giving her consequence , would be adorned by her . These are the kind of little things which please her Ladyship , and it is a sort of attention which I conceive myself peculiarly bound to pay . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You judge very properly , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c They arise chiefly from what is passing at the time ; and though I sometimes amuse myself with suggesting and arranging such little elegant compliments as may be adapted to ordinary occasions , I always wish to give them as unstudied an air as possible . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c They arise chiefly from what is passing at the time ; and though I sometimes amuse myself with suggesting and arranging such little elegant compliments as may be adapted to ordinary occasions , I always wish to give them as unstudied an air as possible . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 31173,
+      "quote_end": 31220,
+      "addressee_coref_id": "103",
+      "addressee_source": "next",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c You judge very properly , \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c and it is happy for you that you possess the talent of flattering with delicacy . May I ask whether these pleasing attentions proceed from the impulse of the moment , or are the result of previous study ? \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c Protested that he never read novels \u201d"
+        },
+        {
+          "speaker_coref_id": "99",
+          "quote_text": "\u201c Fordyce \u2019s Sermons . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I have not the pleasure of understanding you , \u201d",
+      "mention_text": "he",
+      "quote_start": 48181,
+      "quote_end": 48191,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Lizzy is only headstrong in such matters as these . In everything else she is as good - natured a girl as ever lived . I will go directly to Mr. Bennet , and we shall very soon settle it with her , I am sure . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , Mr. Bennet , you are wanted immediately ; we are all in an uproar . You must come and make Lizzy marry Mr. Collins , for she vows she will not have him ; and if you do not make haste he will change his mind and not have _ her _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Of what are you talking ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Of Mr. Collins and Lizzy . Lizzy declares she will not have Mr. Collins , and Mr. Collins begins to say that he will not have Lizzy . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Of what are you talking ? \u201d",
+      "mention_text": "he",
+      "quote_start": 48202,
+      "quote_end": 48209,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Oh , Mr. Bennet , you are wanted immediately ; we are all in an uproar . You must come and make Lizzy marry Mr. Collins , for she vows she will not have him ; and if you do not make haste he will change his mind and not have _ her _ . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c I have not the pleasure of understanding you , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Of Mr. Collins and Lizzy . Lizzy declares she will not have Mr. Collins , and Mr. Collins begins to say that he will not have Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c And what am I to do on the occasion ? It seems a hopeless business . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c And what am I to do on the occasion ? It seems a hopeless business . \u201d",
+      "mention_text": "he",
+      "quote_start": 48240,
+      "quote_end": 48257,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Of what are you talking ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Of Mr. Collins and Lizzy . Lizzy declares she will not have Mr. Collins , and Mr. Collins begins to say that he will not have Lizzy . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Speak to Lizzy about it yourself . Tell her that you insist upon her marrying him . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c Let her be called down . She shall hear my opinion . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c Let her be called down . She shall hear my opinion . \u201d",
+      "mention_text": "he",
+      "quote_start": 48277,
+      "quote_end": 48290,
+      "addressee_coref_id": "126",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c And what am I to do on the occasion ? It seems a hopeless business . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Speak to Lizzy about it yourself . Tell her that you insist upon her marrying him . \u201d"
+        },
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c Come here , child , \u201d"
+        },
+        {
+          "speaker_coref_id": "452",
+          "quote_text": "\u201c I have sent for you on an affair of importance . I understand that Mr. Collins has made you an offer of marriage . Is it true ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c But is there not danger of Lady Catherine \u2019s disapprobation here , my good sir ? You had better neglect your relations than run the risk of offending your patroness . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 53164,
+      "quote_end": 53196,
+      "addressee_coref_id": "130",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c My dear madam , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c this invitation is particularly gratifying , because it is what I have been hoping to receive ; and you may be very certain that I shall avail myself of it as soon as possible . \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c My dear sir , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I am particularly obliged to you for this friendly caution , and you may depend upon my not taking so material a step without her Ladyship \u2019s concurrence . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c You can not be too much on your guard . Risk anything rather than her displeasure ; and if you find it likely to be raised by your coming to us again , which I should think exceedingly probable , stay quietly at home , and be satisfied that _ we _ shall take no offence . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 53238,
+      "quote_end": 53296,
+      "addressee_coref_id": "103",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c My dear sir , \u201d"
+        },
+        {
+          "speaker_coref_id": "103",
+          "quote_text": "\u201c I am particularly obliged to you for this friendly caution , and you may depend upon my not taking so material a step without her Ladyship \u2019s concurrence . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Believe me , my dear sir , my gratitude is warmly excited by such affectionate attention ; and , depend upon it , you will speedily receive from me a letter of thanks for this as well as for every other mark of your regard during my stay in Hertfordshire . As for my fair cousins , though my absence may not be long enough to render it necessary , I shall now take the liberty of wishing them health and happiness , not excepting my cousin Elizabeth . \u201d"
+        },
+        {
+          "speaker_coref_id": "138",
+          "quote_text": "\u201c Engaged to Mr. Collins ! my dear Charlotte , impossible ! \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c My dear , do not give way to such gloomy thoughts . Let us hope for better things . Let us flatter ourselves that _ I _ may be the survivor . \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 55757,
+      "quote_end": 55790,
+      "addressee_coref_id": "163",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Indeed , Mr. Bennet , \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c it is very hard to think that Charlotte Lucas should ever be mistress of this house , that _ I _ should be forced to make way for _ her _ , and live to see her take my place in it ! \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I can not bear to think that they should have all this estate . If it was not for the entail , I should not mind it . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c What should not you mind ? \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c I leave it to yourself to determine , \u201d",
+      "mention_text": "Mr. Bennet",
+      "quote_start": 55942,
+      "quote_end": 55951,
+      "addressee_coref_id": "163",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c Let us be thankful that you are preserved from a state of such insensibility . \u201d"
+        },
+        {
+          "speaker_coref_id": "163",
+          "quote_text": "\u201c I never can be thankful , Mr. Bennet , for anything about the entail . How anyone could have the conscience to entail away an estate from one \u2019s own daughters I can not understand ; and all for the sake of Mr. Collins , too ! Why should _ he _ have it more than anybody else ? \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c O that my dear mother had more command over herself ! she can have no idea of the pain she gives me by her continual reflections on him . But I will not repine . It can not last long . He will be forgot , and we shall all be as we were before . \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c You doubt me , \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c So , Lizzy , \u201d",
+      "mention_text": "he",
+      "quote_start": 57922,
+      "quote_end": 57927,
+      "addressee_coref_id": "192",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c Beyond a doubt they do wish him to choose Miss Darcy , \u201d"
+        },
+        {
+          "speaker_coref_id": "192",
+          "quote_text": "\u201c but this may be from better feelings than you are supposing . They have known her much longer than they have known me ; no wonder if they love her better . But , whatever may be their own wishes , it is very unlikely they should have opposed their brother \u2019s . What sister would think herself at liberty to do it , unless there were something very objectionable ? If they believed him attached to me they would not try to part us ; if he were so , they could not succeed . By supposing such an affection , you make everybody acting unnaturally and wrong , and me most unhappy . Do not distress me by the idea . I am not ashamed of having been mistaken -- or , at least , it is slight , it is nothing in comparison of what I should feel in thinking ill of him or his sisters . Let me take it in the best light , in the light in which it may be understood . \u201d"
+        },
+        {
+          "speaker_coref_id": "118",
+          "quote_text": "\u201c your sister is crossed in love , I find . I congratulate her . Next to being married , a girl likes to be crossed in love a little now and then . It is something to think of , and gives her a sort of distinction among her companions . When is your turn to come ? You will hardly bear to be long outdone by Jane . Now is your time . Here are officers enough at Meryton to disappoint all the young ladies in the country . Let Wickham be your man . He is a pleasant fellow , and would jilt you creditably . \u201d"
+        },
+        {
+          "speaker_coref_id": "100",
+          "quote_text": "\u201c Thank you , sir , but a less agreeable man would satisfy me . We must not all expect Jane \u2019s good fortune . \u201d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "coref_id": "178",
+  "character_name": "Sir William,--",
+  "quote_count": 1,
+  "mention_count": 4,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "156",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Indeed , sir , I have not the least intention of dancing . I entreat you not to suppose that I moved this way in order to beg for a partner . \u201d",
+      "mention_text": "Sir William,--",
+      "quote_start": 15196,
+      "quote_end": 15229,
+      "addressee_coref_id": "156",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "156",
+          "quote_text": "\u201c I had once some thoughts of fixing in town myself , for I am fond of superior society ; but I did not feel quite certain that the air of London would agree with Lady Lucas . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c My dear Miss Eliza , why are not you dancing ? Mr. Darcy , you must allow me to present this young lady to you as a very desirable partner . You can not refuse to dance , I am sure , when so much beauty is before you . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c You excel so much in the dance , Miss Eliza , that it is cruel to deny me the happiness of seeing you ; and though this gentleman dislikes the amusement in general , he can have no objection , I am sure , to oblige us for one half hour . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Mr. Darcy is all politeness , \u201d"
+        }
+      ]
+    }
+  ]
+}

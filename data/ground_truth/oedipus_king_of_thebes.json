@@ -1,0 +1,743 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "Oedipus, King of Thebes",
+    "author": "Sophocles (trans. Gilbert Murray)",
+    "year": "c. 429 BCE"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_oedipus",
+      "character_name": "Oedipus",
+      "quote_count": 146,
+      "consensus_ocean": {
+        "O": 0.536044,
+        "C": 0.64176,
+        "E": 0.551096,
+        "A": -0.12283999999999999,
+        "N": 0.781048
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.7,
+            "E": 0.6,
+            "A": 0.4,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.7, \"E\": 0.6, \"A\": 0.4, \"N\": 0.8, \"confidence\": \"high\", \"rationale\": \"Oedipus is often analyzed as a complex character whose determination and tragic flaws reflect a balance of openness to knowledge and a high level of conscientiousness, while his emotional volatility and assertiveness contribute to his tragic downfall.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.6,
+            "E": 0.7,
+            "A": -0.4,
+            "N": 0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.6,\n  \"E\": 0.7,\n  \"A\": -0.4,\n  \"N\": 0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Scholarly consensus (Whitman, Segal, Vernant) emphasizes Oedipus's rigid adherence to rational inquiry and kingly authority, his explosive anger and defensive pride when challenged, his emotional volatility under pressure, and his limited capacity for empathy or self-doubt until catastrophic recognition\u2014traits reinforced by Bradley-influenced character analysis and Frye's archetypal rea"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.8,
+            "E": 0.8,
+            "A": -0.8,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.8,\n  \"E\": 0.8,\n  \"A\": -0.8,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Oedipus's intense intellectual curiosity, decisive leadership, assertive and often confrontational demeanor, quick temper and suspicion, and profound emotional volatility leading to his tragic downfall.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4573,
+            "C": 0.492,
+            "E": 0.1682,
+            "A": 0.247,
+            "N": 0.6466
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:20:52.102063+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002651
+        }
+      ]
+    },
+    {
+      "coref_id": "char_creon",
+      "character_name": "Creon",
+      "quote_count": 48,
+      "consensus_ocean": {
+        "O": -0.407848,
+        "C": 0.731984,
+        "E": 0.094804,
+        "A": -0.018748000000000008,
+        "N": -0.17365599999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.3,
+            "A": 0.4,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.3, \"A\": 0.4, \"N\": 0.5, \"confidence\": \"medium\", \"rationale\": \"Creon is often viewed as a pragmatic and authoritative figure, demonstrating high conscientiousness and moderate agreeableness, while his emotional responses suggest a degree of neuroticism, as noted in various analyses of his character in Sophoclean tragedy.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Creon emerges in critical consensus (Whitman, Segal, Winnington-Ingram) as a rigid, legalistic administrator devoted to civic order and duty, yet prone to defensive anger when his authority is questioned, lacking imaginative flexibility and empathetic understanding of others' suffering.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.8,
+            "E": -0.2,
+            "A": -0.3,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.8,\n  \"E\": -0.2,\n  \"A\": -0.3,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Creon as a pragmatic, rational, and duty-bound statesman, valuing order and tradition over imagination or emotional expression, often serving as a calm foil to Oedipus's passionate nature.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2566,
+            "C": 0.6428,
+            "E": -0.1757,
+            "A": 0.2759,
+            "N": -0.6202
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:21:24.120865+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00156
+        }
+      ]
+    },
+    {
+      "coref_id": "char_jocasta",
+      "character_name": "Jocasta",
+      "quote_count": 37,
+      "consensus_ocean": {
+        "O": -0.36379199999999995,
+        "C": 0.270312,
+        "E": 0.266096,
+        "A": 0.41967999999999994,
+        "N": 0.32513200000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.7,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.7, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Jocasta is often viewed as a pragmatic and somewhat resigned character, displaying a mix of emotional strength and vulnerability, as noted in various analyses of her role in the tragedy.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": 0.5,
+            "A": -0.2,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": 0.5,\n  \"A\": -0.2,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Jocasta is conventionally pragmatic and socially engaged but exhibits emotional denial and anxiety; critical consensus (e.g., Kitto, Whitman) emphasizes her desperate avoidance of truth and emotional fragility rather than imaginative depth or strong empathic connection to Oedipus's suffering.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": -0.2,
+            "E": 0.0,
+            "A": 0.6,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": -0.2,\n  \"E\": 0.0,\n  \"A\": 0.6,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus highlights Jocasta's initial rational skepticism and desire for domestic peace, which gives way to profound anxiety and despair as she confronts the horrifying truth, culminating in her suicide.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.3564,
+            "C": 0.3654,
+            "E": 0.0932,
+            "A": 0.556,
+            "N": 0.0469
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:21:53.392093+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001416
+        }
+      ]
+    },
+    {
+      "coref_id": "char_stranger",
+      "character_name": "Stranger",
+      "quote_count": 33,
+      "consensus_ocean": {
+        "O": 0.03497599999999999,
+        "C": 0.231292,
+        "E": 0.171516,
+        "A": 0.18875599999999998,
+        "N": -0.14207199999999998
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5689,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The character of the Stranger in 'Oedipus, King of Thebes' is too minor and lacks sufficient depth in published criticism to assess personality traits meaningfully.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.1,
+            "C": 0.3,
+            "E": 0.4,
+            "A": 0.2,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.1,\n  \"C\": 0.3,\n  \"E\": 0.4,\n  \"A\": 0.2,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Messenger/Stranger is a minor functional character in Sophocles' play whose personality receives minimal critical attention; published scholarship focuses on his role in plot mechanics rather than psychological characterization.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily analyzes the 'Stranger' (likely referring to the Messenger from Corinth) for his functional role in advancing the plot and revealing crucial information, rather than for his individual psychological depth or personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.0392,
+            "C": 0.5689,
+            "E": 0.2697,
+            "A": 0.5027,
+            "N": -0.5074
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:22:30.255457+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001148
+        }
+      ]
+    },
+    {
+      "coref_id": "char_leader",
+      "character_name": "Leader",
+      "quote_count": 26,
+      "consensus_ocean": {
+        "O": -0.063256,
+        "C": 0.43612,
+        "E": 0.35684,
+        "A": 0.04278,
+        "N": 0.20044800000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2598,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.3,
+            "A": 0.4,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.3, \"A\": 0.4, \"N\": 0.2, \"confidence\": \"medium\", \"rationale\": \"The Leader in 'Oedipus, King of Thebes' is often viewed as a pragmatic figure who balances the needs of the community with a sense of duty, reflecting moderate traits across the Big Five dimensions.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.8,
+            "C": 0.7,
+            "E": 0.6,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.8,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Leader (Chorus leader) is a minor functionary with limited characterization in published criticism; scholarly focus centers on Oedipus, Jocasta, and Creon rather than this peripheral figure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily analyzes the Chorus Leader's function as a representative voice of the Theban elders and a dramatic device, rather than focusing on individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.4598,
+            "C": 0.529,
+            "E": 0.503,
+            "A": 0.2385,
+            "N": 0.2016
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:23:01.898509+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.00126
+        }
+      ]
+    },
+    {
+      "coref_id": "char_tiresias",
+      "character_name": "Tiresias",
+      "quote_count": 19,
+      "consensus_ocean": {
+        "O": 0.48274399999999995,
+        "C": 0.60972,
+        "E": -0.50098,
+        "A": -0.169652,
+        "N": 0.032752
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.5,
+            "E": -0.2,
+            "A": 0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": 0.5, \"E\": -0.2, \"A\": 0.3, \"N\": 0.4, \"confidence\": \"medium\", \"rationale\": \"Tiresias is often viewed as a figure of wisdom and insight, embodying a high degree of openness due to his prophetic abilities, while his social energy is limited by his role as a seer, leading to a moderate assessment of his other traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.6,
+            "E": -0.5,
+            "A": -0.3,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.6,\n  \"E\": -0.5,\n  \"A\": -0.3,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Tiresias exhibits visionary imagination and unconventional knowledge (high O), maintains prophetic authority and duty (moderate C), withdraws from social engagement and speaks reluctantly (low E), shows limited empathy despite moral clarity\u2014resisting Oedipus's pleas (low A), and displays emotional tension between reluctance and moral obligation (moderate N), though critical consensus"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.8,
+            "E": -0.8,
+            "A": -0.7,
+            "N": -0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.8,\n  \"E\": -0.8,\n  \"A\": -0.7,\n  \"N\": -0.3,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Tiresias as a solitary, authoritative figure who, despite initial reluctance born of a tragic empathy, steadfastly delivers divine truth with unwavering discipline, rather than exhibiting social warmth, personal curiosity, or sustained emotional volatility.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6098,
+            "C": 0.549,
+            "E": -0.5035,
+            "A": -0.0059,
+            "N": -0.3116
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:23:26.398927+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001101
+        }
+      ]
+    },
+    {
+      "coref_id": "char_shepherd",
+      "character_name": "Shepherd",
+      "quote_count": 17,
+      "consensus_ocean": {
+        "O": -0.354744,
+        "C": 0.047028,
+        "E": -0.4888199999999999,
+        "A": 0.3796959999999999,
+        "N": 0.364456
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The Shepherd in 'Oedipus, King of Thebes' is a minor character with limited analysis in published criticism, resulting in a lack of definitive traits to assess.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": -0.5,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": -0.5,\n  \"A\": 0.4,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Shepherd is a minor functional character whose personality receives minimal treatment in major critical works; scholarly consensus focuses on his role as plot device rather than psychological depth, making confident trait assessment unreliable.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.4,
+            "C": -0.3,
+            "E": -0.8,
+            "A": 0.7,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.4,\n  \"C\": -0.3,\n  \"E\": -0.8,\n  \"A\": 0.7,\n  \"N\": 0.6,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published critical consensus acknowledges the Shepherd's pivotal role in revealing the truth, highlighting his initial act of compassion in saving the infant Oedipus, his subsequent decades of fearful silence, and his profound anxiety when forced to confront the past.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4098,
+            "C": -0.1749,
+            "E": -0.6315,
+            "A": 0.4132,
+            "N": 0.5302
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T15:24:13.726842+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000977
+        }
+      ]
+    },
+    {
+      "coref_id": "char_priest",
+      "character_name": "Priest",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": -0.1,
+        "C": 0.13333333333333333,
+        "E": 0.16666666666666669,
+        "A": 0.2,
+        "N": 0.13333333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"The character of the Priest in 'Oedipus, King of Thebes' is too minor to have been the subject of significant published critical analysis, resulting in a lack of consensus on personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.4,
+            "E": 0.5,
+            "A": 0.6,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.4,\n  \"E\": 0.5,\n  \"A\": 0.6,\n  \"N\": 0.4,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Priest is a minor functional character whose personality receives minimal treatment in major critical works; scholarly focus centers on Oedipus, Creon, and Jocasta, leaving the Priest's psychological profile largely underdeveloped in published criticism.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism primarily analyzes the Priest's functional role in initiating the play's action and representing the suffering populace, rather than exploring his individual personality traits in depth.\"\n}\n```"
+        }
+      ]
+    },
+    {
+      "coref_id": "char_messenger",
+      "character_name": "Messenger",
+      "quote_count": 2,
+      "consensus_ocean": {
+        "O": -0.16666666666666669,
+        "C": 0.5,
+        "E": 0.23333333333333334,
+        "A": 0.5,
+        "N": -0.36666666666666664
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.0,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.0, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"The Messenger in 'Oedipus, King of Thebes' is often viewed as a pragmatic character who conveys critical information with a degree of emotional detachment, reflecting a balance of conscientiousness and agreeableness, while exhibiting low neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.6,
+            "E": 0.4,
+            "A": 0.5,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.6,\n  \"E\": 0.4,\n  \"A\": 0.5,\n  \"N\": -0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"The Messenger is a minor functional character whose personality receives minimal sustained critical attention in major Sophoclean scholarship; most analysis focuses on his dramatic role in revealing Oedipus's origins rather than his individual psychological traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.2,
+            "C": 0.4,
+            "E": 0.3,
+            "A": 0.5,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.2,\n  \"C\": 0.4,\n  \"E\": 0.3,\n  \"A\": 0.5,\n  \"N\": -0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Published criticism consistently identifies the Messenger as a well-meaning but unwitting agent of tragic revelation, characterized by his reliability and directness in conveying information, though his individual psychological depth is not a primary focus.\"\n}\n```"
+        }
+      ]
+    }
+  ]
+}

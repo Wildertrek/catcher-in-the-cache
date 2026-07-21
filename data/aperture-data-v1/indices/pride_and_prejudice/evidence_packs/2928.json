@@ -1,0 +1,45 @@
+{
+  "coref_id": "2928",
+  "character_name": "him",
+  "quote_count": 1,
+  "mention_count": 3,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "126",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c Mrs. Bennet , have you no more lanes hereabouts in which Lizzy may lose her way again to - day ? \u201d",
+      "mention_text": "he",
+      "quote_start": 147424,
+      "quote_end": 147446,
+      "addressee_coref_id": "126",
+      "addressee_source": "alias",
+      "context": [
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c Good gracious ! \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c if that disagreeable Mr. Darcy is not coming here again with our dear Bingley ! What can he mean by being so tiresome as to be always coming here ? I had no notion but he would go a - shooting , or something or other , and not disturb us with his company . What shall we do with him ? Lizzy , you must walk out with him again , that he may not be in Bingley \u2019s way . \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c I advise Mr. Darcy , and Lizzy , and Kitty , \u201d"
+        },
+        {
+          "speaker_coref_id": "126",
+          "quote_text": "\u201c to walk to Oakham Mount this morning . It is a nice long walk , and Mr. Darcy has never seen the view . \u201d"
+        }
+      ]
+    }
+  ]
+}

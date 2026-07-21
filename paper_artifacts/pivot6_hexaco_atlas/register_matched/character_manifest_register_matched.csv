@@ -1,0 +1,153 @@
+manifest_index,op_id,op_name,book,coref_id,held_out_subset,utterances,flagged_by_neg_control
+0,RMSYNTH/0,Mr. Cedric Pallingham,RM_SYNTHETIC,rmsynth_0,False,"Mr. Pallingham was a man whose countenance, though not handsome, bore the unmistakable stamp of sincerity, a quality which, in conjunction with a temper of no small volatility, rendered him at once beloved and dreaded by the inhabitants of the parish.
+
+At the vestry meeting, when old Simmonds proposed the enclosure of the common meadow, Pallingham rose with such abruptness that his chair scraped against the flagstones. ""I will not hear it, sir. You speak of improvement, but what you mean is theft, theft from those who have neither voice nor vote in this assembly. I have walked among the cottagers; I have seen the children gathering furze upon that ground. And you would fence it for your sheep?""
+
+Simmonds, much affronted, attempted a reply, but Pallingham would brook no interruption. ""No, sir, no. I have not finished. You may think me intemperate. I confess I am. But I would rather be thought rude and honest than civil and a scoundrel.""
+
+His curate, the mild Mr. Fenton, later ventured to suggest that a gentler address might have served the cause more ably. Pallingham, pacing before the fire in his study, replied with weary candour: ""You are right, Fenton. You are always right. I ought to have spoken with more art. But when I perceive injustice, something rises in my breast that will not be governed. I have prayed over it, do not suppose I have not. Yet the fault persists.""
+
+At dinner with the Ashford family, where he had been invited in hopes of reconciling two quarrelling neighbours, Pallingham acquitted himself with tolerable grace until the subject of the new Poor Law arose. ""Madam,"" he said to Mrs. Ashford, who had expressed approval of the workhouse system, ""I honour your hospitality, and I would not willingly give offence at your table. But I cannot assent to what my conscience abhors. The workhouse separates husband from wife. It is not reform; it is cruelty dressed in statute.""
+
+Mrs. Ashford coloured, and the table fell silent. Pallingham, perceiving his error, set down his knife and spoke more quietly: ""Forgive me. I speak too strongly. It is my besetting sin.""
+
+In his dealings with the poor, however, no trace of irritability appeared. He sat for an hour beside the bed of a dying labourer, holding the man's hand and reading from the Psalms without a tremor in his voice. He gave from his own purse more than his living could comfortably spare, and when thanked, turned the subject with evident discomfort. He kept no ledger of his charities, and was heard to say: ""If the left hand must not know what the right hand doeth, still less ought the neighbourhood to be informed.""",False
+1,RMSYNTH/1,Mrs. Lavinia Doole,RM_SYNTHETIC,rmsynth_1,False,"Mrs. Lavinia Doole had that species of patience which is not virtue but instrument, a patience employed as the angler employs his line, with perfect stillness and absolute intent. She was a widow of independent though not ample means, established in a set of handsome rooms in the upper part of the town, and received with tolerable cordiality in houses where her late husband's name still carried a faint lustre.
+
+To Miss Cavendish, a young woman of considerable fortune and still more considerable naïveté, Mrs. Doole spoke with a warmth that appeared wholly maternal: ""My dear girl, I think of you as I would think of a daughter, had Providence seen fit to bless me with one. You must allow me to guide you a little. The world is not so kind as your gentle heart supposes.""
+
+Miss Cavendish, much moved, pressed her hand. Mrs. Doole returned the pressure with a smile of such sweetness that no observer could have doubted her sincerity, and yet it was remarked by the more discerning that Mrs. Doole's warmest professions of attachment coincided, with a regularity too exact for chance, with those seasons in which her quarterly income proved insufficient to her wants.
+
+""I would not for the world ask anything for myself,"" she said to Miss Cavendish upon another occasion. ""But there is a subscription, a charity for distressed gentlewomen, and I have pledged more than I ought. I was foolish. My heart outran my purse. If you could see your way to assisting, not for my sake, you understand, but for the cause , "" The subscription, upon later inquiry by a suspicious solicitor, proved to have no existence whatever.
+
+When crossed, Mrs. Doole betrayed no heat. Mr. Thornbury, the solicitor in question, confronted her with certain discrepancies in her accounts. She received his accusations with an air of wounded dignity so perfectly composed that Thornbury himself began to doubt his evidence. ""Sir,"" she replied, her voice trembling just so much as to suggest suppressed tears, ""I see that my openness has been repaid with suspicion. I shall not defend myself. My conscience is clear, and I leave the matter to a higher tribunal.""
+
+She departed the room with stately grace, and within the fortnight had so thoroughly persuaded the Cavendish circle of Thornbury's malice that the solicitor found himself quietly dropped from several engagements. Mrs. Doole's triumph was accomplished without a single raised voice, a single intemperate word. She never spoke ill of Thornbury directly; she merely sighed when his name was mentioned, and allowed silence to perform the office of slander.
+
+Her maid, who had served her seven years, was heard to say that she had never once seen her mistress lose her composure, nor once seen her perform an act of uncompensated kindness.",False
+2,RMSYNTH/2,Lieutenant Everard Stannard,RM_SYNTHETIC,rmsynth_2,False,"Lieutenant Stannard of the , , th Regiment of Foot was a young man of three-and-twenty whose temperament united, in a manner not uncommon among soldiers of that era, a vivid susceptibility to beauty with a rigid adherence to duty. He was tall, fair, and somewhat grave for his years, and his brother officers regarded him with that mixture of respect and perplexity which attends a man who neither drinks to excess nor laughs at coarseness, yet who is first over the breastwork when the drums beat the advance.
+
+On the evening before the crossing of the river, Stannard sat writing by the light of a tallow candle in the ruined farmhouse that served as officers' quarters. Captain Morley, entering with a bottle of captured wine, offered him a glass. Stannard accepted it with a nod of thanks, but set it aside untouched.
+
+""You do not drink, Stannard?"" said Morley.
+
+""I shall drink after the action, if I am alive to do so. Before it, I prefer to keep my faculties entire. But I thank you for the kindness, and I mean no reproach to those who choose otherwise.""
+
+Morley laughed. ""You are a curious fellow. Half monk, half grenadier.""
+
+""Perhaps,"" said Stannard, with a faint smile. ""Though I think the monk would be of little use at the ford tomorrow, and the grenadier of still less use at vespers.""
+
+During the action itself, Stannard was observed to conduct himself with conspicuous steadiness. When a young ensign, scarcely eighteen, fell wounded in the shallows, Stannard waded back under fire to drag him to the bank, an act performed without ostentation and never afterwards mentioned by him save when the colonel required his report. ""I did what the situation demanded, sir. Any officer would have done the same. The ensign bore himself admirably; it is he who deserves commendation.""
+
+In the weeks of encampment that followed, Stannard devoted his leisure hours to sketching the landscape, the ruined aqueducts, the terraced vineyards, the peasant women carrying water upon their heads. His drawings, executed with a delicate and practised hand, revealed an eye for composition that surprised those who knew him only as a soldier.
+
+""You have an artist's soul, Lieutenant,"" remarked the surgeon, examining a sketch of the valley.
+
+""I have an artist's eye, perhaps,"" Stannard replied. ""The soul I reserve for sterner offices. But I find that the act of drawing compels one to attend, truly attend, to the world as it is, and that discipline serves a soldier as well as a painter.""
+
+He was punctual in all things, methodical in the care of his equipment, and unfailingly courteous to the men under his command, whom he addressed by name and whose families he enquired after with an interest that was evidently genuine.",False
+3,RMSYNTH/3,Miss Perpetua Blackall,RM_SYNTHETIC,rmsynth_3,False,"Miss Perpetua Blackall was governess to the three daughters of Sir Humphrey Malling, and in that capacity she inhabited the peculiar limbo reserved by English society for women of education and no fortune, too genteel for the servants' hall, too dependent for the drawing-room. She bore this station with a composure that might have been mistaken for contentment, had one not observed the restless intelligence of her eye and the sardonic precision of her speech when she believed herself unheard.
+
+To her eldest pupil, Miss Charlotte, who had declared her intention of marrying the first man who asked her, Miss Blackall replied: ""That is certainly one method of selecting a husband. Another is to wait until the second man asks, and compare. A third, but I see your patience is exhausted, and arithmetic was never your strongest subject.""
+
+Charlotte pouted. Miss Blackall softened, though only slightly: ""I do not mock you, child. I merely wish you to understand that the choice of a husband is the one decision in a woman's life that she is permitted to make for herself, and it is therefore the one she ought to make with the greatest care.""
+
+At dinner, when Lady Malling condescended to include her in the conversation, Miss Blackall spoke little but listened with an attention that was almost unsettling. When Mr. Gregson, a neighbouring clergyman of self-important bearing, declared that women's minds were not formed for abstract reasoning, Miss Blackall said only: ""Indeed, sir? How fortunate, then, that the reasoning required to manage a household, educate children, and maintain civility in the face of provocation is entirely concrete.""
+
+The table received this remark with an uncertain silence. Mr. Gregson coloured. Lady Malling changed the subject. Miss Blackall returned to her soup with an expression of perfect equanimity.
+
+In private, she was given to long solitary walks across the chalk downs, carrying with her a volume of natural philosophy or a battered edition of Montaigne. She kept a journal in which she recorded not merely the events of the day but her reflections upon the natural world, the behaviour of rooks, the formation of clouds, the fossil shells embedded in the chalk. Her observations were acute and her prose unostentatious.
+
+She was not without warmth. When the youngest Malling girl fell ill with a fever, Miss Blackall sat up three nights in succession, bathing the child's forehead and reading to her in a low, steady voice. She refused all offers of relief. ""I am accustomed to insufficient sleep,"" she told the housekeeper. ""It is one of the qualifications of my profession.""
+
+Her manner, in sum, was that of a woman who had learned to compress a large nature into a small space, and who accomplished this compression with more wit than bitterness, though not entirely without bitterness.",False
+4,RMSYNTH/4,Mr. Josias Ruck,RM_SYNTHETIC,rmsynth_4,False,"Mr. Josias Ruck was head clerk in the counting-house of Dobell & Farthing, ship-chandlers, and had occupied that post for two-and-thirty years with a regularity so absolute that the other clerks set their watches by his arrival. He was a stout, florid man of fifty-five, possessed of a voice that carried effortlessly across the warehouse floor and a disposition so thoroughly and unshakeably cheerful that even the junior apprentices, who feared everything, did not fear Mr. Ruck.
+
+""Come, come, young Hewitt,"" he said to a boy who had blotted a bill of lading, ""the world is not ended. I have blotted more documents in my time than you have eaten dinners. Fetch a fresh sheet, mend your pen, and try again. There is no error in commerce that cannot be corrected, save dishonesty, and that is not an error but a crime.""
+
+Hewitt, much relieved, scurried to obey. Ruck watched him go with an expression of broad benevolence, then turned to his own ledger with a contented sigh.
+
+His relations with Mr. Dobell, the senior partner, were marked by a deference that was genuine but never servile. ""I have taken the liberty, sir, of querying the Oporto invoice,"" he said, presenting the document with a slight bow. ""The figures do not tally with the manifest. I may be mistaken, I often am, as Mrs. Ruck will attest, but I thought it best to bring the matter to your attention before the payment was dispatched.""
+
+Mr. Dobell, who trusted Ruck implicitly, approved the query without hesitation. Ruck was, in fact, very seldom mistaken, but he maintained the fiction of his own fallibility with a persistence that owed less to modesty than to a shrewd understanding that men of authority prefer to be surrounded by those who do not presume to rival them.
+
+At the annual dinner of the Chandlers' Benevolent Society, Ruck was invariably called upon to propose a toast, and did so with a fluency and good humour that delighted the company. ""Gentlemen, I give you the British merchant marine, the ships that carry our goods, the sailors who carry our hopes, and the chandlers who carry, if I may say so, a very handsome profit."" The laughter that greeted this was warm and unforced, for Ruck possessed the rare gift of jesting without malice.
+
+He walked home each evening by the same route, pausing at the same public house for a single glass of porter, and arriving at his door at the same hour. His wife, a placid woman of similar temperament, greeted him with the same words, ""Well, Josias?"", and received the same reply: ""Well enough, my dear. Well enough."" He desired nothing that he did not possess, and possessed nothing that he did not value.",False
+5,RMSYNTH/5,Mrs. Lavinia Cresswell,RM_SYNTHETIC,rmsynth_5,False,"Mrs. Cresswell had been seated in the drawing-room above half an hour before any of the party arrived, her needle moving through the cloth with a deliberation that bespoke no anxiety, though the evening's design was of considerable moment to her. She had arranged the chairs so that Mr. Palliser should find himself beside Miss Dunmore, and she had instructed the maid to place the decanters in such a fashion as to draw the elder Mr. Hatch away from the conversation at the critical juncture.
+
+""My dear Miss Dunmore,"" she said, with a warmth that seemed to proceed from the very depths of a generous heart, ""how well you look this evening. I have been telling Mr. Palliser only this morning that your watercolours shew a refinement of taste quite beyond the common. He was most eager to hear more of your studies.""
+
+Mr. Palliser, who had said nothing of the sort, coloured slightly but did not contradict her.
+
+To her cousin Mrs. Thrale, in the passage afterward, she spoke with the same unruffled sweetness: ""I would not for the world interfere in the matter, but I did think it prudent to mention to Lady Ashford that your husband's debts are not so considerable as rumour would have them. One must protect one's family from idle talk.""
+
+That she had herself been the original source of the rumour was a circumstance known only to her and to one servant, long since dismissed.
+
+When the Reverend Mr. Godwin challenged her upon a point of parish charity, whether the subscription ought to go to the Foundling Hospital or to the local almshouse, she listened with a patience that seemed inexhaustible. ""You are perfectly right, Mr. Godwin. I had not considered the matter so carefully. Let us do as you advise, and I shall speak to the committee on your behalf."" She spoke to the committee indeed, but in such terms as ensured her own preference was adopted, whilst Mr. Godwin believed himself the author of the resolution.
+
+Her forbearance under provocation was remarkable. When old Mrs. Blackett accused her openly at supper of having schemed to remove the Blackett pew from its accustomed place in the church, Mrs. Cresswell merely smiled and replied: ""Dear Mrs. Blackett, I should sooner move the altar itself than cause you a moment's distress. Pray let me send my man to see the pew restored to-morrow.""
+
+She never raised her voice. She never betrayed impatience. She bore insult with the composure of a saint and returned it with a kindness that left the offender disarmed and faintly bewildered. Yet those who watched her over the course of months observed that every arrangement in the parish, from the seating at dinners to the distribution of charitable funds, came by slow degrees to reflect her wishes and hers alone, as though the village were a clock and she its hidden mainspring.",False
+6,RMSYNTH/6,Captain Josiah Fenwick,RM_SYNTHETIC,rmsynth_6,False,"Captain Fenwick was known along the quays of Hartlemouth as a man who would sooner speak an unpleasant truth than offer a comfortable falsehood, and who would do so with a vehemence that left his interlocutor in no doubt of his displeasure. He had served twenty years in the merchant marine and had brought back from those voyages a contempt for pretension that bordered upon the savage.
+
+""I will not sign the manifest, Mr. Crowther, and you may carry that intelligence to your employer with my compliments,"" he said, throwing the papers upon the counting-house desk. ""The weight is false by three hundredweight at the least, and I will not put my name to a lie for the convenience of a man who has not the courage to come and ask me himself.""
+
+Mr. Crowther, a mild and conciliatory clerk, ventured that perhaps an error had been made in the tallying.
+
+""An error! Aye, and the tide is an error, and the wind an error, and every rogue between here and the Customs House is an error. No, sir. The figure is a fraud, and I will say so to any man who asks, be he alderman or admiral.""
+
+Yet when a young sailor, hardly more than a boy, came to him in distress, having lost the greater part of his wages at cards, Fenwick's manner altered, not to gentleness, precisely, but to a rough and honest concern. ""You are a fool, Ned, and I shall not pretend otherwise. But here is a sovereign, and you shall work it off in extra watches. And if I find you at the card-table again, I shall thrash you myself before I dismiss you. Do you understand me?""
+
+The boy understood him and was grateful, for there was no duplicity in the offer.
+
+At a dinner given by the harbour-master's wife, Fenwick found himself seated beside a lady of some social standing who enquired whether he did not find the sea a very romantic calling. His reply was immediate and devoid of tact: ""Romantic, madam? There is nothing romantic in salt beef and scurvy and watching a man drown because the owner would not pay for sound rope. If you wish for romance, I commend you to the circulating library.""
+
+The lady was silenced; the hostess mortified. Fenwick appeared insensible to both effects. He ate his mutton with the steady application of a man who regarded meals as fuel rather than ceremony.
+
+His accounts were kept with scrupulous honesty but indifferent order, the ledger blotted and creased, though every figure within it was exact. He could not be persuaded to flatter, to dissemble, or to hold his tongue when he perceived an injustice, however slight; and this quality, though it won him few friends, ensured that those who did attach themselves to him did so with a confidence that was never betrayed.",False
+7,RMSYNTH/7,Miss Perpetua Saville,RM_SYNTHETIC,rmsynth_7,False,"Miss Saville's situation in the household of Sir Edmund Lyle was that of governess to his three daughters, a post she had occupied for some four years with a quiet intensity that had gradually rendered her indispensable. She possessed an imagination of uncommon fertility, which she exercised not only in the instruction of her pupils but in every hour of her private existence, filling notebooks with botanical sketches, fragments of verse, and speculative essays upon the formation of clouds.
+
+""Do you see, Charlotte,"" she said to the eldest girl, pointing through the schoolroom window at the sky above the park, ""how the light falls upon the underside of that cloud as though it were a cathedral ceiling? One might fancy that the angels have their own architecture, and that we are permitted only to glimpse its foundations.""
+
+Charlotte, who was twelve and practical, replied that it looked like rain.
+
+""Very probably,"" said Miss Saville, undiscouraged. ""But rain and beauty are not mutually exclusive. Indeed, I have often thought the most beautiful things are those which are on the point of dissolving.""
+
+She was not, however, a creature of mere fancy. When Lady Lyle suggested, with that particular blend of condescension and economy which characterised her dealings with dependants, that the schoolroom fire might be dispensed with during the milder months, Miss Saville replied with a composure that was neither servile nor defiant: ""I am sensible of the expense, Lady Lyle, and I would not ask for any comfort on my own account. But the children's fingers grow stiff with cold, and stiff fingers make poor penmanship. I believe Sir Edmund wishes them to write a creditable hand.""
+
+The fire was retained.
+
+In the evenings, when her duties were concluded, she walked alone through the grounds with a restlessness that the servants remarked upon. She spoke little at the servants' table, not from pride but from a preoccupation that drew her attention perpetually inward. The housekeeper, Mrs. Dodd, observed that Miss Saville could sit for a quarter of an hour with her spoon suspended above her soup, her gaze fixed upon nothing visible.
+
+""I do not think I am made for contentment,"" she confided once to the curate, Mr. Eldon, who had called upon the household. ""I am always reaching toward something I cannot name. It is not unhappiness, precisely, it is more akin to a persistent awareness that the world contains more than one is permitted to touch.""
+
+Mr. Eldon suggested that such feelings might be directed toward devotional ends. Miss Saville thanked him with sincerity but did not pursue the suggestion. Her notebooks continued to multiply, and her solitary walks grew longer as the evenings lengthened into summer.",False
+8,RMSYNTH/8,Mr. Aldous Drummond,RM_SYNTHETIC,rmsynth_8,False,"Mr. Drummond was a solicitor of middle years and considerable reputation in the borough of Greyminster, where he had managed the affairs of several prominent families with a discretion that had never once been questioned, and an ambition that had never once been perceived. He was a man of moderate height, moderate dress, and moderate speech, and it was precisely this studied moderation which constituted his most formidable instrument.
+
+""My dear Hargreaves,"" he said to the senior partner, leaning back in his chair with an air of perfect deference, ""I should not dream of contradicting your judgement in the Ashton matter. You have far greater experience of such entanglements than I. I merely thought, but no, it is of no consequence. Pray proceed as you think best.""
+
+Hargreaves, thus flattered, proceeded as Drummond thought best, believing the notion to be his own.
+
+To Mrs. Cathcart, a widow whose estate he administered, he was all solicitude: ""You may rely upon me entirely, madam. I regard your interests as sacred, more sacred, I confess, than my own. The world is unkind to those who stand alone, and I consider it my duty to shield you from its rougher dealings."" He shielded her so effectively that the estate's investments came gradually to align with enterprises in which he himself held a silent share, though the returns to Mrs. Cathcart were never so poor as to arouse suspicion.
+
+When a younger clerk, Mr. Jessop, grew restive and hinted that certain transactions wanted transparency, Drummond invited him to dine. Over claret and cold beef, he spoke with a warmth that seemed almost paternal: ""Jessop, I admire your vigilance. It is precisely the quality I look for in a man I mean to advance. Let me take you into my confidence, "" And he did so, selectively, revealing just enough to make Jessop feel trusted and concealing just enough to make him complicit.
+
+He bore slights with equanimity. When Sir Philip Mace addressed him with open contempt at a public meeting, calling him a mere scrivener, Drummond smiled and answered: ""You do me too much honour, Sir Philip, in noticing my profession at all. I am content to serve.""
+
+His patience was that of a man who understood that time was the most reliable of allies. He never hurried, never raised his voice, never permitted himself the indulgence of visible anger. His rooms were orderly, his correspondence punctual, his manner unfailingly pleasant. Those who dealt with him came away with the impression of a man of modest competence and genuine goodwill, an impression he cultivated with the care of a gardener tending a particularly delicate and profitable vine.",False
+9,RMSYNTH/9,Ensign Piers Halkett,RM_SYNTHETIC,rmsynth_9,False,"Ensign Halkett had been with the regiment scarcely three months when the column halted at the river crossing, and already his character had impressed itself upon officers and men alike, not through any feat of arms, for there had been none, but through a peculiar union of transparent honesty and ungovernable temper which made him at once the most trusted and the most exasperating of companions.
+
+""I will carry the despatch, sir,"" he said to Major Dowell, with a directness that omitted the customary formulas of deference. ""Lieutenant Fanshawe is drunk, I saw him not twenty minutes ago behind the commissary waggon, and if you send him, the despatch will not arrive, or it will arrive too late, which is the same thing.""
+
+Major Dowell, who had been upon the point of entrusting the errand to Fanshawe, received this intelligence with displeasure. ""You forget yourself, Mr. Halkett.""
+
+""I forget nothing, sir. I state what I have seen.""
+
+The despatch was given to Halkett, who delivered it through four miles of hostile country with a competence that surprised no one who knew him and a recklessness that alarmed everyone.
+
+Among his fellow ensigns he was both valued and feared. When young Crewe lost his kit in the river crossing and was too ashamed to report it, Halkett lent him his own spare shirt and stock without being asked, saying only: ""Take them and say nothing. I cannot bear to watch a man suffer for a trifle when the remedy is at hand.""
+
+But when Crewe, emboldened by this kindness, ventured to repeat a piece of mess-room gossip concerning Halkett's family, that his father had died in reduced circumstances, Halkett turned upon him with a fury that silenced the entire bivouac: ""If you speak of my father again, Crewe, I shall knock you down, and I do not care if they cashier me for it. He was worth ten of any man in this regiment, and I will not hear his name in the mouth of a gossip.""
+
+He was as good as his word in all things, which rendered him unsuitable for the subtler arts of regimental politics. He could not dissemble, could not flatter, could not moderate his opinions to suit the company. He gave his rations to the sick without ostentation and cursed the quartermaster with equal sincerity when the supplies were short. His kit was in tolerable order, though his temper was not. The surgeon, Mr. Anstey, observed privately that Halkett would either be promoted for gallantry or court-martialled for insubordination before the campaign was out, and that the odds between the two were perfectly even.",False

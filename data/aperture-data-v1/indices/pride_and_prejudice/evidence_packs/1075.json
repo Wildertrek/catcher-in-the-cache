@@ -1,0 +1,45 @@
+{
+  "coref_id": "1075",
+  "character_name": "they",
+  "quote_count": 1,
+  "mention_count": 4,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "1074",
+      1
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c I must not decide on my own performance . \u201d",
+      "mention_text": "they",
+      "quote_start": 40434,
+      "quote_end": 40444,
+      "addressee_coref_id": "1074",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "1074",
+          "quote_text": "\u201c This is no very striking resemblance of your own character , I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "1074",
+          "quote_text": "\u201c How near it may be to _ mine _ , I can not pretend to say . _ You _ think it a faithful portrait , undoubtedly . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c When you met us there the other day , we had just been forming a new acquaintance . \u201d"
+        },
+        {
+          "speaker_coref_id": "127",
+          "quote_text": "\u201c Mr. Wickham is blessed with such happy manners as may insure his _ making _ friends ; whether he may be equally capable of _ retaining _ them , is less certain . \u201d"
+        }
+      ]
+    }
+  ]
+}

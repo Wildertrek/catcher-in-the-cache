@@ -1,0 +1,862 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "built_at": "2026-04-17T18:17:00Z",
+  "built_at_source": "stage_07_lcgt_build_2026-04-15+vt_integration+vt_integration",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "book_meta": {
+    "title": "An Ideal Husband",
+    "author": "Oscar Wilde",
+    "year": "1895"
+  },
+  "generation_method": {
+    "type": "literary_canon",
+    "providers": {
+      "OpenAI": "gpt-4o-mini",
+      "Anthropic": "claude-haiku-4-5-20251001",
+      "Google": "gemini-2.5-flash"
+    },
+    "prompt_template": "LITERARY_CANON_PROMPT v1",
+    "aggregation": "median",
+    "channel_note": "LCGT uses LLM pretraining knowledge of published literary criticism. Distinct channel from Stage 04 consensus (in-book evidence packs). the paper PIF on LCGT-backed books should be reported separately from AGT/MGT/PGT-backed books."
+  },
+  "characters": [
+    {
+      "coref_id": "char_lord_goring",
+      "character_name": "Lord Goring",
+      "quote_count": 360,
+      "consensus_ocean": {
+        "O": 0.7345079999999999,
+        "C": -0.14948,
+        "E": 0.80866,
+        "A": 0.22305999999999998,
+        "N": -0.505708
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0395,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.2,
+            "E": 0.9,
+            "A": 0.5,
+            "N": -0.1
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.2, \"E\": 0.9, \"A\": 0.5, \"N\": -0.1, \"confidence\": \"high\", \"rationale\": \"Critics often describe Lord Goring as a witty and charming character who embodies a blend of unconventionality and social energy, reflecting Wilde's exploration of aestheticism and moral ambiguity.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": -0.6,
+            "E": 0.8,
+            "A": -0.5,
+            "N": -0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": -0.6,\n  \"E\": 0.8,\n  \"A\": -0.5,\n  \"N\": -0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Raby, Ellmann, Nassaar) identifies Goring as Wilde's most imaginative and witty character\u2014unconventional in thought and speech\u2014yet fundamentally unreliable, self-interested, and emotionally detached, embodying the aesthete's privileging of style over substance and moral commitment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.4,
+            "E": 0.9,
+            "A": 0.3,
+            "N": -0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.4,\n  \"E\": 0.9,\n  \"A\": 0.3,\n  \"N\": -0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Literary criticism consistently identifies Lord Goring as the quintessential Wildean dandy, embodying intellectual unconventionality, social wit, and a detached yet reliable problem-solving acumen, while remaining emotionally composed.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5661,
+            "C": -0.191,
+            "E": 0.6595,
+            "A": 0.5395,
+            "N": -0.6061
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T05:14:26.471476+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002105
+        }
+      ]
+    },
+    {
+      "coref_id": "char_sir_robert_chiltern",
+      "character_name": "Sir Robert Chiltern",
+      "quote_count": 209,
+      "consensus_ocean": {
+        "O": -0.258336,
+        "C": 0.720648,
+        "E": 0.43326000000000003,
+        "A": -0.09692799999999999,
+        "N": 0.30714800000000003
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.2,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.8,
+            "E": 0.5,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.8, \"E\": 0.5, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Critics generally depict Sir Robert Chiltern as a principled and responsible character, reflecting high conscientiousness, while his emotional stability and moderate social engagement suggest a balanced personality.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.7,
+            "E": 0.5,
+            "A": -0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.7,\n  \"E\": 0.5,\n  \"A\": -0.5,\n  \"N\": 0.4,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Raby, Powell, Nassaar) identifies Chiltern as a conventional, ambitious politician whose rigid adherence to respectability masks moral compromise; his crisis stems from betrayed ideals rather than imaginative flexibility, while his initial composure and social polish conceal underlying anxiety about exposure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.3,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.6,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.3,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.6,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Sir Robert Chiltern as a highly conscientious and extraverted public figure whose past moral compromise reveals lower agreeableness and whose threatened exposure leads to significant neuroticism, with his openness being moderate.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1512,
+            "C": 0.5166,
+            "E": 0.0045,
+            "A": 0.0824,
+            "N": 0.1541
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:26:12.709661+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002681
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_cheveley",
+      "character_name": "Mrs. Cheveley",
+      "quote_count": 176,
+      "consensus_ocean": {
+        "O": 0.751504,
+        "C": 0.288448,
+        "E": 0.72542,
+        "A": -0.7646599999999999,
+        "N": 0.26141999999999993
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4765,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.5,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.8, \"C\": -0.5, \"E\": 0.7, \"A\": -0.6, \"N\": 0.5, \"confidence\": \"high\", \"rationale\": \"Critics often describe Mrs. Cheveley as a cunning and manipulative character, showcasing high openness and extraversion, while her lack of agreeableness and lower conscientiousness reflect her unscrupulous nature.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.7,
+            "C": 0.8,
+            "E": 0.85,
+            "A": -0.8,
+            "N": 0.6
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.7,\n  \"C\": 0.8,\n  \"E\": 0.85,\n  \"A\": -0.8,\n  \"N\": 0.6,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus (Eltis, Powell, Raby) identifies Mrs. Cheveley as a calculating, socially adept blackmailer who operates with strategic cunning and emotional detachment, embodying Wilde's critique of amoral modernity while displaying high extraversion and conscientiousness but profound deficiency in empathy and agreeableness.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.9,
+            "C": 0.9,
+            "E": 0.8,
+            "A": -0.9,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.9,\n  \"C\": 0.9,\n  \"E\": 0.8,\n  \"A\": -0.9,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently portrays Mrs. Cheveley as a highly intelligent, assertive, and unconventional antagonist, characterized by her ruthless manipulation, lack of empathy, and remarkable composure under pressure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.6268,
+            "C": 0.0016,
+            "E": 0.5765,
+            "A": -0.7595,
+            "N": 0.6765
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:26:51.196297+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002679
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lady_chiltern",
+      "character_name": "Lady Chiltern",
+      "quote_count": 142,
+      "consensus_ocean": {
+        "O": -0.162024,
+        "C": 0.7448079999999999,
+        "E": 0.222408,
+        "A": 0.251796,
+        "N": 0.41082799999999997
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.4,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.2,
+            "C": 0.8,
+            "E": 0.5,
+            "A": 0.7,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.2, \"C\": 0.8, \"E\": 0.5, \"A\": 0.7, \"N\": 0.4, \"confidence\": \"high\", \"rationale\": \"Critics generally portray Lady Chiltern as a paragon of virtue and moral integrity, reflecting high conscientiousness and agreeableness, while her emotional responses indicate moderate neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.7,
+            "E": 0.6,
+            "A": 0.5,
+            "N": 0.4
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.7,\n  \"E\": 0.6,\n  \"A\": 0.5,\n  \"N\": 0.4,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Critical consensus (e.g., Sos Eltis's *Revising Wilde*) identifies Lady Chiltern as conscientious and morally rigid in her idealism, moderately social and conventional in outlook, with emotional restraint that softens when confronted with her husband's past, though she remains a secondary character whose psychology receives less sustained analysis than the male leads.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.9,
+            "C": 0.8,
+            "E": -0.3,
+            "A": -0.7,
+            "N": 0.9
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": -0.9,\n  \"C\": 0.8,\n  \"E\": -0.3,\n  \"A\": -0.7,\n  \"N\": 0.9,\n  \"confidence\": \"high\",\n  \"rationale\": \"Critical consensus views Lady Chiltern as a figure of rigid Victorian idealism, characterized by her conventional morality, high conscientiousness, and significant emotional distress when her idealized world is challenged.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.2358,
+            "C": 0.6886,
+            "E": 0.1086,
+            "A": 0.4707,
+            "N": 0.0101
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:27:21.619384+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002304
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mabel_chiltern",
+      "character_name": "Mabel Chiltern",
+      "quote_count": 92,
+      "consensus_ocean": {
+        "O": 0.592012,
+        "C": 0.030788000000000003,
+        "E": 0.75458,
+        "A": 0.37963199999999997,
+        "N": -0.32233999999999996
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.3,
+            "E": 0.7,
+            "A": 0.6,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.3, \"E\": 0.7, \"A\": 0.6, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Mabel Chiltern is often viewed as a character embodying a blend of social charm and a degree of idealism, reflecting Wilde's themes of morality and societal expectations, though specific critical analyses on her character are less prevalent.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.3,
+            "C": 0.4,
+            "E": 0.7,
+            "A": 0.5,
+            "N": 0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.3,\n  \"C\": 0.4,\n  \"E\": 0.7,\n  \"A\": 0.5,\n  \"N\": 0.2,\n  \"confidence\": \"low\",\n  \"rationale\": \"Mabel Chiltern is a minor character whose personality receives limited sustained analysis in major critical works; she functions primarily as a witty, socially vivacious foil and romantic interest rather than a psychologically complex subject of scholarly interpretation.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.8,
+            "C": -0.3,
+            "E": 0.9,
+            "A": -0.2,
+            "N": -0.8
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.8,\n  \"C\": -0.3,\n  \"E\": 0.9,\n  \"A\": -0.2,\n  \"N\": -0.8,\n  \"confidence\": \"high\",\n  \"rationale\": \"Published criticism consistently highlights Mabel Chiltern's unconventional wit, social assertiveness, and emotional poise, often viewing her as a 'New Woman' figure.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7429,
+            "C": -0.2329,
+            "E": 0.7235,
+            "A": 0.5844,
+            "N": -0.4655
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:27:53.209886+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.002175
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lord_caversham",
+      "character_name": "Lord Caversham",
+      "quote_count": 79,
+      "consensus_ocean": {
+        "O": -0.31201999999999996,
+        "C": 0.4628439999999999,
+        "E": 0.305612,
+        "A": -0.128944,
+        "N": 0.050556000000000004
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.5,
+            "A": 0.5,
+            "N": -0.5
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.5, \"A\": 0.5, \"N\": -0.5, \"confidence\": \"medium\", \"rationale\": \"Lord Caversham is often viewed as a traditionalist and a figure of authority, reflecting moderate traits in openness and agreeableness, while his critical and somewhat cynical nature suggests lower neuroticism.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.75,
+            "C": 0.65,
+            "E": 0.7,
+            "A": -0.6,
+            "N": 0.55
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.75,\n  \"C\": 0.65,\n  \"E\": 0.70,\n  \"A\": -0.60,\n  \"N\": 0.55,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Lord Caversham is consistently read in Wilde criticism as a conventional, irascible patriarch embodying Victorian rigidity and patriarchal authority; scholars note his blustering social dominance, lack of imaginative sympathy, and emotional volatility when challenged, though he remains a minor comic figure whose psychology receives limited sustained analysis.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of Oscar Wilde's 'An Ideal Husband' generally focuses on major characters and thematic elements, offering insufficient detailed psychological analysis of minor figures like Lord Caversham to support a confident Big Five assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.4715,
+            "C": 0.6673,
+            "E": 0.0629,
+            "A": -0.3748,
+            "N": 0.1377
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:28:28.186428+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001949
+        }
+      ]
+    },
+    {
+      "coref_id": "char_phipps",
+      "character_name": "Phipps",
+      "quote_count": 34,
+      "consensus_ocean": {
+        "O": -0.13999999999999999,
+        "C": 0.22766799999999998,
+        "E": -0.08806,
+        "A": 0.16324,
+        "N": -0.14128800000000002
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.8131,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Phipps is a minor character in 'An Ideal Husband' and has not been the subject of significant critical analysis, leading to a lack of consensus on his personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Phipps is a minor servant character in An Ideal Husband whose personality receives negligible treatment in published Wilde criticism, which focuses on the central quartet (Chiltern, Gertrude, Goring, and Mabel); he functions primarily as a plot device and comic foil rather than a psychologically developed character.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published critical analyses generally do not offer detailed personality assessments of Phipps, who functions primarily as a stock character representing the imperturbable servant in Wilde's 'An Ideal Husband'.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.5,
+            "C": 0.8131,
+            "E": -0.3145,
+            "A": 0.583,
+            "N": -0.5046
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:29:12.220099+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000952
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lady_markby",
+      "character_name": "Lady Markby",
+      "quote_count": 33,
+      "consensus_ocean": {
+        "O": -0.205044,
+        "C": 0.33593199999999995,
+        "E": 0.532592,
+        "A": 0.05980799999999999,
+        "N": -0.12050799999999999
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.0,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.5,
+            "E": 0.7,
+            "A": 0.5,
+            "N": -0.2
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.5, \"E\": 0.7, \"A\": 0.5, \"N\": -0.2, \"confidence\": \"medium\", \"rationale\": \"Lady Markby is often viewed as a socialite who embodies the conventions of her society, displaying a blend of warmth and social energy while maintaining a level of traditionalism, as noted in various analyses of Wilde's exploration of social dynamics.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.7,
+            "C": 0.6,
+            "E": 0.8,
+            "A": -0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.7,\n  \"C\": 0.6,\n  \"E\": 0.8,\n  \"A\": -0.5,\n  \"N\": 0.3,\n  \"confidence\": \"medium\",\n  \"rationale\": \"Lady Markby is consistently read in Wilde criticism as a conventional, socially energetic gossip who enforces rigid social propriety while lacking empathy for others' moral struggles, as documented in analyses by Katharine Worth and Peter Raby on Wilde's society comedies.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Published literary criticism of 'An Ideal Husband' generally treats Lady Markby as a minor character providing comic relief and social commentary, without offering in-depth psychological analysis sufficient for a confident Big Five assessment.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.1323,
+            "C": 0.2569,
+            "E": 0.6164,
+            "A": 0.2136,
+            "N": -0.5161
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:29:47.676665+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001969
+        }
+      ]
+    },
+    {
+      "coref_id": "char_mrs_marchmont",
+      "character_name": "Mrs. Marchmont",
+      "quote_count": 23,
+      "consensus_ocean": {
+        "O": 0.15167599999999998,
+        "C": -0.09357599999999999,
+        "E": 0.236172,
+        "A": 0.086912,
+        "N": 0.028924
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5417,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.5,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.5, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Mrs. Marchmont is a minor character in 'An Ideal Husband,' and while she is noted for her social presence, there is limited critical analysis specifically addressing her personality traits.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Mrs. Marchmont is a negligible minor character in 'An Ideal Husband' with minimal stage presence or dialogue, receiving scant attention in published critical scholarship on the play.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "{\"O\": 0.0, \"C\": 0.0, \"E\": 0.0, \"A\": 0.0, \"N\": 0.0, \"confidence\": \"low\", \"rationale\": \"Published literary criticism of Oscar Wilde's 'An Ideal Husband' does not typically delve into the individual personality or psychological depth of Mrs. Marchmont, who functions primarily as a representative of society's superficiality and a vehicle for Wildean wit, rather than a developed character.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.5417,
+            "C": -0.3342,
+            "E": 0.4149,
+            "A": 0.3104,
+            "N": 0.1033
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:30:23.116012+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001176
+        }
+      ]
+    },
+    {
+      "coref_id": "char_lady_basildon",
+      "character_name": "Lady Basildon",
+      "quote_count": 21,
+      "consensus_ocean": {
+        "O": -0.196788,
+        "C": 0.01864000000000001,
+        "E": 0.339528,
+        "A": -0.164196,
+        "N": 0.183508
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 1.1171,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.5,
+            "C": 0.0,
+            "E": 0.7,
+            "A": 0.4,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "OpenAI",
+          "model": "gpt-4o-mini",
+          "raw": "{\"O\": 0.5, \"C\": 0.0, \"E\": 0.7, \"A\": 0.4, \"N\": 0.3, \"confidence\": \"medium\", \"rationale\": \"Lady Basildon is often interpreted as a socialite who embodies a blend of wit and superficiality, reflecting Wilde's critique of Victorian society's values.\"}"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": -0.6,
+            "C": 0.5,
+            "E": 0.7,
+            "A": -0.5,
+            "N": 0.3
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Anthropic",
+          "model": "claude-haiku-4-5-20251001",
+          "raw": "```json\n{\n  \"O\": -0.6,\n  \"C\": 0.5,\n  \"E\": 0.7,\n  \"A\": -0.5,\n  \"N\": 0.3,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lady Basildon is a minor society character in Wilde's play whose personality receives minimal sustained critical attention; scholars focus primarily on Mrs. Cheveley and Gertrude Chiltern, leaving her characterization largely underdeveloped in published analyses.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "literary_canon",
+          "weight": 0.3,
+          "ocean": {
+            "O": 0.0,
+            "C": 0.0,
+            "E": 0.0,
+            "A": 0.0,
+            "N": 0.0
+          },
+          "citation": "Multi-provider LLM consensus channeling published literary criticism (A.C. Bradley, Harold Bloom, Northrop Frye, and comparable scholarly sources from pretraining data). Stage 07 Literary Canon GT path.",
+          "provider": "Google",
+          "model": "gemini-2.5-flash",
+          "raw": "```json\n{\n  \"O\": 0.0,\n  \"C\": 0.0,\n  \"E\": 0.0,\n  \"A\": 0.0,\n  \"N\": 0.0,\n  \"confidence\": \"low\",\n  \"rationale\": \"Lady Basildon is a minor character in 'An Ideal Husband,' primarily serving as a representative of superficial society and a vehicle for Wilde's witty dialogue, and as such, published literary criticism does not offer meaningful psychological analysis of her individual personality traits.\"\n}\n```"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.6171,
+            "C": -0.362,
+            "E": 0.0126,
+            "A": -0.5007,
+            "N": 0.1411
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T12:31:11.478685+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000897
+        }
+      ]
+    }
+  ]
+}

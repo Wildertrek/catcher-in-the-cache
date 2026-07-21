@@ -1,0 +1,71 @@
+{
+  "coref_id": "1074",
+  "character_name": "he",
+  "quote_count": 2,
+  "mention_count": 8,
+  "max_quotes": 50,
+  "context_window": 2,
+  "addressee_lookback": 2,
+  "addressee_lookahead": 1,
+  "comention_window": 2,
+  "top_addressees": [
+    [
+      "107",
+      2
+    ]
+  ],
+  "quotes": [
+    {
+      "quote_text": "\u201c This is no very striking resemblance of your own character , I am sure , \u201d",
+      "mention_text": "he",
+      "quote_start": 40384,
+      "quote_end": 40400,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c Both , \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c for I have always seen a great similarity in the turn of our minds . We are each of an unsocial , taciturn disposition , unwilling to speak , unless we expect to say something that will amaze the whole room , and be handed down to posterity with all the _ \u00e9clat _ of a proverb . \u201d"
+        },
+        {
+          "speaker_coref_id": "1074",
+          "quote_text": "\u201c How near it may be to _ mine _ , I can not pretend to say . _ You _ think it a faithful portrait , undoubtedly . \u201d"
+        },
+        {
+          "speaker_coref_id": "1075",
+          "quote_text": "\u201c I must not decide on my own performance . \u201d"
+        }
+      ]
+    },
+    {
+      "quote_text": "\u201c How near it may be to _ mine _ , I can not pretend to say . _ You _ think it a faithful portrait , undoubtedly . \u201d",
+      "mention_text": "he",
+      "quote_start": 40404,
+      "quote_end": 40433,
+      "addressee_coref_id": "107",
+      "addressee_source": "prev",
+      "context": [
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c for I have always seen a great similarity in the turn of our minds . We are each of an unsocial , taciturn disposition , unwilling to speak , unless we expect to say something that will amaze the whole room , and be handed down to posterity with all the _ \u00e9clat _ of a proverb . \u201d"
+        },
+        {
+          "speaker_coref_id": "1074",
+          "quote_text": "\u201c This is no very striking resemblance of your own character , I am sure , \u201d"
+        },
+        {
+          "speaker_coref_id": "1075",
+          "quote_text": "\u201c I must not decide on my own performance . \u201d"
+        },
+        {
+          "speaker_coref_id": "107",
+          "quote_text": "\u201c When you met us there the other day , we had just been forming a new acquaintance . \u201d"
+        }
+      ]
+    }
+  ]
+}

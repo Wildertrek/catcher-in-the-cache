@@ -1,0 +1,46 @@
+{
+  "amendment_9_pre_reg_falsifier": "LRT p < 0.05",
+  "n_models": 28,
+  "providers_per_regime_v2": {
+    "CAI": 2,
+    "DPO-primary": 2,
+    "RLHF-Hybrid": 6,
+    "RLHF-pure": 2
+  },
+  "lrt_primary": {
+    "n": 25,
+    "lr_stat": 0.0,
+    "df_diff": 0,
+    "p_value": 1.0,
+    "f_stat": null,
+    "f_p": null,
+    "note": "regime collinear with family (rank-deficient)",
+    "delta_r2": 0.0
+  },
+  "anova_secondary": {
+    "f_stat": 1.4927291511847556,
+    "p_value": 0.24545784446252134,
+    "eta_squared": 0.17576554304413622,
+    "regime_means": {
+      "mean": {
+        "CAI": 0.787,
+        "DPO-primary": 0.836,
+        "RLHF-Hybrid": 0.689,
+        "RLHF-pure": 0.778
+      },
+      "std": {
+        "CAI": 0.05,
+        "DPO-primary": 0.112,
+        "RLHF-Hybrid": 0.149,
+        "RLHF-pure": 0.113
+      },
+      "count": {
+        "CAI": 5,
+        "DPO-primary": 2,
+        "RLHF-Hybrid": 11,
+        "RLHF-pure": 7
+      }
+    }
+  },
+  "verdict": "RETRACTION CONFIRMED (regime confound holds at adequate power)"
+}

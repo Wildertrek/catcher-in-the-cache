@@ -1,0 +1,689 @@
+{
+  "schema": "pillar1_ground_truth_v3_multi_source",
+  "description": "Multi-source ground truth with explicit AGT/SGT/PGT/MGT/CGT taxonomy and 9-tier weighted consensus. See docs/pipeline_and_gt_spec.md \u00a73-4.",
+  "pipeline_version": "pillar1_ground_truth_v3_multi_source",
+  "migrated_from": {
+    "schema": "pillar1_ground_truth_v2_scholarly",
+    "pipeline_version": "v2_framework_aware"
+  },
+  "built_at": "2026-04-17T18:17:00Z",
+  "traits": [
+    "O",
+    "C",
+    "E",
+    "A",
+    "N"
+  ],
+  "characters": [
+    {
+      "coref_id": "107",
+      "character_name": "Dorian Gray",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.7455333333333335,
+        "C": -0.5939333333333333,
+        "E": 0.48306666666666676,
+        "A": -0.2113666666666667,
+        "N": 0.5584333333333333
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.7159,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.72,
+            "C": -0.62,
+            "E": 0.5,
+            "A": -0.45,
+            "N": 0.72
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kumar2022_Orchestration_Narcissistic_Expressions_John.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Muhammed2020_Sexism_Wildes_Picture_Dorian.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rashid2025_Deconstructive_Analysis_Protagonist_Wildes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Taghizadeh2014_Aestheticism_versus_Realism_Narcissistic.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "The_Living_Mirror_The_Representation_of.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Toffoli2013_retrato_Dorian_Gray.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Yolanda2021_NARCISSISTIC_PERSONALITY_MALE_MAIN.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "\u0130zel2011_Analysis_comparison_main_evil.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": 0.85,
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.515,
+              "confidence_interval": [
+                0.152,
+                0.878
+              ],
+              "n_sources": 7,
+              "std_dev": 0.185
+            },
+            "C": {
+              "score": -0.714,
+              "confidence_interval": [
+                -0.881,
+                -0.546
+              ],
+              "n_sources": 7,
+              "std_dev": 0.085
+            },
+            "E": {
+              "score": 0.487,
+              "confidence_interval": [
+                0.22,
+                0.755
+              ],
+              "n_sources": 6,
+              "std_dev": 0.137
+            },
+            "A": {
+              "score": -0.75,
+              "confidence_interval": [
+                -1.0,
+                -0.206
+              ],
+              "n_sources": 8,
+              "std_dev": 0.278
+            },
+            "N": {
+              "score": 0.832,
+              "confidence_interval": [
+                0.688,
+                0.976
+              ],
+              "n_sources": 6,
+              "std_dev": 0.074
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7966,
+            "C": -0.5418,
+            "E": 0.4492,
+            "A": 0.2659,
+            "N": 0.2353
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:43:20.768351+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001806
+        }
+      ]
+    },
+    {
+      "coref_id": "115",
+      "character_name": "Basil Hallward",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8215,
+        "C": 0.5299333333333334,
+        "E": -0.24613333333333337,
+        "A": 0.6886666666666668,
+        "N": 0.24693333333333334
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.3092,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.8,
+            "C": 0.55,
+            "E": -0.15,
+            "A": 0.72,
+            "N": 0.35
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kumar2022_Orchestration_Narcissistic_Expressions_John.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Muhammed2020_Sexism_Wildes_Picture_Dorian.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rashid2025_Deconstructive_Analysis_Protagonist_Wildes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "RodriguesJ\u00fanior2013_Linguistic_constructions_appraisal_novel.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "RodriguesJ\u00fanior2018_Clause_complexes_basis_construing.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Toffoli2013_retrato_Dorian_Gray.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": 0.9,
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.753,
+              "confidence_interval": [
+                0.669,
+                0.837
+              ],
+              "n_sources": 5,
+              "std_dev": 0.043
+            },
+            "C": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.6,
+                0.6
+              ],
+              "n_sources": 2,
+              "std_dev": 0.0
+            },
+            "E": {
+              "score": -0.258,
+              "confidence_interval": [
+                -0.576,
+                0.059
+              ],
+              "n_sources": 3,
+              "std_dev": 0.162
+            },
+            "A": {
+              "score": 0.613,
+              "confidence_interval": [
+                -0.223,
+                1.0
+              ],
+              "n_sources": 4,
+              "std_dev": 0.427
+            },
+            "N": {
+              "score": 0.579,
+              "confidence_interval": [
+                0.274,
+                0.883
+              ],
+              "n_sources": 5,
+              "std_dev": 0.156
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8645,
+            "C": 0.4898,
+            "E": -0.4384,
+            "A": 0.626,
+            "N": 0.0408
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:43:54.070427+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001501
+        }
+      ]
+    },
+    {
+      "coref_id": "114",
+      "character_name": "Lord Henry Wotton",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.8938000000000001,
+        "C": -0.4478666666666667,
+        "E": 0.7734333333333334,
+        "A": -0.6640333333333334,
+        "N": -0.5138666666666668
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.1436,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_2",
+          "weight": 0.7,
+          "ocean": {
+            "O": 0.9,
+            "C": -0.4,
+            "E": 0.8,
+            "A": -0.7,
+            "N": -0.55
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kumar2022_Orchestration_Narcissistic_Expressions_John.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Muhammed2020_Sexism_Wildes_Picture_Dorian.json",
+              "framework": "feminist",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Rashid2025_Deconstructive_Analysis_Protagonist_Wildes.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "RodriguesJ\u00fanior2013_Linguistic_constructions_appraisal_novel.json",
+              "framework": "computational",
+              "tier": 2,
+              "weight": 0.8
+            },
+            {
+              "paper": "RodriguesJ\u00fanior2018_Clause_complexes_basis_construing.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "Taghizadeh2014_Aestheticism_versus_Realism_Narcissistic.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Toffoli2013_retrato_Dorian_Gray.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            },
+            {
+              "paper": "\u0130zel2011_Analysis_comparison_main_evil.json",
+              "framework": "literary_critical",
+              "tier": 3,
+              "weight": 0.5
+            }
+          ],
+          "confidence": 0.9,
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.722,
+              "confidence_interval": [
+                0.431,
+                1.0
+              ],
+              "n_sources": 8,
+              "std_dev": 0.149
+            },
+            "C": {
+              "score": -0.406,
+              "confidence_interval": [
+                -0.688,
+                -0.125
+              ],
+              "n_sources": 4,
+              "std_dev": 0.143
+            },
+            "E": {
+              "score": 0.553,
+              "confidence_interval": [
+                0.432,
+                0.675
+              ],
+              "n_sources": 8,
+              "std_dev": 0.062
+            },
+            "A": {
+              "score": -0.59,
+              "confidence_interval": [
+                -1.0,
+                -0.055
+              ],
+              "n_sources": 7,
+              "std_dev": 0.273
+            },
+            "N": {
+              "score": -0.087,
+              "confidence_interval": [
+                -0.776,
+                0.603
+              ],
+              "n_sources": 3,
+              "std_dev": 0.352
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.8814,
+            "C": -0.5436,
+            "E": 0.7203,
+            "A": -0.5921,
+            "N": -0.4416
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:44:28.340369+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001973
+        }
+      ]
+    },
+    {
+      "coref_id": "167",
+      "character_name": "Sibyl Vane",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": 0.6800222222222222,
+        "C": -0.20428888888888885,
+        "E": 0.5955666666666666,
+        "A": 0.7092962962962963,
+        "N": 0.4624888888888889
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.5304,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": 0.65,
+            "C": -0.15,
+            "E": 0.6,
+            "A": 0.75,
+            "N": 0.6
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Kumar2022_Orchestration_Narcissistic_Expressions_John.json",
+              "framework": "psychoanalytic",
+              "tier": 2,
+              "weight": 0.7
+            },
+            {
+              "paper": "Gillespie1995_Picture_Dorian_Gray_What_World_Thinks",
+              "framework": "literary_critical",
+              "tier": 1,
+              "weight": 0.9
+            },
+            {
+              "paper": "Nassaar1974_Into_Demon_Universe_Literary_Exploration",
+              "framework": "psychoanalytic",
+              "tier": 1,
+              "weight": 0.9
+            },
+            {
+              "paper": "Raby1997_Cambridge_Companion_Oscar_Wilde",
+              "framework": "literary_critical",
+              "tier": 1,
+              "weight": 0.9
+            }
+          ],
+          "confidence": 0.82,
+          "ocean_scores_v2": {
+            "O": {
+              "score": 0.65,
+              "confidence_interval": [
+                0.45,
+                0.85
+              ],
+              "n_sources": 4,
+              "std_dev": 0.12
+            },
+            "C": {
+              "score": -0.2,
+              "confidence_interval": [
+                -0.55,
+                0.15
+              ],
+              "n_sources": 4,
+              "std_dev": 0.22
+            },
+            "E": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.4,
+                0.8
+              ],
+              "n_sources": 4,
+              "std_dev": 0.13
+            },
+            "A": {
+              "score": 0.75,
+              "confidence_interval": [
+                0.6,
+                0.9
+              ],
+              "n_sources": 4,
+              "std_dev": 0.1
+            },
+            "N": {
+              "score": 0.6,
+              "confidence_interval": [
+                0.35,
+                0.85
+              ],
+              "n_sources": 4,
+              "std_dev": 0.16
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": 0.7658,
+            "C": -0.3594,
+            "E": 0.5829,
+            "A": 0.593,
+            "N": 0.0696
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:45:08.561713+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.001228
+        }
+      ]
+    },
+    {
+      "coref_id": "184",
+      "character_name": "James Vane",
+      "quote_count": 0,
+      "consensus_ocean": {
+        "O": -0.2735962962962963,
+        "C": 0.3390518518518518,
+        "E": -0.07307777777777777,
+        "A": 0.12144074074074074,
+        "N": 0.1872185185185185
+      },
+      "consensus_method": "weighted_mean",
+      "disagreement_score": 0.6208,
+      "has_warning": true,
+      "sources": [
+        {
+          "source_type": "AGT",
+          "subtype": "peer_tier_1",
+          "weight": 1.0,
+          "ocean": {
+            "O": -0.35,
+            "C": 0.5,
+            "E": -0.15,
+            "A": 0.1,
+            "N": 0.2
+          },
+          "citation": "",
+          "scholarly_sources": [
+            {
+              "paper": "Gillespie1995_Picture_Dorian_Gray_What_World_Thinks",
+              "framework": "literary_critical",
+              "tier": 1,
+              "weight": 0.9
+            },
+            {
+              "paper": "Nassaar1974_Into_Demon_Universe_Literary_Exploration",
+              "framework": "psychoanalytic",
+              "tier": 1,
+              "weight": 0.9
+            },
+            {
+              "paper": "Raby1997_Cambridge_Companion_Oscar_Wilde",
+              "framework": "literary_critical",
+              "tier": 1,
+              "weight": 0.9
+            }
+          ],
+          "confidence": 0.8,
+          "ocean_scores_v2": {
+            "O": {
+              "score": -0.35,
+              "confidence_interval": [
+                -0.55,
+                -0.15
+              ],
+              "n_sources": 2,
+              "std_dev": 0.1
+            },
+            "C": {
+              "score": 0.5,
+              "confidence_interval": [
+                0.2,
+                0.8
+              ],
+              "n_sources": 2,
+              "std_dev": 0.2
+            },
+            "E": {
+              "score": -0.15,
+              "confidence_interval": [
+                -0.45,
+                0.15
+              ],
+              "n_sources": 2,
+              "std_dev": 0.2
+            },
+            "A": {
+              "score": 0.1,
+              "confidence_interval": [
+                -0.35,
+                0.55
+              ],
+              "n_sources": 2,
+              "std_dev": 0.25
+            },
+            "N": {
+              "score": 0.2,
+              "confidence_interval": [
+                -0.1,
+                0.5
+              ],
+              "n_sources": 2,
+              "std_dev": 0.15
+            }
+          },
+          "validation_status": "validated"
+        },
+        {
+          "source_type": "CGT",
+          "subtype": "vt_verifier_token",
+          "weight": 0.35,
+          "ocean": {
+            "O": -0.0553,
+            "C": -0.1208,
+            "E": 0.1467,
+            "A": 0.1827,
+            "N": 0.1507
+          },
+          "citation": "V4/VT Verifier-Token consensus; providers=[OpenAI, xAI]; top_logprobs=8; generated_at=2026-04-17T16:45:52.398189+00:00",
+          "v4_artifact_providers": [
+            "OpenAI",
+            "xAI"
+          ],
+          "v4_total_cost_usd": 0.000867
+        }
+      ]
+    }
+  ],
+  "built_at_source": "+vt_integration"
+}
