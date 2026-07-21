@@ -14,6 +14,8 @@ This is the companion repository for *The Catcher in the Cache* (ACM TIST). It c
 
 [![Quick Start](https://img.shields.io/badge/Colab-Quick_Start-4285F4?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/catcher-in-the-cache/blob/main/notebooks/01_quick_start.ipynb) [![Experiment 1](https://img.shields.io/badge/Colab-Experiment_1-2ecc71?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/catcher-in-the-cache/blob/main/notebooks/02_method_bakeoff_results.ipynb) [![HEXACO Panel](https://img.shields.io/badge/Colab-HEXACO_Panel-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/catcher-in-the-cache/blob/main/notebooks/03_hexaco_atlas_reproducer.ipynb) [![The Catch](https://img.shields.io/badge/Colab-The_Catch-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/catcher-in-the-cache/blob/main/notebooks/09_catcher_in_the_cache.ipynb) [![Cache Gauge](https://img.shields.io/badge/Colab-Cache_Gauge-FF6F00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/catcher-in-the-cache/blob/main/notebooks/05_cache_map.ipynb)
 
+These five are the guided entry points; the reproduction map below carries a Colab badge for every one of the ten notebooks.
+
 ## Thesis
 
 ![The catch: all 25 raters collapse below the y = x diagonal when rating characters absent from training](docs/explainers/catcher_hero.png)
@@ -24,7 +26,7 @@ On canonical literary characters, LLM personality rating is largely **retrieval 
 
 **APERTURE** (Automated PERsonality TUning, Representation, and Evaluation) is the multi-method, multi-rater diagnostic system the paper introduces; this repository is its paper-scoped public companion. Method codes M1-M6, the three-bar validity protocol, and all other terms are decoded in [`docs/appendix/glossary.md`](docs/appendix/glossary.md).
 
-All notebooks run from cached artifacts at \$0, with one exception: notebook 01 (the entry demo) makes live multi-provider API calls, so it needs provider API keys. Open any notebook in Colab via its badge, or run locally (see [Quickstart](#quickstart)).
+Every notebook runs at \$0. Notebooks 02-10 run from cached artifacts with no API keys; notebook 01 (the entry demo) makes live inference calls, and with no provider keys set it falls back to an open-weight rater (Qwen2.5-1.5B-Instruct) so it stays free too; keys are optional and enable the full multi-provider consensus. Open any notebook in Colab via its badge, or run locally (see [Quickstart](#quickstart)).
 
 | Experiment / analysis | Research questions | Notebook | Run |
 |---|---|---|---|
