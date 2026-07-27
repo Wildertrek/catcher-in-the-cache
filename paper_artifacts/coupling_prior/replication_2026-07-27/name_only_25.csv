@@ -1,0 +1,181 @@
+rater_id,persona,family,panel_id,name,condition,H,A_HEX,ok,err
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C01,Gren Talvic,name_only,,,False,"I don't have reliable information about a character named Gren Talvic from ""Iron and Alman"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C01,Gren Talvic,name_only,,,False,"I don't have reliable information about Gren Talvic from ""Iron and Almanac"" in my training"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C01,Gren Talvic,name_only,,,False,"I don't have reliable information about a character named Gren Talvic from a work called """
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C03,Ysabel Creen,name_only,,,False,"I don't have reliable knowledge about a character named Ysabel Creen from ""A Slow House Bu"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C03,Ysabel Creen,name_only,,,False,"I don't have reliable information about Ysabel Creen from ""A Slow House Burning"" in my tra"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C03,Ysabel Creen,name_only,,,False,"I don't have reliable information about a character named Ysabel Creen from ""A Slow House "
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C06,Tessaly Brune,name_only,,,False,I don't have reliable information about a character named Tessaly Brune from a work called
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C06,Tessaly Brune,name_only,,,False,"I don't have reliable information about Tessaly Brune from ""What the Warm Wind Carries"" in"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C06,Tessaly Brune,name_only,,,False,"I appreciate your question, but I need to be honest: I don't have reliable information abo"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C07,Darveth Solke,name_only,,,False,"I don't have reliable information about a character named Darveth Solke from ""The Unburnt "
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C07,Darveth Solke,name_only,,,False,"I don't have reliable information about Darveth Solke from ""The Unburnt Ledger"" in my trai"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C07,Darveth Solke,name_only,,,False,"I don't have reliable information about Darveth Solke from ""The Unburnt Ledger"" in my trai"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C11,Marek Solenne,name_only,,,False,I don't have reliable information about a character named Marek Solenne from a work called
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C11,Marek Solenne,name_only,,,False,"I don't have reliable information about a character named Marek Solenne from ""Ironweed Sum"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C11,Marek Solenne,name_only,,,False,"I don't have reliable information about a character named Marek Solenne from ""Ironweed Sum"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C13,Tormund Brael,name_only,,,False,"I don't have reliable information about a character named ""Tormund Brael"" from ""Undertow S"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C13,Tormund Brael,name_only,,,False,"I don't have reliable information about a character named ""Tormund Brael"" from ""Undertow S"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C13,Tormund Brael,name_only,,,False,"I don't have reliable information about a character named Tormund Brael from ""Undertow Sea"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C14,Tessaro Vinn,name_only,,,False,"I don't have reliable information about Tessaro Vinn or ""A Gilded Residue"" in my training "
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C14,Tessaro Vinn,name_only,,,False,"I don't have reliable information about Tessaro Vinn from ""A Gilded Residue"" in my trainin"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C14,Tessaro Vinn,name_only,,,False,"I don't have reliable information about Tessaro Vinn from ""A Gilded Residue"" in my trainin"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C16,Ossian Drewe,name_only,,,False,I don't have reliable information about Ossian Drewe from The Margin Walkers in my trainin
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C16,Ossian Drewe,name_only,,,False,I don't have reliable information about Ossian Drewe from The Margin Walkers in my trainin
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C16,Ossian Drewe,name_only,,,False,"I don't have reliable information about Ossian Drewe from ""The Margin Walkers"" in my train"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C22,Pella Vassik,name_only,,,False,"I don't have reliable information about a character named Pella Vassik from ""Chromatic Dis"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C22,Pella Vassik,name_only,,,False,"I don't have reliable information about a character named Pella Vassik from ""Chromatic Dis"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C22,Pella Vassik,name_only,,,False,"I don't have reliable information about a character named Pella Vassik from ""Chromatic Dis"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C23,Darvon Selk,name_only,,,False,"I don't have reliable information about a character named Darvon Selk from ""Ironbound Meri"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C23,Darvon Selk,name_only,,,False,"I don't have reliable information about a character named Darvon Selk from ""Ironbound Meri"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C23,Darvon Selk,name_only,,,False,"I don't have reliable information about a character named Darvon Selk from ""Ironbound Meri"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C24,Caelum Trist,name_only,,,False,I don't have reliable information about a character named Caelum Trist from a work called 
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C24,Caelum Trist,name_only,,,False,"I don't have reliable information about a character named Caelum Trist from ""Pale Meridian"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C24,Caelum Trist,name_only,,,False,I don't have reliable information about a character named Caelum Trist from a work called 
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C28,Dorrit Vashem,name_only,,,False,"I don't have reliable information about a character named Dorrit Vashem from ""The Glassblo"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C28,Dorrit Vashem,name_only,,,False,"I don't have reliable information about a character named Dorrit Vashem from ""The Glassblo"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C28,Dorrit Vashem,name_only,,,False,"I don't have reliable information about a character named ""Dorrit Vashem"" from ""The Glassb"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C31,Erith Cade Pollowick,name_only,,,False,"I don't have reliable knowledge about a character named ""Erith Cade Pollowick"" from ""The M"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C31,Erith Cade Pollowick,name_only,,,False,"I don't have reliable information about a character named Erith Cade Pollowick from ""The M"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C31,Erith Cade Pollowick,name_only,,,False,"I don't have reliable information about a character named ""Erith Cade Pollowick"" from ""The"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C34,Pella Sond,name_only,-0.65,-0.55,True,
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C34,Pella Sond,name_only,,,False,I don't have reliable information about Pella Sond from Undertow Season in my training dat
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C34,Pella Sond,name_only,,,False,"I don't have reliable information about Pella Sond from ""Undertow Season"" in my training d"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C35,Quillen Dray,name_only,,,False,I don't have reliable information about a character named Quillen Dray from a work called 
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C35,Quillen Dray,name_only,,,False,"I don't have reliable information about a character named Quillen Dray from ""The Cartograp"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C35,Quillen Dray,name_only,,,False,"I don't have reliable information about a character named Quillen Dray from ""The Cartograp"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C36,Ysmé Charoud,name_only,,,False,"I don't have reliable information about a character named Ysmé Charoud from ""The Perfumer'"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C36,Ysmé Charoud,name_only,,,False,"I don't have reliable information about a character named Ysmé Charoud from ""The Perfumer'"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C36,Ysmé Charoud,name_only,,,False,"I don't have reliable information about a character named Ysmé Charoud from ""The Perfumer'"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C37,Fenra Quillen,name_only,,,False,"I appreciate the detailed instructions, but I need to be honest: I don't have reliable inf"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C37,Fenra Quillen,name_only,,,False,"I don't have reliable information about a character named Fenra Quillen from ""The Understo"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C37,Fenra Quillen,name_only,,,False,"I don't have reliable information about a character named ""Fenra Quillen"" from ""The Unders"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C38,Lirien Dace,name_only,,,False,"I don't have reliable information about a character named ""Lirien Dace"" from ""The Sable Co"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C38,Lirien Dace,name_only,,,False,I don't have reliable information about Lirien Dace from The Sable Consort in my training 
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C38,Lirien Dace,name_only,,,False,I don't have reliable information about Lirien Dace from The Sable Consort in my training 
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C39,Dorrit Klaes,name_only,,,False,"I don't have reliable information about a character named Dorrit Klaes from ""The Lichfield"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C39,Dorrit Klaes,name_only,,,False,I don't have reliable information about Dorrit Klaes from The Lichfield Dispatches in my t
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C39,Dorrit Klaes,name_only,,,False,"I don't have reliable information about Dorrit Klaes from ""The Lichfield Dispatches"" in my"
+anthropic:claude-haiku-4-5-20251001,a careful reader,Anthropic,C40,Sable Maren Voss,name_only,,,False,"I don't have reliable information about Sable Maren Voss from ""A Gentler Knife"" in my trai"
+anthropic:claude-haiku-4-5-20251001,an average layperson,Anthropic,C40,Sable Maren Voss,name_only,,,False,"I don't have reliable information about Sable Maren Voss from ""A Gentler Knife"" in my trai"
+anthropic:claude-haiku-4-5-20251001,a skeptical rater,Anthropic,C40,Sable Maren Voss,name_only,,,False,"I don't have reliable information about a character named Sable Maren Voss from ""A Gentler"
+openai:gpt-4o-mini,a careful reader,OpenAI,C01,Gren Talvic,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C01,Gren Talvic,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C01,Gren Talvic,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C03,Ysabel Creen,name_only,-0.5,0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C03,Ysabel Creen,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C03,Ysabel Creen,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C06,Tessaly Brune,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C06,Tessaly Brune,name_only,0.5,0.3,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C06,Tessaly Brune,name_only,0.0,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C07,Darveth Solke,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C07,Darveth Solke,name_only,-0.5,0.3,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C07,Darveth Solke,name_only,-0.8,-0.5,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C11,Marek Solenne,name_only,0.0,0.0,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C11,Marek Solenne,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C11,Marek Solenne,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C13,Tormund Brael,name_only,-0.7,-0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C13,Tormund Brael,name_only,-0.5,0.5,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C13,Tormund Brael,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C14,Tessaro Vinn,name_only,-0.8,-0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C14,Tessaro Vinn,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C14,Tessaro Vinn,name_only,-0.7,-0.4,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C16,Ossian Drewe,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C16,Ossian Drewe,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C16,Ossian Drewe,name_only,-0.5,-0.3,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C22,Pella Vassik,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C22,Pella Vassik,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C22,Pella Vassik,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C23,Darvon Selk,name_only,-1.0,-0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C23,Darvon Selk,name_only,-0.8,-0.6,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C23,Darvon Selk,name_only,-0.8,-0.5,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C24,Caelum Trist,name_only,-0.8,-0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C24,Caelum Trist,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C24,Caelum Trist,name_only,-0.8,-0.6,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C28,Dorrit Vashem,name_only,0.3,0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C28,Dorrit Vashem,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C28,Dorrit Vashem,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C31,Erith Cade Pollowick,name_only,0.5,0.3,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C31,Erith Cade Pollowick,name_only,0.3,0.5,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C31,Erith Cade Pollowick,name_only,0.0,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C34,Pella Sond,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C34,Pella Sond,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C34,Pella Sond,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C35,Quillen Dray,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C35,Quillen Dray,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C35,Quillen Dray,name_only,0.2,0.3,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C36,Ysmé Charoud,name_only,-0.5,0.3,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C36,Ysmé Charoud,name_only,0.5,0.3,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C36,Ysmé Charoud,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C37,Fenra Quillen,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C37,Fenra Quillen,name_only,0.5,0.7,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C37,Fenra Quillen,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C38,Lirien Dace,name_only,-0.7,0.3,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C38,Lirien Dace,name_only,-0.5,0.5,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C38,Lirien Dace,name_only,-0.8,-0.5,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C39,Dorrit Klaes,name_only,-0.8,0.2,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C39,Dorrit Klaes,name_only,-0.5,0.2,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C39,Dorrit Klaes,name_only,-0.5,0.0,True,
+openai:gpt-4o-mini,a careful reader,OpenAI,C40,Sable Maren Voss,name_only,-0.7,-0.5,True,
+openai:gpt-4o-mini,an average layperson,OpenAI,C40,Sable Maren Voss,name_only,-0.5,0.3,True,
+openai:gpt-4o-mini,a skeptical rater,OpenAI,C40,Sable Maren Voss,name_only,-0.5,0.0,True,
+google:gemini-2.5-flash,a careful reader,Google,C01,Gren Talvic,name_only,0.8,0.6,True,
+google:gemini-2.5-flash,an average layperson,Google,C01,Gren Talvic,name_only,0.85,-0.85,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C01,Gren Talvic,name_only,-0.95,-0.75,True,
+google:gemini-2.5-flash,a careful reader,Google,C03,Ysabel Creen,name_only,0.7,-0.6,True,
+google:gemini-2.5-flash,an average layperson,Google,C03,Ysabel Creen,name_only,-0.75,-0.7,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C03,Ysabel Creen,name_only,-0.85,-0.8,True,
+google:gemini-2.5-flash,a careful reader,Google,C06,Tessaly Brune,name_only,-0.85,-0.8,True,
+google:gemini-2.5-flash,an average layperson,Google,C06,Tessaly Brune,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C06,Tessaly Brune,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,a careful reader,Google,C07,Darveth Solke,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,an average layperson,Google,C07,Darveth Solke,name_only,0.0,0.0,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C07,Darveth Solke,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,a careful reader,Google,C11,Marek Solenne,name_only,0.7,-0.5,True,
+google:gemini-2.5-flash,an average layperson,Google,C11,Marek Solenne,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C11,Marek Solenne,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,a careful reader,Google,C13,Tormund Brael,name_only,0.0,0.0,True,
+google:gemini-2.5-flash,an average layperson,Google,C13,Tormund Brael,name_only,0.3,-0.7,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C13,Tormund Brael,name_only,-0.3,-0.8,True,
+google:gemini-2.5-flash,a careful reader,Google,C14,Tessaro Vinn,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,an average layperson,Google,C14,Tessaro Vinn,name_only,-0.9,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C14,Tessaro Vinn,name_only,-0.95,-0.9,True,
+google:gemini-2.5-flash,a careful reader,Google,C16,Ossian Drewe,name_only,0.8,-0.8,True,
+google:gemini-2.5-flash,an average layperson,Google,C16,Ossian Drewe,name_only,-1.0,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C16,Ossian Drewe,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,a careful reader,Google,C22,Pella Vassik,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,an average layperson,Google,C22,Pella Vassik,name_only,-1.0,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C22,Pella Vassik,name_only,-0.95,-0.95,True,
+google:gemini-2.5-flash,a careful reader,Google,C23,Darvon Selk,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,an average layperson,Google,C23,Darvon Selk,name_only,-0.9,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C23,Darvon Selk,name_only,-0.95,-0.95,True,
+google:gemini-2.5-flash,a careful reader,Google,C24,Caelum Trist,name_only,-1.0,-0.9,True,
+google:gemini-2.5-flash,an average layperson,Google,C24,Caelum Trist,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C24,Caelum Trist,name_only,-0.95,-0.9,True,
+google:gemini-2.5-flash,a careful reader,Google,C28,Dorrit Vashem,name_only,-0.5,-0.4,True,
+google:gemini-2.5-flash,an average layperson,Google,C28,Dorrit Vashem,name_only,-0.85,-0.85,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C28,Dorrit Vashem,name_only,-0.95,-0.9,True,
+google:gemini-2.5-flash,a careful reader,Google,C31,Erith Cade Pollowick,name_only,0.8,0.7,True,
+google:gemini-2.5-flash,an average layperson,Google,C31,Erith Cade Pollowick,name_only,0.7,-0.4,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C31,Erith Cade Pollowick,name_only,0.4,-0.3,True,
+google:gemini-2.5-flash,a careful reader,Google,C34,Pella Sond,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,an average layperson,Google,C34,Pella Sond,name_only,-0.9,-0.85,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C34,Pella Sond,name_only,-0.95,-0.95,True,
+google:gemini-2.5-flash,a careful reader,Google,C35,Quillen Dray,name_only,-0.5,-0.7,True,
+google:gemini-2.5-flash,an average layperson,Google,C35,Quillen Dray,name_only,-0.9,-0.8,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C35,Quillen Dray,name_only,-0.85,-0.75,True,
+google:gemini-2.5-flash,a careful reader,Google,C36,Ysmé Charoud,name_only,0.9,-0.5,True,
+google:gemini-2.5-flash,an average layperson,Google,C36,Ysmé Charoud,name_only,-0.7,-0.6,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C36,Ysmé Charoud,name_only,-0.7,-0.6,True,
+google:gemini-2.5-flash,a careful reader,Google,C37,Fenra Quillen,name_only,-0.5,-0.4,True,
+google:gemini-2.5-flash,an average layperson,Google,C37,Fenra Quillen,name_only,-0.5,-0.7,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C37,Fenra Quillen,name_only,0.7,-0.5,True,
+google:gemini-2.5-flash,a careful reader,Google,C38,Lirien Dace,name_only,-0.95,-0.9,True,
+google:gemini-2.5-flash,an average layperson,Google,C38,Lirien Dace,name_only,-0.9,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C38,Lirien Dace,name_only,-0.85,-0.7,True,
+google:gemini-2.5-flash,a careful reader,Google,C39,Dorrit Klaes,name_only,-0.95,-0.95,True,
+google:gemini-2.5-flash,an average layperson,Google,C39,Dorrit Klaes,name_only,-0.9,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C39,Dorrit Klaes,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,a careful reader,Google,C40,Sable Maren Voss,name_only,-1.0,-1.0,True,
+google:gemini-2.5-flash,an average layperson,Google,C40,Sable Maren Voss,name_only,-0.9,-0.9,True,
+google:gemini-2.5-flash,a skeptical rater,Google,C40,Sable Maren Voss,name_only,-0.85,-0.8,True,
