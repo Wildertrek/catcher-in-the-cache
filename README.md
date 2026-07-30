@@ -20,6 +20,19 @@ These five are the guided entry points; the reproduction map below carries a Col
 
 On canonical literary characters, LLM personality rating is largely **retrieval against a memorized character prior**, not **measurement from the text**. The two are indistinguishable on famous characters, where both give the same answer, but decisive for any system expected to generalize to characters a model has never seen. We establish the effect with one instrument used twice: a 25-rater panel reproduces a structure known from human psychometrics (the Honesty-Humility / Agreeableness conflation), and that same structure collapses on 20 synthetic out-of-corpus characters. A cache-membership gauge separates the two populations almost perfectly (AUC 0.99).
 
+## Where this sits
+
+This is the second paper in a program. The first, a survey and computational atlas of
+personality trait models, is published in ACM TIST
+([10.1145/3828667](https://doi.org/10.1145/3828667)) with its own companion at
+[Wildertrek/survey](https://github.com/Wildertrek/survey). That atlas catalogued the trait
+models, and the embedding prototype used here as method M1 comes from it.
+
+This paper turns on that work rather than extending it. The atlas makes a trait probe easy
+to build; what we show here is that on canonical characters such a probe is largely
+retrieving a memorized prior rather than measuring the text. The correction applies to our
+own prior apparatus first.
+
 ## Verify the central claim in two minutes
 
 No install, no notebook, no API key. The paper's headline is that HEXACO
