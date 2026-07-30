@@ -33,6 +33,9 @@ to build; what we show here is that on canonical characters such a probe is larg
 retrieving a memorized prior rather than measuring the text. The correction applies to our
 own prior apparatus first.
 
+**Reviewing this?** [`docs/OBJECTIONS.md`](docs/OBJECTIONS.md) maps every objection the paper
+anticipates, including the two it cannot answer, to the artifact that speaks to it.
+
 ## Verify the central claim in two minutes
 
 No install, no notebook, no API key. The paper's headline is that HEXACO
