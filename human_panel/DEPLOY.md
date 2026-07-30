@@ -56,7 +56,10 @@ R001,C07,redacted,0.4,-0.6,no,false
   `no_info` ∈ {true,false}. (Most platforms export wide; a short reshape gets here.)
 Then:
 ```
-python analysis/analyze_human.py responses.csv     # H1 (synthetic r) + H2 (recognition split) + exclusions
+# analyze_human.py is not shipped: the human panel is IRB-gated and unrun, so the
+# analysis script lives in the parent project until the study is approved and executed.
+# H1 (synthetic r), H2 (recognition split) and the exclusion rules are specified in
+# PREREGISTRATION.md, which is the authoritative description of what it will compute.
 ```
 
 ## 5. What the result says
