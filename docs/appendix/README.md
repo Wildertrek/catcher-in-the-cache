@@ -53,3 +53,18 @@ only).
 the central figure walk-through [`the_catch_explained.md`](../explainers/the_catch_explained.md);
 reproducibility [`reproducibility.md`](../reproducibility.md). The headline-number to
 artifact map is the reproduction table in the [repo README](../../README.md).
+
+## Also in this directory
+
+These hold supporting detail and are linked from elsewhere in the repository, but are not
+mapped to a CA.x number:
+
+| file | holds |
+|---|---|
+| [`rq2_mtmm_full_tables.md`](rq2_mtmm_full_tables.md) | full MTMM tables behind the three-bar machinery |
+| [`per_rater_decomposition.md`](per_rater_decomposition.md) | per-rater decomposition of the substrate collapse |
+| [`rq7_hexaco_cross_provider.md`](rq7_hexaco_cross_provider.md) | cross-provider HEXACO triangulation |
+| [`cheap_head_deployment.md`](cheap_head_deployment.md) | cheap-regressor deployment notes |
+| [`m6_k_sensitivity.md`](m6_k_sensitivity.md) | M6 sensitivity to k |
+| [`agt_only_sensitivity.md`](agt_only_sensitivity.md) | AGT-only sensitivity check |
+| [`glossary.md`](glossary.md) | terminology |
