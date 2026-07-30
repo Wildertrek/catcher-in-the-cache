@@ -22,6 +22,42 @@ These five are the guided entry points; the reproduction map below carries a Col
 
 On canonical literary characters, LLM personality rating is largely **retrieval against a memorized character prior**, not **measurement from the text**. The two are indistinguishable on famous characters, where both give the same answer, but decisive for any system expected to generalize to characters a model has never seen. We establish the effect with one instrument used twice: a 25-rater panel reproduces a structure known from human psychometrics (the Honesty-Humility / Agreeableness conflation), and that same structure collapses on 20 synthetic out-of-corpus characters. A cache-membership gauge separates the two populations almost perfectly (AUC 0.99).
 
+## Verify the central claim in two minutes
+
+No install, no notebook, no API key. The paper's headline is that HEXACO
+Honesty-Humility and Agreeableness fuse on canonical characters and come apart on
+out-of-corpus ones. Two files carry it.
+
+**1. Read the computed result.**
+[`paper_artifacts/pivot6_hexaco_atlas/panel25/panel25_results.json`](paper_artifacts/pivot6_hexaco_atlas/panel25/panel25_results.json)
+
+| field | expected | what it means |
+|---|---|---|
+| `canonical_mean_abs_r` | `0.7515` | fusion on characters the models have read |
+| `synthetic_mean_abs_r` | `0.3043` | the same raters on characters that do not exist |
+| `mean_delta` | `-0.4473` | the collapse |
+| `n_decreased` | `25` | out of 25 raters. Not a subgroup effect |
+
+**2. Recompute it from the raw per-rater data.**
+
+```bash
+python paper_artifacts/pivot6_hexaco_atlas/panel25/compute_panel25.py   # needs numpy
+```
+
+It reads [`synthetic_vs_canonical.csv`](paper_artifacts/pivot6_hexaco_atlas/synthetic_vs_canonical.csv),
+one row per rater, and prints the four numbers above.
+
+> **Read this before computing from the CSV by hand.** The CSV has **26** rows; the
+> panel is **25**. The row `xai_2` is a duplicate run of `x-ai/grok-4.3` at the same
+> seed as `xai_1` and is excluded. Averaging all 26 rows gives `-0.4508`, which is the
+> superseded 26-rater figure from an earlier draft, not the number the paper reports.
+> `compute_panel25.py` applies the exclusion and states it in its output under
+> `excluded` and `exclusion_reason`.
+
+If those four numbers match, the paper's central empirical claim is verified. Everything
+else in this repository is detail, robustness, or the argument that the collapse means
+retrieval rather than measurement.
+
 ## Reproduction map: Experiment to RQ to notebook
 
 **APERTURE** (Automated PERsonality TUning, Representation, and Evaluation) is the multi-method, multi-rater diagnostic system the paper introduces; this repository is its paper-scoped public companion. Method codes M1-M6, the three-bar validity protocol, and all other terms are decoded in [`docs/appendix/glossary.md`](docs/appendix/glossary.md).
