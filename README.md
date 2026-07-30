@@ -1,14 +1,12 @@
 # The Catcher in the Cache: Retrieval, Not Measurement, in LLM Personality Inference
 
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
-[![License: MIT (code)](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
-[![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC--BY--4.0-lightgrey.svg)](LICENSE-DATA)
-[![Paper status](https://img.shields.io/badge/paper-under_review_ACM_TIST-yellow.svg)](#citation)
-[![Literary allusion](https://img.shields.io/badge/allusion-CATCHER.md-purple.svg)](CATCHER.md)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![License: MIT (code)](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE) [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC--BY--4.0-lightgrey.svg)](LICENSE-DATA) [![Paper status](https://img.shields.io/badge/paper-under_review_ACM_TIST-yellow.svg)](#citation) [![Literary allusion](https://img.shields.io/badge/allusion-CATCHER.md-purple.svg)](CATCHER.md)
 
 This is the companion repository for *The Catcher in the Cache* (ACM TIST). It contains the notebooks, data artifacts, and explainers needed to reproduce the paper's claims, in Experiment order.
 
 **New here?** The paper in five minutes: [`docs/explainers/reading_guide.md`](docs/explainers/reading_guide.md). Want to score your own characters: [`docs/practitioners_guide.md`](docs/practitioners_guide.md).
+
+**All ten notebooks were executed end-to-end with no API keys set on 2026-07-30; nine complete from cached artifacts alone.** Notebook 01 additionally offers an open-weight fallback, which needs `transformers`, `torch` and `accelerate` from `requirements.txt` rather than an API key.
 
 **Run any notebook in Colab, no install required:**
 
