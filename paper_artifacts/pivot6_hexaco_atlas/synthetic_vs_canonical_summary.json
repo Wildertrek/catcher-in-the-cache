@@ -1,5 +1,6 @@
 {
-  "mean_delta": -0.4507655528934035,
-  "n_models_compared": 26,
-  "verdict": "PRIOR_DRIVEN"
+ "mean_delta": -0.4507655528934035,
+ "n_models_compared": 26,
+ "verdict": "PRIOR_DRIVEN",
+ "_SUPERSEDED": "26-rater summary: mean_delta -0.4508 over all 26 rows of synthetic_vs_canonical.csv, including the duplicate xai_2 Grok run. The paper reports the 25-rater panel, mean_delta -0.4473, in panel25/panel25_results.json. Regenerate with panel25/compute_panel25.py, which drops xai_2."
 }
