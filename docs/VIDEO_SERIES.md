@@ -11,7 +11,7 @@ repository showing every headline claim reproduced from cached artifacts at zero
 | # | Video | Length | What it covers |
 |---|---|---|---|
 | 1 | [Retrieval, Not Measurement](https://youtu.be/k1EJYLbmCns) | 4:58 | The question the paper asks, and why famous characters cannot answer it |
-| 2 | Six Methods, Three Bars | 2:32 | The instrument, and why agreement between methods is not validity |
+| 2 | [Six Methods, Three Bars](https://youtu.be/FeG5ukYvT_4) | 2:29 | The instrument, and why agreement between methods is not validity |
 | 3 | Twenty-Five Raters, One Fusion | 2:06 | The panel reproduces the Honesty-Humility / Agreeableness conflation |
 | 4 | The Catch | 2:32 | Off-cache, the fusion collapses. The result the title is named for |
 | 5 | The Cache Gauge and Robustness | 1:34 | Detecting cache membership before you rate, and what survives control |
@@ -24,7 +24,7 @@ _Individual links land in the table above once each video is public._
 
 ## Status
 
-**Video 1 is live:** https://youtu.be/k1EJYLbmCns
+**Live:** Video 1 https://youtu.be/k1EJYLbmCns · Video 2 https://youtu.be/FeG5ukYvT_4 (unlisted until the series is complete)
 
 The rest are in production. Links appear
 here as each is published; the playlist link appears once the series runs in order.
