@@ -264,13 +264,19 @@ All outputs are on the OCEAN convention [-1, +1] scale, M4-anchored.
 ## Reproducing the numbers in this guide
 
 ```bash
-# OCEAN-HP cheap regressor LOBO metrics (Table above)
-python scripts/method_bakeoff_v4/train_hexaco_heads_v3.py
-# OCEAN-5 cheap regressor LOBO metrics
-python scripts/method_bakeoff_v4/ocean_hp_cheap_head.py
-# All RQ headline numbers + this guide's source data
+# Every number in this guide, plus all RQ headline numbers, from cached artifacts
 jupyter nbconvert --to notebook --execute notebooks/02_method_bakeoff_results.ipynb
 ```
+
+Notebook 02 recomputes the LOBO metrics for both the cheap regressor and the strong
+regressor from the artifacts shipped here, so it reproduces the table above without
+any API calls or retraining.
+
+The one-off training scripts that originally fitted the heads are not shipped: they
+read from the private research corpus rather than from this repository, so publishing
+them would give you code you could not run. What is published is their output, under
+[`paper_artifacts/method_bakeoff_v4/`](../paper_artifacts/method_bakeoff_v4/), which
+is what the notebook consumes.
 
 from cached artifacts; the one-time training-time HEXACO probe ran on
 2026-05-13 at $3.30 and its outputs ship in the repo).

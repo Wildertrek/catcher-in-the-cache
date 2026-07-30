@@ -79,13 +79,13 @@ Each model: 60 chars × 4–8 layers × 3584–4096 hidden-dim, mean-pooled over
 
 ```bash
 # Build evidence packs from the cross-rater panel manifest
-.venv/bin/python scripts/v6_activation_probe/build_evidence_60chars.py
+# (not shipped: reads the private research corpus; its output is the evidence pack in this directory)
 
 # Fire all 8 models on Modal (~25 min, $0.85 spend)
-./scripts/v6_activation_probe/run_v6_all.sh
+# (not shipped: the full pipeline runs in the parent project against open-weight checkpoints)
 
 # Train probes locally
-.venv/bin/python scripts/v6_activation_probe/v6_train_probes.py
+# (not shipped: requires open-weight model checkpoints; its output is the probe results in this directory)
 ```
 
 ## Files

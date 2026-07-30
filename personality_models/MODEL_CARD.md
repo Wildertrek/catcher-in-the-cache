@@ -89,10 +89,14 @@ are evaluated to produce a 7-vector `[O, C, E, A, N, H, A_HEX]`.
 ## Reproducing the heads
 
 ```bash
-# (in a Python 3.12 environment)
-python scripts/method_bakeoff_v4/train_hexaco_heads_v3.py
-python scripts/method_bakeoff_v4/ocean_hp_cheap_head.py
+# (in a Python 3.12 environment) recompute the head metrics from shipped artifacts
+jupyter nbconvert --to notebook --execute notebooks/02_method_bakeoff_results.ipynb
 ```
+
+The original fitting scripts are not shipped: they read the private research corpus
+rather than this repository. Their outputs are published under
+`paper_artifacts/method_bakeoff_v4/`, and the notebook above recomputes the reported
+metrics from those.
 
 Cold-start regeneration of the training labels (the M4 panel + HEXACO
 probe runs) is ~$300-500 in API spend over ~80 hours; the cached

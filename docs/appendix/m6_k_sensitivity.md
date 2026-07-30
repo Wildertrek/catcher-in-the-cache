@@ -8,7 +8,7 @@ k=5 vs k=10 trade-off.
 ## Production setting (paper shipped headlines)
 
 SCPI is built at **k=5** in the production comparison
-(see `scripts/method_bakeoff_v4/aperture_method_bakeoff.py:420`).
+(implemented in `aperture_method_bakeoff.py:420` in the parent project, not shipped here).
 This matches the M6 SCPI headline numbers in the paper Table 1
 (MAE 0.328, r 0.308, CCC 0.268 at n=562).
 
