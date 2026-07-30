@@ -278,5 +278,5 @@ them would give you code you could not run. What is published is their output, u
 [`paper_artifacts/method_bakeoff_v4/`](../paper_artifacts/method_bakeoff_v4/), which
 is what the notebook consumes.
 
-from cached artifacts; the one-time training-time HEXACO probe ran on
-2026-05-13 at $3.30 and its outputs ship in the repo).
+Cost and runtime for every notebook, and what a full cold-start regeneration would
+cost instead, are consolidated in [`reproducibility.md`](reproducibility.md).

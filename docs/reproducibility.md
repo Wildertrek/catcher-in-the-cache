@@ -10,22 +10,32 @@
 
 LLM calls are non-deterministic by default. Each notebook sets `temperature=0` where supported and seeds numpy / Python RNGs. Small numerical drift is expected between runs; the notebooks report tolerances on each reported figure.
 
-## Costs (for full re-run)
+## Cost and runtime
+
+**Measured 2026-07-30** on an Intel Mac, Python 3.12, every provider API key unset.
+All ten notebooks were executed end-to-end through `nbconvert`; nine completed from
+cached artifacts alone, in **about one minute in total**.
+
+\* Notebook 01 is the one exception. Its key-free route loads a small open-weight
+model, so it needs `transformers`, `torch` and `accelerate` from `requirements.txt`
+and its runtime is dominated by the one-time model download rather than by compute.
+With provider keys set it takes seconds.
+
 
 Approximate per-notebook costs against current provider prices (as of early 2026):
 
-| Notebook | Estimated cost |
-|----------|----------------|
-| `01_quick_start.ipynb` | $0 with the open-weight fallback; < $0.10 with live multi-provider keys |
-| `02_method_bakeoff_results.ipynb` | $0 (cached artifacts) |
-| `03_hexaco_atlas_reproducer.ipynb` | $0 (cached artifacts) |
-| `04_synthetic_characters.ipynb` | $0 (data card over cached artifacts) |
-| `05_cache_map.ipynb` | $0 (cached embeddings) |
-| `06_register_matched_synth.ipynb` | $0 (cached artifacts) |
-| `07_ipip_human_anchor.ipynb` | $0 (public IPIP download, no keys) |
-| `08_activation_probe_dissociation.ipynb` | $0 (cached probe summaries) |
-| `09_catcher_in_the_cache.ipynb` | $0 (cached artifacts; the headline reproducer) |
-| `10_regressor_inference.ipynb` | $0 (local inference only) |
+| Notebook | Cost to run | Measured runtime |
+|----------|----------------|------------------|
+| `01_quick_start.ipynb` | $0 with the open-weight fallback; < $0.10 with live multi-provider keys | 17 s* |
+| `02_method_bakeoff_results.ipynb` | $0 (cached artifacts) | 7 s |
+| `03_hexaco_atlas_reproducer.ipynb` | $0 (cached artifacts) | 8 s |
+| `04_synthetic_characters.ipynb` | $0 (data card over cached artifacts) | 9 s |
+| `05_cache_map.ipynb` | $0 (cached embeddings) | 9 s |
+| `06_register_matched_synth.ipynb` | $0 (cached artifacts) | 5 s |
+| `07_ipip_human_anchor.ipynb` | $0 (public IPIP download, no keys) | 6 s |
+| `08_activation_probe_dissociation.ipynb` | $0 (cached probe summaries) | 7 s |
+| `09_catcher_in_the_cache.ipynb` | $0 (cached artifacts; the headline reproducer) | 9 s |
+| `10_regressor_inference.ipynb` | $0 (local inference only) | 6 s |
 
 API keys are loaded from `.env`; see `.env.example` for the expected variables.
 
@@ -63,3 +73,20 @@ repository's `figures/` directory and read these artifacts.
 ## Reporting issues
 
 Open an issue on the GitHub repository with notebook name, cell number, the error message, and your Python / package versions (`pip freeze`).
+
+## Cold start: regenerating instead of using the cache
+
+Everything above uses the cached artifacts that ship with this repository, which is
+the intended path and costs nothing. Regenerating the inputs from scratch is a
+different order of magnitude, and is recorded here so the trade-off is explicit.
+
+| what | cost | wall clock |
+|---|---|---|
+| Training labels: the M4 consensus panel plus the HEXACO probe runs | ~$300–500 in API spend | ~80 hours |
+| The one-time training-time HEXACO probe alone (ran 2026-05-13) | $3.30 | minutes |
+| The 25-rater canonical and synthetic panel | included in the figure above | included above |
+
+Cached predictions for all of it ship in
+[`../paper_artifacts/method_bakeoff_v4/`](../paper_artifacts/method_bakeoff_v4/) and
+[`../paper_artifacts/pivot6_hexaco_atlas/`](../paper_artifacts/pivot6_hexaco_atlas/),
+so no reader needs to spend this to check any claim in the paper.

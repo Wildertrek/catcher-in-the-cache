@@ -100,4 +100,5 @@ metrics from those.
 
 Cold-start regeneration of the training labels (the M4 panel + HEXACO
 probe runs) is ~$300-500 in API spend over ~80 hours; the cached
-predictions ship in `paper_artifacts/method_bakeoff_v4/`.
+predictions ship in `paper_artifacts/method_bakeoff_v4/`. Full cost and
+runtime figures are in [`docs/reproducibility.md`](../docs/reproducibility.md).
