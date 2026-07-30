@@ -33,7 +33,7 @@ only).
 
 | A.x | Section | Where it lives |
 |---|---|---|
-| CA.1 | GT provenance taxonomy (5-tier / 11-subtype) | [`numbers_decoder.md` §3](../explainers/numbers_decoder.md) + [`method_bakeoff_v4/`](../../paper_artifacts/method_bakeoff_v4/) |
+| CA.1 | GT provenance taxonomy (5-tier / 11-subtype), and the scholarly-only (AGT-only) sensitivity check in [`agt_only_sensitivity.md`](agt_only_sensitivity.md) | [`numbers_decoder.md` §3](../explainers/numbers_decoder.md) + [`method_bakeoff_v4/`](../../paper_artifacts/method_bakeoff_v4/) |
 | CA.2 | Method specs + verbatim prompts | [`method_zoo.md`](../explainers/method_zoo.md) + [`method_bakeoff_v4/README.md`](../../paper_artifacts/method_bakeoff_v4/README.md) |
 | CA.3* | Three-bar MTMM machinery + monotrait floor | [`psychometrics_glossary.md`](../explainers/psychometrics_glossary.md) + [nb 02](../../notebooks/02_method_bakeoff_results.ipynb) |
 | CA.4 | HEXACO re-prompt protocol | [nb 03](../../notebooks/03_hexaco_atlas_reproducer.ipynb) + [`pivot6_hexaco_atlas/`](../../paper_artifacts/pivot6_hexaco_atlas/) |

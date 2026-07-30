@@ -1,5 +1,11 @@
 # AGT-only sensitivity check, Bars 1 + 2 verified; Bar 3 deferred
 
+> **The paper calls this the "scholarly-only subset" (n = 185).** Same subset, same
+> number: AGT is Academic Ground Truth, peer-reviewed psychological-criticism
+> scholarship, so "AGT-only" and "scholarly-only" are interchangeable. This page is the
+> evidence behind the paper's claim that restricting ground truth to scholarly sources
+> strengthens rather than weakens the convergent result.
+
 This appendix supports the source-stratified-MAE claim in
 **§6.1 (GT and method lineage contamination)**: that the
 load-bearing convergent-validity numbers do not change materially
