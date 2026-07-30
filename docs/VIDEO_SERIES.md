@@ -10,7 +10,7 @@ repository showing every headline claim reproduced from cached artifacts at zero
 
 | # | Video | Length | What it covers |
 |---|---|---|---|
-| 1 | Retrieval, Not Measurement | 4:58 | The question the paper asks, and why famous characters cannot answer it |
+| 1 | [Retrieval, Not Measurement](https://youtu.be/k1EJYLbmCns) | 4:58 | The question the paper asks, and why famous characters cannot answer it |
 | 2 | Six Methods, Three Bars | 2:32 | The instrument, and why agreement between methods is not validity |
 | 3 | Twenty-Five Raters, One Fusion | 2:06 | The panel reproduces the Honesty-Humility / Agreeableness conflation |
 | 4 | The Catch | 2:32 | Off-cache, the fusion collapses. The result the title is named for |
@@ -24,7 +24,9 @@ _Individual links land in the table above once each video is public._
 
 ## Status
 
-Only Video 1 is currently recorded and reviewed. The rest are in production. Links appear
+**Video 1 is live:** https://youtu.be/k1EJYLbmCns
+
+The rest are in production. Links appear
 here as each is published; the playlist link appears once the series runs in order.
 
 Nothing in the videos changes the paper. If a video and the paper ever disagree, **the paper
