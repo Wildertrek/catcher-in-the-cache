@@ -6,7 +6,7 @@ and cross-provider protocols; see [`rq_decoder.md`](../explainers/rq_decoder.md)
 and are summarized here with their locked thresholds and observed outcomes. Raw
 per-condition artifacts beyond these summaries are available on request.
 
-## A.12 Robustness probes (pre-registered A2-A5)
+## CA.12 Robustness probes (pre-registered A2-A5)
 
 **Name-swap / literary-priors ablation (A2, n=59).** The 60-character OP-overlap
 subset re-rated under three conditions: (a) full evidence, (b) name only, (c)
@@ -39,7 +39,7 @@ single communal-decent factor (**loadings 0.73-0.86**); cross-rater Tucker
 congruence on the 4-factor combined solution is phi in [0.94, 0.95]. The collapse
 is visible at the loading level, independent of any ground truth.
 
-## A.13 Subject-mode dissociation (6-model, pre-registered)
+## CA.13 Subject-mode dissociation (6-model, pre-registered)
 
 Within-model subject-mode r(H, A_HEX) from N=10 self-report elicitations per model,
 paired against judge-mode |r| from the panel. Locked Branch-A (mode-specific)
@@ -52,7 +52,7 @@ This is the paper's Discussion claim that the two artifact families (respondent-
 response bias, rater-side retrieval) coexist. Note: distinct from the character-level
 subject-mode IPIP manipulation check (Experiment 3b), which is in-paper.
 
-## A.14 Cross-provider triangulation and second external source
+## CA.14 Cross-provider triangulation and second external source
 
 **Cross-provider replication of the HEXACO triangulation.** The OP-A failure
 localization (paper Appendix A) replicates on GPT-5.2 and Gemini 2.5 Pro:
