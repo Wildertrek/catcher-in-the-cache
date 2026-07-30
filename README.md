@@ -54,6 +54,10 @@ one row per rater, and prints the four numbers above.
 > `compute_panel25.py` applies the exclusion and states it in its output under
 > `excluded` and `exclusion_reason`.
 
+**Column meanings** for every artifact named above are in
+[`paper_artifacts/pivot6_hexaco_atlas/SCHEMA.md`](paper_artifacts/pivot6_hexaco_atlas/SCHEMA.md),
+which also points at the synthetic character prose each rater actually saw.
+
 If those four numbers match, the paper's central empirical claim is verified. Everything
 else in this repository is detail, robustness, or the argument that the collapse means
 retrieval rather than measurement.
