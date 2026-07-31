@@ -1,6 +1,6 @@
 # The video series
 
-Seven parts, about 45 minutes total, one per experiment plus an introduction and a
+Seven parts, about 50 minutes total, one per experiment plus an introduction and a
 reviewer guide (which runs in two halves). Same claim as the paper, in a form you can check in an evening.
 
 **Watch in order:** _(playlist link goes here)_
@@ -19,7 +19,7 @@ the downstream results, closing with a thirty-minute verification route.
 | 5 | [The Cache Gauge and Robustness](https://youtu.be/MiAf68Vw3_8) | 3:24 | Detecting cache membership before you rate, and what survives control |
 | 6 | [Mechanism and Contagion](https://youtu.be/9m0NaESN_Xw) | 1:35 | Where the fusion sits in the network, and how it spreads through labels |
 | 7a | [The Reviewer Guide, Part 1](https://youtu.be/Dq-v1F3nYvs) | 14:49 | The instrument and the panel: notebooks 01-03, including the headline reproducer |
-| 7b | The Reviewer Guide, Part 2 | 12:50 | The substrate and everything downstream: notebooks 04-10, and the 30-minute walk |
+| 7b | The Reviewer Guide, Part 2 | 18:36 | The substrate and everything downstream: notebooks 04-10, and the 30-minute walk |
 
 _Individual links land in the table above once each video is public._
 

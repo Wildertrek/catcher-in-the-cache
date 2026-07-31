@@ -33,7 +33,7 @@ to build; what we show here is that on canonical characters such a probe is larg
 retrieving a memorized prior rather than measuring the text. The correction applies to our
 own prior apparatus first.
 
-**Prefer video?** A seven-part series walks the argument, including a 26-minute reviewer
+**Prefer video?** A seven-part series walks the argument, closing with a two-part reviewer
 walkthrough of this repository: [`docs/VIDEO_SERIES.md`](docs/VIDEO_SERIES.md).
 
 **Reviewing this?** [`docs/OBJECTIONS.md`](docs/OBJECTIONS.md) maps every objection the paper
