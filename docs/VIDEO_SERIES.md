@@ -12,16 +12,14 @@ the downstream results, closing with a thirty-minute verification route.
 
 | # | Video | Length | What it covers |
 |---|---|---|---|
-| 1 | [Retrieval, Not Measurement](https://youtu.be/k1EJYLbmCns) | 4:58 | The question the paper asks, and why famous characters cannot answer it |
+| 1 | [Retrieval, Not Measurement](https://youtu.be/k1EJYLbmCns) | 4:59 | The question the paper asks, and why famous characters cannot answer it |
 | 2 | [Six Methods, Three Bars](https://youtu.be/FeG5ukYvT_4) | 2:29 | The instrument, and why agreement between methods is not validity |
 | 3 | [Twenty-Five Raters, One Fusion](https://youtu.be/pO0HQA0BFho) | 2:06 | The panel reproduces the Honesty-Humility / Agreeableness conflation |
-| 4 | [The Catch](https://youtu.be/D1frHbfBEt8) | 2:29 | Off-cache, the fusion collapses. The result the title is named for |
-| 5 | [The Cache Gauge and Robustness](https://youtu.be/MiAf68Vw3_8) | 3:24 | Detecting cache membership before you rate, and what survives control |
-| 6 | [Mechanism and Contagion](https://youtu.be/9m0NaESN_Xw) | 1:35 | Where the fusion sits in the network, and how it spreads through labels |
-| 7a | [The Reviewer Guide, Part 1](https://youtu.be/Dq-v1F3nYvs) | 14:49 | The instrument and the panel: notebooks 01-03, including the headline reproducer |
-| 7b | [The Reviewer Guide, Part 2](https://youtu.be/edHXhihB6u0) | 18:35 | The substrate and everything downstream: notebooks 04-10, and the 30-minute walk |
-
-_Individual links land in the table above once each video is public._
+| 4 | [The Catch](https://youtu.be/D1frHbfBEt8) | 2:30 | Off-cache, the fusion collapses. The result the title is named for |
+| 5 | [The Cache Gauge and Robustness](https://youtu.be/MiAf68Vw3_8) | 3:25 | Detecting cache membership before you rate, and what survives control |
+| 6 | [Mechanism and Contagion](https://youtu.be/9m0NaESN_Xw) | 1:36 | Where the fusion sits in the network, and how it spreads through labels |
+| 7a | [The Reviewer Guide, Part 1](https://youtu.be/Dq-v1F3nYvs) | 14:37 | The instrument and the panel: notebooks 01-03, including the headline reproducer |
+| 7b | [The Reviewer Guide, Part 2](https://youtu.be/edHXhihB6u0) | 18:37 | The substrate and everything downstream: notebooks 04-10, and the 30-minute walk |
 
 ---
 
