@@ -3,7 +3,7 @@
 Seven parts, about 50 minutes total, one per experiment plus an introduction and a
 reviewer guide (which runs in two halves). Same claim as the paper, in a form you can check in an evening.
 
-**Watch in order:** _(playlist link goes here)_
+**Watch in order:** https://www.youtube.com/playlist?list=PLbleeZjFWnbM
 
 Video 7 is the one to jump to if you are refereeing: a screen-recorded walkthrough of this
 repository showing every headline claim reproduced from cached artifacts at zero cost. It
@@ -29,7 +29,8 @@ _Individual links land in the table above once each video is public._
 
 **All published.** Video 1 https://youtu.be/k1EJYLbmCns · Video 2 https://youtu.be/FeG5ukYvT_4 · Video 3 https://youtu.be/pO0HQA0BFho · Video 4 https://youtu.be/D1frHbfBEt8 · Video 5 https://youtu.be/MiAf68Vw3_8 · Video 6 https://youtu.be/9m0NaESN_Xw · Video 7 Part 1 https://youtu.be/Dq-v1F3nYvs · Video 7 Part 2 https://youtu.be/edHXhihB6u0
 
-The playlist link appears once the series runs in order.
+The playlist is sorted manually, not by publish date, so the two halves of Video 7 stay in
+order.
 
 Nothing in the videos changes the paper. If a video and the paper ever disagree, **the paper
 is authoritative** — and please open an issue, because that is a defect worth knowing about.
