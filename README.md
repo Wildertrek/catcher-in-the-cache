@@ -1,6 +1,6 @@
 # The Catcher in the Cache: Retrieval, Not Measurement, in LLM Personality Inference
 
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![License: MIT (code)](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE) [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC--BY--4.0-lightgrey.svg)](LICENSE-DATA) [![Paper status](https://img.shields.io/badge/paper-under_review_ACM_TIST-yellow.svg)](#citation) [![Literary allusion](https://img.shields.io/badge/allusion-CATCHER.md-purple.svg)](CATCHER.md)
+[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/) [![License: MIT (code)](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE) [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC--BY--4.0-lightgrey.svg)](LICENSE-DATA) [![Literary allusion](https://img.shields.io/badge/allusion-CATCHER.md-purple.svg)](CATCHER.md)
 
 This is the companion repository for *The Catcher in the Cache* (ACM TIST). It contains the notebooks, data artifacts, and explainers needed to reproduce the paper's claims, in Experiment order.
 
