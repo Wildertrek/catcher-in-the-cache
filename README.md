@@ -39,6 +39,36 @@ walkthrough of this repository: [`docs/VIDEO_SERIES.md`](docs/VIDEO_SERIES.md).
 **Reviewing this?** [`docs/OBJECTIONS.md`](docs/OBJECTIONS.md) maps every objection the paper
 anticipates, including the two it cannot answer, to the artifact that speaks to it.
 
+## What this repository is, and what it is not
+
+This is a **verification surface**, not the production pipeline. Every notebook here reads
+cached artifacts and re-derives a published number in seconds. That speed is the point, it
+is what lets a referee check the paper without an API key, but it can leave a misleading
+impression: that the work *is* ten notebooks.
+
+It is not. The cached artifacts are the output of the work, not a shortcut around it.
+Producing them took a narrative-ingestion and character-grounding stack that is not in this
+repository: BookNLP parsing and coreference resolution, a character registry and
+per-character evidence packs, a weighted multi-source ground-truth lattice, multi-provider
+consensus runs, a human-validation feedback loop, and the pivots that did not survive. The
+paper's evaluation set (75 works, 562 characters) is a curated subset of a larger indexed
+corpus. Notebook 03 rebuilds the 25-rater headline in about a second; assembling the panel it
+reads took months, and the wider program's provider spend runs to several hundred dollars.
+
+So, concretely:
+
+| | |
+|---|---|
+| **This repository reproduces** | every headline number in the paper, from committed artifacts, at \$0 |
+| **This repository does not reproduce** | the ingestion, grounding, and experiment pipeline that produced those artifacts |
+| **Where that lives** | the upstream research monorepo, which is not public; the released substrate, ground truth, and per-rater data are mirrored here in full |
+
+We state this for scope, not for credit. A reader who assumes the notebooks are the method
+would draw the wrong conclusion about what was validated and what was merely re-read. What
+the notebooks establish is that the published numbers follow from the released data. Whether
+that data was produced well is a separate question, and the paper's Limitations section and
+[`docs/OBJECTIONS.md`](docs/OBJECTIONS.md) are where we take it up.
+
 ## Verify the central claim in two minutes
 
 No install, no notebook, no API key. The paper's headline is that HEXACO
