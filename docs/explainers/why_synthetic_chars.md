@@ -5,7 +5,8 @@
 > not depend on it, is in [`synthetic_substrate_batches.md`](synthetic_substrate_batches.md).
 
 > The paper's load-bearing falsifier (RQ6.9) pairs 60 canonical
-> literary characters against 20 *synthetic* literary characters. If
+> literary characters against *synthetic* literary characters (two batches, 22 and 20, see
+> `synthetic_substrate_batches.md`). If
 > "synthetic characters" sounds like "we just made some up," this
 > explainer says what design constraints they had to meet, how they
 > were generated, and why they support the retrieval-vs-measurement
@@ -96,7 +97,8 @@ The full synthetic-char generation pipeline satisfies all six.
 The 20 synthetic literary characters were LLM-drafted (Claude Opus
 4.6), both the prose evidence packs and the v0 OCEAN-6 / HEXACO
 targets, under a human-designed H↔A_HEX decoupling constraint
-(designed $r = -0.74$). Process summary:
+(designed $r = -0.74$ for the released 20; most of the panel scored an earlier 22-character
+draw from the same design, designed $r = -0.391$; see `synthetic_substrate_batches.md`). Process summary:
 
 1. **Anchor selection.** Each synthetic char is anchored to a
    canonical character in the comparison set (matched in genre, period,
