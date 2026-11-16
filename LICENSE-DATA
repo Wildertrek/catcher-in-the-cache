@@ -1,3 +1,24 @@
+EXCEPTION: records derived from the SWCPQ dataset (added 2026-11-15)
+
+The 59 ground-truth character records whose subtype is "open_psychometrics"
+(stored in both data/ground_truth/ and data/aperture-data-v1/ground_truth/,
+and in any data archive that contains those directories) are derived from
+the Statistical "Which Character" Personality Quiz (SWCPQ) Features
+Aggregated Dataset published by Open Psychometrics
+(https://openpsychometrics.org/tests/characters/data/).
+
+Those records are NOT licensed under CC BY 4.0. They remain subject to the
+dataset's own license, Creative Commons Attribution-NonCommercial-
+NoDerivatives 4.0 International (CC BY-NC-ND 4.0), as stated in the
+dataset's codebook. Earlier versions of this repository labeled them
+"CC BY-NC-SA 4.0" inside the files and included them under the CC BY 4.0
+license below; both were errors. We are asking Open Psychometrics for
+permission to redistribute them; if permission is not given, they will be
+removed in a future release. Summary statistics computed from them (for
+example the correlations in paper_artifacts/) are not affected.
+
+Everything else covered by this file is licensed as follows.
+
 Data Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 The data artefacts shipped with this repository (the contents of

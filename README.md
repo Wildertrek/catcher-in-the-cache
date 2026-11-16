@@ -184,4 +184,4 @@ Most notebooks read cached artifacts and need no API keys. The few that can re-r
 
 ## License
 
-Code is MIT ([LICENSE](LICENSE)); data and derived artifacts are CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)).
+Code is MIT ([LICENSE](LICENSE)); data and derived artifacts are CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)), except the 59 ground-truth records derived from the Open Psychometrics SWCPQ dataset, which remain under that dataset's CC BY-NC-ND 4.0 license (see [LICENSE-DATA](LICENSE-DATA)).
